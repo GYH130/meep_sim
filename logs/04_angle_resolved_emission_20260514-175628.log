@@ -1,0 +1,7 @@
+2026-05-14 17:56:28 [INFO] 04_angle_resolved_emission_20260514-175628: 日志文件: /Users/luckydog/meep_sim/logs/04_angle_resolved_emission_20260514-175628.log
+2026-05-14 17:56:28 [INFO] 04_angle_resolved_emission_20260514-175628: === 04_angle_resolved_scattering ===
+2026-05-14 17:56:28 [INFO] 04_angle_resolved_emission_20260514-175628: args = {'period': 10.0, 'top_width': 4.0, 'bottom_width': 4.0, 'depth': 3.0, 'tilt_angles': [0.0, 20.0], 'wavelengths': [8.0, 10.0, 12.0], 'angle_min': -90.0, 'angle_max': 90.0, 'angle_step': 0.5, 'resolution': 32, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 8.0, 'nperiods': 10, 'r_far_um': 1000.0, 'src_fractional_bw': 0.05}
+2026-05-14 17:56:28 [WARNING] 04_angle_resolved_emission_20260514-175628: 本脚本输出正入射散射远场方向图，不是严格角分辨热发射率 ε(θ)。
+2026-05-14 17:56:28 [INFO] 04_angle_resolved_emission_20260514-175628: angles: 361 个点 ∈ [-90.0, 90.0] step 0.5°
+2026-05-14 17:56:28 [INFO] 04_angle_resolved_emission_20260514-175628: ============ wavelength = 8.00 μm ============
+2026-05-14 17:56:28 [INFO] 04_angle_resolved_emission_20260514-175628: [ref] fcen=0.1250, df=0.0063, cell_y=18.00 μm

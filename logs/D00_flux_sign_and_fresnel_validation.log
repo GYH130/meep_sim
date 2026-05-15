@@ -1,0 +1,103 @@
+2026-05-26 19:56:23 [INFO] D00_flux_sign_and_fresnel_validation: 日志文件: /Users/luckydog/meep_sim/logs/D00_flux_sign_and_fresnel_validation.log
+2026-05-26 19:56:23 [INFO] D00_flux_sign_and_fresnel_validation: === D00_flux_sign_and_fresnel_validation ===
+2026-05-26 19:56:23 [INFO] D00_flux_sign_and_fresnel_validation: args = {'wavelength_min_um': 8.0, 'wavelength_max_um': 13.0, 'nfreq': 5, 'resolution': 32, 'period_um': 1.0, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 8.0, 'decay_db': 30.0, 'lossless_n': 1.5, 'lossless_tol': 0.03, 'ti_tol': 0.05, 'ti_trans_tol': 0.02}
+2026-05-26 19:56:23 [INFO] D00_flux_sign_and_fresnel_validation: running lossless interface validation: n=1.5
+2026-05-26 19:56:23 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] res=32, cell=(1.00, 18.00) μm, nfreq=5, fcen=0.1010, df=0.0481, comp=Ez
+2026-05-26 19:56:23 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] done in 0.54 s, |input_flux| ∈ [8.120e-04, 2.704e+01]
+2026-05-26 19:56:23 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 19:56:24 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] done in 0.54 s
+2026-05-26 19:56:24 [INFO] D00_flux_sign_and_fresnel_validation: lossless selected T definition: signed
+2026-05-26 19:56:24 [INFO] D00_flux_sign_and_fresnel_validation: lossless summary: {"selected_T_definition": "signed", "raw_T_max_abs_error": 1.9580172765085928, "signed_T_max_abs_error": 0.09538504135385795, "max_abs_R_error": 0.09539239808749, "max_abs_T_error": 0.09538504135385795, "max_abs_A_selected": 0.0003012742843662153, "max_abs_residual": 0.0003012742843662153, "public_T_matches_selected": false, "walltime_s": 1.0797522068023682, "geometry_y": {"cell_y": 18.0, "y_surface": -1.0, "y_substrate_bottom": -5.0, "y_src": 5.0, "y_refl": 3.0, "y_trans": -6.0}, "passed": false}
+2026-05-26 19:56:24 [INFO] D00_flux_sign_and_fresnel_validation: running flat Ti Fresnel validation
+2026-05-26 19:56:24 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] res=32, cell=(1.00, 18.00) μm, nfreq=5, fcen=0.1010, df=0.0481, comp=Ez
+2026-05-26 19:56:24 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] done in 0.53 s, |input_flux| ∈ [8.120e-04, 2.704e+01]
+2026-05-26 19:56:24 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 19:56:26 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] done in 1.24 s
+2026-05-26 19:58:00 [INFO] D00_flux_sign_and_fresnel_validation: 日志文件: /Users/luckydog/meep_sim/logs/D00_flux_sign_and_fresnel_validation.log
+2026-05-26 19:58:00 [INFO] D00_flux_sign_and_fresnel_validation: === D00_flux_sign_and_fresnel_validation ===
+2026-05-26 19:58:00 [INFO] D00_flux_sign_and_fresnel_validation: args = {'wavelength_min_um': 8.0, 'wavelength_max_um': 13.0, 'nfreq': 5, 'resolution': 32, 'period_um': 1.0, 'pml_thickness_um': 4.0, 'substrate_thickness_um': 8.0, 'air_buffer_um': 8.0, 'decay_db': 30.0, 'lossless_n': 1.5, 'lossless_tol': 0.03, 'ti_tol': 0.05, 'ti_trans_tol': 0.02}
+2026-05-26 19:58:00 [INFO] D00_flux_sign_and_fresnel_validation: running lossless interface validation: n=1.5
+2026-05-26 19:58:00 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] res=32, cell=(1.00, 28.00) μm, nfreq=5, fcen=0.1010, df=0.0481, comp=Ez
+2026-05-26 19:58:00 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] done in 0.79 s, |input_flux| ∈ [8.120e-04, 2.704e+01]
+2026-05-26 19:58:00 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 19:58:01 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] done in 0.81 s
+2026-05-26 19:58:01 [INFO] D00_flux_sign_and_fresnel_validation: lossless selected T definition: signed
+2026-05-26 19:58:01 [INFO] D00_flux_sign_and_fresnel_validation: lossless summary: {"selected_T_definition": "signed", "raw_T_max_abs_error": 1.9532196977012952, "signed_T_max_abs_error": 0.10434442912551811, "max_abs_R_error": 0.13784373257817908, "max_abs_T_error": 0.10434442912551811, "max_abs_A_selected": 0.033499303452660945, "max_abs_residual": 0.033499303452660945, "public_T_matches_selected": true, "walltime_s": 1.600768804550171, "geometry_y": {"cell_y": 28.0, "y_surface": 2.0, "y_substrate_bottom": -6.0, "y_src": 8.0, "y_refl": 6.0, "y_trans": -8.0}, "passed": false}
+2026-05-26 19:58:01 [INFO] D00_flux_sign_and_fresnel_validation: running flat Ti Fresnel validation
+2026-05-26 19:58:01 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] res=32, cell=(1.00, 28.00) μm, nfreq=5, fcen=0.1010, df=0.0481, comp=Ez
+2026-05-26 19:58:02 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] done in 0.79 s, |input_flux| ∈ [8.120e-04, 2.704e+01]
+2026-05-26 19:58:02 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 19:58:04 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] done in 1.81 s
+2026-05-26 19:58:04 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti summary: {"max_abs_R_error_valid": 0.001655075796417882, "max_abs_A_error_valid": 0.0016550757964175489, "max_abs_T_selected_valid": 3.3902669741993265e-16, "mean_A_selected_8_13um": 0.07322247591522948, "mean_A_fresnel_8_13um": 0.07746099781935795, "warning_wavelength_count": 1, "public_T_matches_selected": true, "walltime_s": 2.5934202671051025, "geometry_y": {"cell_y": 28.0, "y_surface": 2.0, "y_substrate_bottom": -6.0, "y_src": 8.0, "y_refl": 6.0, "y_trans": -8.0}, "passed": true}
+2026-05-26 19:58:04 [INFO] D00_flux_sign_and_fresnel_validation: lossless CSV → /Users/luckydog/meep_sim/results/diagnostics/tables/D00_lossless_interface_validation.csv
+2026-05-26 19:58:04 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti CSV → /Users/luckydog/meep_sim/results/diagnostics/tables/D00_flat_ti_fresnel_validation.csv
+2026-05-26 19:58:04 [INFO] D00_flux_sign_and_fresnel_validation: lossless PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D00_lossless_RT_validation.png
+2026-05-26 19:58:04 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D00_flat_ti_fresnel_comparison.png
+2026-05-26 19:58:04 [INFO] D00_flux_sign_and_fresnel_validation: report → /Users/luckydog/meep_sim/results/diagnostics/reports/D00_flux_sign_validation_report.md
+2026-05-26 19:58:04 [INFO] D00_flux_sign_and_fresnel_validation: overall status: lossless=FAIL, flat_ti=PASS
+2026-05-26 19:59:02 [INFO] D00_flux_sign_and_fresnel_validation: 日志文件: /Users/luckydog/meep_sim/logs/D00_flux_sign_and_fresnel_validation.log
+2026-05-26 19:59:02 [INFO] D00_flux_sign_and_fresnel_validation: === D00_flux_sign_and_fresnel_validation ===
+2026-05-26 19:59:02 [INFO] D00_flux_sign_and_fresnel_validation: args = {'wavelength_min_um': 8.0, 'wavelength_max_um': 13.0, 'nfreq': 5, 'resolution': 32, 'period_um': 1.0, 'pml_thickness_um': 4.0, 'substrate_thickness_um': 8.0, 'air_buffer_um': 8.0, 'decay_db': 30.0, 'lossless_n': 1.5, 'lossless_tol': 0.03, 'ti_tol': 0.05, 'ti_trans_tol': 0.02}
+2026-05-26 19:59:02 [INFO] D00_flux_sign_and_fresnel_validation: running lossless interface validation: n=1.5
+2026-05-26 19:59:02 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] res=32, cell=(1.00, 28.00) μm, nfreq=5, fcen=0.1010, df=0.0481, comp=Ez
+2026-05-26 19:59:03 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] done in 0.79 s, |input_flux| ∈ [8.120e-04, 2.704e+01]
+2026-05-26 19:59:03 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 19:59:04 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] done in 0.81 s
+2026-05-26 19:59:04 [INFO] D00_flux_sign_and_fresnel_validation: lossless selected T definition: signed
+2026-05-26 19:59:04 [INFO] D00_flux_sign_and_fresnel_validation: lossless summary: {"selected_T_definition": "signed", "raw_T_max_abs_error": 1.9206759635353872, "signed_T_max_abs_error": 0.0006759635353871252, "max_abs_R_error": 1.5095799239188412e-05, "max_abs_T_error": 0.0006759635353871252, "max_abs_A_selected": 0.0006709744766500991, "max_abs_residual": 0.0006709744766502101, "public_T_matches_selected": true, "walltime_s": 1.59995698928833, "geometry_y": {"cell_y": 28.0, "y_surface": 2.0, "y_substrate_bottom": -6.0, "y_src": 8.0, "y_refl": 6.0, "y_trans": -8.0}, "passed": true}
+2026-05-26 19:59:04 [INFO] D00_flux_sign_and_fresnel_validation: running flat Ti Fresnel validation
+2026-05-26 19:59:04 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] res=32, cell=(1.00, 28.00) μm, nfreq=5, fcen=0.1010, df=0.0481, comp=Ez
+2026-05-26 19:59:04 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] done in 0.78 s, |input_flux| ∈ [8.120e-04, 2.704e+01]
+2026-05-26 19:59:04 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 19:59:06 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] done in 2.13 s
+2026-05-26 19:59:07 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti summary: {"max_abs_R_error_valid": 0.0016551919588732034, "max_abs_A_error_valid": 0.0016551919588732034, "max_abs_T_selected_valid": 7.3892168792176e-53, "mean_A_selected_8_13um": 0.07322246748652617, "mean_A_fresnel_8_13um": 0.07746099781935795, "warning_wavelength_count": 1, "public_T_matches_selected": true, "walltime_s": 2.9152989387512207, "geometry_y": {"cell_y": 28.0, "y_surface": 2.0, "y_substrate_bottom": -6.0, "y_src": 8.0, "y_refl": 6.0, "y_trans": -8.0}, "passed": true}
+2026-05-26 19:59:07 [INFO] D00_flux_sign_and_fresnel_validation: lossless CSV → /Users/luckydog/meep_sim/results/diagnostics/tables/D00_lossless_interface_validation.csv
+2026-05-26 19:59:07 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti CSV → /Users/luckydog/meep_sim/results/diagnostics/tables/D00_flat_ti_fresnel_validation.csv
+2026-05-26 19:59:07 [INFO] D00_flux_sign_and_fresnel_validation: lossless PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D00_lossless_RT_validation.png
+2026-05-26 19:59:07 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D00_flat_ti_fresnel_comparison.png
+2026-05-26 19:59:07 [INFO] D00_flux_sign_and_fresnel_validation: report → /Users/luckydog/meep_sim/results/diagnostics/reports/D00_flux_sign_validation_report.md
+2026-05-26 19:59:07 [INFO] D00_flux_sign_and_fresnel_validation: overall status: lossless=PASS, flat_ti=PASS
+2026-05-26 20:20:49 [INFO] D00_flux_sign_and_fresnel_validation: 日志文件: /Users/luckydog/meep_sim/logs/D00_flux_sign_and_fresnel_validation.log
+2026-05-26 20:20:49 [INFO] D00_flux_sign_and_fresnel_validation: === D00_flux_sign_and_fresnel_validation ===
+2026-05-26 20:20:49 [INFO] D00_flux_sign_and_fresnel_validation: args = {'wavelength_min_um': 8.0, 'wavelength_max_um': 13.0, 'nfreq': 5, 'resolution': 32, 'period_um': 1.0, 'pml_thickness_um': 4.0, 'substrate_thickness_um': 8.0, 'air_buffer_um': 8.0, 'decay_db': 30.0, 'lossless_n': 1.5, 'lossless_tol': 0.03, 'ti_tol': 0.05, 'ti_trans_tol': 0.02}
+2026-05-26 20:20:49 [INFO] D00_flux_sign_and_fresnel_validation: running lossless interface validation: n=1.5
+2026-05-26 20:20:49 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] res=32, cell=(1.00, 28.00) μm, nfreq=5, fcen=0.1010, df=0.0481, comp=Ez
+2026-05-26 20:20:50 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] done in 0.80 s, |input_flux| ∈ [8.120e-04, 2.704e+01]
+2026-05-26 20:20:50 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 20:20:51 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] done in 0.80 s
+2026-05-26 20:20:51 [INFO] D00_flux_sign_and_fresnel_validation: lossless selected T definition: signed
+2026-05-26 20:20:51 [INFO] D00_flux_sign_and_fresnel_validation: lossless summary: {"selected_T_definition": "signed", "raw_T_max_abs_error": 1.9206759635353872, "signed_T_max_abs_error": 0.0006759635353871252, "max_abs_R_error": 1.5095799239188412e-05, "max_abs_T_error": 0.0006759635353871252, "max_abs_A_selected": 0.0006709744766500991, "max_abs_residual": 0.0006709744766502101, "public_T_matches_selected": true, "walltime_s": 1.6051039695739746, "geometry_y": {"cell_y": 28.0, "y_surface": 2.0, "y_substrate_bottom": -6.0, "y_src": 8.0, "y_refl": 6.0, "y_trans": -8.0}, "passed": true}
+2026-05-26 20:20:51 [INFO] D00_flux_sign_and_fresnel_validation: running flat Ti Fresnel validation
+2026-05-26 20:20:51 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] res=32, cell=(1.00, 28.00) μm, nfreq=5, fcen=0.1010, df=0.0481, comp=Ez
+2026-05-26 20:20:51 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] done in 0.78 s, |input_flux| ∈ [8.120e-04, 2.704e+01]
+2026-05-26 20:20:51 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 20:20:54 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] done in 2.08 s
+2026-05-26 20:20:54 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti summary: {"max_abs_R_error_valid": 0.0016551919588732034, "max_abs_A_error_valid": 0.0016551919588732034, "max_abs_T_selected_valid": 7.3892168792176e-53, "mean_A_selected_8_13um": 0.07322246748652617, "mean_A_fresnel_8_13um": 0.07746099781935795, "warning_wavelength_count": 1, "public_T_matches_selected": true, "walltime_s": 2.8620660305023193, "geometry_y": {"cell_y": 28.0, "y_surface": 2.0, "y_substrate_bottom": -6.0, "y_src": 8.0, "y_refl": 6.0, "y_trans": -8.0}, "passed": true}
+2026-05-26 20:20:54 [INFO] D00_flux_sign_and_fresnel_validation: lossless CSV → /Users/luckydog/meep_sim/results/diagnostics/tables/D00_lossless_interface_validation.csv
+2026-05-26 20:20:54 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti CSV → /Users/luckydog/meep_sim/results/diagnostics/tables/D00_flat_ti_fresnel_validation.csv
+2026-05-26 20:20:54 [INFO] D00_flux_sign_and_fresnel_validation: lossless PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D00_lossless_RT_validation.png
+2026-05-26 20:20:54 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D00_flat_ti_fresnel_comparison.png
+2026-05-26 20:20:54 [INFO] D00_flux_sign_and_fresnel_validation: report → /Users/luckydog/meep_sim/results/diagnostics/reports/D00_flux_sign_validation_report.md
+2026-05-26 20:20:54 [INFO] D00_flux_sign_and_fresnel_validation: overall status: lossless=PASS, flat_ti=PASS
+2026-05-26 21:37:44 [INFO] D00_flux_sign_and_fresnel_validation: 日志文件: /Users/luckydog/meep_sim/logs/D00_flux_sign_and_fresnel_validation.log
+2026-05-26 21:37:44 [INFO] D00_flux_sign_and_fresnel_validation: === D00_flux_sign_and_fresnel_validation ===
+2026-05-26 21:37:44 [INFO] D00_flux_sign_and_fresnel_validation: args = {'wavelength_min_um': 8.0, 'wavelength_max_um': 13.0, 'nfreq': 21, 'resolution': 32, 'period_um': 1.0, 'pml_thickness_um': 4.0, 'substrate_thickness_um': 8.0, 'air_buffer_um': 8.0, 'decay_db': 40.0, 'lossless_n': 1.5, 'lossless_tol': 0.03, 'ti_tol': 0.05, 'ti_trans_tol': 0.02}
+2026-05-26 21:37:44 [INFO] D00_flux_sign_and_fresnel_validation: running lossless interface validation: n=1.5
+2026-05-26 21:37:44 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] res=32, cell=(1.00, 28.00) μm, nfreq=21, fcen=0.1010, df=0.0481, comp=Ez
+2026-05-26 21:37:45 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] done in 0.79 s, |input_flux| ∈ [8.120e-04, 2.704e+01]
+2026-05-26 21:37:45 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 21:37:46 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] done in 0.80 s
+2026-05-26 21:37:46 [INFO] D00_flux_sign_and_fresnel_validation: lossless selected T definition: signed
+2026-05-26 21:37:46 [INFO] D00_flux_sign_and_fresnel_validation: lossless summary: {"selected_T_definition": "signed", "raw_T_max_abs_error": 1.9206759635353872, "signed_T_max_abs_error": 0.0006759635353871252, "max_abs_R_error": 1.8061567637235598e-05, "max_abs_T_error": 0.0006759635353871252, "max_abs_A_selected": 0.0006709744766500991, "max_abs_residual": 0.0006709744766502101, "public_T_matches_selected": true, "walltime_s": 1.588639736175537, "geometry_y": {"cell_y": 28.0, "y_surface": 2.0, "y_substrate_bottom": -6.0, "y_src": 8.0, "y_refl": 6.0, "y_trans": -8.0}, "passed": true}
+2026-05-26 21:37:46 [INFO] D00_flux_sign_and_fresnel_validation: running flat Ti Fresnel validation
+2026-05-26 21:37:46 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] res=32, cell=(1.00, 28.00) μm, nfreq=21, fcen=0.1010, df=0.0481, comp=Ez
+2026-05-26 21:37:46 [INFO] D00_flux_sign_and_fresnel_validation: [ref run] done in 0.79 s, |input_flux| ∈ [8.120e-04, 2.704e+01]
+2026-05-26 21:37:46 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 21:37:48 [INFO] D00_flux_sign_and_fresnel_validation: [struct run] done in 2.11 s
+2026-05-26 21:37:48 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti summary: {"max_abs_R_error_valid": 0.0016551919588732034, "max_abs_A_error_valid": 0.0016551919588732034, "max_abs_T_selected_valid": 7.3892168792176e-53, "mean_A_selected_8_13um": 0.07298143859706892, "mean_A_fresnel_8_13um": 0.07543778540070377, "warning_wavelength_count": 2, "public_T_matches_selected": true, "walltime_s": 2.8956329822540283, "geometry_y": {"cell_y": 28.0, "y_surface": 2.0, "y_substrate_bottom": -6.0, "y_src": 8.0, "y_refl": 6.0, "y_trans": -8.0}, "passed": true}
+2026-05-26 21:37:49 [INFO] D00_flux_sign_and_fresnel_validation: lossless CSV → /Users/luckydog/meep_sim/results/diagnostics/tables/D00_lossless_interface_validation.csv
+2026-05-26 21:37:49 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti CSV → /Users/luckydog/meep_sim/results/diagnostics/tables/D00_flat_ti_fresnel_validation.csv
+2026-05-26 21:37:49 [INFO] D00_flux_sign_and_fresnel_validation: lossless PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D00_lossless_RT_validation.png
+2026-05-26 21:37:49 [INFO] D00_flux_sign_and_fresnel_validation: flat Ti PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D00_flat_ti_fresnel_comparison.png
+2026-05-26 21:37:49 [INFO] D00_flux_sign_and_fresnel_validation: report → /Users/luckydog/meep_sim/results/diagnostics/reports/D00_flux_sign_validation_report.md
+2026-05-26 21:37:49 [INFO] D00_flux_sign_and_fresnel_validation: overall status: lossless=PASS, flat_ti=PASS

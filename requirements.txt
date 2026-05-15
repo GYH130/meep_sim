@@ -1,0 +1,18 @@
+# 核心数值与数据处理
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+h5py>=3.8
+
+# 可视化
+matplotlib>=3.7
+
+# 配置与日志
+pyyaml>=6.0
+
+# 测试
+pytest>=7.0
+
+# Meep 与 MPB 一般通过 conda-forge 安装，不写在 pip requirements 中：
+#   conda install -c conda-forge pymeep pymeep-extras
+# 在 macOS 上建议使用 conda 环境，避免 OpenMPI / HDF5 版本冲突。

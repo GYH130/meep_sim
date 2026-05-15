@@ -1,0 +1,9 @@
+2026-05-26 22:39:13 [INFO] 03_slanted_groove_spectrum_20260526-223913: 日志文件: /Users/luckydog/meep_sim/logs/03_slanted_groove_spectrum_20260526-223913.log
+2026-05-26 22:39:13 [INFO] 03_slanted_groove_spectrum_20260526-223913: === 03_slanted_groove_spectrum ===
+2026-05-26 22:39:13 [INFO] 03_slanted_groove_spectrum_20260526-223913: args = {'period': 10.0, 'top_width': 4.0, 'bottom_width': 4.0, 'depth': 3.0, 'tilt_angles': [0.0, 10.0, 20.0, 30.0], 'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'resolution': 32, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 8.0, 'nfreq': 121, 'no_regression': False}
+2026-05-26 22:39:13 [INFO] 03_slanted_groove_spectrum_20260526-223913: geometry self-check: 所有顶点在单胞内；3/3 个 α 与基准产生几何差异。
+2026-05-26 22:39:13 [INFO] 03_slanted_groove_spectrum_20260526-223913: geometry PNG → /Users/luckydog/meep_sim/results/figures/slanted_groove_geometry.png
+2026-05-26 22:39:13 [INFO] 03_slanted_groove_spectrum_20260526-223913: >>> simulate α = 0°
+2026-05-26 22:39:13 [INFO] 03_slanted_groove_spectrum_20260526-223913: [ref run] res=32, cell=(10.00, 18.00) μm, nfreq=121, fcen=0.1333, df=0.1333, comp=Ez
+2026-05-26 22:39:15 [INFO] 03_slanted_groove_spectrum_20260526-223913: [ref run] done in 1.75 s, |input_flux| ∈ [4.548e-04, 3.604e+01]
+2026-05-26 22:39:15 [INFO] 03_slanted_groove_spectrum_20260526-223913: [struct run] 2 objects in geometry (注入自 geometry_factory)

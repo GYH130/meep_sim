@@ -1,0 +1,58 @@
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: 日志文件: /Users/luckydog/meep_sim/logs/04_angle_resolved_emission.log
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: === 04_angle_resolved_scattering ===
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: args = {'period': 10.0, 'top_width': 4.0, 'bottom_width': 4.0, 'depth': 3.0, 'tilt_angles': [0.0, 20.0], 'wavelengths': [8.0, 10.0, 12.0], 'angle_min': -90.0, 'angle_max': 90.0, 'angle_step': 0.5, 'resolution': 32, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 8.0, 'nperiods': 10, 'r_far_um': 1000.0, 'src_fractional_bw': 0.05}
+2026-05-14 19:16:54 [WARNING] 04_angle_resolved_emission: 本脚本输出正入射散射远场方向图，不是严格角分辨热发射率 ε(θ)。
+2026-05-14 19:16:54 [WARNING] 04_angle_resolved_emission: 若目标是 ε(θ_emit)，应扫 θ_in 并计算 A(θ_in)=1-R_specular-ΣR_diffracted_orders。
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: angles: 361 个点 ∈ [-90.0, 90.0] step 0.5°
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: Bragg diagnostic λ=8 μm: P/λ=1.250, orders=[m=-1: θ=-53.13°, m=0: θ=0.00°, m=1: θ=53.13°], regime=multi_order_high_angles
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: Bragg guidance λ=8 μm: 存在非零 Bragg 阶，但角度偏大；方向性可能有限，需检查 Bragg 级强度比。
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: Bragg diagnostic λ=10 μm: P/λ=1.000, orders=[m=-1: θ=-90.00°, m=0: θ=0.00°, m=1: θ=90.00°], regime=near_grazing
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: Bragg guidance λ=10 μm: ±1 阶接近掠射/临界；峰窄且角采样敏感。
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: Bragg diagnostic λ=12 μm: P/λ=0.833, orders=[m=0: θ=0.00°], regime=specular_only
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: Bragg guidance λ=12 μm: P < λ，仅 m=0 阶传播；倾角对远场方向性的影响通常很弱。
+2026-05-14 19:16:54 [WARNING] 04_angle_resolved_emission: 多数目标波长处于 specular-only 或 near-grazing Bragg 条件；当前 P=10 μm 下倾角方向性预计较弱。建议尝试 P≈1.5λ_target 到 2λ_target （例如 12–18 μm），或把 P 调到略大于目标 λ 并用更细角度采样研究近临界 ±1 阶。
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: ============ wavelength = 8.00 μm ============
+2026-05-14 19:16:54 [INFO] 04_angle_resolved_emission: [ref] fcen=0.1250, df=0.0063, cell_y=18.00 μm
+2026-05-14 19:17:21 [INFO] 04_angle_resolved_emission: [ref λ=8.0μm] done in 27.00 s
+2026-05-14 19:18:41 [INFO] 04_angle_resolved_emission: [struct λ=8.0μm α=0.0°] done in 79.28 s
+2026-05-14 19:18:41 [INFO] 04_angle_resolved_emission: λ=8 α=0: scattered_flux=1.384e+04, R=0.865
+2026-05-14 19:20:04 [INFO] 04_angle_resolved_emission: [struct λ=8.0μm α=20.0°] done in 82.93 s
+2026-05-14 19:20:04 [INFO] 04_angle_resolved_emission: λ=8 α=20: scattered_flux=1.386e+04, R=0.866
+2026-05-14 19:20:05 [INFO] 04_angle_resolved_emission: ============ wavelength = 10.00 μm ============
+2026-05-14 19:20:05 [INFO] 04_angle_resolved_emission: [ref] fcen=0.1000, df=0.0050, cell_y=18.00 μm
+2026-05-14 19:20:42 [INFO] 04_angle_resolved_emission: [ref λ=10.0μm] done in 37.11 s
+2026-05-14 19:22:39 [INFO] 04_angle_resolved_emission: [struct λ=10.0μm α=0.0°] done in 116.94 s
+2026-05-14 19:22:39 [INFO] 04_angle_resolved_emission: λ=10 α=0: scattered_flux=2.217e+04, R=0.887
+2026-05-14 19:24:41 [INFO] 04_angle_resolved_emission: [struct λ=10.0μm α=20.0°] done in 120.55 s
+2026-05-14 19:24:41 [INFO] 04_angle_resolved_emission: λ=10 α=20: scattered_flux=2.222e+04, R=0.889
+2026-05-14 19:24:41 [INFO] 04_angle_resolved_emission: ============ wavelength = 12.00 μm ============
+2026-05-14 19:24:41 [INFO] 04_angle_resolved_emission: [ref] fcen=0.0833, df=0.0042, cell_y=18.00 μm
+2026-05-14 19:25:29 [INFO] 04_angle_resolved_emission: [ref λ=12.0μm] done in 47.65 s
+2026-05-14 19:27:57 [INFO] 04_angle_resolved_emission: [struct λ=12.0μm α=0.0°] done in 148.15 s
+2026-05-14 19:27:57 [INFO] 04_angle_resolved_emission: λ=12 α=0: scattered_flux=3.286e+04, R=0.913
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: [struct λ=12.0μm α=20.0°] done in 148.47 s
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: λ=12 α=20: scattered_flux=3.288e+04, R=0.913
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: self-check (tilt=0, λ=8): symmetry err = 9.030e-15 ✓
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: (tilt=0°, λ=8): ∫I dθ = 2.902e+02 (a.u.) ; near-field |scattered_flux| = 1.384e+04 ; ratio = 2.097e-02
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: self-check (tilt=20°, λ=8): asymmetry err = 2.529e-02 (允许 ≠ 0)
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: (tilt=20°, λ=8): ∫I dθ = 2.908e+02 (a.u.) ; near-field |scattered_flux| = 1.386e+04 ; ratio = 2.099e-02
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: self-check (tilt=0, λ=10): symmetry err = 1.563e-14 ✓
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: (tilt=0°, λ=10): ∫I dθ = 4.639e+02 (a.u.) ; near-field |scattered_flux| = 2.217e+04 ; ratio = 2.092e-02
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: self-check (tilt=20°, λ=10): asymmetry err = 2.285e-03 (允许 ≠ 0)
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: (tilt=20°, λ=10): ∫I dθ = 4.652e+02 (a.u.) ; near-field |scattered_flux| = 2.222e+04 ; ratio = 2.094e-02
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: self-check (tilt=0, λ=12): symmetry err = 5.580e-15 ✓
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: (tilt=0°, λ=12): ∫I dθ = 6.888e+02 (a.u.) ; near-field |scattered_flux| = 3.286e+04 ; ratio = 2.096e-02
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: self-check (tilt=20°, λ=12): asymmetry err = 2.415e-04 (允许 ≠ 0)
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: (tilt=20°, λ=12): ∫I dθ = 6.892e+02 (a.u.) ; near-field |scattered_flux| = 3.288e+04 ; ratio = 2.096e-02
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: metrics: tilt=0°  λ=8 μm  θ_max=-53.00°  F/B=1.000  R/L_int=1.000  asym=-0.000  HPBW=3.41°
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: metrics: tilt=20°  λ=8 μm  θ_max=-2.00°  F/B=1.003  R/L_int=1.017  asym=0.008  HPBW=7.13°
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: metrics: tilt=0°  λ=10 μm  θ_max=0.00°  F/B=1.000  R/L_int=1.000  asym=0.000  HPBW=8.06°
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: metrics: tilt=20°  λ=10 μm  θ_max=0.00°  F/B=1.000  R/L_int=0.999  asym=-0.000  HPBW=8.06°
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: metrics: tilt=0°  λ=12 μm  θ_max=0.00°  F/B=1.000  R/L_int=1.000  asym=0.000  HPBW=4.78°
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: metrics: tilt=20°  λ=12 μm  θ_max=0.00°  F/B=1.000  R/L_int=1.000  asym=0.000  HPBW=4.78°
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: emission CSV → /Users/luckydog/meep_sim/results/tables/angle_resolved_emission.csv  (rows=2166)
+2026-05-14 19:30:27 [INFO] 04_angle_resolved_emission: metrics CSV  → /Users/luckydog/meep_sim/results/tables/angle_resolved_metrics.csv  (rows=6)
+2026-05-14 19:30:28 [INFO] 04_angle_resolved_emission: cartesian PNG → /Users/luckydog/meep_sim/results/figures/angle_resolved_cartesian.png
+2026-05-14 19:30:28 [INFO] 04_angle_resolved_emission: polar PNG     → /Users/luckydog/meep_sim/results/figures/angle_resolved_polar.png
+2026-05-14 19:30:28 [INFO] 04_angle_resolved_emission: === done; total Meep walltime = 701.6 s ===
+2026-05-14 19:30:28 [INFO] 04_angle_resolved_emission: self-check summary: {(0.0, 8.0): {'max_jump_normalized': 0.22360600420434923, 'symmetry_err': 9.030269815042687e-15, 'far_field_integral_au': 290.1950827833552, 'far_to_near_ratio_au': 0.020973013790479555, 'recommended_angle_step_deg': 0.5456740906007841}, (20.0, 8.0): {'max_jump_normalized': 0.2452034633378235, 'symmetry_err': 0.025293906990932265, 'far_field_integral_au': 290.8174005611999, 'far_to_near_ratio_au': 0.02098761556200923, 'recommended_angle_step_deg': 0.5456740906007841}, (0.0, 10.0): {'max_jump_normalized': 0.1799662255024257, 'symmetry_err': 1.5631075867184807e-14, 'far_field_integral_au': 463.89458836318977, 'far_to_near_ratio_au': 0.02092414825917807, 'recommended_angle_step_deg': 0.68209261325098}, (20.0, 10.0): {'max_jump_normalized': 0.1802744639422379, 'symmetry_err': 0.002285025333615227, 'far_field_integral_au': 465.24709563695166, 'far_to_near_ratio_au': 0.020937499742237242, 'recommended_angle_step_deg': 0.68209261325098}, (0.0, 12.0): {'max_jump_normalized': 0.15321793448312215, 'symmetry_err': 5.579756885133274e-15, 'far_field_integral_au': 688.7522002585832, 'far_to_near_ratio_au': 0.02095970915227827, 'recommended_angle_step_deg': 0.818511135901176}, (20.0, 12.0): {'max_jump_normalized': 0.15321714831128463, 'symmetry_err': 0.00024154618590631043, 'far_field_integral_au': 689.183480453454, 'far_to_near_ratio_au': 0.020958445750085455, 'recommended_angle_step_deg': 0.818511135901176}}

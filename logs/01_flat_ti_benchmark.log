@@ -1,0 +1,159 @@
+2026-05-11 17:18:34 [INFO] 01_flat_ti_benchmark: 日志文件: /Users/luckydog/meep_sim/logs/01_flat_ti_benchmark.log
+2026-05-11 17:18:34 [INFO] 01_flat_ti_benchmark: === 01_flat_ti_benchmark ===
+2026-05-11 17:18:34 [INFO] 01_flat_ti_benchmark: args = {'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'resolution': 30, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 2.0, 'nfreq': 201, 'air_buffer_um': 8.0, 'convergence': False, 'convergence_resolutions': [20, 40]}
+2026-05-11 17:18:34 [INFO] 01_flat_ti_benchmark: [ref run] resolution=30  cell=(1.00, 14.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 17:18:35 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.18 s, |input_flux| ∈ [3.188e-04, 6.468e+00]
+2026-05-11 17:18:35 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 17:18:35 [INFO] 01_flat_ti_benchmark: [struct run] done in 0.39 s
+2026-05-11 17:18:35 [INFO] 01_flat_ti_benchmark: self-check: max |R+T+A-1|     = 1.110e-16   mean = 2.651e-17
+2026-05-11 17:18:35 [INFO] 01_flat_ti_benchmark: self-check: fraction outside [-0.02, 1+0.02]  R=0.00%  T=0.00%  A=0.00%
+2026-05-11 17:18:35 [INFO] 01_flat_ti_benchmark: self-check: 8-13 μm averages   <R>=1.000  <T>=6.102e-07  <A>=-0.000
+2026-05-11 17:18:35 [INFO] 01_flat_ti_benchmark: self-check: T range over full band   [5.593e-07, 1.215e-06]  (应远 << 1 验证不透明)
+2026-05-11 17:18:35 [INFO] 01_flat_ti_benchmark: CSV → /Users/luckydog/meep_sim/results/tables/flat_ti_spectrum.csv
+2026-05-11 17:18:36 [INFO] 01_flat_ti_benchmark: PNG → /Users/luckydog/meep_sim/results/figures/flat_ti_spectrum.png
+2026-05-11 17:18:36 [INFO] 01_flat_ti_benchmark: === done in 0.57 s ===
+2026-05-11 17:18:36 [INFO] 01_flat_ti_benchmark: SUMMARY: {'max_energy_error': 1.1102230246251565e-16, 'mean_energy_error': 2.6512788647764932e-17, 'frac_out_of_range': {'R': 0.0, 'T': 0.0, 'A': 0.0}, 'avg_A_8_13um': -6.99558105965878e-07, 'avg_R_8_13um': 1.000000089315975, 'avg_T_8_13um': 6.102421310443114e-07, 'T_max': 1.2146403285172559e-06}
+2026-05-11 17:19:04 [INFO] 01_flat_ti_benchmark: 日志文件: /Users/luckydog/meep_sim/logs/01_flat_ti_benchmark.log
+2026-05-11 17:19:04 [INFO] 01_flat_ti_benchmark: === 01_flat_ti_benchmark ===
+2026-05-11 17:19:04 [INFO] 01_flat_ti_benchmark: args = {'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'resolution': 30, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 2.0, 'nfreq': 201, 'air_buffer_um': 8.0, 'convergence': True, 'convergence_resolutions': [20, 40]}
+2026-05-11 17:19:04 [INFO] 01_flat_ti_benchmark: [ref run] resolution=30  cell=(1.00, 14.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.18 s, |input_flux| ∈ [3.188e-04, 6.468e+00]
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: [struct run] done in 0.38 s
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: self-check: max |R+T+A-1|     = 1.110e-16   mean = 2.651e-17
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: self-check: fraction outside [-0.02, 1+0.02]  R=0.00%  T=0.00%  A=0.00%
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: self-check: 8-13 μm averages   <R>=1.000  <T>=6.102e-07  <A>=-0.000
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: self-check: T range over full band   [5.593e-07, 1.215e-06]  (应远 << 1 验证不透明)
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: CSV → /Users/luckydog/meep_sim/results/tables/flat_ti_spectrum.csv
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: PNG → /Users/luckydog/meep_sim/results/figures/flat_ti_spectrum.png
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: === convergence: resolution = 20 points/μm ===
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: [ref run] resolution=20  cell=(1.00, 14.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.08 s, |input_flux| ∈ [3.187e-04, 6.463e+00]
+2026-05-11 17:19:05 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 17:26:21 [INFO] 01_flat_ti_benchmark: 日志文件: /Users/luckydog/meep_sim/logs/01_flat_ti_benchmark.log
+2026-05-11 17:26:21 [INFO] 01_flat_ti_benchmark: === 01_flat_ti_benchmark ===
+2026-05-11 17:26:21 [INFO] 01_flat_ti_benchmark: args = {'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'resolution': 30, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 2.0, 'nfreq': 201, 'air_buffer_um': 8.0, 'convergence': True, 'convergence_resolutions': [32, 50]}
+2026-05-11 17:26:21 [INFO] 01_flat_ti_benchmark: [ref run] resolution=30  cell=(1.00, 14.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.18 s, |input_flux| ∈ [3.188e-04, 6.468e+00]
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: [struct run] done in 0.38 s
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: self-check: max |R+T+A-1|     = 1.110e-16   mean = 2.651e-17
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: self-check: fraction outside [-0.02, 1+0.02]  R=0.00%  T=0.00%  A=0.00%
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: self-check: 8-13 μm averages   <R>=1.000  <T>=6.102e-07  <A>=-0.000
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: self-check: T range over full band   [5.593e-07, 1.215e-06]  (应远 << 1 验证不透明)
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: CSV → /Users/luckydog/meep_sim/results/tables/flat_ti_spectrum.csv
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: PNG → /Users/luckydog/meep_sim/results/figures/flat_ti_spectrum.png
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: === convergence: resolution = 32 points/μm ===
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: [ref run] resolution=32  cell=(1.00, 14.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.21 s, |input_flux| ∈ [3.188e-04, 6.468e+00]
+2026-05-11 17:26:22 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 17:26:23 [INFO] 01_flat_ti_benchmark: [struct run] done in 0.47 s
+2026-05-11 17:26:23 [INFO] 01_flat_ti_benchmark: === convergence: resolution = 50 points/μm ===
+2026-05-11 17:26:23 [INFO] 01_flat_ti_benchmark: [ref run] resolution=50  cell=(1.00, 14.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 17:26:23 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.62 s, |input_flux| ∈ [3.189e-04, 6.470e+00]
+2026-05-11 17:26:23 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 17:26:25 [INFO] 01_flat_ti_benchmark: [struct run] done in 1.50 s
+2026-05-11 17:26:25 [INFO] 01_flat_ti_benchmark: convergence CSV → /Users/luckydog/meep_sim/results/tables/flat_ti_convergence.csv
+2026-05-11 17:26:25 [INFO] 01_flat_ti_benchmark: convergence PNG → /Users/luckydog/meep_sim/results/figures/flat_ti_convergence.png
+2026-05-11 17:26:25 [INFO] 01_flat_ti_benchmark: max|R(res=32) - R(res=50)| = 1.366e-08
+2026-05-11 17:26:25 [INFO] 01_flat_ti_benchmark: === done in 0.57 s ===
+2026-05-11 17:26:25 [INFO] 01_flat_ti_benchmark: SUMMARY: {'max_energy_error': 1.1102230246251565e-16, 'mean_energy_error': 2.6512788647764932e-17, 'frac_out_of_range': {'R': 0.0, 'T': 0.0, 'A': 0.0}, 'avg_A_8_13um': -6.99558105965878e-07, 'avg_R_8_13um': 1.000000089315975, 'avg_T_8_13um': 6.102421310443114e-07, 'T_max': 1.2146403285172559e-06}
+2026-05-11 21:24:30 [INFO] 01_flat_ti_benchmark: 日志文件: /Users/luckydog/meep_sim/logs/01_flat_ti_benchmark.log
+2026-05-11 21:24:30 [INFO] 01_flat_ti_benchmark: === 01_flat_ti_benchmark ===
+2026-05-11 21:24:30 [INFO] 01_flat_ti_benchmark: args = {'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'resolution': 30, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 2.0, 'nfreq': 201, 'air_buffer_um': 8.0, 'convergence': True, 'convergence_resolutions': [32, 50]}
+2026-05-11 21:24:30 [INFO] 01_flat_ti_benchmark: [ref run] resolution=30  cell=(1.00, 16.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 21:24:30 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.20 s, |input_flux| ∈ [4.546e-05, 3.604e+00]
+2026-05-11 21:24:57 [INFO] 01_flat_ti_benchmark: 日志文件: /Users/luckydog/meep_sim/logs/01_flat_ti_benchmark.log
+2026-05-11 21:24:57 [INFO] 01_flat_ti_benchmark: === 01_flat_ti_benchmark ===
+2026-05-11 21:24:57 [INFO] 01_flat_ti_benchmark: args = {'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'resolution': 30, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 2.0, 'nfreq': 201, 'air_buffer_um': 8.0, 'convergence': True, 'convergence_resolutions': [32, 50]}
+2026-05-11 21:24:57 [INFO] 01_flat_ti_benchmark: [ref run] resolution=30  cell=(1.00, 16.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.20 s, |input_flux| ∈ [4.546e-05, 3.604e+00]
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: [struct run] done in 0.43 s
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: self-check: max |R+T+A-1|     = 0.000e+00   mean = 0.000e+00
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: self-check: fraction outside [-0.02, 1+0.02]  R=0.00%  T=0.00%  A=0.00%
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: self-check: 8-13 μm averages   <R>=0.927  <T>=1.545e-16  <A>=0.073
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: self-check: T range over full band   [9.515e-20, 6.049e-16]  (应远 << 1 验证不透明)
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: self-check: max |R - R_Fresnel| over Ti valid band = 3.261e-03
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: self-check: y layout = {'cell_y': 16.0, 'top_pml_inner': 6.0, 'source': 4.0, 'reflection_monitor': 2.0, 'ti_surface': -2.0, 'ti_bottom': -4.0, 'transmission_monitor': -5.0, 'bottom_pml_inner': -6.0}
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: CSV → /Users/luckydog/meep_sim/results/tables/flat_ti_spectrum.csv
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: PNG → /Users/luckydog/meep_sim/results/figures/flat_ti_spectrum.png
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: === convergence: resolution = 32 points/μm ===
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: [ref run] resolution=32  cell=(1.00, 16.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.23 s, |input_flux| ∈ [4.548e-05, 3.604e+00]
+2026-05-11 21:24:58 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 21:24:59 [INFO] 01_flat_ti_benchmark: [struct run] done in 0.52 s
+2026-05-11 21:24:59 [INFO] 01_flat_ti_benchmark: === convergence: resolution = 50 points/μm ===
+2026-05-11 21:24:59 [INFO] 01_flat_ti_benchmark: [ref run] resolution=50  cell=(1.00, 16.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 21:25:00 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.71 s, |input_flux| ∈ [4.546e-05, 3.604e+00]
+2026-05-11 21:25:00 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 21:25:02 [INFO] 01_flat_ti_benchmark: [struct run] done in 1.83 s
+2026-05-11 21:25:02 [INFO] 01_flat_ti_benchmark: convergence CSV → /Users/luckydog/meep_sim/results/tables/flat_ti_convergence.csv
+2026-05-11 21:25:02 [INFO] 01_flat_ti_benchmark: convergence PNG → /Users/luckydog/meep_sim/results/figures/flat_ti_convergence.png
+2026-05-11 21:25:02 [INFO] 01_flat_ti_benchmark: max|R(res=32) - R(res=50)| = 1.616e-03
+2026-05-11 21:25:02 [INFO] 01_flat_ti_benchmark: === done in 0.64 s ===
+2026-05-11 21:25:02 [INFO] 01_flat_ti_benchmark: SUMMARY: {'max_energy_error': 0.0, 'mean_energy_error': 0.0, 'frac_out_of_range': {'R': 0.0, 'T': 0.0, 'A': 0.0}, 'avg_A_8_13um': 0.07276488565655696, 'avg_R_8_13um': 0.927235114343443, 'avg_T_8_13um': 1.545118095681393e-16, 'T_max': 6.049040245415451e-16, 'max_R_vs_analytic': 0.0032611387339724907}
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: 日志文件: /Users/luckydog/meep_sim/logs/01_flat_ti_benchmark.log
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: === 01_flat_ti_benchmark ===
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: args = {'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'resolution': 30, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 2.0, 'nfreq': 201, 'air_buffer_um': 8.0, 'convergence': True, 'convergence_resolutions': [32, 50]}
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: [ref run] resolution=30  cell=(1.00, 16.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.20 s, |input_flux| ∈ [4.546e-05, 3.604e+00]
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: [struct run] done in 0.43 s
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: self-check: max |R+T+A-1|     = 0.000e+00   mean = 0.000e+00
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: self-check: fraction outside [-0.02, 1+0.02]  R=0.00%  T=0.00%  A=0.00%
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: self-check: 8-13 μm averages   <R>=0.927  <T>=1.545e-16  <A>=0.073
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: self-check: T range over full band   [9.515e-20, 6.049e-16]  (应远 << 1 验证不透明)
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: self-check: max |R - R_Fresnel| over Ti valid band = 3.261e-03
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: self-check: y layout = {'cell_y': 16.0, 'top_pml_inner': 6.0, 'source': 4.0, 'reflection_monitor': 2.0, 'ti_surface': -2.0, 'ti_bottom': -4.0, 'transmission_monitor': -5.0, 'bottom_pml_inner': -6.0}
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: CSV → /Users/luckydog/meep_sim/results/tables/flat_ti_spectrum.csv
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: PNG → /Users/luckydog/meep_sim/results/figures/flat_ti_spectrum.png
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: === convergence: resolution = 32 points/μm ===
+2026-05-11 21:26:23 [INFO] 01_flat_ti_benchmark: [ref run] resolution=32  cell=(1.00, 16.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 21:26:24 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.23 s, |input_flux| ∈ [4.548e-05, 3.604e+00]
+2026-05-11 21:26:24 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 21:26:24 [INFO] 01_flat_ti_benchmark: [struct run] done in 0.51 s
+2026-05-11 21:26:24 [INFO] 01_flat_ti_benchmark: === convergence: resolution = 50 points/μm ===
+2026-05-11 21:26:24 [INFO] 01_flat_ti_benchmark: [ref run] resolution=50  cell=(1.00, 16.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-11 21:26:25 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.70 s, |input_flux| ∈ [4.546e-05, 3.604e+00]
+2026-05-11 21:26:25 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-11 21:26:26 [INFO] 01_flat_ti_benchmark: [struct run] done in 1.67 s
+2026-05-11 21:26:27 [INFO] 01_flat_ti_benchmark: convergence CSV → /Users/luckydog/meep_sim/results/tables/flat_ti_convergence.csv
+2026-05-11 21:26:27 [INFO] 01_flat_ti_benchmark: convergence PNG → /Users/luckydog/meep_sim/results/figures/flat_ti_convergence.png
+2026-05-11 21:26:27 [INFO] 01_flat_ti_benchmark: max|R(res=32) - R(res=50)| = 1.616e-03
+2026-05-11 21:26:27 [INFO] 01_flat_ti_benchmark: === done in 0.63 s ===
+2026-05-11 21:26:27 [INFO] 01_flat_ti_benchmark: SUMMARY: {'max_energy_error': 0.0, 'mean_energy_error': 0.0, 'frac_out_of_range': {'R': 0.0, 'T': 0.0, 'A': 0.0}, 'avg_A_8_13um': 0.07276488565655696, 'avg_R_8_13um': 0.927235114343443, 'avg_T_8_13um': 1.545118095681393e-16, 'T_max': 6.049040245415451e-16, 'max_R_vs_analytic': 0.0032611387339724907}
+2026-05-26 21:28:40 [INFO] 01_flat_ti_benchmark: 日志文件: /Users/luckydog/meep_sim/logs/01_flat_ti_benchmark.log
+2026-05-26 21:28:40 [INFO] 01_flat_ti_benchmark: === 01_flat_ti_benchmark ===
+2026-05-26 21:28:40 [INFO] 01_flat_ti_benchmark: args = {'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'resolution': 30, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 2.0, 'nfreq': 201, 'air_buffer_um': 8.0, 'convergence': False, 'convergence_resolutions': [32, 50]}
+2026-05-26 21:28:40 [INFO] 01_flat_ti_benchmark: [ref run] resolution=30  cell=(1.00, 16.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-26 21:28:40 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.22 s, |input_flux| ∈ [4.546e-05, 3.604e+00]
+2026-05-26 21:28:40 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: [struct run] done in 0.44 s
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: self-check: max |R+T+A-1|     = 0.000e+00   mean = 0.000e+00
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: self-check: fraction outside [-0.02, 1+0.02]  R=0.00%  T=0.00%  A=0.00%
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: self-check: 8-13 μm averages   <R>=0.927  <T>=-1.545e-16  <A>=0.073
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: self-check: T range over full band   [-6.049e-16, -9.515e-20]  (应远 << 1 验证不透明)
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: self-check: max |R - R_Fresnel| over Ti valid band = 3.261e-03
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: self-check: y layout = {'cell_y': 16.0, 'top_pml_inner': 6.0, 'source': 4.0, 'reflection_monitor': 2.0, 'ti_surface': -2.0, 'ti_bottom': -4.0, 'transmission_monitor': -5.0, 'bottom_pml_inner': -6.0}
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: CSV → /Users/luckydog/meep_sim/results/tables/flat_ti_spectrum.csv
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: PNG → /Users/luckydog/meep_sim/results/figures/flat_ti_spectrum.png
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: === done in 0.66 s ===
+2026-05-26 21:28:41 [INFO] 01_flat_ti_benchmark: SUMMARY: {'max_energy_error': 0.0, 'mean_energy_error': 0.0, 'frac_out_of_range': {'R': 0.0, 'T': 0.0, 'A': 0.0}, 'avg_A_8_13um': 0.07276488565655728, 'avg_R_8_13um': 0.927235114343443, 'avg_T_8_13um': -1.545118095681393e-16, 'T_max': -9.514522616378317e-20, 'max_R_vs_analytic': 0.0032611387339724907}
+2026-05-26 21:35:18 [INFO] 01_flat_ti_benchmark: 日志文件: /Users/luckydog/meep_sim/logs/01_flat_ti_benchmark.log
+2026-05-26 21:35:18 [INFO] 01_flat_ti_benchmark: === 01_flat_ti_benchmark ===
+2026-05-26 21:35:18 [INFO] 01_flat_ti_benchmark: args = {'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'resolution': 32, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 2.0, 'nfreq': 201, 'air_buffer_um': 8.0, 'convergence': False, 'convergence_resolutions': [32, 50]}
+2026-05-26 21:35:18 [INFO] 01_flat_ti_benchmark: [ref run] resolution=32  cell=(1.00, 16.00) μm  nfreq=201  fcen=0.1333  df=0.1333
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: [ref run] done in 0.24 s, |input_flux| ∈ [4.548e-05, 3.604e+00]
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: [struct run] adding Ti substrate (thickness=2.00 μm)
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: [struct run] done in 0.52 s
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: self-check: max |R+T+A-1|     = 0.000e+00   mean = 0.000e+00
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: self-check: fraction outside [-0.02, 1+0.02]  R=0.00%  T=0.00%  A=0.00%
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: self-check: 8-13 μm averages   <R>=0.927  <T>=-1.529e-16  <A>=0.073
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: self-check: T range over full band   [-6.002e-16, -9.704e-20]  (应远 << 1 验证不透明)
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: self-check: max |R - R_Fresnel| over Ti valid band = 2.794e-03
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: self-check: y layout = {'cell_y': 16.0, 'top_pml_inner': 6.0, 'source': 4.0, 'reflection_monitor': 2.0, 'ti_surface': -2.0, 'ti_bottom': -4.0, 'transmission_monitor': -5.0, 'bottom_pml_inner': -6.0}
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: CSV → /Users/luckydog/meep_sim/results/tables/flat_ti_spectrum.csv
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: PNG → /Users/luckydog/meep_sim/results/figures/flat_ti_spectrum.png
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: === done in 0.76 s ===
+2026-05-26 21:35:19 [INFO] 01_flat_ti_benchmark: SUMMARY: {'max_energy_error': 0.0, 'mean_energy_error': 0.0, 'frac_out_of_range': {'R': 0.0, 'T': 0.0, 'A': 0.0}, 'avg_A_8_13um': 0.07293266884704366, 'avg_R_8_13um': 0.9270673311529565, 'avg_T_8_13um': -1.5293744042553062e-16, 'T_max': -9.703565137952616e-20, 'max_R_vs_analytic': 0.0027944112974020996}

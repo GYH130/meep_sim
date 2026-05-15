@@ -1,0 +1,25 @@
+2026-05-14 11:45:01 [INFO] 02_periodic_groove_spectrum_20260514-114501: 日志文件: /Users/luckydog/meep_sim/logs/02_periodic_groove_spectrum_20260514-114501.log
+2026-05-14 11:45:01 [INFO] 02_periodic_groove_spectrum_20260514-114501: === 02_periodic_groove_spectrum ===
+2026-05-14 11:45:01 [INFO] 02_periodic_groove_spectrum_20260514-114501: args = {'period': 10.0, 'width': 4.0, 'depth': 3.0, 'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'resolution': 32, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 8.0, 'nfreq': 81}
+2026-05-14 11:45:01 [INFO] 02_periodic_groove_spectrum_20260514-114501: >>> Step A: 平板 Ti 基线 (W=0, D=0)
+2026-05-14 11:45:01 [INFO] 02_periodic_groove_spectrum_20260514-114501: [ref run] res=32, cell=(10.00, 18.00) μm, nfreq=81, fcen=0.1333, df=0.1333
+2026-05-14 11:45:03 [INFO] 02_periodic_groove_spectrum_20260514-114501: [ref run] done in 1.74 s, |input_flux| ∈ [4.548e-04, 3.604e+01]
+2026-05-14 11:45:03 [INFO] 02_periodic_groove_spectrum_20260514-114501: [struct run] P=10.000 W=0.000 D=0.000 μm  (W=0 或 D=0 表示平板基线)
+2026-05-14 11:45:08 [INFO] 02_periodic_groove_spectrum_20260514-114501: [struct run] done in 4.68 s
+2026-05-14 11:45:08 [INFO] 02_periodic_groove_spectrum_20260514-114501: >>> Step B: 周期矩形槽 P=10.000 W=4.000 D=3.000 μm
+2026-05-14 11:45:08 [INFO] 02_periodic_groove_spectrum_20260514-114501: [ref run] res=32, cell=(10.00, 18.00) μm, nfreq=81, fcen=0.1333, df=0.1333
+2026-05-14 11:45:10 [INFO] 02_periodic_groove_spectrum_20260514-114501: [ref run] done in 2.16 s, |input_flux| ∈ [4.548e-04, 3.604e+01]
+2026-05-14 11:45:10 [INFO] 02_periodic_groove_spectrum_20260514-114501: [struct run] P=10.000 W=4.000 D=3.000 μm  (W=0 或 D=0 表示平板基线)
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: [struct run] done in 5.64 s
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: self-check: max|R+T+A-1| = 0.000e+00   mean = 0.000e+00
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: self-check: Tmax (groove) = 4.796e-05   Tmax (flat) = 6.003e-16   (应 ≪ 1)
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: self-check: range violations outside [-1.0e-03, 1+1.0e-03]   groove={'reflectance': 1, 'transmittance': 0, 'absorptance': 1}   flat={'reflectance': 0, 'transmittance': 0, 'absorptance': 0}
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: self-check: max|ΔR| = 7.198e-02   max|ΔA| = 7.198e-02  @ λ = 6.250 μm
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: self-check: 8–13 μm 平均吸收率   groove=0.108   flat=0.073
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: self-check: 8–12.398 μm (Ti valid) 平均吸收率   groove=0.111   flat=0.074
+2026-05-14 11:45:16 [WARNING] 02_periodic_groove_spectrum_20260514-114501: 存在 R/T/A 超出物理范围的频点；通常来自材料外推波段、源边缘信噪比或收敛不足。
+2026-05-14 11:45:16 [WARNING] 02_periodic_groove_spectrum_20260514-114501: 当前最大波长 15.000 μm 超出 Ti Rakić 模型标定上限 12.398 μm；建议把定量结论限制在有效波段，或替换为覆盖目标波段的光学常数。
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: CSV → /Users/luckydog/meep_sim/results/tables/periodic_groove_spectrum.csv
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: PNG → /Users/luckydog/meep_sim/results/figures/periodic_groove_vs_flat_ti.png
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: === done in flat=6.4s + groove=7.8s s ===
+2026-05-14 11:45:16 [INFO] 02_periodic_groove_spectrum_20260514-114501: SUMMARY: {'max_energy_error': 0.0, 'mean_energy_error': 0.0, 'Tmax_groove': 4.796129198727847e-05, 'Tmax_flat': 6.00250574444474e-16, 'range_violations_groove': {'reflectance': 1, 'transmittance': 0, 'absorptance': 1}, 'range_violations_flat': {'reflectance': 0, 'transmittance': 0, 'absorptance': 0}, 'max_abs_dR': 0.07198298338621134, 'max_abs_dA': 0.0719829731437097, 'lambda_um_of_max_dA': 6.25, 'groove_avg_A_8_13': 0.10799444779155778, 'flat_avg_A_8_13': 0.07328629357611788, 'groove_avg_A_8_valid': 0.11076931123724607, 'flat_avg_A_8_valid': 0.07407449218107438}

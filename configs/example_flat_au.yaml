@@ -1,0 +1,33 @@
+# 示例配置：平面金（无微结构）在 8–13 μm 的发射率参考解
+# 用途：Step 1 “平板基线脚本” 的输入。这是骨架阶段的占位示例，
+#       具体字段会在脚本实现时进一步细化。
+
+run:
+  description: "Flat Au baseline, 8-13 um, normal incidence"
+
+geometry:
+  kind: "flat"
+  period_x_um: 0.0
+  period_y_um: 0.0
+  feature_size_um: 1.0   # 平板时取一个保守值，仅用于 resolution 估计
+  height_um: 0.0
+
+material:
+  substrate: "Au_Rakic"  # 需先在 materials.py 中注册具体参数
+  feature: "Au_Rakic"
+
+simulation:
+  cell_size_um: [1.0, 0.0, 12.0]  # 2D 情况下 y=0
+  pml_thickness_um: 2.0
+  resolution: 40                  # 也可由 estimate_resolution 自动给出
+  lambda_min_um: 8.0
+  lambda_max_um: 13.0
+  n_freq: 101
+  incidence_theta_deg: 0.0
+  incidence_phi_deg: 0.0
+  polarization: "TE"
+  runtime_decay_db: 30.0
+
+output:
+  csv_dir: "data/processed"
+  fig_dir: "results/figures"

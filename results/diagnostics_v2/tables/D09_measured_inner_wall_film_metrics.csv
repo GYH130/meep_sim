@@ -1,0 +1,10 @@
+case_name,polarization,film_thickness_um,coating_mode,resolution,mean_A_data_covered_band,peak_A,peak_wavelength_um,valid_sample_count,invalid_sample_count,band_average_status,min_film_grid_points,max_abs_T,any_transmission_failure,any_ti_extrapolation,enhancement_over_bare_absolute,enhancement_over_bare_relative,emissivity_candidate_class,enhancement_class,physics_note
+flat_Ti,Ez,0.0,none,32,0.07029472632958725,0.07776394709746794,9.0,3,0,valid,0.0,2.743320582248993e-16,False,False,-0.03385549581187701,-0.3250640768282958,LOW_ABSORPTION,LIMITED_ENHANCEMENT,
+bare_slanted_groove,Ez,0.0,none,32,0.10415022214146426,0.11740571304541027,9.0,3,0,valid,0.0,7.938307172248766e-05,False,False,0.0,0.0,LOW_ABSORPTION,LIMITED_ENHANCEMENT,
+inner_wall_film_slanted_groove,Ez,0.25,sidewalls_and_bottom,32,0.1107901471100604,0.1304207079427992,9.0,3,0,valid,8.0,7.92889654938282e-05,False,False,0.006639924968596139,0.0637533442758991,LOW_ABSORPTION,LIMITED_ENHANCEMENT,
+flat_Ti,Hz,0.0,none,32,0.07029473300827466,0.07776403751342563,9.0,3,0,valid,0.0,9.477885045702486e-17,False,False,,,LOW_ABSORPTION,NOT_QUANTITATIVE,
+bare_slanted_groove,Hz,0.0,none,32,,0.13768076038799681,12.0,2,1,insufficient_samples,0.0,0.011120849726418486,True,False,,,NOT_QUANTITATIVE,NOT_QUANTITATIVE,
+inner_wall_film_slanted_groove,Hz,0.25,sidewalls_and_bottom,32,,0.24217252250544938,9.0,2,1,insufficient_samples,8.0,0.009143969577010804,True,False,,,NOT_QUANTITATIVE,NOT_QUANTITATIVE,
+flat_Ti,unpolarized_2D_proxy,0.0,none,32,0.07029472966893095,0.07776399230544678,9.0,3,0,valid,0.0,2.743320582248993e-16,False,False,,,LOW_ABSORPTION,,A_unpolarized_2D_proxy=(A_Ez+A_Hz)/2; not a true 3D sample emissivity.
+bare_slanted_groove,unpolarized_2D_proxy,0.0,none,32,,0.1196237223085076,9.0,2,1,insufficient_samples,0.0,0.011120849726418486,True,False,,,,,A_unpolarized_2D_proxy=(A_Ez+A_Hz)/2; not a true 3D sample emissivity.
+inner_wall_film_slanted_groove,unpolarized_2D_proxy,0.25,sidewalls_and_bottom,32,,0.18629661522412427,9.0,2,1,insufficient_samples,8.0,0.009143969577010804,True,False,,,,,A_unpolarized_2D_proxy=(A_Ez+A_Hz)/2; not a true 3D sample emissivity.

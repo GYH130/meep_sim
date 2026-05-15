@@ -1,0 +1,4 @@
+case_name,case_label,polarization,oxide_thickness_um,oxide_mode,mean_A_8_13um,peak_A,peak_wavelength_um,min_A,max_A,all_finite,has_raw_flux,enhancement_over_bare,significant_enhancement,pass_or_fail,zero_thickness_degeneracy_delta
+bare_slanted_groove,Bare slanted groove,Ez,0.0,none,0.1290274455489037,0.1942837809206861,8.0,0.08112526847875806,0.1942837809206861,True,True,0.0,False,PASS,0.0
+oxide_slanted_groove_conformal_approx,Slanted groove + conformal oxide approx,Ez,0.0,conformal_approx,0.1290274455489037,0.1942837809206861,8.0,0.08112526847875806,0.1942837809206861,True,True,0.0,False,PASS,0.0
+oxide_slanted_groove_conformal_approx,Slanted groove + conformal oxide approx,Ez,0.2,conformal_approx,0.14493310984928556,0.22163812540280323,8.0,0.08770414263036315,0.22163812540280323,True,True,0.015905664300381872,False,PASS,
