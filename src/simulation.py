@@ -182,6 +182,9 @@ def run_periodic_2d_metal_spectrum(
             f"波段非法: [{wavelength_min_um}, {wavelength_max_um}] μm"
         )
 
+    if not (0 < courant <= 0.5):
+        raise ValueError("courant must be in the interval (0, 0.5].")
+
     component_map = {"Ez": mp.Ez, "Hz": mp.Hz}
     if source_component not in component_map:
         raise ValueError(
@@ -241,6 +244,7 @@ def run_periodic_2d_metal_spectrum(
         boundary_layers=pml_layers,
         sources=sources,
         resolution=resolution,
+        Courant=courant,
         k_point=mp.Vector3(),
         geometry=[],
         dimensions=2,
@@ -276,6 +280,7 @@ def run_periodic_2d_metal_spectrum(
         boundary_layers=pml_layers,
         sources=sources,
         resolution=resolution,
+        Courant=courant,
         k_point=mp.Vector3(),
         geometry=geometry,
         dimensions=2,
@@ -349,6 +354,7 @@ def run_periodic_2d_metal_single_wavelength(
     decay_db: float,
     source_component: str,
     fwidth_fraction: float = 0.06,
+    courant: float = 0.5,
     solver_version: str = "diagnostics_v2_signed_flux_single_wavelength",
     source_mode: str = "single_wavelength",
     logger: Any = None,
@@ -434,6 +440,7 @@ def run_periodic_2d_metal_single_wavelength(
         boundary_layers=pml_layers,
         sources=sources,
         resolution=resolution,
+        Courant=courant,
         k_point=mp.Vector3(),
         geometry=[],
         dimensions=2,
@@ -469,6 +476,7 @@ def run_periodic_2d_metal_single_wavelength(
         boundary_layers=pml_layers,
         sources=sources,
         resolution=resolution,
+        Courant=courant,
         k_point=mp.Vector3(),
         geometry=geometry,
         dimensions=2,
@@ -527,6 +535,7 @@ def run_periodic_2d_metal_single_wavelength(
         air_buffer_um=air_buffer_um,
         decay_db=decay_db,
         fwidth_fraction=fwidth_fraction,
+        courant=courant,
         material_model="caller_supplied_geometry_materials",
         walltime_s=t_ref + t_struct,
         geometry_y=dict(
