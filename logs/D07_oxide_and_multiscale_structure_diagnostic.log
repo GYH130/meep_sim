@@ -1,0 +1,66 @@
+2026-05-27 16:46:06 [INFO] D07_oxide_and_multiscale_structure_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D07_oxide_and_multiscale_structure_diagnostic.log
+2026-05-27 16:46:06 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> case=bare_slanted_groove pol=Ez oxide=0 mode=none
+2026-05-27 16:46:06 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] res=16, cell=(10.00, 14.00) μm, nfreq=3, fcen=0.1042, df=0.0417, comp=Ez
+2026-05-27 16:46:06 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] done in 0.52 s, |input_flux| ∈ [1.192e-02, 3.601e+02]
+2026-05-27 16:46:06 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-27 16:46:35 [INFO] D07_oxide_and_multiscale_structure_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D07_oxide_and_multiscale_structure_diagnostic.log
+2026-05-27 16:46:35 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> case=bare_slanted_groove pol=Ez oxide=0 mode=none
+2026-05-27 16:46:35 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] res=32, cell=(10.00, 14.00) μm, nfreq=3, fcen=0.1042, df=0.0417, comp=Ez
+2026-05-27 16:46:39 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] done in 3.51 s, |input_flux| ∈ [1.192e-02, 3.600e+02]
+2026-05-27 16:46:39 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-27 16:46:48 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] done in 8.95 s
+2026-05-27 16:46:48 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> case=oxide_slanted_groove_conformal_approx pol=Ez oxide=0 mode=conformal_approx
+2026-05-27 16:46:48 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] res=32, cell=(10.00, 14.00) μm, nfreq=3, fcen=0.1042, df=0.0417, comp=Ez
+2026-05-27 16:46:52 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] done in 3.59 s, |input_flux| ∈ [1.192e-02, 3.600e+02]
+2026-05-27 16:46:52 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-27 16:47:01 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] done in 9.04 s
+2026-05-27 16:47:01 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> case=oxide_slanted_groove_conformal_approx pol=Ez oxide=0.2 mode=conformal_approx
+2026-05-27 16:47:01 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] res=32, cell=(10.00, 14.00) μm, nfreq=3, fcen=0.1042, df=0.0417, comp=Ez
+2026-05-27 16:47:05 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] done in 3.62 s, |input_flux| ∈ [1.192e-02, 3.600e+02]
+2026-05-27 16:47:05 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] 5 objects in geometry (注入自 geometry_factory)
+2026-05-27 16:47:14 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] done in 9.51 s
+2026-05-27 16:47:15 [INFO] D07_oxide_and_multiscale_structure_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D07_oxide_thickness_sweep.csv
+2026-05-27 16:47:15 [INFO] D07_oxide_and_multiscale_structure_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D07_oxide_enhancement_metrics.csv
+2026-05-27 16:47:15 [INFO] D07_oxide_and_multiscale_structure_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/reports/D07_oxide_multiscale_diagnostic_report.md
+2026-05-27 16:47:15 [INFO] D07_oxide_and_multiscale_structure_diagnostic: D07 completed successfully.
+2026-05-27 16:56:49 [INFO] D07_oxide_and_multiscale_structure_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D07_oxide_and_multiscale_structure_diagnostic.log
+2026-05-27 16:56:49 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> case=bare_slanted_groove pol=Ez oxide=0 mode=none
+2026-05-27 16:56:49 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] res=32, cell=(10.00, 14.00) μm, nfreq=3, fcen=0.1042, df=0.0417, comp=Ez
+2026-05-27 16:56:52 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] done in 3.46 s, |input_flux| ∈ [1.192e-02, 3.600e+02]
+2026-05-27 16:56:52 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-27 16:57:01 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] done in 8.88 s
+2026-05-27 16:57:01 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> case=oxide_slanted_groove_conformal_approx pol=Ez oxide=0 mode=conformal_approx
+2026-05-27 16:57:01 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] res=32, cell=(10.00, 14.00) μm, nfreq=3, fcen=0.1042, df=0.0417, comp=Ez
+2026-05-27 16:57:05 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] done in 3.56 s, |input_flux| ∈ [1.192e-02, 3.600e+02]
+2026-05-27 16:57:05 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-27 16:57:14 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] done in 9.03 s
+2026-05-27 16:57:14 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> case=oxide_slanted_groove_conformal_approx pol=Ez oxide=0.2 mode=conformal_approx
+2026-05-27 16:57:14 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] res=32, cell=(10.00, 14.00) μm, nfreq=3, fcen=0.1042, df=0.0417, comp=Ez
+2026-05-27 16:57:18 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] done in 3.68 s, |input_flux| ∈ [1.192e-02, 3.600e+02]
+2026-05-27 16:57:18 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] 5 objects in geometry (注入自 geometry_factory)
+2026-05-27 16:57:27 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] done in 9.32 s
+2026-05-27 16:57:27 [INFO] D07_oxide_and_multiscale_structure_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D07_oxide_thickness_sweep.csv
+2026-05-27 16:57:27 [INFO] D07_oxide_and_multiscale_structure_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D07_oxide_enhancement_metrics.csv
+2026-05-27 16:57:27 [INFO] D07_oxide_and_multiscale_structure_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/reports/D07_oxide_multiscale_diagnostic_report.md
+2026-05-27 16:57:27 [INFO] D07_oxide_and_multiscale_structure_diagnostic: D07 completed successfully.
+2026-05-27 16:59:58 [INFO] D07_oxide_and_multiscale_structure_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D07_oxide_and_multiscale_structure_diagnostic.log
+2026-05-27 16:59:58 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> case=bare_slanted_groove pol=Ez oxide=0 mode=none
+2026-05-27 16:59:58 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] res=32, cell=(10.00, 14.00) μm, nfreq=3, fcen=0.1042, df=0.0417, comp=Ez
+2026-05-27 17:00:01 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] done in 3.46 s, |input_flux| ∈ [1.192e-02, 3.600e+02]
+2026-05-27 17:00:01 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-27 17:00:11 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] done in 9.53 s
+2026-05-27 17:00:11 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> case=oxide_slanted_groove_conformal_approx pol=Ez oxide=0 mode=conformal_approx
+2026-05-27 17:00:11 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] res=32, cell=(10.00, 14.00) μm, nfreq=3, fcen=0.1042, df=0.0417, comp=Ez
+2026-05-27 17:00:15 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] done in 3.57 s, |input_flux| ∈ [1.192e-02, 3.600e+02]
+2026-05-27 17:00:15 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-27 17:00:24 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] done in 9.06 s
+2026-05-27 17:00:24 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> case=oxide_slanted_groove_conformal_approx pol=Ez oxide=0.2 mode=conformal_approx
+2026-05-27 17:00:24 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] res=32, cell=(10.00, 14.00) μm, nfreq=3, fcen=0.1042, df=0.0417, comp=Ez
+2026-05-27 17:00:27 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [ref run] done in 3.62 s, |input_flux| ∈ [1.192e-02, 3.600e+02]
+2026-05-27 17:00:28 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] 5 objects in geometry (注入自 geometry_factory)
+2026-05-27 17:00:37 [INFO] D07_oxide_and_multiscale_structure_diagnostic: [struct run] done in 9.39 s
+2026-05-27 17:00:37 [INFO] D07_oxide_and_multiscale_structure_diagnostic: >>> best field snapshot case=oxide_slanted_groove_conformal_approx pol=Ez wl=8 oxide=0.2
+2026-05-27 17:01:19 [INFO] D07_oxide_and_multiscale_structure_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D07_oxide_thickness_sweep.csv
+2026-05-27 17:01:19 [INFO] D07_oxide_and_multiscale_structure_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D07_oxide_enhancement_metrics.csv
+2026-05-27 17:01:19 [INFO] D07_oxide_and_multiscale_structure_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/reports/D07_oxide_multiscale_diagnostic_report.md
+2026-05-27 17:01:19 [INFO] D07_oxide_and_multiscale_structure_diagnostic: D07 completed successfully.

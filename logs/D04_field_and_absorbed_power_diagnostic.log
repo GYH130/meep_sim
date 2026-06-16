@@ -1,0 +1,47 @@
+2026-05-27 14:23:20 [INFO] D04_field_and_absorbed_power_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D04_field_and_absorbed_power_diagnostic.log
+2026-05-27 14:23:20 [INFO] D04_field_and_absorbed_power_diagnostic: === D04_field_and_absorbed_power_diagnostic ===
+2026-05-27 14:23:20 [INFO] D04_field_and_absorbed_power_diagnostic: args={'wavelengths_um': ['10'], 'no_d02_peaks': True, 'cases': ['flat_Ti'], 'polarizations': ['Ez'], 'resolution': 12, 'period_um': 10.0, 'top_width_um': 4.0, 'bottom_width_um': 4.0, 'depth_um': 3.0, 'pml_thickness_um': 1.0, 'substrate_thickness_um': 3.0, 'air_buffer_um': 4.0, 'field_air_above_um': 1.5, 'fwidth_fraction': 0.08, 'decay_db': 20.0, 'wall_band_um': 0.35, 'bottom_band_um': 0.35, 'volume_flux_tol': 1.0, 'hotspot_ratio_threshold': 0.3}
+2026-05-27 14:23:20 [INFO] D04_field_and_absorbed_power_diagnostic: wavelengths_um=[10.0]
+2026-05-27 14:23:20 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 ref case=flat_Ti pol=Ez wl=10
+2026-05-27 14:23:21 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 struct case=flat_Ti pol=Ez wl=10
+2026-05-27 14:23:48 [INFO] D04_field_and_absorbed_power_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D04_field_and_absorbed_power_diagnostic.log
+2026-05-27 14:23:48 [INFO] D04_field_and_absorbed_power_diagnostic: === D04_field_and_absorbed_power_diagnostic ===
+2026-05-27 14:23:48 [INFO] D04_field_and_absorbed_power_diagnostic: args={'wavelengths_um': ['10'], 'no_d02_peaks': True, 'cases': ['flat_Ti'], 'polarizations': ['Ez'], 'resolution': 32, 'period_um': 10.0, 'top_width_um': 4.0, 'bottom_width_um': 4.0, 'depth_um': 3.0, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 4.0, 'field_air_above_um': 1.5, 'fwidth_fraction': 0.08, 'decay_db': 20.0, 'wall_band_um': 0.35, 'bottom_band_um': 0.35, 'volume_flux_tol': 1.0, 'hotspot_ratio_threshold': 0.3}
+2026-05-27 14:23:48 [INFO] D04_field_and_absorbed_power_diagnostic: wavelengths_um=[10.0]
+2026-05-27 14:23:48 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 ref case=flat_Ti pol=Ez wl=10
+2026-05-27 14:24:07 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 struct case=flat_Ti pol=Ez wl=10
+2026-05-27 14:25:47 [INFO] D04_field_and_absorbed_power_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D04_field_and_absorbed_power_diagnostic.log
+2026-05-27 14:25:47 [INFO] D04_field_and_absorbed_power_diagnostic: === D04_field_and_absorbed_power_diagnostic ===
+2026-05-27 14:25:47 [INFO] D04_field_and_absorbed_power_diagnostic: args={'wavelengths_um': ['10'], 'no_d02_peaks': True, 'cases': ['flat_Ti'], 'polarizations': ['Ez'], 'resolution': 32, 'period_um': 10.0, 'top_width_um': 4.0, 'bottom_width_um': 4.0, 'depth_um': 3.0, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 4.0, 'field_air_above_um': 1.5, 'fwidth_fraction': 0.08, 'decay_db': 20.0, 'wall_band_um': 0.35, 'bottom_band_um': 0.35, 'volume_flux_tol': 1.0, 'hotspot_ratio_threshold': 0.3}
+2026-05-27 14:25:47 [INFO] D04_field_and_absorbed_power_diagnostic: wavelengths_um=[10.0]
+2026-05-27 14:25:47 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 ref case=flat_Ti pol=Ez wl=10
+2026-05-27 14:26:06 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 struct case=flat_Ti pol=Ez wl=10
+2026-05-27 14:27:03 [INFO] D04_field_and_absorbed_power_diagnostic: saved integrals: /Users/luckydog/meep_sim/results/diagnostics/tables/D04_absorbed_power_integrals.csv
+2026-05-27 14:27:03 [INFO] D04_field_and_absorbed_power_diagnostic: saved hotspots: /Users/luckydog/meep_sim/results/diagnostics/tables/D04_hotspot_metrics.csv
+2026-05-27 14:27:03 [INFO] D04_field_and_absorbed_power_diagnostic: saved report: /Users/luckydog/meep_sim/results/diagnostics/reports/D04_field_absorption_mechanism_report.md
+2026-05-27 14:27:03 [INFO] D04_field_and_absorbed_power_diagnostic: saved 4 figures under /Users/luckydog/meep_sim/results/diagnostics/figures
+2026-05-27 14:27:03 [INFO] D04_field_and_absorbed_power_diagnostic: D04 PASS
+2026-05-27 14:33:57 [INFO] D04_field_and_absorbed_power_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D04_field_and_absorbed_power_diagnostic.log
+2026-05-27 14:33:57 [INFO] D04_field_and_absorbed_power_diagnostic: === D04_field_and_absorbed_power_diagnostic ===
+2026-05-27 14:33:57 [INFO] D04_field_and_absorbed_power_diagnostic: args={'wavelengths_um': ['10'], 'no_d02_peaks': True, 'cases': ['slanted_groove'], 'polarizations': ['Ez'], 'resolution': 32, 'period_um': 10.0, 'top_width_um': 4.0, 'bottom_width_um': 4.0, 'depth_um': 3.0, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 4.0, 'field_air_above_um': 1.5, 'fwidth_fraction': 0.08, 'decay_db': 20.0, 'wall_band_um': 0.35, 'bottom_band_um': 0.35, 'volume_flux_tol': 1.0, 'hotspot_ratio_threshold': 0.3}
+2026-05-27 14:33:57 [INFO] D04_field_and_absorbed_power_diagnostic: wavelengths_um=[10.0]
+2026-05-27 14:33:57 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 ref case=slanted_groove pol=Ez wl=10
+2026-05-27 14:34:15 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 struct case=slanted_groove pol=Ez wl=10
+2026-05-27 14:35:05 [INFO] D04_field_and_absorbed_power_diagnostic: saved integrals: /Users/luckydog/meep_sim/results/diagnostics/tables/D04_absorbed_power_integrals.csv
+2026-05-27 14:35:05 [INFO] D04_field_and_absorbed_power_diagnostic: saved hotspots: /Users/luckydog/meep_sim/results/diagnostics/tables/D04_hotspot_metrics.csv
+2026-05-27 14:35:05 [INFO] D04_field_and_absorbed_power_diagnostic: saved report: /Users/luckydog/meep_sim/results/diagnostics/reports/D04_field_absorption_mechanism_report.md
+2026-05-27 14:35:05 [INFO] D04_field_and_absorbed_power_diagnostic: saved 4 figures under /Users/luckydog/meep_sim/results/diagnostics/figures
+2026-05-27 14:35:05 [INFO] D04_field_and_absorbed_power_diagnostic: D04 PASS
+2026-05-27 14:35:48 [INFO] D04_field_and_absorbed_power_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D04_field_and_absorbed_power_diagnostic.log
+2026-05-27 14:35:48 [INFO] D04_field_and_absorbed_power_diagnostic: === D04_field_and_absorbed_power_diagnostic ===
+2026-05-27 14:35:48 [INFO] D04_field_and_absorbed_power_diagnostic: args={'wavelengths_um': ['10'], 'no_d02_peaks': True, 'cases': ['flat_Ti', 'slanted_groove'], 'polarizations': ['Ez'], 'resolution': 32, 'period_um': 10.0, 'top_width_um': 4.0, 'bottom_width_um': 4.0, 'depth_um': 3.0, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 4.0, 'field_air_above_um': 1.5, 'fwidth_fraction': 0.08, 'decay_db': 20.0, 'wall_band_um': 0.35, 'bottom_band_um': 0.35, 'volume_flux_tol': 1.0, 'hotspot_ratio_threshold': 0.3}
+2026-05-27 14:35:48 [INFO] D04_field_and_absorbed_power_diagnostic: wavelengths_um=[10.0]
+2026-05-27 14:35:48 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 ref case=flat_Ti pol=Ez wl=10
+2026-05-27 14:36:07 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 struct case=flat_Ti pol=Ez wl=10
+2026-05-27 14:37:06 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 ref case=slanted_groove pol=Ez wl=10
+2026-05-27 14:37:30 [INFO] D04_field_and_absorbed_power_diagnostic: >>> D04 struct case=slanted_groove pol=Ez wl=10
+2026-05-27 14:38:36 [INFO] D04_field_and_absorbed_power_diagnostic: saved integrals: /Users/luckydog/meep_sim/results/diagnostics/tables/D04_absorbed_power_integrals.csv
+2026-05-27 14:38:36 [INFO] D04_field_and_absorbed_power_diagnostic: saved hotspots: /Users/luckydog/meep_sim/results/diagnostics/tables/D04_hotspot_metrics.csv
+2026-05-27 14:38:36 [INFO] D04_field_and_absorbed_power_diagnostic: saved report: /Users/luckydog/meep_sim/results/diagnostics/reports/D04_field_absorption_mechanism_report.md
+2026-05-27 14:38:36 [INFO] D04_field_and_absorbed_power_diagnostic: saved 8 figures under /Users/luckydog/meep_sim/results/diagnostics/figures
+2026-05-27 14:38:36 [INFO] D04_field_and_absorbed_power_diagnostic: D04 PASS

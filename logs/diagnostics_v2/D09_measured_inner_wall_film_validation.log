@@ -1,0 +1,98 @@
+2026-05-28 11:39:07 [ERROR] D09_measured_inner_wall_film: D09 failed
+Traceback (most recent call last):
+  File "/Users/luckydog/meep_sim/scripts/D09_measured_inner_wall_film_validation.py", line 999, in main
+    _configure_args(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/luckydog/meep_sim/scripts/D09_measured_inner_wall_film_validation.py", line 964, in _configure_args
+    nk_table = load_measured_nk_table(args.nk_csv)
+  File "/Users/luckydog/meep_sim/src/materials.py", line 286, in load_measured_nk_table
+    raise FileNotFoundError(f"Measured n,k CSV not found: {path}")
+FileNotFoundError: Measured n,k CSV not found: data/processed/measured_lossy_wall_film_nk_sheet2.csv
+2026-05-28 11:40:04 [ERROR] D09_measured_inner_wall_film: D09 failed
+Traceback (most recent call last):
+  File "/Users/luckydog/meep_sim/scripts/D09_measured_inner_wall_film_validation.py", line 1007, in main
+    _configure_args(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/luckydog/meep_sim/scripts/D09_measured_inner_wall_film_validation.py", line 964, in _configure_args
+    nk_table = load_measured_nk_table(args.nk_csv)
+  File "/Users/luckydog/meep_sim/src/materials.py", line 286, in load_measured_nk_table
+    raise FileNotFoundError(f"Measured n,k CSV not found: {path}")
+FileNotFoundError: Measured n,k CSV not found: data/processed/measured_lossy_wall_film_nk_sheet2.csv
+2026-05-28 11:46:36 [INFO] D09_measured_inner_wall_film: >>> flat_Ti pol=Ez wl=9 res=48
+2026-05-28 11:46:36 [INFO] D09_measured_inner_wall_film: [single ref] wl=9 um, f=0.111111, res=48, comp=Ez
+2026-05-28 11:49:09 [INFO] D09_measured_inner_wall_film: [single struct] 1 geometry objects
+2026-05-28 11:57:44 [INFO] D09_measured_inner_wall_film: >>> bare_slanted pol=Ez wl=9 res=48
+2026-05-28 11:57:44 [INFO] D09_measured_inner_wall_film: [single ref] wl=9 um, f=0.111111, res=48, comp=Ez
+2026-05-28 12:00:51 [INFO] D09_measured_inner_wall_film: [single struct] 2 geometry objects
+2026-05-28 12:08:21 [INFO] D09_measured_inner_wall_film: >>> flat_Ti pol=Ez wl=9 res=48
+2026-05-28 12:08:21 [INFO] D09_measured_inner_wall_film: [single ref] wl=9 um, f=0.111111, res=48, comp=Ez
+2026-05-28 12:11:22 [INFO] D09_measured_inner_wall_film: [single struct] 1 geometry objects
+2026-05-28 12:17:36 [INFO] D09_measured_inner_wall_film: >>> flat_Ti pol=Ez wl=10 res=32
+2026-05-28 12:17:36 [INFO] D09_measured_inner_wall_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 12:17:45 [INFO] D09_measured_inner_wall_film: [single struct] 1 geometry objects
+2026-05-28 12:18:12 [INFO] D09_measured_inner_wall_film: >>> bare_slanted pol=Ez wl=10 res=32
+2026-05-28 12:18:12 [INFO] D09_measured_inner_wall_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 12:18:21 [INFO] D09_measured_inner_wall_film: [single struct] 2 geometry objects
+2026-05-28 12:18:43 [INFO] D09_measured_inner_wall_film: >>> coated t=0.25 pol=Ez wl=10 res=32
+2026-05-28 12:18:43 [INFO] D09_measured_inner_wall_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 12:18:52 [INFO] D09_measured_inner_wall_film: [single struct] 3 geometry objects
+2026-05-28 12:19:18 [INFO] D09_measured_inner_wall_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D09_measured_inner_wall_film_spectra.csv
+2026-05-28 12:19:18 [INFO] D09_measured_inner_wall_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D09_measured_inner_wall_film_metrics.csv
+2026-05-28 12:19:18 [INFO] D09_measured_inner_wall_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/reports/D09_measured_inner_wall_film_validation_report.md
+2026-05-28 13:20:04 [INFO] D09_measured_inner_wall_film: >>> flat_Ti pol=Ez wl=9 res=32
+2026-05-28 13:20:04 [INFO] D09_measured_inner_wall_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-28 13:20:11 [INFO] D09_measured_inner_wall_film: [single struct] 1 geometry objects
+2026-05-28 13:20:28 [INFO] D09_measured_inner_wall_film: >>> bare_slanted pol=Ez wl=9 res=32
+2026-05-28 13:20:28 [INFO] D09_measured_inner_wall_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-28 13:20:35 [INFO] D09_measured_inner_wall_film: [single struct] 2 geometry objects
+2026-05-28 13:20:53 [INFO] D09_measured_inner_wall_film: >>> coated t=0.25 pol=Ez wl=9 res=32
+2026-05-28 13:20:53 [INFO] D09_measured_inner_wall_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-28 13:21:00 [INFO] D09_measured_inner_wall_film: [single struct] 3 geometry objects
+2026-05-28 13:21:19 [INFO] D09_measured_inner_wall_film: >>> flat_Ti pol=Ez wl=10 res=32
+2026-05-28 13:21:19 [INFO] D09_measured_inner_wall_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 13:21:27 [INFO] D09_measured_inner_wall_film: [single struct] 1 geometry objects
+2026-05-28 13:21:54 [INFO] D09_measured_inner_wall_film: >>> bare_slanted pol=Ez wl=10 res=32
+2026-05-28 13:21:54 [INFO] D09_measured_inner_wall_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 13:22:02 [INFO] D09_measured_inner_wall_film: [single struct] 2 geometry objects
+2026-05-28 13:22:23 [INFO] D09_measured_inner_wall_film: >>> coated t=0.25 pol=Ez wl=10 res=32
+2026-05-28 13:22:23 [INFO] D09_measured_inner_wall_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 13:22:32 [INFO] D09_measured_inner_wall_film: [single struct] 3 geometry objects
+2026-05-28 13:22:59 [INFO] D09_measured_inner_wall_film: >>> flat_Ti pol=Ez wl=12 res=32
+2026-05-28 13:22:59 [INFO] D09_measured_inner_wall_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Ez
+2026-05-28 13:23:10 [INFO] D09_measured_inner_wall_film: [single struct] 1 geometry objects
+2026-05-28 13:23:46 [INFO] D09_measured_inner_wall_film: >>> bare_slanted pol=Ez wl=12 res=32
+2026-05-28 13:23:46 [INFO] D09_measured_inner_wall_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Ez
+2026-05-28 13:23:58 [INFO] D09_measured_inner_wall_film: [single struct] 2 geometry objects
+2026-05-28 13:24:33 [INFO] D09_measured_inner_wall_film: >>> coated t=0.25 pol=Ez wl=12 res=32
+2026-05-28 13:24:33 [INFO] D09_measured_inner_wall_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Ez
+2026-05-28 13:24:46 [INFO] D09_measured_inner_wall_film: [single struct] 3 geometry objects
+2026-05-28 13:25:25 [INFO] D09_measured_inner_wall_film: >>> flat_Ti pol=Hz wl=9 res=32
+2026-05-28 13:25:25 [INFO] D09_measured_inner_wall_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Hz
+2026-05-28 13:25:36 [INFO] D09_measured_inner_wall_film: [single struct] 1 geometry objects
+2026-05-28 13:26:24 [INFO] D09_measured_inner_wall_film: >>> bare_slanted pol=Hz wl=9 res=32
+2026-05-28 13:26:24 [INFO] D09_measured_inner_wall_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Hz
+2026-05-28 13:26:35 [INFO] D09_measured_inner_wall_film: [single struct] 2 geometry objects
+2026-05-28 13:27:25 [INFO] D09_measured_inner_wall_film: >>> coated t=0.25 pol=Hz wl=9 res=32
+2026-05-28 13:27:25 [INFO] D09_measured_inner_wall_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Hz
+2026-05-28 13:27:37 [INFO] D09_measured_inner_wall_film: [single struct] 3 geometry objects
+2026-05-28 13:28:30 [INFO] D09_measured_inner_wall_film: >>> flat_Ti pol=Hz wl=10 res=32
+2026-05-28 13:28:30 [INFO] D09_measured_inner_wall_film: [single ref] wl=10 um, f=0.1, res=32, comp=Hz
+2026-05-28 13:28:42 [INFO] D09_measured_inner_wall_film: [single struct] 1 geometry objects
+2026-05-28 13:29:42 [INFO] D09_measured_inner_wall_film: >>> bare_slanted pol=Hz wl=10 res=32
+2026-05-28 13:29:42 [INFO] D09_measured_inner_wall_film: [single ref] wl=10 um, f=0.1, res=32, comp=Hz
+2026-05-28 13:29:56 [INFO] D09_measured_inner_wall_film: [single struct] 2 geometry objects
+2026-05-28 13:30:53 [INFO] D09_measured_inner_wall_film: >>> coated t=0.25 pol=Hz wl=10 res=32
+2026-05-28 13:30:53 [INFO] D09_measured_inner_wall_film: [single ref] wl=10 um, f=0.1, res=32, comp=Hz
+2026-05-28 13:31:04 [INFO] D09_measured_inner_wall_film: [single struct] 3 geometry objects
+2026-05-28 13:32:01 [INFO] D09_measured_inner_wall_film: >>> flat_Ti pol=Hz wl=12 res=32
+2026-05-28 13:32:01 [INFO] D09_measured_inner_wall_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Hz
+2026-05-28 13:32:15 [INFO] D09_measured_inner_wall_film: [single struct] 1 geometry objects
+2026-05-28 13:33:16 [INFO] D09_measured_inner_wall_film: >>> bare_slanted pol=Hz wl=12 res=32
+2026-05-28 13:33:16 [INFO] D09_measured_inner_wall_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Hz
+2026-05-28 13:33:30 [INFO] D09_measured_inner_wall_film: [single struct] 2 geometry objects
+2026-05-28 13:34:34 [INFO] D09_measured_inner_wall_film: >>> coated t=0.25 pol=Hz wl=12 res=32
+2026-05-28 13:34:34 [INFO] D09_measured_inner_wall_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Hz
+2026-05-28 13:34:48 [INFO] D09_measured_inner_wall_film: [single struct] 3 geometry objects
+2026-05-28 13:35:59 [INFO] D09_measured_inner_wall_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D09_measured_inner_wall_film_spectra.csv
+2026-05-28 13:35:59 [INFO] D09_measured_inner_wall_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D09_measured_inner_wall_film_metrics.csv
+2026-05-28 13:35:59 [INFO] D09_measured_inner_wall_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/reports/D09_measured_inner_wall_film_validation_report.md

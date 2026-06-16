@@ -1,0 +1,5 @@
+2026-05-27 20:48:20 [INFO] V00_validate_common_metrics: Log file: /Users/luckydog/meep_sim/logs/diagnostics_v2/V00_validate_common_metrics.log
+2026-05-27 20:48:20 [INFO] V00_validate_common_metrics: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-27 20:48:44 [INFO] V00_validate_common_metrics: [single struct] 1 geometry objects
+2026-05-27 20:49:49 [INFO] V00_validate_common_metrics: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/V00_common_metrics_validation.csv
+2026-05-27 20:49:49 [INFO] V00_validate_common_metrics: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/reports/V00_common_metrics_validation_report.md

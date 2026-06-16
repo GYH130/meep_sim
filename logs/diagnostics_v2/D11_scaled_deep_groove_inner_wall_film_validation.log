@@ -1,0 +1,456 @@
+2026-05-28 19:44:41 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-28 19:44:41 [INFO] D11_scaled_deep_groove: >>> case=scaled_bare_slanted_groove pol=Ez wl=10 res=16 pml=4
+2026-05-28 19:44:41 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=16, comp=Ez
+2026-05-28 19:44:56 [INFO] D11_scaled_deep_groove: [single struct] 2 geometry objects
+2026-05-28 19:45:12 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-28 19:45:12 [INFO] D11_scaled_deep_groove: >>> case=scaled_bare_slanted_groove pol=Ez wl=10 res=32 pml=4
+2026-05-28 19:45:12 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 19:51:02 [INFO] D11_scaled_deep_groove: [single struct] 2 geometry objects
+2026-05-28 19:58:51 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-28 19:58:51 [INFO] D11_scaled_deep_groove: >>> case=scaled_bare_slanted_groove pol=Ez wl=10 res=32 pml=4
+2026-05-28 19:58:51 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 20:09:03 [INFO] D11_scaled_deep_groove: [single struct] 2 geometry objects
+2026-05-29 16:13:34 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 16:13:34 [INFO] D11_scaled_deep_groove: >>> case=scaled_bare_slanted_groove pol=Ez wl=9 res=32 pml=4
+2026-05-29 16:13:34 [INFO] D11_scaled_deep_groove: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-29 16:25:18 [INFO] D11_scaled_deep_groove: [single struct] 2 geometry objects
+2026-05-29 16:28:51 [ERROR] D11_scaled_deep_groove: D11 failed
+BrokenPipeError: [Errno 32] Broken pipe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1528, in main
+    rows.append(_run_one(case_name, pol, wl, resolution, pml_um, args, logger))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 513, in _run_one
+    result = run_periodic_2d_metal_single_wavelength(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/src/simulation.py", line 493, in run_periodic_2d_metal_single_wavelength
+    sim.run(
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 4562, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2885, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2843, in _run_until
+    self.fields.step()
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/__init__.py", line 3054, in step
+    return _meep.fields_step(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+SystemError: <built-in function fields_step> returned a result with an exception set
+2026-05-29 17:04:49 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 17:04:49 [INFO] D11_scaled_deep_groove: Prepared 2 D11 single-wavelength tasks; workers=2; task_timeout_s=None
+2026-05-29 17:04:50 [INFO] D11_scaled_deep_groove.worker.1224: >>> worker task=0 case=scaled_bare_slanted_groove pol=Ez wl=10 res=16 pml=4
+2026-05-29 17:04:50 [INFO] D11_scaled_deep_groove.worker.1225: >>> worker task=1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=16 pml=4
+2026-05-29 17:04:50 [INFO] D11_scaled_deep_groove.worker.1224: [single ref] wl=10 um, f=0.1, res=16, comp=Ez
+2026-05-29 17:04:50 [INFO] D11_scaled_deep_groove.worker.1225: [single ref] wl=10 um, f=0.1, res=16, comp=Ez
+2026-05-29 17:06:31 [INFO] D11_scaled_deep_groove.worker.1224: [single struct] 2 geometry objects
+2026-05-29 17:06:33 [INFO] D11_scaled_deep_groove.worker.1225: [single struct] 3 geometry objects
+2026-05-29 17:06:39 [ERROR] D11_scaled_deep_groove: D11 failed
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/concurrent/futures/process.py", line 261, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1553, in _run_one_task
+    row = _run_one(case_name, pol, wl, resolution, pml_um, args, logger)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 531, in _run_one
+    result = run_periodic_2d_metal_single_wavelength(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/src/simulation.py", line 493, in run_periodic_2d_metal_single_wavelength
+    sim.run(
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 4562, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2885, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2843, in _run_until
+    self.fields.step()
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/__init__.py", line 3054, in step
+    return _meep.fields_step(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: meep: simulation fields are NaN or Inf
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1673, in main
+    rows = _run_tasks(tasks, args, paths, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1602, in _run_tasks
+    index, row = fut.result()
+                 ^^^^^^^^^^^^
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+RuntimeError: meep: simulation fields are NaN or Inf
+2026-05-29 19:18:12 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 19:18:13 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 19:18:13 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=32 pml=4
+2026-05-29 19:18:13 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-29 19:32:00 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 19:48:22 [ERROR] D11_scaled_deep_groove: D11 failed
+BrokenPipeError: [Errno 32] Broken pipe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1690, in main
+    rows = _run_tasks(tasks, args, paths, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1580, in _run_tasks
+    rows.append(_run_one(case_name, pol, wl, resolution, pml_um, args, logger))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 532, in _run_one
+    result = run_periodic_2d_metal_single_wavelength(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/src/simulation.py", line 493, in run_periodic_2d_metal_single_wavelength
+    sim.run(
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 4562, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2885, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2843, in _run_until
+    self.fields.step()
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/__init__.py", line 3054, in step
+    return _meep.fields_step(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+SystemError: <built-in function fields_step> returned a result with an exception set
+2026-05-29 19:53:34 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 19:53:35 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 19:53:35 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 19:53:35 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 19:59:18 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:00:04 [ERROR] D11_scaled_deep_groove: D11 failed
+Traceback (most recent call last):
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1690, in main
+    rows = _run_tasks(tasks, args, paths, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1580, in _run_tasks
+    rows.append(_run_one(case_name, pol, wl, resolution, pml_um, args, logger))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 532, in _run_one
+    result = run_periodic_2d_metal_single_wavelength(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/src/simulation.py", line 493, in run_periodic_2d_metal_single_wavelength
+    sim.run(
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 4562, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2885, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2843, in _run_until
+    self.fields.step()
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/__init__.py", line 3054, in step
+    return _meep.fields_step(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: meep: simulation fields are NaN or Inf
+2026-05-29 20:02:37 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:02:37 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:02:37 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_bare_slanted_groove pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:02:37 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:08:16 [INFO] D11_scaled_deep_groove: [single struct] 2 geometry objects
+2026-05-29 20:08:56 [ERROR] D11_scaled_deep_groove: D11 failed
+Traceback (most recent call last):
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1690, in main
+    rows = _run_tasks(tasks, args, paths, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1580, in _run_tasks
+    rows.append(_run_one(case_name, pol, wl, resolution, pml_um, args, logger))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 532, in _run_one
+    result = run_periodic_2d_metal_single_wavelength(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/src/simulation.py", line 493, in run_periodic_2d_metal_single_wavelength
+    sim.run(
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 4562, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2885, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2843, in _run_until
+    self.fields.step()
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/__init__.py", line 3054, in step
+    return _meep.fields_step(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: meep: simulation fields are NaN or Inf
+2026-05-29 20:09:27 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:09:27 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:09:27 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=flat_Ti pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:09:27 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:15:35 [INFO] D11_scaled_deep_groove: [single struct] 1 geometry objects
+2026-05-29 20:16:18 [ERROR] D11_scaled_deep_groove: D11 failed
+Traceback (most recent call last):
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1690, in main
+    rows = _run_tasks(tasks, args, paths, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1580, in _run_tasks
+    rows.append(_run_one(case_name, pol, wl, resolution, pml_um, args, logger))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 532, in _run_one
+    result = run_periodic_2d_metal_single_wavelength(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/src/simulation.py", line 493, in run_periodic_2d_metal_single_wavelength
+    sim.run(
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 4562, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2885, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2843, in _run_until
+    self.fields.step()
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/__init__.py", line 3054, in step
+    return _meep.fields_step(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: meep: simulation fields are NaN or Inf
+2026-05-29 20:21:20 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:21:21 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:21:21 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=flat_Ti pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:21:21 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:27:38 [INFO] D11_scaled_deep_groove: [single struct] 1 geometry objects
+2026-05-29 20:28:19 [ERROR] D11_scaled_deep_groove: D11 failed
+Traceback (most recent call last):
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1700, in main
+    rows = _run_tasks(tasks, args, paths, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1584, in _run_tasks
+    rows.append(_run_one(case_name, pol, wl, resolution, pml_um, args, logger))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 535, in _run_one
+    result = run_periodic_2d_metal_single_wavelength(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/src/simulation.py", line 499, in run_periodic_2d_metal_single_wavelength
+    sim.run(
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 4562, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2885, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2843, in _run_until
+    self.fields.step()
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/__init__.py", line 3054, in step
+    return _meep.fields_step(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: meep: simulation fields are NaN or Inf
+2026-05-29 20:30:48 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:30:48 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:30:48 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=flat_Ti pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:30:48 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:41:53 [INFO] D11_scaled_deep_groove: [single struct] 1 geometry objects
+2026-05-29 20:51:06 [ERROR] D11_scaled_deep_groove: D11 failed
+BrokenPipeError: [Errno 32] Broken pipe
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1700, in main
+    rows = _run_tasks(tasks, args, paths, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 1584, in _run_tasks
+    rows.append(_run_one(case_name, pol, wl, resolution, pml_um, args, logger))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D11_scaled_deep_slanted_groove_inner_wall_film_validation.py", line 535, in _run_one
+    result = run_periodic_2d_metal_single_wavelength(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/src/simulation.py", line 501, in run_periodic_2d_metal_single_wavelength
+    sim.run(
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 4562, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2885, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2843, in _run_until
+    self.fields.step()
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/__init__.py", line 3054, in step
+    return _meep.fields_step(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+SystemError: <built-in function fields_step> returned a result with an exception set
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: Prepared 1 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: >>> task=1/1 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=24 pml=4
+2026-05-29 20:56:02 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 20:57:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-29 21:03:24 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md
+2026-05-29 21:10:59 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 21:11:00 [INFO] D11_scaled_deep_groove: Prepared 6 D11 single-wavelength tasks; workers=1; task_timeout_s=None
+2026-05-29 21:11:00 [INFO] D11_scaled_deep_groove: >>> task=1/6 case=scaled_inner_wall_film_500nm pol=Ez wl=9 res=32 pml=4
+2026-05-29 21:11:00 [INFO] D11_scaled_deep_groove: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-29 21:13:18 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 21:29:30 [INFO] D11_scaled_deep_groove: >>> task=2/6 case=scaled_inner_wall_film_500nm pol=Ez wl=10 res=32 pml=4
+2026-05-29 21:29:30 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-29 21:33:27 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 21:54:17 [INFO] D11_scaled_deep_groove: >>> task=3/6 case=scaled_inner_wall_film_500nm pol=Ez wl=12 res=32 pml=4
+2026-05-29 21:54:17 [INFO] D11_scaled_deep_groove: [single ref] wl=12 um, f=0.0833333, res=32, comp=Ez
+2026-05-29 21:58:58 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 22:20:26 [INFO] D11_scaled_deep_groove: >>> task=4/6 case=scaled_inner_wall_film_500nm pol=Hz wl=9 res=32 pml=4
+2026-05-29 22:20:26 [INFO] D11_scaled_deep_groove: [single ref] wl=9 um, f=0.111111, res=32, comp=Hz
+2026-05-29 22:24:19 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 23:04:39 [INFO] D11_scaled_deep_groove: >>> task=5/6 case=scaled_inner_wall_film_500nm pol=Hz wl=10 res=32 pml=4
+2026-05-29 23:04:39 [INFO] D11_scaled_deep_groove: [single ref] wl=10 um, f=0.1, res=32, comp=Hz
+2026-05-29 23:09:11 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 23:32:28 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-29 23:32:28 [INFO] D11_scaled_deep_groove: Prepared 10 D11 single-wavelength tasks; workers=1; task_timeout_s=None (not enforced)
+2026-05-29 23:32:28 [INFO] D11_scaled_deep_groove: >>> task=1/10 case=scaled_inner_wall_film_500nm pol=Ez wl=8.1014 res=24 pml=4
+2026-05-29 23:32:28 [INFO] D11_scaled_deep_groove: [single ref] wl=8.1014 um, f=0.123435, res=24, comp=Ez
+2026-05-29 23:33:21 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 23:37:10 [INFO] D11_scaled_deep_groove: Checkpointed 1 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-05-29 23:37:10 [INFO] D11_scaled_deep_groove: >>> task=2/10 case=scaled_inner_wall_film_500nm pol=Ez wl=9.0016 res=24 pml=4
+2026-05-29 23:37:10 [INFO] D11_scaled_deep_groove: [single ref] wl=9.0016 um, f=0.111091, res=24, comp=Ez
+2026-05-29 23:38:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 23:42:13 [INFO] D11_scaled_deep_groove: Checkpointed 2 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-05-29 23:42:13 [INFO] D11_scaled_deep_groove: >>> task=3/10 case=scaled_inner_wall_film_500nm pol=Ez wl=10.009 res=24 pml=4
+2026-05-29 23:42:13 [INFO] D11_scaled_deep_groove: [single ref] wl=10.009 um, f=0.0999101, res=24, comp=Ez
+2026-05-29 23:43:47 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 23:48:15 [INFO] D11_scaled_deep_groove: Checkpointed 3 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-05-29 23:48:15 [INFO] D11_scaled_deep_groove: >>> task=4/10 case=scaled_inner_wall_film_500nm pol=Ez wl=10.985 res=24 pml=4
+2026-05-29 23:48:15 [INFO] D11_scaled_deep_groove: [single ref] wl=10.985 um, f=0.0910332, res=24, comp=Ez
+2026-05-29 23:49:22 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-29 23:54:13 [INFO] D11_scaled_deep_groove: Checkpointed 4 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-05-29 23:54:13 [INFO] D11_scaled_deep_groove: >>> task=5/10 case=scaled_inner_wall_film_500nm pol=Ez wl=12.345 res=24 pml=4
+2026-05-29 23:54:13 [INFO] D11_scaled_deep_groove: [single ref] wl=12.345 um, f=0.0810045, res=24, comp=Ez
+2026-05-29 23:55:28 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 00:01:01 [INFO] D11_scaled_deep_groove: Checkpointed 5 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-05-30 00:01:01 [INFO] D11_scaled_deep_groove: >>> task=6/10 case=scaled_inner_wall_film_500nm pol=Hz wl=8.1014 res=24 pml=4
+2026-05-30 00:01:01 [INFO] D11_scaled_deep_groove: [single ref] wl=8.1014 um, f=0.123435, res=24, comp=Hz
+2026-05-30 00:02:05 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 00:13:27 [INFO] D11_scaled_deep_groove: Checkpointed 6 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-05-30 00:13:27 [INFO] D11_scaled_deep_groove: >>> task=7/10 case=scaled_inner_wall_film_500nm pol=Hz wl=9.0016 res=24 pml=4
+2026-05-30 00:13:27 [INFO] D11_scaled_deep_groove: [single ref] wl=9.0016 um, f=0.111091, res=24, comp=Hz
+2026-05-30 00:14:38 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 00:27:11 [INFO] D11_scaled_deep_groove: Checkpointed 7 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-05-30 00:27:11 [INFO] D11_scaled_deep_groove: >>> task=8/10 case=scaled_inner_wall_film_500nm pol=Hz wl=10.009 res=24 pml=4
+2026-05-30 00:27:11 [INFO] D11_scaled_deep_groove: [single ref] wl=10.009 um, f=0.0999101, res=24, comp=Hz
+2026-05-30 00:28:43 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 00:42:46 [INFO] D11_scaled_deep_groove: Checkpointed 8 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-05-30 00:42:46 [INFO] D11_scaled_deep_groove: >>> task=9/10 case=scaled_inner_wall_film_500nm pol=Hz wl=10.985 res=24 pml=4
+2026-05-30 00:42:46 [INFO] D11_scaled_deep_groove: [single ref] wl=10.985 um, f=0.0910332, res=24, comp=Hz
+2026-05-30 00:44:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 00:59:34 [INFO] D11_scaled_deep_groove: Checkpointed 9 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-05-30 00:59:34 [INFO] D11_scaled_deep_groove: >>> task=10/10 case=scaled_inner_wall_film_500nm pol=Hz wl=12.345 res=24 pml=4
+2026-05-30 00:59:34 [INFO] D11_scaled_deep_groove: [single ref] wl=12.345 um, f=0.0810045, res=24, comp=Hz
+2026-05-30 01:01:06 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 01:23:20 [INFO] D11_scaled_deep_groove: Checkpointed 10 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-05-30 01:23:22 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv
+2026-05-30 01:23:22 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv
+2026-05-30 01:23:22 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_scaled_deep_groove_inner_wall_film_validation_report.md

@@ -1,0 +1,45 @@
+2026-05-30 11:17:37 [INFO] D11_scaled_deep_groove: Starting D11 mode=smoke
+2026-05-30 11:17:38 [INFO] D11_scaled_deep_groove: Prepared 10 D11 single-wavelength tasks; workers=1; task_timeout_s=None (not enforced)
+2026-05-30 11:17:38 [INFO] D11_scaled_deep_groove: >>> task=1/10 case=scaled_inner_wall_film_3um pol=Ez wl=8.1014 res=24 pml=4
+2026-05-30 11:17:38 [INFO] D11_scaled_deep_groove: [single ref] wl=8.1014 um, f=0.123435, res=24, comp=Ez
+2026-05-30 11:19:43 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 11:41:07 [INFO] D11_scaled_deep_groove: Checkpointed 1 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra_checkpoint.csv
+2026-05-30 11:41:07 [INFO] D11_scaled_deep_groove: >>> task=2/10 case=scaled_inner_wall_film_3um pol=Ez wl=9.0016 res=24 pml=4
+2026-05-30 11:41:07 [INFO] D11_scaled_deep_groove: [single ref] wl=9.0016 um, f=0.111091, res=24, comp=Ez
+2026-05-30 11:43:28 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 12:06:56 [INFO] D11_scaled_deep_groove: Checkpointed 2 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra_checkpoint.csv
+2026-05-30 12:06:56 [INFO] D11_scaled_deep_groove: >>> task=3/10 case=scaled_inner_wall_film_3um pol=Ez wl=10.009 res=24 pml=4
+2026-05-30 12:06:56 [INFO] D11_scaled_deep_groove: [single ref] wl=10.009 um, f=0.0999101, res=24, comp=Ez
+2026-05-30 12:09:26 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 12:35:38 [INFO] D11_scaled_deep_groove: Checkpointed 3 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra_checkpoint.csv
+2026-05-30 12:35:38 [INFO] D11_scaled_deep_groove: >>> task=4/10 case=scaled_inner_wall_film_3um pol=Ez wl=10.985 res=24 pml=4
+2026-05-30 12:35:38 [INFO] D11_scaled_deep_groove: [single ref] wl=10.985 um, f=0.0910332, res=24, comp=Ez
+2026-05-30 12:38:19 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 13:06:49 [INFO] D11_scaled_deep_groove: Checkpointed 4 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra_checkpoint.csv
+2026-05-30 13:06:49 [INFO] D11_scaled_deep_groove: >>> task=5/10 case=scaled_inner_wall_film_3um pol=Ez wl=12.345 res=24 pml=4
+2026-05-30 13:06:49 [INFO] D11_scaled_deep_groove: [single ref] wl=12.345 um, f=0.0810045, res=24, comp=Ez
+2026-05-30 13:10:00 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 13:41:59 [INFO] D11_scaled_deep_groove: Checkpointed 5 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra_checkpoint.csv
+2026-05-30 13:41:59 [INFO] D11_scaled_deep_groove: >>> task=6/10 case=scaled_inner_wall_film_3um pol=Hz wl=8.1014 res=24 pml=4
+2026-05-30 13:42:00 [INFO] D11_scaled_deep_groove: [single ref] wl=8.1014 um, f=0.123435, res=24, comp=Hz
+2026-05-30 13:44:51 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 14:31:13 [INFO] D11_scaled_deep_groove: Checkpointed 6 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra_checkpoint.csv
+2026-05-30 14:31:13 [INFO] D11_scaled_deep_groove: >>> task=7/10 case=scaled_inner_wall_film_3um pol=Hz wl=9.0016 res=24 pml=4
+2026-05-30 14:31:13 [INFO] D11_scaled_deep_groove: [single ref] wl=9.0016 um, f=0.111091, res=24, comp=Hz
+2026-05-30 14:34:22 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 15:25:13 [INFO] D11_scaled_deep_groove: Checkpointed 7 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra_checkpoint.csv
+2026-05-30 15:25:13 [INFO] D11_scaled_deep_groove: >>> task=8/10 case=scaled_inner_wall_film_3um pol=Hz wl=10.009 res=24 pml=4
+2026-05-30 15:25:13 [INFO] D11_scaled_deep_groove: [single ref] wl=10.009 um, f=0.0999101, res=24, comp=Hz
+2026-05-30 15:28:49 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 16:25:18 [INFO] D11_scaled_deep_groove: Checkpointed 8 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra_checkpoint.csv
+2026-05-30 16:25:18 [INFO] D11_scaled_deep_groove: >>> task=9/10 case=scaled_inner_wall_film_3um pol=Hz wl=10.985 res=24 pml=4
+2026-05-30 16:25:18 [INFO] D11_scaled_deep_groove: [single ref] wl=10.985 um, f=0.0910332, res=24, comp=Hz
+2026-05-30 16:29:07 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 17:31:08 [INFO] D11_scaled_deep_groove: Checkpointed 9 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra_checkpoint.csv
+2026-05-30 17:31:08 [INFO] D11_scaled_deep_groove: >>> task=10/10 case=scaled_inner_wall_film_3um pol=Hz wl=12.345 res=24 pml=4
+2026-05-30 17:31:08 [INFO] D11_scaled_deep_groove: [single ref] wl=12.345 um, f=0.0810045, res=24, comp=Hz
+2026-05-30 17:35:24 [INFO] D11_scaled_deep_groove: [single struct] 3 geometry objects
+2026-05-30 19:04:33 [INFO] D11_scaled_deep_groove: Checkpointed 10 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra_checkpoint.csv
+2026-05-30 19:04:34 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra.csv
+2026-05-30 19:04:34 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D11_thickness_3um_quick_metrics.csv
+2026-05-30 19:04:34 [INFO] D11_scaled_deep_groove: Wrote /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/reports/D11_thickness_3um_quick_report.md

@@ -1,0 +1,41 @@
+2026-05-26 23:23:41 [INFO] D02_polarization_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D02_polarization_diagnostic.log
+2026-05-26 23:23:41 [INFO] D02_polarization_diagnostic: === D02_polarization_diagnostic ===
+2026-05-26 23:23:41 [INFO] D02_polarization_diagnostic: args = {'wavelength_min_um': 5.0, 'wavelength_max_um': 15.0, 'nfreq': 5, 'resolution': 32, 'period_um': 10.0, 'top_width_um': 4.0, 'bottom_width_um': 4.0, 'depth_um': 3.0, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 8.0, 'decay_db': 30.0, 'flat_pol_tol': 0.02, 'hz_enhancement_tol': 0.02, 'include_tilt30': False}
+2026-05-26 23:23:41 [INFO] D02_polarization_diagnostic: >>> case=flat_ti polarization=Ez
+2026-05-26 23:23:41 [INFO] D02_polarization_diagnostic: [ref run] res=32, cell=(10.00, 18.00) μm, nfreq=5, fcen=0.1333, df=0.1333, comp=Ez
+2026-05-26 23:23:43 [INFO] D02_polarization_diagnostic: [ref run] done in 1.48 s, |input_flux| ∈ [4.548e-04, 3.516e+01]
+2026-05-26 23:23:43 [INFO] D02_polarization_diagnostic: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 23:23:48 [INFO] D02_polarization_diagnostic: [struct run] done in 4.93 s
+2026-05-26 23:23:48 [INFO] D02_polarization_diagnostic: >>> case=flat_ti polarization=Hz
+2026-05-26 23:23:48 [INFO] D02_polarization_diagnostic: [ref run] res=32, cell=(10.00, 18.00) μm, nfreq=5, fcen=0.1333, df=0.1333, comp=Hz
+2026-05-26 23:23:49 [INFO] D02_polarization_diagnostic: [ref run] done in 1.67 s, |input_flux| ∈ [4.547e-04, 3.515e+01]
+2026-05-26 23:23:49 [INFO] D02_polarization_diagnostic: [struct run] 1 objects in geometry (注入自 geometry_factory)
+2026-05-26 23:23:58 [INFO] D02_polarization_diagnostic: [struct run] done in 9.03 s
+2026-05-26 23:23:58 [INFO] D02_polarization_diagnostic: >>> case=symmetric_groove_tilt0 polarization=Ez
+2026-05-26 23:23:58 [INFO] D02_polarization_diagnostic: [ref run] res=32, cell=(10.00, 18.00) μm, nfreq=5, fcen=0.1333, df=0.1333, comp=Ez
+2026-05-26 23:24:00 [INFO] D02_polarization_diagnostic: [ref run] done in 1.54 s, |input_flux| ∈ [4.548e-04, 3.516e+01]
+2026-05-26 23:24:00 [INFO] D02_polarization_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-26 23:24:05 [INFO] D02_polarization_diagnostic: [struct run] done in 5.16 s
+2026-05-26 23:24:05 [INFO] D02_polarization_diagnostic: >>> case=symmetric_groove_tilt0 polarization=Hz
+2026-05-26 23:24:05 [INFO] D02_polarization_diagnostic: [ref run] res=32, cell=(10.00, 18.00) μm, nfreq=5, fcen=0.1333, df=0.1333, comp=Hz
+2026-05-26 23:24:07 [INFO] D02_polarization_diagnostic: [ref run] done in 1.74 s, |input_flux| ∈ [4.547e-04, 3.515e+01]
+2026-05-26 23:24:07 [INFO] D02_polarization_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-26 23:24:20 [INFO] D02_polarization_diagnostic: [struct run] done in 12.57 s
+2026-05-26 23:24:20 [INFO] D02_polarization_diagnostic: >>> case=slanted_groove_tilt20 polarization=Ez
+2026-05-26 23:24:20 [INFO] D02_polarization_diagnostic: [ref run] res=32, cell=(10.00, 18.00) μm, nfreq=5, fcen=0.1333, df=0.1333, comp=Ez
+2026-05-26 23:24:21 [INFO] D02_polarization_diagnostic: [ref run] done in 1.56 s, |input_flux| ∈ [4.548e-04, 3.516e+01]
+2026-05-26 23:24:22 [INFO] D02_polarization_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-26 23:24:27 [INFO] D02_polarization_diagnostic: [struct run] done in 5.11 s
+2026-05-26 23:24:27 [INFO] D02_polarization_diagnostic: >>> case=slanted_groove_tilt20 polarization=Hz
+2026-05-26 23:24:27 [INFO] D02_polarization_diagnostic: [ref run] res=32, cell=(10.00, 18.00) μm, nfreq=5, fcen=0.1333, df=0.1333, comp=Hz
+2026-05-26 23:24:29 [INFO] D02_polarization_diagnostic: [ref run] done in 1.73 s, |input_flux| ∈ [4.547e-04, 3.515e+01]
+2026-05-26 23:24:29 [INFO] D02_polarization_diagnostic: [struct run] 2 objects in geometry (注入自 geometry_factory)
+2026-05-26 23:24:44 [INFO] D02_polarization_diagnostic: [struct run] done in 15.42 s
+2026-05-26 23:24:44 [INFO] D02_polarization_diagnostic: spectra CSV → /Users/luckydog/meep_sim/results/diagnostics/tables/D02_polarization_spectra.csv
+2026-05-26 23:24:44 [INFO] D02_polarization_diagnostic: metrics CSV → /Users/luckydog/meep_sim/results/diagnostics/tables/D02_polarization_metrics.csv
+2026-05-26 23:24:44 [INFO] D02_polarization_diagnostic: flat PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D02_flat_Ti_Ez_Hz_control.png
+2026-05-26 23:24:44 [INFO] D02_polarization_diagnostic: spectra PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D02_slanted_Ez_Hz_spectra.png
+2026-05-26 23:24:44 [INFO] D02_polarization_diagnostic: bar PNG → /Users/luckydog/meep_sim/results/diagnostics/figures/D02_mean_A_polarization_comparison.png
+2026-05-26 23:24:44 [INFO] D02_polarization_diagnostic: report → /Users/luckydog/meep_sim/results/diagnostics/reports/D02_polarization_diagnostic_report.md
+2026-05-26 23:24:44 [INFO] D02_polarization_diagnostic: metrics summary: [{"case_name": "flat_ti", "case_label": "Flat Ti", "polarization": "Ez", "mean_A_8_13um": 0.07178115258311912, "peak_A_8_13um": 0.07178115258311912, "peak_wavelength_um": 10.0, "min_A": 0.058620452638172366, "max_A": 0.158042178691783, "max_abs_T": 6.002506504600435e-16, "has_raw_flux": true, "all_finite": true, "delta_mean_A_Hz_minus_Ez": -2.0276257220452898e-07, "delta_peak_A_Hz_minus_Ez": -2.0276257220452898e-07, "hz_mean_enhancement_flag": false, "pass_or_fail": "PASS"}, {"case_name": "flat_ti", "case_label": "Flat Ti", "polarization": "Hz", "mean_A_8_13um": 0.07178094982054692, "peak_A_8_13um": 0.07178094982054692, "peak_wavelength_um": 10.0, "min_A": 0.05859945199728872, "max_A": 0.158035600896018, "max_abs_T": 5.029788518685028e-16, "has_raw_flux": true, "all_finite": true, "delta_mean_A_Hz_minus_Ez": -2.0276257220452898e-07, "delta_peak_A_Hz_minus_Ez": -2.0276257220452898e-07, "hz_mean_enhancement_flag": false, "pass_or_fail": "PASS"}, {"case_name": "symmetric_groove_tilt0", "case_label": "Symmetric groove, tilt=0", "polarization": "Ez", "mean_A_8_13um": 0.11401081474945753, "peak_A_8_13um": 0.11401081474945753, "peak_wavelength_um": 10.0, "min_A": 0.11361722302690605, "max_A": 0.19500136991737474, "max_abs_T": 6.500740748596631e-05, "has_raw_flux": true, "all_finite": true, "delta_mean_A_Hz_minus_Ez": 0.0152336077875216, "delta_peak_A_Hz_minus_Ez": 0.0152336077875216, "hz_mean_enhancement_flag": false, "pass_or_fail": "PASS"}, {"case_name": "symmetric_groove_tilt0", "case_label": "Symmetric groove, tilt=0", "polarization": "Hz", "mean_A_8_13um": 0.12924442253697913, "peak_A_8_13um": 0.12924442253697913, "peak_wavelength_um": 10.0, "min_A": 0.1131760166326709, "max_A": 0.2881057511128045, "max_abs_T": 0.021084372966708512, "has_raw_flux": true, "all_finite": true, "delta_mean_A_Hz_minus_Ez": 0.0152336077875216, "delta_peak_A_Hz_minus_Ez": 0.0152336077875216, "hz_mean_enhancement_flag": false, "pass_or_fail": "PASS"}, {"case_name": "slanted_groove_tilt20", "case_label": "Slanted groove, tilt=20", "polarization": "Ez", "mean_A_8_13um": 0.11185327880172813, "peak_A_8_13um": 0.11185327880172813, "peak_wavelength_um": 10.0, "min_A": 0.11185327880172813, "max_A": 0.20556455815292266, "max_abs_T": 6.499226782037714e-05, "has_raw_flux": true, "all_finite": true, "delta_mean_A_Hz_minus_Ez": 0.014541328249907032, "delta_peak_A_Hz_minus_Ez": 0.014541328249907032, "hz_mean_enhancement_flag": false, "pass_or_fail": "PASS"}, {"case_name": "slanted_groove_tilt20", "case_label": "Slanted groove, tilt=20", "polarization": "Hz", "mean_A_8_13um": 0.12639460705163516, "peak_A_8_13um": 0.12639460705163516, "peak_wavelength_um": 10.0, "min_A": 0.12639460705163516, "max_A": 0.2693481528842269, "max_abs_T": 0.017781129392993478, "has_raw_flux": true, "all_finite": true, "delta_mean_A_Hz_minus_Ez": 0.014541328249907032, "delta_peak_A_Hz_minus_Ez": 0.014541328249907032, "hz_mean_enhancement_flag": false, "pass_or_fail": "PASS"}]
+2026-05-26 23:24:44 [INFO] D02_polarization_diagnostic: overall status: PASS

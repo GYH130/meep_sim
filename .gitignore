@@ -1,8 +1,9 @@
-# Python
+# Python caches and build artifacts
 __pycache__/
 *.py[cod]
 *$py.class
 *.egg-info/
+.pytest_cache/
 .venv/
 venv/
 .env
@@ -10,29 +11,18 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# OS
+# OS metadata
 .DS_Store
 Thumbs.db
 
-# IDE
+# IDE settings
 .idea/
 .vscode/
 
-# 仿真产物（大文件，不入库；保留 .gitkeep 以维持目录结构）
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-results/figures/*
-!results/figures/.gitkeep
-results/tables/*
-!results/tables/.gitkeep
-results/reports/*
-!results/reports/.gitkeep
-logs/*
-!logs/.gitkeep
+# Sensitive diagnostics
+gcm-diagnose.log
 
-# Meep / HDF5 中间文件（即使在其他位置也忽略）
+# Large Meep / HDF5 intermediate files
 *.h5
 *.hdf5
 *.out

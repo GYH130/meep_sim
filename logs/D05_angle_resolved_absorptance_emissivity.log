@@ -1,0 +1,14 @@
+2026-05-27 15:28:45 [INFO] D05_angle_resolved_absorptance_emissivity: 日志文件: /Users/luckydog/meep_sim/logs/D05_angle_resolved_absorptance_emissivity.log
+2026-05-27 15:28:45 [INFO] D05_angle_resolved_absorptance_emissivity: === D05_angle_resolved_absorptance_emissivity ===
+2026-05-27 15:28:45 [INFO] D05_angle_resolved_absorptance_emissivity: args={'wavelengths_um': ['10'], 'full_wavelength_grid': False, 'angle_min_deg': -30.0, 'angle_max_deg': 30.0, 'angle_step_deg': 30.0, 'cases': ['flat_Ti', 'slanted_groove'], 'include_mirror': False, 'polarizations': ['Ez'], 'period_um': 10.0, 'top_width_um': 4.0, 'bottom_width_um': 4.0, 'depth_um': 3.0, 'resolution': 32, 'pml_thickness_um': 2.0, 'substrate_thickness_um': 4.0, 'air_buffer_um': 4.0, 'fwidth_fraction': 0.06, 'decay_db': 20.0, 'theta0_deg': 30.0, 'symmetry_tol': 0.03, 'theta0_d02_tol': 0.04}
+2026-05-27 15:28:45 [INFO] D05_angle_resolved_absorptance_emissivity: cases=['flat_Ti', 'slanted_groove'] polarizations=['Ez'] wavelengths=[10.0] angles=[-30.0, 0.0, 30.0] total=6
+2026-05-27 15:28:45 [INFO] D05_angle_resolved_absorptance_emissivity: >>> case=flat_Ti pol=Ez wl=10 theta=-30 kx=-0.05
+2026-05-27 15:32:33 [INFO] D05_angle_resolved_absorptance_emissivity: >>> case=flat_Ti pol=Ez wl=10 theta=0 kx=0
+2026-05-27 15:34:33 [INFO] D05_angle_resolved_absorptance_emissivity: >>> case=flat_Ti pol=Ez wl=10 theta=30 kx=0.05
+2026-05-27 15:38:52 [INFO] D05_angle_resolved_absorptance_emissivity: >>> case=slanted_groove pol=Ez wl=10 theta=-30 kx=-0.05
+2026-05-27 15:42:54 [INFO] D05_angle_resolved_absorptance_emissivity: >>> case=slanted_groove pol=Ez wl=10 theta=0 kx=0
+2026-05-27 15:44:47 [INFO] D05_angle_resolved_absorptance_emissivity: >>> case=slanted_groove pol=Ez wl=10 theta=30 kx=0.05
+2026-05-27 15:48:48 [INFO] D05_angle_resolved_absorptance_emissivity: saved spectra: /Users/luckydog/meep_sim/results/diagnostics/tables/D05_angle_resolved_absorptance.csv
+2026-05-27 15:48:48 [INFO] D05_angle_resolved_absorptance_emissivity: saved metrics: /Users/luckydog/meep_sim/results/diagnostics/tables/D05_directionality_metrics.csv
+2026-05-27 15:48:48 [INFO] D05_angle_resolved_absorptance_emissivity: saved report: /Users/luckydog/meep_sim/results/diagnostics/reports/D05_angle_resolved_emissivity_report.md
+2026-05-27 15:48:48 [INFO] D05_angle_resolved_absorptance_emissivity: D05 PASS

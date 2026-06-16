@@ -1,0 +1,24 @@
+2026-05-27 16:15:28 [INFO] D06_diffraction_order_energy_channel_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D06_diffraction_order_energy_channel_diagnostic.log
+2026-05-27 16:15:28 [INFO] D06_diffraction_order_energy_channel_diagnostic: >>> case=symmetric_groove pol=Ez wl=8 theta=0 orders=[-1, 0, 1]
+2026-05-27 16:16:40 [WARNING] D06_diffraction_order_energy_channel_diagnostic: Mode decomposition failed: case=symmetric_groove pol=Ez wl=8.0 theta=0.0 m=-1: meep: invalid direction in add_eigenmode_source
+2026-05-27 16:16:40 [WARNING] D06_diffraction_order_energy_channel_diagnostic: Mode decomposition failed: case=symmetric_groove pol=Ez wl=8.0 theta=0.0 m=0: meep: invalid direction in add_eigenmode_source
+2026-05-27 16:16:40 [WARNING] D06_diffraction_order_energy_channel_diagnostic: Mode decomposition failed: case=symmetric_groove pol=Ez wl=8.0 theta=0.0 m=1: meep: invalid direction in add_eigenmode_source
+2026-05-27 16:16:40 [INFO] D06_diffraction_order_energy_channel_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D06_diffraction_orders.csv
+2026-05-27 16:16:40 [INFO] D06_diffraction_order_energy_channel_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D06_energy_channel_summary.csv
+2026-05-27 16:16:40 [INFO] D06_diffraction_order_energy_channel_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/reports/D06_diffraction_energy_channel_report.md
+2026-05-27 16:16:40 [WARNING] D06_diffraction_order_energy_channel_diagnostic: D06 completed with failed validation rows.
+2026-05-27 16:24:07 [INFO] D06_diffraction_order_energy_channel_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D06_diffraction_order_energy_channel_diagnostic.log
+2026-05-27 16:24:07 [INFO] D06_diffraction_order_energy_channel_diagnostic: >>> case=symmetric_groove pol=Ez wl=8 theta=0 orders=[-1, 0, 1]
+2026-05-27 16:26:00 [INFO] D06_diffraction_order_energy_channel_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D06_diffraction_order_energy_channel_diagnostic.log
+2026-05-27 16:26:00 [INFO] D06_diffraction_order_energy_channel_diagnostic: >>> case=symmetric_groove pol=Ez wl=8 theta=0 orders=[-1, 0, 1]
+2026-05-27 16:27:21 [INFO] D06_diffraction_order_energy_channel_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D06_diffraction_orders.csv
+2026-05-27 16:27:21 [INFO] D06_diffraction_order_energy_channel_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D06_energy_channel_summary.csv
+2026-05-27 16:27:21 [INFO] D06_diffraction_order_energy_channel_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/reports/D06_diffraction_energy_channel_report.md
+2026-05-27 16:27:21 [INFO] D06_diffraction_order_energy_channel_diagnostic: D06 completed successfully.
+2026-05-27 16:28:16 [INFO] D06_diffraction_order_energy_channel_diagnostic: 日志文件: /Users/luckydog/meep_sim/logs/D06_diffraction_order_energy_channel_diagnostic.log
+2026-05-27 16:28:16 [INFO] D06_diffraction_order_energy_channel_diagnostic: >>> case=symmetric_groove pol=Ez wl=8 theta=0 orders=[-1, 0, 1]
+2026-05-27 16:29:42 [INFO] D06_diffraction_order_energy_channel_diagnostic: >>> case=slanted_groove pol=Ez wl=8 theta=0 orders=[-1, 0, 1]
+2026-05-27 16:31:20 [INFO] D06_diffraction_order_energy_channel_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D06_diffraction_orders.csv
+2026-05-27 16:31:20 [INFO] D06_diffraction_order_energy_channel_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/tables/D06_energy_channel_summary.csv
+2026-05-27 16:31:20 [INFO] D06_diffraction_order_energy_channel_diagnostic: Wrote /Users/luckydog/meep_sim/results/diagnostics/reports/D06_diffraction_energy_channel_report.md
+2026-05-27 16:31:20 [INFO] D06_diffraction_order_energy_channel_diagnostic: D06 completed successfully.

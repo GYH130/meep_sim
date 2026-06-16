@@ -1,0 +1,15 @@
+2026-05-27 21:18:30 [INFO] D02_v2_polarization: Log file: /Users/luckydog/meep_sim/logs/diagnostics_v2/D02_v2_polarization.log
+2026-05-27 21:18:30 [INFO] D02_v2_polarization: >>> case=flat_ti pol=Ez wl=10
+2026-05-27 21:18:30 [INFO] D02_v2_polarization: [single ref] wl=10 um, f=0.1, res=24, comp=Ez
+2026-05-27 21:18:35 [INFO] D02_v2_polarization: [single struct] 1 geometry objects
+2026-05-27 21:19:01 [INFO] D02_v2_polarization: Log file: /Users/luckydog/meep_sim/logs/diagnostics_v2/D02_v2_polarization.log
+2026-05-27 21:19:01 [INFO] D02_v2_polarization: >>> case=flat_ti pol=Ez wl=10
+2026-05-27 21:19:01 [INFO] D02_v2_polarization: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-27 21:19:26 [INFO] D02_v2_polarization: [single struct] 1 geometry objects
+2026-05-27 21:35:39 [INFO] D02_v2_polarization: Log file: /Users/luckydog/meep_sim/logs/diagnostics_v2/D02_v2_polarization.log
+2026-05-27 21:35:39 [INFO] D02_v2_polarization: >>> case=flat_ti pol=Ez wl=10
+2026-05-27 21:35:39 [INFO] D02_v2_polarization: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-27 21:36:03 [INFO] D02_v2_polarization: [single struct] 1 geometry objects
+2026-05-27 21:37:08 [INFO] D02_v2_polarization: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D02_v2_polarization_spectra.csv
+2026-05-27 21:37:08 [INFO] D02_v2_polarization: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D02_v2_polarization_metrics.csv
+2026-05-27 21:37:08 [INFO] D02_v2_polarization: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/reports/D02_v2_polarization_report.md

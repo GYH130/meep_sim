@@ -1,0 +1,69 @@
+2026-05-28 17:16:48 [INFO] D10_planar_full_surface_film: >>> t=0 pol=Ez wl=10 res=32
+2026-05-28 17:16:48 [INFO] D10_planar_full_surface_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 17:16:55 [INFO] D10_planar_full_surface_film: [single struct] 1 geometry objects
+2026-05-28 17:17:13 [INFO] D10_planar_full_surface_film: >>> t=0.3 pol=Ez wl=10 res=32
+2026-05-28 17:17:13 [INFO] D10_planar_full_surface_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 17:17:21 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:17:41 [INFO] D10_planar_full_surface_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D10_planar_full_surface_film_spectra.csv
+2026-05-28 17:17:41 [INFO] D10_planar_full_surface_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D10_planar_full_surface_film_metrics.csv
+2026-05-28 17:17:41 [INFO] D10_planar_full_surface_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/reports/D10_planar_full_surface_film_capability_report.md
+2026-05-28 17:41:26 [INFO] D10_planar_full_surface_film: >>> t=0 pol=Ez wl=9 res=32
+2026-05-28 17:41:26 [INFO] D10_planar_full_surface_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-28 17:41:33 [INFO] D10_planar_full_surface_film: [single struct] 1 geometry objects
+2026-05-28 17:41:50 [INFO] D10_planar_full_surface_film: >>> t=0 pol=Ez wl=10 res=32
+2026-05-28 17:41:50 [INFO] D10_planar_full_surface_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 17:41:57 [INFO] D10_planar_full_surface_film: [single struct] 1 geometry objects
+2026-05-28 17:42:16 [INFO] D10_planar_full_surface_film: >>> t=0 pol=Ez wl=12 res=32
+2026-05-28 17:42:16 [INFO] D10_planar_full_surface_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Ez
+2026-05-28 17:42:25 [INFO] D10_planar_full_surface_film: [single struct] 1 geometry objects
+2026-05-28 17:42:50 [INFO] D10_planar_full_surface_film: >>> t=1 pol=Ez wl=9 res=32
+2026-05-28 17:42:50 [INFO] D10_planar_full_surface_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-28 17:42:57 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:43:15 [INFO] D10_planar_full_surface_film: >>> t=1 pol=Ez wl=10 res=32
+2026-05-28 17:43:15 [INFO] D10_planar_full_surface_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 17:43:23 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:43:44 [INFO] D10_planar_full_surface_film: >>> t=1 pol=Ez wl=12 res=32
+2026-05-28 17:43:44 [INFO] D10_planar_full_surface_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Ez
+2026-05-28 17:43:53 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:44:17 [INFO] D10_planar_full_surface_film: >>> t=3 pol=Ez wl=9 res=32
+2026-05-28 17:44:17 [INFO] D10_planar_full_surface_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-28 17:44:25 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:44:44 [INFO] D10_planar_full_surface_film: >>> t=3 pol=Ez wl=10 res=32
+2026-05-28 17:44:44 [INFO] D10_planar_full_surface_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 17:44:52 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:45:14 [INFO] D10_planar_full_surface_film: >>> t=3 pol=Ez wl=12 res=32
+2026-05-28 17:45:14 [INFO] D10_planar_full_surface_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Ez
+2026-05-28 17:45:23 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:45:51 [INFO] D10_planar_full_surface_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D10_planar_full_surface_film_spectra.csv
+2026-05-28 17:45:51 [INFO] D10_planar_full_surface_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D10_planar_full_surface_film_metrics.csv
+2026-05-28 17:45:51 [INFO] D10_planar_full_surface_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/reports/D10_planar_full_surface_film_capability_report.md
+2026-05-28 17:47:06 [INFO] D10_planar_full_surface_film: >>> t=0 pol=Ez wl=9 res=32
+2026-05-28 17:47:06 [INFO] D10_planar_full_surface_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-28 17:47:14 [INFO] D10_planar_full_surface_film: [single struct] 1 geometry objects
+2026-05-28 17:47:36 [INFO] D10_planar_full_surface_film: >>> t=0 pol=Ez wl=10 res=32
+2026-05-28 17:47:36 [INFO] D10_planar_full_surface_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 17:47:45 [INFO] D10_planar_full_surface_film: [single struct] 1 geometry objects
+2026-05-28 17:48:10 [INFO] D10_planar_full_surface_film: >>> t=0 pol=Ez wl=12 res=32
+2026-05-28 17:48:10 [INFO] D10_planar_full_surface_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Ez
+2026-05-28 17:48:21 [INFO] D10_planar_full_surface_film: [single struct] 1 geometry objects
+2026-05-28 17:48:54 [INFO] D10_planar_full_surface_film: >>> t=1 pol=Ez wl=9 res=32
+2026-05-28 17:48:54 [INFO] D10_planar_full_surface_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-28 17:49:03 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:49:32 [INFO] D10_planar_full_surface_film: >>> t=1 pol=Ez wl=10 res=32
+2026-05-28 17:49:32 [INFO] D10_planar_full_surface_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 17:49:42 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:50:15 [INFO] D10_planar_full_surface_film: >>> t=1 pol=Ez wl=12 res=32
+2026-05-28 17:50:15 [INFO] D10_planar_full_surface_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Ez
+2026-05-28 17:50:27 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:51:07 [INFO] D10_planar_full_surface_film: >>> t=3 pol=Ez wl=9 res=32
+2026-05-28 17:51:07 [INFO] D10_planar_full_surface_film: [single ref] wl=9 um, f=0.111111, res=32, comp=Ez
+2026-05-28 17:51:16 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:51:46 [INFO] D10_planar_full_surface_film: >>> t=3 pol=Ez wl=10 res=32
+2026-05-28 17:51:46 [INFO] D10_planar_full_surface_film: [single ref] wl=10 um, f=0.1, res=32, comp=Ez
+2026-05-28 17:51:56 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:52:28 [INFO] D10_planar_full_surface_film: >>> t=3 pol=Ez wl=12 res=32
+2026-05-28 17:52:28 [INFO] D10_planar_full_surface_film: [single ref] wl=12 um, f=0.0833333, res=32, comp=Ez
+2026-05-28 17:52:41 [INFO] D10_planar_full_surface_film: [single struct] 2 geometry objects
+2026-05-28 17:53:17 [INFO] D10_planar_full_surface_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D10_planar_full_surface_film_spectra.csv
+2026-05-28 17:53:17 [INFO] D10_planar_full_surface_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/tables/D10_planar_full_surface_film_metrics.csv
+2026-05-28 17:53:17 [INFO] D10_planar_full_surface_film: Wrote /Users/luckydog/meep_sim/results/diagnostics_v2/reports/D10_planar_full_surface_film_capability_report.md

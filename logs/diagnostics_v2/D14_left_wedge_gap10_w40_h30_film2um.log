@@ -1,0 +1,398 @@
+2026-06-03 23:27:42 [INFO] D13_tilt20_wrapped: Starting D13 wrapped tilt20 diagnostics with args={'nk_csv': PosixPath('/mnt/c/Users/admin/Meep_Simulation/meep_sim/data/processed/measured_lossy_wall_film_nk_sheet2.csv'), 'period_um': 50.0, 'top_width_um': 40.0, 'bottom_width_um': 0.0, 'depth_um': 30.0, 'tilt_angle_deg': 20.0, 'film_thickness_um': 2.0, 'substrate_thickness_um': 45.0, 'air_buffer_um': 15.0, 'pml_thickness_um': 4.0, 'resolution': 12, 'courant': 0.1, 'retry_courant': 0.05, 'decay_db': 20.0, 'fwidth_fraction': 0.08, 'wavelengths_um': [8.1014, 9.0016, 10.009, 10.985, 12.345], 'polarizations': ['Ez', 'Hz'], 'angle_min_deg': -70.0, 'angle_max_deg': 70.0, 'angle_step_deg': 10.0, 'angles_deg': [-70.0, -60.0, -50.0, -40.0, -30.0, -20.0, -10.0, 0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0], 'theta0_deg': 30.0, 'workers': 'auto', 'output_tag': 'D14_left_wedge_gap10_w40_h30_film2um', 'geometry_only': True, 'skip_normal': False, 'skip_angle': False, 'resume': False}
+2026-06-03 23:28:13 [INFO] D13_tilt20_wrapped: Starting D13 wrapped tilt20 diagnostics with args={'nk_csv': PosixPath('/mnt/c/Users/admin/Meep_Simulation/meep_sim/data/processed/measured_lossy_wall_film_nk_sheet2.csv'), 'period_um': 50.0, 'top_width_um': 40.0, 'bottom_width_um': 0.0, 'depth_um': 30.0, 'tilt_angle_deg': 20.0, 'film_thickness_um': 2.0, 'substrate_thickness_um': 45.0, 'air_buffer_um': 15.0, 'pml_thickness_um': 4.0, 'resolution': 12, 'courant': 0.1, 'retry_courant': 0.05, 'decay_db': 20.0, 'fwidth_fraction': 0.08, 'wavelengths_um': [8.1014, 9.0016, 10.009, 10.985, 12.345], 'polarizations': ['Ez', 'Hz'], 'angle_min_deg': -70.0, 'angle_max_deg': 70.0, 'angle_step_deg': 10.0, 'angles_deg': [-70.0, -60.0, -50.0, -40.0, -30.0, -20.0, -10.0, 0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0], 'theta0_deg': 30.0, 'workers': 'auto', 'output_tag': 'D14_left_wedge_gap10_w40_h30_film2um', 'geometry_only': True, 'skip_normal': False, 'skip_angle': False, 'resume': False}
+2026-06-03 23:28:14 [INFO] D13_tilt20_wrapped: D13 geometry-only run passed.
+2026-06-03 23:36:37 [INFO] D13_tilt20_wrapped: Starting D13 wrapped tilt20 diagnostics with args={'nk_csv': PosixPath('/mnt/c/Users/admin/Meep_Simulation/meep_sim/data/processed/measured_lossy_wall_film_nk_sheet2.csv'), 'period_um': 50.0, 'top_width_um': 40.0, 'bottom_width_um': 0.0, 'depth_um': 30.0, 'tilt_angle_deg': 20.0, 'film_thickness_um': 2.0, 'substrate_thickness_um': 45.0, 'air_buffer_um': 15.0, 'pml_thickness_um': 4.0, 'resolution': 12, 'courant': 0.1, 'retry_courant': 0.05, 'decay_db': 20.0, 'fwidth_fraction': 0.08, 'wavelengths_um': [8.1014, 9.0016, 10.009, 10.985, 12.345], 'polarizations': ['Ez', 'Hz'], 'angle_min_deg': -70.0, 'angle_max_deg': 70.0, 'angle_step_deg': 10.0, 'angles_deg': [-70.0, -60.0, -50.0, -40.0, -30.0, -20.0, -10.0, 0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0], 'theta0_deg': 30.0, 'workers': 'auto', 'output_tag': 'D14_left_wedge_gap10_w40_h30_film2um', 'geometry_only': True, 'skip_normal': False, 'skip_angle': False, 'resume': False}
+2026-06-03 23:36:37 [INFO] D13_tilt20_wrapped: D13 geometry-only run passed.
+2026-06-03 23:41:05 [INFO] D13_tilt20_wrapped: Starting D13 wrapped tilt20 diagnostics with args={'nk_csv': PosixPath('/mnt/c/Users/admin/Meep_Simulation/meep_sim/data/processed/measured_lossy_wall_film_nk_sheet2.csv'), 'period_um': 50.0, 'top_width_um': 40.0, 'bottom_width_um': 0.0, 'depth_um': 30.0, 'tilt_angle_deg': 20.0, 'film_thickness_um': 2.0, 'substrate_thickness_um': 45.0, 'air_buffer_um': 15.0, 'pml_thickness_um': 4.0, 'resolution': 12, 'courant': 0.05, 'retry_courant': 0.025, 'decay_db': 20.0, 'fwidth_fraction': 0.08, 'wavelengths_um': [8.1014, 9.0016, 10.009, 10.985, 12.345], 'polarizations': ['Ez', 'Hz'], 'angle_min_deg': -70.0, 'angle_max_deg': 70.0, 'angle_step_deg': 10.0, 'angles_deg': [-70.0, -60.0, -50.0, -40.0, -30.0, -20.0, -10.0, 0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0], 'theta0_deg': 30.0, 'workers': '8', 'output_tag': 'D14_left_wedge_gap10_w40_h30_film2um', 'geometry_only': False, 'skip_normal': False, 'skip_angle': False, 'resume': True}
+2026-06-03 23:41:05 [INFO] D13_tilt20_wrapped: Prepared 10 D13 normal tasks; workers=8
+2026-06-03 23:42:50 [INFO] D13_tilt20_wrapped: Starting D13 wrapped tilt20 diagnostics with args={'nk_csv': PosixPath('/mnt/c/Users/admin/Meep_Simulation/meep_sim/data/processed/measured_lossy_wall_film_nk_sheet2.csv'), 'period_um': 50.0, 'top_width_um': 40.0, 'bottom_width_um': 0.0, 'depth_um': 30.0, 'tilt_angle_deg': 20.0, 'film_thickness_um': 2.0, 'substrate_thickness_um': 45.0, 'air_buffer_um': 15.0, 'pml_thickness_um': 4.0, 'resolution': 12, 'courant': 0.05, 'retry_courant': 0.025, 'decay_db': 20.0, 'fwidth_fraction': 0.08, 'wavelengths_um': [8.1014, 9.0016, 10.009, 10.985, 12.345], 'polarizations': ['Ez', 'Hz'], 'angle_min_deg': -70.0, 'angle_max_deg': 70.0, 'angle_step_deg': 10.0, 'angles_deg': [-70.0, -60.0, -50.0, -40.0, -30.0, -20.0, -10.0, 0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0], 'theta0_deg': 30.0, 'workers': '8', 'output_tag': 'D14_left_wedge_gap10_w40_h30_film2um', 'geometry_only': False, 'skip_normal': False, 'skip_angle': False, 'resume': True}
+2026-06-03 23:42:50 [INFO] D13_tilt20_wrapped: Prepared 10 D13 normal tasks; workers=8
+2026-06-03 23:42:51 [INFO] D13_tilt20_wrapped.worker.6779: >>> D13 task 0 kind=normal pol=Ez wl=8.1014 theta=None
+2026-06-03 23:42:51 [INFO] D13_tilt20_wrapped.worker.6778: >>> D13 task 2 kind=normal pol=Ez wl=10.009 theta=None
+2026-06-03 23:42:51 [INFO] D13_tilt20_wrapped.worker.6776: >>> D13 task 3 kind=normal pol=Ez wl=10.985 theta=None
+2026-06-03 23:42:51 [INFO] D13_tilt20_wrapped.worker.6770: >>> D13 task 6 kind=normal pol=Hz wl=9.0016 theta=None
+2026-06-03 23:42:51 [INFO] D13_tilt20_wrapped.worker.6773: >>> D13 task 5 kind=normal pol=Hz wl=8.1014 theta=None
+2026-06-03 23:42:51 [INFO] D13_tilt20_wrapped.worker.6775: >>> D13 task 4 kind=normal pol=Ez wl=12.345 theta=None
+2026-06-03 23:42:51 [INFO] D13_tilt20_wrapped.worker.6774: >>> D13 task 1 kind=normal pol=Ez wl=9.0016 theta=None
+2026-06-03 23:42:51 [INFO] D13_tilt20_wrapped.worker.6777: >>> D13 task 7 kind=normal pol=Hz wl=10.009 theta=None
+2026-06-03 23:42:52 [INFO] D13_tilt20_wrapped.worker.6776: [single ref] wl=10.985 um, f=0.0910332, res=12, comp=Ez
+2026-06-03 23:42:52 [INFO] D13_tilt20_wrapped.worker.6770: [single ref] wl=9.0016 um, f=0.111091, res=12, comp=Hz
+2026-06-03 23:42:52 [INFO] D13_tilt20_wrapped.worker.6773: [single ref] wl=8.1014 um, f=0.123435, res=12, comp=Hz
+2026-06-03 23:42:52 [INFO] D13_tilt20_wrapped.worker.6779: [single ref] wl=8.1014 um, f=0.123435, res=12, comp=Ez
+2026-06-03 23:42:52 [INFO] D13_tilt20_wrapped.worker.6775: [single ref] wl=12.345 um, f=0.0810045, res=12, comp=Ez
+2026-06-03 23:42:52 [INFO] D13_tilt20_wrapped.worker.6777: [single ref] wl=10.009 um, f=0.0999101, res=12, comp=Hz
+2026-06-03 23:42:52 [INFO] D13_tilt20_wrapped.worker.6778: [single ref] wl=10.009 um, f=0.0999101, res=12, comp=Ez
+2026-06-03 23:42:52 [INFO] D13_tilt20_wrapped.worker.6774: [single ref] wl=9.0016 um, f=0.111091, res=12, comp=Ez
+2026-06-03 23:51:16 [INFO] D13_tilt20_wrapped.worker.6779: [single struct] 5 geometry objects
+2026-06-03 23:51:24 [INFO] D13_tilt20_wrapped.worker.6774: [single struct] 5 geometry objects
+2026-06-03 23:54:05 [INFO] D13_tilt20_wrapped.worker.6778: [single struct] 5 geometry objects
+2026-06-03 23:54:29 [INFO] D13_tilt20_wrapped.worker.6775: [single struct] 5 geometry objects
+2026-06-03 23:54:30 [INFO] D13_tilt20_wrapped.worker.6776: [single struct] 5 geometry objects
+2026-06-03 23:57:17 [INFO] D13_tilt20_wrapped.worker.6773: [single struct] 5 geometry objects
+2026-06-03 23:58:26 [INFO] D13_tilt20_wrapped.worker.6770: [single struct] 5 geometry objects
+2026-06-03 23:59:27 [INFO] D13_tilt20_wrapped.worker.6777: [single struct] 5 geometry objects
+2026-06-04 00:53:31 [INFO] D13_tilt20_wrapped: Completed normal task 1/10
+2026-06-04 00:53:31 [INFO] D13_tilt20_wrapped.worker.6779: >>> D13 task 8 kind=normal pol=Hz wl=10.985 theta=None
+2026-06-04 00:53:31 [INFO] D13_tilt20_wrapped.worker.6779: [single ref] wl=10.985 um, f=0.0910332, res=12, comp=Hz
+2026-06-04 00:53:31 [INFO] D13_tilt20_wrapped: Checkpointed 1 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra_checkpoint.csv
+2026-06-04 01:01:15 [INFO] D13_tilt20_wrapped: Completed normal task 2/10
+2026-06-04 01:01:15 [INFO] D13_tilt20_wrapped.worker.6774: >>> D13 task 9 kind=normal pol=Hz wl=12.345 theta=None
+2026-06-04 01:01:15 [INFO] D13_tilt20_wrapped.worker.6774: [single ref] wl=12.345 um, f=0.0810045, res=12, comp=Hz
+2026-06-04 01:01:15 [INFO] D13_tilt20_wrapped: Checkpointed 2 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra_checkpoint.csv
+2026-06-04 01:04:14 [INFO] D13_tilt20_wrapped.worker.6779: [single struct] 5 geometry objects
+2026-06-04 01:11:50 [INFO] D13_tilt20_wrapped: Completed normal task 3/10
+2026-06-04 01:11:50 [INFO] D13_tilt20_wrapped: Checkpointed 3 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra_checkpoint.csv
+2026-06-04 01:13:30 [INFO] D13_tilt20_wrapped.worker.6774: [single struct] 5 geometry objects
+2026-06-04 01:17:40 [INFO] D13_tilt20_wrapped: Completed normal task 4/10
+2026-06-04 01:17:40 [INFO] D13_tilt20_wrapped: Checkpointed 4 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra_checkpoint.csv
+2026-06-04 01:26:24 [INFO] D13_tilt20_wrapped: Completed normal task 5/10
+2026-06-04 01:26:24 [INFO] D13_tilt20_wrapped: Checkpointed 5 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra_checkpoint.csv
+2026-06-04 01:59:47 [INFO] D13_tilt20_wrapped: Completed normal task 6/10
+2026-06-04 01:59:47 [INFO] D13_tilt20_wrapped: Checkpointed 6 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra_checkpoint.csv
+2026-06-04 02:11:55 [INFO] D13_tilt20_wrapped: Completed normal task 7/10
+2026-06-04 02:11:55 [INFO] D13_tilt20_wrapped: Checkpointed 7 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra_checkpoint.csv
+2026-06-04 02:23:08 [INFO] D13_tilt20_wrapped: Completed normal task 8/10
+2026-06-04 02:23:08 [INFO] D13_tilt20_wrapped: Checkpointed 8 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra_checkpoint.csv
+2026-06-04 03:01:27 [INFO] D13_tilt20_wrapped: Completed normal task 9/10
+2026-06-04 03:01:27 [INFO] D13_tilt20_wrapped: Checkpointed 9 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra_checkpoint.csv
+2026-06-04 03:14:51 [INFO] D13_tilt20_wrapped: Completed normal task 10/10
+2026-06-04 03:14:51 [INFO] D13_tilt20_wrapped: Checkpointed 10 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra_checkpoint.csv
+2026-06-04 03:14:51 [INFO] D13_tilt20_wrapped: Prepared 150 D13 angle tasks; workers=8
+2026-06-04 03:14:52 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 0 kind=angle pol=Ez wl=8.1014 theta=-70.0
+2026-06-04 03:14:52 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 2 kind=angle pol=Ez wl=8.1014 theta=-50.0
+2026-06-04 03:14:52 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 1 kind=angle pol=Ez wl=8.1014 theta=-60.0
+2026-06-04 03:14:52 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 3 kind=angle pol=Ez wl=8.1014 theta=-40.0
+2026-06-04 03:14:52 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 4 kind=angle pol=Ez wl=8.1014 theta=-30.0
+2026-06-04 03:14:52 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 5 kind=angle pol=Ez wl=8.1014 theta=-20.0
+2026-06-04 03:14:52 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 6 kind=angle pol=Ez wl=8.1014 theta=-10.0
+2026-06-04 03:14:52 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 7 kind=angle pol=Ez wl=8.1014 theta=0.0
+2026-06-04 04:30:11 [INFO] D13_tilt20_wrapped: Completed angle task 1/150
+2026-06-04 04:30:11 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 8 kind=angle pol=Ez wl=8.1014 theta=10.0
+2026-06-04 04:30:11 [INFO] D13_tilt20_wrapped: Checkpointed 1 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 06:21:39 [INFO] D13_tilt20_wrapped: Completed angle task 2/150
+2026-06-04 06:21:39 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 9 kind=angle pol=Ez wl=8.1014 theta=20.0
+2026-06-04 06:21:39 [INFO] D13_tilt20_wrapped: Checkpointed 2 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 06:22:39 [INFO] D13_tilt20_wrapped: Completed angle task 3/150
+2026-06-04 06:22:39 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 10 kind=angle pol=Ez wl=8.1014 theta=30.0
+2026-06-04 06:22:39 [INFO] D13_tilt20_wrapped: Checkpointed 3 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 06:23:28 [INFO] D13_tilt20_wrapped: Completed angle task 4/150
+2026-06-04 06:23:28 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 11 kind=angle pol=Ez wl=8.1014 theta=40.0
+2026-06-04 06:23:28 [INFO] D13_tilt20_wrapped: Checkpointed 4 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 06:23:40 [INFO] D13_tilt20_wrapped: Completed angle task 5/150
+2026-06-04 06:23:40 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 12 kind=angle pol=Ez wl=8.1014 theta=50.0
+2026-06-04 06:23:40 [INFO] D13_tilt20_wrapped: Checkpointed 5 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 06:24:01 [INFO] D13_tilt20_wrapped: Completed angle task 6/150
+2026-06-04 06:24:01 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 13 kind=angle pol=Ez wl=8.1014 theta=60.0
+2026-06-04 06:24:01 [INFO] D13_tilt20_wrapped: Checkpointed 6 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 06:24:14 [INFO] D13_tilt20_wrapped: Completed angle task 7/150
+2026-06-04 06:24:14 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 14 kind=angle pol=Ez wl=8.1014 theta=70.0
+2026-06-04 06:24:14 [INFO] D13_tilt20_wrapped: Checkpointed 7 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 06:24:33 [INFO] D13_tilt20_wrapped: Completed angle task 8/150
+2026-06-04 06:24:33 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 15 kind=angle pol=Ez wl=9.0016 theta=-70.0
+2026-06-04 06:24:33 [INFO] D13_tilt20_wrapped: Checkpointed 8 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 07:11:11 [INFO] D13_tilt20_wrapped: Completed angle task 9/150
+2026-06-04 07:11:11 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 16 kind=angle pol=Ez wl=9.0016 theta=-60.0
+2026-06-04 07:11:11 [INFO] D13_tilt20_wrapped: Checkpointed 9 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 09:25:53 [INFO] D13_tilt20_wrapped: Completed angle task 10/150
+2026-06-04 09:25:53 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 17 kind=angle pol=Ez wl=9.0016 theta=-50.0
+2026-06-04 09:25:53 [INFO] D13_tilt20_wrapped: Checkpointed 10 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 09:30:09 [INFO] D13_tilt20_wrapped: Completed angle task 11/150
+2026-06-04 09:30:09 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 18 kind=angle pol=Ez wl=9.0016 theta=-40.0
+2026-06-04 09:30:09 [INFO] D13_tilt20_wrapped: Checkpointed 11 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 09:30:38 [INFO] D13_tilt20_wrapped: Completed angle task 12/150
+2026-06-04 09:30:38 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 19 kind=angle pol=Ez wl=9.0016 theta=-30.0
+2026-06-04 09:30:38 [INFO] D13_tilt20_wrapped: Checkpointed 12 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 09:31:34 [INFO] D13_tilt20_wrapped: Completed angle task 13/150
+2026-06-04 09:31:34 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 20 kind=angle pol=Ez wl=9.0016 theta=-20.0
+2026-06-04 09:31:34 [INFO] D13_tilt20_wrapped: Checkpointed 13 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 09:31:53 [INFO] D13_tilt20_wrapped: Completed angle task 14/150
+2026-06-04 09:31:53 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 21 kind=angle pol=Ez wl=9.0016 theta=-10.0
+2026-06-04 09:31:53 [INFO] D13_tilt20_wrapped: Checkpointed 14 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 09:32:54 [INFO] D13_tilt20_wrapped: Completed angle task 15/150
+2026-06-04 09:32:54 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 22 kind=angle pol=Ez wl=9.0016 theta=0.0
+2026-06-04 09:32:54 [INFO] D13_tilt20_wrapped: Checkpointed 15 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 09:51:05 [INFO] D13_tilt20_wrapped: Completed angle task 16/150
+2026-06-04 09:51:05 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 23 kind=angle pol=Ez wl=9.0016 theta=10.0
+2026-06-04 09:51:05 [INFO] D13_tilt20_wrapped: Checkpointed 16 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 10:10:37 [INFO] D13_tilt20_wrapped: Completed angle task 17/150
+2026-06-04 10:10:37 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 24 kind=angle pol=Ez wl=9.0016 theta=20.0
+2026-06-04 10:10:37 [INFO] D13_tilt20_wrapped: Checkpointed 17 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 10:54:19 [INFO] D13_tilt20_wrapped: Completed angle task 18/150
+2026-06-04 10:54:19 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 25 kind=angle pol=Ez wl=9.0016 theta=30.0
+2026-06-04 10:54:19 [INFO] D13_tilt20_wrapped: Checkpointed 18 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 12:44:29 [INFO] D13_tilt20_wrapped: Completed angle task 19/150
+2026-06-04 12:44:29 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 26 kind=angle pol=Ez wl=9.0016 theta=40.0
+2026-06-04 12:44:29 [INFO] D13_tilt20_wrapped: Checkpointed 19 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 12:45:55 [INFO] D13_tilt20_wrapped: Completed angle task 20/150
+2026-06-04 12:45:55 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 27 kind=angle pol=Ez wl=9.0016 theta=50.0
+2026-06-04 12:45:55 [INFO] D13_tilt20_wrapped: Checkpointed 20 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 12:49:38 [INFO] D13_tilt20_wrapped: Completed angle task 21/150
+2026-06-04 12:49:38 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 28 kind=angle pol=Ez wl=9.0016 theta=60.0
+2026-06-04 12:49:38 [INFO] D13_tilt20_wrapped: Checkpointed 21 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 12:51:28 [INFO] D13_tilt20_wrapped: Completed angle task 22/150
+2026-06-04 12:51:28 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 29 kind=angle pol=Ez wl=9.0016 theta=70.0
+2026-06-04 12:51:28 [INFO] D13_tilt20_wrapped: Checkpointed 22 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 12:52:37 [INFO] D13_tilt20_wrapped: Completed angle task 23/150
+2026-06-04 12:52:37 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 30 kind=angle pol=Ez wl=10.009 theta=-70.0
+2026-06-04 12:52:37 [INFO] D13_tilt20_wrapped: Checkpointed 23 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 13:03:21 [INFO] D13_tilt20_wrapped: Completed angle task 24/150
+2026-06-04 13:03:21 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 31 kind=angle pol=Ez wl=10.009 theta=-60.0
+2026-06-04 13:03:21 [INFO] D13_tilt20_wrapped: Checkpointed 24 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 13:10:59 [INFO] D13_tilt20_wrapped: Completed angle task 25/150
+2026-06-04 13:10:59 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 32 kind=angle pol=Ez wl=10.009 theta=-50.0
+2026-06-04 13:10:59 [INFO] D13_tilt20_wrapped: Checkpointed 25 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 13:53:13 [INFO] D13_tilt20_wrapped: Completed angle task 26/150
+2026-06-04 13:53:13 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 33 kind=angle pol=Ez wl=10.009 theta=-40.0
+2026-06-04 13:53:13 [INFO] D13_tilt20_wrapped: Checkpointed 26 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 15:53:58 [INFO] D13_tilt20_wrapped: Completed angle task 27/150
+2026-06-04 15:53:58 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 34 kind=angle pol=Ez wl=10.009 theta=-30.0
+2026-06-04 15:53:58 [INFO] D13_tilt20_wrapped: Checkpointed 27 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 15:57:56 [INFO] D13_tilt20_wrapped: Completed angle task 28/150
+2026-06-04 15:57:56 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 35 kind=angle pol=Ez wl=10.009 theta=-20.0
+2026-06-04 15:57:56 [INFO] D13_tilt20_wrapped: Checkpointed 28 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 16:03:25 [INFO] D13_tilt20_wrapped: Completed angle task 29/150
+2026-06-04 16:03:25 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 36 kind=angle pol=Ez wl=10.009 theta=-10.0
+2026-06-04 16:03:25 [INFO] D13_tilt20_wrapped: Checkpointed 29 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 16:17:35 [INFO] D13_tilt20_wrapped: Completed angle task 30/150
+2026-06-04 16:17:35 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 37 kind=angle pol=Ez wl=10.009 theta=0.0
+2026-06-04 16:17:35 [INFO] D13_tilt20_wrapped: Checkpointed 30 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 16:29:07 [INFO] D13_tilt20_wrapped: Completed angle task 31/150
+2026-06-04 16:29:07 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 38 kind=angle pol=Ez wl=10.009 theta=10.0
+2026-06-04 16:29:07 [INFO] D13_tilt20_wrapped: Checkpointed 31 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 16:38:55 [INFO] D13_tilt20_wrapped: Completed angle task 32/150
+2026-06-04 16:38:56 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 39 kind=angle pol=Ez wl=10.009 theta=20.0
+2026-06-04 16:38:56 [INFO] D13_tilt20_wrapped: Checkpointed 32 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 16:42:58 [INFO] D13_tilt20_wrapped: Completed angle task 33/150
+2026-06-04 16:42:58 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 40 kind=angle pol=Ez wl=10.009 theta=30.0
+2026-06-04 16:42:58 [INFO] D13_tilt20_wrapped: Checkpointed 33 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 17:10:25 [INFO] D13_tilt20_wrapped: Completed angle task 34/150
+2026-06-04 17:10:25 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 41 kind=angle pol=Ez wl=10.009 theta=40.0
+2026-06-04 17:10:25 [INFO] D13_tilt20_wrapped: Checkpointed 34 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 17:47:21 [INFO] D13_tilt20_wrapped: Completed angle task 35/150
+2026-06-04 17:47:21 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 42 kind=angle pol=Ez wl=10.009 theta=50.0
+2026-06-04 17:47:21 [INFO] D13_tilt20_wrapped: Checkpointed 35 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 19:19:46 [INFO] D13_tilt20_wrapped: Completed angle task 36/150
+2026-06-04 19:19:46 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 43 kind=angle pol=Ez wl=10.009 theta=60.0
+2026-06-04 19:19:46 [INFO] D13_tilt20_wrapped: Checkpointed 36 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 19:24:59 [INFO] D13_tilt20_wrapped: Completed angle task 37/150
+2026-06-04 19:24:59 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 44 kind=angle pol=Ez wl=10.009 theta=70.0
+2026-06-04 19:24:59 [INFO] D13_tilt20_wrapped: Checkpointed 37 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 19:32:06 [INFO] D13_tilt20_wrapped: Completed angle task 38/150
+2026-06-04 19:32:06 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 45 kind=angle pol=Ez wl=10.985 theta=-70.0
+2026-06-04 19:32:06 [INFO] D13_tilt20_wrapped: Checkpointed 38 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 19:51:53 [INFO] D13_tilt20_wrapped: Completed angle task 39/150
+2026-06-04 19:51:53 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 46 kind=angle pol=Ez wl=10.985 theta=-60.0
+2026-06-04 19:51:53 [INFO] D13_tilt20_wrapped: Checkpointed 39 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 20:00:02 [INFO] D13_tilt20_wrapped: Completed angle task 40/150
+2026-06-04 20:00:02 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 47 kind=angle pol=Ez wl=10.985 theta=-50.0
+2026-06-04 20:00:02 [INFO] D13_tilt20_wrapped: Checkpointed 40 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 20:11:25 [INFO] D13_tilt20_wrapped: Completed angle task 41/150
+2026-06-04 20:11:25 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 48 kind=angle pol=Ez wl=10.985 theta=-40.0
+2026-06-04 20:11:25 [INFO] D13_tilt20_wrapped: Checkpointed 41 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 20:25:55 [INFO] D13_tilt20_wrapped: Completed angle task 42/150
+2026-06-04 20:25:55 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 49 kind=angle pol=Ez wl=10.985 theta=-30.0
+2026-06-04 20:25:55 [INFO] D13_tilt20_wrapped: Checkpointed 42 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 21:03:29 [INFO] D13_tilt20_wrapped: Completed angle task 43/150
+2026-06-04 21:03:29 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 50 kind=angle pol=Ez wl=10.985 theta=-20.0
+2026-06-04 21:03:29 [INFO] D13_tilt20_wrapped: Checkpointed 43 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 22:39:08 [INFO] D13_tilt20_wrapped: Completed angle task 44/150
+2026-06-04 22:39:08 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 51 kind=angle pol=Ez wl=10.985 theta=-10.0
+2026-06-04 22:39:08 [INFO] D13_tilt20_wrapped: Checkpointed 44 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 22:58:21 [INFO] D13_tilt20_wrapped: Completed angle task 45/150
+2026-06-04 22:58:21 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 52 kind=angle pol=Ez wl=10.985 theta=0.0
+2026-06-04 22:58:21 [INFO] D13_tilt20_wrapped: Checkpointed 45 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 23:22:52 [INFO] D13_tilt20_wrapped: Completed angle task 46/150
+2026-06-04 23:22:52 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 53 kind=angle pol=Ez wl=10.985 theta=10.0
+2026-06-04 23:22:52 [INFO] D13_tilt20_wrapped: Checkpointed 46 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 23:38:43 [INFO] D13_tilt20_wrapped: Completed angle task 47/150
+2026-06-04 23:38:43 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 54 kind=angle pol=Ez wl=10.985 theta=20.0
+2026-06-04 23:38:43 [INFO] D13_tilt20_wrapped: Checkpointed 47 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-04 23:42:17 [INFO] D13_tilt20_wrapped: Completed angle task 48/150
+2026-06-04 23:42:17 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 55 kind=angle pol=Ez wl=10.985 theta=30.0
+2026-06-04 23:42:17 [INFO] D13_tilt20_wrapped: Checkpointed 48 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 00:03:12 [INFO] D13_tilt20_wrapped: Completed angle task 49/150
+2026-06-05 00:03:12 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 56 kind=angle pol=Ez wl=10.985 theta=40.0
+2026-06-05 00:03:12 [INFO] D13_tilt20_wrapped: Checkpointed 49 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 00:04:01 [INFO] D13_tilt20_wrapped: Completed angle task 50/150
+2026-06-05 00:04:01 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 57 kind=angle pol=Ez wl=10.985 theta=50.0
+2026-06-05 00:04:01 [INFO] D13_tilt20_wrapped: Checkpointed 50 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 00:36:09 [INFO] D13_tilt20_wrapped: Completed angle task 51/150
+2026-06-05 00:36:09 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 58 kind=angle pol=Ez wl=10.985 theta=60.0
+2026-06-05 00:36:09 [INFO] D13_tilt20_wrapped: Checkpointed 51 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 00:37:52 [INFO] D13_tilt20_wrapped: Completed angle task 52/150
+2026-06-05 00:37:52 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 59 kind=angle pol=Ez wl=10.985 theta=70.0
+2026-06-05 00:37:52 [INFO] D13_tilt20_wrapped: Checkpointed 52 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 02:08:14 [INFO] D13_tilt20_wrapped: Completed angle task 53/150
+2026-06-05 02:08:14 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 60 kind=angle pol=Ez wl=12.345 theta=-70.0
+2026-06-05 02:08:14 [INFO] D13_tilt20_wrapped: Checkpointed 53 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 03:00:35 [INFO] D13_tilt20_wrapped: Completed angle task 54/150
+2026-06-05 03:00:35 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 61 kind=angle pol=Ez wl=12.345 theta=-60.0
+2026-06-05 03:00:35 [INFO] D13_tilt20_wrapped: Checkpointed 54 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 03:18:52 [INFO] D13_tilt20_wrapped: Completed angle task 55/150
+2026-06-05 03:18:52 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 62 kind=angle pol=Ez wl=12.345 theta=-50.0
+2026-06-05 03:18:52 [INFO] D13_tilt20_wrapped: Checkpointed 55 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 03:19:48 [INFO] D13_tilt20_wrapped: Completed angle task 56/150
+2026-06-05 03:19:48 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 63 kind=angle pol=Ez wl=12.345 theta=-40.0
+2026-06-05 03:19:48 [INFO] D13_tilt20_wrapped: Checkpointed 56 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 03:42:41 [INFO] D13_tilt20_wrapped: Completed angle task 57/150
+2026-06-05 03:42:41 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 64 kind=angle pol=Ez wl=12.345 theta=-30.0
+2026-06-05 03:42:41 [INFO] D13_tilt20_wrapped: Checkpointed 57 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 03:43:36 [INFO] D13_tilt20_wrapped: Completed angle task 58/150
+2026-06-05 03:43:36 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 65 kind=angle pol=Ez wl=12.345 theta=-20.0
+2026-06-05 03:43:36 [INFO] D13_tilt20_wrapped: Checkpointed 58 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 04:19:47 [INFO] D13_tilt20_wrapped: Completed angle task 59/150
+2026-06-05 04:19:47 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 66 kind=angle pol=Ez wl=12.345 theta=-10.0
+2026-06-05 04:19:48 [INFO] D13_tilt20_wrapped: Checkpointed 59 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 04:20:59 [INFO] D13_tilt20_wrapped: Completed angle task 60/150
+2026-06-05 04:20:59 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 67 kind=angle pol=Ez wl=12.345 theta=0.0
+2026-06-05 04:20:59 [INFO] D13_tilt20_wrapped: Checkpointed 60 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 06:09:04 [INFO] D13_tilt20_wrapped: Completed angle task 61/150
+2026-06-05 06:09:04 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 68 kind=angle pol=Ez wl=12.345 theta=10.0
+2026-06-05 06:09:04 [INFO] D13_tilt20_wrapped: Checkpointed 61 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 06:15:31 [INFO] D13_tilt20_wrapped: Completed angle task 62/150
+2026-06-05 06:15:31 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 69 kind=angle pol=Ez wl=12.345 theta=20.0
+2026-06-05 06:15:31 [INFO] D13_tilt20_wrapped: Checkpointed 62 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 06:59:37 [INFO] D13_tilt20_wrapped: Completed angle task 63/150
+2026-06-05 06:59:37 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 70 kind=angle pol=Ez wl=12.345 theta=30.0
+2026-06-05 06:59:37 [INFO] D13_tilt20_wrapped: Checkpointed 63 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 07:22:25 [INFO] D13_tilt20_wrapped: Completed angle task 64/150
+2026-06-05 07:22:25 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 71 kind=angle pol=Ez wl=12.345 theta=40.0
+2026-06-05 07:22:25 [INFO] D13_tilt20_wrapped: Checkpointed 64 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 07:39:01 [INFO] D13_tilt20_wrapped: Completed angle task 65/150
+2026-06-05 07:39:01 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 72 kind=angle pol=Ez wl=12.345 theta=50.0
+2026-06-05 07:39:01 [INFO] D13_tilt20_wrapped: Checkpointed 65 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 07:47:00 [INFO] D13_tilt20_wrapped: Completed angle task 66/150
+2026-06-05 07:47:00 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 73 kind=angle pol=Ez wl=12.345 theta=60.0
+2026-06-05 07:47:00 [INFO] D13_tilt20_wrapped: Checkpointed 66 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 07:58:26 [INFO] D13_tilt20_wrapped: Completed angle task 67/150
+2026-06-05 07:58:26 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 74 kind=angle pol=Ez wl=12.345 theta=70.0
+2026-06-05 07:58:26 [INFO] D13_tilt20_wrapped: Checkpointed 67 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 08:25:10 [INFO] D13_tilt20_wrapped: Completed angle task 68/150
+2026-06-05 08:25:10 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 75 kind=angle pol=Hz wl=8.1014 theta=-70.0
+2026-06-05 08:25:10 [INFO] D13_tilt20_wrapped: Checkpointed 68 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 10:15:48 [INFO] D13_tilt20_wrapped: Completed angle task 69/150
+2026-06-05 10:15:48 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 76 kind=angle pol=Hz wl=8.1014 theta=-60.0
+2026-06-05 10:15:48 [INFO] D13_tilt20_wrapped: Checkpointed 69 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 10:31:42 [INFO] D13_tilt20_wrapped: Completed angle task 70/150
+2026-06-05 10:31:42 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 77 kind=angle pol=Hz wl=8.1014 theta=-50.0
+2026-06-05 10:31:42 [INFO] D13_tilt20_wrapped: Checkpointed 70 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 11:02:55 [INFO] D13_tilt20_wrapped: Completed angle task 71/150
+2026-06-05 11:02:55 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 78 kind=angle pol=Hz wl=8.1014 theta=-40.0
+2026-06-05 11:02:55 [INFO] D13_tilt20_wrapped: Checkpointed 71 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 11:29:47 [INFO] D13_tilt20_wrapped: Completed angle task 72/150
+2026-06-05 11:29:47 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 79 kind=angle pol=Hz wl=8.1014 theta=-30.0
+2026-06-05 11:29:47 [INFO] D13_tilt20_wrapped: Checkpointed 72 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 11:46:42 [INFO] D13_tilt20_wrapped: Completed angle task 73/150
+2026-06-05 11:46:42 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 80 kind=angle pol=Hz wl=8.1014 theta=-20.0
+2026-06-05 11:46:42 [INFO] D13_tilt20_wrapped: Checkpointed 73 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 12:09:49 [INFO] D13_tilt20_wrapped: Completed angle task 74/150
+2026-06-05 12:09:49 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 81 kind=angle pol=Hz wl=8.1014 theta=-10.0
+2026-06-05 12:09:49 [INFO] D13_tilt20_wrapped: Checkpointed 74 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 12:23:52 [INFO] D13_tilt20_wrapped: Completed angle task 75/150
+2026-06-05 12:23:52 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 82 kind=angle pol=Hz wl=8.1014 theta=0.0
+2026-06-05 12:23:52 [INFO] D13_tilt20_wrapped: Checkpointed 75 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 14:06:40 [INFO] D13_tilt20_wrapped: Completed angle task 76/150
+2026-06-05 14:06:40 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 83 kind=angle pol=Hz wl=8.1014 theta=10.0
+2026-06-05 14:06:40 [INFO] D13_tilt20_wrapped: Checkpointed 76 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 15:06:39 [INFO] D13_tilt20_wrapped: Completed angle task 77/150
+2026-06-05 15:06:39 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 84 kind=angle pol=Hz wl=8.1014 theta=20.0
+2026-06-05 15:06:39 [INFO] D13_tilt20_wrapped: Checkpointed 77 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 16:16:40 [INFO] D13_tilt20_wrapped: Completed angle task 78/150
+2026-06-05 16:16:40 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 85 kind=angle pol=Hz wl=8.1014 theta=30.0
+2026-06-05 16:16:40 [INFO] D13_tilt20_wrapped: Checkpointed 78 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 16:42:39 [INFO] D13_tilt20_wrapped: Completed angle task 79/150
+2026-06-05 16:42:39 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 86 kind=angle pol=Hz wl=8.1014 theta=40.0
+2026-06-05 16:42:39 [INFO] D13_tilt20_wrapped: Checkpointed 79 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 17:06:14 [INFO] D13_tilt20_wrapped: Completed angle task 80/150
+2026-06-05 17:06:14 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 87 kind=angle pol=Hz wl=8.1014 theta=50.0
+2026-06-05 17:06:14 [INFO] D13_tilt20_wrapped: Checkpointed 80 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 17:18:39 [INFO] D13_tilt20_wrapped: Completed angle task 81/150
+2026-06-05 17:18:39 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 88 kind=angle pol=Hz wl=8.1014 theta=60.0
+2026-06-05 17:18:39 [INFO] D13_tilt20_wrapped: Checkpointed 81 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 17:39:29 [INFO] D13_tilt20_wrapped: Completed angle task 82/150
+2026-06-05 17:39:29 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 89 kind=angle pol=Hz wl=8.1014 theta=70.0
+2026-06-05 17:39:29 [INFO] D13_tilt20_wrapped: Checkpointed 82 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 17:58:02 [INFO] D13_tilt20_wrapped: Completed angle task 83/150
+2026-06-05 17:58:02 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 90 kind=angle pol=Hz wl=9.0016 theta=-70.0
+2026-06-05 17:58:02 [INFO] D13_tilt20_wrapped: Checkpointed 83 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 19:46:58 [INFO] D13_tilt20_wrapped: Completed angle task 84/150
+2026-06-05 19:46:58 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 91 kind=angle pol=Hz wl=9.0016 theta=-60.0
+2026-06-05 19:46:58 [INFO] D13_tilt20_wrapped: Checkpointed 84 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 20:40:20 [INFO] D13_tilt20_wrapped: Completed angle task 85/150
+2026-06-05 20:40:20 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 92 kind=angle pol=Hz wl=9.0016 theta=-50.0
+2026-06-05 20:40:20 [INFO] D13_tilt20_wrapped: Checkpointed 85 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 21:58:04 [INFO] D13_tilt20_wrapped: Completed angle task 86/150
+2026-06-05 21:58:04 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 93 kind=angle pol=Hz wl=9.0016 theta=-40.0
+2026-06-05 21:58:04 [INFO] D13_tilt20_wrapped: Checkpointed 86 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 22:42:06 [INFO] D13_tilt20_wrapped: Completed angle task 87/150
+2026-06-05 22:42:06 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 94 kind=angle pol=Hz wl=9.0016 theta=-30.0
+2026-06-05 22:42:06 [INFO] D13_tilt20_wrapped: Checkpointed 87 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 22:52:12 [INFO] D13_tilt20_wrapped: Completed angle task 88/150
+2026-06-05 22:52:12 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 95 kind=angle pol=Hz wl=9.0016 theta=-20.0
+2026-06-05 22:52:12 [INFO] D13_tilt20_wrapped: Checkpointed 88 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 23:12:36 [INFO] D13_tilt20_wrapped: Completed angle task 89/150
+2026-06-05 23:12:36 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 96 kind=angle pol=Hz wl=9.0016 theta=-10.0
+2026-06-05 23:12:36 [INFO] D13_tilt20_wrapped: Checkpointed 89 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-05 23:36:58 [INFO] D13_tilt20_wrapped: Completed angle task 90/150
+2026-06-05 23:36:58 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 97 kind=angle pol=Hz wl=9.0016 theta=0.0
+2026-06-05 23:36:58 [INFO] D13_tilt20_wrapped: Checkpointed 90 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 00:29:24 [INFO] D13_tilt20_wrapped: Completed angle task 91/150
+2026-06-06 00:29:24 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 98 kind=angle pol=Hz wl=9.0016 theta=10.0
+2026-06-06 00:29:24 [INFO] D13_tilt20_wrapped: Checkpointed 91 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 01:59:54 [INFO] D13_tilt20_wrapped: Completed angle task 92/150
+2026-06-06 01:59:54 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 99 kind=angle pol=Hz wl=9.0016 theta=20.0
+2026-06-06 01:59:54 [INFO] D13_tilt20_wrapped: Checkpointed 92 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 02:40:09 [INFO] D13_tilt20_wrapped: Completed angle task 93/150
+2026-06-06 02:40:09 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 100 kind=angle pol=Hz wl=9.0016 theta=30.0
+2026-06-06 02:40:09 [INFO] D13_tilt20_wrapped: Checkpointed 93 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 03:13:42 [INFO] D13_tilt20_wrapped: Completed angle task 94/150
+2026-06-06 03:13:42 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 101 kind=angle pol=Hz wl=9.0016 theta=40.0
+2026-06-06 03:13:42 [INFO] D13_tilt20_wrapped: Checkpointed 94 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 04:09:20 [INFO] D13_tilt20_wrapped: Completed angle task 95/150
+2026-06-06 04:09:20 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 102 kind=angle pol=Hz wl=9.0016 theta=50.0
+2026-06-06 04:09:20 [INFO] D13_tilt20_wrapped: Checkpointed 95 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 05:30:41 [INFO] D13_tilt20_wrapped: Completed angle task 96/150
+2026-06-06 05:30:41 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 103 kind=angle pol=Hz wl=9.0016 theta=60.0
+2026-06-06 05:30:41 [INFO] D13_tilt20_wrapped: Checkpointed 96 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 05:48:51 [INFO] D13_tilt20_wrapped: Completed angle task 97/150
+2026-06-06 05:48:51 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 104 kind=angle pol=Hz wl=9.0016 theta=70.0
+2026-06-06 05:48:51 [INFO] D13_tilt20_wrapped: Checkpointed 97 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 05:50:37 [INFO] D13_tilt20_wrapped: Completed angle task 98/150
+2026-06-06 05:50:37 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 105 kind=angle pol=Hz wl=10.009 theta=-70.0
+2026-06-06 05:50:37 [INFO] D13_tilt20_wrapped: Checkpointed 98 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 06:41:44 [INFO] D13_tilt20_wrapped: Completed angle task 99/150
+2026-06-06 06:41:44 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 106 kind=angle pol=Hz wl=10.009 theta=-60.0
+2026-06-06 06:41:44 [INFO] D13_tilt20_wrapped: Checkpointed 99 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 08:20:45 [INFO] D13_tilt20_wrapped: Completed angle task 100/150
+2026-06-06 08:20:45 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 107 kind=angle pol=Hz wl=10.009 theta=-50.0
+2026-06-06 08:20:45 [INFO] D13_tilt20_wrapped: Checkpointed 100 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 08:59:49 [INFO] D13_tilt20_wrapped: Completed angle task 101/150
+2026-06-06 08:59:49 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 108 kind=angle pol=Hz wl=10.009 theta=-40.0
+2026-06-06 08:59:49 [INFO] D13_tilt20_wrapped: Checkpointed 101 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 09:38:51 [INFO] D13_tilt20_wrapped: Completed angle task 102/150
+2026-06-06 09:38:51 [INFO] D13_tilt20_wrapped.worker.7299: >>> D13 task 109 kind=angle pol=Hz wl=10.009 theta=-30.0
+2026-06-06 09:38:51 [INFO] D13_tilt20_wrapped: Checkpointed 102 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 10:30:50 [INFO] D13_tilt20_wrapped: Completed angle task 103/150
+2026-06-06 10:30:50 [INFO] D13_tilt20_wrapped.worker.7296: >>> D13 task 110 kind=angle pol=Hz wl=10.009 theta=-20.0
+2026-06-06 10:30:50 [INFO] D13_tilt20_wrapped: Checkpointed 103 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 12:28:50 [INFO] D13_tilt20_wrapped: Completed angle task 104/150
+2026-06-06 12:28:50 [INFO] D13_tilt20_wrapped.worker.7302: >>> D13 task 111 kind=angle pol=Hz wl=10.009 theta=-10.0
+2026-06-06 12:28:50 [INFO] D13_tilt20_wrapped: Checkpointed 104 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 12:38:50 [INFO] D13_tilt20_wrapped: Completed angle task 105/150
+2026-06-06 12:38:50 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 112 kind=angle pol=Hz wl=10.009 theta=0.0
+2026-06-06 12:38:50 [INFO] D13_tilt20_wrapped: Checkpointed 105 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 13:23:57 [INFO] D13_tilt20_wrapped: Completed angle task 106/150
+2026-06-06 13:23:57 [INFO] D13_tilt20_wrapped.worker.7300: >>> D13 task 113 kind=angle pol=Hz wl=10.009 theta=10.0
+2026-06-06 13:23:57 [INFO] D13_tilt20_wrapped: Checkpointed 106 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 13:45:00 [INFO] D13_tilt20_wrapped: Completed angle task 107/150
+2026-06-06 13:45:00 [INFO] D13_tilt20_wrapped.worker.7293: >>> D13 task 114 kind=angle pol=Hz wl=10.009 theta=20.0
+2026-06-06 13:45:00 [INFO] D13_tilt20_wrapped: Checkpointed 107 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 15:17:49 [INFO] D13_tilt20_wrapped: Completed angle task 108/150
+2026-06-06 15:17:49 [INFO] D13_tilt20_wrapped.worker.7297: >>> D13 task 115 kind=angle pol=Hz wl=10.009 theta=30.0
+2026-06-06 15:17:49 [INFO] D13_tilt20_wrapped: Checkpointed 108 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 15:53:23 [INFO] D13_tilt20_wrapped: Completed angle task 109/150
+2026-06-06 15:53:23 [INFO] D13_tilt20_wrapped.worker.7298: >>> D13 task 116 kind=angle pol=Hz wl=10.009 theta=40.0
+2026-06-06 15:53:23 [INFO] D13_tilt20_wrapped: Checkpointed 109 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv
+2026-06-06 15:58:21 [INFO] D13_tilt20_wrapped: Completed angle task 110/150
+2026-06-06 15:58:21 [INFO] D13_tilt20_wrapped.worker.7301: >>> D13 task 117 kind=angle pol=Hz wl=10.009 theta=50.0
+2026-06-06 15:58:21 [INFO] D13_tilt20_wrapped: Checkpointed 110 row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv

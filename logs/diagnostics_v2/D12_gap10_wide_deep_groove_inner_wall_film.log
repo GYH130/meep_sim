@@ -1,0 +1,200 @@
+2026-06-01 23:25:46 [INFO] D12_gap10_wide_deep_groove: Starting D12 mode=smoke
+2026-06-01 23:25:46 [INFO] D12_gap10_wide_deep_groove: D12 geometry-only run passed.
+2026-06-01 23:32:31 [INFO] D12_gap10_wide_deep_groove: Starting D12 mode=screen
+2026-06-01 23:32:32 [INFO] D12_gap10_wide_deep_groove: Prepared 50 D12 single-wavelength tasks; workers=1; task_timeout_s=None (not enforced)
+2026-06-01 23:32:32 [INFO] D12_gap10_wide_deep_groove: >>> task=1/50 case=flat_Ti pol=Ez wl=8.1014 res=24 pml=4
+2026-06-01 23:32:32 [INFO] D12_gap10_wide_deep_groove: [single ref] wl=8.1014 um, f=0.123435, res=24, comp=Ez
+2026-06-01 23:38:59 [INFO] D12_gap10_wide_deep_groove: [single struct] 1 geometry objects
+2026-06-01 23:40:26 [ERROR] D12_gap10_wide_deep_groove: D12 failed
+Traceback (most recent call last):
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D12_gap10_wide_deep_groove_inner_wall_film_screen.py", line 2052, in main
+    rows = _run_tasks(tasks, args, paths, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D12_gap10_wide_deep_groove_inner_wall_film_screen.py", line 1871, in _run_tasks
+    row = _run_one(case_name, pol, wl, resolution, pml_um, args, logger)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D12_gap10_wide_deep_groove_inner_wall_film_screen.py", line 675, in _run_one
+    result = run_periodic_2d_metal_single_wavelength(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/src/simulation.py", line 501, in run_periodic_2d_metal_single_wavelength
+    sim.run(
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 4562, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2885, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2843, in _run_until
+    self.fields.step()
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/__init__.py", line 3054, in step
+    return _meep.fields_step(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: meep: simulation fields are NaN or Inf
+2026-06-02 00:42:06 [INFO] D12_gap10_wide_deep_groove: Starting D12 mode=screen
+2026-06-02 00:42:07 [INFO] D12_gap10_wide_deep_groove: Prepared 30 D12 single-wavelength tasks; workers=12; task_timeout_s=None (not enforced)
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.83: >>> worker task=0 case=gap10_inner_wall_film_500nm pol=Ez wl=8.1014 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.86: >>> worker task=1 case=gap10_inner_wall_film_500nm pol=Ez wl=9.0016 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.85: >>> worker task=2 case=gap10_inner_wall_film_500nm pol=Ez wl=10.009 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.84: >>> worker task=3 case=gap10_inner_wall_film_500nm pol=Ez wl=10.985 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.88: >>> worker task=5 case=gap10_inner_wall_film_500nm pol=Hz wl=8.1014 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.80: >>> worker task=4 case=gap10_inner_wall_film_500nm pol=Ez wl=12.345 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.89: >>> worker task=6 case=gap10_inner_wall_film_500nm pol=Hz wl=9.0016 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.87: >>> worker task=9 case=gap10_inner_wall_film_500nm pol=Hz wl=12.345 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.91: >>> worker task=8 case=gap10_inner_wall_film_500nm pol=Hz wl=10.985 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.93: >>> worker task=7 case=gap10_inner_wall_film_500nm pol=Hz wl=10.009 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.92: >>> worker task=10 case=gap10_inner_wall_film_1um pol=Ez wl=8.1014 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.90: >>> worker task=11 case=gap10_inner_wall_film_1um pol=Ez wl=9.0016 res=12 pml=4
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.86: [single ref] wl=9.0016 um, f=0.111091, res=12, comp=Ez
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.83: [single ref] wl=8.1014 um, f=0.123435, res=12, comp=Ez
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.89: [single ref] wl=9.0016 um, f=0.111091, res=12, comp=Hz
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.91: [single ref] wl=10.985 um, f=0.0910332, res=12, comp=Hz
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.84: [single ref] wl=10.985 um, f=0.0910332, res=12, comp=Ez
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.88: [single ref] wl=8.1014 um, f=0.123435, res=12, comp=Hz
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.85: [single ref] wl=10.009 um, f=0.0999101, res=12, comp=Ez
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.80: [single ref] wl=12.345 um, f=0.0810045, res=12, comp=Ez
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.93: [single ref] wl=10.009 um, f=0.0999101, res=12, comp=Hz
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.87: [single ref] wl=12.345 um, f=0.0810045, res=12, comp=Hz
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.92: [single ref] wl=8.1014 um, f=0.123435, res=12, comp=Ez
+2026-06-02 00:42:08 [INFO] D12_gap10_wide_deep_groove.worker.90: [single ref] wl=9.0016 um, f=0.111091, res=12, comp=Ez
+2026-06-02 00:46:32 [INFO] D12_gap10_wide_deep_groove.worker.84: [single struct] 3 geometry objects
+2026-06-02 00:48:28 [INFO] D12_gap10_wide_deep_groove.worker.83: [single struct] 3 geometry objects
+2026-06-02 00:48:43 [INFO] D12_gap10_wide_deep_groove.worker.86: [single struct] 3 geometry objects
+2026-06-02 00:50:30 [INFO] D12_gap10_wide_deep_groove.worker.90: [single struct] 3 geometry objects
+2026-06-02 00:50:41 [INFO] D12_gap10_wide_deep_groove.worker.92: [single struct] 3 geometry objects
+2026-06-02 00:50:43 [INFO] D12_gap10_wide_deep_groove.worker.85: [single struct] 3 geometry objects
+2026-06-02 00:51:39 [INFO] D12_gap10_wide_deep_groove.worker.80: [single struct] 3 geometry objects
+2026-06-02 00:54:34 [INFO] D12_gap10_wide_deep_groove.worker.88: [single struct] 3 geometry objects
+2026-06-02 00:56:19 [INFO] D12_gap10_wide_deep_groove.worker.91: [single struct] 3 geometry objects
+2026-06-02 00:56:21 [INFO] D12_gap10_wide_deep_groove.worker.93: [single struct] 3 geometry objects
+2026-06-02 00:56:50 [INFO] D12_gap10_wide_deep_groove.worker.89: [single struct] 3 geometry objects
+2026-06-02 00:58:46 [INFO] D12_gap10_wide_deep_groove.worker.87: [single struct] 3 geometry objects
+2026-06-02 01:33:30 [INFO] D12_gap10_wide_deep_groove: Completed task 1/30
+2026-06-02 01:33:31 [INFO] D12_gap10_wide_deep_groove: Checkpointed 1 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 01:33:31 [INFO] D12_gap10_wide_deep_groove.worker.83: >>> worker task=12 case=gap10_inner_wall_film_1um pol=Ez wl=10.009 res=12 pml=4
+2026-06-02 01:33:31 [INFO] D12_gap10_wide_deep_groove.worker.83: [single ref] wl=10.009 um, f=0.0999101, res=12, comp=Ez
+2026-06-02 01:37:11 [INFO] D12_gap10_wide_deep_groove.worker.83: [single struct] 3 geometry objects
+2026-06-02 01:37:29 [INFO] D12_gap10_wide_deep_groove: Completed task 2/30
+2026-06-02 01:37:29 [INFO] D12_gap10_wide_deep_groove: Checkpointed 2 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 01:37:29 [INFO] D12_gap10_wide_deep_groove.worker.92: >>> worker task=13 case=gap10_inner_wall_film_1um pol=Ez wl=10.985 res=12 pml=4
+2026-06-02 01:37:29 [INFO] D12_gap10_wide_deep_groove.worker.92: [single ref] wl=10.985 um, f=0.0910332, res=12, comp=Ez
+2026-06-02 01:40:14 [INFO] D12_gap10_wide_deep_groove: Completed task 3/30
+2026-06-02 01:40:14 [INFO] D12_gap10_wide_deep_groove: Checkpointed 3 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 01:40:14 [INFO] D12_gap10_wide_deep_groove.worker.86: >>> worker task=14 case=gap10_inner_wall_film_1um pol=Ez wl=12.345 res=12 pml=4
+2026-06-02 01:40:14 [INFO] D12_gap10_wide_deep_groove.worker.86: [single ref] wl=12.345 um, f=0.0810045, res=12, comp=Ez
+2026-06-02 01:41:31 [INFO] D12_gap10_wide_deep_groove.worker.92: [single struct] 3 geometry objects
+2026-06-02 01:42:13 [INFO] D12_gap10_wide_deep_groove: Completed task 4/30
+2026-06-02 01:42:13 [INFO] D12_gap10_wide_deep_groove: Checkpointed 4 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 01:42:13 [INFO] D12_gap10_wide_deep_groove.worker.90: >>> worker task=15 case=gap10_inner_wall_film_1um pol=Hz wl=8.1014 res=12 pml=4
+2026-06-02 01:42:13 [INFO] D12_gap10_wide_deep_groove.worker.90: [single ref] wl=8.1014 um, f=0.123435, res=12, comp=Hz
+2026-06-02 01:44:59 [INFO] D12_gap10_wide_deep_groove.worker.86: [single struct] 3 geometry objects
+2026-06-02 01:46:21 [INFO] D12_gap10_wide_deep_groove: Completed task 5/30
+2026-06-02 01:46:21 [INFO] D12_gap10_wide_deep_groove: Checkpointed 5 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 01:46:21 [INFO] D12_gap10_wide_deep_groove.worker.84: >>> worker task=16 case=gap10_inner_wall_film_1um pol=Hz wl=9.0016 res=12 pml=4
+2026-06-02 01:46:21 [INFO] D12_gap10_wide_deep_groove.worker.84: [single ref] wl=9.0016 um, f=0.111091, res=12, comp=Hz
+2026-06-02 01:46:31 [INFO] D12_gap10_wide_deep_groove.worker.90: [single struct] 3 geometry objects
+2026-06-02 01:47:50 [INFO] D12_gap10_wide_deep_groove: Completed task 6/30
+2026-06-02 01:47:50 [INFO] D12_gap10_wide_deep_groove: Checkpointed 6 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 01:47:50 [INFO] D12_gap10_wide_deep_groove.worker.85: >>> worker task=17 case=gap10_inner_wall_film_1um pol=Hz wl=10.009 res=12 pml=4
+2026-06-02 01:47:50 [INFO] D12_gap10_wide_deep_groove.worker.85: [single ref] wl=10.009 um, f=0.0999101, res=12, comp=Hz
+2026-06-02 01:50:54 [INFO] D12_gap10_wide_deep_groove.worker.84: [single struct] 3 geometry objects
+2026-06-02 01:53:02 [INFO] D12_gap10_wide_deep_groove.worker.85: [single struct] 3 geometry objects
+2026-06-02 02:02:45 [INFO] D12_gap10_wide_deep_groove: Completed task 7/30
+2026-06-02 02:02:45 [INFO] D12_gap10_wide_deep_groove: Checkpointed 7 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 02:02:45 [INFO] D12_gap10_wide_deep_groove.worker.80: >>> worker task=18 case=gap10_inner_wall_film_1um pol=Hz wl=10.985 res=12 pml=4
+2026-06-02 02:02:45 [INFO] D12_gap10_wide_deep_groove.worker.80: [single ref] wl=10.985 um, f=0.0910332, res=12, comp=Hz
+2026-06-02 02:08:11 [INFO] D12_gap10_wide_deep_groove.worker.80: [single struct] 3 geometry objects
+2026-06-02 02:30:42 [INFO] D12_gap10_wide_deep_groove: Completed task 8/30
+2026-06-02 02:30:42 [INFO] D12_gap10_wide_deep_groove: Checkpointed 8 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 02:30:42 [INFO] D12_gap10_wide_deep_groove.worker.88: >>> worker task=19 case=gap10_inner_wall_film_1um pol=Hz wl=12.345 res=12 pml=4
+2026-06-02 02:30:42 [INFO] D12_gap10_wide_deep_groove.worker.88: [single ref] wl=12.345 um, f=0.0810045, res=12, comp=Hz
+2026-06-02 02:33:31 [INFO] D12_gap10_wide_deep_groove: Completed task 9/30
+2026-06-02 02:33:31 [INFO] D12_gap10_wide_deep_groove: Checkpointed 9 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 02:33:31 [INFO] D12_gap10_wide_deep_groove.worker.83: >>> worker task=20 case=gap10_inner_wall_film_2um pol=Ez wl=8.1014 res=12 pml=4
+2026-06-02 02:33:31 [INFO] D12_gap10_wide_deep_groove.worker.83: [single ref] wl=8.1014 um, f=0.123435, res=12, comp=Ez
+2026-06-02 02:36:58 [INFO] D12_gap10_wide_deep_groove.worker.83: [single struct] 3 geometry objects
+2026-06-02 02:37:48 [INFO] D12_gap10_wide_deep_groove.worker.88: [single struct] 3 geometry objects
+2026-06-02 02:40:59 [INFO] D12_gap10_wide_deep_groove: Completed task 10/30
+2026-06-02 02:40:59 [INFO] D12_gap10_wide_deep_groove: Checkpointed 10 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 02:40:59 [INFO] D12_gap10_wide_deep_groove.worker.89: >>> worker task=21 case=gap10_inner_wall_film_2um pol=Ez wl=9.0016 res=12 pml=4
+2026-06-02 02:40:59 [INFO] D12_gap10_wide_deep_groove.worker.89: [single ref] wl=9.0016 um, f=0.111091, res=12, comp=Ez
+2026-06-02 02:44:28 [INFO] D12_gap10_wide_deep_groove.worker.89: [single struct] 3 geometry objects
+2026-06-02 02:44:44 [INFO] D12_gap10_wide_deep_groove: Completed task 11/30
+2026-06-02 02:44:44 [INFO] D12_gap10_wide_deep_groove: Checkpointed 11 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 02:44:44 [INFO] D12_gap10_wide_deep_groove.worker.92: >>> worker task=22 case=gap10_inner_wall_film_2um pol=Ez wl=10.009 res=12 pml=4
+2026-06-02 02:44:44 [INFO] D12_gap10_wide_deep_groove.worker.92: [single ref] wl=10.009 um, f=0.0999101, res=12, comp=Ez
+2026-06-02 02:48:26 [INFO] D12_gap10_wide_deep_groove.worker.92: [single struct] 3 geometry objects
+2026-06-02 02:50:59 [INFO] D12_gap10_wide_deep_groove: Completed task 12/30
+2026-06-02 02:50:59 [INFO] D12_gap10_wide_deep_groove: Checkpointed 12 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 02:50:59 [INFO] D12_gap10_wide_deep_groove.worker.93: >>> worker task=23 case=gap10_inner_wall_film_2um pol=Ez wl=10.985 res=12 pml=4
+2026-06-02 02:50:59 [INFO] D12_gap10_wide_deep_groove.worker.93: [single ref] wl=10.985 um, f=0.0910332, res=12, comp=Ez
+2026-06-02 02:55:14 [INFO] D12_gap10_wide_deep_groove.worker.93: [single struct] 3 geometry objects
+2026-06-02 02:56:45 [INFO] D12_gap10_wide_deep_groove: Completed task 13/30
+2026-06-02 02:56:45 [INFO] D12_gap10_wide_deep_groove: Checkpointed 13 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 02:56:45 [INFO] D12_gap10_wide_deep_groove.worker.86: >>> worker task=24 case=gap10_inner_wall_film_2um pol=Ez wl=12.345 res=12 pml=4
+2026-06-02 02:56:45 [INFO] D12_gap10_wide_deep_groove.worker.86: [single ref] wl=12.345 um, f=0.0810045, res=12, comp=Ez
+2026-06-02 03:01:30 [INFO] D12_gap10_wide_deep_groove.worker.86: [single struct] 3 geometry objects
+2026-06-02 03:07:40 [INFO] D12_gap10_wide_deep_groove: Completed task 14/30
+2026-06-02 03:07:40 [INFO] D12_gap10_wide_deep_groove: Checkpointed 14 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 03:07:40 [INFO] D12_gap10_wide_deep_groove.worker.91: >>> worker task=25 case=gap10_inner_wall_film_2um pol=Hz wl=8.1014 res=12 pml=4
+2026-06-02 03:07:40 [INFO] D12_gap10_wide_deep_groove.worker.91: [single ref] wl=8.1014 um, f=0.123435, res=12, comp=Hz
+2026-06-02 03:11:40 [INFO] D12_gap10_wide_deep_groove.worker.91: [single struct] 3 geometry objects
+2026-06-02 03:21:25 [INFO] D12_gap10_wide_deep_groove: Completed task 15/30
+2026-06-02 03:21:25 [INFO] D12_gap10_wide_deep_groove: Checkpointed 15 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 03:21:25 [INFO] D12_gap10_wide_deep_groove.worker.87: >>> worker task=26 case=gap10_inner_wall_film_2um pol=Hz wl=9.0016 res=12 pml=4
+2026-06-02 03:21:25 [INFO] D12_gap10_wide_deep_groove.worker.87: [single ref] wl=9.0016 um, f=0.111091, res=12, comp=Hz
+2026-06-02 03:22:03 [INFO] D12_gap10_wide_deep_groove: Completed task 16/30
+2026-06-02 03:22:03 [INFO] D12_gap10_wide_deep_groove: Checkpointed 16 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 03:22:03 [INFO] D12_gap10_wide_deep_groove.worker.83: >>> worker task=27 case=gap10_inner_wall_film_2um pol=Hz wl=10.009 res=12 pml=4
+2026-06-02 03:22:03 [INFO] D12_gap10_wide_deep_groove.worker.83: [single ref] wl=10.009 um, f=0.0999101, res=12, comp=Hz
+2026-06-02 03:23:14 [INFO] D12_gap10_wide_deep_groove: Completed task 17/30
+2026-06-02 03:23:14 [INFO] D12_gap10_wide_deep_groove: Checkpointed 17 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 03:23:14 [INFO] D12_gap10_wide_deep_groove.worker.90: >>> worker task=28 case=gap10_inner_wall_film_2um pol=Hz wl=10.985 res=12 pml=4
+2026-06-02 03:23:14 [INFO] D12_gap10_wide_deep_groove.worker.90: [single ref] wl=10.985 um, f=0.0910332, res=12, comp=Hz
+2026-06-02 03:27:18 [INFO] D12_gap10_wide_deep_groove.worker.87: [single struct] 3 geometry objects
+2026-06-02 03:28:11 [INFO] D12_gap10_wide_deep_groove.worker.83: [single struct] 3 geometry objects
+2026-06-02 03:29:12 [INFO] D12_gap10_wide_deep_groove.worker.90: [single struct] 3 geometry objects
+2026-06-02 03:34:17 [INFO] D12_gap10_wide_deep_groove: Completed task 18/30
+2026-06-02 03:34:17 [INFO] D12_gap10_wide_deep_groove: Checkpointed 18 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 03:34:17 [INFO] D12_gap10_wide_deep_groove.worker.89: >>> worker task=29 case=gap10_inner_wall_film_2um pol=Hz wl=12.345 res=12 pml=4
+2026-06-02 03:34:17 [INFO] D12_gap10_wide_deep_groove.worker.89: [single ref] wl=12.345 um, f=0.0810045, res=12, comp=Hz
+2026-06-02 03:37:36 [INFO] D12_gap10_wide_deep_groove: Completed task 19/30
+2026-06-02 03:37:36 [INFO] D12_gap10_wide_deep_groove: Checkpointed 19 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 03:40:26 [INFO] D12_gap10_wide_deep_groove.worker.89: [single struct] 3 geometry objects
+2026-06-02 03:44:24 [INFO] D12_gap10_wide_deep_groove: Completed task 20/30
+2026-06-02 03:44:24 [INFO] D12_gap10_wide_deep_groove: Checkpointed 20 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 03:50:53 [INFO] D12_gap10_wide_deep_groove: Completed task 21/30
+2026-06-02 03:50:53 [INFO] D12_gap10_wide_deep_groove: Checkpointed 21 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 03:53:57 [INFO] D12_gap10_wide_deep_groove: Completed task 22/30
+2026-06-02 03:53:57 [INFO] D12_gap10_wide_deep_groove: Checkpointed 22 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 04:05:46 [INFO] D12_gap10_wide_deep_groove: Completed task 23/30
+2026-06-02 04:05:46 [INFO] D12_gap10_wide_deep_groove: Checkpointed 23 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 04:09:12 [INFO] D12_gap10_wide_deep_groove: Completed task 24/30
+2026-06-02 04:09:12 [INFO] D12_gap10_wide_deep_groove: Checkpointed 24 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 04:29:29 [INFO] D12_gap10_wide_deep_groove: Completed task 25/30
+2026-06-02 04:29:29 [INFO] D12_gap10_wide_deep_groove: Checkpointed 25 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 04:34:18 [INFO] D12_gap10_wide_deep_groove: Completed task 26/30
+2026-06-02 04:34:18 [INFO] D12_gap10_wide_deep_groove: Checkpointed 26 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 04:40:33 [INFO] D12_gap10_wide_deep_groove: Completed task 27/30
+2026-06-02 04:40:33 [INFO] D12_gap10_wide_deep_groove: Checkpointed 27 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 04:44:29 [INFO] D12_gap10_wide_deep_groove: Completed task 28/30
+2026-06-02 04:44:29 [INFO] D12_gap10_wide_deep_groove: Checkpointed 28 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 04:50:14 [INFO] D12_gap10_wide_deep_groove: Completed task 29/30
+2026-06-02 04:50:14 [INFO] D12_gap10_wide_deep_groove: Checkpointed 29 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 04:56:19 [INFO] D12_gap10_wide_deep_groove: Completed task 30/30
+2026-06-02 04:56:19 [INFO] D12_gap10_wide_deep_groove: Checkpointed 30 completed spectra row(s) to /mnt/c/Users/admin/Meep_Simulation/meep_sim/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra_checkpoint.csv
+2026-06-02 04:56:32 [INFO] D12_gap10_wide_deep_groove: >>> D12 field snapshot case=gap10_inner_wall_film_2um pol=Hz wl=9.0016
+2026-06-02 04:56:47 [ERROR] D12_gap10_wide_deep_groove: D12 failed
+Traceback (most recent call last):
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D12_gap10_wide_deep_groove_inner_wall_film_screen.py", line 2146, in main
+    field_info = _run_best_field_snapshot(spectra, metrics, paths, args, logger)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/admin/Meep_Simulation/meep_sim/scripts/D12_gap10_wide_deep_groove_inner_wall_film_screen.py", line 1502, in _run_best_field_snapshot
+    sim.run(
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 4562, in run
+    self._run_sources_until(until_after_sources, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2885, in _run_sources_until
+    self._run_until(new_conds, step_funcs)
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/simulation.py", line 2843, in _run_until
+    self.fields.step()
+  File "/home/gyh/miniforge3/envs/meep_env/lib/python3.11/site-packages/meep/__init__.py", line 3054, in step
+    return _meep.fields_step(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: meep: simulation fields are NaN or Inf
