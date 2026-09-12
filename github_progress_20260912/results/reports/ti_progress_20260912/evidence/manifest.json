@@ -1,0 +1,83 @@
+[
+  {
+    "export": "fit_report.json",
+    "source": "meep_screen/outputs/ti_qualification/material/fit_report.json",
+    "source_sha256": "eb80361da3d9a34ec6c38719304013d870f2fbf9677c5084075ae91921d9e2d6"
+  },
+  {
+    "export": "builtin_ti_audit.json",
+    "source": "meep_screen/outputs/ti_qualification/builtin_ti_audit.json",
+    "source_sha256": "9eb6a886bcb50a56f02aac61f16bbdfef0958f0f31744888079af2422ac49c4e"
+  },
+  {
+    "export": "legacy_comparison.json",
+    "source": "meep_screen/outputs/ti_size_2d/legacy_comparison.csv",
+    "source_sha256": "bf2bd2e48c10edd37850b6c085e8bc098827e10b9dfc8d726f04153536c0eb60"
+  },
+  {
+    "export": "material_comparison.json",
+    "source": "meep_screen/outputs/ti_size_2d/material_only_comparison.csv",
+    "source_sha256": "de34a865ef227a9d0fdf72b6fe253db3ddceda5d64eba77bde7f28f57ae2094c"
+  },
+  {
+    "export": "numerical_history.json",
+    "source": "meep_screen/outputs/ti_size_2d/numerical_summary.csv",
+    "source_sha256": "5720a70ec92b60976c37081bfd2e43390b5982fb54ac78edc2f42025913d8c8e"
+  },
+  {
+    "export": "geometry_qualification.json",
+    "source": "meep_screen/outputs/ti_size_2d/qualification_2d.json",
+    "source_sha256": "982775754bbf2892d953b46d6a6a2bb9fcfc4e374966c35369e9ff0829ab7f33"
+  },
+  {
+    "export": "tail_result.json",
+    "source": "meep_screen/outputs/ti_tail_diagnostic/result.json",
+    "source_sha256": "d47fb1cd74affb516313cf6efce1b79c24acea0dc6c3fea93238b69f7c02774e"
+  },
+  {
+    "export": "averaging_on_status.json",
+    "source": "meep_screen/outputs/ti_size_2d/interface_stability/interface_early_averaging_True/status.json",
+    "source_sha256": "75c64188df26ea14a4cdb4ab767660dcea88dc7e5dff93a346be6b02c2957036"
+  },
+  {
+    "export": "averaging_off_status.json",
+    "source": "meep_screen/outputs/ti_size_2d/interface_stability/interface_early_averaging_False/status.json",
+    "source_sha256": "3338096dc968c7c0963a0aaaf4bf47b8470e27fd70f54c26d2d8ec72ff655525"
+  },
+  {
+    "source": "meep_sim-main/results/diagnostics/reports/D00_flux_sign_validation_report.md",
+    "source_sha256": "ca08142b19158916ee6a6a36d8535f798029ceb91b19b12c77984b25a06fbcdc",
+    "export": null
+  },
+  {
+    "source": "meep_sim-main/results/diagnostics/reports/D03_numerical_convergence_report.md",
+    "source_sha256": "1f8dc34a73ba2b194fc4e05a67911da88f5d230dc7c1d8f4b93376caf2ec6359",
+    "export": null
+  },
+  {
+    "source": "meep_sim-main/results/diagnostics/reports/D04_field_absorption_mechanism_report.md",
+    "source_sha256": "ac8cc42154cf1806d24334ef815d7aefbe3a7e41feb91cdcbb1f914a650eefb2",
+    "export": null
+  },
+  {
+    "source": "meep_sim-main/results/diagnostics/reports/D06_diffraction_energy_channel_report.md",
+    "source_sha256": "8495f124502edda0d25f16c1a6dcc642011a300aa837af10c1e25309249c5102",
+    "export": null
+  },
+  {
+    "export": "legacy_D00_flat_ti_fresnel_validation.json",
+    "source": "meep_sim-main/results/diagnostics/tables/D00_flat_ti_fresnel_validation.csv",
+    "source_sha256": "9661c740cc4abcafe432b352c05067906990208482b438f9ace5f47084541c1c"
+  },
+  {
+    "export": "legacy_D04_absorbed_power_integrals.json",
+    "source": "meep_sim-main/results/diagnostics/tables/D04_absorbed_power_integrals.csv",
+    "source_sha256": "efbeb8daa0ec90766b218c539e01a9033e11bc456908987e37cafb8020c5a55b"
+  },
+  {
+    "source": "meep_sim-main.zip",
+    "sha256": "cecf526fb414a80428115df7af5ef54aef2ba60156cec421159dd12a16814eb8",
+    "archive_comment": "95db665716603f90fe434a7be3bc358da5336ec8",
+    "scope": "user-supplied archive, not current remote HEAD"
+  }
+]

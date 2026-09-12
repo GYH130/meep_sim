@@ -1,0 +1,12 @@
+{
+  "budget_spent_seconds": 4233.745257549919,
+  "full_scan_allowed": false,
+  "implementation": "69dddb29844724fbd4069b43",
+  "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+  "qualified_2d": false,
+  "reason": "50 um slot energy, stop, or resource gate",
+  "remaining_seconds": 2966.254742450081,
+  "resolution": 24,
+  "route_b_qualified": false,
+  "three_d_qualified": false
+}

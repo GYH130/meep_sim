@@ -1,0 +1,28 @@
+[
+  {
+    "material": "builtin_Ti",
+    "wavelength_um": "10.0",
+    "source": "legacy_single_component",
+    "R_total": "0.9282203701722911",
+    "T_total": "-2.687753772840622e-16",
+    "A_flux": "0.07177962982770918",
+    "A_vol": "0.07178014135397606",
+    "R_analytic_error": "0.0012864739683989823",
+    "absorption_error": "5.115262668858866e-07",
+    "passed": "True",
+    "case_dir": "meep_screen/outputs/ti_size_2d/cases/D04_flat_legacy_single_component/2d4a3ee6e3b16e53fe311ce7"
+  },
+  {
+    "material": "Ordal_fit",
+    "wavelength_um": "10.0",
+    "source": "legacy_single_component",
+    "R_total": "0.9625342677554288",
+    "T_total": "2.0298094875497303e-16",
+    "A_flux": "0.03746573224457097",
+    "A_vol": "0.037466066370348904",
+    "R_analytic_error": "0.0020156066194608746",
+    "absorption_error": "3.341257779343465e-07",
+    "passed": "True",
+    "case_dir": "meep_screen/outputs/ti_size_2d/cases/material_Ordal_matched_D04/46a3528dffcb5837bd6190e7"
+  }
+]

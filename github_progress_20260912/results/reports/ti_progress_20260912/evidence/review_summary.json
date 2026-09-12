@@ -1,0 +1,17 @@
+{
+  "distinct_flat_conditions": 18,
+  "flat_passed": 18,
+  "flat_max_errors": {
+    "R_analytic_error": 0.0074781443993138,
+    "T_analytic_error": 2.3421919277110596e-09,
+    "A_analytic_error": 0.0074781420571218,
+    "absorption_error": 0.0003539169419667
+  },
+  "deduplication": "last recorded row per flat case; retains all history separately",
+  "tests": {
+    "passed": 79,
+    "pytest_seconds": 16.18,
+    "date": "2026-09-12",
+    "scope": "software regression; not target FDTD qualification"
+  }
+}

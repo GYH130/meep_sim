@@ -1,0 +1,5 @@
+{
+  "error": "meep: simulation fields are NaN or Inf",
+  "execution_status": "failed",
+  "qualified": false
+}

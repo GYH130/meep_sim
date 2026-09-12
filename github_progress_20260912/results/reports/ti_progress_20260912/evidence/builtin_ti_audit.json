@@ -1,0 +1,139 @@
+{
+  "material": {
+    "builtin_material": "Ti",
+    "epsilon": 1.0,
+    "library_path": "[local path omitted]",
+    "library_sha256": "99b13d1fd1e3bfafe0627fc09eaf6dc92a8bf9bf4d86b389e9aca672acb10abd",
+    "meep_length_unit_um": 1.0,
+    "meep_version": "1.33.0",
+    "model": "susceptibility",
+    "production_allowed": false,
+    "qualification_wavelength_range_um": [
+      8.0,
+      12.0
+    ],
+    "susceptibilities": [
+      {
+        "frequency": 1e-10,
+        "gamma": 0.06613746318452063,
+        "sigma": 5.116631413407551e+20,
+        "sigma_diag": [
+          5.116631413407551e+20,
+          5.116631413407551e+20,
+          5.116631413407551e+20
+        ],
+        "sigma_offdiag": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": "Drude"
+      },
+      {
+        "frequency": 0.626692791394787,
+        "gamma": 1.835717880584987,
+        "sigma": 79.13574782725362,
+        "sigma_diag": [
+          79.13574782725362,
+          79.13574782725362,
+          79.13574782725362
+        ],
+        "sigma_offdiag": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": "Lorentz"
+      },
+      {
+        "frequency": 1.246126592927858,
+        "gamma": 2.0309040524222306,
+        "sigma": 8.749649165802623,
+        "sigma_diag": [
+          8.749649165802623,
+          8.749649165802623,
+          8.749649165802623
+        ],
+        "sigma_offdiag": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": "Lorentz"
+      },
+      {
+        "frequency": 2.023645062560515,
+        "gamma": 1.3413000155592414,
+        "sigma": 1.5786844839645435,
+        "sigma_diag": [
+          1.5786844839645435,
+          1.5786844839645435,
+          1.5786844839645435
+        ],
+        "sigma_offdiag": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": "Lorentz"
+      },
+      {
+        "frequency": 15.67135255701507,
+        "gamma": 1.4211489040381138,
+        "sigma": 0.00014076978763519972,
+        "sigma_diag": [
+          0.00014076978763519972,
+          0.00014076978763519972,
+          0.00014076978763519972
+        ],
+        "sigma_offdiag": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": "Lorentz"
+      }
+    ],
+    "valid_freq_range": {
+      "max": 4.839334107626791,
+      "min": 0.08065817067268914
+    },
+    "wavelength_range_um": [
+      0.20664,
+      12.398
+    ]
+  },
+  "sources_url": "https://meep.readthedocs.io/en/latest/Materials/#numerical-stability",
+  "tests": [
+    {
+      "Courant": 0.5,
+      "criterion": "pi * highest_Lorentz_frequency * dt < 1; necessary rough screen, not certification",
+      "dt": 0.25,
+      "highest_lorentz_frequency": 15.67135255701507,
+      "numerically_qualified": false,
+      "pi_fmax_dt": 12.30825151623354,
+      "resolution": 2.0,
+      "rough_stability_passed": false
+    },
+    {
+      "Courant": 0.5,
+      "criterion": "pi * highest_Lorentz_frequency * dt < 1; necessary rough screen, not certification",
+      "dt": 0.16666666666666666,
+      "highest_lorentz_frequency": 15.67135255701507,
+      "numerically_qualified": false,
+      "pi_fmax_dt": 8.20550101082236,
+      "resolution": 3.0,
+      "rough_stability_passed": false
+    },
+    {
+      "Courant": 0.5,
+      "criterion": "pi * highest_Lorentz_frequency * dt < 1; necessary rough screen, not certification",
+      "dt": 0.125,
+      "highest_lorentz_frequency": 15.67135255701507,
+      "numerically_qualified": false,
+      "pi_fmax_dt": 6.15412575811677,
+      "resolution": 4.0,
+      "rough_stability_passed": false
+    }
+  ]
+}

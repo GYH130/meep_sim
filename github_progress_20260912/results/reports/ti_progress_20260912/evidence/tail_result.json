@@ -1,0 +1,25 @@
+{
+  "Courant": 0.25,
+  "case": "tail_window3500_r24",
+  "case_dir": "meep_screen/outputs/ti_tail_diagnostic/cases/tail_window3500_r24/521c13b9c1f874dd0f7dae98",
+  "case_id": "521c13b9c1f874dd0f7dae98",
+  "data_origin": "meep_fdtd",
+  "emission_theta_deg": 30,
+  "error_message": "worker exceeded 14400.0 seconds",
+  "error_type": "TimeoutExpired",
+  "example_values": true,
+  "execution_status": "failed",
+  "passed": false,
+  "peak_memory_mib": 1034.671875,
+  "polarization": "p",
+  "quality_flags": [
+    "wall_timeout",
+    "output_incomplete"
+  ],
+  "quality_status": "quarantined",
+  "resolution": 24,
+  "runtime_seconds": 14400.195416792063,
+  "solver_route": "time_domain",
+  "wall_seconds": 14400.195416792063,
+  "wavelength_um": 10.5
+}
