@@ -1,0 +1,27 @@
+{
+  "n_conditions_total": 15,
+  "n_conditions_valid": 3,
+  "resolutions_covered": [
+    16,
+    20
+  ],
+  "cases_covered": [
+    "flat",
+    "structure"
+  ],
+  "coverage": {
+    "geom_qualified": "done",
+    "q_lt_1": "done",
+    "flux_sign_convention": "done",
+    "all_orders_enumerated": "done",
+    "order_decomposition": "done_shares_only",
+    "volume_absorption": "done",
+    "post_source_window": "done",
+    "multi_probe": "done",
+    "ref_pseudo_reflection": "FAILED",
+    "mesh_convergence": "partial",
+    "mirror_symmetry": "todo",
+    "s_polarization": "todo",
+    "directionality": "n/a（非一致性检查）"
+  }
+}

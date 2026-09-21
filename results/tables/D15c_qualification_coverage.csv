@@ -1,0 +1,14 @@
+item,description,status,evidence
+geom_qualified,几何合格（壁厚/底厚/不贯穿）,done,slot_geometry.qualification + tests/test_slot_geometry.py
+q_lt_1,色散稳定 q<1 且 q>=1 时拒绝,done,D15b dispersion_q 拒绝路径（cal4_r20 日志可见 r24/C0.5 记录）
+flux_sign_convention,通量符号约定（R=refl/|input|）,done,D15b 与 D04 一致；平面基准 R 与 Fresnel 对比
+all_orders_enumerated,按实际 kx 与周期枚举全部传播阶,done,enumerate_orders + tests/test_d15b_order_projection.py
+order_decomposition,分阶功率与整面通量闭合,done_shares_only,D15b order_decomposition.closure（绝对标定 P/n²）
+volume_absorption,独立体吸收 A_vol 与 A_flux 一致性,done,D15b 每对 Yee 分量分别积分 + 金属/空气分区
+post_source_window,源后观察窗口充分,done,D15b post_source_stability.post_source_ok
+multi_probe,多探针场强包络稳定,done,D15b post_source_stability.probe_envelope_segments
+ref_pseudo_reflection,参考伪反射（同布局平面基准）,FAILED,flat 条件：R 应与解析 Fresnel 比较
+mesh_convergence,网格收敛（r16/r20/r24）,partial,D15c_convergence_table.csv
+mirror_symmetry,"镜像/正负角控制 (±α, ±θ)",todo,待跑（本阶段未完成）
+s_polarization,s 偏振,todo,待跑（本阶段未完成）
+directionality,+30° 与 −30° 观察不要求相等,n/a（非一致性检查）,方向性信号，非一致性检查

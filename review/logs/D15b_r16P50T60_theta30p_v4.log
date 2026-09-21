@@ -1,0 +1,29 @@
+2026-09-20 17:14:19,691 [INFO] D15b: layout: cell_y=92.000 y_src=38.400 y_refl=34.800 y_surface=32.000 y_sub_bottom=-28.000 y_trans=-34.000 y_bot_inner=-40.000
+2026-09-20 17:14:19,691 [INFO] D15b: orders: 10 个传播阶 m=[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+2026-09-20 17:14:19,693 [INFO] D15b: layout: cell_y=92.000 y_src=38.400 y_refl=34.800 y_surface=32.000 y_sub_bottom=-28.000 y_trans=-34.000 y_bot_inner=-40.000
+2026-09-20 17:14:19,694 [INFO] D15b: orders: 10 个传播阶 m=[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+2026-09-20 17:14:19,698 [INFO] D15b: layout: cell_y=92.000 y_src=38.400 y_refl=34.800 y_surface=32.000 y_sub_bottom=-28.000 y_trans=-34.000 y_bot_inner=-40.000
+2026-09-20 17:14:19,698 [INFO] D15b: layout: cell_y=92.000 y_src=38.400 y_refl=34.800 y_surface=32.000 y_sub_bottom=-28.000 y_trans=-34.000 y_bot_inner=-40.000
+2026-09-20 17:14:19,698 [INFO] D15b: orders: 10 个传播阶 m=[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+2026-09-20 17:14:19,699 [INFO] D15b: orders: 10 个传播阶 m=[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+2026-09-20 17:25:27,277 [WARNING] D15b: 参考面缓存失败（不影响本次结果）：BlockingIOError(11, "Unable to synchronously create file (unable to lock file, errno = 11, error message = 'Resource temporarily unavailable')")
+2026-09-20 17:25:27,278 [INFO] D15b: reference: t_end=1321.031 wall=667.1 s input_flux=-2.486501e+05 source_end_time=1312.500 (= start + 2*width*cutoff = 2*131.250*5.0)
+2026-09-20 17:25:27,279 [INFO] D15b: 参考面已缓存：results/refplanes/refplane_r16P50T60_theta30p_v4.h5
+2026-09-20 17:25:27,279 [INFO] D15b: reference: t_end=1321.031 wall=667.1 s input_flux=-2.486501e+05 source_end_time=1312.500 (= start + 2*width*cutoff = 2*131.250*5.0)
+2026-09-20 17:25:27,297 [WARNING] D15b: 参考面缓存失败（不影响本次结果）：BlockingIOError(11, "Unable to synchronously create file (unable to lock file, errno = 11, error message = 'Resource temporarily unavailable')")
+2026-09-20 17:25:27,299 [INFO] D15b: reference: t_end=1321.031 wall=667.1 s input_flux=-2.486501e+05 source_end_time=1312.500 (= start + 2*width*cutoff = 2*131.250*5.0)
+2026-09-20 17:25:27,298 [INFO] D15b: 参考面已缓存：results/refplanes/refplane_r16P50T60_theta30p_v4.h5
+2026-09-20 17:25:27,300 [INFO] D15b: reference: t_end=1321.031 wall=667.1 s input_flux=-2.486501e+05 source_end_time=1312.500 (= start + 2*width*cutoff = 2*131.250*5.0)
+2026-09-20 18:20:41,436 [WARNING] D15b: 达到 --max_time_um=1450.0，提前结束（未满足漂移判据）
+2026-09-20 18:20:41,436 [WARNING] D15b: 达到 --max_time_um=1450.0，提前结束（未满足漂移判据）
+2026-09-20 18:20:41,436 [WARNING] D15b: 达到 --max_time_um=1450.0，提前结束（未满足漂移判据）
+2026-09-20 18:20:41,436 [WARNING] D15b: 达到 --max_time_um=1450.0，提前结束（未满足漂移判据）
+2026-09-20 18:20:41,438 [INFO] D15b: 分阶相位参考：meep_metadata  n=802 起点=-25.031250 步长=0.062500
+2026-09-20 18:20:41,438 [INFO] D15b: 分阶相位参考：meep_metadata  n=802 起点=-25.031250 步长=0.062500
+2026-09-20 18:20:41,438 [INFO] D15b: 分阶相位参考：meep_metadata  n=802 起点=-25.031250 步长=0.062500
+2026-09-20 18:20:41,438 [INFO] D15b: 分阶相位参考：meep_metadata  n=802 起点=-25.031250 步长=0.062500
+2026-09-20 18:20:41,441 [INFO] D15b: 阶间正交性自检：max O(m,m') = 2.494e-03 (ok)，坐标来源 meep_metadata
+2026-09-20 18:20:41,441 [INFO] D15b: 阶间正交性自检：max O(m,m') = 2.494e-03 (ok)，坐标来源 meep_metadata
+2026-09-20 18:20:41,441 [INFO] D15b: 阶间正交性自检：max O(m,m') = 2.494e-03 (ok)，坐标来源 meep_metadata
+2026-09-20 18:20:41,441 [INFO] D15b: 阶间正交性自检：max O(m,m') = 2.494e-03 (ok)，坐标来源 meep_metadata
+2026-09-20 18:20:41,770 [INFO] D15b: R=0.736349 T=-0.000002 A_flux=0.263653 A_vol=0.253107 |A_vol-A_flux|=1.055e-02 orders=10 post_src=137.500 valid=True n_steps=92800 wall=3974.4s

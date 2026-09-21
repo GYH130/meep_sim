@@ -1,0 +1,4 @@
+case,polarization,theta_deg,resolution,courant,R,T,A_flux,A_vol,A_vol_minus_A_flux,post_source_window_um,quality_status,file
+flat,p,30.0,16,0.25,0.924090181,-2.92683341e-14,0.0759098185,0.0472984322,0.0286113863,137.5,valid,D15b_flat_flat_r16P50T60_theta30p_v4.json
+structure,p,30.0,16,0.25,0.73634905,-1.9546828e-06,0.263652905,0.253107126,0.0105457791,137.5,valid,D15b_structure_r16P50T60_theta30p_v4.json
+structure,p,30.0,20,0.25,0.734096559,-1.96439302e-06,0.265905405,0.25616168,0.00974372487,137.5,valid,D15b_structure_r20P50T60_theta30p_v5.json
