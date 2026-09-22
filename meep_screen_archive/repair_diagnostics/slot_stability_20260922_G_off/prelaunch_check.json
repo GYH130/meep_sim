@@ -1,0 +1,107 @@
+{
+  "created_utc": "2026-09-22T10:46:06.367439+00:00",
+  "server_unit_tests": {
+    "total": 287,
+    "passed": 286,
+    "skipped": 1,
+    "reason": "downloaded local F fixture unavailable on server; actual server F audit separately passed"
+  },
+  "local_related_tests": {
+    "total": 71,
+    "passed": 71
+  },
+  "legacy_files_checked": 483,
+  "legacy_changed_or_missing": [],
+  "core_sha256": "24d09c50dcf6c0cb9271947dbcb04f03b62d9d0500bd7bace34e6909d54834c1",
+  "on_offline_audit": {
+    "trigger_index": 10,
+    "trigger_time": 20.0,
+    "witness_times": [
+      16.0,
+      18.0,
+      20.0
+    ],
+    "witness_logratios": [
+      18.756162058621562,
+      27.911704157091428,
+      37.067246255553826
+    ]
+  },
+  "off_inspection": {
+    "schema_version": 1,
+    "case_id": "averaging_off",
+    "eps_averaging": false,
+    "qualification": false,
+    "fdtd_started": false,
+    "physical_case_sha256": "3e6b9631a47a3c19040e74fd3c39cfef8df228f45e7bf766782c3e1fb414a85c",
+    "source_case_sha256": "3e6b9631a47a3c19040e74fd3c39cfef8df228f45e7bf766782c3e1fb414a85c",
+    "implementation_sha256": "24d09c50dcf6c0cb9271947dbcb04f03b62d9d0500bd7bace34e6909d54834c1",
+    "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+    "probe_sha256": "4374f8d80c70c722953b0a6caecc4bf377be0357af0f40c711ac12f3e544ebd9",
+    "plan_sha256": "2ab4f617f58d1141751b27208b423c1b0ecf28c6fce29f364e4f373b88ea59fb",
+    "case_config": {
+      "schema_version": 1,
+      "id": "baseline_r32_p_plus30",
+      "geometry_id": "baseline",
+      "geometry": {
+        "period_um": 50.0,
+        "surface_fill": 0.692820323,
+        "axis_length_um": 40.0,
+        "tilt_deg": 30.0,
+        "thickness_um": 60.0,
+        "min_wall_um": 1.0,
+        "residual_um": 10.0
+      },
+      "case": "structure",
+      "material_path": "/root/autodl-tmp/meep_sim/meep_screen/assets/material/route_a_material.json",
+      "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+      "material_label": "Ordal_Route_A_frozen",
+      "implementation_sha256": "24d09c50dcf6c0cb9271947dbcb04f03b62d9d0500bd7bace34e6909d54834c1",
+      "resolution": 32,
+      "courant": 0.25,
+      "wavelength_um": 10.5,
+      "polarization": "p",
+      "emission_theta_deg": 30.0,
+      "oxide_layer_in_model": false,
+      "mpi_ranks": 4,
+      "source_fwidth_fraction": 0.2,
+      "source_cutoff": 5.0,
+      "pml_um": 6.0,
+      "air_above_um": 12.0,
+      "air_below_um": 12.0,
+      "sample_interval_um": 2.0,
+      "stop_window_um": 20.0,
+      "stop_consecutive_windows": 3,
+      "intensity_decay": 0.0001,
+      "flux_drift_tolerance": 0.001,
+      "max_solver_seconds": 21600.0,
+      "strict_stop": false,
+      "qualification_scope": "10.5um; emission ±30deg; s/p; listed 2D geometries only",
+      "reference_intensity_floor_fraction": 1.0,
+      "stop_normalization_policy": "max(own_historic_peak, reference_source_on_non_pml_peak)",
+      "mpi_partition_policy": "fixed_binary_Y0_X0_ranks0123"
+    },
+    "diagnostic": {
+      "stop_time": 100.0,
+      "sample_interval": 2.0,
+      "reference_intensity_peak": 0.3334312033062042,
+      "growth_ratio_limit": 1000000000000.0,
+      "growth_consecutive_samples": 3,
+      "growth_step_factor": 10.0,
+      "patch_radius_cells": 8
+    },
+    "output": "/root/autodl-tmp/meep_sim/meep_screen/repair_diagnostics/slot_stability_20260922_G_off/averaging_off",
+    "only_simulation_parameter_difference": "eps_averaging",
+    "passive_monitors_omitted": [
+      "DFT",
+      "flux",
+      "volume_absorption",
+      "reference_preload"
+    ],
+    "causal_interpretation_requires_averaging_on_growth_reproduction": true,
+    "scope": "short-window field stability diagnostic; no production qualification or checks"
+  },
+  "new_solver_case_ids": [
+    "averaging_off"
+  ]
+}

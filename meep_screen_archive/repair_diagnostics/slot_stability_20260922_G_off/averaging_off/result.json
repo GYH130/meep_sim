@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "case_id": "averaging_off",
+  "eps_averaging": false,
+  "qualification": false,
+  "physical_case_sha256": "3e6b9631a47a3c19040e74fd3c39cfef8df228f45e7bf766782c3e1fb414a85c",
+  "source_case_sha256": "3e6b9631a47a3c19040e74fd3c39cfef8df228f45e7bf766782c3e1fb414a85c",
+  "implementation_sha256": "24d09c50dcf6c0cb9271947dbcb04f03b62d9d0500bd7bace34e6909d54834c1",
+  "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+  "probe_sha256": "4374f8d80c70c722953b0a6caecc4bf377be0357af0f40c711ac12f3e544ebd9",
+  "plan_sha256": "2ab4f617f58d1141751b27208b423c1b0ecf28c6fce29f364e4f373b88ea59fb",
+  "case_config": {
+    "schema_version": 1,
+    "id": "baseline_r32_p_plus30",
+    "geometry_id": "baseline",
+    "geometry": {
+      "period_um": 50.0,
+      "surface_fill": 0.692820323,
+      "axis_length_um": 40.0,
+      "tilt_deg": 30.0,
+      "thickness_um": 60.0,
+      "min_wall_um": 1.0,
+      "residual_um": 10.0
+    },
+    "case": "structure",
+    "material_path": "/root/autodl-tmp/meep_sim/meep_screen/assets/material/route_a_material.json",
+    "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+    "material_label": "Ordal_Route_A_frozen",
+    "implementation_sha256": "24d09c50dcf6c0cb9271947dbcb04f03b62d9d0500bd7bace34e6909d54834c1",
+    "resolution": 32,
+    "courant": 0.25,
+    "wavelength_um": 10.5,
+    "polarization": "p",
+    "emission_theta_deg": 30.0,
+    "oxide_layer_in_model": false,
+    "mpi_ranks": 4,
+    "source_fwidth_fraction": 0.2,
+    "source_cutoff": 5.0,
+    "pml_um": 6.0,
+    "air_above_um": 12.0,
+    "air_below_um": 12.0,
+    "sample_interval_um": 2.0,
+    "stop_window_um": 20.0,
+    "stop_consecutive_windows": 3,
+    "intensity_decay": 0.0001,
+    "flux_drift_tolerance": 0.001,
+    "max_solver_seconds": 21600.0,
+    "strict_stop": false,
+    "qualification_scope": "10.5um; emission ±30deg; s/p; listed 2D geometries only",
+    "reference_intensity_floor_fraction": 1.0,
+    "stop_normalization_policy": "max(own_historic_peak, reference_source_on_non_pml_peak)",
+    "mpi_partition_policy": "fixed_binary_Y0_X0_ranks0123"
+  },
+  "diagnostic": {
+    "stop_time": 100.0,
+    "sample_interval": 2.0,
+    "reference_intensity_peak": 0.3334312033062042,
+    "growth_ratio_limit": 1000000000000.0,
+    "growth_consecutive_samples": 3,
+    "growth_step_factor": 10.0,
+    "patch_radius_cells": 8
+  },
+  "output": "/root/autodl-tmp/meep_sim/meep_screen/repair_diagnostics/slot_stability_20260922_G_off/averaging_off",
+  "only_simulation_parameter_difference": "eps_averaging",
+  "passive_monitors_omitted": [
+    "DFT",
+    "flux",
+    "volume_absorption",
+    "reference_preload"
+  ],
+  "causal_interpretation_requires_averaging_on_growth_reproduction": true,
+  "scope": "short-window field stability diagnostic; no production qualification or checks",
+  "started_utc": "2026-09-22T10:46:08.023640+00:00",
+  "mpi_ranks": 4,
+  "no_dft": true,
+  "no_reference_run": true,
+  "no_reference_preload": true,
+  "production_cache_read": false,
+  "production_cache_write": false,
+  "production_checks_modified": false,
+  "timeout_seconds": 1170.0,
+  "source_end_time": 524.9999999999999,
+  "t_reached": 98.828125,
+  "numeric_encoding": "Original complex fields are retained at peaks/probes and in small patches. No clipping. Null intensity beyond binary64 retains finite log10 intensity.",
+  "growth_guard_semantics": "Three adjacent samples must each have intensity/reference_peak > 1e12, and both adjacent intensity growth factors must be > 10.",
+  "layout": {
+    "period": 50.0,
+    "height": 96.0,
+    "top": 42.0,
+    "surface": 30.0,
+    "bottom": -30.0,
+    "source": 39.6,
+    "refl": 34.2,
+    "trans": -36.0,
+    "non_pml_bottom": -42.0,
+    "non_pml_height": 84.0
+  },
+  "geometry_audit": {
+    "valid": true,
+    "status": "VALID",
+    "errors": [],
+    "vertices_x_depth": [
+      [
+        -17.320508075,
+        0.0
+      ],
+      [
+        17.320508075,
+        0.0
+      ],
+      [
+        32.99038105625,
+        27.1410161516758
+      ],
+      [
+        7.009618943749994,
+        42.1410161510793
+      ]
+    ],
+    "periodic_shifts": [
+      -1,
+      0
+    ],
+    "width_normal_um": 29.999999998807013,
+    "surface_opening_um": 34.64101615,
+    "vertical_center_depth_um": 34.64101615137755,
+    "maximum_depth_um": 42.1410161510793,
+    "min_wall_um": 13.30127019041492,
+    "residual_um": 17.8589838489207,
+    "period_um": 50.0,
+    "surface_fill": 0.692820323,
+    "axis_length_um": 40.0,
+    "tilt_deg": 30.0,
+    "thickness_um": 60.0,
+    "bottom_minimum_depth_um": 27.141016151675796,
+    "required_min_wall_um": 1.0,
+    "required_residual_um": 10.0,
+    "wall_lower_bound_um": 13.301270190414925,
+    "neighbor_shifts_checked": [
+      -1,
+      1
+    ],
+    "x_span_um": 50.31088913125,
+    "surface_bottom_regime_valid": true
+  },
+  "stability_rough_screen": {
+    "valid": true,
+    "status": "ADMITTED_ROUGH_SCREEN_ONLY",
+    "q": 0.0012017786121251758,
+    "pi_fmax_dt": 0.0012017786121251758,
+    "resolution": 32.0,
+    "courant": 0.25,
+    "dt": 0.0078125,
+    "highest_lorentz_frequency": 0.048964865695190866,
+    "rough_stability_passed": true,
+    "numerically_qualified": false,
+    "meep_length_unit_um": 1.0,
+    "wavelength_range_um": [
+      6.0,
+      16.0
+    ],
+    "checked_wavelength_um": 10.5,
+    "passivity_min_imag_epsilon": 178.5134388233293,
+    "criterion": "pi * highest_Lorentz_frequency * Courant / resolution < 1",
+    "note": "Necessary rough dispersion screen, not time-domain convergence certification"
+  },
+  "fixed_mpi_partition": [
+    [
+      "Y",
+      0.0
+    ],
+    [
+      [
+        "X",
+        0.0
+      ],
+      0,
+      1
+    ],
+    [
+      [
+        "X",
+        0.0
+      ],
+      2,
+      3
+    ]
+  ],
+  "probe_coordinates_xy": {
+    "front_air": [
+      0.0,
+      34.2
+    ],
+    "back_air": [
+      0.0,
+      -36.0
+    ],
+    "cavity_0.25": [
+      5.0,
+      21.33974596215561
+    ],
+    "cavity_0.5": [
+      10.0,
+      12.679491924311225
+    ],
+    "cavity_0.75": [
+      15.0,
+      4.01923788646684
+    ]
+  },
+  "reciprocal_incident_k_simulation_xy": [
+    -0.04761904761904761,
+    -0.08247860988423225,
+    0.0
+  ],
+  "physical_to_simulation_axes": "physical (x,z) -> Meep (x,y)",
+  "field_grid": "centered get_array Ex/Ey as used by production non-PML envelope; not native staggered arrays",
+  "passive_omission_note": "DFT, flux and volume monitors and reference preload are passive. These omissions still require averaging-on reproduction of rapid growth for causal comparison.",
+  "status": "INTERRUPTED",
+  "finished_utc": "2026-09-22T11:05:37.872281+00:00",
+  "elapsed_seconds": 1169.8521530106664,
+  "trace_summary": {
+    "sample_count": 51,
+    "first_time": 0.0,
+    "last_time": 98.828125,
+    "max_log10_intensity": -3.814505320893335,
+    "last_sample": {
+      "simulation_time": 98.828125,
+      "wall_elapsed_seconds": 1169.8178140297532,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.012380760987422142,
+        "envelope_intensity": 0.0001532832426276741,
+        "log10_envelope_intensity": -3.814505320893335,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -3.337511560625256,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.0046798542291076155,
+          "imag": 0.008378743721725533
+        },
+        "raw_Ey_at_location": {
+          "real": -0.003943382008149485,
+          "imag": -0.006754894448133549
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.0024657384388636428,
+            "imag": -0.0008105540771336684
+          },
+          "raw_Ey": {
+            "real": 0.0012602817205660888,
+            "imag": 0.00034760495943260633
+          },
+          "finite": true,
+          "intensity": 8.446003183862896e-06,
+          "log10_intensity": -5.073348759196474,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -5.393371472806407e-11,
+            "imag": 6.298203476735954e-10
+          },
+          "raw_Ey": {
+            "real": -8.966957866109231e-11,
+            "imag": 2.1936610105343378e-10
+          },
+          "finite": true,
+          "intensity": 4.557446355567021e-19,
+          "log10_intensity": -18.34127843460241,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -0.000686101368287717,
+            "imag": 0.0006640214017659535
+          },
+          "raw_Ey": {
+            "real": 0.00042679208625785633,
+            "imag": -0.0008002156759526126
+          },
+          "finite": true,
+          "intensity": 1.7341561225021287e-06,
+          "log10_intensity": -5.760911806462464,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.00027391847251572886,
+            "imag": -0.0001438403733765132
+          },
+          "raw_Ey": {
+            "real": -0.0001905276341643793,
+            "imag": 0.00021846432757246576
+          },
+          "finite": true,
+          "intensity": 1.7974882440040984e-07,
+          "log10_intensity": -6.745333941323853,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -4.700486113071575e-05,
+            "imag": -9.024335285238704e-05
+          },
+          "raw_Ey": {
+            "real": 5.300169718384161e-05,
+            "imag": -5.158697762804304e-05
+          },
+          "finite": true,
+          "intensity": 1.582371586912217e-08,
+          "log10_intensity": -7.80069152387507,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": "INTERRUPTED"
+    }
+  },
+  "evidence_sha256": {
+    "geometry_metadata.json": "94104541ae64cfe92a7c7c723fbe80dc6496ddb74f6b911edf0dab06cce52a43",
+    "peak_patch_00.npz": "46d641e3ff0087ef373c8d4e9388f1cc9ee0b7fb9c99d7c3f9ff476d00a1138f",
+    "peak_patch_01.npz": "ece97973578d680648648d950368c05046945bf4ea6a51083d95f64d00bc5306",
+    "sample_grid.npz": "66a4887a1eebbbd280ce92e8229d9ea785a6accc808365d4457e59f1c5093c79",
+    "trace.json": "5c147686b77a6302c22ced7e455edaf7696e3d04078ad35b36b1b9cae18f584b"
+  },
+  "patches": [
+    {
+      "file": "peak_patch_00.npz",
+      "simulation_time": 2.0,
+      "trigger": "first_sample",
+      "sha256": "46d641e3ff0087ef373c8d4e9388f1cc9ee0b7fb9c99d7c3f9ff476d00a1138f"
+    },
+    {
+      "file": "peak_patch_01.npz",
+      "simulation_time": 98.828125,
+      "trigger": "terminal",
+      "sha256": "ece97973578d680648648d950368c05046945bf4ea6a51083d95f64d00bc5306"
+    }
+  ],
+  "error": null,
+  "interpretation": "A completed t<=100 window is not source-end decay or stability qualification. Averaging-on must reproduce growth before drawing causal conclusions from the comparison."
+}

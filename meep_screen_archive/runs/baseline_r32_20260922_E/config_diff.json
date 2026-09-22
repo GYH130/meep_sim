@@ -1,0 +1,14 @@
+{
+  "id": {
+    "before": "flat_r32_p_plus30",
+    "after": "baseline_r32_p_plus30"
+  },
+  "case": {
+    "before": "flat",
+    "after": "structure"
+  },
+  "max_solver_seconds": {
+    "before": 10800.0,
+    "after": 21600.0
+  }
+}

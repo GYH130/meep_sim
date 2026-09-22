@@ -1,0 +1,36 @@
+{
+  "run_id": "slot_stability_20260922_G_off",
+  "case_id": "averaging_off",
+  "status": "TIME_LIMIT_UNQUALIFIED",
+  "qualification": false,
+  "pid": 671749,
+  "supervisor_pid": 671614,
+  "start_epoch": 1790073966.678049,
+  "updated_epoch": 1790075138.3202631,
+  "elapsed_s": 1171.6422146186233,
+  "simulation_time": 98.828125,
+  "mpi_ranks": 4,
+  "threads_per_rank": 1,
+  "peak_process_tree_rss_bytes": 3694411776,
+  "memory_budget_bytes": 65923379199,
+  "allowance_seconds_including_shutdown": 1200.0,
+  "exit_code": 2,
+  "error": null,
+  "budget": {
+    "stage_active_solver_seconds": 32365.66657280922,
+    "stage_cap_seconds": 172800.0,
+    "stage_remaining_solver_seconds": 140434.33342719078,
+    "phase_active_solver_seconds": 1413.1639018058777,
+    "phase_cap_seconds": 1800.0,
+    "phase_remaining_solver_seconds": 386.8360981941223,
+    "effective_remaining_solver_seconds": 386.8360981941223,
+    "rank_hours": 35.9618517475658
+  },
+  "shutdown_deadline_monotonic": 46501174.07913715,
+  "session_cleanup": {
+    "stopped": true,
+    "live_members": [],
+    "errors": [],
+    "elapsed_s": 1.6304258182644844
+  }
+}

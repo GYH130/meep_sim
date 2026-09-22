@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/root/miniconda3/envs/meep_sim/bin/mpiexec",
+    "-n",
+    "4",
+    "/root/miniconda3/envs/meep_sim/bin/python",
+    "-B",
+    "-m",
+    "ti2d.solver",
+    "--case",
+    "/root/autodl-tmp/meep_sim/meep_screen/runs/baseline_r32_20260922_E/cases/baseline_r32_p_plus30.json",
+    "--output",
+    "/root/autodl-tmp/meep_sim/meep_screen/runs/baseline_r32_20260922_E/tasks/baseline_r32_p_plus30/attempt_1"
+  ],
+  "memory_budget_bytes": 65924245094,
+  "timeout_seconds": 21600.0,
+  "fingerprint": "1ee686dda3226e4c4b60c6b68159a44cbef4ef35723a4b109abdbaa3188d79bb",
+  "resources_before": {
+    "cpu_quota": 20.0,
+    "memory_limit_bytes": 96636764160,
+    "memory_current_bytes": 2459271168,
+    "memory_available_bytes": 94177492992
+  },
+  "attempt": 1
+}

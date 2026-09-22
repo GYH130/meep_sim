@@ -1,0 +1,14 @@
+{
+  "id": {
+    "before": "flat_r16_p_plus30",
+    "after": "flat_r32_p_plus30"
+  },
+  "resolution": {
+    "before": 16,
+    "after": 32
+  },
+  "max_solver_seconds": {
+    "before": 1800.0,
+    "after": 10800.0
+  }
+}

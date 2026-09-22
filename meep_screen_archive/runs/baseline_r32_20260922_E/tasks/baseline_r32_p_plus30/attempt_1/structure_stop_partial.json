@@ -1,0 +1,101 @@
+{
+  "converged": false,
+  "status": "not_converged",
+  "source_end": 524.9999999999999,
+  "last_time": 78.0,
+  "window": 20.0,
+  "required_windows": 3,
+  "consecutive_passed_windows": 0,
+  "decay_threshold": 0.0001,
+  "rt_tolerance": 0.001,
+  "probe_peaks": {
+    "front_air": 2.066640557018232e+216,
+    "back_air": 2.627652285460487e+125,
+    "cavity_0.25": 2.2529172075276246e+188,
+    "cavity_0.5": 5.143663715833029e+149,
+    "cavity_0.75": 6.45613506077958e+107
+  },
+  "non_pml_envelope_peak": 1.2617501083356743e+302,
+  "source_on_non_pml_envelope_peak": 1.2617501083356743e+302,
+  "windows": [],
+  "last_sample": {
+    "time": 78.0,
+    "probe_power": {
+      "front_air": 2.066640557018232e+216,
+      "back_air": 2.627652285460487e+125,
+      "cavity_0.25": 2.2529172075276246e+188,
+      "cavity_0.5": 5.143663715833029e+149,
+      "cavity_0.75": 6.45613506077958e+107
+    },
+    "probe_peak": {
+      "front_air": 2.066640557018232e+216,
+      "back_air": 2.627652285460487e+125,
+      "cavity_0.25": 2.2529172075276246e+188,
+      "cavity_0.5": 5.143663715833029e+149,
+      "cavity_0.75": 6.45613506077958e+107
+    },
+    "probe_ratio": {
+      "front_air": 1.0,
+      "back_air": 1.0,
+      "cavity_0.25": 1.0,
+      "cavity_0.5": 1.0,
+      "cavity_0.75": 1.0
+    },
+    "probe_normalization_denominator": {
+      "front_air": 2.066640557018232e+216,
+      "back_air": 2.627652285460487e+125,
+      "cavity_0.25": 2.2529172075276246e+188,
+      "cavity_0.5": 5.143663715833029e+149,
+      "cavity_0.75": 6.45613506077958e+107
+    },
+    "probe_classification": {
+      "front_air": "resolved_excitation",
+      "back_air": "resolved_excitation",
+      "cavity_0.25": "resolved_excitation",
+      "cavity_0.5": "resolved_excitation",
+      "cavity_0.75": "resolved_excitation"
+    },
+    "probe_normalization_source": {
+      "front_air": "historical_probe_peak",
+      "back_air": "historical_probe_peak",
+      "cavity_0.25": "historical_probe_peak",
+      "cavity_0.5": "historical_probe_peak",
+      "cavity_0.75": "historical_probe_peak"
+    },
+    "normalization": {
+      "method": "historical_intensity_peak_with_reference_excitation_floor",
+      "quantity": "sum of |E_component|^2; not amplitude or integrated flux",
+      "reference_intensity_peak": 0.3334312033062042,
+      "reference_peak_source": "external_reference_excitation",
+      "reference_provenance": "qualified_reference_source_on_non_pml_peak",
+      "reference_floor_fraction": 1.0,
+      "denominator_floor": 0.3334312033062042,
+      "weak_probe_residual_bound": 3.334312033062042e-05,
+      "reference_ready": true,
+      "reference_frozen": true,
+      "all_probes_required": true
+    },
+    "envelope_power": 1.2617501083356743e+302,
+    "envelope_peak": 1.2617501083356743e+302,
+    "envelope_ratio": 1.0,
+    "envelope_normalization_denominator": 1.2617501083356743e+302,
+    "R": 1.0211271973637235e+270,
+    "T": -4.583920278957469e+136,
+    "decay_pass": false,
+    "converged": false
+  },
+  "normalization": {
+    "method": "historical_intensity_peak_with_reference_excitation_floor",
+    "quantity": "sum of |E_component|^2; not amplitude or integrated flux",
+    "reference_intensity_peak": 0.3334312033062042,
+    "reference_peak_source": "external_reference_excitation",
+    "reference_provenance": "qualified_reference_source_on_non_pml_peak",
+    "reference_floor_fraction": 1.0,
+    "denominator_floor": 0.3334312033062042,
+    "weak_probe_residual_bound": 3.334312033062042e-05,
+    "reference_ready": true,
+    "reference_frozen": true,
+    "all_probes_required": true
+  },
+  "timeout_is_convergence": false
+}

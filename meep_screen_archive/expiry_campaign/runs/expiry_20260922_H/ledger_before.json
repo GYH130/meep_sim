@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "intervals": [
+    {
+      "start": 1789993082.9635487,
+      "end": 1789993116.3114238,
+      "ranks": 4,
+      "task_id": "api_smoke",
+      "status": "SMOKE_PASSED_NOT_PHYSICALLY_QUALIFIED",
+      "attempt": 1
+    },
+    {
+      "start": 1789994098.5773318,
+      "end": 1790015673.4674664,
+      "ranks": 4,
+      "task_id": "flat_r16_p_plus30",
+      "status": "TIME_LIMIT_UNQUALIFIED",
+      "attempt": 1
+    },
+    {
+      "start": 1790041993.7754557,
+      "end": 1790041997.3115904,
+      "ranks": 4,
+      "task_id": "repair1_nonzero_flux_probe",
+      "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+      "attempt": 1
+    },
+    {
+      "start": 1790042195.9543178,
+      "end": 1790042199.482909,
+      "ranks": 4,
+      "task_id": "repair1_nonzero_flux_probe",
+      "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+      "attempt": 1
+    },
+    {
+      "start": 1790042730.5442498,
+      "end": 1790042735.5856912,
+      "ranks": 4,
+      "task_id": "repair1_nonzero_flux_probe",
+      "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+      "attempt": 1
+    },
+    {
+      "start": 1790043273.6182454,
+      "end": 1790043278.659719,
+      "ranks": 4,
+      "task_id": "repair1_nonzero_flux_probe",
+      "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+      "attempt": 1
+    },
+    {
+      "start": 1790043413.2835546,
+      "end": 1790044369.5683904,
+      "ranks": 4,
+      "task_id": "flat_r16_p_plus30",
+      "status": "NUMERICAL_FAILED",
+      "attempt": 1
+    },
+    {
+      "start": 1790047308.4310224,
+      "end": 1790054848.1263347,
+      "ranks": 4,
+      "task_id": "flat_r32_p_plus30",
+      "status": "QUALIFIED",
+      "attempt": 1
+    },
+    {
+      "start": 1790060249.2080033,
+      "end": 1790061080.3448756,
+      "ranks": 4,
+      "task_id": "baseline_r32_p_plus30",
+      "status": "CRASHED",
+      "attempt": 1
+    },
+    {
+      "start": 1790067301.48297,
+      "end": 1790067543.0066674,
+      "ranks": 4,
+      "task_id": "slot_stability_20260922_F:averaging_on",
+      "status": "CRASHED",
+      "attempt": 1
+    },
+    {
+      "start": 1790073966.678049,
+      "end": 1790075138.3182535,
+      "ranks": 4,
+      "task_id": "slot_stability_20260922_G_off:averaging_off",
+      "status": "TIME_LIMIT_UNQUALIFIED",
+      "attempt": 1
+    }
+  ]
+}

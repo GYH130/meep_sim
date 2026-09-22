@@ -1,0 +1,21 @@
+{
+  "run_id": "slot_stability_20260922_F",
+  "status": "FINISHED_NOT_QUALIFICATION",
+  "interpretation": "INCOMPLETE_EVIDENCE_NO_ATTRIBUTION",
+  "qualification": false,
+  "updated_utc": "2026-09-22T08:59:03.012204+00:00",
+  "budget": {
+    "stage_active_solver_seconds": 31194.026368379593,
+    "stage_cap_seconds": 172800.0,
+    "stage_remaining_solver_seconds": 141605.9736316204,
+    "phase_active_solver_seconds": 241.52369737625122,
+    "phase_cap_seconds": 1800.0,
+    "phase_remaining_solver_seconds": 1558.4763026237488,
+    "effective_remaining_solver_seconds": 1558.4763026237488,
+    "rank_hours": 34.66002929819955
+  },
+  "arms": {
+    "averaging_on": "CRASHED",
+    "averaging_off": "NOT_RUN"
+  }
+}

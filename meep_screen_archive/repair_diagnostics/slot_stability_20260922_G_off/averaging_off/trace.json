@@ -1,0 +1,5786 @@
+{
+  "schema_version": 1,
+  "qualification": false,
+  "case_id": "averaging_off",
+  "eps_averaging": false,
+  "samples": [
+    {
+      "simulation_time": 0.0,
+      "wall_elapsed_seconds": 12.916941210627556,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0,
+        "envelope_intensity": 0.0,
+        "log10_envelope_intensity": null,
+        "zero_field": true,
+        "intensity_encoding_note": "exactly zero field",
+        "log10_intensity_over_reference_peak": null,
+        "index_xy": [
+          0,
+          0
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.0,
+          "imag": 0.0
+        },
+        "raw_Ey_at_location": {
+          "real": 0.0,
+          "imag": 0.0
+        },
+        "location": {
+          "x_um": -25.015625,
+          "y_um": -42.015625,
+          "depth_um": 72.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 2.0,
+      "wall_elapsed_seconds": 36.483845725655556,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 2.573551726928096e-05,
+        "envelope_intensity": 6.623168491174586e-10,
+        "log10_envelope_intensity": -9.178934196507303,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.701940436239223,
+        "index_xy": [
+          5,
+          2674
+        ],
+        "raw_Ex_at_location": {
+          "real": -2.2942928282733164e-05,
+          "imag": 1.1639374045539813e-05
+        },
+        "raw_Ey_at_location": {
+          "real": 2.973802083264571e-07,
+          "imag": 6.127216093211002e-07
+        },
+        "location": {
+          "x_um": -24.859375,
+          "y_um": 41.546875,
+          "depth_um": -11.546875,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -1.3802214589298692e-126,
+            "imag": -3.804890426021956e-124
+          },
+          "raw_Ey": {
+            "real": 1.6696494183672639e-127,
+            "imag": -6.016435853436454e-130
+          },
+          "finite": true,
+          "intensity": 1.447738444292594e-247,
+          "log10_intensity": -246.83930989287705,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 4.0,
+      "wall_elapsed_seconds": 59.48806628584862,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 2.064351330528219e-05,
+        "envelope_intensity": 4.261546415853628e-10,
+        "log10_envelope_intensity": -9.370432776952857,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.893439016684777,
+        "index_xy": [
+          4,
+          2486
+        ],
+        "raw_Ex_at_location": {
+          "real": 1.8340408147094437e-05,
+          "imag": -9.449104941647827e-06
+        },
+        "raw_Ey_at_location": {
+          "real": 3.0893106615618785e-07,
+          "imag": 6.348606000087135e-07
+        },
+        "location": {
+          "x_um": -24.890625,
+          "y_um": 35.671875,
+          "depth_um": -5.671875,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -5.7067653502112075e-30,
+            "imag": -5.716018109416189e-28
+          },
+          "raw_Ey": {
+            "real": 2.1246765670984494e-30,
+            "imag": -2.0943249593852538e-32
+          },
+          "finite": true,
+          "intensity": 3.267657121316356e-55,
+          "log10_intensity": -54.485763520723665,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 6.0,
+      "wall_elapsed_seconds": 83.32925238460302,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 1.7740175315452632e-05,
+        "envelope_intensity": 3.1471382022299486e-10,
+        "log10_envelope_intensity": -9.502084185225332,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -9.025090424957252,
+        "index_xy": [
+          0,
+          2422
+        ],
+        "raw_Ex_at_location": {
+          "real": 1.602006453634256e-05,
+          "imag": -7.593263609907491e-06
+        },
+        "raw_Ey_at_location": {
+          "real": 2.624849249102217e-07,
+          "imag": 5.871983387774773e-07
+        },
+        "location": {
+          "x_um": -25.015625,
+          "y_um": 33.671875,
+          "depth_um": -3.671875,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -1.475411268375706e-06,
+            "imag": 5.550313798821566e-07
+          },
+          "raw_Ey": {
+            "real": 6.711528985768884e-07,
+            "imag": -3.2146595025509975e-07
+          },
+          "finite": true,
+          "intensity": 3.03868481394547e-12,
+          "log10_intensity": -11.517314344560761,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 8.0,
+      "wall_elapsed_seconds": 107.35434153676033,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 1.6088417886227472e-05,
+        "envelope_intensity": 2.5883719008188406e-10,
+        "log10_envelope_intensity": -9.58697332349423,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -9.109979563226151,
+        "index_xy": [
+          175,
+          2359
+        ],
+        "raw_Ex_at_location": {
+          "real": -8.117317049833253e-06,
+          "imag": -1.3870017086157e-05
+        },
+        "raw_Ey_at_location": {
+          "real": 6.635298582883108e-07,
+          "imag": -3.587591827984622e-07
+        },
+        "location": {
+          "x_um": -19.546875,
+          "y_um": 31.703125,
+          "depth_um": -1.703125,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 4.0994520550657325e-07,
+            "imag": 3.815976194053379e-06
+          },
+          "raw_Ey": {
+            "real": -4.3432242593559966e-07,
+            "imag": -7.470799882018377e-07
+          },
+          "finite": true,
+          "intensity": 1.5476493863542153e-11,
+          "log10_intensity": -10.810327420150779,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 10.0,
+      "wall_elapsed_seconds": 130.21111016720533,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 2.2339851296389942e-05,
+        "envelope_intensity": 4.990689559448154e-10,
+        "log10_envelope_intensity": -9.301839444121413,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.824845683853333,
+        "index_xy": [
+          1361,
+          2307
+        ],
+        "raw_Ex_at_location": {
+          "real": 1.8558942939247596e-05,
+          "imag": -1.0972092731098868e-05
+        },
+        "raw_Ey_at_location": {
+          "real": -4.108472896748165e-06,
+          "imag": 4.167520183445072e-06
+        },
+        "location": {
+          "x_um": 17.515625,
+          "y_um": 30.078125,
+          "depth_um": -0.078125,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 2.494908157185414e-06,
+            "imag": -4.3942502955005455e-07
+          },
+          "raw_Ey": {
+            "real": -1.3189990252218787e-06,
+            "imag": 3.6737487312307916e-07
+          },
+          "finite": true,
+          "intensity": 8.292383795323836e-12,
+          "log10_intensity": -11.081320605717824,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 9.036000476606143e-296,
+            "imag": 1.7647758770598056e-293
+          },
+          "raw_Ey": {
+            "real": 9.175326841989082e-296,
+            "imag": -4.69692999374859e-298
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": -585.5065977577743,
+          "zero_field": false,
+          "intensity_encoding_note": "underflows binary64; log10_intensity retained"
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -8.757995691749474e-207,
+            "imag": -6.041141770752743e-208
+          },
+          "raw_Ey": {
+            "real": 2.8872318698853006e-210,
+            "imag": -4.1855366618498717e-209
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": -412.1131191339679,
+          "zero_field": false,
+          "intensity_encoding_note": "underflows binary64; log10_intensity retained"
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 12.0,
+      "wall_elapsed_seconds": 152.85347709059715,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 2.0213977114506393e-05,
+        "envelope_intensity": 4.0860487078578823e-10,
+        "log10_envelope_intensity": -9.388696460653199,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.91170270038512,
+        "index_xy": [
+          289,
+          2250
+        ],
+        "raw_Ex_at_location": {
+          "real": 1.727616605862777e-05,
+          "imag": 4.294839369470618e-06
+        },
+        "raw_Ey_at_location": {
+          "real": 9.026382676297253e-06,
+          "imag": 3.1965180543823704e-06
+        },
+        "location": {
+          "x_um": -15.984375,
+          "y_um": 28.296875,
+          "depth_um": 1.703125,
+          "ideal_geometry_region": "slot_air",
+          "inside_ideal_slot": true,
+          "inside_slab_extent": true,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 1.4232338405083486e-06,
+            "imag": -3.526665718563374e-06
+          },
+          "raw_Ey": {
+            "real": -3.6193007085121793e-07,
+            "imag": 1.8294378972299692e-06
+          },
+          "finite": true,
+          "intensity": 1.794080205126586e-11,
+          "log10_intensity": -10.746158145536475,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 6.452241926785459e-201,
+            "imag": 9.71985304329743e-199
+          },
+          "raw_Ey": {
+            "real": 5.4532693071235546e-201,
+            "imag": -3.618422400509965e-203
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": -396.02464779521483,
+          "zero_field": false,
+          "intensity_encoding_note": "underflows binary64; log10_intensity retained"
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -2.709189881355232e-127,
+            "imag": -1.8152132157964265e-128
+          },
+          "raw_Ey": {
+            "real": 9.82498009818876e-131,
+            "imag": -1.4662151817342308e-129
+          },
+          "finite": true,
+          "intensity": 7.372875747423571e-254,
+          "log10_intensity": -253.13236308505296,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 14.0,
+      "wall_elapsed_seconds": 175.88491655886173,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 2.1229730987086386e-05,
+        "envelope_intensity": 4.507014777840559e-10,
+        "log10_envelope_intensity": -9.346111017938766,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.869117257670688,
+        "index_xy": [
+          290,
+          2229
+        ],
+        "raw_Ex_at_location": {
+          "real": 4.168450738024566e-06,
+          "imag": 3.826417408008914e-07
+        },
+        "raw_Ey_at_location": {
+          "real": -2.080424453863846e-05,
+          "imag": -6.020720085229539e-07
+        },
+        "location": {
+          "x_um": -15.953125,
+          "y_um": 27.640625,
+          "depth_um": 2.359375,
+          "ideal_geometry_region": "slot_air",
+          "inside_ideal_slot": true,
+          "inside_slab_extent": true,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -2.5854969430549154e-06,
+            "imag": -4.114094106592871e-06
+          },
+          "raw_Ey": {
+            "real": 1.8303971348644889e-06,
+            "imag": 1.2887484351217463e-06
+          },
+          "finite": true,
+          "intensity": 2.8621790960797417e-11,
+          "log10_intensity": -10.54330319447365,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 1.6280939089646186e-129,
+            "imag": 1.8855623896522335e-127
+          },
+          "raw_Ey": {
+            "real": 1.1784917856473433e-129,
+            "imag": -1.0166951860157555e-131
+          },
+          "finite": true,
+          "intensity": 3.5557494888742385e-254,
+          "log10_intensity": -253.44906884371755,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -2.58599270205239e-69,
+            "imag": -1.6571046552382546e-70
+          },
+          "raw_Ey": {
+            "real": 1.0787341933950677e-72,
+            "imag": -1.6828599016213081e-71
+          },
+          "finite": true,
+          "intensity": 6.715102578864981e-138,
+          "log10_intensity": -137.17294734872948,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 16.0,
+      "wall_elapsed_seconds": 198.0632688626647,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 2.0055393282497464e-05,
+        "envelope_intensity": 4.0221879971564437e-10,
+        "log10_envelope_intensity": -9.395537634331133,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.918543874063054,
+        "index_xy": [
+          357,
+          2113
+        ],
+        "raw_Ex_at_location": {
+          "real": 1.599841361930282e-05,
+          "imag": -7.898435702637334e-06
+        },
+        "raw_Ey_at_location": {
+          "real": 8.338488397050276e-06,
+          "imag": -3.7886522781739142e-06
+        },
+        "location": {
+          "x_um": -13.859375,
+          "y_um": 24.015625,
+          "depth_um": 5.984375,
+          "ideal_geometry_region": "slot_air",
+          "inside_ideal_slot": true,
+          "inside_slab_extent": true,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -4.484863666569817e-06,
+            "imag": 1.1523831456381819e-06
+          },
+          "raw_Ey": {
+            "real": 2.3289338385001446e-06,
+            "imag": -1.5171518944079042e-06
+          },
+          "finite": true,
+          "intensity": 2.9167671716885475e-11,
+          "log10_intensity": -10.535098236660419,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 4.471663901506372e-76,
+            "imag": 3.851820735515088e-74
+          },
+          "raw_Ey": {
+            "real": 2.8311594301094386e-76,
+            "imag": -3.2805927029372833e-78
+          },
+          "finite": true,
+          "intensity": 1.4839324210343587e-147,
+          "log10_intensity": -146.8285858765773,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -4.8297952056819777e-29,
+            "imag": -2.8247355415993877e-30
+          },
+          "raw_Ey": {
+            "real": 2.5175273038831655e-32,
+            "imag": -4.297620081124904e-31
+          },
+          "finite": true,
+          "intensity": 2.340856632940815e-57,
+          "log10_intensity": -56.63062518409463,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -1.946362636756066e-248,
+            "imag": 1.3527402295336554e-247
+          },
+          "raw_Ey": {
+            "real": -5.697245852756997e-250,
+            "imag": -8.197570788862954e-251
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": -493.72866438935563,
+          "zero_field": false,
+          "intensity_encoding_note": "underflows binary64; log10_intensity retained"
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 18.0,
+      "wall_elapsed_seconds": 220.79851661622524,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 2.323551689941199e-05,
+        "envelope_intensity": 5.398892455828601e-10,
+        "log10_envelope_intensity": -9.26769532344659,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.790701563178512,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 1.0715709341046262e-05,
+          "imag": -1.4526518459006383e-05
+        },
+        "raw_Ey_at_location": {
+          "real": -8.315513226619158e-06,
+          "imag": 1.2037247199386703e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -2.2904349212992636e-07,
+            "imag": 5.770744460603211e-06
+          },
+          "raw_Ey": {
+            "real": -5.37596324269572e-07,
+            "imag": -3.3566881942337757e-06
+          },
+          "finite": true,
+          "intensity": 4.4910317992046225e-11,
+          "log10_intensity": -10.34765386986042,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 3.619152044370816e-38,
+            "imag": 2.0938145291856754e-36
+          },
+          "raw_Ey": {
+            "real": 2.037195888073072e-38,
+            "imag": -3.502088171317014e-40
+          },
+          "finite": true,
+          "intensity": 4.3857842481359265e-72,
+          "log10_intensity": -71.35795273657749,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -7.69282506690607e-07,
+            "imag": -2.2543304977250356e-08
+          },
+          "raw_Ey": {
+            "real": 5.728547705462183e-10,
+            "imag": -1.755205485696882e-08
+          },
+          "finite": true,
+          "intensity": 5.926121784917708e-13,
+          "log10_intensity": -12.227229427784373,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -2.1470674909304874e-175,
+            "imag": 1.5077479930747416e-174
+          },
+          "raw_Ey": {
+            "real": -7.157312545969988e-177,
+            "imag": -1.0192669691116017e-177
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": -347.63461399928553,
+          "zero_field": false,
+          "intensity_encoding_note": "underflows binary64; log10_intensity retained"
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 20.0,
+      "wall_elapsed_seconds": 244.7619987502694,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 2.8816424839445666e-05,
+        "envelope_intensity": 8.303863405274211e-10,
+        "log10_envelope_intensity": -9.080719803380923,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.603726043112843,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -1.2203787906031812e-05,
+          "imag": -1.8825627770961432e-05
+        },
+        "raw_Ey_at_location": {
+          "real": 9.074656236977402e-06,
+          "imag": 1.56428978927149e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 6.228006378873407e-06,
+            "imag": 3.451394768943946e-06
+          },
+          "raw_Ey": {
+            "real": -3.81795924380441e-06,
+            "imag": -1.001112780126284e-06
+          },
+          "finite": true,
+          "intensity": 6.627922889226507e-11,
+          "log10_intensity": -10.178622552904818,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 2.829313249813623e-16,
+            "imag": 6.5175613014189185e-15
+          },
+          "raw_Ey": {
+            "real": 1.433773536132914e-16,
+            "imag": -5.864605593697978e-18
+          },
+          "finite": true,
+          "intensity": 4.257924691153691e-29,
+          "log10_intensity": -28.370802024087368,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -4.244104948130736e-06,
+            "imag": -6.801627012746508e-07
+          },
+          "raw_Ey": {
+            "real": -4.0177352746459483e-07,
+            "imag": 2.4983227269373744e-07
+          },
+          "finite": true,
+          "intensity": 1.869888624280367e-11,
+          "log10_intensity": -10.728184260469355,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -2.0058439634792543e-116,
+            "imag": 1.4280790448868663e-115
+          },
+          "raw_Ey": {
+            "real": -7.881411627347013e-118,
+            "imag": -1.107112334586852e-118
+          },
+          "finite": true,
+          "intensity": 2.0797072008501637e-230,
+          "log10_intensity": -229.68199780446324,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "raw_Ey": {
+            "real": 0.0,
+            "imag": 0.0
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": null,
+          "zero_field": true,
+          "intensity_encoding_note": "exactly zero field"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 22.0,
+      "wall_elapsed_seconds": 268.1946102976799,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 3.435444807023987e-05,
+        "envelope_intensity": 1.1802281022108077e-09,
+        "log10_envelope_intensity": -8.928034048661788,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.45104028839371,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -2.560669891296762e-05,
+          "imag": 3.0047830654818668e-06
+        },
+        "raw_Ey_at_location": {
+          "real": 2.2357426014112184e-05,
+          "imag": -3.954978349412843e-06
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 5.799399865827983e-06,
+            "imag": -5.21439569213938e-06
+          },
+          "raw_Ey": {
+            "real": -2.663774138359634e-06,
+            "imag": 3.7148142766353015e-06
+          },
+          "finite": true,
+          "intensity": 8.171849900805445e-11,
+          "log10_intensity": -10.087679619015924,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -4.0099837082246075e-14,
+            "imag": -7.231431708884035e-14
+          },
+          "raw_Ey": {
+            "real": -2.168816427507399e-14,
+            "imag": -5.03474860709064e-15
+          },
+          "finite": true,
+          "intensity": 7.333082553207258e-27,
+          "log10_intensity": -26.134713425845714,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -5.561755675202122e-07,
+            "imag": -1.6500733019412045e-06
+          },
+          "raw_Ey": {
+            "real": 3.4616275760339903e-07,
+            "imag": 8.119573793057754e-07
+          },
+          "finite": true,
+          "intensity": 3.8111766042462775e-12,
+          "log10_intensity": -11.41894092620223,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -1.0035916360235755e-69,
+            "imag": 7.292324576426257e-69
+          },
+          "raw_Ey": {
+            "real": -4.911383440593203e-71,
+            "imag": -6.760737953576999e-72
+          },
+          "finite": true,
+          "intensity": 5.418765177615543e-137,
+          "log10_intensity": -136.26609966874688,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 6.156988098545105e-292,
+            "imag": 1.359176792798305e-292
+          },
+          "raw_Ey": {
+            "real": -4.4896619662153e-295,
+            "imag": 2.0337446640420283e-294
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": -582.4005940652598,
+          "zero_field": false,
+          "intensity_encoding_note": "underflows binary64; log10_intensity retained"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 24.0,
+      "wall_elapsed_seconds": 291.988585293293,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 4.175462010787438e-05,
+        "envelope_intensity": 1.7434483003529076e-09,
+        "log10_envelope_intensity": -8.758590926523938,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.28159716625586,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -8.184934622612274e-06,
+          "imag": 3.1367941699353384e-05
+        },
+        "raw_Ey_at_location": {
+          "real": 5.868857569371427e-06,
+          "imag": -2.5652755991371864e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -3.8067888016619046e-06,
+            "imag": -8.4178845796932e-06
+          },
+          "raw_Ey": {
+            "real": 3.0091792771985844e-06,
+            "imag": 4.543792654463203e-06
+          },
+          "finite": true,
+          "intensity": 1.1505363338656995e-10,
+          "log10_intensity": -9.93909966178611,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -4.666059998573547e-14,
+            "imag": 1.2158470968240573e-13
+          },
+          "raw_Ey": {
+            "real": -1.6406388608407234e-14,
+            "imag": 3.464217743512041e-14
+          },
+          "finite": true,
+          "intensity": 1.842930326420015e-26,
+          "log10_intensity": -25.734491083350267,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -5.168855566366687e-06,
+            "imag": -5.169437917560593e-07
+          },
+          "raw_Ey": {
+            "real": 1.0711144619911573e-06,
+            "imag": -1.0841022578608597e-07
+          },
+          "finite": true,
+          "intensity": 2.8143337717536585e-11,
+          "log10_intensity": -10.550624397791516,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -1.4273696026782148e-34,
+            "imag": 1.0763740473068082e-33
+          },
+          "raw_Ey": {
+            "real": -9.715962987760615e-36,
+            "imag": -1.2893640735010998e-36
+          },
+          "finite": true,
+          "intensity": 1.1790509919386368e-66,
+          "log10_intensity": -65.92846741200526,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 5.848890268399853e-222,
+            "imag": 1.2841086631748154e-222
+          },
+          "raw_Ey": {
+            "real": -4.8808506203810674e-225,
+            "imag": 2.223197205989176e-224
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": -442.4454021828873,
+          "zero_field": false,
+          "intensity_encoding_note": "underflows binary64; log10_intensity retained"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 26.0,
+      "wall_elapsed_seconds": 315.8988965526223,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 4.934585189270127e-05,
+        "envelope_intensity": 2.435013099016409e-09,
+        "log10_envelope_intensity": -8.613498698180253,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -8.136504937912175,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 3.07650373483146e-05,
+          "imag": 2.3038837541948015e-05
+        },
+        "raw_Ey_at_location": {
+          "real": -2.514939415191749e-05,
+          "imag": -1.803456443833465e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -1.1528036063321978e-05,
+            "imag": 8.693895873898009e-07
+          },
+          "raw_Ey": {
+            "real": 6.312183222098814e-06,
+            "imag": -1.342683231313503e-06
+          },
+          "finite": true,
+          "intensity": 1.7529790902090994e-10,
+          "log10_intensity": -9.75622326420339,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 1.6480688731967854e-13,
+            "imag": 1.4687742052691744e-13
+          },
+          "raw_Ey": {
+            "real": 8.760383642988717e-14,
+            "imag": -1.4969643041041851e-15
+          },
+          "finite": true,
+          "intensity": 5.641095982800464e-26,
+          "log10_intensity": -25.248636510725596,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -3.635198211187811e-06,
+            "imag": 2.2855481519329223e-06
+          },
+          "raw_Ey": {
+            "real": -9.464559914654095e-08,
+            "imag": -1.4415890751748595e-06
+          },
+          "finite": true,
+          "intensity": 2.052553324052835e-11,
+          "log10_intensity": -10.687705551362686,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -9.195383188392254e-12,
+            "imag": 7.826611613329924e-11
+          },
+          "raw_Ey": {
+            "real": -1.2735462539476304e-12,
+            "imag": -1.5068907699338268e-13
+          },
+          "finite": true,
+          "intensity": 6.211784633831332e-21,
+          "log10_intensity": -20.206783609923523,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 1.8667765377164164e-162,
+            "imag": 4.0707839451408396e-163
+          },
+          "raw_Ey": {
+            "real": -1.8097385850407257e-165,
+            "imag": 8.305686268416622e-165
+          },
+          "finite": true,
+          "intensity": 0.0,
+          "log10_intensity": -323.4376310251889,
+          "zero_field": false,
+          "intensity_encoding_note": "underflows binary64; log10_intensity retained"
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 28.0,
+      "wall_elapsed_seconds": 338.96412970870733,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 5.840490405614014e-05,
+        "envelope_intensity": 3.4111328178069355e-09,
+        "log10_envelope_intensity": -8.467101370326503,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -7.990107610058424,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 3.9745043048775814e-05,
+          "imag": -2.281902614879343e-05
+        },
+        "raw_Ey_at_location": {
+          "real": -3.082216067857118e-05,
+          "imag": 1.8993441699252775e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -4.536207026994639e-06,
+            "imag": 1.300510828908437e-05
+          },
+          "raw_Ey": {
+            "real": 1.185831087601144e-06,
+            "imag": -7.287266348689755e-06
+          },
+          "finite": true,
+          "intensity": 2.442204620076345e-10,
+          "log10_intensity": -9.61221795151024,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 1.7607020705986055e-13,
+            "imag": -2.3775326853350006e-13
+          },
+          "raw_Ey": {
+            "real": 6.289298634716098e-14,
+            "imag": -1.2933985092038603e-13
+          },
+          "finite": true,
+          "intensity": 1.0821165928023646e-25,
+          "log10_intensity": -24.96572594358922,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 4.555147341283147e-06,
+            "imag": 2.573787135246673e-06
+          },
+          "raw_Ey": {
+            "real": -1.8064197054318826e-06,
+            "imag": -8.635490182784969e-07
+          },
+          "finite": true,
+          "intensity": 3.1382616577502455e-11,
+          "log10_intensity": -10.503310849219563,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -6.403940045510802e-07,
+            "imag": 4.419914776489964e-06
+          },
+          "raw_Ey": {
+            "real": 5.7970087413982795e-09,
+            "imag": 2.906614297028817e-07
+          },
+          "finite": true,
+          "intensity": 2.003026878452661e-11,
+          "log10_intensity": -10.69831322290545,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 2.2438845300505685e-112,
+            "imag": 4.850692120059804e-113
+          },
+          "raw_Ey": {
+            "real": -2.568549816102199e-115,
+            "imag": 1.1959315379681483e-114
+          },
+          "finite": true,
+          "intensity": 5.270459547308914e-224,
+          "log10_intensity": -223.27815151568703,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 30.0,
+      "wall_elapsed_seconds": 362.38538256287575,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 6.883609404106227e-05,
+        "envelope_intensity": 4.738407842829967e-09,
+        "log10_envelope_intensity": -8.324367561539036,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -7.847373801270957,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -8.14872051427923e-06,
+          "imag": -5.26248340703131e-05
+        },
+        "raw_Ey_at_location": {
+          "real": 7.066951660704985e-06,
+          "imag": 4.304289988032178e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 1.2293477483326626e-05,
+            "imag": 1.0168411693140485e-05
+          },
+          "raw_Ey": {
+            "real": -7.3967819596722404e-06,
+            "imag": -4.301170935017579e-06
+          },
+          "finite": true,
+          "intensity": 3.2773863976542723e-10,
+          "log10_intensity": -9.484472353101475,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -3.149162410896037e-13,
+            "imag": -4.704021204856219e-13
+          },
+          "raw_Ey": {
+            "real": -1.9619000871180436e-13,
+            "imag": -8.872441312653338e-14
+          },
+          "finite": true,
+          "intensity": 3.668129348623599e-25,
+          "log10_intensity": -24.435555358279277,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 6.074558578562001e-06,
+            "imag": -1.4305703812307817e-06
+          },
+          "raw_Ey": {
+            "real": -1.5330374401772546e-06,
+            "imag": 1.4161489301557233e-06
+          },
+          "finite": true,
+          "intensity": 4.330247512540256e-11,
+          "log10_intensity": -10.363487279106618,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -8.705101706840454e-07,
+            "imag": -1.6315241031403572e-06
+          },
+          "raw_Ey": {
+            "real": 4.918708798935778e-07,
+            "imag": -1.317837309912296e-07
+          },
+          "finite": true,
+          "intensity": 3.6789627706335675e-12,
+          "log10_intensity": -11.434274607001766,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 3.9833846014316415e-71,
+            "imag": 8.514104537534294e-72
+          },
+          "raw_Ey": {
+            "real": -5.4333312668331e-74,
+            "imag": 2.631734053410203e-73
+          },
+          "finite": true,
+          "intensity": 1.6592974767184176e-141,
+          "log10_intensity": -140.78007574723912,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 32.0,
+      "wall_elapsed_seconds": 385.4946989417076,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 8.11299737792122e-05,
+        "envelope_intensity": 6.582072645415659e-09,
+        "log10_envelope_intensity": -8.181637328767708,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -7.7046435684996295,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -6.12290861360288e-05,
+          "imag": -1.393002168370089e-05
+        },
+        "raw_Ey_at_location": {
+          "real": 5.044511832935667e-05,
+          "imag": 9.711652227672172e-06
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 1.699555195039715e-05,
+            "imag": -9.045052767120902e-06
+          },
+          "raw_Ey": {
+            "real": -8.040181528562243e-06,
+            "imag": 6.424832228978452e-06
+          },
+          "finite": true,
+          "intensity": 4.765847538414035e-10,
+          "log10_intensity": -9.321859855041298,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -7.121296470858039e-13,
+            "imag": 1.261565624960266e-13
+          },
+          "raw_Ey": {
+            "real": -3.232987587067516e-13,
+            "imag": 2.789376533270428e-13
+          },
+          "finite": true,
+          "intensity": 7.053724143442856e-25,
+          "log10_intensity": -24.15158152869506,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 3.6477547915851144e-07,
+            "imag": -5.028770064030222e-06
+          },
+          "raw_Ey": {
+            "real": 8.996296532888784e-07,
+            "imag": 2.6947166154960255e-06
+          },
+          "finite": true,
+          "intensity": 3.349242065798882e-11,
+          "log10_intensity": -10.475053462779162,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -1.0899285995884448e-06,
+            "imag": 4.9323428234537464e-06
+          },
+          "raw_Ey": {
+            "real": -9.658500840818761e-09,
+            "imag": -3.3889976364212206e-07
+          },
+          "finite": true,
+          "intensity": 2.5630896416711682e-11,
+          "log10_intensity": -10.591236204505439,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 1.3563443685172644e-38,
+            "imag": 2.8610140062520605e-39
+          },
+          "raw_Ey": {
+            "real": -2.1381447461818385e-41,
+            "imag": 1.1779760868704248e-40
+          },
+          "finite": true,
+          "intensity": 1.921667391877289e-76,
+          "log10_intensity": -75.7163217791922,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 34.0,
+      "wall_elapsed_seconds": 409.60327092558146,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 9.611421620283932e-05,
+        "envelope_intensity": 9.23794255628614e-09,
+        "log10_envelope_intensity": -8.034424742626982,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -7.557430982358903,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -4.125270781024884e-05,
+          "imag": 6.184430893277637e-05
+        },
+        "raw_Ey_at_location": {
+          "real": 3.2752109111034e-05,
+          "imag": -5.136864273089792e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -3.00470235054466e-06,
+            "imag": -2.223460986072557e-05
+          },
+          "raw_Ey": {
+            "real": 4.3333177306122196e-06,
+            "imag": 1.164886763355996e-05
+          },
+          "finite": true,
+          "intensity": 6.578798715726832e-10,
+          "log10_intensity": -9.18185340103045,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 1.1710063041257182e-14,
+            "imag": 1.2292648456376548e-12
+          },
+          "raw_Ey": {
+            "real": 1.1546528845651762e-13,
+            "imag": 5.388759452899164e-13
+          },
+          "finite": true,
+          "intensity": 1.814948703547449e-24,
+          "log10_intensity": -23.74113564505272,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -3.682786190353696e-06,
+            "imag": -1.665621691996556e-06
+          },
+          "raw_Ey": {
+            "real": 3.5454364833243283e-06,
+            "imag": 1.1143314242498232e-06
+          },
+          "finite": true,
+          "intensity": 3.0149064125067185e-11,
+          "log10_intensity": -10.520726164506495,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 8.454492026379991e-07,
+            "imag": 3.620931618999402e-06
+          },
+          "raw_Ey": {
+            "real": -5.658774492782616e-07,
+            "imag": -6.415591105659108e-08
+          },
+          "finite": true,
+          "intensity": 1.4150263412236012e-11,
+          "log10_intensity": -10.849235475516668,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 1.8692040262992576e-15,
+            "imag": 3.937132129543779e-16
+          },
+          "raw_Ey": {
+            "real": -2.5003609702959533e-18,
+            "imag": 2.462440839088923e-17
+          },
+          "finite": true,
+          "intensity": 3.6495463992818106e-30,
+          "log10_intensity": -29.43776111048344,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 36.0,
+      "wall_elapsed_seconds": 433.66547367721796,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.00011457169768010153,
+        "envelope_intensity": 1.3126673909300582e-08,
+        "log10_envelope_intensity": -7.881845303295795,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -7.404851543027716,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 5.1067283447423774e-05,
+          "imag": 7.276986029189654e-05
+        },
+        "raw_Ey_at_location": {
+          "real": -4.317022750854184e-05,
+          "imag": -5.796279289820007e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -2.6212314256319178e-05,
+            "imag": -7.101472491378061e-06
+          },
+          "raw_Ey": {
+            "real": 1.4592811635796746e-05,
+            "imag": 1.4579755435031485e-06
+          },
+          "finite": true,
+          "intensity": 9.525921743411291e-10,
+          "log10_intensity": -9.021092990590988,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 1.5070581391536118e-12,
+            "imag": 7.571980808547186e-13
+          },
+          "raw_Ey": {
+            "real": 8.590944800731495e-13,
+            "imag": 1.3486962612006904e-14
+          },
+          "finite": true,
+          "intensity": 3.5827983922918765e-24,
+          "log10_intensity": -23.445777629338373,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -5.074992636563377e-06,
+            "imag": 5.244420038060607e-06
+          },
+          "raw_Ey": {
+            "real": 3.076107229595553e-06,
+            "imag": -3.927153038397638e-06
+          },
+          "finite": true,
+          "intensity": 7.814445847174995e-11,
+          "log10_intensity": -10.107101814067967,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 2.202049158013984e-06,
+            "imag": -3.1958526815019004e-06
+          },
+          "raw_Ey": {
+            "real": -4.6488627604787115e-07,
+            "imag": 5.292220818156279e-07
+          },
+          "finite": true,
+          "intensity": 1.5558690117711926e-11,
+          "log10_intensity": -10.808026968952737,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -7.830369875604379e-06,
+            "imag": -9.720214762355092e-07
+          },
+          "raw_Ey": {
+            "real": 6.580718414814955e-08,
+            "imag": 2.4669637838260647e-07
+          },
+          "finite": true,
+          "intensity": 6.232470782762832e-11,
+          "log10_intensity": -10.205339748751124,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 38.0,
+      "wall_elapsed_seconds": 458.3053369447589,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0001361747304906466,
+        "envelope_intensity": 1.8543557224200236e-08,
+        "log10_envelope_intensity": -7.731806951170293,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -7.254813190902214,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.000102474358511174,
+          "imag": -2.4995260675598668e-05
+        },
+        "raw_Ey_at_location": {
+          "real": -8.308684504107761e-05,
+          "imag": 2.2679863244791094e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -1.8603546231590617e-05,
+            "imag": 2.537754599481766e-05
+          },
+          "raw_Ey": {
+            "real": 7.93752371875031e-06,
+            "imag": -1.4715440556923584e-05
+          },
+          "finite": true,
+          "intensity": 1.2696602466800912e-09,
+          "log10_intensity": -8.896312478045951,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 1.690878214606955e-12,
+            "imag": -1.1530996516798663e-12
+          },
+          "raw_Ey": {
+            "real": 7.934123856909619e-13,
+            "imag": -1.233724980958682e-12
+          },
+          "finite": true,
+          "intensity": 6.340288485745935e-24,
+          "log10_intensity": -23.197890981090318,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 3.0025233978112235e-06,
+            "imag": 7.532059026700926e-06
+          },
+          "raw_Ey": {
+            "real": -4.489868032186646e-06,
+            "imag": -4.812171859484759e-06
+          },
+          "finite": true,
+          "intensity": 1.0906297288777955e-10,
+          "log10_intensity": -9.962322668292687,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -8.250041259124349e-08,
+            "imag": -3.4623768719883584e-06
+          },
+          "raw_Ey": {
+            "real": 3.78287964405516e-07,
+            "imag": 6.242560732586249e-07
+          },
+          "finite": true,
+          "intensity": 1.252765735077194e-11,
+          "log10_intensity": -10.90213013369482,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 4.8048159225224034e-06,
+            "imag": 4.0284336258093706e-07
+          },
+          "raw_Ey": {
+            "real": -2.831481831695744e-08,
+            "imag": -1.403698212859215e-07
+          },
+          "finite": true,
+          "intensity": 2.326904423976453e-11,
+          "log10_intensity": -10.633221454698692,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 40.0,
+      "wall_elapsed_seconds": 481.93866784870625,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.00016186504326829487,
+        "envelope_intensity": 2.6200292232246965e-08,
+        "log10_envelope_intensity": -7.581693864628938,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -7.104700104360859,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 1.6282080781856594e-05,
+          "imag": -0.00012440279978086032
+        },
+        "raw_Ey_at_location": {
+          "real": -1.1084936792868915e-05,
+          "imag": 0.00010166736772751299
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 2.003714555286246e-05,
+            "imag": 3.1946296110783593e-05
+          },
+          "raw_Ey": {
+            "real": -1.2816735420554194e-05,
+            "imag": -1.5407619972159917e-05
+          },
+          "finite": true,
+          "intensity": 1.823716497151456e-09,
+          "log10_intensity": -8.739042673295009,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -6.378741541595717e-13,
+            "imag": -2.6359596029246527e-12
+          },
+          "raw_Ey": {
+            "real": -8.074341404509467e-13,
+            "imag": -1.6475616274965085e-12
+          },
+          "finite": true,
+          "intensity": 1.072157567236018e-23,
+          "log10_intensity": -22.9697413848368,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 1.152120720739472e-05,
+            "imag": -5.692833897767142e-07
+          },
+          "raw_Ey": {
+            "real": -7.34569207567476e-06,
+            "imag": 2.9998710377065438e-06
+          },
+          "finite": true,
+          "intensity": 1.9602071740710144e-10,
+          "log10_intensity": -9.707698025683847,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -2.819763986013491e-06,
+            "imag": -1.1562130640568113e-06
+          },
+          "raw_Ey": {
+            "real": 9.177412009723133e-07,
+            "imag": -2.0723029608865608e-07
+          },
+          "finite": true,
+          "intensity": 1.0173090893893437e-11,
+          "log10_intensity": -10.992547075177862,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -4.266573757916747e-06,
+            "imag": 2.7172451845161603e-07
+          },
+          "raw_Ey": {
+            "real": 7.280408631313761e-08,
+            "imag": -5.822227760000308e-08
+          },
+          "finite": true,
+          "intensity": 1.828617611426437e-11,
+          "log10_intensity": -10.737877101855398,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 42.0,
+      "wall_elapsed_seconds": 504.96180982142687,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.00019201218166417866,
+        "envelope_intensity": 3.686867790743755e-08,
+        "log10_envelope_intensity": -7.433342435700072,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -6.956348675431993,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.0001303526493944007,
+          "imag": -7.239775719782975e-05
+        },
+        "raw_Ey_at_location": {
+          "real": 0.00010715950452268303,
+          "imag": 5.614508034080256e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 4.353194149557692e-05,
+            "imag": -9.036979846004914e-06
+          },
+          "raw_Ey": {
+            "real": -2.2423694324837214e-05,
+            "imag": 7.669204615954713e-06
+          },
+          "finite": true,
+          "intensity": 2.5383357017265497e-09,
+          "log10_intensity": -8.595450941829101,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -3.707949572513232e-12,
+            "imag": -1.2300101631701914e-12
+          },
+          "raw_Ey": {
+            "real": -2.4998613499797153e-12,
+            "imag": 2.981268320213159e-13
+          },
+          "finite": true,
+          "intensity": 2.160000141089641e-23,
+          "log10_intensity": -22.665546220481268,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 1.9712299109485716e-06,
+            "imag": -1.1448042335325322e-05
+          },
+          "raw_Ey": {
+            "real": 2.681294242834458e-07,
+            "imag": 8.962804082421413e-06
+          },
+          "finite": true,
+          "intensity": 2.1534717108125495e-10,
+          "log10_intensity": -9.666860828994812,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -3.2122344797056146e-06,
+            "imag": 1.800304891053784e-06
+          },
+          "raw_Ey": {
+            "real": -2.2195525702434385e-06,
+            "imag": -1.1308154410084228e-07
+          },
+          "finite": true,
+          "intensity": 1.8498749101052205e-11,
+          "log10_intensity": -10.732857637914705,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 3.1095629362830535e-06,
+            "imag": 1.1138119663589065e-06
+          },
+          "raw_Ey": {
+            "real": -7.76893544790638e-08,
+            "imag": 8.55763585300925e-08
+          },
+          "finite": true,
+          "intensity": 1.0923317700048234e-11,
+          "log10_intensity": -10.961645434892457,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 44.0,
+      "wall_elapsed_seconds": 528.3177059814334,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.00022721115194169743,
+        "envelope_intensity": 5.162490756667311e-08,
+        "log10_envelope_intensity": -7.287140712930114,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -6.810146952662035,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.00013619756588776122,
+          "imag": 0.00011204096023815363
+        },
+        "raw_Ey_at_location": {
+          "real": 0.00010816793876677745,
+          "imag": -9.392364380059613e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 9.123192508765152e-06,
+            "imag": -5.065664075711787e-05
+          },
+          "raw_Ey": {
+            "real": -1.2644312390817783e-06,
+            "imag": 2.6906721758645834e-05
+          },
+          "finite": true,
+          "intensity": 3.3748983565032314e-09,
+          "log10_intensity": -8.471739302499476,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -3.694323184203339e-12,
+            "imag": 2.6698642228407247e-12
+          },
+          "raw_Ey": {
+            "real": -1.6174143384324177e-12,
+            "imag": 3.4580648682930874e-12
+          },
+          "finite": true,
+          "intensity": 3.535044053323677e-23,
+          "log10_intensity": -22.45160516970409,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -1.0658837364358854e-05,
+            "imag": -8.657015649898216e-06
+          },
+          "raw_Ey": {
+            "real": 1.0361789868112099e-05,
+            "imag": 3.357014641424855e-06
+          },
+          "finite": true,
+          "intensity": 3.0719097049608677e-10,
+          "log10_intensity": -9.512591554009525,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 1.5259064818307532e-06,
+            "imag": 1.4889356972091062e-06
+          },
+          "raw_Ey": {
+            "real": -2.5717334284504233e-06,
+            "imag": -2.780242252150217e-06
+          },
+          "finite": true,
+          "intensity": 1.8888879909367357e-11,
+          "log10_intensity": -10.723793794518805,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -1.6724594026540335e-06,
+            "imag": -1.060746809442482e-06
+          },
+          "raw_Ey": {
+            "real": -5.7901476756154e-10,
+            "imag": 1.272357793942829e-07
+          },
+          "finite": true,
+          "intensity": 3.938493526084474e-12,
+          "log10_intensity": -11.404669864067484,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 46.0,
+      "wall_elapsed_seconds": 551.7184407263994,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0002678985147676053,
+        "envelope_intensity": 7.176961421468883e-08,
+        "log10_envelope_intensity": -7.144059388237269,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -6.6670656279691904,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 6.443540216438808e-05,
+          "imag": 0.00019769837473719798
+        },
+        "raw_Ey_at_location": {
+          "real": -5.6152949130637895e-05,
+          "imag": -0.00015931067789952044
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -5.219038669135359e-05,
+            "imag": -3.16244345614003e-05
+          },
+          "raw_Ey": {
+            "real": 2.919655726475729e-05,
+            "imag": 1.2863141680768946e-05
+          },
+          "finite": true,
+          "intensity": 4.741840694335082e-09,
+          "log10_intensity": -8.324053040558878,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 9.979975360503486e-13,
+            "imag": 4.95124387925002e-12
+          },
+          "raw_Ey": {
+            "real": 2.288958405738277e-12,
+            "imag": 3.985552797680356e-12
+          },
+          "finite": true,
+          "intensity": 4.6634776720070814e-23,
+          "log10_intensity": -22.331290098229385,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -1.3244219202359806e-05,
+            "imag": 8.992620499314173e-06
+          },
+          "raw_Ey": {
+            "real": 8.320312817147289e-06,
+            "imag": -1.135895786033394e-05
+          },
+          "finite": true,
+          "intensity": 4.5453009477286865e-10,
+          "log10_intensity": -9.342437356532015,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 4.194103798928425e-06,
+            "imag": -4.0843880681489576e-07
+          },
+          "raw_Ey": {
+            "real": -3.9984503282805e-06,
+            "imag": 1.1267104712024518e-06
+          },
+          "finite": true,
+          "intensity": 3.5014410448741815e-11,
+          "log10_intensity": -10.455753181639672,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -1.9169805344065266e-06,
+            "imag": -1.9123510122497962e-06
+          },
+          "raw_Ey": {
+            "real": 7.202072552167003e-08,
+            "imag": 5.495431392445531e-08
+          },
+          "finite": true,
+          "intensity": 7.340107724869922e-12,
+          "log10_intensity": -11.13429756624561,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 48.0,
+      "wall_elapsed_seconds": 575.7387129962444,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0003148767792016628,
+        "envelope_intensity": 9.91473860804127e-08,
+        "log10_envelope_intensity": -7.003718731038276,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -6.526724970770197,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.00024411463520391348,
+          "imag": 1.5107154520652415e-05
+        },
+        "raw_Ey_at_location": {
+          "real": -0.0001981643193608449,
+          "imag": -7.622819308836718e-06
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -5.7501490597088775e-05,
+            "imag": 4.3356130593671846e-05
+          },
+          "raw_Ey": {
+            "real": 2.7237520570518628e-05,
+            "imag": -2.611836760974272e-05
+          },
+          "finite": true,
+          "intensity": 6.610227134369698e-09,
+          "log10_intensity": -8.179783617441947,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 6.381745739700811e-12,
+            "imag": 2.060970831371102e-12
+          },
+          "raw_Ey": {
+            "real": 5.127207604765919e-12,
+            "imag": -4.3028681636878184e-13
+          },
+          "finite": true,
+          "intensity": 7.144768402066212e-23,
+          "log10_intensity": -22.146011844316654,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 3.836066183385424e-06,
+            "imag": 1.9827964151762848e-05
+          },
+          "raw_Ey": {
+            "real": -7.861407609356717e-06,
+            "imag": -1.4547527447924217e-05
+          },
+          "finite": true,
+          "intensity": 6.812958506154656e-10,
+          "log10_intensity": -9.166664256092592,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 1.3754070684004143e-06,
+            "imag": -4.934485616808827e-06
+          },
+          "raw_Ey": {
+            "real": 7.802120537501603e-07,
+            "imag": 4.1933946215211135e-06
+          },
+          "finite": true,
+          "intensity": 4.443418220691821e-11,
+          "log10_intensity": -10.35228280843576,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 2.652807585139166e-07,
+            "imag": 1.622663903058876e-07
+          },
+          "raw_Ey": {
+            "real": 7.493242160267115e-08,
+            "imag": -1.660811988901791e-07
+          },
+          "finite": true,
+          "intensity": 1.2990209469266127e-13,
+          "log10_intensity": -12.886383845800495,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 50.0,
+      "wall_elapsed_seconds": 598.9536926746368,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0003699161525046445,
+        "envelope_intensity": 1.3683795988383942e-07,
+        "log10_envelope_intensity": -6.863793409332018,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -6.386799649063939,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.00012173707208197855,
+          "imag": -0.00025999730703010206
+        },
+        "raw_Ey_at_location": {
+          "real": -9.368376062430644e-05,
+          "imag": 0.00021364175270093845
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 2.3044626339952154e-05,
+            "imag": 8.154295843126964e-05
+          },
+          "raw_Ey": {
+            "real": -1.7224674525603226e-05,
+            "imag": -4.093495566325852e-05
+          },
+          "finite": true,
+          "intensity": 9.152668880537722e-09,
+          "log10_intensity": -8.038452248984647,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 6.6630998913742265e-12,
+            "imag": -3.790955102813025e-12
+          },
+          "raw_Ey": {
+            "real": 2.716701160190559e-12,
+            "imag": -6.3390899916051885e-12
+          },
+          "finite": true,
+          "intensity": 1.063327678694253e-22,
+          "log10_intensity": -21.97333288117823,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 2.3444395326007333e-05,
+            "imag": 5.0097620923624615e-06
+          },
+          "raw_Ey": {
+            "real": -2.0230467461661707e-05,
+            "imag": 2.3498317521887858e-06
+          },
+          "finite": true,
+          "intensity": 9.895309114051339e-10,
+          "log10_intensity": -9.00457063456219,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -5.488301485052002e-06,
+            "imag": -4.877660683514949e-06
+          },
+          "raw_Ey": {
+            "real": 4.824567546093173e-06,
+            "imag": 1.2042428711538333e-06
+          },
+          "finite": true,
+          "intensity": 7.863967983387204e-11,
+          "log10_intensity": -10.104358263317652,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -1.2014014526605451e-06,
+            "imag": 1.79408658236792e-06
+          },
+          "raw_Ey": {
+            "real": -7.719573128399852e-08,
+            "imag": -1.892201967964107e-07
+          },
+          "finite": true,
+          "intensity": 4.70387557929162e-12,
+          "log10_intensity": -11.327544174164425,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 52.0,
+      "wall_elapsed_seconds": 622.4186298698187,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0004338960856121975,
+        "envelope_intensity": 1.882658131095874e-07,
+        "log10_envelope_intensity": -6.725228535670089,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -6.24823477540201,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.00023173589624338463,
+          "imag": -0.00024430019256580334
+        },
+        "raw_Ey_at_location": {
+          "real": 0.0001927465022053372,
+          "imag": 0.00019424337646823888
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 9.823799685160076e-05,
+            "imag": 9.72348446055207e-06
+          },
+          "raw_Ey": {
+            "real": -5.136405016575894e-05,
+            "imag": 1.3890540372412913e-06
+          },
+          "finite": true,
+          "intensity": 1.2385445296018706e-08,
+          "log10_intensity": -7.907088374534163,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 6.941637529407088e-13,
+            "imag": -6.515108217560656e-12
+          },
+          "raw_Ey": {
+            "real": -3.659173595272303e-12,
+            "imag": -7.236744909038655e-12
+          },
+          "finite": true,
+          "intensity": 1.0868852668125803e-22,
+          "log10_intensity": -21.96381629825046,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 1.420133748502934e-05,
+            "imag": -2.3451902686256387e-05
+          },
+          "raw_Ey": {
+            "real": -5.758777234283451e-06,
+            "imag": 2.2728359236952505e-05
+          },
+          "finite": true,
+          "intensity": 1.3014115548074046e-09,
+          "log10_intensity": -8.885585341626431,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -6.586431006445101e-06,
+            "imag": 5.666273579553774e-06
+          },
+          "raw_Ey": {
+            "real": 2.9363156316426822e-06,
+            "imag": -4.7993463957793895e-06
+          },
+          "finite": true,
+          "intensity": 1.0714340499632029e-10,
+          "log10_intensity": -9.970034555950699,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 3.0637513133577894e-06,
+            "imag": 5.2866207672101646e-08
+          },
+          "raw_Ey": {
+            "real": 3.1074585383716183e-07,
+            "imag": -3.6727565392110567e-06
+          },
+          "finite": true,
+          "intensity": 2.2975070528009808e-11,
+          "log10_intensity": -10.638743146758893,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 54.0,
+      "wall_elapsed_seconds": 646.1905366107821,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0005078843872291217,
+        "envelope_intensity": 2.5794655079110043e-07,
+        "log10_envelope_intensity": -6.588470275049472,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -6.111476514781393,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.00036545543000118905,
+          "imag": 0.00014755185113743885
+        },
+        "raw_Ey_at_location": {
+          "real": 0.0002940996540639908,
+          "imag": -0.00012697528963976628
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 5.238218281873904e-05,
+            "imag": -0.00010464080623086237
+          },
+          "raw_Ey": {
+            "real": -2.125837048205382e-05,
+            "imag": 5.81073727960459e-05
+          },
+          "finite": true,
+          "intensity": 1.7521976494311615e-08,
+          "log10_intensity": -7.756416906606398,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -5.808527466035296e-12,
+            "imag": -8.294605212343835e-13
+          },
+          "raw_Ey": {
+            "real": -6.2807120762912e-12,
+            "imag": -1.2454941945490904e-12
+          },
+          "finite": true,
+          "intensity": 7.54255960538988e-23,
+          "log10_intensity": -22.12248124910927,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -1.741407109978259e-05,
+            "imag": -2.7103068007121234e-05
+          },
+          "raw_Ey": {
+            "real": 2.2145831325371348e-05,
+            "imag": 1.5987055436677887e-05
+          },
+          "finite": true,
+          "intensity": 1.7838499542941297e-09,
+          "log10_intensity": -8.748641678414268,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 2.280368195476542e-06,
+            "imag": 1.0006985525148843e-05
+          },
+          "raw_Ey": {
+            "real": -4.00028655891239e-06,
+            "imag": -5.6973612174387e-06
+          },
+          "finite": true,
+          "intensity": 1.538020558028696e-10,
+          "log10_intensity": -9.813037859476882,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 8.070192906918901e-07,
+            "imag": -1.4240448280383916e-06
+          },
+          "raw_Ey": {
+            "real": -8.125605700490039e-07,
+            "imag": 6.704186794094202e-07
+          },
+          "finite": true,
+          "intensity": 3.7888996935111756e-12,
+          "log10_intensity": -11.42148689198846,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 56.0,
+      "wall_elapsed_seconds": 669.3150087296963,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0005949171782471246,
+        "envelope_intensity": 3.53926448973521e-07,
+        "log10_envelope_intensity": -6.451086981261772,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -5.974093220993693,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 5.329257933452325e-06,
+          "imag": 0.0004612968418431204
+        },
+        "raw_Ey_at_location": {
+          "real": -1.2510070208431805e-05,
+          "imag": -0.0003754287813052474
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -8.971915726616492e-05,
+            "imag": -0.000100703814479187
+          },
+          "raw_Ey": {
+            "real": 5.243291016819136e-05,
+            "imag": 4.6935398335442725e-05
+          },
+          "finite": true,
+          "intensity": 2.314292711682165e-08,
+          "log10_intensity": -7.635581712355422,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -7.801721713009066e-12,
+            "imag": 1.9246035231944502e-12
+          },
+          "raw_Ey": {
+            "real": -3.4928612846851917e-12,
+            "imag": 6.572157894001252e-12
+          },
+          "finite": true,
+          "intensity": 1.1996429974646502e-22,
+          "log10_intensity": -21.92094797670129,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -3.940224565075899e-05,
+            "imag": 9.547162702812928e-06
+          },
+          "raw_Ey": {
+            "real": 2.8476382000298472e-05,
+            "imag": -1.781366666754597e-05
+          },
+          "finite": true,
+          "intensity": 2.7719163299661e-09,
+          "log10_intensity": -8.557219883000505,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 1.0304632064214656e-05,
+            "imag": 2.735165274093806e-06
+          },
+          "raw_Ey": {
+            "real": -7.12634703726444e-06,
+            "imag": 1.5746263075639981e-06
+          },
+          "finite": true,
+          "intensity": 1.6693084115944969e-10,
+          "log10_intensity": -9.77746341821604,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -5.352056482369494e-07,
+            "imag": -3.917709942721693e-06
+          },
+          "raw_Ey": {
+            "real": 1.990799941071598e-06,
+            "imag": 2.9629693821906425e-07
+          },
+          "finite": true,
+          "intensity": 1.9685972562173793e-11,
+          "log10_intensity": -10.705843124538895,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 58.0,
+      "wall_elapsed_seconds": 693.8193958848715,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0006950920492301409,
+        "envelope_intensity": 4.831529569029567e-07,
+        "log10_envelope_intensity": -6.315915358228098,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -5.838921597960019,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.0005043150274453135,
+          "imag": 0.00019102894449693375
+        },
+        "raw_Ey_at_location": {
+          "real": -0.00041366617872190217,
+          "imag": -0.00014562810491727235
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.00014686076816839447,
+            "imag": 5.441726330712644e-05
+          },
+          "raw_Ey": {
+            "real": 7.253122037830138e-05,
+            "imag": -3.661180458531661e-05
+          },
+          "finite": true,
+          "intensity": 3.113052593740718e-08,
+          "log10_intensity": -7.5068135420292,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -5.122547506708606e-12,
+            "imag": 4.702962969800803e-12
+          },
+          "raw_Ey": {
+            "real": 3.876972965155866e-12,
+            "imag": 7.406207281238172e-12
+          },
+          "finite": true,
+          "intensity": 1.1824117931901912e-22,
+          "log10_intensity": -21.927231247342448,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -4.541091463321476e-06,
+            "imag": 4.5541239383744906e-05
+          },
+          "raw_Ey": {
+            "real": -7.867383394233415e-06,
+            "imag": -3.872102219536801e-05
+          },
+          "finite": true,
+          "intensity": 3.6558392776118545e-09,
+          "log10_intensity": -8.437012905493075,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 5.850518827702456e-06,
+            "imag": -1.1614476607780078e-05
+          },
+          "raw_Ey": {
+            "real": -8.129752286855442e-07,
+            "imag": 1.0064105358218525e-05
+          },
+          "finite": true,
+          "intensity": 2.7107178280975004e-10,
+          "log10_intensity": -9.56691568790759,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -2.6903638171512606e-06,
+            "imag": -2.026581519864471e-06
+          },
+          "raw_Ey": {
+            "real": 4.764805137920774e-06,
+            "imag": -2.1268821437647323e-06
+          },
+          "finite": true,
+          "intensity": 3.857208578111434e-11,
+          "log10_intensity": -10.413726876074682,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 60.0,
+      "wall_elapsed_seconds": 717.3728595599532,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0008127543298304508,
+        "envelope_intensity": 6.60569600658145e-07,
+        "log10_envelope_intensity": -6.1800814163700055,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -5.703087656101927,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.00042230222022420004,
+          "imag": -0.00046791153529712477
+        },
+        "raw_Ey_at_location": {
+          "real": -0.0003348586820286466,
+          "imag": 0.0003887915812588813
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -2.4926517446976436e-06,
+            "imag": 0.00018279896750230664
+          },
+          "raw_Ey": {
+            "real": -9.433426125610435e-06,
+            "imag": -9.443180085436747e-05
+          },
+          "finite": true,
+          "intensity": 4.242803037369597e-08,
+          "log10_intensity": -7.372347128914268,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -1.7756720774817194e-12,
+            "imag": 1.2264302498127823e-12
+          },
+          "raw_Ey": {
+            "real": 5.202743435393636e-12,
+            "imag": 1.490702716974758e-12
+          },
+          "finite": true,
+          "intensity": 3.3947876329331397e-23,
+          "log10_intensity": -22.469187388608816,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 4.675978470795548e-05,
+            "imag": 2.6714069609310695e-05
+          },
+          "raw_Ey": {
+            "real": -4.637499318304766e-05,
+            "imag": -8.396800069749574e-06
+          },
+          "finite": true,
+          "intensity": 5.1212652251645045e-09,
+          "log10_intensity": -8.290622731909663,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -1.0533980396662507e-05,
+            "imag": -1.2054646438832829e-05
+          },
+          "raw_Ey": {
+            "real": 1.175195848994204e-05,
+            "imag": 4.936446621532695e-06
+          },
+          "finite": true,
+          "intensity": 4.1875627735909756e-10,
+          "log10_intensity": -9.378038669622004,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -2.2292404359562612e-06,
+            "imag": 3.5506262671357625e-06
+          },
+          "raw_Ey": {
+            "real": 5.209796719036508e-07,
+            "imag": -6.934521355153682e-07
+          },
+          "finite": true,
+          "intensity": 1.832875549296451e-11,
+          "log10_intensity": -10.736867022265658,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 62.0,
+      "wall_elapsed_seconds": 740.6291772350669,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0009467085423892762,
+        "envelope_intensity": 8.962570642328279e-07,
+        "log10_envelope_intensity": -6.047567408233214,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -5.570573647965135,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.00032643604638370367,
+          "imag": -0.0006575475962034256
+        },
+        "raw_Ey_at_location": {
+          "real": 0.000277664734828919,
+          "imag": 0.0005293675713657632
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.0001962533412614068,
+            "imag": 8.101156921365723e-05
+          },
+          "raw_Ey": {
+            "real": -0.00010546991160486217,
+            "imag": -3.1494333959084054e-05
+          },
+          "finite": true,
+          "intensity": 5.719404362818912e-08,
+          "log10_intensity": -7.2426491976773395,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -2.108505365779444e-12,
+            "imag": -1.3651412758232542e-12
+          },
+          "raw_Ey": {
+            "real": -1.7679918480869387e-12,
+            "imag": -5.767871484585153e-13
+          },
+          "finite": true,
+          "intensity": 9.767884170005857e-24,
+          "log10_intensity": -23.010199499004365,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 4.9571213270306895e-05,
+            "imag": -4.105599923159977e-05
+          },
+          "raw_Ey": {
+            "real": -2.9220316924254816e-05,
+            "imag": 4.6198347700626924e-05
+          },
+          "finite": true,
+          "intensity": 7.131014509417293e-09,
+          "log10_intensity": -8.146848679895804,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -1.7332343067587782e-05,
+            "imag": 6.9694720626941024e-06
+          },
+          "raw_Ey": {
+            "real": 1.0696364119051036e-05,
+            "imag": -1.0285128598295577e-05
+          },
+          "finite": true,
+          "intensity": 5.691797326960324e-10,
+          "log10_intensity": -9.244750572633755,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 3.3312376384491074e-06,
+            "imag": 5.703615021124116e-06
+          },
+          "raw_Ey": {
+            "real": -1.3606030845845954e-06,
+            "imag": 2.2352098060901438e-06
+          },
+          "finite": true,
+          "intensity": 5.0475772144035266e-11,
+          "log10_intensity": -10.296917028791874,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 64.0,
+      "wall_elapsed_seconds": 763.0268538296223,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0011032857285641587,
+        "envelope_intensity": 1.2172393988533467e-06,
+        "log10_envelope_intensity": -5.914623999110712,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -5.437630238842633,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.0008529785471637851,
+          "imag": 7.437129647096269e-05
+        },
+        "raw_Ey_at_location": {
+          "real": 0.000691594417964833,
+          "imag": -7.637452607261425e-05
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.0001702610454523147,
+            "imag": -0.00017795943978197705
+          },
+          "raw_Ey": {
+            "real": -7.86536105260317e-05,
+            "imag": 0.0001013998650276157
+          },
+          "finite": true,
+          "intensity": 7.712670888242973e-08,
+          "log10_intensity": -7.112795200268427,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -5.859246714690669e-13,
+            "imag": 4.773410356199154e-12
+          },
+          "raw_Ey": {
+            "real": -5.670953477558891e-12,
+            "imag": 5.402318583998494e-12
+          },
+          "finite": true,
+          "intensity": 8.447351357695825e-23,
+          "log10_intensity": -22.073279441470845,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -2.296459544129966e-05,
+            "imag": -7.09365802067369e-05
+          },
+          "raw_Ey": {
+            "real": 3.9211951065062026e-05,
+            "imag": 5.15957541851766e-05
+          },
+          "finite": true,
+          "intensity": 9.75907001147538e-09,
+          "log10_intensity": -8.010591566362828,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -6.476902115810441e-07,
+            "imag": 2.2019813622432482e-05
+          },
+          "raw_Ey": {
+            "real": -7.120421083056193e-06,
+            "imag": -1.5706009137771908e-05
+          },
+          "finite": true,
+          "intensity": 7.826708140126466e-10,
+          "log10_intensity": -9.106420860826324,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 5.861760618618039e-06,
+            "imag": 3.2877046598967265e-07
+          },
+          "raw_Ey": {
+            "real": 2.4605190453723206e-07,
+            "imag": 3.1554385177336717e-06
+          },
+          "finite": true,
+          "intensity": 4.448566134821203e-11,
+          "log10_intensity": -10.351779948588037,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 66.0,
+      "wall_elapsed_seconds": 786.1229088753462,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.001282394432925388,
+        "envelope_intensity": 1.6445354815980279e-06,
+        "log10_envelope_intensity": -5.7839567519800505,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -5.306962991711972,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.00028120984881379506,
+          "imag": 0.0009543120662644641
+        },
+        "raw_Ey_at_location": {
+          "real": 0.0002114077314167222,
+          "imag": -0.0007810580988680891
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.00012028560935542468,
+            "imag": -0.00025899478914020936
+          },
+          "raw_Ey": {
+            "real": 7.513542401409744e-05,
+            "imag": 0.00012748722610847463
+          },
+          "finite": true,
+          "intensity": 1.0344525338239881e-07,
+          "log10_intensity": -6.985289432278342,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 1.2285598968511628e-11,
+            "imag": 1.327089006533243e-11
+          },
+          "raw_Ey": {
+            "real": 3.789510663497523e-12,
+            "imag": 9.236466089516414e-12
+          },
+          "finite": true,
+          "intensity": 4.267251620327792e-22,
+          "log10_intensity": -21.369851748024672,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -8.787296152498043e-05,
+            "imag": -4.657518996899522e-06
+          },
+          "raw_Ey": {
+            "real": 7.382131202762669e-05,
+            "imag": -2.0867809502384838e-05
+          },
+          "finite": true,
+          "intensity": 1.3628401433285229e-08,
+          "log10_intensity": -7.865555082493876,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 2.47566662908764e-05,
+            "imag": 9.454178029988546e-06
+          },
+          "raw_Ey": {
+            "real": -2.047567728356916e-05,
+            "imag": 4.151578563152557e-07
+          },
+          "finite": true,
+          "intensity": 1.121699724327064e-09,
+          "log10_intensity": -8.95012338685987,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 3.446281794353142e-06,
+            "imag": -7.19994726075474e-06
+          },
+          "raw_Ey": {
+            "real": 3.0369820695046613e-06,
+            "imag": -6.296948784806128e-07
+          },
+          "finite": true,
+          "intensity": 7.333587449421692e-11,
+          "log10_intensity": -10.134683524901613,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 68.0,
+      "wall_elapsed_seconds": 809.7419544756413,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0014892969390954108,
+        "envelope_intensity": 2.21800537279896e-06,
+        "log10_envelope_intensity": -5.6540374061696745,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -5.177043645901596,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.0009125859702621456,
+          "imag": 0.0007086608127744587
+        },
+        "raw_Ey_at_location": {
+          "real": -0.0007545143583694751,
+          "imag": -0.0005600894170860604
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.00032878594387006143,
+            "imag": 2.056092227994779e-05
+          },
+          "raw_Ey": {
+            "real": 0.00016821605303815983,
+            "imag": -2.7055145513139103e-05
+          },
+          "finite": true,
+          "intensity": 1.3755156981000335e-07,
+          "log10_intensity": -6.861534448851675,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 3.023132418758972e-11,
+            "imag": 6.6464351641332505e-12
+          },
+          "raw_Ey": {
+            "real": 1.9635629565204635e-11,
+            "imag": -5.109089420366077e-12
+          },
+          "finite": true,
+          "intensity": 1.369768805653412e-21,
+          "log10_intensity": -20.863352728392474,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -4.242258619644033e-05,
+            "imag": 9.31830742374097e-05
+          },
+          "raw_Ey": {
+            "real": 8.81806056117802e-06,
+            "imag": -8.93048105587953e-05
+          },
+          "finite": true,
+          "intensity": 1.853586852493194e-08,
+          "log10_intensity": -7.731987059661492,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 2.0731632925339738e-05,
+            "imag": -2.3147185259276138e-05
+          },
+          "raw_Ey": {
+            "real": -8.598561848021656e-06,
+            "imag": 2.3166366595041038e-05
+          },
+          "finite": true,
+          "intensity": 1.5762085962483668e-09,
+          "log10_intensity": -8.802386308290094,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -6.262836137916478e-06,
+            "imag": -5.654480823863004e-06
+          },
+          "raw_Ey": {
+            "real": 1.3110827094682257e-06,
+            "imag": -4.250714033586654e-06
+          },
+          "finite": true,
+          "intensity": 9.098377754422392e-11,
+          "log10_intensity": -10.04103603571277,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 70.0,
+      "wall_elapsed_seconds": 832.6814702898264,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.001727488761414108,
+        "envelope_intensity": 2.984217420812049e-06,
+        "log10_envelope_intensity": -5.5251695386996715,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -5.048175778431593,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.0011515404561131789,
+          "imag": -0.0006846270922766232
+        },
+        "raw_Ey_at_location": {
+          "real": -0.0009250938490341994,
+          "imag": 0.0005776323344019508
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.00011660344300083912,
+            "imag": 0.0003628418344169966
+          },
+          "raw_Ey": {
+            "real": 4.1696595758534995e-05,
+            "imag": -0.00019213788787582461
+          },
+          "finite": true,
+          "intensity": 1.839061337779746e-07,
+          "log10_intensity": -6.735403785598772,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 3.020140702733208e-11,
+            "imag": -1.823363234850724e-11
+          },
+          "raw_Ey": {
+            "real": 1.7646610883208974e-11,
+            "imag": -3.375164277477888e-11
+          },
+          "finite": true,
+          "intensity": 2.6951666007107885e-21,
+          "log10_intensity": -20.569414383897254,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 8.366974601886271e-05,
+            "imag": 8.609672599791026e-05
+          },
+          "raw_Ey": {
+            "real": -9.426173074291796e-05,
+            "imag": -4.874766282077563e-05
+          },
+          "finite": true,
+          "intensity": 2.5674881139558685e-08,
+          "log10_intensity": -7.590491558268299,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -1.5726157909307664e-05,
+            "imag": -3.237137171834457e-05
+          },
+          "raw_Ey": {
+            "real": 2.176432157933898e-05,
+            "imag": 1.912959198568461e-05
+          },
+          "finite": true,
+          "intensity": 2.1348447328633653e-09,
+          "log10_intensity": -8.670633705703478,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -1.1071432790133002e-05,
+            "imag": 3.5062921633533265e-06
+          },
+          "raw_Ey": {
+            "real": -3.128218625017464e-06,
+            "imag": -4.897428714547239e-06
+          },
+          "finite": true,
+          "intensity": 1.6864126854120285e-10,
+          "log10_intensity": -9.773036139636591,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 72.0,
+      "wall_elapsed_seconds": 856.2900985330343,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.001999475429637946,
+        "envelope_intensity": 3.997901993725849e-06,
+        "log10_envelope_intensity": -5.398167856567517,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -4.921174096299438,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.00025046405066701566,
+          "imag": -0.0015305148381824542
+        },
+        "raw_Ey_at_location": {
+          "real": 0.0002313393932823704,
+          "imag": 0.0012406353889311715
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.00034147160518163905,
+            "imag": 0.0002769101560464707
+          },
+          "raw_Ey": {
+            "real": -0.0001888660949796093,
+            "imag": -0.00012560017768681935
+          },
+          "finite": true,
+          "intensity": 2.4472789813481323e-07,
+          "log10_intensity": -6.611316519755742,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -3.7308725981674784e-12,
+            "imag": -3.9076956848938315e-11
+          },
+          "raw_Ey": {
+            "real": -1.3342961456933658e-11,
+            "imag": -4.5988876273843e-11
+          },
+          "finite": true,
+          "intensity": 3.8339393282896056e-21,
+          "log10_intensity": -20.416354764070768,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 0.00012845825429288752,
+            "imag": -5.582307226696654e-05
+          },
+          "raw_Ey": {
+            "real": -9.302179356235368e-05,
+            "imag": 8.200638222424507e-05
+          },
+          "finite": true,
+          "intensity": 3.499583929636531e-08,
+          "log10_intensity": -7.455983586450917,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -4.1522960191693476e-05,
+            "imag": 4.244806724090351e-06
+          },
+          "raw_Ey": {
+            "real": 3.023046146618921e-05,
+            "imag": -1.6286094548670078e-05
+          },
+          "finite": true,
+          "intensity": 2.921292283312819e-09,
+          "log10_intensity": -8.534424988497351,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 2.6023260309292665e-06,
+            "imag": 1.1083080439838674e-05
+          },
+          "raw_Ey": {
+            "real": -7.113882623354745e-06,
+            "imag": 1.431551432923755e-06
+          },
+          "finite": true,
+          "intensity": 1.822634382911615e-10,
+          "log10_intensity": -9.73930044127862,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 74.0,
+      "wall_elapsed_seconds": 879.1656267791986,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.002312476434690932,
+        "envelope_intensity": 5.347547261000884e-06,
+        "log10_envelope_intensity": -5.271845368495342,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -4.794851608227263,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.0017536879878377347,
+          "imag": -0.000375718520245681
+        },
+        "raw_Ey_at_location": {
+          "real": 0.00143367334988658,
+          "imag": 0.0002748490889268118
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.0004406685609517332,
+            "imag": -0.0002500613023491922
+          },
+          "raw_Ey": {
+            "real": -0.000214395698473054,
+            "imag": 0.0001482896940414771
+          },
+          "finite": true,
+          "intensity": 3.246747844265095e-07,
+          "log10_intensity": -6.48855143915245,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -5.214422104265856e-11,
+            "imag": -2.673748442093614e-11
+          },
+          "raw_Ey": {
+            "real": -4.715717083117642e-11,
+            "imag": -1.4039960566579471e-11
+          },
+          "finite": true,
+          "intensity": 5.854832114817281e-21,
+          "log10_intensity": -20.232485553649482,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -5.621885521959226e-06,
+            "imag": -0.00016306640780452568
+          },
+          "raw_Ey": {
+            "real": 5.0210903049181544e-05,
+            "imag": 0.00013600297050954646
+          },
+          "finite": true,
+          "intensity": 4.7640201723528744e-08,
+          "log10_intensity": -7.3220264082465665,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -1.3835883463641191e-05,
+            "imag": 4.81700640290455e-05
+          },
+          "raw_Ey": {
+            "real": -4.7721137428006965e-06,
+            "imag": -4.055507573577422e-05
+          },
+          "finite": true,
+          "intensity": 4.179273977290413e-09,
+          "log10_intensity": -8.378899157230352,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 1.63865020045514e-05,
+            "imag": 2.645864855068505e-06
+          },
+          "raw_Ey": {
+            "real": 4.3058026889287427e-07,
+            "imag": 9.03165475220199e-06
+          },
+          "finite": true,
+          "intensity": 3.5727423570738666e-10,
+          "log10_intensity": -9.446998301159866,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 76.0,
+      "wall_elapsed_seconds": 902.6428762823343,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0026677733065785364,
+        "envelope_intensity": 7.117014415292977e-06,
+        "log10_envelope_intensity": -5.147702154522118,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -4.6707083942540395,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.0011426310198643362,
+          "imag": 0.0017250350144948396
+        },
+        "raw_Ey_at_location": {
+          "real": 0.0008996946862277627,
+          "imag": -0.0014234508906446621
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -8.318397012237424e-05,
+            "imag": -0.0005766963627624072
+          },
+          "raw_Ey": {
+            "real": 6.837672438826364e-05,
+            "imag": 0.0002918945965764822
+          },
+          "finite": true,
+          "intensity": 4.293760996573255e-07,
+          "log10_intensity": -6.36716213334136,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -7.067631747154051e-11,
+            "imag": 1.7386044975070724e-11
+          },
+          "raw_Ey": {
+            "real": -4.1226971629333924e-11,
+            "imag": 4.658702681426233e-11
+          },
+          "finite": true,
+          "intensity": 9.16743066833189e-21,
+          "log10_intensity": -20.037752365847833,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -0.0001784732315367795,
+            "imag": -6.351630176714212e-05
+          },
+          "raw_Ey": {
+            "real": 0.00016969244789661,
+            "imag": 3.3232393802322436e-06
+          },
+          "finite": true,
+          "intensity": 6.469358575847761e-08,
+          "log10_intensity": -7.1891387766387345,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 4.5863688252195786e-05,
+            "imag": 3.493456937564475e-05
+          },
+          "raw_Ey": {
+            "real": -4.6777910722349134e-05,
+            "imag": -1.2133792415074825e-05
+          },
+          "finite": true,
+          "intensity": 5.6593038874765175e-09,
+          "log10_intensity": -8.24723698514035,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 1.1759797124693654e-05,
+            "imag": -1.552748842112338e-05
+          },
+          "raw_Ey": {
+            "real": 9.532901560502117e-06,
+            "imag": 4.228938615152223e-06
+          },
+          "finite": true,
+          "intensity": 4.881558590550244e-10,
+          "log10_intensity": -9.311441493733913,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 78.0,
+      "wall_elapsed_seconds": 926.6492496579885,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0030753351811943085,
+        "envelope_intensity": 9.457686476691431e-06,
+        "log10_envelope_intensity": -5.024215086990049,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -4.54722132672197,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.001370336338880679,
+          "imag": 0.0019520517672568336
+        },
+        "raw_Ey_at_location": {
+          "real": -0.0011483090834822063,
+          "imag": -0.0015654855290855474
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.0006520161546222285,
+            "imag": -0.00015245536480886044
+          },
+          "raw_Ey": {
+            "real": 0.0003401181162756316,
+            "imag": 5.0087766058341094e-05
+          },
+          "finite": true,
+          "intensity": 5.665568214749586e-07,
+          "log10_intensity": -6.246756527079466,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -3.649459743433266e-11,
+            "imag": 5.198504500154946e-11
+          },
+          "raw_Ey": {
+            "real": 8.745903178609779e-12,
+            "imag": 8.042746012736117e-11
+          },
+          "finite": true,
+          "intensity": 1.0579367710654957e-20,
+          "log10_intensity": -19.975540287686396,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -0.00014488731394188923,
+            "imag": 0.0001663452644312008
+          },
+          "raw_Ey": {
+            "real": 7.639627444927055e-05,
+            "imag": -0.00018272443272015408
+          },
+          "finite": true,
+          "intensity": 8.788768980261209e-08,
+          "log10_intensity": -7.0560719511514485,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 5.5889362381966794e-05,
+            "imag": -3.538059909999595e-05
+          },
+          "raw_Ey": {
+            "real": -3.3329127637956254e-05,
+            "imag": 4.613525449525162e-05
+          },
+          "finite": true,
+          "intensity": 7.614700076586245e-09,
+          "log10_intensity": -8.118347197731584,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -1.1074358346255184e-05,
+            "imag": -1.863179463382742e-05
+          },
+          "raw_Ey": {
+            "real": 8.907827265603483e-06,
+            "imag": -8.727157328751746e-06
+          },
+          "finite": true,
+          "intensity": 6.252978456930057e-10,
+          "log10_intensity": -9.203913067569534,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 80.0,
+      "wall_elapsed_seconds": 950.6732928231359,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.003539695247024918,
+        "envelope_intensity": 1.2529442441810797e-05,
+        "log10_envelope_intensity": -4.902068254611,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -4.425074494342921,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.002667778152298135,
+          "imag": -0.0006470873507308353
+        },
+        "raw_Ey_at_location": {
+          "real": -0.0021599757365913597,
+          "imag": 0.0005728742879483302
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.00043501450093067276,
+            "imag": 0.0006330266830543903
+          },
+          "raw_Ey": {
+            "real": 0.0001961612254407339,
+            "imag": -0.00034114552554109117
+          },
+          "finite": true,
+          "intensity": 7.44819893441923e-07,
+          "log10_intensity": -6.127948732272855,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 2.103802355886377e-11,
+            "imag": 4.0350501415091116e-11
+          },
+          "raw_Ey": {
+            "real": 5.3339290612721745e-11,
+            "imag": 5.274442786590685e-11
+          },
+          "finite": true,
+          "intensity": 7.697815993682772e-21,
+          "log10_intensity": -20.113632474364227,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 0.00011778184579543864,
+            "imag": 0.00022606403205112496
+          },
+          "raw_Ey": {
+            "real": -0.00016565825405176585,
+            "imag": -0.00016074727124094565
+          },
+          "finite": true,
+          "intensity": 1.1825985213308228e-07,
+          "log10_intensity": -6.927162668359292,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -1.591748829423891e-05,
+            "imag": -7.719301513543349e-05
+          },
+          "raw_Ey": {
+            "real": 3.6325985351203736e-05,
+            "imag": 5.7147839130365284e-05
+          },
+          "finite": true,
+          "intensity": 1.0797580748302453e-08,
+          "log10_intensity": -7.966673539453555,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -2.6809269823980427e-05,
+            "imag": 5.362875007027736e-06
+          },
+          "raw_Ey": {
+            "real": -5.926280143568609e-06,
+            "imag": -1.2338111716792632e-05
+          },
+          "finite": true,
+          "intensity": 9.348471739121002e-10,
+          "log10_intensity": -9.029259380519441,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 82.0,
+      "wall_elapsed_seconds": 973.6915888860822,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.004066439971966146,
+        "envelope_intensity": 1.6535934045604032e-05,
+        "log10_envelope_intensity": -4.7815712685824705,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -4.304577508314392,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.00042778232427646736,
+          "imag": -0.0031242558894228464
+        },
+        "raw_Ey_at_location": {
+          "real": -0.00029448544571522095,
+          "imag": 0.0025505371568179946
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.0004935058697226886,
+            "imag": 0.0007278756324689255
+          },
+          "raw_Ey": {
+            "real": -0.0002802166637180422,
+            "imag": -0.00035165589751909993
+          },
+          "finite": true,
+          "intensity": 9.7553422867802e-07,
+          "log10_intensity": -6.010757487863319,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 5.016607623398034e-11,
+            "imag": -2.402129593415976e-12
+          },
+          "raw_Ey": {
+            "real": 4.18485287021417e-11,
+            "imag": -4.28248666032724e-12
+          },
+          "finite": true,
+          "intensity": 4.292044477826974e-21,
+          "log10_intensity": -20.367335786152793,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 0.0002927086009728224,
+            "imag": -3.244919136610863e-05
+          },
+          "raw_Ey": {
+            "real": -0.00024480092871873027,
+            "imag": 0.00011126753505841109
+          },
+          "finite": true,
+          "intensity": 1.5903923416330912e-07,
+          "log10_intensity": -6.798495724241088,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -9.251531455920975e-05,
+            "imag": -1.8804321230834794e-05
+          },
+          "raw_Ey": {
+            "real": 7.740744387089935e-05,
+            "imag": -1.5422308994958183e-05
+          },
+          "finite": true,
+          "intensity": 1.514244590630436e-08,
+          "log10_intensity": -7.819803969101708,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -5.37687350910432e-06,
+            "imag": 2.8178896953293377e-05
+          },
+          "raw_Ey": {
+            "real": -1.776031005457707e-05,
+            "imag": 2.0889065259974557e-06
+          },
+          "finite": true,
+          "intensity": 1.1427531459463027e-09,
+          "log10_intensity": -8.94204757444446,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 84.0,
+      "wall_elapsed_seconds": 996.6707677766681,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.004668138708221955,
+        "envelope_intensity": 2.179151899920014e-05,
+        "log10_envelope_intensity": -4.661712495775872,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -4.1847187355077935,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.003159711593065695,
+          "imag": -0.001766489611266586
+        },
+        "raw_Ey_at_location": {
+          "real": 0.00260165857358679,
+          "imag": 0.001385145756812607
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.00098056576062606,
+            "imag": -0.00022275022834427618
+          },
+          "raw_Ey": {
+            "real": -0.00049110491572538,
+            "imag": 0.00015019298291465305
+          },
+          "finite": true,
+          "intensity": 1.274868845506024e-06,
+          "log10_intensity": -5.894534491781262,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 8.42221962037322e-11,
+            "imag": -3.65108754849383e-11
+          },
+          "raw_Ey": {
+            "real": -2.0308249926467532e-10,
+            "imag": -3.2073134422289324e-11
+          },
+          "finite": true,
+          "intensity": 5.0697609821313745e-20,
+          "log10_intensity": -19.29501251533892,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 8.818064744634294e-05,
+            "imag": -0.00032981495146503306
+          },
+          "raw_Ey": {
+            "real": 1.698904883506513e-05,
+            "imag": 0.0003115769494209678
+          },
+          "finite": true,
+          "intensity": 2.1392255198473516e-07,
+          "log10_intensity": -6.6697434291439945,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -5.643076974673929e-05,
+            "imag": 8.92986777563817e-05
+          },
+          "raw_Ey": {
+            "real": 1.537210079219579e-05,
+            "imag": -9.0782942744655e-05
+          },
+          "finite": true,
+          "intensity": 1.9636529799392368e-08,
+          "log10_intensity": -7.706935259020291,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 3.091958775699126e-05,
+            "imag": 1.8072510740782623e-05
+          },
+          "raw_Ey": {
+            "real": -5.976117519773625e-06,
+            "imag": 1.9669882850684737e-05
+          },
+          "finite": true,
+          "intensity": 1.7052548235077907e-09,
+          "log10_intensity": -8.768210713343594,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 86.0,
+      "wall_elapsed_seconds": 1020.0969255641103,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.005348898020832864,
+        "envelope_intensity": 2.8610710037269725e-05,
+        "log10_envelope_intensity": -4.54347136409471,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -4.066477603826631,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.0032069077980180537,
+          "imag": 0.0026296479122555616
+        },
+        "raw_Ey_at_location": {
+          "real": 0.002567757565425862,
+          "imag": -0.002195000080876744
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.0001702127113815058,
+            "imag": -0.0011355837186449475
+          },
+          "raw_Ey": {
+            "real": -4.675131794756552e-05,
+            "imag": 0.0005837010316904478
+          },
+          "finite": true,
+          "intensity": 1.6614153292936592e-06,
+          "log10_intensity": -5.779521786770183,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 2.530312780137915e-11,
+            "imag": -1.4231421503193541e-11
+          },
+          "raw_Ey": {
+            "real": -8.52394674395352e-12,
+            "imag": 5.88976103642708e-11
+          },
+          "finite": true,
+          "intensity": 4.384367809249707e-21,
+          "log10_intensity": -20.358093019572255,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -0.0003179100975016943,
+            "imag": -0.00023118678267583458
+          },
+          "raw_Ey": {
+            "real": 0.00034298719699481646,
+            "imag": 0.00011289149862403453
+          },
+          "finite": true,
+          "intensity": 2.848988663414817e-07,
+          "log10_intensity": -6.545309278884842,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 7.55108056767967e-05,
+            "imag": 9.793230151757425e-05
+          },
+          "raw_Ey": {
+            "real": -9.248590339608337e-05,
+            "imag": -5.6132022225464406e-05
+          },
+          "finite": true,
+          "intensity": 2.6997063700597683e-08,
+          "log10_intensity": -7.568683468728933,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 3.139391782978814e-05,
+            "imag": -2.538045626534646e-05
+          },
+          "raw_Ey": {
+            "real": 1.7478843140882376e-05,
+            "imag": 1.4928062523884656e-05
+          },
+          "finite": true,
+          "intensity": 2.158102645201234e-09,
+          "log10_intensity": -8.66592790294118,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 88.0,
+      "wall_elapsed_seconds": 1043.6466038301587,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.006120764910143134,
+        "envelope_intensity": 3.74637630852395e-05,
+        "log10_envelope_intensity": -4.426388601625146,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -3.9493948413570674,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.0014610502401250594,
+          "imag": 0.004515237145860669
+        },
+        "raw_Ey_at_location": {
+          "real": -0.0012647445584867386,
+          "imag": -0.0036526907889237147
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.0011351052003834442,
+            "imag": -0.0006525339238584668
+          },
+          "raw_Ey": {
+            "real": 0.0005983835606513994,
+            "imag": 0.0002923870109253055
+          },
+          "finite": true,
+          "intensity": 2.1578173875393474e-06,
+          "log10_intensity": -5.665985311710442,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 4.926267790959101e-11,
+            "imag": 6.341630754977327e-11
+          },
+          "raw_Ey": {
+            "real": 1.2101567818987852e-10,
+            "imag": -6.968690383720829e-11
+          },
+          "finite": true,
+          "intensity": 2.5949498432244036e-20,
+          "log10_intensity": -19.585871032043418,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -0.00038503791140639715,
+            "imag": 0.00024540663108171877
+          },
+          "raw_Ey": {
+            "real": 0.0002671927817029657,
+            "imag": -0.0003236971220288005
+          },
+          "finite": true,
+          "intensity": 3.84650417202976e-07,
+          "log10_intensity": -6.414933792177613,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.00013642895756129877,
+            "imag": -3.9241120496308514e-05
+          },
+          "raw_Ey": {
+            "real": -0.00010140729297939136,
+            "imag": 7.730932452329196e-05
+          },
+          "finite": true,
+          "intensity": 3.641289672672432e-08,
+          "log10_intensity": -7.4387447706021455,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -1.2905222619098998e-05,
+            "imag": -4.4617656393309806e-05
+          },
+          "raw_Ey": {
+            "real": 2.63010646580548e-05,
+            "imag": -1.4669795781087324e-05
+          },
+          "finite": true,
+          "intensity": 3.0642289432859528e-09,
+          "log10_intensity": -8.513678789597115,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 90.0,
+      "wall_elapsed_seconds": 1067.4804416298866,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.0069936303371475545,
+        "envelope_intensity": 4.891086529267061e-05,
+        "log10_envelope_intensity": -4.310594653913374,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -3.833600893645295,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.0054121324160935885,
+          "imag": 0.0003316462830854165
+        },
+        "raw_Ey_at_location": {
+          "real": -0.004413255019018569,
+          "imag": -0.00018132535223332327
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.0011622081134488988,
+            "imag": 0.0009332371732504281
+          },
+          "raw_Ey": {
+            "real": 0.0005593598078589297,
+            "imag": -0.0005104530220733254
+          },
+          "finite": true,
+          "intensity": 2.795105002894665e-06,
+          "log10_intensity": -5.553601872456927,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 2.0246743062270545e-10,
+            "imag": -2.4872098763849534e-13
+          },
+          "raw_Ey": {
+            "real": 8.560752528640081e-13,
+            "imag": -1.9153402617633293e-10
+          },
+          "finite": true,
+          "intensity": 7.767913837324446e-20,
+          "log10_intensity": -19.109695600322254,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 9.867091945159719e-05,
+            "imag": 0.0005148157917249695
+          },
+          "raw_Ey": {
+            "real": -0.00023504355947167094,
+            "imag": -0.00042435675592222637
+          },
+          "finite": true,
+          "intensity": 5.100953809007793e-07,
+          "log10_intensity": -6.292348609145515,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 1.529061440137963e-05,
+            "imag": -0.00016369604371292451
+          },
+          "raw_Ey": {
+            "real": 4.0508612231695976e-05,
+            "imag": 0.00014259513355405546
+          },
+          "finite": true,
+          "intensity": 4.9004517394272174e-08,
+          "log10_intensity": -7.3097638834617715,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -5.362831805362745e-05,
+            "imag": -5.683778203178582e-06
+          },
+          "raw_Ey": {
+            "real": -5.311952485079335e-06,
+            "imag": -3.5580157581059104e-05
+          },
+          "finite": true,
+          "intensity": 4.202466284620702e-09,
+          "log10_intensity": -8.376495762115004,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 92.0,
+      "wall_elapsed_seconds": 1091.185960315168,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.007979016647087014,
+        "envelope_intensity": 6.36647066544917e-05,
+        "log10_envelope_intensity": -4.196101257664212,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -3.7191074973961333,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.002607846862717877,
+          "imag": -0.005609336610797313
+        },
+        "raw_Ey_at_location": {
+          "real": -0.0020332132950919997,
+          "imag": 0.004611423628179726
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.0005068452163471168,
+            "imag": 0.0016172725439326002
+          },
+          "raw_Ey": {
+            "real": -0.0003057136940274483,
+            "imag": -0.0008022937587514551
+          },
+          "finite": true,
+          "intensity": 3.6095986927396246e-06,
+          "log10_intensity": -5.442541079317808,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 5.745272834598545e-11,
+            "imag": -1.8414629748559556e-10
+          },
+          "raw_Ey": {
+            "real": -1.945329529820328e-10,
+            "imag": -2.0697601051670367e-10
+          },
+          "finite": true,
+          "intensity": 1.1789281359737195e-19,
+          "log10_intensity": -18.928512667425082,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 0.0005900792259788334,
+            "imag": 0.00010682685898527105
+          },
+          "raw_Ey": {
+            "real": -0.0005555281581953436,
+            "imag": 7.465572478799661e-05
+          },
+          "finite": true,
+          "intensity": 6.737904825239705e-07,
+          "log10_intensity": -6.171475127840671,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -0.00016935425925752894,
+            "imag": -8.691916474158916e-05
+          },
+          "raw_Ey": {
+            "real": 0.00017248789068582444,
+            "imag": 1.5979110654957952e-05
+          },
+          "finite": true,
+          "intensity": 6.624321073861019e-08,
+          "log10_intensity": -7.178858625917198,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -2.7614223245778387e-05,
+            "imag": 5.535741141866164e-05
+          },
+          "raw_Ey": {
+            "real": -4.162517640725998e-05,
+            "imag": -8.035969587346955e-06
+          },
+          "finite": true,
+          "intensity": 5.62422044258693e-09,
+          "log10_intensity": -8.249937665384598,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 94.0,
+      "wall_elapsed_seconds": 1114.149341121316,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.009089067364231523,
+        "envelope_intensity": 8.261114555153855e-05,
+        "log10_envelope_intensity": -4.082961355524781,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -3.6059675952567023,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.0048633918687320515,
+          "imag": -0.005098545328378689
+        },
+        "raw_Ey_at_location": {
+          "real": 0.0040443634172961495,
+          "imag": 0.0040751104483184065
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.0019191017320665544,
+            "imag": 0.00013255189494518053
+          },
+          "raw_Ey": {
+            "real": -0.0009730898814126417,
+            "imag": -1.1319576223281505e-05
+          },
+          "finite": true,
+          "intensity": 4.647553512987954e-06,
+          "log10_intensity": -5.332775600961856,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": 6.59393709179893e-11,
+            "imag": -3.93580047653133e-10
+          },
+          "raw_Ey": {
+            "real": -9.31809608619987e-10,
+            "imag": 4.6335573155199017e-10
+          },
+          "finite": true,
+          "intensity": 1.2422209352263092e-18,
+          "log10_intensity": -17.905801155837008,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": 0.00036112002401928313,
+            "imag": -0.0005867297518465689
+          },
+          "raw_Ey": {
+            "real": -0.00015310898790726896,
+            "imag": 0.0006283315962466822
+          },
+          "finite": true,
+          "intensity": 8.929024304695157e-07,
+          "log10_intensity": -6.0491959948894545,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": -0.0001644839654336175,
+            "imag": 0.00014856079594903566
+          },
+          "raw_Ey": {
+            "real": 8.923186524362248e-05,
+            "imag": -0.00017891248849978612
+          },
+          "finite": true,
+          "intensity": 8.909728929382062e-08,
+          "log10_intensity": -7.050135508787411,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 4.814394065173187e-05,
+            "imag": 5.402812866421153e-05
+          },
+          "raw_Ey": {
+            "real": -2.680612696837007e-05,
+            "imag": 4.171860828424399e-05
+          },
+          "finite": true,
+          "intensity": 7.695888428652639e-09,
+          "log10_intensity": -8.113741237120417,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 96.0,
+      "wall_elapsed_seconds": 1137.043517664075,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.010339569466549303,
+        "envelope_intensity": 0.00010690669675359863,
+        "log10_envelope_intensity": -3.9709950892529515,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -3.4940013289848726,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": -0.007422296522112123,
+          "imag": 0.003027970538360969
+        },
+        "raw_Ey_at_location": {
+          "real": 0.005997425940203239,
+          "imag": -0.0025842769979311695
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": 0.0009317787968954423,
+            "imag": -0.0019718814967967548
+          },
+          "raw_Ey": {
+            "real": -0.0004165309788322316,
+            "imag": 0.0010191275358188696
+          },
+          "finite": true,
+          "intensity": 5.968647354344512e-06,
+          "log10_intensity": -5.224124079775858,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -3.849361146101862e-10,
+            "imag": -3.935476849000609e-11
+          },
+          "raw_Ey": {
+            "real": -1.6062377955848428e-10,
+            "imag": 4.3226616153539063e-10
+          },
+          "finite": true,
+          "intensity": 3.623786431022798e-19,
+          "log10_intensity": -18.440837405521005,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -0.00047452029934542305,
+            "imag": -0.0006287865018374239
+          },
+          "raw_Ey": {
+            "real": 0.0006092168092063903,
+            "imag": 0.0004291108697406789
+          },
+          "finite": true,
+          "intensity": 1.1758232385330313e-06,
+          "log10_intensity": -5.929657960827553,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 8.999689176825222e-05,
+            "imag": 0.00023900276819559436
+          },
+          "raw_Ey": {
+            "real": -0.00015455975581197604,
+            "imag": -0.00017445953727323086
+          },
+          "finite": true,
+          "intensity": 1.1954661199535098e-07,
+          "log10_intensity": -6.922462727474375,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 7.819795752656036e-05,
+            "imag": -2.930922203616495e-05
+          },
+          "raw_Ey": {
+            "real": 3.576241797020254e-05,
+            "imag": 4.796242778747342e-05
+          },
+          "finite": true,
+          "intensity": 1.0553296076035044e-08,
+          "log10_intensity": -7.976611877421464,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 98.0,
+      "wall_elapsed_seconds": 1159.836105339229,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.011751264016221105,
+        "envelope_intensity": 0.000138092205978933,
+        "log10_envelope_intensity": -3.8598308326151596,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -3.3828370723470806,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.00011836659203342593,
+          "imag": 0.009108961823424754
+        },
+        "raw_Ey_at_location": {
+          "real": -0.00024163655916067825,
+          "imag": -0.007419341049007714
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.001695254705978927,
+            "imag": -0.0017954259955115588
+          },
+          "raw_Ey": {
+            "real": 0.0008978459249523894,
+            "imag": 0.0008603583922061192
+          },
+          "finite": true,
+          "intensity": 7.643786891495487e-06,
+          "log10_intensity": -5.116691429562827,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -3.03325197559914e-10,
+            "imag": 2.4845482642129595e-10
+          },
+          "raw_Ey": {
+            "real": 2.0419969194679712e-10,
+            "imag": 3.5812930001389086e-10
+          },
+          "finite": true,
+          "intensity": 3.2369008596640346e-19,
+          "log10_intensity": -18.489870602037094,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -0.0008673904828504521,
+            "imag": 0.00024355794769021833
+          },
+          "raw_Ey": {
+            "real": 0.0007155940504198384,
+            "imag": -0.0004732996358030692
+          },
+          "finite": true,
+          "intensity": 1.5477741138702017e-06,
+          "log10_intensity": -5.810292421080726,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.00029071470725162887,
+            "imag": 5.126934541315016e-06
+          },
+          "raw_Ey": {
+            "real": -0.00025508324404917835,
+            "imag": 9.530053675509972e-05
+          },
+          "finite": true,
+          "intensity": 1.5869098017065414e-07,
+          "log10_intensity": -6.799447757387792,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": 1.6800484973594374e-06,
+            "imag": -9.70347661662432e-05
+          },
+          "raw_Ey": {
+            "real": 6.628518693210806e-05,
+            "imag": -1.675465037894474e-05
+          },
+          "finite": true,
+          "intensity": 1.4093012723836162e-08,
+          "log10_intensity": -7.850996155969747,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": null
+    },
+    {
+      "simulation_time": 98.828125,
+      "wall_elapsed_seconds": 1169.8178140297532,
+      "envelope": {
+        "all_fields_finite": true,
+        "nonfinite_grid_points": 0,
+        "envelope_amplitude": 0.012380760987422142,
+        "envelope_intensity": 0.0001532832426276741,
+        "log10_envelope_intensity": -3.814505320893335,
+        "zero_field": false,
+        "intensity_encoding_note": null,
+        "log10_intensity_over_reference_peak": -3.337511560625256,
+        "index_xy": [
+          1354,
+          2305
+        ],
+        "raw_Ex_at_location": {
+          "real": 0.0046798542291076155,
+          "imag": 0.008378743721725533
+        },
+        "raw_Ey_at_location": {
+          "real": -0.003943382008149485,
+          "imag": -0.006754894448133549
+        },
+        "location": {
+          "x_um": 17.296875,
+          "y_um": 30.015625,
+          "depth_um": -0.015625,
+          "ideal_geometry_region": "exterior_air",
+          "inside_ideal_slot": false,
+          "inside_slab_extent": false,
+          "classification_note": "analytic geometry, not an effective-material tensor or a Yee-cell volume fraction"
+        }
+      },
+      "probes": {
+        "front_air": {
+          "raw_Ex": {
+            "real": -0.0024657384388636428,
+            "imag": -0.0008105540771336684
+          },
+          "raw_Ey": {
+            "real": 0.0012602817205660888,
+            "imag": 0.00034760495943260633
+          },
+          "finite": true,
+          "intensity": 8.446003183862896e-06,
+          "log10_intensity": -5.073348759196474,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "back_air": {
+          "raw_Ex": {
+            "real": -5.393371472806407e-11,
+            "imag": 6.298203476735954e-10
+          },
+          "raw_Ey": {
+            "real": -8.966957866109231e-11,
+            "imag": 2.1936610105343378e-10
+          },
+          "finite": true,
+          "intensity": 4.557446355567021e-19,
+          "log10_intensity": -18.34127843460241,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.25": {
+          "raw_Ex": {
+            "real": -0.000686101368287717,
+            "imag": 0.0006640214017659535
+          },
+          "raw_Ey": {
+            "real": 0.00042679208625785633,
+            "imag": -0.0008002156759526126
+          },
+          "finite": true,
+          "intensity": 1.7341561225021287e-06,
+          "log10_intensity": -5.760911806462464,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.5": {
+          "raw_Ex": {
+            "real": 0.00027391847251572886,
+            "imag": -0.0001438403733765132
+          },
+          "raw_Ey": {
+            "real": -0.0001905276341643793,
+            "imag": 0.00021846432757246576
+          },
+          "finite": true,
+          "intensity": 1.7974882440040984e-07,
+          "log10_intensity": -6.745333941323853,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        },
+        "cavity_0.75": {
+          "raw_Ex": {
+            "real": -4.700486113071575e-05,
+            "imag": -9.024335285238704e-05
+          },
+          "raw_Ey": {
+            "real": 5.300169718384161e-05,
+            "imag": -5.158697762804304e-05
+          },
+          "finite": true,
+          "intensity": 1.582371586912217e-08,
+          "log10_intensity": -7.80069152387507,
+          "zero_field": false,
+          "intensity_encoding_note": null
+        }
+      },
+      "early_guard_status": "INTERRUPTED"
+    }
+  ],
+  "reference_intensity_peak": 0.3334312033062042,
+  "patches": [
+    {
+      "file": "peak_patch_00.npz",
+      "simulation_time": 2.0,
+      "trigger": "first_sample",
+      "sha256": "46d641e3ff0087ef373c8d4e9388f1cc9ee0b7fb9c99d7c3f9ff476d00a1138f"
+    },
+    {
+      "file": "peak_patch_01.npz",
+      "simulation_time": 98.828125,
+      "trigger": "terminal",
+      "sha256": "ece97973578d680648648d950368c05046945bf4ea6a51083d95f64d00bc5306"
+    }
+  ]
+}

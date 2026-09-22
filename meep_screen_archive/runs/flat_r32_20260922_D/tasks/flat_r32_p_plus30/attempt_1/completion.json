@@ -1,0 +1,77 @@
+{
+  "fingerprint": "0b1e6c7704f80f3972075d5bd82c6d27ba654ff97d46f5bb8d101fdc415d451a",
+  "status": "QUALIFIED",
+  "files": [
+    {
+      "path": "invocation.json",
+      "size": 754,
+      "sha256": "354b125245ffe8e35894b584c64cceff479fbeaf4578ff95457d598384b3377c"
+    },
+    {
+      "path": "monitor_planes.npz",
+      "size": 382927,
+      "sha256": "45172bbbd9d7d3f16deca7bc3e667b29313ed727eca60457636c2bdbbfc1f636"
+    },
+    {
+      "path": "orders.json",
+      "size": 1513248,
+      "sha256": "e718daca1523f473571ff748f6b8e85a9454da7f7a31264be0e41ad0a1e51c4f"
+    },
+    {
+      "path": "process.json",
+      "size": 57,
+      "sha256": "d959d067d9e6261576a39b317bf44fa8a566e021a09ad510767cf936fd58ac12"
+    },
+    {
+      "path": "reference_preload_audit.json",
+      "size": 17274,
+      "sha256": "bd8d0e21791619446d2332edb141ae664a8523c90aa3e4eb928d2ce0bf4924dd"
+    },
+    {
+      "path": "reference_stop.json",
+      "size": 517106,
+      "sha256": "9e96f7b31d4c7ba9a90f9cadd43b88117a1b238cb7149b4e114ea0ace4f33526"
+    },
+    {
+      "path": "reference_stop_partial.json",
+      "size": 3337,
+      "sha256": "9a46cf69cdd5e88352a4134124410943aa484799f241c62444d2f3c432ee7efd"
+    },
+    {
+      "path": "result.json",
+      "size": 1112459,
+      "sha256": "3373b37325b6ab5eb9df356d2172a8a9214f695d45a291b73a68474fb525da8c"
+    },
+    {
+      "path": "stdout.log",
+      "size": 67,
+      "sha256": "ef4c91b054a651b3089173c56594eaaf0f4a4cc082cf35bcf3d0e6528e4ada9d"
+    },
+    {
+      "path": "structure_chunks.h5",
+      "size": 2336,
+      "sha256": "85370b3730e379110c97ae2900eadaccd654ef60421d8bdc238c2d9142582047"
+    },
+    {
+      "path": "structure_stop.json",
+      "size": 520715,
+      "sha256": "dd761de7878ba71b05378e7291832f86cacc19fa969f84c5f8b49223f8c1351b"
+    },
+    {
+      "path": "structure_stop_partial.json",
+      "size": 3596,
+      "sha256": "1f2845fcf3ad770ddcbb8351c97233dfb642f0f2282634e3521e118a9dc81414"
+    },
+    {
+      "path": "volume_ED.npz",
+      "size": 380533110,
+      "sha256": "1d286b39ba14ee6a9ebb5796fe13ca431bdeb63eb3b65b11e89928726da8c5b2"
+    },
+    {
+      "path": "volume_metadata.json",
+      "size": 44087,
+      "sha256": "f94f7aca639b857da6e0e41c1c692ec95714286a7a65a7a942cbe814bb8ad3d5"
+    }
+  ],
+  "sealed_epoch": 1790054848.8228254
+}

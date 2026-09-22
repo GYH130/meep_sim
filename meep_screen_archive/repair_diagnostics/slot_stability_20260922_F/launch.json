@@ -1,0 +1,7 @@
+{
+  "supervisor_pid": 662848,
+  "launch_utc": "2026-09-22T08:55:01.234179+00:00",
+  "plan_sha256": "41b64525437a2de464f5ece5b5dd0214736a6754c8f36dba436727e2494789da",
+  "detached": true,
+  "output": "/root/autodl-tmp/meep_sim/meep_screen/repair_diagnostics/slot_stability_20260922_F"
+}

@@ -1,0 +1,23 @@
+{
+  "pid": 653435,
+  "command": [
+    "/root/miniconda3/envs/meep_sim/bin/python",
+    "-B",
+    "-m",
+    "ti2d.queue",
+    "--manifest",
+    "/root/autodl-tmp/meep_sim/meep_screen/runs/baseline_r32_20260922_E/manifest.json",
+    "--phase",
+    "validation"
+  ],
+  "created_utc": "2026-09-22T06:57:28.917134+00:00",
+  "state": "DISPATCHED_NOT_YET_VERIFIED",
+  "frozen_inputs_sha256": "b6012bea7407bc094cf1fc3a7e01f415e860ffbc800f5db2d89acd9d41a89106",
+  "phase_cap_seconds": 21600,
+  "baseline_solver_seconds": 30121.365798711777,
+  "reference_admission": {
+    "key": "265f2cacdad3471d9660b515a53d47de0534a1d383ede489f1472c9843856071",
+    "manifest_sha256": "bd9ab46dd1110ab92e9de921f32c80cff65a9633d20739d4682020a7a94bed49",
+    "qualified_complete": true
+  }
+}

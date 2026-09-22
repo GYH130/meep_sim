@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "run_id": "expiry_20260922_H",
+  "created_utc": "2026-09-22T13:24:08.946702+00:00",
+  "stage_root": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign",
+  "run_dir": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H",
+  "ledger_path": "/root/autodl-tmp/meep_sim/meep_screen/budget_ledger.json",
+  "implementation_sha256": "67f6d37394b51edaa5562fe27058723da3eae1e642d4d43ff4fe956aea6a568e",
+  "material_path": "/root/autodl-tmp/meep_sim/meep_screen/assets/material/route_a_material.json",
+  "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+  "tasks": [
+    {
+      "id": "flat32p",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/cases/flat32p.json",
+      "depends_on": [],
+      "geometry_id": "baseline",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "gate_role": "flat",
+      "case_fingerprint": "491fc9dfa0e8c265525b74b1c22a923c27fbd104dcbe70e1dc3c4f87b113788e"
+    },
+    {
+      "id": "slot32p",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/cases/slot32p.json",
+      "depends_on": [
+        "flat32p"
+      ],
+      "geometry_id": "baseline",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "gate_role": "structure",
+      "case_fingerprint": "1f768f071c1a6fc7e774646bc3399249bb5e8bb9051960164db8a6043288fa38"
+    },
+    {
+      "id": "strict32p",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/cases/strict32p.json",
+      "depends_on": [
+        "slot32p"
+      ],
+      "geometry_id": "baseline",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": true,
+      "gate_role": "structure",
+      "case_fingerprint": "57a116b5cc0d83c8c981f39d1991d79e24da2a593863a5cb12f0858638e558c6"
+    },
+    {
+      "id": "mirror32p",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/cases/mirror32p.json",
+      "depends_on": [
+        "strict32p"
+      ],
+      "geometry_id": "baseline",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": -30,
+      "tilt_deg": -30,
+      "strict_stop": false,
+      "gate_role": "structure",
+      "case_fingerprint": "bb213842dcf15d4fa348a3119803869eeccef0526039f5249ef10fddf4396fc2"
+    },
+    {
+      "id": "flat32s",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/cases/flat32s.json",
+      "depends_on": [
+        "mirror32p"
+      ],
+      "geometry_id": "baseline",
+      "resolution": 32,
+      "polarization": "s",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "gate_role": "flat",
+      "case_fingerprint": "c57819df4de5efd70d249e0128809a6dd541fe63cef36e9859b70454e2464afb"
+    },
+    {
+      "id": "slot32s",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/cases/slot32s.json",
+      "depends_on": [
+        "flat32s"
+      ],
+      "geometry_id": "baseline",
+      "resolution": 32,
+      "polarization": "s",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "gate_role": "structure",
+      "case_fingerprint": "0720a472e35d935d7b4edde52153fa77d220907d49bf9b099cbe2606b60a3dc5"
+    },
+    {
+      "id": "flat24p",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/cases/flat24p.json",
+      "depends_on": [
+        "slot32s"
+      ],
+      "geometry_id": "baseline",
+      "resolution": 24,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "gate_role": "flat",
+      "case_fingerprint": "85e20e455657a1c0d0f6d87f7d85cf4eb6c01effa40e269156edae30f9154ac2"
+    },
+    {
+      "id": "slot24p",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/cases/slot24p.json",
+      "depends_on": [
+        "flat24p"
+      ],
+      "geometry_id": "baseline",
+      "resolution": 24,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "gate_role": "structure",
+      "case_fingerprint": "8c508e0be834214c675081b663b42164e6c7d070a4b210fdf6c0c62f35e4f831"
+    },
+    {
+      "id": "flat20p",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/cases/flat20p.json",
+      "depends_on": [
+        "slot24p"
+      ],
+      "geometry_id": "baseline",
+      "resolution": 20,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "gate_role": "flat",
+      "case_fingerprint": "0a6c2364643f06aa3ce8dd210df63a3da8f6fc49b3f979d3a7bf71c3a8e10542"
+    },
+    {
+      "id": "slot20p",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/cases/slot20p.json",
+      "depends_on": [
+        "flat20p"
+      ],
+      "geometry_id": "baseline",
+      "resolution": 20,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "gate_role": "structure",
+      "case_fingerprint": "375f087c37d998b3de3abf4a1986fe0f74d1e7cc5f98e58c303f3c95193f75e3"
+    }
+  ],
+  "production_gate_task_ids": [
+    "flat32p",
+    "slot32p",
+    "strict32p",
+    "mirror32p",
+    "flat32s",
+    "slot32s",
+    "flat24p",
+    "slot24p",
+    "flat20p",
+    "slot20p"
+  ],
+  "gate_comparisons": [
+    {
+      "kind": "strict",
+      "ids": [
+        "slot32p",
+        "strict32p"
+      ],
+      "tolerance": 0.001
+    },
+    {
+      "kind": "mirror",
+      "ids": [
+        "slot32p",
+        "mirror32p"
+      ],
+      "tolerance": 0.01
+    },
+    {
+      "kind": "mesh",
+      "ids": [
+        "flat32p",
+        "flat24p"
+      ],
+      "tolerance": 0.01
+    },
+    {
+      "kind": "mesh",
+      "ids": [
+        "slot32p",
+        "slot24p"
+      ],
+      "tolerance": 0.01
+    },
+    {
+      "kind": "mesh",
+      "ids": [
+        "flat32p",
+        "flat24p",
+        "flat20p"
+      ],
+      "tolerance": 0.01
+    },
+    {
+      "kind": "mesh",
+      "ids": [
+        "slot32p",
+        "slot24p",
+        "slot20p"
+      ],
+      "tolerance": 0.01
+    }
+  ],
+  "qualification_subset_only": true,
+  "pilot_design_conditions": 0,
+  "scope": "Finite eps_averaging=False validation subset; no qualified size sensitivity yet",
+  "missing_full_qualification": [
+    "straight-slot +/- angles",
+    "s mirror",
+    "boundary L48 r24",
+    "complete production-grid qualification"
+  ],
+  "budgets": {
+    "total_active_seconds": 104365.66657280922,
+    "stage_total_active_seconds": 172800.0,
+    "single_solver_seconds": 21600.0,
+    "hard_deadline_epoch": 1790153564.0,
+    "hard_deadline_utc": "2026-09-23T08:52:44Z",
+    "max_parallel": 1,
+    "mpi_ranks": 4,
+    "memory_fraction": 0.7
+  },
+  "expiry_assumption": "24h from 2026-09-22T12:52:44Z user report; 4h reserved; not provider-verified",
+  "history_ledger_sha256": "d5facb798503e5e76196b4728aa805a6838979cca76ab841b2ac8976ea303f16",
+  "automatic_retry_authorized": false,
+  "manifest_sha256": "3fd7b26e5bd78d9a9fc510e6200033ca35db3f19cd3326115bd39ecc838adbc5"
+}

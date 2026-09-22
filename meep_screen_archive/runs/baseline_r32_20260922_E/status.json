@@ -1,0 +1,50 @@
+{
+  "run_id": "baseline_r32_20260922_E",
+  "state": "VALIDATION_FAILED",
+  "updated_epoch": 1790061080.3484247,
+  "queue_pid": 653435,
+  "active_task": null,
+  "active_tasks": [],
+  "message": null,
+  "resources": {
+    "cpu_quota": 20.0,
+    "memory_limit_bytes": 96636764160,
+    "memory_current_bytes": 2454945792,
+    "memory_available_bytes": 94181818368
+  },
+  "usage": {
+    "active_solver_seconds": 30952.50267100334,
+    "rank_hours": 34.39166963444816,
+    "calendar_span_seconds": 67997.38132691383,
+    "attempts": 9
+  },
+  "remaining_solver_seconds": 20768.863127708435,
+  "tasks": {
+    "baseline_r32_p_plus30": {
+      "status": "CRASHED",
+      "result_path": "/root/autodl-tmp/meep_sim/meep_screen/runs/baseline_r32_20260922_E/tasks/baseline_r32_p_plus30/attempt_1/result.json"
+    }
+  },
+  "gate": {
+    "passed": false,
+    "failures": [
+      "baseline_r32_p_plus30: not qualified",
+      "Missing locked mesh comparison",
+      "Missing locked mirror comparison",
+      "Missing locked strict comparison"
+    ],
+    "comparisons": [],
+    "scope": "specified Ti model, 2D, 10.5 um, +/-30 deg, s/p only"
+  },
+  "parallel_jobs": 0,
+  "concurrency_probe": {
+    "status": "NOT_RUN",
+    "policy": "serial_except_locked_two_job_probe"
+  },
+  "concurrency_reason": "One locked, useful two-job comparison; other conditions stay serial unless controlled evidence justifies wider concurrency",
+  "ai_usage": {
+    "actual_usage_available": false,
+    "rmb_cost": null,
+    "note": "The queue makes no AI/API calls. Server billing and this coding turn's AI usage are separate; neither RMB cost is inferred."
+  }
+}

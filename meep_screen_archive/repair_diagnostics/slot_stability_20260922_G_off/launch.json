@@ -1,0 +1,10 @@
+{
+  "supervisor_pid": 671614,
+  "launch_utc": "2026-09-22T10:46:06.369581+00:00",
+  "plan_sha256": "2ab4f617f58d1141751b27208b423c1b0ecf28c6fce29f364e4f373b88ea59fb",
+  "detached": true,
+  "execute_case_ids": [
+    "averaging_off"
+  ],
+  "no_new_on_run": true
+}

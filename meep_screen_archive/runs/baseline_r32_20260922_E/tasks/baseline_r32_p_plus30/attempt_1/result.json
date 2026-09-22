@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "id": "baseline_r32_p_plus30",
+  "started_utc": "2026-09-22T06:57:30.475796+00:00",
+  "case_config": {
+    "schema_version": 1,
+    "id": "baseline_r32_p_plus30",
+    "geometry_id": "baseline",
+    "geometry": {
+      "period_um": 50.0,
+      "surface_fill": 0.692820323,
+      "axis_length_um": 40.0,
+      "tilt_deg": 30.0,
+      "thickness_um": 60.0,
+      "min_wall_um": 1.0,
+      "residual_um": 10.0
+    },
+    "case": "structure",
+    "material_path": "/root/autodl-tmp/meep_sim/meep_screen/assets/material/route_a_material.json",
+    "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+    "material_label": "Ordal_Route_A_frozen",
+    "implementation_sha256": "24d09c50dcf6c0cb9271947dbcb04f03b62d9d0500bd7bace34e6909d54834c1",
+    "resolution": 32,
+    "courant": 0.25,
+    "wavelength_um": 10.5,
+    "polarization": "p",
+    "emission_theta_deg": 30.0,
+    "oxide_layer_in_model": false,
+    "mpi_ranks": 4,
+    "source_fwidth_fraction": 0.2,
+    "source_cutoff": 5.0,
+    "pml_um": 6.0,
+    "air_above_um": 12.0,
+    "air_below_um": 12.0,
+    "sample_interval_um": 2.0,
+    "stop_window_um": 20.0,
+    "stop_consecutive_windows": 3,
+    "intensity_decay": 0.0001,
+    "flux_drift_tolerance": 0.001,
+    "max_solver_seconds": 21600.0,
+    "strict_stop": false,
+    "qualification_scope": "10.5um; emission ±30deg; s/p; listed 2D geometries only",
+    "reference_intensity_floor_fraction": 1.0,
+    "stop_normalization_policy": "max(own_historic_peak, reference_source_on_non_pml_peak)",
+    "mpi_partition_policy": "fixed_binary_Y0_X0_ranks0123"
+  },
+  "case_sha256": "3e6b9631a47a3c19040e74fd3c39cfef8df228f45e7bf766782c3e1fb414a85c",
+  "implementation_sha256": "24d09c50dcf6c0cb9271947dbcb04f03b62d9d0500bd7bace34e6909d54834c1",
+  "mpi_ranks": 4,
+  "material_label": "Ordal_Route_A_frozen",
+  "oxide_layer_in_model": false,
+  "restart_semantics": "New run or qualified reference reuse; no field-state timestep resume",
+  "scope": "specified Ti optical model; 2D only; real oxidation/sample temperature unknown",
+  "stability": {
+    "valid": true,
+    "status": "ADMITTED_ROUGH_SCREEN_ONLY",
+    "q": 0.0012017786121251758,
+    "pi_fmax_dt": 0.0012017786121251758,
+    "resolution": 32.0,
+    "courant": 0.25,
+    "dt": 0.0078125,
+    "highest_lorentz_frequency": 0.048964865695190866,
+    "rough_stability_passed": true,
+    "numerically_qualified": false,
+    "meep_length_unit_um": 1.0,
+    "wavelength_range_um": [
+      6.0,
+      16.0
+    ],
+    "checked_wavelength_um": 10.5,
+    "passivity_min_imag_epsilon": 178.5134388233293,
+    "criterion": "pi * highest_Lorentz_frequency * Courant / resolution < 1",
+    "note": "Necessary rough dispersion screen, not time-domain convergence certification"
+  },
+  "geometry_audit": {
+    "valid": true,
+    "status": "VALID",
+    "errors": [],
+    "vertices_x_depth": [
+      [
+        -17.320508075,
+        0.0
+      ],
+      [
+        17.320508075,
+        0.0
+      ],
+      [
+        32.99038105625,
+        27.1410161516758
+      ],
+      [
+        7.009618943749994,
+        42.1410161510793
+      ]
+    ],
+    "periodic_shifts": [
+      -1,
+      0
+    ],
+    "width_normal_um": 29.999999998807013,
+    "surface_opening_um": 34.64101615,
+    "vertical_center_depth_um": 34.64101615137755,
+    "maximum_depth_um": 42.1410161510793,
+    "min_wall_um": 13.30127019041492,
+    "residual_um": 17.8589838489207,
+    "period_um": 50.0,
+    "surface_fill": 0.692820323,
+    "axis_length_um": 40.0,
+    "tilt_deg": 30.0,
+    "thickness_um": 60.0,
+    "bottom_minimum_depth_um": 27.141016151675796,
+    "required_min_wall_um": 1.0,
+    "required_residual_um": 10.0,
+    "wall_lower_bound_um": 13.301270190414925,
+    "neighbor_shifts_checked": [
+      -1,
+      1
+    ],
+    "x_span_um": 50.31088913125,
+    "surface_bottom_regime_valid": true
+  },
+  "layout": {
+    "period": 50.0,
+    "height": 96.0,
+    "top": 42.0,
+    "surface": 30.0,
+    "bottom": -30.0,
+    "source": 39.6,
+    "refl": 34.2,
+    "trans": -36.0,
+    "non_pml_bottom": -42.0,
+    "non_pml_height": 84.0
+  },
+  "source_end_time": 524.9999999999999,
+  "fixed_mpi_partition": [
+    [
+      "Y",
+      0.0
+    ],
+    [
+      [
+        "X",
+        0.0
+      ],
+      0,
+      1
+    ],
+    [
+      [
+        "X",
+        0.0
+      ],
+      2,
+      3
+    ]
+  ],
+  "emission_direction": [
+    0.49999999999999994,
+    0.0,
+    0.8660254037844387
+  ],
+  "reciprocal_incident_k_simulation_xy": [
+    -0.04761904761904761,
+    -0.08247860988423225,
+    0.0
+  ],
+  "physical_to_simulation_axes": "physical (x,z) -> Meep (x,y)",
+  "status": "CRASHED",
+  "error": "envelope_power must be finite",
+  "traceback": "Traceback (most recent call last):\n  File \"/root/autodl-tmp/meep_sim/meep_screen/ti2d/solver.py\", line 372, in main\n    structure_stop, reason = run_until_stopped(active_sim, mons, False, input_power, 'structure', ref_manifest['stop'])\n                             ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/autodl-tmp/meep_sim/meep_screen/ti2d/solver.py\", line 245, in run_until_stopped\n    sim.run(mp.at_every(c['sample_interval_um'], collect), until=stop)\n    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/miniconda3/envs/meep_sim/lib/python3.13/site-packages/meep/simulation.py\", line 4564, in run\n    self._run_until(until, step_funcs)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"/root/miniconda3/envs/meep_sim/lib/python3.13/site-packages/meep/simulation.py\", line 2842, in _run_until\n    _eval_step_func(self, func, \"step\")\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"/root/miniconda3/envs/meep_sim/lib/python3.13/site-packages/meep/simulation.py\", line 5058, in _eval_step_func\n    func(sim, todo)\n    ~~~~^^^^^^^^^^^\n  File \"/root/miniconda3/envs/meep_sim/lib/python3.13/site-packages/meep/simulation.py\", line 5157, in _every\n    _eval_step_func(sim, func, todo)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/root/miniconda3/envs/meep_sim/lib/python3.13/site-packages/meep/simulation.py\", line 5056, in _eval_step_func\n    func(sim)\n    ~~~~^^^^^\n  File \"/root/autodl-tmp/meep_sim/meep_screen/ti2d/solver.py\", line 218, in collect\n    tracker.sample(now, probe_power, envelope, rval, tval)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/autodl-tmp/meep_sim/meep_screen/ti2d/diagnostics.py\", line 418, in sample\n    envelope = _real_scalar(envelope_power, \"envelope_power\", nonnegative=True)\n  File \"/root/autodl-tmp/meep_sim/meep_screen/ti2d/diagnostics.py\", line 28, in _real_scalar\n    raise ValueError(f\"{name} must be finite\")\nValueError: envelope_power must be finite\n",
+  "elapsed_s": 826.2167304456234,
+  "stop": {
+    "converged": false
+  },
+  "completed_utc": "2026-09-22T07:11:16.691464+00:00",
+  "queue_process": {
+    "exit_code": 3,
+    "elapsed_s": 831.1374254226685,
+    "peak_process_tree_rss_bytes": 2995118080,
+    "mpi_ranks": 4,
+    "memory_budget_bytes": 65924245094,
+    "attempt": 1
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "state": "VALIDATION_FAILED",
+  "scope": "Specified Ti optical model; 2D slanted slots, not 3D circular holes or high-temperature measured samples",
+  "oxide_layer_in_model": false,
+  "sample_oxidation_state": "unknown",
+  "gate": {
+    "passed": false,
+    "failures": [
+      "baseline_r32_p_plus30: not qualified",
+      "Missing locked mesh comparison",
+      "Missing locked mirror comparison",
+      "Missing locked strict comparison"
+    ],
+    "comparisons": [],
+    "scope": "specified Ti model, 2D, 10.5 um, +/-30 deg, s/p only"
+  },
+  "usage": {
+    "active_solver_seconds": 30952.50267100334,
+    "rank_hours": 34.39166963444816,
+    "calendar_span_seconds": 67997.38132691383,
+    "attempts": 9
+  },
+  "conditions": [
+    {
+      "id": "baseline_r32_p_plus30",
+      "phase": "validation",
+      "geometry_id": "baseline",
+      "gate_role": "baseline",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30.0,
+      "status": "CRASHED",
+      "result_path": "/root/autodl-tmp/meep_sim/meep_screen/runs/baseline_r32_20260922_E/tasks/baseline_r32_p_plus30/attempt_1/result.json",
+      "material": "/root/autodl-tmp/meep_sim/meep_screen/assets/material/route_a_material.json",
+      "oxide_layer_in_model": false,
+      "elapsed_s": 831.1374254226685,
+      "mpi_ranks": 4,
+      "peak_process_tree_rss_bytes": 2995118080,
+      "R": null,
+      "T": null,
+      "A_flux": null,
+      "A_vol": null,
+      "order_R": null,
+      "order_T": null,
+      "reference_pseudo_reflection": null,
+      "period_um": 50.0,
+      "surface_fill": 0.692820323,
+      "axis_length_um": 40.0,
+      "tilt_deg": 30.0,
+      "thickness_um": 60.0,
+      "A_error_bound": null
+    }
+  ],
+  "pairs": [],
+  "sensitivities": [],
+  "concurrency_probe": {
+    "status": "NOT_RUN",
+    "policy": "serial_except_locked_two_job_probe"
+  },
+  "numerical_error_evidence": [],
+  "ai_usage": {
+    "actual_usage_available": false,
+    "rmb_cost": null,
+    "note": "The queue makes no AI/API calls. Server billing and this coding turn's AI usage are separate; neither RMB cost is inferred."
+  },
+  "numerical_error_note": "Grid differences are observations, not automatic rigorous error bounds. Contrast and resolved-effect claims require explicit validated error bounds.",
+  "figures": [
+    "/root/autodl-tmp/meep_sim/meep_screen/runs/baseline_r32_20260922_E/reports/figures/geometry.png",
+    "/root/autodl-tmp/meep_sim/meep_screen/runs/baseline_r32_20260922_E/reports/figures/convergence_energy.png",
+    "/root/autodl-tmp/meep_sim/meep_screen/runs/baseline_r32_20260922_E/reports/figures/paired_emissivity.png",
+    "/root/autodl-tmp/meep_sim/meep_screen/runs/baseline_r32_20260922_E/reports/figures/parameter_sensitivity.png",
+    "/root/autodl-tmp/meep_sim/meep_screen/runs/baseline_r32_20260922_E/reports/figures/stopping.png"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "run_id": "slot_stability_20260922_G_off",
+  "source_run_id": "slot_stability_20260922_F",
+  "execute_case_ids": [
+    "averaging_off"
+  ],
+  "no_new_on_run": true,
+  "qualification": false,
+  "automatic_retry_authorized": false,
+  "ledger_path": "/root/autodl-tmp/meep_sim/meep_screen/budget_ledger.json",
+  "ledger_file_sha256": "581d12f6fc7e4df8ab7ef60329686d564dc0c9bd2169270fd59076957f48affc",
+  "ledger_snapshot": {
+    "version": 1,
+    "intervals": [
+      {
+        "start": 1789993082.9635487,
+        "end": 1789993116.3114238,
+        "ranks": 4,
+        "task_id": "api_smoke",
+        "status": "SMOKE_PASSED_NOT_PHYSICALLY_QUALIFIED",
+        "attempt": 1
+      },
+      {
+        "start": 1789994098.5773318,
+        "end": 1790015673.4674664,
+        "ranks": 4,
+        "task_id": "flat_r16_p_plus30",
+        "status": "TIME_LIMIT_UNQUALIFIED",
+        "attempt": 1
+      },
+      {
+        "start": 1790041993.7754557,
+        "end": 1790041997.3115904,
+        "ranks": 4,
+        "task_id": "repair1_nonzero_flux_probe",
+        "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+        "attempt": 1
+      },
+      {
+        "start": 1790042195.9543178,
+        "end": 1790042199.482909,
+        "ranks": 4,
+        "task_id": "repair1_nonzero_flux_probe",
+        "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+        "attempt": 1
+      },
+      {
+        "start": 1790042730.5442498,
+        "end": 1790042735.5856912,
+        "ranks": 4,
+        "task_id": "repair1_nonzero_flux_probe",
+        "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+        "attempt": 1
+      },
+      {
+        "start": 1790043273.6182454,
+        "end": 1790043278.659719,
+        "ranks": 4,
+        "task_id": "repair1_nonzero_flux_probe",
+        "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+        "attempt": 1
+      },
+      {
+        "start": 1790043413.2835546,
+        "end": 1790044369.5683904,
+        "ranks": 4,
+        "task_id": "flat_r16_p_plus30",
+        "status": "NUMERICAL_FAILED",
+        "attempt": 1
+      },
+      {
+        "start": 1790047308.4310224,
+        "end": 1790054848.1263347,
+        "ranks": 4,
+        "task_id": "flat_r32_p_plus30",
+        "status": "QUALIFIED",
+        "attempt": 1
+      },
+      {
+        "start": 1790060249.2080033,
+        "end": 1790061080.3448756,
+        "ranks": 4,
+        "task_id": "baseline_r32_p_plus30",
+        "status": "CRASHED",
+        "attempt": 1
+      },
+      {
+        "start": 1790067301.48297,
+        "end": 1790067543.0066674,
+        "ranks": 4,
+        "task_id": "slot_stability_20260922_F:averaging_on",
+        "status": "CRASHED",
+        "attempt": 1
+      }
+    ]
+  },
+  "ledger_snapshot_sha256": "60b0b5d7fee85235e8c87e1f5825c74fecc67bfdad00082edddf75839cee501d",
+  "source_directory_files_sha256": {
+    "authorization.json": "54b7aa2900264d6d62c461fb82cba75f8675bf8ebbfc42a3b0617626cb6b2894",
+    "averaging_on/geometry_metadata.json": "94104541ae64cfe92a7c7c723fbe80dc6496ddb74f6b911edf0dab06cce52a43",
+    "averaging_on/heartbeat.json": "6cf1b3f535d82de2c33254b9c9a7699e0e439ba07678e52707592a9a95e67dc1",
+    "averaging_on/invocation.json": "dd92532e4b71e5cc27d36fdf95801c3f45c8865e74ca668bfef015b1968ebb44",
+    "averaging_on/peak_patch_00.npz": "46d641e3ff0087ef373c8d4e9388f1cc9ee0b7fb9c99d7c3f9ff476d00a1138f",
+    "averaging_on/peak_patch_01.npz": "0fb4d1cda94ebd7c93b938f7543136e1341d72c9e2f0bed51ba7bd98307d72e4",
+    "averaging_on/peak_patch_02.npz": "fdae3ad56989bdd74011ec6e447044cd5f0be2a27990fbb4a0e07f618ed746f8",
+    "averaging_on/peak_patch_03.npz": "f3e989a15c8b18c1422d4d83fcc7da3e13e0d3505ea8fe3b47053923f7528782",
+    "averaging_on/process.json": "cfcfc779e1572e3155ffbcd7e20ad250a99b9dfb7e733c1ed24cdd5973937750",
+    "averaging_on/result.json": "47f7de031180048fbfd05d8c9e0f7a1439ff424ca7d0b788fa30336864939502",
+    "averaging_on/sample_grid.npz": "66a4887a1eebbbd280ce92e8229d9ea785a6accc808365d4457e59f1c5093c79",
+    "averaging_on/stdout.log": "4dda78198df87d677ba5f074235221a0c6ef1ef6aeb33e4257acb9250044e0b5",
+    "averaging_on/trace.json": "44ad76faae70cb9e109ecfc18aee82efa195c5a6bd97c5ad7960cd67b3b582a9",
+    "frozen_inputs.tar.gz": "3f97cce8f4e53aa0daf1a8fafa838c42a2ff6d565489bb7cce79766a8c7b8ce1",
+    "frozen_inputs_manifest.json": "e6406dbbaa0199a77fc8580924bac48cfd04e8b7325d67b1db4bf7662f06c0a5",
+    "inputs/ledger_snapshot.json": "74170c24b8e3bfc809631843ae49412dcaba094aa2a5ea5d2d0bd6569185089f",
+    "inputs/material.json": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+    "inputs/source_case.json": "3e6b9631a47a3c19040e74fd3c39cfef8df228f45e7bf766782c3e1fb414a85c",
+    "inputs/source_manifest.json": "eb5391f54bc6762f6367fcaad98f265a402a263734c809c760d2ba8bc16d2efe",
+    "inputs/source_result.json": "73aac73982bb49409d6c322b1cb9cfde1d9206fb8187dce09c3fc55bd984b2f3",
+    "launch.json": "d0d2006ca3977054b9e6efaec025fd2e7c268ff181dfb2c66d34b39f65c035d6",
+    "plan.json": "314bc57323b570e16bb16885460ab4489d29f316ebfab987aff30faa3ff2798b",
+    "prelaunch_check.json": "143b5617b527d422c0d13477f18c5cf76dcc575cf2803ee65f0868fd5283e42f",
+    "process.json": "099f734044bba0b106ddf7af06958c0e64ad95f045c9edf880fb28bccd0b5121",
+    "report.json": "b9dea4d0312f3776f9688cd9dcb9744e761ecfd968f24182a08586471d43f069",
+    "report.md": "2d697df2ff054e0f070e9f612e07514ee0eefb68a1aaa0abdcf44750acf29337",
+    "run.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "started.json": "6273d41f10909a49fc355fc032d853433db40459abc728847da51cb16fb96b19",
+    "status.json": "7143ba699d95c19877b3df05a3d2c94bd01757169394df5c8e0e3a80ef9bc2d6",
+    "supervisor.log": "0a829f12182197d5fb91fec1d0cd8928e1fb0d1201bed3f75dc1ee885576864a"
+  },
+  "offline_reaudit_sha256": "6ef9a33ce34ae6c167006c014647e97ed99c1ede117f7978ef79e1bc40748fb6",
+  "budgets": {
+    "baseline_active_seconds": 30952.50267100334,
+    "phase_seconds": 1800.0,
+    "stage_total_seconds": 172800.0,
+    "single_seconds": 1200.0,
+    "mpi_ranks": 4,
+    "memory_fraction": 0.7
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "run_id": "flat_r32_20260922_D",
+  "task_id": "flat_r32_p_plus30",
+  "created_utc": "2026-09-22T03:13:51.759472+00:00",
+  "baseline_active_solver_seconds": 22581.670486450195,
+  "phase_active_solver_cap_seconds": 10800.0,
+  "stage_total_active_seconds": 172800.0,
+  "effective_total_active_seconds": 33381.670486450195,
+  "ledger_path": "/root/autodl-tmp/meep_sim/meep_screen/budget_ledger.json",
+  "ledger_snapshot": {
+    "version": 1,
+    "intervals": [
+      {
+        "start": 1789993082.9635487,
+        "end": 1789993116.3114238,
+        "ranks": 4,
+        "task_id": "api_smoke",
+        "status": "SMOKE_PASSED_NOT_PHYSICALLY_QUALIFIED",
+        "attempt": 1
+      },
+      {
+        "start": 1789994098.5773318,
+        "end": 1790015673.4674664,
+        "ranks": 4,
+        "task_id": "flat_r16_p_plus30",
+        "status": "TIME_LIMIT_UNQUALIFIED",
+        "attempt": 1
+      },
+      {
+        "start": 1790041993.7754557,
+        "end": 1790041997.3115904,
+        "ranks": 4,
+        "task_id": "repair1_nonzero_flux_probe",
+        "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+        "attempt": 1
+      },
+      {
+        "start": 1790042195.9543178,
+        "end": 1790042199.482909,
+        "ranks": 4,
+        "task_id": "repair1_nonzero_flux_probe",
+        "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+        "attempt": 1
+      },
+      {
+        "start": 1790042730.5442498,
+        "end": 1790042735.5856912,
+        "ranks": 4,
+        "task_id": "repair1_nonzero_flux_probe",
+        "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+        "attempt": 1
+      },
+      {
+        "start": 1790043273.6182454,
+        "end": 1790043278.659719,
+        "ranks": 4,
+        "task_id": "repair1_nonzero_flux_probe",
+        "status": "DIAGNOSTIC_COMPLETED_NOT_QUALIFICATION",
+        "attempt": 1
+      },
+      {
+        "start": 1790043413.2835546,
+        "end": 1790044369.5683904,
+        "ranks": 4,
+        "task_id": "flat_r16_p_plus30",
+        "status": "NUMERICAL_FAILED",
+        "attempt": 1
+      }
+    ]
+  },
+  "ledger_snapshot_sha256": "2f8985f401a547076735990c8b49fbcc4b7e1b395f49d547f85a39bc3b56fe68",
+  "ledger_file_sha256": "bfc77312db537e2c4ee4639ac41f870eb60dae9672fe37cdf9208a383738185a",
+  "source_manifest_path": "/root/autodl-tmp/meep_sim/meep_screen/runs/repair_20260922_C/manifest.json",
+  "source_manifest_sha256": "a341521be65aee4c3c4d55975d51b8cc7f5c898f35fcc514701ab9e7c27ad892",
+  "source_case_path": "/root/autodl-tmp/meep_sim/meep_screen/runs/repair_20260922_C/cases/flat_r16_p_plus30.json",
+  "source_case_sha256": "d71c30b3517d0edb068b1c5649671bf539c589b2aa3e6710883eee3e38e4a03d",
+  "source_result_path": "/root/autodl-tmp/meep_sim/meep_screen/runs/repair_20260922_C/tasks/flat_r16_p_plus30/attempt_1/result.json",
+  "source_result_sha256": "07c9cd74e6564b64539da9de067093708210845b020dfa19d1dcb3a6a5801636",
+  "implementation_sha256": "24d09c50dcf6c0cb9271947dbcb04f03b62d9d0500bd7bace34e6909d54834c1",
+  "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+  "case_diff": {
+    "id": {
+      "before": "flat_r16_p_plus30",
+      "after": "flat_r32_p_plus30"
+    },
+    "resolution": {
+      "before": 16,
+      "after": 32
+    },
+    "max_solver_seconds": {
+      "before": 1800.0,
+      "after": 10800.0
+    }
+  },
+  "automatic_retry_authorized": false,
+  "budget_meaning": "10800 s cumulative active solver wall time for reference plus target, including all failed or interrupted attempts; also inside original 172800 s shared stage cap",
+  "scope": "One flat r32 p +30 condition only; no pilot, mesh sweep, or full-validation qualification"
+}

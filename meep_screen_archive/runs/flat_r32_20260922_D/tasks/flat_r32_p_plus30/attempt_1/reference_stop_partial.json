@@ -1,0 +1,103 @@
+{
+  "converged": false,
+  "status": "not_converged",
+  "source_end": 524.9999999999999,
+  "last_time": 584.0,
+  "window": 20.0,
+  "required_windows": 3,
+  "consecutive_passed_windows": 2,
+  "decay_threshold": 0.0001,
+  "rt_tolerance": 0.001,
+  "probe_peaks": {
+    "front_air": 0.3333600374209745,
+    "back_air": 0.3333825562357854
+  },
+  "non_pml_envelope_peak": 0.3334312033062042,
+  "source_on_non_pml_envelope_peak": 0.3334312033062042,
+  "windows": [
+    {
+      "start": 524.9999999999999,
+      "end": 544.9999999999999,
+      "samples": 10,
+      "covered": true,
+      "decay_pass": true,
+      "R_range": 1.5772500638888687e-07,
+      "T_range": 0.0005480347699509114,
+      "rt_stable": true,
+      "passed": true
+    },
+    {
+      "start": 544.9999999999999,
+      "end": 564.9999999999999,
+      "samples": 10,
+      "covered": true,
+      "decay_pass": true,
+      "R_range": 7.844720850691544e-08,
+      "T_range": 0.00014044300236437657,
+      "rt_stable": true,
+      "passed": true
+    }
+  ],
+  "last_sample": {
+    "time": 584.0,
+    "probe_power": {
+      "front_air": 3.538352153088431e-14,
+      "back_air": 7.176026265857513e-10
+    },
+    "probe_peak": {
+      "front_air": 0.3333600374209745,
+      "back_air": 0.3333825562357854
+    },
+    "probe_ratio": {
+      "front_air": 1.0611940688223503e-13,
+      "back_air": 2.1521759795430607e-09
+    },
+    "probe_normalization_denominator": {
+      "front_air": 0.3334312033062042,
+      "back_air": 0.3334312033062042
+    },
+    "probe_classification": {
+      "front_air": "resolved_excitation",
+      "back_air": "resolved_excitation"
+    },
+    "probe_normalization_source": {
+      "front_air": "reference_excitation_floor",
+      "back_air": "reference_excitation_floor"
+    },
+    "normalization": {
+      "method": "historical_intensity_peak_with_reference_excitation_floor",
+      "quantity": "sum of |E_component|^2; not amplitude or integrated flux",
+      "reference_intensity_peak": 0.3334312033062042,
+      "reference_peak_source": "source_on_non_pml_envelope",
+      "reference_provenance": "this trace: non-PML envelope samples at time <= source_end",
+      "reference_floor_fraction": 1.0,
+      "denominator_floor": 0.3334312033062042,
+      "weak_probe_residual_bound": 3.334312033062042e-05,
+      "reference_ready": true,
+      "reference_frozen": true,
+      "all_probes_required": true
+    },
+    "envelope_power": 2.327970446197498e-09,
+    "envelope_peak": 0.3334312033062042,
+    "envelope_ratio": 6.981861394836593e-09,
+    "envelope_normalization_denominator": 0.3334312033062042,
+    "R": 0.9999999003751303,
+    "T": 0.9999924932641467,
+    "decay_pass": true,
+    "converged": false
+  },
+  "normalization": {
+    "method": "historical_intensity_peak_with_reference_excitation_floor",
+    "quantity": "sum of |E_component|^2; not amplitude or integrated flux",
+    "reference_intensity_peak": 0.3334312033062042,
+    "reference_peak_source": "source_on_non_pml_envelope",
+    "reference_provenance": "this trace: non-PML envelope samples at time <= source_end",
+    "reference_floor_fraction": 1.0,
+    "denominator_floor": 0.3334312033062042,
+    "weak_probe_residual_bound": 3.334312033062042e-05,
+    "reference_ready": true,
+    "reference_frozen": true,
+    "all_probes_required": true
+  },
+  "timeout_is_convergence": false
+}

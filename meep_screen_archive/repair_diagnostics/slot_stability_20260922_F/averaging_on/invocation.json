@@ -1,0 +1,46 @@
+{
+  "command": [
+    "/root/miniconda3/envs/meep_sim/bin/mpiexec",
+    "-n",
+    "4",
+    "/root/miniconda3/envs/meep_sim/bin/python",
+    "-B",
+    "-m",
+    "diagnostic_tools.slot_stability_probe",
+    "--plan",
+    "/root/autodl-tmp/meep_sim/meep_screen/repair_diagnostics/slot_stability_20260922_F/plan.json",
+    "--case-id",
+    "averaging_on",
+    "--output",
+    "/root/autodl-tmp/meep_sim/meep_screen/repair_diagnostics/slot_stability_20260922_F/averaging_on"
+  ],
+  "plan_sha256": "41b64525437a2de464f5ece5b5dd0214736a6754c8f36dba436727e2494789da",
+  "resources_before": {
+    "cpu_quota": 20.0,
+    "memory_limit_bytes": 96636764160,
+    "memory_current_bytes": 2461696000,
+    "memory_available_bytes": 94175068160
+  },
+  "memory_budget_bytes": 65922547711,
+  "timeout_seconds_including_shutdown": 1200.0,
+  "shutdown_reserve_seconds": 30.0,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1"
+  },
+  "solver_timeout_seconds": 1170.0,
+  "budget_before": {
+    "stage_active_solver_seconds": 30952.50267100334,
+    "stage_cap_seconds": 172800.0,
+    "stage_remaining_solver_seconds": 141847.49732899666,
+    "phase_active_solver_seconds": 0.0,
+    "phase_cap_seconds": 1800.0,
+    "phase_remaining_solver_seconds": 1800.0,
+    "effective_remaining_solver_seconds": 1800.0,
+    "rank_hours": 34.39166963444816
+  }
+}

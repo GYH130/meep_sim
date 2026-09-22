@@ -1,0 +1,18 @@
+{
+  "pid": 636709,
+  "command": [
+    "/root/miniconda3/envs/meep_sim/bin/python",
+    "-B",
+    "-m",
+    "ti2d.queue",
+    "--manifest",
+    "/root/autodl-tmp/meep_sim/meep_screen/runs/flat_r32_20260922_D/manifest.json",
+    "--phase",
+    "validation"
+  ],
+  "created_utc": "2026-09-22T03:21:48.146880+00:00",
+  "state": "DISPATCHED_NOT_YET_VERIFIED",
+  "frozen_inputs_sha256": "04839c4807531abb70de0ed901180ac646e6d04e753047b5843cfed4d2c9a3a5",
+  "phase_cap_seconds": 10800,
+  "baseline_solver_seconds": 22581.670486450195
+}

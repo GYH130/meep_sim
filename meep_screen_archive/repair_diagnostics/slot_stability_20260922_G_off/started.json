@@ -1,0 +1,11 @@
+{
+  "run_id": "slot_stability_20260922_G_off",
+  "supervisor_pid": 671614,
+  "started_utc": "2026-09-22T10:46:06.676675+00:00",
+  "plan_sha256": "2ab4f617f58d1141751b27208b423c1b0ecf28c6fce29f364e4f373b88ea59fb",
+  "execute_case_ids": [
+    "averaging_off"
+  ],
+  "no_new_on_run": true,
+  "automatic_resume": false
+}

@@ -1,0 +1,7 @@
+{
+  "manifest_sha256": "11c265db42144cced1ff2c1cf15635673991b06d6cbbc254329f91928ea63ea6",
+  "implementation_sha256": "24d09c50dcf6c0cb9271947dbcb04f03b62d9d0500bd7bace34e6909d54834c1",
+  "case_sha256": {
+    "flat_r32_p_plus30": "0b1e6c7704f80f3972075d5bd82c6d27ba654ff97d46f5bb8d101fdc415d451a"
+  }
+}

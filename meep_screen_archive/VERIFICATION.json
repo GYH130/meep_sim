@@ -1,0 +1,34 @@
+{
+  "generated_epoch": 1790083449.437797,
+  "scope": "individual cases only; full production gate remains incomplete",
+  "qualified": [
+    {
+      "path": "runs/flat_r32_20260922_D/tasks/flat_r32_p_plus30/attempt_1/result.json",
+      "status": "QUALIFIED_SINGLE_CASE_EVIDENCE_VERIFIED",
+      "evidence_sha256": {
+        "monitor_planes.npz": "45172bbbd9d7d3f16deca7bc3e667b29313ed727eca60457636c2bdbbfc1f636",
+        "volume_ED.npz": "1d286b39ba14ee6a9ebb5796fe13ca431bdeb63eb3b65b11e89928726da8c5b2",
+        "volume_metadata.json": "f94f7aca639b857da6e0e41c1c692ec95714286a7a65a7a942cbe814bb8ad3d5",
+        "orders.json": "e718daca1523f473571ff748f6b8e85a9454da7f7a31264be0e41ad0a1e51c4f",
+        "structure_stop.json": "dd761de7878ba71b05378e7291832f86cacc19fa969f84c5f8b49223f8c1351b",
+        "reference_stop.json": "9e96f7b31d4c7ba9a90f9cadd43b88117a1b238cb7149b4e114ea0ace4f33526",
+        "reference_preload_audit.json": "bd8d0e21791619446d2332edb141ae664a8523c90aa3e4eb928d2ce0bf4924dd",
+        "structure_chunks.h5": "85370b3730e379110c97ae2900eadaccd654ef60421d8bdc238c2d9142582047"
+      }
+    }
+  ],
+  "other_results": [
+    {
+      "path": "runs/baseline_r32_20260922_E/tasks/baseline_r32_p_plus30/attempt_1/result.json",
+      "status": "CRASHED"
+    },
+    {
+      "path": "repair_diagnostics/slot_stability_20260922_F/averaging_on/result.json",
+      "status": "EARLY_GROWTH_DETECTED"
+    },
+    {
+      "path": "repair_diagnostics/slot_stability_20260922_G_off/averaging_off/result.json",
+      "status": "INTERRUPTED"
+    }
+  ]
+}

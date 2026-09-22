@@ -1,0 +1,28 @@
+{
+  "case_id": "averaging_on",
+  "status": "CRASHED",
+  "qualification": false,
+  "pid": 662978,
+  "supervisor_pid": 662848,
+  "start_epoch": 1790067301.48297,
+  "updated_epoch": 1790067543.0078402,
+  "elapsed_s": 241.52487026154995,
+  "simulation_time": 20.0078125,
+  "mpi_ranks": 4,
+  "threads_per_rank": 1,
+  "peak_process_tree_rss_bytes": 3559362560,
+  "memory_budget_bytes": 65922547711,
+  "allowance_seconds_including_shutdown": 1200.0,
+  "exit_code": 0,
+  "error": "RuntimeError: GROWTH_EVIDENCE_MISSING",
+  "budget": {
+    "stage_active_solver_seconds": 31194.026368379593,
+    "stage_cap_seconds": 172800.0,
+    "stage_remaining_solver_seconds": 141605.9736316204,
+    "phase_active_solver_seconds": 241.52369737625122,
+    "phase_cap_seconds": 1800.0,
+    "phase_remaining_solver_seconds": 1558.4763026237488,
+    "effective_remaining_solver_seconds": 1558.4763026237488,
+    "rank_hours": 34.66002929819955
+  }
+}
