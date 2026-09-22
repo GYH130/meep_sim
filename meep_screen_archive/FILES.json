@@ -180,6 +180,31 @@
     "bytes": 14475
   },
   {
+    "path": "diagnostic_tools/DERIVATION.md",
+    "sha256": "f1342063a1a326e624f512fc2f9a4c06c0535e78a609443740bab74ba3a69e29",
+    "bytes": 2271
+  },
+  {
+    "path": "diagnostic_tools/audit_flat_evidence.py",
+    "sha256": "77776663c40cebf0b9b8634d32e9538fc73be3384deb2e3fbf4a9e2fc3e106ed",
+    "bytes": 14690
+  },
+  {
+    "path": "diagnostic_tools/flat_discrete.py",
+    "sha256": "b0de4cf0400055ee5335b5588dab55c434fc5c2e98f6043ed32677abb86bde2c",
+    "bytes": 4956
+  },
+  {
+    "path": "diagnostic_tools/slot_stability_probe.py",
+    "sha256": "4374f8d80c70c722953b0a6caecc4bf377be0357af0f40c711ac12f3e544ebd9",
+    "bytes": 29968
+  },
+  {
+    "path": "diagnostic_tools/test_flat_discrete.py",
+    "sha256": "91d13a2eeb7c25548aeff127994922140bc9676fb6d8a7812cee87e758fe2d70",
+    "bytes": 2855
+  },
+  {
     "path": "expiry_campaign/ti2d/__init__.py",
     "sha256": "c8ff235ecd258e705cc55c4f337546e6cc45d4819c216191f195d66643407a87",
     "bytes": 596
@@ -301,13 +326,88 @@
   },
   {
     "path": "expiry_campaign/export_archive.py",
-    "sha256": "793370438fbdc966ced476497dde7e054b48095275d217f96b534438250a12d8",
-    "bytes": 6893
+    "sha256": "ede367369aa22e7f19f801d5732b6106a2220345a4f61d820e16f06f817afd6f",
+    "bytes": 6976
   },
   {
     "path": "expiry_campaign/run_campaign.py",
     "sha256": "ee4d5bfad3a30e28aa00bd69eb089761c680c1af28ccb2363491d6c50dd8f0f8",
     "bytes": 1729
+  },
+  {
+    "path": "api_probe.py",
+    "sha256": "f85cf6124e38f0493c2b10a154a7f8aad35805f25a10e7fc2bad69a0037aa7b0",
+    "bytes": 1347
+  },
+  {
+    "path": "audit_stage.py",
+    "sha256": "103ef78d908dd93cdca8aa26132cf898ec7b19c7fd269629bd4eed1c057a5382",
+    "bytes": 2216
+  },
+  {
+    "path": "bootstrap_snapshot.py",
+    "sha256": "a56d34facf0f3b0dcf25c1ff4e1d2067dfeef62ad530c955c8187cc55f622e08",
+    "bytes": 2410
+  },
+  {
+    "path": "create_baseline_r32_run.py",
+    "sha256": "6ae012ab49102fc24ddcc42ffd46934321a6e2caec68b4a92ca32773e4599dd8",
+    "bytes": 11871
+  },
+  {
+    "path": "create_r32_run.py",
+    "sha256": "d9a1c45ee6a6ee1c05a81ca9504ecc36882b773393d573e9b1c82db5168012b1",
+    "bytes": 9289
+  },
+  {
+    "path": "create_repair_run.py",
+    "sha256": "54fbd1e2454d5534ee2fe239d3a8f9663e99a54e50e18deaf920849d7ba15f0b",
+    "bytes": 6177
+  },
+  {
+    "path": "export_handoff.py",
+    "sha256": "7752ebe21d4da19bebf117c77e5bf9951e387acbc271a44c58ca22b974e909ac",
+    "bytes": 2888
+  },
+  {
+    "path": "repair_budget.py",
+    "sha256": "b4595cd37ac3e12a2635886a41a0d35c3004ae3229dcfa4ae3673982bf7accf3",
+    "bytes": 4717
+  },
+  {
+    "path": "repair_flux_probe.py",
+    "sha256": "e41b3230ff47c28ff1f1b1327755cb3474169369f9cdf6df851c06119c9cb8ac",
+    "bytes": 9421
+  },
+  {
+    "path": "replay_repair_evidence.py",
+    "sha256": "d46ce2abab2196d7d1407270a0e4595fae57153ebb1161f2119a39a034a15ac4",
+    "bytes": 2463
+  },
+  {
+    "path": "run_repair_probe.py",
+    "sha256": "f3ec6cdd203a485de22af6b8ff8c2efeeb2823f20effda33b5333ea9ff8cee7b",
+    "bytes": 5340
+  },
+  {
+    "path": "run_slot_stability_diagnostic.py",
+    "sha256": "a11e6abf23ab7df4400a7d65a1e0d7d1df56aa3a322333ceb62cb76e8e84b26d",
+    "bytes": 38636
+  },
+  {
+    "path": "run_slot_stability_off.py",
+    "sha256": "864f169ca30a4650a88a85b4495176030877fa9bbb642738f7989fd97f04660d",
+    "bytes": 18398
+  },
+  {
+    "path": "run_smoke.py",
+    "sha256": "17e482e80eaa910a0c792c46ab113eb0e8c034f967688d422421e5f42c8dc9c9",
+    "bytes": 2373
+  },
+  {
+    "path": "solver_smoke.py",
+    "sha256": "006e3df994b3ef4644b4f3ef8b5d45d0ec7d436aa8c42f56c7a7205a1ebd38b1",
+    "bytes": 12597
   },
   {
     "path": "BASELINE_R32_HANDOFF.md",
@@ -336,8 +436,8 @@
   },
   {
     "path": "budget_ledger.json",
-    "sha256": "d5facb798503e5e76196b4728aa805a6838979cca76ab841b2ac8976ea303f16",
-    "bytes": 2322
+    "sha256": "ca63550451a1ff267feedacc8916055114a3a4b1ddf01d773268733d27fcecfd",
+    "bytes": 2481
   },
   {
     "path": "runs/flat_r32_20260922_D/authorization.json",
@@ -840,8 +940,33 @@
     "bytes": 2322
   },
   {
+    "path": "expiry_campaign/runs/expiry_20260922_H/lock_manifest.json",
+    "sha256": "a33a1274adf76977bbc5c69292b43a5bc2fabbab6c35c64488906839bc2ce435",
+    "bytes": 1044
+  },
+  {
     "path": "expiry_campaign/runs/expiry_20260922_H/manifest.json",
     "sha256": "222ef7a8b6fc3f9d166737f436aa1950e1da7d52b8820a8dbd05359448f037db",
     "bytes": 7793
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/status.json",
+    "sha256": "3867c036797f7c96bc0c8bf698f2070fbdf44797df77ee8e07cec8bcbba77f9a",
+    "bytes": 4130
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/invocation.json",
+    "sha256": "1611bbf74fa278999c86abc7d59230c53be66ea265079f2255b877a06ae2f750",
+    "bytes": 762
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/process.json",
+    "sha256": "9485e0bab4d729bd2695bb829e5c3fc9e5ae8595a13c3c6deb7e8ba0a47a6faf",
+    "bytes": 57
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/reference_stop_partial.json",
+    "sha256": "971408e6352d1bbcf3b3abacf84247cf683270f84a0bcd8b85888dda4186babf",
+    "bytes": 2804
   }
 ]

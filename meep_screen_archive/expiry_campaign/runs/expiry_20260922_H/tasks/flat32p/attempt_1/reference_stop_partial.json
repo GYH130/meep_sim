@@ -1,0 +1,80 @@
+{
+  "converged": false,
+  "status": "not_converged",
+  "source_end": 524.9999999999999,
+  "last_time": 140.0,
+  "window": 20.0,
+  "required_windows": 3,
+  "consecutive_passed_windows": 0,
+  "decay_threshold": 0.0001,
+  "rt_tolerance": 0.001,
+  "probe_peaks": {
+    "front_air": 0.0008185910462710846,
+    "back_air": 4.067550734571939e-08
+  },
+  "non_pml_envelope_peak": 0.0014380251749142453,
+  "source_on_non_pml_envelope_peak": 0.0014380251749142453,
+  "windows": [],
+  "last_sample": {
+    "time": 140.0,
+    "probe_power": {
+      "front_air": 0.0008185910462710846,
+      "back_air": 4.067550734571939e-08
+    },
+    "probe_peak": {
+      "front_air": 0.0008185910462710846,
+      "back_air": 4.067550734571939e-08
+    },
+    "probe_ratio": {
+      "front_air": 0.5692466728337355,
+      "back_air": 2.82856712492151e-05
+    },
+    "probe_normalization_denominator": {
+      "front_air": 0.0014380251749142453,
+      "back_air": 0.0014380251749142453
+    },
+    "probe_classification": {
+      "front_air": "resolved_excitation",
+      "back_air": "below_reference_decay_budget"
+    },
+    "probe_normalization_source": {
+      "front_air": "reference_excitation_floor",
+      "back_air": "reference_excitation_floor"
+    },
+    "normalization": {
+      "method": "historical_intensity_peak_with_reference_excitation_floor",
+      "quantity": "sum of |E_component|^2; not amplitude or integrated flux",
+      "reference_intensity_peak": 0.0014380251749142453,
+      "reference_peak_source": "source_on_non_pml_envelope",
+      "reference_provenance": "this trace: non-PML envelope samples at time <= source_end",
+      "reference_floor_fraction": 1.0,
+      "denominator_floor": 0.0014380251749142453,
+      "weak_probe_residual_bound": 1.4380251749142454e-07,
+      "reference_ready": true,
+      "reference_frozen": false,
+      "all_probes_required": true
+    },
+    "envelope_power": 0.0014380251749142453,
+    "envelope_peak": 0.0014380251749142453,
+    "envelope_ratio": 1.0,
+    "envelope_normalization_denominator": 0.0014380251749142453,
+    "R": 1.0,
+    "T": 2.3715747658246125e-05,
+    "decay_pass": false,
+    "converged": false
+  },
+  "normalization": {
+    "method": "historical_intensity_peak_with_reference_excitation_floor",
+    "quantity": "sum of |E_component|^2; not amplitude or integrated flux",
+    "reference_intensity_peak": 0.0014380251749142453,
+    "reference_peak_source": "source_on_non_pml_envelope",
+    "reference_provenance": "this trace: non-PML envelope samples at time <= source_end",
+    "reference_floor_fraction": 1.0,
+    "denominator_floor": 0.0014380251749142453,
+    "weak_probe_residual_bound": 1.4380251749142454e-07,
+    "reference_ready": true,
+    "reference_frozen": false,
+    "all_probes_required": true
+  },
+  "timeout_is_convergence": false
+}

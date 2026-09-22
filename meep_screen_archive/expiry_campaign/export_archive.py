@@ -46,11 +46,12 @@ def main():
             out.parent.mkdir(parents=True,exist_ok=True)
             shutil.copyfile(path,out)
             inventory.append({'path':str(rel),'sha256':digest(out),'bytes':len(data)})
-        for folder in (STAGE/'ti2d',STAGE/'assets',STAGE/'tests',ROOT/'ti2d',ROOT/'tests'):
+        for folder in (STAGE/'ti2d',STAGE/'assets',STAGE/'tests',STAGE/'diagnostic_tools',ROOT/'ti2d',ROOT/'tests'):
             for path in sorted(folder.rglob('*')):
                 if '__pycache__' not in path.parts and path.suffix in ('.py','.md','.json','.csv','.txt','.yml','.yaml'):
                     add(path)
         for path in sorted(ROOT.glob('*.py')): add(path)
+        for path in sorted(STAGE.glob('*.py')): add(path)
         for path in sorted(STAGE.glob('*HANDOFF.md')): add(path)
         for path in sorted(ROOT.glob('*.md')): add(path)
         add(STAGE/'budget_ledger.json')

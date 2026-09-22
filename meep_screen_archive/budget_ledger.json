@@ -88,6 +88,14 @@
       "task_id": "slot_stability_20260922_G_off:averaging_off",
       "status": "TIME_LIMIT_UNQUALIFIED",
       "attempt": 1
+    },
+    {
+      "start": 1790083525.3713138,
+      "end": null,
+      "ranks": 4,
+      "task_id": "flat32p",
+      "status": "RUNNING",
+      "attempt": 1
     }
   ]
 }

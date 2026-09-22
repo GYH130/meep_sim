@@ -1,0 +1,179 @@
+{
+  "run_id": "expiry_20260922_H",
+  "state": "RUNNING",
+  "updated_epoch": 1790084066.107076,
+  "queue_pid": 682277,
+  "active_task": "flat32p",
+  "active_tasks": [
+    "flat32p"
+  ],
+  "message": null,
+  "resources": {
+    "cpu_quota": 20.0,
+    "memory_limit_bytes": 96636764160,
+    "memory_current_bytes": 3996475392,
+    "memory_available_bytes": 92640288768
+  },
+  "usage": {
+    "active_solver_seconds": 32906.402368068695,
+    "rank_hours": 36.562669320901236,
+    "calendar_span_seconds": 90983.14354109764,
+    "attempts": 12
+  },
+  "remaining_solver_seconds": 69497.892837286,
+  "hard_deadline_epoch": 1790153564.0,
+  "tasks": {
+    "flat32p": {
+      "status": "NOT_RUN"
+    },
+    "slot32p": {
+      "status": "NOT_RUN"
+    },
+    "strict32p": {
+      "status": "NOT_RUN"
+    },
+    "mirror32p": {
+      "status": "NOT_RUN"
+    },
+    "flat32s": {
+      "status": "NOT_RUN"
+    },
+    "slot32s": {
+      "status": "NOT_RUN"
+    },
+    "flat24p": {
+      "status": "NOT_RUN"
+    },
+    "slot24p": {
+      "status": "NOT_RUN"
+    },
+    "flat20p": {
+      "status": "NOT_RUN"
+    },
+    "slot20p": {
+      "status": "NOT_RUN"
+    }
+  },
+  "gate": {
+    "passed": false,
+    "failures": [
+      "Expiry batch is a validation subset, not full production qualification",
+      "flat32p: not qualified",
+      "slot32p: not qualified",
+      "strict32p: not qualified",
+      "mirror32p: not qualified",
+      "flat32s: not qualified",
+      "slot32s: not qualified",
+      "flat24p: not qualified",
+      "slot24p: not qualified",
+      "flat20p: not qualified",
+      "slot20p: not qualified",
+      "strict slot32p,strict32p: failed/incomplete",
+      "mirror slot32p,mirror32p: failed/incomplete",
+      "mesh flat32p,flat24p: failed/incomplete",
+      "mesh slot32p,slot24p: failed/incomplete",
+      "mesh flat32p,flat24p,flat20p: failed/incomplete",
+      "mesh slot32p,slot24p,slot20p: failed/incomplete"
+    ],
+    "comparisons": [
+      {
+        "kind": "strict",
+        "ids": [
+          "slot32p",
+          "strict32p"
+        ],
+        "tolerance": 0.001,
+        "spread": {
+          "R": null,
+          "T": null,
+          "A_flux": null
+        },
+        "passed": false
+      },
+      {
+        "kind": "mirror",
+        "ids": [
+          "slot32p",
+          "mirror32p"
+        ],
+        "tolerance": 0.01,
+        "spread": {
+          "R": null,
+          "T": null,
+          "A_flux": null
+        },
+        "passed": false
+      },
+      {
+        "kind": "mesh",
+        "ids": [
+          "flat32p",
+          "flat24p"
+        ],
+        "tolerance": 0.01,
+        "spread": {
+          "R": null,
+          "T": null,
+          "A_flux": null
+        },
+        "passed": false
+      },
+      {
+        "kind": "mesh",
+        "ids": [
+          "slot32p",
+          "slot24p"
+        ],
+        "tolerance": 0.01,
+        "spread": {
+          "R": null,
+          "T": null,
+          "A_flux": null
+        },
+        "passed": false
+      },
+      {
+        "kind": "mesh",
+        "ids": [
+          "flat32p",
+          "flat24p",
+          "flat20p"
+        ],
+        "tolerance": 0.01,
+        "spread": {
+          "R": null,
+          "T": null,
+          "A_flux": null
+        },
+        "passed": false
+      },
+      {
+        "kind": "mesh",
+        "ids": [
+          "slot32p",
+          "slot24p",
+          "slot20p"
+        ],
+        "tolerance": 0.01,
+        "spread": {
+          "R": null,
+          "T": null,
+          "A_flux": null
+        },
+        "passed": false
+      }
+    ],
+    "scope": "specified Ti model, 2D, 10.5 um, +/-30 deg, s/p only"
+  },
+  "parallel_jobs": 1,
+  "concurrency_probe": {
+    "status": "NOT_RUN",
+    "policy": "serial_except_locked_two_job_probe"
+  },
+  "concurrency_reason": "One locked, useful two-job comparison; other conditions stay serial unless controlled evidence justifies wider concurrency",
+  "ai_usage": {
+    "actual_usage_available": false,
+    "rmb_cost": null,
+    "note": "The queue makes no AI/API calls. Server billing and this coding turn's AI usage are separate; neither RMB cost is inferred."
+  }
+}
