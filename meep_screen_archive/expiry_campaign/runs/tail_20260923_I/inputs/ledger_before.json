@@ -104,14 +104,6 @@
       "task_id": "slot32p",
       "status": "TIME_LIMIT_UNQUALIFIED",
       "attempt": 1
-    },
-    {
-      "start": 1790131074.7797766,
-      "end": 1790140033.9846194,
-      "ranks": 4,
-      "task_id": "tail_20260923_I:pml6_control",
-      "status": "TIME_LIMIT_UNQUALIFIED",
-      "attempt": 1
     }
   ]
 }

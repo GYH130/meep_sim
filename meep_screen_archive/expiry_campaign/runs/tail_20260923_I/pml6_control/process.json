@@ -1,0 +1,11 @@
+{
+  "status": "TIME_LIMIT_UNQUALIFIED",
+  "cleanup": {
+    "stopped": true,
+    "live_members": [],
+    "errors": []
+  },
+  "exit_code": 2,
+  "elapsed_s": 8959.203871972859,
+  "peak_tree_rss_bytes": 3190718464
+}

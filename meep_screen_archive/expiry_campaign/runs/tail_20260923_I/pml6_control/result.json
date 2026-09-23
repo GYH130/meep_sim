@@ -1,0 +1,10 @@
+{
+  "status": "TIME_LIMIT_UNQUALIFIED",
+  "qualification": false,
+  "simulation_time": 914.625,
+  "source_end": 524.9999999999999,
+  "elapsed_s": 8955.034698180854,
+  "waveform_chunks": 51,
+  "case_sha256": "068967fb38083bf1740e2a9d76b134c4373bfa7d50278f296d869cbc4764cfd3",
+  "error": null
+}

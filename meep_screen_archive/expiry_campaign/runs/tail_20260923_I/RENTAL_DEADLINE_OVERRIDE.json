@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-09-23T02:54:14Z",
+  "authority": "User corrected rental expiry to tomorrow and suspended today's 16:52 hard cutoff",
+  "supersedes_hard_deadline_utc": "2026-09-23T08:52:44Z",
+  "hard_deadline_epoch": null,
+  "hard_deadline_utc": null,
+  "rental_expiry_user_reported_date_local": "2026-09-24",
+  "rental_expiry_timezone": "Asia/Shanghai",
+  "exact_rental_expiry_time": null,
+  "original_frozen_manifests": "Preserved as execution provenance; their rental assumption is superseded for subsequent dispatch",
+  "current_I_batch": {
+    "action": "Continue without interrupting or restarting active MPI tasks",
+    "active_arm_granted_seconds": 9000,
+    "single_solver_seconds": 9000,
+    "phase_solver_seconds": 18000,
+    "overall_solver_seconds": 172800,
+    "note": "The active arm already has its full 9000-second allowance. The existing controller has no separate clock-triggered 16:52 kill; elapsed-time limits govern the active arm. The serial batch's remaining normal schedule fits before the former deadline. Do not relaunch or extend it merely because rental expiry changed."
+  },
+  "future_dispatch_rule": "Do not apply the superseded 2026-09-23 16:52:44 Asia/Shanghai rental deadline. Keep solver budgets, qualification gates, resource caps, and backup reserve requirements. A new exact rental deadline is not inferred from a date alone.",
+  "backup_rule": "Collect immediately upon completion; do not defer backup until the rental expires."
+}

@@ -1,5 +1,5 @@
 {
-  "generated_epoch": 1790114142.0103724,
+  "generated_epoch": 1790145491.0514522,
   "scope": "individual cases only; full production gate remains incomplete",
   "qualified": [
     {
@@ -46,6 +46,10 @@
     },
     {
       "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/result.json",
+      "status": "TIME_LIMIT_UNQUALIFIED"
+    },
+    {
+      "path": "expiry_campaign/runs/tail_20260923_I/pml6_control/result.json",
       "status": "TIME_LIMIT_UNQUALIFIED"
     }
   ]

@@ -1,0 +1,21 @@
+{
+  "qualification": false,
+  "H_status": "TIME_LIMIT_UNQUALIFIED",
+  "H_last_time": 2084.0078125,
+  "H_last_probe_ratio": {
+    "front_air": 0.00025893559177293384,
+    "back_air": 0.0026097175994809173,
+    "cavity_0.25": 1.1386961536864948e-05,
+    "cavity_0.5": 2.9535497111796843e-05,
+    "cavity_0.75": 1.42782963319937e-05
+  },
+  "arms": {
+    "pml6_control": {
+      "status": "NOT_COMPLETE"
+    },
+    "pml12_test": {
+      "status": "NOT_COMPLETE"
+    }
+  },
+  "control_reproduced": false
+}
