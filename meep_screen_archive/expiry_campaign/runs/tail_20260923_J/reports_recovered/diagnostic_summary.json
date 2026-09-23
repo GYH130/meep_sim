@@ -1,0 +1,583 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-09-23T14:42:14.155397+00:00",
+  "qualification": false,
+  "recovery_status": "OFFLINE_DIAGNOSTIC_RECOVERED",
+  "original_run_status": {
+    "state": "DIAGNOSTIC_COMPLETE",
+    "active_task": null,
+    "tasks": [
+      {
+        "id": "pml6_control",
+        "status": "DIAGNOSTIC_COMPLETE"
+      },
+      {
+        "id": "pml12_test",
+        "status": "DIAGNOSTIC_COMPLETE"
+      }
+    ],
+    "qualification": false,
+    "ledger": {
+      "active_solver_seconds": 96128.98283839226,
+      "rank_hours": 106.80998093154696,
+      "calendar_span_seconds": 181449.666711092,
+      "attempts": 16
+    },
+    "updated_utc": "2026-09-23T14:42:14.093482+00:00"
+  },
+  "H_status": "TIME_LIMIT_UNQUALIFIED",
+  "control_reproduced": true,
+  "arms": {
+    "pml6_control": {
+      "status": "DIAGNOSTIC_COMPLETE",
+      "worker_status": "DIAGNOSTIC_COMPLETE",
+      "process_status": "DIAGNOSTIC_COMPLETE",
+      "status_authority": "process.json",
+      "qualification": false,
+      "simulation_time": 1200.0,
+      "elapsed_s": 8807.629279054701,
+      "sampling_audit": {
+        "original_samples": 4800,
+        "regular_samples": 4800,
+        "expected_dt": 0.25,
+        "excluded_samples": [],
+        "regular_interval": [
+          0.25,
+          1200.0
+        ],
+        "resampled": false,
+        "interpolated": false,
+        "original_evidence_modified": false,
+        "all_chunk_checksums_verified": true,
+        "chunks_verified": 50,
+        "all_numeric_arrays_finite": true,
+        "line_sampling": {
+          "original_samples": 600,
+          "regular_samples": 600,
+          "expected_dt": 2.0,
+          "excluded_samples": [],
+          "regular_interval": [
+            2.0,
+            1200.0
+          ],
+          "resampled": false,
+          "interpolated": false,
+          "original_evidence_modified": false
+        }
+      },
+      "spectra": {
+        "front_air": {
+          "sample_dt": 0.25,
+          "frequency_resolution": 0.001665972511453561,
+          "nyquist": 2.0,
+          "interval": [
+            600.0,
+            1200.0
+          ],
+          "peaks": [
+            {
+              "signed_frequency": -0.09162848812994585,
+              "absolute_frequency": 0.09162848812994585,
+              "relative_power": 1.0
+            },
+            {
+              "signed_frequency": -0.10162432319866722,
+              "absolute_frequency": 0.10162432319866722,
+              "relative_power": 0.03188208434750568
+            },
+            {
+              "signed_frequency": -0.09662640566430654,
+              "absolute_frequency": 0.09662640566430654,
+              "relative_power": 0.0003117238018665484
+            },
+            {
+              "signed_frequency": -0.08496459808413162,
+              "absolute_frequency": 0.08496459808413162,
+              "relative_power": 0.00012250993147637702
+            },
+            {
+              "signed_frequency": -0.10662224073302791,
+              "absolute_frequency": 0.10662224073302791,
+              "relative_power": 1.9975458719161005e-05
+            },
+            {
+              "signed_frequency": -0.07996668054977094,
+              "absolute_frequency": 0.07996668054977094,
+              "relative_power": 2.6079025909489474e-06
+            }
+          ],
+          "convention": "Complex fields; retain both signed frequencies; Hann window; Ex/Ey power sum; no DC subtraction"
+        },
+        "back_air": {
+          "sample_dt": 0.25,
+          "frequency_resolution": 0.001665972511453561,
+          "nyquist": 2.0,
+          "interval": [
+            600.0,
+            1200.0
+          ],
+          "peaks": [
+            {
+              "signed_frequency": -0.09162848812994585,
+              "absolute_frequency": 0.09162848812994585,
+              "relative_power": 1.0
+            },
+            {
+              "signed_frequency": -0.09662640566430654,
+              "absolute_frequency": 0.09662640566430654,
+              "relative_power": 0.0006783301617838218
+            },
+            {
+              "signed_frequency": -0.08496459808413162,
+              "absolute_frequency": 0.08496459808413162,
+              "relative_power": 5.2368331415717614e-05
+            },
+            {
+              "signed_frequency": -0.10162432319866722,
+              "absolute_frequency": 0.10162432319866722,
+              "relative_power": 3.4182090519800993e-06
+            },
+            {
+              "signed_frequency": -0.10828821324448147,
+              "absolute_frequency": 0.10828821324448147,
+              "relative_power": 7.018244981208636e-07
+            },
+            {
+              "signed_frequency": -0.07996668054977094,
+              "absolute_frequency": 0.07996668054977094,
+              "relative_power": 5.354055044344783e-07
+            }
+          ],
+          "convention": "Complex fields; retain both signed frequencies; Hann window; Ex/Ey power sum; no DC subtraction"
+        }
+      },
+      "back_Ey_spatial_orders": [
+        {
+          "m": 7,
+          "mean_squared_amplitude": 0.0016190293713820945,
+          "rayleigh_cutoff": 0.0923809523809524
+        },
+        {
+          "m": -2,
+          "mean_squared_amplitude": 1.6830861156929356e-06,
+          "rayleigh_cutoff": 0.08761904761904762
+        },
+        {
+          "m": -3,
+          "mean_squared_amplitude": 5.491491498154535e-10,
+          "rayleigh_cutoff": 0.10761904761904761
+        },
+        {
+          "m": 8,
+          "mean_squared_amplitude": 5.612123385426822e-14,
+          "rayleigh_cutoff": 0.11238095238095239
+        },
+        {
+          "m": 6,
+          "mean_squared_amplitude": 2.584048531360708e-14,
+          "rayleigh_cutoff": 0.07238095238095238
+        },
+        {
+          "m": -1,
+          "mean_squared_amplitude": 3.0112593162273576e-15,
+          "rayleigh_cutoff": 0.06761904761904762
+        }
+      ],
+      "spatial_interval": [
+        600.0,
+        1200.0
+      ],
+      "spatial_order_note": "Ey complex amplitudes after Bloch phase removal; not powers or shares"
+    },
+    "pml12_test": {
+      "status": "DIAGNOSTIC_COMPLETE",
+      "worker_status": "DIAGNOSTIC_COMPLETE",
+      "process_status": "DIAGNOSTIC_COMPLETE",
+      "status_authority": "process.json",
+      "qualification": false,
+      "simulation_time": 1200.0,
+      "elapsed_s": 15381.983014315367,
+      "sampling_audit": {
+        "original_samples": 4800,
+        "regular_samples": 4800,
+        "expected_dt": 0.25,
+        "excluded_samples": [],
+        "regular_interval": [
+          0.25,
+          1200.0
+        ],
+        "resampled": false,
+        "interpolated": false,
+        "original_evidence_modified": false,
+        "all_chunk_checksums_verified": true,
+        "chunks_verified": 86,
+        "all_numeric_arrays_finite": true,
+        "line_sampling": {
+          "original_samples": 600,
+          "regular_samples": 600,
+          "expected_dt": 2.0,
+          "excluded_samples": [],
+          "regular_interval": [
+            2.0,
+            1200.0
+          ],
+          "resampled": false,
+          "interpolated": false,
+          "original_evidence_modified": false
+        }
+      },
+      "spectra": {
+        "front_air": {
+          "sample_dt": 0.25,
+          "frequency_resolution": 0.001665972511453561,
+          "nyquist": 2.0,
+          "interval": [
+            600.0,
+            1200.0
+          ],
+          "peaks": [
+            {
+              "signed_frequency": -0.09162848812994585,
+              "absolute_frequency": 0.09162848812994585,
+              "relative_power": 1.0
+            },
+            {
+              "signed_frequency": -0.10162432319866722,
+              "absolute_frequency": 0.10162432319866722,
+              "relative_power": 0.03449909148129542
+            },
+            {
+              "signed_frequency": -0.09662640566430654,
+              "absolute_frequency": 0.09662640566430654,
+              "relative_power": 0.0003623679899753156
+            },
+            {
+              "signed_frequency": -0.08496459808413162,
+              "absolute_frequency": 0.08496459808413162,
+              "relative_power": 0.00012234034543409403
+            },
+            {
+              "signed_frequency": -0.10662224073302791,
+              "absolute_frequency": 0.10662224073302791,
+              "relative_power": 2.1587506685103097e-05
+            },
+            {
+              "signed_frequency": -0.07996668054977094,
+              "absolute_frequency": 0.07996668054977094,
+              "relative_power": 2.66191999020417e-06
+            }
+          ],
+          "convention": "Complex fields; retain both signed frequencies; Hann window; Ex/Ey power sum; no DC subtraction"
+        },
+        "back_air": {
+          "sample_dt": 0.25,
+          "frequency_resolution": 0.001665972511453561,
+          "nyquist": 2.0,
+          "interval": [
+            600.0,
+            1200.0
+          ],
+          "peaks": [
+            {
+              "signed_frequency": -0.09329446064139942,
+              "absolute_frequency": 0.09329446064139942,
+              "relative_power": 1.0
+            },
+            {
+              "signed_frequency": -0.08663057059558518,
+              "absolute_frequency": 0.08663057059558518,
+              "relative_power": 0.0004008835121947714
+            },
+            {
+              "signed_frequency": -0.0982923781757601,
+              "absolute_frequency": 0.0982923781757601,
+              "relative_power": 5.789679077428988e-05
+            },
+            {
+              "signed_frequency": -0.0816326530612245,
+              "absolute_frequency": 0.0816326530612245,
+              "relative_power": 1.220935726419143e-06
+            },
+            {
+              "signed_frequency": -0.10329029571012079,
+              "absolute_frequency": 0.10329029571012079,
+              "relative_power": 1.0101548455439604e-06
+            },
+            {
+              "signed_frequency": -0.10828821324448147,
+              "absolute_frequency": 0.10828821324448147,
+              "relative_power": 4.778905781022555e-07
+            }
+          ],
+          "convention": "Complex fields; retain both signed frequencies; Hann window; Ex/Ey power sum; no DC subtraction"
+        }
+      },
+      "back_Ey_spatial_orders": [
+        {
+          "m": 7,
+          "mean_squared_amplitude": 0.0008768125723117886,
+          "rayleigh_cutoff": 0.0923809523809524
+        },
+        {
+          "m": -2,
+          "mean_squared_amplitude": 1.2354240273787892e-06,
+          "rayleigh_cutoff": 0.08761904761904762
+        },
+        {
+          "m": -3,
+          "mean_squared_amplitude": 1.5411842872882571e-10,
+          "rayleigh_cutoff": 0.10761904761904761
+        },
+        {
+          "m": 6,
+          "mean_squared_amplitude": 4.4444387043991116e-14,
+          "rayleigh_cutoff": 0.07238095238095238
+        },
+        {
+          "m": -1,
+          "mean_squared_amplitude": 4.03150116855308e-15,
+          "rayleigh_cutoff": 0.06761904761904762
+        },
+        {
+          "m": 8,
+          "mean_squared_amplitude": 1.5444371038045302e-16,
+          "rayleigh_cutoff": 0.11238095238095239
+        }
+      ],
+      "spatial_interval": [
+        600.0,
+        1200.0
+      ],
+      "spatial_order_note": "Ey complex amplitudes after Bloch phase removal; not powers or shares"
+    }
+  },
+  "evidence_sha256": {
+    "inputs/H_result.json": "1837b4919b5197c602cde48d6bdaa9132346a7088b4625b2a1446127ffac43e7",
+    "inputs/H_stop.json": "a4c50d391d94167a319f7f540323b06b784b9b1d4e07dceea5b40e14d1da34b0",
+    "status.json": "69411b21a357f7a82175100da597fb9049f91bff09fdf9c30c6f4d49c5f71872",
+    "pml6_control/process.json": "e7f7c1ac51e680a853b2c27fb97e023da261a6b3113da1fccf391e603b92400e",
+    "pml6_control/result.json": "da9566cd86e90bb3008dab72be8de76a2990095bd8000b91392ffe8bc22a0e4f",
+    "pml6_control/metadata.json": "985d703db0b17186f46c4f68b4e23588544d9d29c3548e5031585d2477dc4f5d",
+    "pml6_control/power_trace.json": "45defa6a8ee6d3a5df2d20b0f30ba68d46dca74fbfa460da3c86229e5960261a",
+    "pml6_control/waveform_manifest.json": "1a23dbd8ad2beba3738a1288e2c83c4c15edbb1cae9c6c7854ea253e955bea54",
+    "pml12_test/process.json": "9237515002b55f6e54526b514ccc381323345f24886164a9657606d39b829d88",
+    "pml12_test/result.json": "6cc78ddf9df0353de3349e80244109922ca86d2bef341b3a0051db73bcff1b9d",
+    "pml12_test/metadata.json": "7626e4ec149c5e199727bd8b555445337c83e8b53fd48dc063dacd3a4d17b772",
+    "pml12_test/power_trace.json": "5e139f36dc4d83d20de9e4e7572ac174a92b4dfcad57f8a1547d3627c54e5f53",
+    "pml12_test/waveform_manifest.json": "40dd920d9bf4c4653465aeb319c32ade276923be3d29feff06c9861d49da700c"
+  },
+  "scope": "Specified Ordal Route A Ti model; 2D slanted slot; oxide=false; diagnostic only",
+  "limitations": [
+    "No new FDTD or qualification.",
+    "A recovered spectrum does not satisfy convergence or replay coverage.",
+    "A PML-thickness comparison is a sensitivity diagnostic, not a causal or qualification proof.",
+    "Signed complex field spectra and spatial amplitudes are not diffraction powers."
+  ],
+  "control_replay": {
+    "compared_samples": 600,
+    "through_time": 1200.0,
+    "max_power_error_over_reference": 2.6637531547534046e-15,
+    "max_tail_error_over_reference": 5.2026428803777434e-18,
+    "passed": true,
+    "scope": "Same source, material, grid and PML; passive-monitor omission replay only",
+    "required_coverage_time": 1000.0
+  },
+  "boundary_comparison": {
+    "status": "MATCHED_DIAGNOSTIC_COMPARISON",
+    "qualification": false,
+    "requested_interval": [
+      1000.0,
+      1200.0
+    ],
+    "interval": [
+      1000.0,
+      1200.0
+    ],
+    "samples": 801,
+    "sample_dt": 0.25,
+    "matching": "Exact identical retained timestamps; no interpolation or resampling",
+    "normalization": "(|Ex|²+|Ey|²) / H reference stop denominator",
+    "control_mean_intensity_ratio": 0.005603725878299913,
+    "thick_pml_mean_intensity_ratio": 0.0034733174741095655,
+    "thick_over_control": 0.6198228731279979,
+    "control_max_intensity_ratio": 0.006093013986960662,
+    "thick_pml_max_intensity_ratio": 0.0037178012376565804,
+    "thick_over_control_max": 0.6101744137815621,
+    "matched_window_spectra": {
+      "pml6_control": {
+        "front_air": {
+          "sample_dt": 0.25,
+          "frequency_resolution": 0.004993757802746567,
+          "nyquist": 2.0,
+          "interval": [
+            1000.0,
+            1200.0
+          ],
+          "peaks": [
+            {
+              "signed_frequency": -0.0898876404494382,
+              "absolute_frequency": 0.0898876404494382,
+              "relative_power": 1.0
+            },
+            {
+              "signed_frequency": -0.10486891385767791,
+              "absolute_frequency": 0.10486891385767791,
+              "relative_power": 0.016675932824980314
+            },
+            {
+              "signed_frequency": -0.06991260923845194,
+              "absolute_frequency": 0.06991260923845194,
+              "relative_power": 2.1456603614066783e-05
+            },
+            {
+              "signed_frequency": -0.12484394506866417,
+              "absolute_frequency": 0.12484394506866417,
+              "relative_power": 1.800446884230357e-06
+            },
+            {
+              "signed_frequency": -0.05493133583021224,
+              "absolute_frequency": 0.05493133583021224,
+              "relative_power": 8.920767168564422e-07
+            },
+            {
+              "signed_frequency": -0.13982521847690388,
+              "absolute_frequency": 0.13982521847690388,
+              "relative_power": 1.8575724270402972e-07
+            }
+          ],
+          "convention": "Complex fields; retain both signed frequencies; Hann window; Ex/Ey power sum; no DC subtraction"
+        },
+        "back_air": {
+          "sample_dt": 0.25,
+          "frequency_resolution": 0.004993757802746567,
+          "nyquist": 2.0,
+          "interval": [
+            1000.0,
+            1200.0
+          ],
+          "peaks": [
+            {
+              "signed_frequency": -0.09488139825218476,
+              "absolute_frequency": 0.09488139825218476,
+              "relative_power": 1.0
+            },
+            {
+              "signed_frequency": -0.0749063670411985,
+              "absolute_frequency": 0.0749063670411985,
+              "relative_power": 0.00011261133655227015
+            },
+            {
+              "signed_frequency": -0.10986267166042447,
+              "absolute_frequency": 0.10986267166042447,
+              "relative_power": 0.00010297748240850987
+            },
+            {
+              "signed_frequency": -0.0599250936329588,
+              "absolute_frequency": 0.0599250936329588,
+              "relative_power": 2.2348139781535674e-06
+            },
+            {
+              "signed_frequency": -0.12983770287141075,
+              "absolute_frequency": 0.12983770287141075,
+              "relative_power": 8.638925271943269e-07
+            },
+            {
+              "signed_frequency": -0.0449438202247191,
+              "absolute_frequency": 0.0449438202247191,
+              "relative_power": 2.1892466015071971e-07
+            }
+          ],
+          "convention": "Complex fields; retain both signed frequencies; Hann window; Ex/Ey power sum; no DC subtraction"
+        }
+      },
+      "pml12_test": {
+        "front_air": {
+          "sample_dt": 0.25,
+          "frequency_resolution": 0.004993757802746567,
+          "nyquist": 2.0,
+          "interval": [
+            1000.0,
+            1200.0
+          ],
+          "peaks": [
+            {
+              "signed_frequency": -0.0898876404494382,
+              "absolute_frequency": 0.0898876404494382,
+              "relative_power": 1.0
+            },
+            {
+              "signed_frequency": -0.10486891385767791,
+              "absolute_frequency": 0.10486891385767791,
+              "relative_power": 0.02298720093627477
+            },
+            {
+              "signed_frequency": -0.06991260923845194,
+              "absolute_frequency": 0.06991260923845194,
+              "relative_power": 2.1903007303939175e-05
+            },
+            {
+              "signed_frequency": -0.12484394506866417,
+              "absolute_frequency": 0.12484394506866417,
+              "relative_power": 1.7429574111861165e-06
+            },
+            {
+              "signed_frequency": -0.05493133583021224,
+              "absolute_frequency": 0.05493133583021224,
+              "relative_power": 9.093191127556864e-07
+            },
+            {
+              "signed_frequency": -0.13982521847690388,
+              "absolute_frequency": 0.13982521847690388,
+              "relative_power": 1.8280965365114643e-07
+            }
+          ],
+          "convention": "Complex fields; retain both signed frequencies; Hann window; Ex/Ey power sum; no DC subtraction"
+        },
+        "back_air": {
+          "sample_dt": 0.25,
+          "frequency_resolution": 0.004993757802746567,
+          "nyquist": 2.0,
+          "interval": [
+            1000.0,
+            1200.0
+          ],
+          "peaks": [
+            {
+              "signed_frequency": -0.09488139825218476,
+              "absolute_frequency": 0.09488139825218476,
+              "relative_power": 1.0
+            },
+            {
+              "signed_frequency": -0.0749063670411985,
+              "absolute_frequency": 0.0749063670411985,
+              "relative_power": 0.00010462919311887918
+            },
+            {
+              "signed_frequency": -0.10986267166042447,
+              "absolute_frequency": 0.10986267166042447,
+              "relative_power": 0.00010217852511699241
+            },
+            {
+              "signed_frequency": -0.0599250936329588,
+              "absolute_frequency": 0.0599250936329588,
+              "relative_power": 2.125108485775794e-06
+            },
+            {
+              "signed_frequency": -0.12983770287141075,
+              "absolute_frequency": 0.12983770287141075,
+              "relative_power": 8.488032947182905e-07
+            },
+            {
+              "signed_frequency": -0.0449438202247191,
+              "absolute_frequency": 0.0449438202247191,
+              "relative_power": 2.099545306708638e-07
+            }
+          ],
+          "convention": "Complex fields; retain both signed frequencies; Hann window; Ex/Ey power sum; no DC subtraction"
+        }
+      }
+    },
+    "interpretation": "PML-thickness sensitivity diagnostic only. Differences do not by themselves establish causality, convergence, or optical qualification."
+  },
+  "recovery_implementation_sha256": "8102cdc2301ebbb251fda9f18c0bfea587fbf83d84fbf34c3c8c4e02f873aae6"
+}

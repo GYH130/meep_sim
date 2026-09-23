@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/root/miniconda3/envs/meep_sim/bin/mpiexec",
+    "-n",
+    "4",
+    "/root/miniconda3/envs/meep_sim/bin/python",
+    "-B",
+    "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/tail_probe_v2.py",
+    "--case",
+    "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/tail_20260923_J/cases/pml12_test.json",
+    "--output",
+    "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/tail_20260923_J/pml12_test"
+  ],
+  "allowance_s": 18000.0,
+  "resources": {
+    "cpu_quota": 20.0,
+    "memory_limit_bytes": 96636764160,
+    "memory_current_bytes": 4938199040,
+    "memory_available_bytes": 91698565120
+  },
+  "memory_budget_bytes": 64188995583,
+  "threads_per_rank": 1
+}

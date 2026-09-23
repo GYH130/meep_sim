@@ -115,10 +115,18 @@
     },
     {
       "start": 1790150334.471136,
-      "end": null,
+      "end": 1790159147.2192156,
       "ranks": 4,
       "task_id": "tail_20260923_J:pml6_control",
-      "status": "RUNNING",
+      "status": "DIAGNOSTIC_COMPLETE",
+      "attempt": 1
+    },
+    {
+      "start": 1790159148.633102,
+      "end": 1790174532.6302598,
+      "ranks": 4,
+      "task_id": "tail_20260923_J:pml12_test",
+      "status": "DIAGNOSTIC_COMPLETE",
       "attempt": 1
     }
   ]

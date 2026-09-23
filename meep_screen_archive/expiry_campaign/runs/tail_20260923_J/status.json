@@ -1,18 +1,22 @@
 {
-  "state": "RUNNING",
-  "active_task": "pml6_control",
-  "supervisor_pid": 769564,
-  "pid": 769694,
-  "updated_utc": "2026-09-23T07:59:24.515647+00:00",
-  "elapsed_s": 30.0445461794734,
-  "peak_tree_rss_bytes": 2264551424,
-  "memory_budget_bytes": 64248315084,
-  "allowance_s": 14400.0,
+  "state": "DIAGNOSTIC_COMPLETE",
+  "active_task": null,
+  "tasks": [
+    {
+      "id": "pml6_control",
+      "status": "DIAGNOSTIC_COMPLETE"
+    },
+    {
+      "id": "pml12_test",
+      "status": "DIAGNOSTIC_COMPLETE"
+    }
+  ],
+  "qualification": false,
   "ledger": {
-    "active_solver_seconds": 71962.28216409683,
-    "rank_hours": 79.95809132284589,
-    "calendar_span_seconds": 157281.55213618279,
-    "attempts": 15
+    "active_solver_seconds": 96128.98283839226,
+    "rank_hours": 106.80998093154696,
+    "calendar_span_seconds": 181449.666711092,
+    "attempts": 16
   },
-  "qualification": false
+  "updated_utc": "2026-09-23T14:42:14.093482+00:00"
 }

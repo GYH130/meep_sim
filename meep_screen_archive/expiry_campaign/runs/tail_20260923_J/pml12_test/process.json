@@ -1,0 +1,11 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE",
+  "cleanup": {
+    "stopped": true,
+    "live_members": [],
+    "errors": []
+  },
+  "exit_code": 0,
+  "elapsed_s": 15384.404035001993,
+  "peak_tree_rss_bytes": 3173134336
+}

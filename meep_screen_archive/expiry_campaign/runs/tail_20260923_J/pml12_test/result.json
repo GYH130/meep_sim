@@ -1,0 +1,10 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE",
+  "qualification": false,
+  "simulation_time": 1200.0,
+  "source_end": 524.9999999999999,
+  "elapsed_s": 15381.983014315367,
+  "waveform_chunks": 86,
+  "case_sha256": "7ce58d8d23de28fd40c81a5875bc7b6418310df7287e020b6481fd2ed92a3ee3",
+  "error": null
+}
