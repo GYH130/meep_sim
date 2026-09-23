@@ -1,33 +1,33 @@
 {
   "run_id": "expiry_20260922_H",
-  "state": "RUNNING",
-  "updated_epoch": 1790084066.107076,
+  "state": "VALIDATION_FAILED",
+  "updated_epoch": 1790114138.2500346,
   "queue_pid": 682277,
-  "active_task": "flat32p",
-  "active_tasks": [
-    "flat32p"
-  ],
+  "active_task": null,
+  "active_tasks": [],
   "message": null,
   "resources": {
     "cpu_quota": 20.0,
     "memory_limit_bytes": 96636764160,
-    "memory_current_bytes": 3996475392,
-    "memory_available_bytes": 92640288768
+    "memory_current_bytes": 4090454016,
+    "memory_available_bytes": 92546310144
   },
   "usage": {
-    "active_solver_seconds": 32906.402368068695,
-    "rank_hours": 36.562669320901236,
-    "calendar_span_seconds": 90983.14354109764,
-    "attempts": 12
+    "active_solver_seconds": 62973.03275823593,
+    "rank_hours": 69.97003639803992,
+    "calendar_span_seconds": 121052.54945111275,
+    "attempts": 13
   },
-  "remaining_solver_seconds": 69497.892837286,
+  "remaining_solver_seconds": 39425.74986863136,
   "hard_deadline_epoch": 1790153564.0,
   "tasks": {
     "flat32p": {
-      "status": "NOT_RUN"
+      "status": "QUALIFIED",
+      "result_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/result.json"
     },
     "slot32p": {
-      "status": "NOT_RUN"
+      "status": "TIME_LIMIT_UNQUALIFIED",
+      "result_path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/result.json"
     },
     "strict32p": {
       "status": "NOT_RUN"
@@ -58,7 +58,6 @@
     "passed": false,
     "failures": [
       "Expiry batch is a validation subset, not full production qualification",
-      "flat32p: not qualified",
       "slot32p: not qualified",
       "strict32p: not qualified",
       "mirror32p: not qualified",
@@ -165,7 +164,7 @@
     ],
     "scope": "specified Ti model, 2D, 10.5 um, +/-30 deg, s/p only"
   },
-  "parallel_jobs": 1,
+  "parallel_jobs": 0,
   "concurrency_probe": {
     "status": "NOT_RUN",
     "policy": "serial_except_locked_two_job_probe"

@@ -1,5 +1,5 @@
 {
-  "generated_epoch": 1790084070.6014707,
+  "generated_epoch": 1790114142.0103724,
   "scope": "individual cases only; full production gate remains incomplete",
   "qualified": [
     {
@@ -15,6 +15,20 @@
         "reference_preload_audit.json": "bd8d0e21791619446d2332edb141ae664a8523c90aa3e4eb928d2ce0bf4924dd",
         "structure_chunks.h5": "85370b3730e379110c97ae2900eadaccd654ef60421d8bdc238c2d9142582047"
       }
+    },
+    {
+      "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/result.json",
+      "status": "QUALIFIED_SINGLE_CASE_EVIDENCE_VERIFIED",
+      "evidence_sha256": {
+        "monitor_planes.npz": "de3f3173f9ef2fba6b68eaa8b13b19227c5fd18b02d9606aaa9157d19223a0aa",
+        "volume_ED.npz": "176fa95729909811bf26a47474ef8bf1882db5fa99f51393be0436b23a7f7c6e",
+        "volume_metadata.json": "f94f7aca639b857da6e0e41c1c692ec95714286a7a65a7a942cbe814bb8ad3d5",
+        "orders.json": "5eb53ff13d6998fb29d63de35dc54f76d7be07ea1cf231f31a71696ca423c44c",
+        "structure_stop.json": "8e0c07b23eaea6ff0b350f1a2c54717c5fc9a9c4edf52191c4202470e1ee630a",
+        "reference_stop.json": "6af8673420335e77d2ebf3e6f81d9a72559ade05c6decb3204f05706e96f5913",
+        "reference_preload_audit.json": "bd8d0e21791619446d2332edb141ae664a8523c90aa3e4eb928d2ce0bf4924dd",
+        "structure_chunks.h5": "02cabfb0fe1cbc594edf8dac8e9a06d0239babacb2325ea29b6c4a3c04fcfc31"
+      }
     }
   ],
   "other_results": [
@@ -29,6 +43,10 @@
     {
       "path": "repair_diagnostics/slot_stability_20260922_G_off/averaging_off/result.json",
       "status": "INTERRUPTED"
+    },
+    {
+      "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/result.json",
+      "status": "TIME_LIMIT_UNQUALIFIED"
     }
   ]
 }

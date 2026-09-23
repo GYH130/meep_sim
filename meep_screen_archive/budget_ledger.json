@@ -91,10 +91,18 @@
     },
     {
       "start": 1790083525.3713138,
-      "end": null,
+      "end": 1790092544.3921597,
       "ranks": 4,
       "task_id": "flat32p",
-      "status": "RUNNING",
+      "status": "QUALIFIED",
+      "attempt": 1
+    },
+    {
+      "start": 1790092547.1676602,
+      "end": 1790114135.5129998,
+      "ranks": 4,
+      "task_id": "slot32p",
+      "status": "TIME_LIMIT_UNQUALIFIED",
       "attempt": 1
     }
   ]

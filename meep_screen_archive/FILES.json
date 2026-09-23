@@ -436,8 +436,8 @@
   },
   {
     "path": "budget_ledger.json",
-    "sha256": "ca63550451a1ff267feedacc8916055114a3a4b1ddf01d773268733d27fcecfd",
-    "bytes": 2481
+    "sha256": "9c4bc4902f2a20e9ee3df7416d308f23203f330bf5b52149a250cfbd293303e4",
+    "bytes": 2685
   },
   {
     "path": "runs/flat_r32_20260922_D/authorization.json",
@@ -950,9 +950,69 @@
     "bytes": 7793
   },
   {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/conditions.csv",
+    "sha256": "12b9a916be6f7df0abc3e4a271c7b8eece7d0261304a379b99f25eff3ec9a77c",
+    "bytes": 2649
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/figures/convergence_energy.png",
+    "sha256": "2eef1ea09971215989e72f47642a82e60d44b76c5b400fa14d4de83a774413de",
+    "bytes": 55868
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/figures/geometry.png",
+    "sha256": "72e858a912e52a1e64c31cbf278a251e4abd5bf2cf9e84be9008c92268b5c9ba",
+    "bytes": 19723
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/figures/paired_emissivity.png",
+    "sha256": "e8936074f30e9b1a45f8319be629e2248f91a2a3dee026c255b0aa460b377c9b",
+    "bytes": 21210
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/figures/parameter_sensitivity.png",
+    "sha256": "c986fdf916f77cd62c47de300524618bb90242bee973e3662630569c22240a05",
+    "bytes": 12490
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/figures/stopping.png",
+    "sha256": "e29043f683944dc68af709bf684f45842f2e107b5a16412339b954025c41264b",
+    "bytes": 73899
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/handoff.md",
+    "sha256": "4fda7d61d302e642b2019720564b0921d52d5b8f5f86bc3809fc4ff9ca1028e2",
+    "bytes": 2670
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/local_sensitivity.csv",
+    "sha256": "410f0d9cd0f7d301a94ed7fe486e60b5ee007fca5b7fc1e6bda3dc8475e7525c",
+    "bytes": 7
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/numerical_error_evidence.csv",
+    "sha256": "1a07d950dee69c490316ae44d20cfe512535cbdfc7b1f4ec493268838898e91c",
+    "bytes": 1214
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/paired_emissivity.csv",
+    "sha256": "410f0d9cd0f7d301a94ed7fe486e60b5ee007fca5b7fc1e6bda3dc8475e7525c",
+    "bytes": 7
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/reports/summary.json",
+    "sha256": "888528e972e21be7cbf73340849bbf28d6780f3cca6061f4622f3971561e1f55",
+    "bytes": 14484
+  },
+  {
     "path": "expiry_campaign/runs/expiry_20260922_H/status.json",
-    "sha256": "3867c036797f7c96bc0c8bf698f2070fbdf44797df77ee8e07cec8bcbba77f9a",
-    "bytes": 4130
+    "sha256": "b0e5b427f8a8ac3faf30f0995b61e9c1f8ba1d4b4f0f341bbfabfbcabe31f097",
+    "bytes": 4379
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/completion.json",
+    "sha256": "12cd5184eb11649d760d81c5f2cb68f9b16b475be37674838fd88393a2b6ae2c",
+    "bytes": 2458
   },
   {
     "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/invocation.json",
@@ -960,13 +1020,98 @@
     "bytes": 762
   },
   {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/orders.json",
+    "sha256": "5eb53ff13d6998fb29d63de35dc54f76d7be07ea1cf231f31a71696ca423c44c",
+    "bytes": 1513508
+  },
+  {
     "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/process.json",
     "sha256": "9485e0bab4d729bd2695bb829e5c3fc9e5ae8595a13c3c6deb7e8ba0a47a6faf",
     "bytes": 57
   },
   {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/reference_preload_audit.json",
+    "sha256": "bd8d0e21791619446d2332edb141ae664a8523c90aa3e4eb928d2ce0bf4924dd",
+    "bytes": 17274
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/reference_stop.json",
+    "sha256": "6af8673420335e77d2ebf3e6f81d9a72559ade05c6decb3204f05706e96f5913",
+    "bytes": 517106
+  },
+  {
     "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/reference_stop_partial.json",
-    "sha256": "971408e6352d1bbcf3b3abacf84247cf683270f84a0bcd8b85888dda4186babf",
-    "bytes": 2804
+    "sha256": "a1e825c3e1f4dba9f2e7d1d85255cd294f75b0c274b698782a8ad472e1ae95b4",
+    "bytes": 3604
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/result.json",
+    "sha256": "48cb97b05a490f512a89fe7eba32944fa180fb79d23967bab899e633ac0019b0",
+    "bytes": 1112440
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/session_cleanup.json",
+    "sha256": "76c081ab9b846efc7835a20be99e2096f2625348379a589416c1b02951576914",
+    "bytes": 60
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/structure_stop.json",
+    "sha256": "8e0c07b23eaea6ff0b350f1a2c54717c5fc9a9c4edf52191c4202470e1ee630a",
+    "bytes": 520667
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/structure_stop_partial.json",
+    "sha256": "196b0fbaa824994b78e120949c99e12fb8a26888712a82e3cc3750808e51a738",
+    "bytes": 3596
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/flat32p/attempt_1/volume_metadata.json",
+    "sha256": "f94f7aca639b857da6e0e41c1c692ec95714286a7a65a7a942cbe814bb8ad3d5",
+    "bytes": 44087
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/invocation.json",
+    "sha256": "18e7a9c60308519171822ee4670a171963de3fdf4f51e7d53659a66dfeb12421",
+    "bytes": 762
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/orders.json",
+    "sha256": "872bec243b4be40c8a8d86c52d3d52898ff831bca718be9193653295f60cf1b8",
+    "bytes": 1513091
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/process.json",
+    "sha256": "8eefc13c657a93db30f7728ec58d89de5f660f4ca7737ecab4ba0808f6344248",
+    "bytes": 57
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/reference_preload_audit.json",
+    "sha256": "bd8d0e21791619446d2332edb141ae664a8523c90aa3e4eb928d2ce0bf4924dd",
+    "bytes": 17274
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/result.json",
+    "sha256": "1837b4919b5197c602cde48d6bdaa9132346a7088b4625b2a1446127ffac43e7",
+    "bytes": 3398189
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/session_cleanup.json",
+    "sha256": "76c081ab9b846efc7835a20be99e2096f2625348379a589416c1b02951576914",
+    "bytes": 60
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/structure_stop.json",
+    "sha256": "a4c50d391d94167a319f7f540323b06b784b9b1d4e07dceea5b40e14d1da34b0",
+    "bytes": 2695629
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/structure_stop_partial.json",
+    "sha256": "1ca882841db1dcefba141a039c9123bed7f917ee68e643fe24da07fd15ded19a",
+    "bytes": 23900
+  },
+  {
+    "path": "expiry_campaign/runs/expiry_20260922_H/tasks/slot32p/attempt_1/volume_metadata.json",
+    "sha256": "5f12fb628f2a116624b808d01f37b4ea469052d9d62383d33343dea7a38c27aa",
+    "bytes": 44102
   }
 ]
