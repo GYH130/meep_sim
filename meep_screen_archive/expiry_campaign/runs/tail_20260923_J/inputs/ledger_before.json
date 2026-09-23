@@ -112,14 +112,6 @@
       "task_id": "tail_20260923_I:pml6_control",
       "status": "TIME_LIMIT_UNQUALIFIED",
       "attempt": 1
-    },
-    {
-      "start": 1790150334.471136,
-      "end": null,
-      "ranks": 4,
-      "task_id": "tail_20260923_J:pml6_control",
-      "status": "RUNNING",
-      "attempt": 1
     }
   ]
 }

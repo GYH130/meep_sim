@@ -1,0 +1,199 @@
+{
+  "case": {
+    "schema_version": 1,
+    "id": "pml6_control",
+    "geometry_id": "baseline",
+    "geometry": {
+      "period_um": 50.0,
+      "surface_fill": 0.692820323,
+      "axis_length_um": 40.0,
+      "tilt_deg": 30,
+      "thickness_um": 60.0,
+      "min_wall_um": 1.0,
+      "residual_um": 10.0
+    },
+    "case": "structure",
+    "material_path": "/root/autodl-tmp/meep_sim/meep_screen/assets/material/route_a_material.json",
+    "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+    "material_label": "Ordal_Route_A_frozen",
+    "implementation_sha256": "67f6d37394b51edaa5562fe27058723da3eae1e642d4d43ff4fe956aea6a568e",
+    "resolution": 32,
+    "courant": 0.25,
+    "wavelength_um": 10.5,
+    "polarization": "p",
+    "emission_theta_deg": 30,
+    "oxide_layer_in_model": false,
+    "mpi_ranks": 4,
+    "source_fwidth_fraction": 0.2,
+    "source_cutoff": 5.0,
+    "pml_um": 6.0,
+    "air_above_um": 12.0,
+    "air_below_um": 12.0,
+    "sample_interval_um": 2.0,
+    "stop_window_um": 20.0,
+    "stop_consecutive_windows": 3,
+    "intensity_decay": 0.0001,
+    "flux_drift_tolerance": 0.001,
+    "max_solver_seconds": 14400.0,
+    "strict_stop": false,
+    "qualification_scope": "10.5um; emission ±30deg; s/p; listed 2D geometries only",
+    "reference_intensity_floor_fraction": 1.0,
+    "stop_normalization_policy": "max(own_historic_peak, reference_source_on_non_pml_peak)",
+    "mpi_partition_policy": "fixed_binary_Y0_X0_ranks0123",
+    "eps_averaging": false,
+    "diagnostic_stop_time": 1200.0,
+    "diagnostic_only": true
+  },
+  "layout": {
+    "period": 50.0,
+    "height": 96.0,
+    "top": 42.0,
+    "surface": 30.0,
+    "bottom": -30.0,
+    "source": 39.6,
+    "refl": 34.2,
+    "trans": -36.0,
+    "non_pml_bottom": -42.0,
+    "non_pml_height": 84.0
+  },
+  "probe_names": [
+    "front_air",
+    "back_air",
+    "cavity_0.25",
+    "cavity_0.5",
+    "cavity_0.75",
+    "front_near_pml",
+    "back_near_slab",
+    "back_near_pml",
+    "back_off_axis"
+  ],
+  "probe_xy": {
+    "front_air": [
+      0.0,
+      34.2
+    ],
+    "back_air": [
+      0.0,
+      -36.0
+    ],
+    "cavity_0.25": [
+      5.0,
+      21.33974596215561
+    ],
+    "cavity_0.5": [
+      10.0,
+      12.679491924311225
+    ],
+    "cavity_0.75": [
+      15.0,
+      4.01923788646684
+    ],
+    "front_near_pml": [
+      0.0,
+      41.0
+    ],
+    "back_near_slab": [
+      0.0,
+      -31.0
+    ],
+    "back_near_pml": [
+      0.0,
+      -41.0
+    ],
+    "back_off_axis": [
+      12.5,
+      -36.0
+    ]
+  },
+  "line_y": {
+    "front": 34.2,
+    "back": -36.0,
+    "back_near_pml": -41.0
+  },
+  "point_component_names": [
+    "Ex",
+    "Ey",
+    "Hz"
+  ],
+  "source_end": 524.9999999999999,
+  "geometry_audit": {
+    "valid": true,
+    "status": "VALID",
+    "errors": [],
+    "vertices_x_depth": [
+      [
+        -17.320508075,
+        0.0
+      ],
+      [
+        17.320508075,
+        0.0
+      ],
+      [
+        32.99038105625,
+        27.1410161516758
+      ],
+      [
+        7.009618943749994,
+        42.1410161510793
+      ]
+    ],
+    "periodic_shifts": [
+      -1,
+      0
+    ],
+    "width_normal_um": 29.999999998807013,
+    "surface_opening_um": 34.64101615,
+    "vertical_center_depth_um": 34.64101615137755,
+    "maximum_depth_um": 42.1410161510793,
+    "min_wall_um": 13.30127019041492,
+    "residual_um": 17.8589838489207,
+    "period_um": 50.0,
+    "surface_fill": 0.692820323,
+    "axis_length_um": 40.0,
+    "tilt_deg": 30.0,
+    "thickness_um": 60.0,
+    "bottom_minimum_depth_um": 27.141016151675796,
+    "required_min_wall_um": 1.0,
+    "required_residual_um": 10.0,
+    "wall_lower_bound_um": 13.301270190414925,
+    "neighbor_shifts_checked": [
+      -1,
+      1
+    ],
+    "x_span_um": 50.31088913125,
+    "surface_bottom_regime_valid": true
+  },
+  "stability": {
+    "valid": true,
+    "status": "ADMITTED_ROUGH_SCREEN_ONLY",
+    "q": 0.0012017786121251758,
+    "pi_fmax_dt": 0.0012017786121251758,
+    "resolution": 32.0,
+    "courant": 0.25,
+    "dt": 0.0078125,
+    "highest_lorentz_frequency": 0.048964865695190866,
+    "rough_stability_passed": true,
+    "numerically_qualified": false,
+    "meep_length_unit_um": 1.0,
+    "wavelength_range_um": [
+      6.0,
+      16.0
+    ],
+    "checked_wavelength_um": 10.5,
+    "passivity_min_imag_epsilon": 178.5134388233293,
+    "criterion": "pi * highest_Lorentz_frequency * Courant / resolution < 1",
+    "note": "Necessary rough dispersion screen, not time-domain convergence certification"
+  },
+  "point_dt": 0.25,
+  "line_dt": 2.0,
+  "spatial_dt": 20.0,
+  "line_grid_stride": 4,
+  "snapshot_grid_stride": 8,
+  "intensity_definition": "abs(Ex)^2+abs(Ey)^2",
+  "diagnostic_only": true,
+  "qualification": false,
+  "passive_monitors_omitted": "Production flux/DFT/volume accumulators; fields/source/material/grid unchanged",
+  "restart": "New zero-field simulation; no field-state restart",
+  "meep_version": "1.33.0"
+}

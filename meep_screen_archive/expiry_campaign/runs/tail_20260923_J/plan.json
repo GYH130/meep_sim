@@ -1,0 +1,89 @@
+{
+  "run_id": "tail_20260923_J",
+  "created_utc": "2026-09-23T07:57:02.494568+00:00",
+  "tasks": [
+    {
+      "id": "pml6_control",
+      "path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/tail_20260923_J/cases/pml6_control.json",
+      "sha256": "76a09e3f55bfa175c21aa27a11e8e2e1b53ac68beed207cac5943f71dfaeecd8",
+      "single_cap": 14400.0
+    },
+    {
+      "id": "pml12_test",
+      "path": "/root/autodl-tmp/meep_sim/meep_screen/expiry_campaign/runs/tail_20260923_J/cases/pml12_test.json",
+      "sha256": "7ce58d8d23de28fd40c81a5875bc7b6418310df7287e020b6481fd2ed92a3ee3",
+      "single_cap": 18000.0
+    }
+  ],
+  "qualification": false,
+  "source_case_sha256": "11548920892d12198121b842869502bd0526f73316476c1052aa014abcd1be79",
+  "implementation_sha256": "67f6d37394b51edaa5562fe27058723da3eae1e642d4d43ff4fe956aea6a568e",
+  "inputs": {
+    "inputs/H_case.json": "11548920892d12198121b842869502bd0526f73316476c1052aa014abcd1be79",
+    "inputs/H_result.json": "1837b4919b5197c602cde48d6bdaa9132346a7088b4625b2a1446127ffac43e7",
+    "inputs/H_stop.json": "a4c50d391d94167a319f7f540323b06b784b9b1d4e07dceea5b40e14d1da34b0",
+    "inputs/ledger_before.json": "42503ab8fb98cc7f1a86854722bd8f257ede3a56297d51a020740e1dbe290949",
+    "inputs/rental_override.json": "1dd2832a22daf23e9bddee69c1b310ea979e32a72beb2c4dc8e7f2dd46270b7f",
+    "inputs/I_recovered_summary.json": "71caee3c0fd611678577771d028eb8b97edcd9413bb49d302200019143c7f44f",
+    "inputs/I_process.json": "011b90681f670d67eeedf8ad28b44c22de3eef98dae0342aafd2823ce4c2d2c0",
+    "inputs/fit_attempts.json": "adb8b39c9f50b13202f0cde90f78f9c8c66e50f39039eb06f344ef6f1ff9bdb5",
+    "inputs/fit_report.json": "eb80361da3d9a34ec6c38719304013d870f2fbf9677c5084075ae91921d9e2d6",
+    "inputs/ti_ordal_raw.csv": "46f75369d4894db8ccc6bb2a73fdc693ae26ee7d62e8b87ac6c7f84cc0a0dda3",
+    "inputs/ti_ordal_provenance.md": "3467b2f96d66b1ebd56ea76cecc7d4872df7b4247684e1dbc851be17acab09f1",
+    "inputs/fit_grid.csv": "274bc81d1a8ad50ad6a62ef8d845722d3d16b96d888d5dc1ae56bcb50c0748e2",
+    "inputs/fit_comparison.png": "47977c78c6eeba4750525e7e85a3fc7cc4a5a1fe5f42021a16e7eb19db61f8bf",
+    "inputs/route_a_material.json": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+    "inputs/fit_nodes.csv": "1180473795fdec73f93e71c6b22cf7358bcdd1a8e6767984ebaedcb7793ee34d",
+    "inputs/git_status_before.txt": "76c0ef484dc3fca2d6b032831bf5c1baba88ba3e336c8bc516cec99daa84c928",
+    "inputs/protected_changes.patch": "d9a8f1e709664cfe17c234159d61aef17196ac2fb697ad6eb093dc635e3c17e5",
+    "inputs/directory_presence.json": "5ffe75f0cb5e11b1864a178126eb30f41a3d5aa7b6c8cb26b427c419093098c8",
+    "inputs/frozen_core/__init__.py": "c8ff235ecd258e705cc55c4f337546e6cc45d4819c216191f195d66643407a87",
+    "inputs/frozen_core/cli.py": "f5bda45de582642dd44acf667fe3f0db40af262d045016f980f7dcda2bea4f74",
+    "inputs/frozen_core/common.py": "8c5a3545ebd969a042a0eab28edaad4321864c13303d4f86ec4fe9248ac50cf5",
+    "inputs/frozen_core/diagnostics.py": "88b774bd26f34353a2e82f3a83367833bef535e052ff98973b29f6d083c64cbd",
+    "inputs/frozen_core/flux_reference.py": "4777fb15bf401eae65f8c29c37a15340e311ed2ae46f51e6dba2edd5ac49713c",
+    "inputs/frozen_core/geometry.py": "4ad8af0fa7993577b37d8b2ea9997d18c542a66f45a3d2c5247bdad27b605434",
+    "inputs/frozen_core/manifest.py": "66bddf46f640557cc1b3d0f203e07f3c174863003c913832ffbfeae815d71585",
+    "inputs/frozen_core/materials.py": "35f1d2d5caaa3a727cca5789ce841a591fdf2f8c044fa0a64d9a0083a373d45a",
+    "inputs/frozen_core/meep_arrays.py": "bb6fb2efae2e81d480351d58427742fddd7e8eb5359874df92559ce1f8172140",
+    "inputs/frozen_core/queue.py": "7be8c38e9b7bcbff93c5175de77d9cfd1e28a46f820d13fb42339c343a67fbb7",
+    "inputs/frozen_core/reference_cache.py": "a3ab99e0c2f2f80f358d3a02d9d8534343c0bafd752178c8272bb89953046f3e",
+    "inputs/frozen_core/report.py": "0c8f119e14bc77aa76bffd76fcbdc117a81389fe3c399f2b1f00f33ae75b3429",
+    "inputs/frozen_core/session_guard.py": "bf35a9f3dd9e8015c9ff94fb0b5951ddef4f750cb5dbfe2f5df34663187a574d",
+    "inputs/frozen_core/solver.py": "e3241ec74ca26d66a23cb0b96d6b49a80e7cec5153430904a52792961c19462b",
+    "inputs/frozen_core/uncertainty.py": "23c72a74cf78a3cfd7bc59f3af4f61f924e9681901a2dbeeb31d9c30bec5adbb"
+  },
+  "scripts": {
+    "tail_probe_v2.py": "ca2ffe8e9f34a112da7c33b71cae3f0c25949d2b1252ed44b9c23a9ed19607f5",
+    "tail_analysis.py": "1a4600b0bba3d9de6defb220ad173becdd28a52dbad63015e9ee7e53683009f0",
+    "recover_tail_analysis.py": "8102cdc2301ebbb251fda9f18c0bfea587fbf83d84fbf34c3c8c4e02f873aae6",
+    "run_tail_j.py": "9d393fadae628babef18bf1c864b39199ac6a4019e7411e18b70c7d65baaf513",
+    "test_recover_tail_analysis.py": "f26b23d4604d679df7ff877b6486f600bb12a45c4e5067e172f67feeb7007bc6",
+    "test_tail_j.py": "bf9d1c16151e5a317da232de2cc644554740cae8999f05e3045fa2dc92deaebe"
+  },
+  "ledger_active_before": 71932.2376010418,
+  "budgets": {
+    "phase_solver_seconds": 32400.0,
+    "single_solver_seconds": {
+      "pml6_control": 14400.0,
+      "pml12_test": 18000.0
+    },
+    "total_solver_seconds": 172800.0,
+    "hard_deadline_epoch": null,
+    "mpi_ranks": 4,
+    "max_parallel": 1
+  },
+  "objective": "Replay H tail with complex waveforms; vary only PML thickness 6 to 12 um; identify spatial/spectral and boundary sensitivity",
+  "restart": "Fresh zero-field runs; no timestep resume; I remains timed-out and counted",
+  "measured_cost_basis": {
+    "I_seconds": 8955.034698180854,
+    "I_simulation_time": 914.625,
+    "target_simulation_time": 1200.0,
+    "control_expected_hours": 3.27,
+    "test_estimated_hours": 3.68,
+    "estimate_not_guarantee": true
+  },
+  "production_retries": 0,
+  "scope": "diagnostic only; no qualification, cache, production sweep or automatic retry",
+  "sha256": "971982ff018f14c70b08658fe57ef77d63fbd11473ee940e02054630f31c649c"
+}

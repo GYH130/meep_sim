@@ -9,7 +9,15 @@ This is NOT a validated size–performance study, 3D-hole prediction or real hig
 - Old flat r32 with smoothing passed; old slanted r32 overflowed.
 - Smoothing-off short test reached t≈98.83 before its wall limit; source ends at 525. It does NOT prove full stability.
 - H is a 10-condition validation subset with smoothing off, serial 4 MPI ranks, fixed gates, no retries or size scan.
-- A failed required condition stops expansion. Missing checks stay missing. Each case ≤6h; absolute stop 2026-09-23 08:52:44 UTC (16:52:44 China).
+- A failed required condition stops expansion. Missing checks stay missing. Original per-solver cap remains 6h. The former September 23 16:52 China rental deadline was withdrawn by the user; exact September 24 expiry time is not confirmed.
+
+## Latest bounded tail diagnostics
+- I stopped at its 2.5h cap (t914.625); original status and initial report are preserved for audit, not a completed study.
+- I `reports_recovered/` is the corrected offline analysis. A single terminal partial interval is explicitly excluded from FFT; original arrays remain unchanged.
+- J is a NEW zero-field matched pair: PML6 then PML12, target t1200, individual caps 4h and 5h, shared stage cap 9h within cumulative 48h.
+- PML12 requires completed control and the unchanged replay-through-t1000 gate. No automatic retries or production scan.
+- J status is in `expiry_campaign/runs/tail_20260923_J/status.json`; reports, when available, in its `reports_recovered/` directory. PREPARED/RUNNING is not completed.
+- Tail spectra and field amplitudes do not constitute qualified optical reflectance, emission or size trends.
 
 ## Preservation and costs
 This compact archive contains code, complete material inputs, configurations, small results/reports and raw-field fingerprints.
