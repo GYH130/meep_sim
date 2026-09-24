@@ -1,0 +1,67 @@
+ M review/MANIFEST.md
+ M review/geometry/slot_geometry.py
+ M review/geometry/test_slot_geometry.py
+ M src/slot_geometry.py
+ M tests/test_slot_geometry.py
+?? D15c_review_latest.tar.gz
+?? logs/run_20260918/D15b_cal2.log
+?? logs/run_20260918/D15b_cal4.log
+?? logs/run_20260918/D15b_cal4_r20.log
+?? logs/run_20260918/D15b_conc1.log
+?? logs/run_20260918/D15b_conc2.log
+?? logs/run_20260918/D15b_conc3.log
+?? logs/run_20260918/D15b_conc4.log
+?? logs/run_20260918/D15b_dbg.log
+?? logs/run_20260918/D15b_dbg2.log
+?? logs/run_20260918/D15b_dbg3.log
+?? logs/run_20260918/D15b_flat_r16P50T60_theta30p.log
+?? logs/run_20260918/D15b_flat_r16P50T60_theta30p_v2.log
+?? logs/run_20260918/D15b_flat_r16P50T60_theta30p_v3.log
+?? logs/run_20260918/D15b_flat_r16P50T60_theta30p_v4.log
+?? logs/run_20260918/D15b_r16P50T60_theta30p.log
+?? logs/run_20260918/D15b_r16P50T60_theta30p_v2.log
+?? logs/run_20260918/D15b_r16P50T60_theta30p_v3.log
+?? logs/run_20260918/D15b_r16P50T60_theta30p_v4.log
+?? logs/run_20260918/D15b_r20P50T60_theta30p.log
+?? logs/run_20260918/D15b_r20P50T60_theta30p_v2.log
+?? logs/run_20260918/D15b_r20P50T60_theta30p_v3.log
+?? logs/run_20260918/D15b_r20P50T60_theta30p_v4.log
+?? logs/run_20260918/D15b_r20P50T60_theta30p_v5.log
+?? logs/run_20260918/D15b_smoke4.log
+?? logs/run_20260918/D15bs3.log
+?? logs/run_20260918/D15bsmoke.log
+?? logs/run_20260918/D15bsmoke2.log
+?? meep_screen/
+?? reports/._D15C_SERVER_AND_TOKEN_GUIDE.md
+?? results/archive/superseded_d15b/
+?? results/tables/D15b_structure_cal2.json
+?? results/tables/D15b_structure_cal4.json
+?? results/tables/D15b_structure_cal4_r20.json
+?? results/tables/D15b_structure_conc1.json
+?? results/tables/D15b_structure_conc2.json
+?? results/tables/D15b_structure_conc3.json
+?? results/tables/D15b_structure_conc4.json
+?? results/tables/D15b_structure_dbg.json
+?? results/tables/D15b_structure_dbg3.json
+?? results/tables/D15b_structure_smoke4.json
+?? results/tables/D15b_structures3.json
+?? results/tables/D15b_structuresmoke2.json
+?? review/D15c_stage_report.md
+?? review/geometry/test_d15b_order_projection.py
+?? review/scripts/D15b_corrected_slanted_slot.py
+?? review/scripts/D15c_build_d15c_tables.py
+?? review/tables/D15b_flat_flat_r16P50T60_theta30p_v4.json
+?? review/tables/D15b_structure_r16P50T60_theta30p_v4.json
+?? review/tables/D15b_structure_r20P50T60_theta30p_v5.json
+?? review/tables/D15c_condition_table.csv
+?? review/tables/D15c_convergence_table.csv
+?? review/tables/D15c_flat_fresnel_audit.csv
+?? review/tables/D15c_order_table.csv
+?? review/tables/D15c_qualification_coverage.csv
+?? review/tables/D15c_summary.json
+?? review/untitled.py
+?? scripts/._export_d15c_stage.py
+?? tests/test_d15b_order_projection.py
+?? tests/test_d15b_region_partition.py
+?? tests/test_d15b_volume_weights.py
+?? untitled.txt

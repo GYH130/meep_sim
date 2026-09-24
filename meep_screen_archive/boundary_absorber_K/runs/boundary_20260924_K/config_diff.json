@@ -1,0 +1,66 @@
+{
+  "K_flat32p": {
+    "id": {
+      "before": "slot32p",
+      "after": "K_flat32p"
+    },
+    "case": {
+      "before": "structure",
+      "after": "flat"
+    },
+    "implementation_sha256": {
+      "before": "67f6d37394b51edaa5562fe27058723da3eae1e642d4d43ff4fe956aea6a568e",
+      "after": "9c2b217a329f816195b201d9bae76a6bcc5d3144ded21e031610560e55ad0578"
+    },
+    "pml_um": {
+      "before": 6.0,
+      "after": 12.0
+    },
+    "max_solver_seconds": {
+      "before": 21600.0,
+      "after": 14280.0
+    },
+    "boundary_kind": {
+      "before": null,
+      "after": "absorber"
+    },
+    "boundary_profile": {
+      "before": null,
+      "after": {
+        "name": "quadratic",
+        "R_asymptotic": 1e-15,
+        "mean_stretch": 1.0
+      }
+    }
+  },
+  "K_slot32p": {
+    "id": {
+      "before": "slot32p",
+      "after": "K_slot32p"
+    },
+    "implementation_sha256": {
+      "before": "67f6d37394b51edaa5562fe27058723da3eae1e642d4d43ff4fe956aea6a568e",
+      "after": "9c2b217a329f816195b201d9bae76a6bcc5d3144ded21e031610560e55ad0578"
+    },
+    "pml_um": {
+      "before": 6.0,
+      "after": 12.0
+    },
+    "max_solver_seconds": {
+      "before": 21600.0,
+      "after": 21480.0
+    },
+    "boundary_kind": {
+      "before": null,
+      "after": "absorber"
+    },
+    "boundary_profile": {
+      "before": null,
+      "after": {
+        "name": "quadratic",
+        "R_asymptotic": 1e-15,
+        "mean_stretch": 1.0
+      }
+    }
+  }
+}

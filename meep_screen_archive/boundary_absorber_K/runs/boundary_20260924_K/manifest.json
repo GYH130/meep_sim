@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "run_id": "boundary_20260924_K",
+  "created_utc": "2026-09-24T02:12:05.150298+00:00",
+  "stage_root": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K",
+  "run_dir": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K",
+  "ledger_path": "/root/autodl-tmp/meep_sim/meep_screen/budget_ledger.json",
+  "implementation_sha256": "9c2b217a329f816195b201d9bae76a6bcc5d3144ded21e031610560e55ad0578",
+  "material_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/assets/material/route_a_material.json",
+  "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+  "tasks": [
+    {
+      "id": "K_flat32p",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/cases/K_flat32p.json",
+      "depends_on": [],
+      "single_cap_seconds": 14400.0,
+      "geometry_id": "baseline",
+      "gate_role": "flat",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "case_fingerprint": "b46e7d5d88412bfd8449a48170ddfdec9b4382c141b84c0de8a0a6cdfc01b6e4"
+    },
+    {
+      "id": "K_slot32p",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/cases/K_slot32p.json",
+      "depends_on": [
+        "K_flat32p"
+      ],
+      "single_cap_seconds": 21600.0,
+      "geometry_id": "baseline",
+      "gate_role": "baseline",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "case_fingerprint": "db81a023d31dfa7393cf1c4b4772bd4cf47bee54a521823b13259a979c80c4b4"
+    }
+  ],
+  "production_gate_task_ids": [
+    "K_flat32p",
+    "K_slot32p"
+  ],
+  "gate_comparisons": [],
+  "qualification_subset_only": true,
+  "pilot_design_conditions": 0,
+  "scope": "Absorber12 versus prior PML12 boundary implementation; full-observable flat then baseline slot p30 at r32; no production sweep",
+  "missing_full_qualification": [
+    "mesh convergence",
+    "strict stop",
+    "mirror and straight-slot symmetry",
+    "s polarization",
+    "L48 boundary geometry"
+  ],
+  "budgets": {
+    "total_active_seconds": 132128.98283839226,
+    "stage_total_active_seconds": 172800.0,
+    "phase_solver_seconds": 36000.0,
+    "single_solver_seconds": 21600.0,
+    "hard_deadline_epoch": 1790253000.0,
+    "hard_deadline_utc": "2026-09-24T12:30:00Z",
+    "max_parallel": 1,
+    "mpi_ranks": 4,
+    "memory_fraction": 0.7
+  },
+  "rental_expiry_user_confirmed_epoch": 1790257980.0,
+  "rental_note": "User confirmed approximately 2026-09-24 21:53 Asia/Shanghai; stop solvers by 20:30, reserve 83 minutes for backup",
+  "automatic_retry_authorized": false,
+  "scripts_sha256": {
+    "export_k.py": "8e8ca373df1a8770eb31bde0cc91a7b8f897f29c4052b39f20eaca5a1f8f1eda",
+    "run_k.py": "3679be8fbaff527b20a5d3e2893036136f1e3b28dfa3427ac4a257c58635e46c",
+    "test_k_policy.py": "4a15648872ff6e18ca7e69c753474e9998dddbe2320ab411800299ee70a1b40d"
+  },
+  "inputs_sha256": {
+    "inputs/H_flat32p_case.json": "6ab1fa4b2c8920baab6221b8e8b223f043c60b28e0d36fe59e4af2fc54b4b5bb",
+    "inputs/H_flat32p_result.json": "48cb97b05a490f512a89fe7eba32944fa180fb79d23967bab899e633ac0019b0",
+    "inputs/H_flat32p_structure_stop.json": "8e0c07b23eaea6ff0b350f1a2c54717c5fc9a9c4edf52191c4202470e1ee630a",
+    "inputs/H_slot32p_case.json": "11548920892d12198121b842869502bd0526f73316476c1052aa014abcd1be79",
+    "inputs/H_slot32p_result.json": "1837b4919b5197c602cde48d6bdaa9132346a7088b4625b2a1446127ffac43e7",
+    "inputs/H_slot32p_structure_stop.json": "a4c50d391d94167a319f7f540323b06b784b9b1d4e07dceea5b40e14d1da34b0",
+    "inputs/ledger_before.json": "5f55ea27dd2e41134f78b96e5e880ec1a314cb44130f1d282e0533b2c3c4fd28",
+    "inputs/git_status_before.txt": "76c0ef484dc3fca2d6b032831bf5c1baba88ba3e336c8bc516cec99daa84c928",
+    "inputs/protected_changes.patch": "d9a8f1e709664cfe17c234159d61aef17196ac2fb697ad6eb093dc635e3c17e5",
+    "inputs/protected_fingerprints.json": "990e33a9a25f1d4b7b6108440cfdb4635efc6432ccd97b2d66a62e4999366970",
+    "inputs/directory_presence.json": "5ffe75f0cb5e11b1864a178126eb30f41a3d5aa7b6c8cb26b427c419093098c8"
+  },
+  "manifest_sha256": "2ef45e4292df1c388ad89c13330dedbbddff5b962261436691efe8508fdff680"
+}
