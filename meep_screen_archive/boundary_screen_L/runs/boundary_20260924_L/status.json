@@ -1,6 +1,58 @@
 {
-  "state": "PREPARED",
-  "production_qualified": false,
-  "updated_utc": "2026-09-24T10:04:53.867454+00:00",
-  "hard_deadline_epoch": 1790253000.0
+  "run_id": "boundary_20260924_L",
+  "state": "CHECKPOINT",
+  "updated_epoch": 1790244413.5837119,
+  "queue_pid": 880282,
+  "active_task": null,
+  "active_tasks": [],
+  "message": null,
+  "resources": {
+    "cpu_quota": 20.0,
+    "memory_limit_bytes": 96636764160,
+    "memory_current_bytes": 5115269120,
+    "memory_available_bytes": 91521495040
+  },
+  "usage": {
+    "active_solver_seconds": 105168.43075633049,
+    "rank_hours": 116.85381195147832,
+    "calendar_span_seconds": 251330.61934399605,
+    "attempts": 18
+  },
+  "remaining_solver_seconds": 3514.8100168704987,
+  "hard_deadline_epoch": 1790253000.0,
+  "tasks": {
+    "L_narrow_control_1e15": {
+      "status": "NUMERICAL_FAILED",
+      "result_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/runs/boundary_20260924_L/tasks/L_narrow_control_1e15/attempt_1/result.json"
+    },
+    "L_narrow_candidate_1e8": {
+      "status": "NOT_RUN"
+    },
+    "L_narrow_candidate_1e6": {
+      "status": "NOT_RUN"
+    }
+  },
+  "gate": {
+    "passed": false,
+    "failures": [
+      "Expiry batch is a validation subset, not full production qualification",
+      "No locked production qualification tasks",
+      "Missing locked mesh comparison",
+      "Missing locked mirror comparison",
+      "Missing locked strict comparison"
+    ],
+    "comparisons": [],
+    "scope": "specified Ti model, 2D, 10.5 um, +/-30 deg, s/p only"
+  },
+  "parallel_jobs": 0,
+  "concurrency_probe": {
+    "status": "NOT_RUN",
+    "policy": "serial_except_locked_two_job_probe"
+  },
+  "concurrency_reason": "One locked, useful two-job comparison; other conditions stay serial unless controlled evidence justifies wider concurrency",
+  "ai_usage": {
+    "actual_usage_available": false,
+    "rmb_cost": null,
+    "note": "The queue makes no AI/API calls. Server billing and this coding turn's AI usage are separate; neither RMB cost is inferred."
+  }
 }

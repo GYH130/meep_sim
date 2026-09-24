@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/root/miniconda3/envs/meep_sim/bin/mpiexec",
+    "-n",
+    "4",
+    "/root/miniconda3/envs/meep_sim/bin/python",
+    "-B",
+    "-m",
+    "ti2d.solver",
+    "--case",
+    "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/runs/boundary_20260924_L/cases/L_narrow_control_1e15.json",
+    "--output",
+    "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/runs/boundary_20260924_L/tasks/L_narrow_control_1e15/attempt_1"
+  ],
+  "memory_budget_bytes": 64063997132,
+  "timeout_seconds": 1200.0,
+  "fingerprint": "96176a6b58a9ac2e38c41fc8b77f4a127302e1e7527927808db923e12e7f9220",
+  "resources_before": {
+    "cpu_quota": 20.0,
+    "memory_limit_bytes": 96636764160,
+    "memory_current_bytes": 5116768256,
+    "memory_available_bytes": 91519995904
+  },
+  "attempt": 1
+}

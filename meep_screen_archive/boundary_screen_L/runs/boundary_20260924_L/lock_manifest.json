@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "74f64f702535968b75d2151f9e8571c1c08ccd996867e6fcbb2a79fad9b06eb7",
+  "implementation_sha256": "9c2b217a329f816195b201d9bae76a6bcc5d3144ded21e031610560e55ad0578",
+  "case_sha256": {
+    "L_narrow_control_1e15": "96176a6b58a9ac2e38c41fc8b77f4a127302e1e7527927808db923e12e7f9220",
+    "L_narrow_candidate_1e8": "f67689cb24c2e738b3875a3168255e323c23549e9c0175bb7be1bc7b47926247",
+    "L_narrow_candidate_1e6": "eb4229bb30e17049cf4102252742bf93369cd279f1b5fb95f5b5f9b3ab9ef258"
+  }
+}

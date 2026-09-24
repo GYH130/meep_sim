@@ -1,0 +1,66 @@
+{
+  "updated_utc": "2026-09-24T10:06:53.587798+00:00",
+  "final": false,
+  "control_audit": {
+    "reproduced": true,
+    "pseudo_reflection": 0.0017166551733513212,
+    "expected_pseudo_reflection": 0.0017166551733512714,
+    "absolute_tolerance": 1e-05,
+    "input_power_per_width": 732.1554206495377,
+    "expected_power_per_width": 732.155420649526,
+    "relative_power_tolerance": 0.001,
+    "qualification_unchanged": true,
+    "note": "Reproducing a known failure validates this diagnostic comparison, not the boundary."
+  },
+  "selected_candidate": null,
+  "conditions": [
+    {
+      "id": "L_narrow_control_1e15",
+      "status": "NUMERICAL_FAILED",
+      "failure_stage": "reference",
+      "reference_pseudo_reflection": 0.0017166551733513212,
+      "R": null,
+      "T": null,
+      "A_flux": null,
+      "A_vol": null,
+      "elapsed_s": 85.14034652709961
+    },
+    {
+      "id": "L_narrow_candidate_1e8",
+      "status": "NOT_RUN",
+      "failure_stage": null,
+      "reference_pseudo_reflection": null,
+      "R": null,
+      "T": null,
+      "A_flux": null,
+      "A_vol": null,
+      "elapsed_s": null
+    },
+    {
+      "id": "L_narrow_candidate_1e6",
+      "status": "NOT_RUN",
+      "failure_stage": null,
+      "reference_pseudo_reflection": null,
+      "R": null,
+      "T": null,
+      "A_flux": null,
+      "A_vol": null,
+      "elapsed_s": null
+    }
+  ],
+  "usage": {
+    "active_solver_seconds": 105168.43075633049,
+    "rank_hours": 116.85381195147832,
+    "calendar_span_seconds": 251330.61934399605,
+    "attempts": 18
+  },
+  "production_qualified": false,
+  "full_width_validation": "DEFERRED_RENTAL_WINDOW",
+  "scope": "Uniform air/slab numerical width 2 um; not a machining-period study or slotted-geometry qualification.",
+  "limits": "Selected profile remains unverified for the full 50 um cell and grazing slot diffraction orders.",
+  "ai_usage": {
+    "available": false,
+    "rmb": null,
+    "queue_ai_calls": 0
+  }
+}

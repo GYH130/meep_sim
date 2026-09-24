@@ -136,6 +136,14 @@
       "task_id": "K_flat32p",
       "status": "NUMERICAL_FAILED",
       "attempt": 1
+    },
+    {
+      "start": 1790244328.3929095,
+      "end": 1790244413.5828927,
+      "ranks": 4,
+      "task_id": "L_narrow_control_1e15",
+      "status": "NUMERICAL_FAILED",
+      "attempt": 1
     }
   ]
 }
