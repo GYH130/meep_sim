@@ -1,0 +1,105 @@
+{
+  "state": "VALIDATION_FAILED",
+  "scope": "Specified Ti optical model; 2D slanted slots, not 3D circular holes or high-temperature measured samples",
+  "oxide_layer_in_model": false,
+  "sample_oxidation_state": "unknown",
+  "gate": {
+    "passed": false,
+    "failures": [
+      "Expiry batch is a validation subset, not full production qualification",
+      "K_flat32p: not qualified",
+      "K_slot32p: not qualified",
+      "Missing locked mesh comparison",
+      "Missing locked mirror comparison",
+      "Missing locked strict comparison"
+    ],
+    "comparisons": [],
+    "scope": "specified Ti model, 2D, 10.5 um, +/-30 deg, s/p only"
+  },
+  "usage": {
+    "active_solver_seconds": 105083.24077320099,
+    "rank_hours": 116.75915641466777,
+    "calendar_span_seconds": 231843.57491230965,
+    "attempts": 17
+  },
+  "conditions": [
+    {
+      "id": "K_flat32p",
+      "phase": "validation",
+      "geometry_id": "baseline",
+      "gate_role": "flat",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "status": "NUMERICAL_FAILED",
+      "result_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/tasks/K_flat32p/attempt_1/result.json",
+      "material": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/assets/material/route_a_material.json",
+      "oxide_layer_in_model": false,
+      "elapsed_s": 8954.130536317825,
+      "mpi_ranks": 4,
+      "peak_process_tree_rss_bytes": 2658033664,
+      "R": null,
+      "T": null,
+      "A_flux": null,
+      "A_vol": null,
+      "order_R": null,
+      "order_T": null,
+      "reference_pseudo_reflection": null,
+      "period_um": 50.0,
+      "surface_fill": 0.692820323,
+      "axis_length_um": 40.0,
+      "tilt_deg": 30,
+      "thickness_um": 60.0,
+      "A_error_bound": null
+    },
+    {
+      "id": "K_slot32p",
+      "phase": "validation",
+      "geometry_id": "baseline",
+      "gate_role": "baseline",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "status": "NOT_RUN",
+      "result_path": "",
+      "material": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/assets/material/route_a_material.json",
+      "oxide_layer_in_model": false,
+      "elapsed_s": null,
+      "mpi_ranks": null,
+      "peak_process_tree_rss_bytes": null,
+      "R": null,
+      "T": null,
+      "A_flux": null,
+      "A_vol": null,
+      "order_R": null,
+      "order_T": null,
+      "reference_pseudo_reflection": null,
+      "period_um": 50.0,
+      "surface_fill": 0.692820323,
+      "axis_length_um": 40.0,
+      "tilt_deg": 30,
+      "thickness_um": 60.0,
+      "A_error_bound": null
+    }
+  ],
+  "pairs": [],
+  "sensitivities": [],
+  "concurrency_probe": {
+    "status": "NOT_RUN",
+    "policy": "serial_except_locked_two_job_probe"
+  },
+  "numerical_error_evidence": [],
+  "ai_usage": {
+    "actual_usage_available": false,
+    "rmb_cost": null,
+    "note": "The queue makes no AI/API calls. Server billing and this coding turn's AI usage are separate; neither RMB cost is inferred."
+  },
+  "numerical_error_note": "Grid differences are observations, not automatic rigorous error bounds. Contrast and resolved-effect claims require explicit validated error bounds.",
+  "figures": [
+    "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/figures/geometry.png",
+    "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/figures/convergence_energy.png",
+    "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/figures/paired_emissivity.png",
+    "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/figures/parameter_sensitivity.png",
+    "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/figures/stopping.png"
+  ]
+}

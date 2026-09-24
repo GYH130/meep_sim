@@ -1,0 +1,11 @@
+# Review and scan for secrets before upload; never upload credentials, sessions, caches, or large field files.
+ti2d/*.py
+tests/*.py
+/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/manifest.json
+/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/handoff.md
+/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/summary.json
+/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/conditions.csv
+/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/paired_emissivity.csv
+/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/local_sensitivity.csv
+/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/numerical_error_evidence.csv
+/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/runs/boundary_20260924_K/reports/figures/*.png

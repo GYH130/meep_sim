@@ -128,6 +128,14 @@
       "task_id": "tail_20260923_J:pml12_test",
       "status": "DIAGNOSTIC_COMPLETE",
       "attempt": 1
+    },
+    {
+      "start": 1790215972.2805262,
+      "end": 1790224926.538461,
+      "ranks": 4,
+      "task_id": "K_flat32p",
+      "status": "NUMERICAL_FAILED",
+      "attempt": 1
     }
   ]
 }
