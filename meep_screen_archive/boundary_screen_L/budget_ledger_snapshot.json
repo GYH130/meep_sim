@@ -152,6 +152,14 @@
       "task_id": "L_narrow_candidate_1e8",
       "status": "NUMERICAL_FAILED",
       "attempt": 1
+    },
+    {
+      "start": 1790244756.1580422,
+      "end": 1790245101.7386746,
+      "ranks": 4,
+      "task_id": "L_narrow_candidate_1e6",
+      "status": "NUMERICAL_FAILED",
+      "attempt": 1
     }
   ]
 }

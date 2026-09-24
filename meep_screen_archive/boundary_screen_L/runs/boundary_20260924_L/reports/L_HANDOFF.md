@@ -10,7 +10,7 @@ Full 50 um reference/flat/slot: DEFERRED_RENTAL_WINDOW. No production gate unloc
 |---|---|---|
 | L_narrow_control_1e15 | NUMERICAL_FAILED | 0.0017166551733513212 |
 | L_narrow_candidate_1e8 | NUMERICAL_FAILED | 0.0005077287405154168 |
-| L_narrow_candidate_1e6 | NOT_RUN | None |
+| L_narrow_candidate_1e6 | NUMERICAL_FAILED | 0.00022634801574899566 |
 
 Selected candidate: None
 Original pseudo-reflection acceptance remains <0.001; screening additionally requires <0.0005.

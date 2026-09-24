@@ -1,0 +1,638 @@
+{
+  "after_load": {
+    "passed": true,
+    "ranks": [
+      {
+        "rank": 0,
+        "errors": [],
+        "input_power": 1579.1770465023553,
+        "normalized_flux": -1.0,
+        "buffer_check": {
+          "valid": true,
+          "shape_match": true,
+          "finite": true,
+          "expected_nonzero": 0,
+          "loaded_nonzero": 0,
+          "expected_power": 0.0,
+          "loaded_power": 0.0,
+          "components": {
+            "E": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 0.0,
+              "rtol": 1e-12,
+              "valid": true
+            },
+            "H": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 0.0,
+              "rtol": 1e-12,
+              "valid": true
+            }
+          },
+          "errors": []
+        }
+      },
+      {
+        "rank": 1,
+        "errors": [],
+        "input_power": 1579.1770465023553,
+        "normalized_flux": -1.0,
+        "buffer_check": {
+          "valid": true,
+          "shape_match": true,
+          "finite": true,
+          "expected_nonzero": 0,
+          "loaded_nonzero": 0,
+          "expected_power": 0.0,
+          "loaded_power": 0.0,
+          "components": {
+            "E": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 0.0,
+              "rtol": 1e-12,
+              "valid": true
+            },
+            "H": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 0.0,
+              "rtol": 1e-12,
+              "valid": true
+            }
+          },
+          "errors": []
+        }
+      },
+      {
+        "rank": 2,
+        "errors": [],
+        "input_power": 1579.1770465023553,
+        "normalized_flux": -1.0,
+        "buffer_check": {
+          "valid": true,
+          "shape_match": true,
+          "finite": true,
+          "expected_nonzero": 132,
+          "loaded_nonzero": 132,
+          "expected_power": 61556.33420406043,
+          "loaded_power": 61556.33420406043,
+          "components": {
+            "E": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 0.7272857983844588,
+                "power": 17.018198212324858
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 0.7272857983844588,
+                "power": 17.018198212324858
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 7.272857983844588e-13,
+              "rtol": 1e-12,
+              "valid": true
+            },
+            "H": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 30.54037634198075,
+                "power": 61539.31600584811
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 30.54037634198075,
+                "power": 61539.31600584811
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 3.054037634198075e-11,
+              "rtol": 1e-12,
+              "valid": true
+            }
+          },
+          "errors": []
+        }
+      },
+      {
+        "rank": 3,
+        "errors": [],
+        "input_power": 1579.1770465023553,
+        "normalized_flux": -1.0,
+        "buffer_check": {
+          "valid": true,
+          "shape_match": true,
+          "finite": true,
+          "expected_nonzero": 132,
+          "loaded_nonzero": 132,
+          "expected_power": 61556.33420406044,
+          "loaded_power": 61556.33420406044,
+          "components": {
+            "E": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 0.727285798384459,
+                "power": 17.018198212324858
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 0.727285798384459,
+                "power": 17.018198212324858
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 7.272857983844589e-13,
+              "rtol": 1e-12,
+              "valid": true
+            },
+            "H": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 30.54037634198081,
+                "power": 61539.316005848115
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 30.54037634198081,
+                "power": 61539.316005848115
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 3.054037634198081e-11,
+              "rtol": 1e-12,
+              "valid": true
+            }
+          },
+          "errors": []
+        }
+      }
+    ],
+    "errors": [],
+    "global_buffer_power": {
+      "expected_power": 123112.66840812087,
+      "loaded_power": 123112.66840812087
+    },
+    "normalized_flux_target": -1.0,
+    "normalized_flux_tolerance": 1e-09,
+    "comparison": "loaded buffers == -cached incident buffers"
+  },
+  "after_zero_step_run": {
+    "passed": true,
+    "ranks": [
+      {
+        "rank": 0,
+        "errors": [],
+        "input_power": 1579.1770465023553,
+        "normalized_flux": -1.0,
+        "buffer_check": {
+          "valid": true,
+          "shape_match": true,
+          "finite": true,
+          "expected_nonzero": 0,
+          "loaded_nonzero": 0,
+          "expected_power": 0.0,
+          "loaded_power": 0.0,
+          "components": {
+            "E": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 0.0,
+              "rtol": 1e-12,
+              "valid": true
+            },
+            "H": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 0.0,
+              "rtol": 1e-12,
+              "valid": true
+            }
+          },
+          "errors": []
+        }
+      },
+      {
+        "rank": 1,
+        "errors": [],
+        "input_power": 1579.1770465023553,
+        "normalized_flux": -1.0,
+        "buffer_check": {
+          "valid": true,
+          "shape_match": true,
+          "finite": true,
+          "expected_nonzero": 0,
+          "loaded_nonzero": 0,
+          "expected_power": 0.0,
+          "loaded_power": 0.0,
+          "components": {
+            "E": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 0.0,
+              "rtol": 1e-12,
+              "valid": true
+            },
+            "H": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 0,
+                "max_abs": 0.0,
+                "power": 0.0
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 0.0,
+              "rtol": 1e-12,
+              "valid": true
+            }
+          },
+          "errors": []
+        }
+      },
+      {
+        "rank": 2,
+        "errors": [],
+        "input_power": 1579.1770465023553,
+        "normalized_flux": -1.0,
+        "buffer_check": {
+          "valid": true,
+          "shape_match": true,
+          "finite": true,
+          "expected_nonzero": 132,
+          "loaded_nonzero": 132,
+          "expected_power": 61556.33420406043,
+          "loaded_power": 61556.33420406043,
+          "components": {
+            "E": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 0.7272857983844588,
+                "power": 17.018198212324858
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 0.7272857983844588,
+                "power": 17.018198212324858
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 7.272857983844588e-13,
+              "rtol": 1e-12,
+              "valid": true
+            },
+            "H": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 30.54037634198075,
+                "power": 61539.31600584811
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 30.54037634198075,
+                "power": 61539.31600584811
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 3.054037634198075e-11,
+              "rtol": 1e-12,
+              "valid": true
+            }
+          },
+          "errors": []
+        }
+      },
+      {
+        "rank": 3,
+        "errors": [],
+        "input_power": 1579.1770465023553,
+        "normalized_flux": -1.0,
+        "buffer_check": {
+          "valid": true,
+          "shape_match": true,
+          "finite": true,
+          "expected_nonzero": 132,
+          "loaded_nonzero": 132,
+          "expected_power": 61556.33420406044,
+          "loaded_power": 61556.33420406044,
+          "components": {
+            "E": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 0.727285798384459,
+                "power": 17.018198212324858
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 0.727285798384459,
+                "power": 17.018198212324858
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 7.272857983844589e-13,
+              "rtol": 1e-12,
+              "valid": true
+            },
+            "H": {
+              "expected": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 30.54037634198081,
+                "power": 61539.316005848115
+              },
+              "loaded": {
+                "shape": [
+                  132
+                ],
+                "finite": true,
+                "nonzero": 66,
+                "max_abs": 30.54037634198081,
+                "power": 61539.316005848115
+              },
+              "shape_match": true,
+              "finite": true,
+              "max_abs_error": 0.0,
+              "atol": 3.054037634198081e-11,
+              "rtol": 1e-12,
+              "valid": true
+            }
+          },
+          "errors": []
+        }
+      }
+    ],
+    "errors": [],
+    "global_buffer_power": {
+      "expected_power": 123112.66840812087,
+      "loaded_power": 123112.66840812087
+    },
+    "normalized_flux_target": -1.0,
+    "normalized_flux_tolerance": 1e-09,
+    "comparison": "loaded buffers == -cached incident buffers"
+  },
+  "chunk_layout_signature": {
+    "schema_version": 1,
+    "datasets": {
+      "gv_nums": {
+        "shape": [
+          12
+        ],
+        "values": [
+          32,
+          1728,
+          0,
+          32,
+          1728,
+          0,
+          32,
+          1728,
+          0,
+          32,
+          1728,
+          0
+        ]
+      },
+      "gv_origins": {
+        "shape": [
+          12
+        ],
+        "values": [
+          -1.0,
+          -54.0,
+          0.0,
+          0.0,
+          -54.0,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "owners": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sha256": "37125b87501416e0585884139ea3fd932a5de7e18676656d34958dd664c6b538"
+  }
+}

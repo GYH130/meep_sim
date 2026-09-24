@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-09-24T10:12:34.788190+00:00",
-  "final": false,
+  "updated_utc": "2026-09-24T10:18:23.708546+00:00",
+  "final": true,
   "control_audit": {
     "reproduced": true,
     "pseudo_reflection": 0.0017166551733513212,
@@ -38,21 +38,21 @@
     },
     {
       "id": "L_narrow_candidate_1e6",
-      "status": "NOT_RUN",
+      "status": "NUMERICAL_FAILED",
       "failure_stage": null,
-      "reference_pseudo_reflection": null,
-      "R": null,
-      "T": null,
-      "A_flux": null,
-      "A_vol": null,
-      "elapsed_s": null
+      "reference_pseudo_reflection": 0.00022634801574899566,
+      "R": 0.9340863247827673,
+      "T": -4.990074736562651e-09,
+      "A_flux": 0.06591368020730742,
+      "A_vol": 0.042561202535658156,
+      "elapsed_s": 345.51349806785583
     }
   ],
   "usage": {
-    "active_solver_seconds": 105508.56812381744,
-    "rank_hours": 117.23174235979717,
-    "calendar_span_seconds": 251671.8231499195,
-    "attempts": 19
+    "active_solver_seconds": 105854.14875626564,
+    "rank_hours": 117.61572084029515,
+    "calendar_span_seconds": 252018.77512598038,
+    "attempts": 20
   },
   "production_qualified": false,
   "full_width_validation": "DEFERRED_RENTAL_WINDOW",

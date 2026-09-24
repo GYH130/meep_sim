@@ -151,23 +151,78 @@
   },
   {
     "path": "runs/boundary_20260924_L/reports/L_HANDOFF.md",
-    "sha256": "456f3cc9e4239ad2b432e795b7c57839367c53f154d1c422142c8fcde709643b",
-    "bytes": 1069
+    "sha256": "c0a796c74adf151442adf78b6cc5eae85569db4b194838b5f6ee68623272704e",
+    "bytes": 1096
   },
   {
     "path": "runs/boundary_20260924_L/reports/boundary_screen.png",
-    "sha256": "64d39c04d0b661a97b108c05db618497277da0fed4977ab7294cae626dfce128",
-    "bytes": 41005
+    "sha256": "40e51309e0abd8294dca939d69ee15890f21961659d9ffca08ef8851e3c9b283",
+    "bytes": 42958
   },
   {
     "path": "runs/boundary_20260924_L/reports/screen_summary.json",
-    "sha256": "ccddadcfd5e9d84b684e5862b5b977fc6a56166bd2dd73b6f49b37117e02a4e2",
-    "bytes": 2058
+    "sha256": "28fb186490f03d25e963e9427cbaa5d316b3271fe4835ad0d6687e62fbeba44b",
+    "bytes": 2162
   },
   {
     "path": "runs/boundary_20260924_L/status.json",
-    "sha256": "fd5488649375e8d03d05210f4c21995bce92a182cf1f727e4b13ae9fbc3ee2f3",
-    "bytes": 2058
+    "sha256": "8c3cc947809158c21147f7744dff8d7e37eb17e599de489ab5aa066d5c17f691",
+    "bytes": 2240
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/invocation.json",
+    "sha256": "11f6706dc1107130e7c7ad38f5e2d0adfd848f27228aae2733bc4ea80229ed78",
+    "bytes": 799
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/orders.json",
+    "sha256": "47a239bd46bfb9ea088062bf93ba0183cb2a69ec082dd43bb7e89a1b9d2ee633",
+    "bytes": 61268
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/process.json",
+    "sha256": "1314d447b22b04a264273c0edd4d9c737ae332678805560e9f894348b385d04b",
+    "bytes": 57
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/reference_preload_audit.json",
+    "sha256": "99959f66de97c131b69c8aae2cacdef9f65d4b8b8f1801b4a58f7dea317a758f",
+    "bytes": 16784
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/reference_stop.json",
+    "sha256": "4f9d49a715bb909831efcd4bc48f1ad745480b52c24983f1ba8b742548360010",
+    "bytes": 518276
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/reference_stop_partial.json",
+    "sha256": "34c99a015e9921625ef8c54d756dd0df2aaacc6f5648ca5d048d90ffaa52ae96",
+    "bytes": 2779
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/result.json",
+    "sha256": "3dde9e71ed8ebe2d073100455b2ac93e540b7a1e79b255a4e2b47c974a666b17",
+    "bytes": 1114898
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/session_cleanup.json",
+    "sha256": "76c081ab9b846efc7835a20be99e2096f2625348379a589416c1b02951576914",
+    "bytes": 60
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/structure_stop.json",
+    "sha256": "cc38bf9f9d1cba63913cab06d81905bc0b41a622c36a04bf1351fc84ab8f07a9",
+    "bytes": 521349
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/structure_stop_partial.json",
+    "sha256": "3fcdb9ee34fbeb03f7b020586ed020cb8f385d1df584b1f721791f40da7cd8dc",
+    "bytes": 2777
+  },
+  {
+    "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/volume_metadata.json",
+    "sha256": "e43c085a31bc70ee824f79509986c252a989c515ab62f5e7074cae47f9b3d5a3",
+    "bytes": 3004
   },
   {
     "path": "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e8/attempt_1/invocation.json",
@@ -396,12 +451,12 @@
   },
   {
     "path": "L_SNAPSHOT.json",
-    "sha256": "3f16d0c5ac5dc542d907208f59ecb7521575588bf3252f48c30f45343d5a0747",
-    "bytes": 14431
+    "sha256": "202895cd1ac96f648dd2fddc6b6853403e34007f73ce2837b485643772c6596c",
+    "bytes": 18704
   },
   {
     "path": "budget_ledger_snapshot.json",
-    "sha256": "bf1f8fcf3c65e53618053229269d614495e1b7dca03871bddfb7c975b6769629",
-    "bytes": 3877
+    "sha256": "9756cc1284d0e06138e1ce156a05a13fbe54c5a6d4f04a87da438cc8b4e18787",
+    "bytes": 4074
   }
 ]
