@@ -1,0 +1,40 @@
+[
+  {
+    "accepted": false,
+    "band_um": [
+      6,
+      16
+    ],
+    "interpolated_evaluation_points": 301,
+    "lorentz_terms": 0,
+    "normalization": "max(RMS(abs(epsilon_data)),1), fixed over band",
+    "normalization_scale": 569.4522969223233,
+    "normalized_max_error": 0.07187658572296267,
+    "normalized_rmse": 0.04001587247570724,
+    "optimizer_success": true,
+    "original_node_max_error": 0.05262767873758067,
+    "original_node_rmse": 0.03741280362759632,
+    "original_nodes": 6,
+    "passivity_min_imag_epsilon": 31.004502536280825,
+    "samples": 301
+  },
+  {
+    "accepted": true,
+    "band_um": [
+      6,
+      16
+    ],
+    "interpolated_evaluation_points": 301,
+    "lorentz_terms": 1,
+    "normalization": "max(RMS(abs(epsilon_data)),1), fixed over band",
+    "normalization_scale": 569.4522969223233,
+    "normalized_max_error": 0.007598375033962089,
+    "normalized_rmse": 0.002688122656853797,
+    "optimizer_success": true,
+    "original_node_max_error": 0.005226524188026836,
+    "original_node_rmse": 0.0027801840708468616,
+    "original_nodes": 6,
+    "passivity_min_imag_epsilon": 50.72612158214348,
+    "samples": 301
+  }
+]

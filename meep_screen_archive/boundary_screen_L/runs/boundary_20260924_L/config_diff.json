@@ -1,0 +1,204 @@
+{
+  "L_narrow_control_1e15": {
+    "id": {
+      "before": "K_flat32p",
+      "after": "L_narrow_control_1e15"
+    },
+    "geometry_id": {
+      "before": "baseline",
+      "after": "uniform_planar_diagnostic_width_2um"
+    },
+    "geometry": {
+      "before": {
+        "period_um": 50.0,
+        "surface_fill": 0.692820323,
+        "axis_length_um": 40.0,
+        "tilt_deg": 30,
+        "thickness_um": 60.0,
+        "min_wall_um": 1.0,
+        "residual_um": 10.0
+      },
+      "after": {
+        "period_um": 2.0,
+        "surface_fill": 0.2,
+        "axis_length_um": 0.5,
+        "tilt_deg": 30,
+        "thickness_um": 60.0,
+        "min_wall_um": 1.0,
+        "residual_um": 10.0
+      }
+    },
+    "material_path": {
+      "before": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/assets/material/route_a_material.json",
+      "after": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/assets/material/route_a_material.json"
+    },
+    "max_solver_seconds": {
+      "before": 14280.0,
+      "after": 1080.0
+    },
+    "diagnostic_scope": {
+      "before": null,
+      "after": "Uniform planar computational width only; placeholder slot is not instantiated; not a scientific period or geometry-sensitivity condition."
+    }
+  },
+  "L_narrow_candidate_1e8": {
+    "id": {
+      "before": "K_flat32p",
+      "after": "L_narrow_candidate_1e8"
+    },
+    "geometry_id": {
+      "before": "baseline",
+      "after": "uniform_planar_diagnostic_width_2um"
+    },
+    "geometry": {
+      "before": {
+        "period_um": 50.0,
+        "surface_fill": 0.692820323,
+        "axis_length_um": 40.0,
+        "tilt_deg": 30,
+        "thickness_um": 60.0,
+        "min_wall_um": 1.0,
+        "residual_um": 10.0
+      },
+      "after": {
+        "period_um": 2.0,
+        "surface_fill": 0.2,
+        "axis_length_um": 0.5,
+        "tilt_deg": 30,
+        "thickness_um": 60.0,
+        "min_wall_um": 1.0,
+        "residual_um": 10.0
+      }
+    },
+    "material_path": {
+      "before": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/assets/material/route_a_material.json",
+      "after": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/assets/material/route_a_material.json"
+    },
+    "max_solver_seconds": {
+      "before": 14280.0,
+      "after": 1080.0
+    },
+    "boundary_profile": {
+      "before": {
+        "name": "quadratic",
+        "R_asymptotic": 1e-15,
+        "mean_stretch": 1.0
+      },
+      "after": {
+        "name": "quadratic",
+        "R_asymptotic": 1e-08,
+        "mean_stretch": 1.0
+      }
+    },
+    "diagnostic_scope": {
+      "before": null,
+      "after": "Uniform planar computational width only; placeholder slot is not instantiated; not a scientific period or geometry-sensitivity condition."
+    }
+  },
+  "L_narrow_candidate_1e6": {
+    "id": {
+      "before": "K_flat32p",
+      "after": "L_narrow_candidate_1e6"
+    },
+    "geometry_id": {
+      "before": "baseline",
+      "after": "uniform_planar_diagnostic_width_2um"
+    },
+    "geometry": {
+      "before": {
+        "period_um": 50.0,
+        "surface_fill": 0.692820323,
+        "axis_length_um": 40.0,
+        "tilt_deg": 30,
+        "thickness_um": 60.0,
+        "min_wall_um": 1.0,
+        "residual_um": 10.0
+      },
+      "after": {
+        "period_um": 2.0,
+        "surface_fill": 0.2,
+        "axis_length_um": 0.5,
+        "tilt_deg": 30,
+        "thickness_um": 60.0,
+        "min_wall_um": 1.0,
+        "residual_um": 10.0
+      }
+    },
+    "material_path": {
+      "before": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/assets/material/route_a_material.json",
+      "after": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/assets/material/route_a_material.json"
+    },
+    "max_solver_seconds": {
+      "before": 14280.0,
+      "after": 1080.0
+    },
+    "boundary_profile": {
+      "before": {
+        "name": "quadratic",
+        "R_asymptotic": 1e-15,
+        "mean_stretch": 1.0
+      },
+      "after": {
+        "name": "quadratic",
+        "R_asymptotic": 1e-06,
+        "mean_stretch": 1.0
+      }
+    },
+    "diagnostic_scope": {
+      "before": null,
+      "after": "Uniform planar computational width only; placeholder slot is not instantiated; not a scientific period or geometry-sensitivity condition."
+    }
+  },
+  "L_full_flat_1e8": {
+    "id": {
+      "before": "K_flat32p",
+      "after": "L_full_flat_1e8"
+    },
+    "material_path": {
+      "before": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/assets/material/route_a_material.json",
+      "after": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/assets/material/route_a_material.json"
+    },
+    "boundary_profile": {
+      "before": {
+        "name": "quadratic",
+        "R_asymptotic": 1e-15,
+        "mean_stretch": 1.0
+      },
+      "after": {
+        "name": "quadratic",
+        "R_asymptotic": 1e-08,
+        "mean_stretch": 1.0
+      }
+    },
+    "diagnostic_scope": {
+      "before": null,
+      "after": "Full-width 50 um planar qualification only; no slot or production scan authorized."
+    }
+  },
+  "L_full_flat_1e6": {
+    "id": {
+      "before": "K_flat32p",
+      "after": "L_full_flat_1e6"
+    },
+    "material_path": {
+      "before": "/root/autodl-tmp/meep_sim/meep_screen/boundary_absorber_K/assets/material/route_a_material.json",
+      "after": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/assets/material/route_a_material.json"
+    },
+    "boundary_profile": {
+      "before": {
+        "name": "quadratic",
+        "R_asymptotic": 1e-15,
+        "mean_stretch": 1.0
+      },
+      "after": {
+        "name": "quadratic",
+        "R_asymptotic": 1e-06,
+        "mean_stretch": 1.0
+      }
+    },
+    "diagnostic_scope": {
+      "before": null,
+      "after": "Full-width 50 um planar qualification only; no slot or production scan authorized."
+    }
+  }
+}

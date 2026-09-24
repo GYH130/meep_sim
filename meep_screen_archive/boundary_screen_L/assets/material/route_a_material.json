@@ -1,0 +1,39 @@
+{
+  "epsilon": 45.227563009121205,
+  "fit_accepted": true,
+  "meep_length_unit_um": 1.0,
+  "model": "susceptibility",
+  "provenance": {
+    "data_file": "data/materials/ti_ordal_raw.csv",
+    "doi": "https://doi.org/10.1364/AO.27.001203",
+    "interpolation": "PCHIP of n and k versus wavelength, no extrapolation",
+    "license": "CC0 database transcription",
+    "source_url": "https://raw.githubusercontent.com/polyanskiy/refractiveindex.info-database/master/database/data/main/Ti/nk/Ordal.yml",
+    "table": "Table III, Optical Constants of Titanium",
+    "temperature_k": null,
+    "temperature_note": "Room-temperature measurements combined with prior data and Kramers-Kronig analysis; no exact temperature assigned to the full table."
+  },
+  "route_a_ti": true,
+  "sample_validated": false,
+  "source_data": "/Users/luckydog/Documents/ChatGPT/meep/meep_screen/data/materials/ti_ordal_raw.csv",
+  "source_sha256": "46f75369d4894db8ccc6bb2a73fdc693ae26ee7d62e8b87ac6c7f84cc0a0dda3",
+  "susceptibilities": [
+    {
+      "frequency": 0.048964865695190866,
+      "gamma": 0.15519101240472088,
+      "sigma": 774.859120638234,
+      "type": "Lorentz"
+    },
+    {
+      "frequency": 0.10206207261596575,
+      "gamma": 0.017399967134335077,
+      "sigma": 364.95481947517675,
+      "type": "Drude"
+    }
+  ],
+  "temperature_k": null,
+  "wavelength_range_um": [
+    6,
+    16
+  ]
+}

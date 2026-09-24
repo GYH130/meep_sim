@@ -1,0 +1,7 @@
+{
+  "review/MANIFEST.md": "456ba9961d9be3312da1db65690e9e56b2715e8946185571feaaf17c9c21e3ed",
+  "review/geometry/slot_geometry.py": "982ab16dacacd6b05d4328261ca1bea9f73a127d22f63e18bc036e45ff3babb7",
+  "review/geometry/test_slot_geometry.py": "f8f78e3d0ad5f689ce46b9adee9fc87d5968c23f3773cb4be7b33f9e569a20ca",
+  "src/slot_geometry.py": "982ab16dacacd6b05d4328261ca1bea9f73a127d22f63e18bc036e45ff3babb7",
+  "tests/test_slot_geometry.py": "f8f78e3d0ad5f689ce46b9adee9fc87d5968c23f3773cb4be7b33f9e569a20ca"
+}

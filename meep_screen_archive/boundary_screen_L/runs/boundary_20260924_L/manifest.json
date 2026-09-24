@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "run_id": "boundary_20260924_L",
+  "created_utc": "2026-09-24T10:04:53.858997+00:00",
+  "stage_root": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L",
+  "run_dir": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/runs/boundary_20260924_L",
+  "ledger_path": "/root/autodl-tmp/meep_sim/meep_screen/budget_ledger.json",
+  "implementation_sha256": "9c2b217a329f816195b201d9bae76a6bcc5d3144ded21e031610560e55ad0578",
+  "material_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/assets/material/route_a_material.json",
+  "material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+  "tasks": [
+    {
+      "id": "L_narrow_control_1e15",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/runs/boundary_20260924_L/cases/L_narrow_control_1e15.json",
+      "depends_on": [],
+      "single_cap_seconds": 1200.0,
+      "geometry_id": "uniform_planar_diagnostic_width_2um",
+      "gate_role": "flat",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "case_fingerprint": "b7cbb97255ac8de8121697f9ee510e9acc7ee4975565bf23a9d0ae23b377ada4"
+    },
+    {
+      "id": "L_narrow_candidate_1e8",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/runs/boundary_20260924_L/cases/L_narrow_candidate_1e8.json",
+      "depends_on": [],
+      "single_cap_seconds": 1200.0,
+      "geometry_id": "uniform_planar_diagnostic_width_2um",
+      "gate_role": "flat",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "case_fingerprint": "f0164f728f683c6fa43649f498404819c442fec16ec29da857ff32f56eca2410"
+    },
+    {
+      "id": "L_narrow_candidate_1e6",
+      "phase": "validation",
+      "case_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/runs/boundary_20260924_L/cases/L_narrow_candidate_1e6.json",
+      "depends_on": [],
+      "single_cap_seconds": 1200.0,
+      "geometry_id": "uniform_planar_diagnostic_width_2um",
+      "gate_role": "flat",
+      "resolution": 32,
+      "polarization": "p",
+      "emission_theta_deg": 30,
+      "tilt_deg": 30,
+      "strict_stop": false,
+      "case_fingerprint": "51eb585c2d58d0d75cbc291b7c594e93ba482ca09ef8bad651f79c4c9e16b84b"
+    }
+  ],
+  "production_gate_task_ids": [],
+  "gate_comparisons": [],
+  "qualification_subset_only": true,
+  "pilot_design_conditions": 0,
+  "scope": "Fixed two-strength Absorber12 narrow planar boundary screening with replay control only; full-width and slot deferred because rental window is insufficient",
+  "l_selection": {
+    "control_id": "L_narrow_control_1e15",
+    "candidate_ids": [
+      "L_narrow_candidate_1e8",
+      "L_narrow_candidate_1e6"
+    ],
+    "full_ids": [],
+    "future_full_ids": [
+      "L_full_flat_1e8",
+      "L_full_flat_1e6"
+    ],
+    "full_status": "DEFERRED_RENTAL_WINDOW",
+    "first_qualified_candidate_only": true,
+    "candidate_reference_pseudo_reflection_max": 0.0005,
+    "abort_after_timeout_or_crash": true,
+    "reference_proof_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/runs/boundary_20260924_L/inputs/K_reference_scalars.json",
+    "control_status": "DIAGNOSTIC_REPRODUCED_NOT_QUALIFIED",
+    "skip_second_candidate_after_first_pass": true,
+    "stop_on_control_mismatch": true,
+    "no_slot": true
+  },
+  "missing_full_qualification": [
+    "baseline slot stop",
+    "mesh convergence",
+    "strict stop",
+    "mirror and straight-slot symmetry",
+    "s polarization",
+    "L48 boundary geometry"
+  ],
+  "budgets": {
+    "total_active_seconds": 108683.24077320099,
+    "stage_total_active_seconds": 172800.0,
+    "phase_solver_seconds": 3600.0,
+    "single_solver_seconds": 21600.0,
+    "hard_deadline_epoch": 1790253000.0,
+    "hard_deadline_utc": "2026-09-24T12:30:00Z",
+    "max_parallel": 1,
+    "mpi_ranks": 4,
+    "memory_fraction": 0.7
+  },
+  "rental_expiry_user_confirmed_epoch": 1790257980.0,
+  "rental_note": "Expiry approximately 2026-09-24 21:53 China time; solver cutoff20:30; 83 minutes reserved for backup.",
+  "automatic_retry_authorized": false,
+  "scripts_sha256": {
+    "export_l.py": "dbedcd63f325e106717689672f60d3593b56c0e8807f5a8bfcd778bd7d158103",
+    "prepare_l.py": "eb50c251a163faf72ed1c042340379da8944036992b9a6686bd72ef98056a4e7",
+    "run_l.py": "9ee2da44bccac6b29e913e079255b37e62b0b96ef26254632bbb8a6118b038a8",
+    "test_l_control.py": "07423a6557c6e96f917f72cacddd6978132b8e77d7e590f10dff53ec5ab20882"
+  },
+  "inputs_sha256": {
+    "inputs/K_flat32p_case.json": "7c0ff7be770b391954e9f0cb289e7018f9d94c9431ad7e9c42e0f6694ee75271",
+    "inputs/K_reference_scalars.json": "eac1b9dd09e444d26b0c31fc38d1b11523b489db752fb0078f3751de309dedfd",
+    "inputs/H_flat32p_case.json": "6ab1fa4b2c8920baab6221b8e8b223f043c60b28e0d36fe59e4af2fc54b4b5bb",
+    "inputs/H_slot32p_case.json": "11548920892d12198121b842869502bd0526f73316476c1052aa014abcd1be79",
+    "inputs/H_flat32p_result.json": "48cb97b05a490f512a89fe7eba32944fa180fb79d23967bab899e633ac0019b0",
+    "inputs/H_slot32p_result.json": "1837b4919b5197c602cde48d6bdaa9132346a7088b4625b2a1446127ffac43e7",
+    "inputs/ledger_before.json": "6bcabe01a59b15cecc5ffb3b1dc2f0a54f32ec1a24133fe62791674ccf4ced21",
+    "inputs/git_status_before.txt": "76c0ef484dc3fca2d6b032831bf5c1baba88ba3e336c8bc516cec99daa84c928",
+    "inputs/protected_changes.patch": "d9a8f1e709664cfe17c234159d61aef17196ac2fb697ad6eb093dc635e3c17e5",
+    "inputs/protected_fingerprints.json": "990e33a9a25f1d4b7b6108440cfdb4635efc6432ccd97b2d66a62e4999366970",
+    "inputs/directory_presence.json": "5ffe75f0cb5e11b1864a178126eb30f41a3d5aa7b6c8cb26b427c419093098c8"
+  },
+  "future_configs_sha256": {
+    "configs/future/L_full_flat_1e8.json": "c2c29500fe432d8d2aa3df648d18bb4b6fe804a4500b4ffa8eef796cefde5240",
+    "configs/future/L_full_flat_1e6.json": "d619c55a833a6eb35efb6fbba7cf500795c9c98c9d2f1aaf50f4120b6af3a1e6"
+  },
+  "material_files_sha256": {
+    "assets/material/fit_attempts.json": "adb8b39c9f50b13202f0cde90f78f9c8c66e50f39039eb06f344ef6f1ff9bdb5",
+    "assets/material/fit_report.json": "eb80361da3d9a34ec6c38719304013d870f2fbf9677c5084075ae91921d9e2d6",
+    "assets/material/ti_ordal_raw.csv": "46f75369d4894db8ccc6bb2a73fdc693ae26ee7d62e8b87ac6c7f84cc0a0dda3",
+    "assets/material/ti_ordal_provenance.md": "3467b2f96d66b1ebd56ea76cecc7d4872df7b4247684e1dbc851be17acab09f1",
+    "assets/material/fit_grid.csv": "274bc81d1a8ad50ad6a62ef8d845722d3d16b96d888d5dc1ae56bcb50c0748e2",
+    "assets/material/fit_comparison.png": "47977c78c6eeba4750525e7e85a3fc7cc4a5a1fe5f42021a16e7eb19db61f8bf",
+    "assets/material/route_a_material.json": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+    "assets/material/fit_nodes.csv": "1180473795fdec73f93e71c6b22cf7358bcdd1a8e6767984ebaedcb7793ee34d"
+  },
+  "manifest_sha256": "95666f0df6bafd3c40fd4cb3fb4d037bae18688e8fd12552a984f0e53f1236a4"
+}
