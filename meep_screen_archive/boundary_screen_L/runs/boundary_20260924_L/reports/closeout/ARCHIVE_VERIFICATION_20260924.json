@@ -1,0 +1,28 @@
+{
+  "verification_date_cst": "2026-09-24",
+  "scope": "Post-run read-only integrity audit; scientific qualification unchanged",
+  "source_l_data_commit": "5138fbbea1fb59444fd9587aa90dbc4440f1fc2f",
+  "l_raw_internal_files_checked": 127,
+  "l_compact_inventory_files_checked": 92,
+  "mismatches": [],
+  "protected_prior_modified_files_unchanged": 5,
+  "live_solver_processes_at_audit": 0,
+  "open_solver_ledger_intervals_at_audit": 0,
+  "archives": [
+    {"path": "H_raw_evidence.tar.gz", "bytes": 764425901, "sha256": "16cb32946686338ee01321ddf9b88774fce391cb141b42689a73610b40b4fa3d", "verified": true},
+    {"path": "I_tail_diagnostic/I_raw_evidence.tar.gz", "bytes": 31865935, "sha256": "fca3df0d1b267ccab64ededd28ca145a0e6e5ad0f8cacdbe3f42d29e32e4cee2", "verified": true},
+    {"path": "J_tail_diagnostic/J_raw_evidence.tar.gz", "bytes": 82833332, "sha256": "1a789b0541ebe377cb1d40e5219a1f105a90a2fb1c22576e531295ac647900cd", "verified": true},
+    {"path": "K_boundary_validation/K_raw_evidence_20260924T044210074159Z.tar.gz", "bytes": 1583962, "sha256": "5008e15b512547fcce8bddf099f169b3e954f0b08ef7935d5a31ec2b52dcd80d", "verified": true},
+    {"path": "L_boundary_screen/L_raw_evidence_20260924T101823822823Z.tar.gz", "bytes": 32242709, "sha256": "0e96c13a36eb92e8b5fd9d01117c3a247f4493cc38a771d6ce3427fc2c6a3096", "verified": true},
+    {"path": "L_boundary_screen/L_compact_20260924T101823822823Z.tar.gz", "bytes": 1175817, "sha256": "f4ced5327a959cbef2f40f094f733e53c39b9c2dabec3aacd1f9956ae8eac0cb", "verified": true}
+  ],
+  "archive_paths_relative_to": "meep_screen/backups/20260922_expiry/",
+  "scientific_status": "SCREEN_NO_CANDIDATE_PASSED",
+  "production_qualified": false,
+  "l_solver_union_seconds": 770.9079830646515,
+  "l_rank_hours": 0.8565644256273905,
+  "cumulative_solver_union_seconds": 105854.14875626564,
+  "cumulative_rank_hours": 117.61572084029515,
+  "actual_ai_tokens": null,
+  "actual_rmb_cost": null
+}

@@ -160,6 +160,21 @@
     "bytes": 42958
   },
   {
+    "path": "runs/boundary_20260924_L/reports/closeout/ARCHIVE_VERIFICATION_20260924.json",
+    "sha256": "8e1f107bdcf0451333cf2cba42724392c02bd1962217e72ce86283b536bc6818",
+    "bytes": 1937
+  },
+  {
+    "path": "runs/boundary_20260924_L/reports/closeout/CLOSEOUT_20260924.md",
+    "sha256": "835ae29b07066b88e517a37f56413cdca091cca353e3263636193f1531995e7d",
+    "bytes": 6687
+  },
+  {
+    "path": "runs/boundary_20260924_L/reports/closeout/replay_plane_ratio.py",
+    "sha256": "cf86482f03c7f1701aec442dd42c4d5cea286f25b94c926b967cd815a2f3691c",
+    "bytes": 3312
+  },
+  {
     "path": "runs/boundary_20260924_L/reports/screen_summary.json",
     "sha256": "28fb186490f03d25e963e9427cbaa5d316b3271fe4835ad0d6687e62fbeba44b",
     "bytes": 2162
@@ -451,8 +466,8 @@
   },
   {
     "path": "L_SNAPSHOT.json",
-    "sha256": "202895cd1ac96f648dd2fddc6b6853403e34007f73ce2837b485643772c6596c",
-    "bytes": 18704
+    "sha256": "901546fc7429f7b50b73e03b439b77084787a932c48e5728e1a6c4add90e513c",
+    "bytes": 19145
   },
   {
     "path": "budget_ledger_snapshot.json",

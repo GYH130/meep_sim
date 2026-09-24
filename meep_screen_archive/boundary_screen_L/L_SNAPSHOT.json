@@ -1,7 +1,7 @@
 {
-  "generation": "20260924T101823822823Z",
-  "generated_utc": "2026-09-24T10:18:23.822823+00:00",
-  "label": "final",
+  "generation": "20260924T103831475878Z",
+  "generated_utc": "2026-09-24T10:38:31.475878+00:00",
+  "label": "closeout_reviewed",
   "final": true,
   "case_results": [
     {
@@ -77,6 +77,9 @@
     "runs/boundary_20260924_L/manifest.json": "74f64f702535968b75d2151f9e8571c1c08ccd996867e6fcbb2a79fad9b06eb7",
     "runs/boundary_20260924_L/reports/L_HANDOFF.md": "c0a796c74adf151442adf78b6cc5eae85569db4b194838b5f6ee68623272704e",
     "runs/boundary_20260924_L/reports/boundary_screen.png": "40e51309e0abd8294dca939d69ee15890f21961659d9ffca08ef8851e3c9b283",
+    "runs/boundary_20260924_L/reports/closeout/ARCHIVE_VERIFICATION_20260924.json": "8e1f107bdcf0451333cf2cba42724392c02bd1962217e72ce86283b536bc6818",
+    "runs/boundary_20260924_L/reports/closeout/CLOSEOUT_20260924.md": "835ae29b07066b88e517a37f56413cdca091cca353e3263636193f1531995e7d",
+    "runs/boundary_20260924_L/reports/closeout/replay_plane_ratio.py": "cf86482f03c7f1701aec442dd42c4d5cea286f25b94c926b967cd815a2f3691c",
     "runs/boundary_20260924_L/reports/screen_summary.json": "28fb186490f03d25e963e9427cbaa5d316b3271fe4835ad0d6687e62fbeba44b",
     "runs/boundary_20260924_L/status.json": "8c3cc947809158c21147f7744dff8d7e37eb17e599de489ab5aa066d5c17f691",
     "runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/heartbeat.json": "2f524897a44e8b0defebca630f168294f868c4039c105b6ee0dd7d6c9e438d90",
