@@ -1,7 +1,7 @@
 {
   "run_id": "boundary_20260924_L",
   "state": "CHECKPOINT",
-  "updated_epoch": 1790244413.5837119,
+  "updated_epoch": 1790244754.7875147,
   "queue_pid": 880282,
   "active_task": null,
   "active_tasks": [],
@@ -9,16 +9,16 @@
   "resources": {
     "cpu_quota": 20.0,
     "memory_limit_bytes": 96636764160,
-    "memory_current_bytes": 5115269120,
-    "memory_available_bytes": 91521495040
+    "memory_current_bytes": 5174910976,
+    "memory_available_bytes": 91461853184
   },
   "usage": {
-    "active_solver_seconds": 105168.43075633049,
-    "rank_hours": 116.85381195147832,
-    "calendar_span_seconds": 251330.61934399605,
-    "attempts": 18
+    "active_solver_seconds": 105508.56812381744,
+    "rank_hours": 117.23174235979717,
+    "calendar_span_seconds": 251671.8231499195,
+    "attempts": 19
   },
-  "remaining_solver_seconds": 3514.8100168704987,
+  "remaining_solver_seconds": 3174.672649383545,
   "hard_deadline_epoch": 1790253000.0,
   "tasks": {
     "L_narrow_control_1e15": {
@@ -26,7 +26,8 @@
       "result_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/runs/boundary_20260924_L/tasks/L_narrow_control_1e15/attempt_1/result.json"
     },
     "L_narrow_candidate_1e8": {
-      "status": "NOT_RUN"
+      "status": "NUMERICAL_FAILED",
+      "result_path": "/root/autodl-tmp/meep_sim/meep_screen/boundary_screen_L/runs/boundary_20260924_L/tasks/L_narrow_candidate_1e8/attempt_1/result.json"
     },
     "L_narrow_candidate_1e6": {
       "status": "NOT_RUN"

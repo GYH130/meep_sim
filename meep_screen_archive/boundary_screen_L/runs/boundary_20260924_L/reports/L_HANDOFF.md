@@ -9,7 +9,7 @@ Full 50 um reference/flat/slot: DEFERRED_RENTAL_WINDOW. No production gate unloc
 | Condition | Solver status | Background reflected power ratio |
 |---|---|---|
 | L_narrow_control_1e15 | NUMERICAL_FAILED | 0.0017166551733513212 |
-| L_narrow_candidate_1e8 | NOT_RUN | None |
+| L_narrow_candidate_1e8 | NUMERICAL_FAILED | 0.0005077287405154168 |
 | L_narrow_candidate_1e6 | NOT_RUN | None |
 
 Selected candidate: None
