@@ -1,0 +1,64 @@
+{
+  "baseline_material_sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e",
+  "epsilon": 23.79429602789568,
+  "fit_accepted": true,
+  "interpretation": "specified Ti optical model; exploratory screening only",
+  "meep_length_unit_um": 1.0,
+  "model": "susceptibility",
+  "model_id": "Ti_Ordal_stable_candidate0_20261011",
+  "provenance": {
+    "data_file": "data/materials/ti_ordal_raw.csv",
+    "doi": "https://doi.org/10.1364/AO.27.001203",
+    "interpolation": "PCHIP of n and k versus wavelength, no extrapolation",
+    "license": "CC0 database transcription",
+    "source_url": "https://raw.githubusercontent.com/polyanskiy/refractiveindex.info-database/master/database/data/main/Ti/nk/Ordal.yml",
+    "table": "Table III, Optical Constants of Titanium",
+    "temperature_k": null,
+    "temperature_note": "Room-temperature measurements combined with prior data and Kramers-Kronig analysis; no exact temperature assigned to the full table."
+  },
+  "required_band_um": [
+    3.0,
+    20.0
+  ],
+  "route_a_ti": true,
+  "sample_validated": false,
+  "source_data": "assets/material/ti_ordal_raw.csv",
+  "source_sha256": "46f75369d4894db8ccc6bb2a73fdc693ae26ee7d62e8b87ac6c7f84cc0a0dda3",
+  "susceptibilities": [
+    {
+      "frequency": 0.12403577368462228,
+      "gamma": 0.054107487550942766,
+      "sigma": 11.686884965737878,
+      "type": "Lorentz"
+    },
+    {
+      "frequency": 0.07908735640931075,
+      "gamma": 0.06407196973549348,
+      "sigma": 53.148216361317104,
+      "type": "Lorentz"
+    },
+    {
+      "frequency": 0.24849508508332688,
+      "gamma": 0.1483872702962942,
+      "sigma": 16.192982758184222,
+      "type": "Lorentz"
+    },
+    {
+      "frequency": 0.4582899481093456,
+      "gamma": 0.10884954808584749,
+      "sigma": 10.885743399499246,
+      "type": "Lorentz"
+    },
+    {
+      "frequency": 0.12649110640673517,
+      "gamma": 0.023196936637464843,
+      "sigma": 277.74323388220733,
+      "type": "Drude"
+    }
+  ],
+  "temperature_k": null,
+  "wavelength_range_um": [
+    2.5,
+    25.0
+  ]
+}
