@@ -1,0 +1,752 @@
+{
+  "schema_version": 1,
+  "scope": "Exploratory 2D blind-slot p polarization r20; discrete wavelengths/angles, not formal qualification or a continuous band spectrum.",
+  "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+  "value_units": "All R/T/A metrics are dimensionless fractions; pp means percentage points.",
+  "records": [
+    {
+      "id": "f050_plus30",
+      "stage": "lab_fill_bridge_20261013",
+      "fill": 0.5,
+      "wavelength_um": 10.5,
+      "theta_deg": 30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.8673857407197465,
+        "T": -0.0006670626631763189,
+        "A_flux": 0.13328132194342981,
+        "A_vol": 0.1303456243429198,
+        "order_R": 0.8673826834205961,
+        "order_T": 0.003742755489783997,
+        "reference_pseudo_reflection": 6.5672210025151495e-06
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true
+      },
+      "status": "EXPLORATORY_CONVERGED_NOT_QUALIFIED",
+      "stop": {
+        "converged": true,
+        "stop_reason": "CONVERGED",
+        "last_time": 6506.012500000001,
+        "decay_threshold": 0.001,
+        "consecutive_passed_windows": 3
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": null,
+      "case_sha256": "5fa109d1729e6bfeff6e2b7ec8230fba26e0bf9024c040c50deda06457a75e4e",
+      "implementation_sha256": "bb222ce35efe30bb664c1e59a10a3e6861f838c521c99f30b95c32a21832fead",
+      "source_ids": [
+        "fill_final",
+        "fill_preflight"
+      ],
+      "source_sha256": {
+        "fill_final": "1a9e33d9a42d2e6df0a72cbf3cf4b89c6b7ec3602ff5dd2d9fd8cf7720cab16a",
+        "fill_preflight": "fa80ebbdd6c879072b0575772ea627b070f2c39adb2e6c08b9b57c47a4380fde"
+      },
+      "finished_utc": "2026-10-14T03:06:57.685246+00:00",
+      "result_hash_verified": true,
+      "result_hash_note": "Completion receipt verifies hash match but does not embed its value; value intentionally null.",
+      "derived": {
+        "flux_minus_volume_pp": 0.29356976005100177,
+        "signed_T_percent": -0.0667062663176319
+      }
+    },
+    {
+      "id": "f050_minus30",
+      "stage": "lab_fill_bridge_20261013",
+      "fill": 0.5,
+      "wavelength_um": 10.5,
+      "theta_deg": -30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9149496592562467,
+        "T": -5.415906497291126e-05,
+        "A_flux": 0.0851044998087262,
+        "A_vol": 0.08220798940681734,
+        "order_R": 0.9148249592471387,
+        "order_T": 0.000450785155601786,
+        "reference_pseudo_reflection": 6.567221002515185e-06
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true
+      },
+      "status": "EXPLORATORY_CONVERGED_NOT_QUALIFIED",
+      "stop": {
+        "converged": true,
+        "stop_reason": "CONVERGED",
+        "last_time": 6766.012500000001,
+        "decay_threshold": 0.001,
+        "consecutive_passed_windows": 3
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": null,
+      "case_sha256": "da59eb650fdc12a1f7a03285efc1ccf8018fd23e22752abd67fca304a33ff24e",
+      "implementation_sha256": "bb222ce35efe30bb664c1e59a10a3e6861f838c521c99f30b95c32a21832fead",
+      "source_ids": [
+        "fill_final",
+        "fill_preflight"
+      ],
+      "source_sha256": {
+        "fill_final": "1a9e33d9a42d2e6df0a72cbf3cf4b89c6b7ec3602ff5dd2d9fd8cf7720cab16a",
+        "fill_preflight": "fa80ebbdd6c879072b0575772ea627b070f2c39adb2e6c08b9b57c47a4380fde"
+      },
+      "finished_utc": "2026-10-14T03:27:52.012873+00:00",
+      "result_hash_verified": true,
+      "result_hash_note": "Completion receipt verifies hash match but does not embed its value; value intentionally null.",
+      "derived": {
+        "flux_minus_volume_pp": 0.28965104019088583,
+        "signed_T_percent": -0.0054159064972911265
+      }
+    },
+    {
+      "id": "structure_p8_plus30_r20",
+      "stage": "lab_parallel_exploration_restart_20261012",
+      "fill": 0.65,
+      "wavelength_um": 8,
+      "theta_deg": 30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.775075378732315,
+        "T": -0.00030791336322461834,
+        "A_flux": 0.2252325346309096,
+        "A_vol": 0.2285851387751611,
+        "order_R": 0.7749446660045325,
+        "order_T": 0.0011523209348126497,
+        "reference_pseudo_reflection": 6.010701450496968e-06
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true
+      },
+      "status": "EXPLORATORY_CONVERGED_NOT_QUALIFIED",
+      "stop": {
+        "converged": true,
+        "status": "converged",
+        "last_time": 5860.012500000001,
+        "consecutive_passed_windows": 3,
+        "decay_threshold": 0.001,
+        "minimum_post_source_time_reached": true,
+        "stop_reason": "CONVERGED",
+        "elapsed_s": 55060.348888409
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "a984f4670e77d9980b4aa19ca711c961ebaeddc2d2da79e425f5434a799ea956",
+      "case_sha256": "8bc3ca5de9f47d3c0609a3151d37a9d7f55b103f13868567f09dc7df946eaf26",
+      "implementation_sha256": "bb222ce35efe30bb664c1e59a10a3e6861f838c521c99f30b95c32a21832fead",
+      "source_ids": [
+        "endpoints",
+        "predecessor"
+      ],
+      "source_sha256": {
+        "endpoints": "a3f0ee7a23f220273a2f3fb67701ae9f261009d459f6b986d47b326ef5f051ae",
+        "predecessor": "2c2d169a8ff5291fdef1ca480cb63bf33d488eaf8bb4e6c1a018278eeec53724"
+      },
+      "reference_reused": true,
+      "raw_evidence_hashes_verified": true,
+      "last_windows": [
+        {
+          "start": 5800,
+          "end": 5820,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 6.668865700221183e-06,
+          "T_range": 4.088333805838946e-06,
+          "rt_stable": true,
+          "passed": true
+        },
+        {
+          "start": 5820,
+          "end": 5840,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 8.250592775094212e-06,
+          "T_range": 2.5188140972360403e-06,
+          "rt_stable": true,
+          "passed": true
+        },
+        {
+          "start": 5840,
+          "end": 5860,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 6.032138815781352e-06,
+          "T_range": 6.488915711425004e-07,
+          "rt_stable": true,
+          "passed": true
+        }
+      ],
+      "finished_utc": "2026-10-13T05:41:37.203250+00:00",
+      "derived": {
+        "flux_minus_volume_pp": -0.33526041442515087,
+        "signed_T_percent": -0.030791336322461834
+      }
+    },
+    {
+      "id": "structure_p8_minus30_r20",
+      "stage": "lab_parallel_exploration_restart_20261012",
+      "fill": 0.65,
+      "wavelength_um": 8,
+      "theta_deg": -30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.8889662515028321,
+        "T": -2.866535040341162e-05,
+        "A_flux": 0.11106241384757126,
+        "A_vol": 0.11445068187758711,
+        "order_R": 0.8887180992619022,
+        "order_T": 0.00018280862556492935,
+        "reference_pseudo_reflection": 6.0107014504968524e-06
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true
+      },
+      "status": "EXPLORATORY_CONVERGED_NOT_QUALIFIED",
+      "stop": {
+        "converged": true,
+        "status": "converged",
+        "last_time": 5100.012500000001,
+        "consecutive_passed_windows": 3,
+        "decay_threshold": 0.001,
+        "minimum_post_source_time_reached": true,
+        "stop_reason": "CONVERGED",
+        "elapsed_s": 52385.42176397
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "683ac24eb199f17e671bbd4efbc22d17fa3903f2dafa41098242d8c3d95002e9",
+      "case_sha256": "b86b7d28e71393903fc7f1feafee50a11af8a511ba1c482c2fc20efda92a6505",
+      "implementation_sha256": "bb222ce35efe30bb664c1e59a10a3e6861f838c521c99f30b95c32a21832fead",
+      "source_ids": [
+        "endpoints",
+        "predecessor"
+      ],
+      "source_sha256": {
+        "endpoints": "a3f0ee7a23f220273a2f3fb67701ae9f261009d459f6b986d47b326ef5f051ae",
+        "predecessor": "2c2d169a8ff5291fdef1ca480cb63bf33d488eaf8bb4e6c1a018278eeec53724"
+      },
+      "reference_reused": true,
+      "raw_evidence_hashes_verified": true,
+      "last_windows": [
+        {
+          "start": 5040,
+          "end": 5060,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 1.1357674464251843e-06,
+          "T_range": 4.6380700417460494e-07,
+          "rt_stable": true,
+          "passed": true
+        },
+        {
+          "start": 5060,
+          "end": 5080,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 8.183858456467519e-07,
+          "T_range": 5.115158834268167e-07,
+          "rt_stable": true,
+          "passed": true
+        },
+        {
+          "start": 5080,
+          "end": 5100,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 5.663883994033725e-07,
+          "T_range": 3.8700924258989336e-07,
+          "rt_stable": true,
+          "passed": true
+        }
+      ],
+      "finished_utc": "2026-10-13T04:57:49.720870+00:00",
+      "derived": {
+        "flux_minus_volume_pp": -0.3388268030015851,
+        "signed_T_percent": -0.0028665350403411618
+      }
+    },
+    {
+      "id": "structure_p10p5_plus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": 0.65,
+      "wavelength_um": 10.5,
+      "theta_deg": 30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.8010949152918331,
+        "T": -0.0008354125194349535,
+        "A_flux": 0.19974049722760187,
+        "A_vol": 0.1960127902945401,
+        "order_R": 0.8011765322863036,
+        "order_T": 0.004992755798045096,
+        "reference_pseudo_reflection": 6.5672210025151495e-06
+      },
+      "checks": null,
+      "status": "EXPLORATORY_RESULT_AVAILABLE_NOT_QUALIFIED",
+      "stop": {
+        "converged": true,
+        "decay_threshold": 0.001,
+        "evidence_scope": "aggregate completion receipt confirms two converged structures; detailed stop samples not embedded"
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "ea7620477c46349a1f47b8f58b9d3fdacff0dc10bec0fa3b24d8a81b319ee7c7",
+      "case_sha256": "0831d062a0b63699fac8447752ab9310d4d795a3359faa991be333ab5a33d033",
+      "implementation_sha256": "731c417fdf8f58ec640939a71a3976db515be858ff0d3d3ffae3d225842768fc",
+      "source_ids": [
+        "baseline",
+        "night"
+      ],
+      "source_sha256": {
+        "baseline": "8be6882bf1ffb2ac6322d4752f0d0f1d5a7aa2292cee175a4accf059275cdb70",
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [],
+      "derived": {
+        "flux_minus_volume_pp": 0.3727706933061764,
+        "signed_T_percent": -0.08354125194349535
+      }
+    },
+    {
+      "id": "structure_p10p5_minus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": 0.65,
+      "wavelength_um": 10.5,
+      "theta_deg": -30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9108754280497655,
+        "T": -0.00022903325110517424,
+        "A_flux": 0.08935360520133966,
+        "A_vol": 0.08563564491121113,
+        "order_R": 0.9107838231853914,
+        "order_T": 0.001490607437172749,
+        "reference_pseudo_reflection": 6.567221002515185e-06
+      },
+      "checks": null,
+      "status": "EXPLORATORY_RESULT_AVAILABLE_NOT_QUALIFIED",
+      "stop": {
+        "converged": true,
+        "decay_threshold": 0.001,
+        "evidence_scope": "aggregate completion receipt confirms two converged structures; detailed stop samples not embedded"
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "2ea7c1040f221c247a6944be037afeef3f6ef3acd579e39726ec2fd8b7a27e65",
+      "case_sha256": "30500f5388c921599264975d1c3353c0bce7dccca741d4e047528b2c2450a6e5",
+      "implementation_sha256": "731c417fdf8f58ec640939a71a3976db515be858ff0d3d3ffae3d225842768fc",
+      "source_ids": [
+        "baseline",
+        "night"
+      ],
+      "source_sha256": {
+        "baseline": "8be6882bf1ffb2ac6322d4752f0d0f1d5a7aa2292cee175a4accf059275cdb70",
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [],
+      "derived": {
+        "flux_minus_volume_pp": 0.37179602901285247,
+        "signed_T_percent": -0.022903325110517424
+      }
+    },
+    {
+      "id": "structure_p13_plus30_r20",
+      "stage": "lab_parallel_exploration_restart_20261012",
+      "fill": 0.65,
+      "wavelength_um": 13,
+      "theta_deg": 30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.8345750434861153,
+        "T": -5.946570954688343e-06,
+        "A_flux": 0.16543090308483935,
+        "A_vol": 0.1627383985859612,
+        "order_R": 0.8344749403909678,
+        "order_T": 3.437654221647401e-05,
+        "reference_pseudo_reflection": 6.231479045870616e-06
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true
+      },
+      "status": "EXPLORATORY_CONVERGED_NOT_QUALIFIED",
+      "stop": {
+        "converged": true,
+        "status": "converged",
+        "last_time": 6570.012500000001,
+        "consecutive_passed_windows": 3,
+        "decay_threshold": 0.001,
+        "minimum_post_source_time_reached": true,
+        "stop_reason": "CONVERGED",
+        "elapsed_s": 60284.757883638
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "d189cbd7bd2396c4e1239d1b415ab7de6af7c0d25b85e3da5e53c93dd0c44750",
+      "case_sha256": "30410848766e400cb2b0cfd85dd2edb091b3375f22f16e0d1bbc3d1f06ca7a78",
+      "implementation_sha256": "bb222ce35efe30bb664c1e59a10a3e6861f838c521c99f30b95c32a21832fead",
+      "source_ids": [
+        "endpoints",
+        "predecessor"
+      ],
+      "source_sha256": {
+        "endpoints": "a3f0ee7a23f220273a2f3fb67701ae9f261009d459f6b986d47b326ef5f051ae",
+        "predecessor": "2c2d169a8ff5291fdef1ca480cb63bf33d488eaf8bb4e6c1a018278eeec53724"
+      },
+      "reference_reused": true,
+      "raw_evidence_hashes_verified": true,
+      "last_windows": [
+        {
+          "start": 6510,
+          "end": 6530,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 3.371689806730416e-05,
+          "T_range": 6.774244766322253e-07,
+          "rt_stable": true,
+          "passed": true
+        },
+        {
+          "start": 6530,
+          "end": 6550,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 3.1189835842604374e-05,
+          "T_range": 5.674662620244622e-07,
+          "rt_stable": true,
+          "passed": true
+        },
+        {
+          "start": 6550,
+          "end": 6570,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 1.8038816213206132e-05,
+          "T_range": 3.927557832967606e-07,
+          "rt_stable": true,
+          "passed": true
+        }
+      ],
+      "finished_utc": "2026-10-13T07:10:10.280836+00:00",
+      "derived": {
+        "flux_minus_volume_pp": 0.26925044988781455,
+        "signed_T_percent": -0.0005946570954688343
+      }
+    },
+    {
+      "id": "structure_p13_minus30_r20",
+      "stage": "lab_parallel_exploration_restart_20261012",
+      "fill": 0.65,
+      "wavelength_um": 13,
+      "theta_deg": -30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9201467636014854,
+        "T": -3.5345281158744093e-06,
+        "A_flux": 0.07985677092663047,
+        "A_vol": 0.07713078725131475,
+        "order_R": 0.9201285059974795,
+        "order_T": 5.0955211993044676e-05,
+        "reference_pseudo_reflection": 6.23147904587058e-06
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true
+      },
+      "status": "EXPLORATORY_CONVERGED_NOT_QUALIFIED",
+      "stop": {
+        "converged": true,
+        "status": "converged",
+        "last_time": 5950.012500000001,
+        "consecutive_passed_windows": 3,
+        "decay_threshold": 0.001,
+        "minimum_post_source_time_reached": true,
+        "stop_reason": "CONVERGED",
+        "elapsed_s": 57046.734214326
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "38f12677cc40edb92a90b16f31cf17464ab6886d0a6b2de9911fb6ebd0df901d",
+      "case_sha256": "4127510bf228569936922bc4bd335554d545c01879b55193a605773bb005ee1e",
+      "implementation_sha256": "bb222ce35efe30bb664c1e59a10a3e6861f838c521c99f30b95c32a21832fead",
+      "source_ids": [
+        "endpoints",
+        "predecessor"
+      ],
+      "source_sha256": {
+        "endpoints": "a3f0ee7a23f220273a2f3fb67701ae9f261009d459f6b986d47b326ef5f051ae",
+        "predecessor": "2c2d169a8ff5291fdef1ca480cb63bf33d488eaf8bb4e6c1a018278eeec53724"
+      },
+      "reference_reused": false,
+      "raw_evidence_hashes_verified": true,
+      "last_windows": [
+        {
+          "start": 5890,
+          "end": 5910,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 2.0473519576347243e-06,
+          "T_range": 3.9016054568912696e-07,
+          "rt_stable": true,
+          "passed": true
+        },
+        {
+          "start": 5910,
+          "end": 5930,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 4.790391288644891e-06,
+          "T_range": 4.2613680535748055e-07,
+          "rt_stable": true,
+          "passed": true
+        },
+        {
+          "start": 5930,
+          "end": 5950,
+          "samples": 10,
+          "covered": true,
+          "decay_pass": true,
+          "R_range": 1.6950197469056683e-05,
+          "T_range": 6.164932875191751e-07,
+          "rt_stable": true,
+          "passed": true
+        }
+      ],
+      "finished_utc": "2026-10-13T07:02:22.603321+00:00",
+      "derived": {
+        "flux_minus_volume_pp": 0.2725983675315721,
+        "signed_T_percent": -0.00035345281158744095
+      }
+    },
+    {
+      "id": "f080_plus30",
+      "stage": "lab_fill_bridge_20261013",
+      "fill": 0.8,
+      "wavelength_um": 10.5,
+      "theta_deg": 30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.8397957182007763,
+        "T": -0.0008339492682818341,
+        "A_flux": 0.1610382310675056,
+        "A_vol": 0.15723459005612941,
+        "order_R": 0.8398515930162556,
+        "order_T": 0.004829876156868808,
+        "reference_pseudo_reflection": 6.5672210025151495e-06
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true
+      },
+      "status": "EXPLORATORY_CONVERGED_NOT_QUALIFIED",
+      "stop": {
+        "converged": true,
+        "stop_reason": "CONVERGED",
+        "last_time": 6826.012500000001,
+        "decay_threshold": 0.001,
+        "consecutive_passed_windows": 3
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": null,
+      "case_sha256": "aa067597e81029bd492aced4db605e23a5383acad82bdb7eb9519d4be50dfff1",
+      "implementation_sha256": "bb222ce35efe30bb664c1e59a10a3e6861f838c521c99f30b95c32a21832fead",
+      "source_ids": [
+        "fill_final",
+        "fill_preflight"
+      ],
+      "source_sha256": {
+        "fill_final": "1a9e33d9a42d2e6df0a72cbf3cf4b89c6b7ec3602ff5dd2d9fd8cf7720cab16a",
+        "fill_preflight": "fa80ebbdd6c879072b0575772ea627b070f2c39adb2e6c08b9b57c47a4380fde"
+      },
+      "finished_utc": "2026-10-14T03:08:18.879971+00:00",
+      "result_hash_verified": true,
+      "result_hash_note": "Completion receipt verifies hash match but does not embed its value; value intentionally null.",
+      "derived": {
+        "flux_minus_volume_pp": 0.3803641011376174,
+        "signed_T_percent": -0.0833949268281834
+      }
+    },
+    {
+      "id": "f080_minus30",
+      "stage": "lab_fill_bridge_20261013",
+      "fill": 0.8,
+      "wavelength_um": 10.5,
+      "theta_deg": -30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9173611796852243,
+        "T": -0.00024873881971303045,
+        "A_flux": 0.08288755913448868,
+        "A_vol": 0.07916114022338136,
+        "order_R": 0.9172841494505016,
+        "order_T": 0.0016771846529841674,
+        "reference_pseudo_reflection": 6.567221002515185e-06
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true
+      },
+      "status": "EXPLORATORY_CONVERGED_NOT_QUALIFIED",
+      "stop": {
+        "converged": true,
+        "stop_reason": "CONVERGED",
+        "last_time": 6146.012500000001,
+        "decay_threshold": 0.001,
+        "consecutive_passed_windows": 3
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": null,
+      "case_sha256": "b379632cc9c86355d70ead354ca2fea8c3c59160c20618264877355213f54b38",
+      "implementation_sha256": "bb222ce35efe30bb664c1e59a10a3e6861f838c521c99f30b95c32a21832fead",
+      "source_ids": [
+        "fill_final",
+        "fill_preflight"
+      ],
+      "source_sha256": {
+        "fill_final": "1a9e33d9a42d2e6df0a72cbf3cf4b89c6b7ec3602ff5dd2d9fd8cf7720cab16a",
+        "fill_preflight": "fa80ebbdd6c879072b0575772ea627b070f2c39adb2e6c08b9b57c47a4380fde"
+      },
+      "finished_utc": "2026-10-14T02:58:49.388691+00:00",
+      "result_hash_verified": true,
+      "result_hash_note": "Completion receipt verifies hash match but does not embed its value; value intentionally null.",
+      "derived": {
+        "flux_minus_volume_pp": 0.37264189111073237,
+        "signed_T_percent": -0.024873881971303045
+      }
+    }
+  ],
+  "source_manifest": [
+    {
+      "id": "fill_final",
+      "relative_path": "meep_screen/lab_fill_bridge_20261013/PROGRESS_CHECK_20261014_1345.json",
+      "sha256": "1a9e33d9a42d2e6df0a72cbf3cf4b89c6b7ec3602ff5dd2d9fd8cf7720cab16a",
+      "distributed": false
+    },
+    {
+      "id": "fill_preflight",
+      "relative_path": "meep_screen/lab_fill_bridge_20261013/PREFLIGHT_VERIFIED.json",
+      "sha256": "fa80ebbdd6c879072b0575772ea627b070f2c39adb2e6c08b9b57c47a4380fde",
+      "distributed": false
+    },
+    {
+      "id": "baseline",
+      "relative_path": "meep_screen/lab_fill_bridge_20261013/BASELINE_F065_VERIFIED.json",
+      "sha256": "8be6882bf1ffb2ac6322d4752f0d0f1d5a7aa2292cee175a4accf059275cdb70",
+      "distributed": false
+    },
+    {
+      "id": "predecessor",
+      "relative_path": "meep_screen/lab_fill_bridge_20261013/PREDECESSOR_VERIFIED.json",
+      "sha256": "2c2d169a8ff5291fdef1ca480cb63bf33d488eaf8bb4e6c1a018278eeec53724",
+      "distributed": false
+    },
+    {
+      "id": "endpoints",
+      "relative_path": "meep_screen/lab_parallel_exploration_restart_20261012/PROGRESS_CHECK_20261013_1537.json",
+      "sha256": "a3f0ee7a23f220273a2f3fb67701ae9f261009d459f6b986d47b326ef5f051ae",
+      "distributed": false
+    },
+    {
+      "id": "night",
+      "relative_path": "meep_screen/lab_validation_night_20261011/PROGRESS_CHECK_20261012_0845.json",
+      "sha256": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2",
+      "distributed": false
+    },
+    {
+      "id": "source_controls",
+      "relative_path": "meep_screen/lab_parallel_exploration_20261012/PROGRESS_CHECK_20261012_1547.json",
+      "sha256": "dd4f7789fcaed1c3bf8322668032209976690e3a19479a470bc4e10e218087bf",
+      "distributed": false
+    },
+    {
+      "id": "field_audit",
+      "relative_path": "meep_screen/lab_monitor_polarization_diagnostic_20261012_v2/FIELD_DIAGNOSIS_20261012.json",
+      "sha256": "0abd37472d195604bbb79dcad35058fb7b3790cf91ba89f63d01772403d64ac8",
+      "distributed": false
+    },
+    {
+      "id": "material_model",
+      "relative_path": "meep_screen/lab_fill_bridge_20261013/assets/material/route_a_material.json",
+      "sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "distributed": true
+    },
+    {
+      "id": "material_fit",
+      "relative_path": "meep_screen/lab_fill_bridge_20261013/assets/material/fit_report.json",
+      "sha256": "c3a96bcac70cba28f5e812b965a93541ad3d2fd6a6bb1e587ee3a2f4688508bc",
+      "distributed": false
+    },
+    {
+      "id": "stability",
+      "relative_path": "meep_screen/stability_diagnostic_20261011/diagnosis.json",
+      "sha256": "e4f2c21cb7f07e01ee4dc98b1078f1df13dd3d0414ebad114a7eed26f1afead2",
+      "distributed": false
+    }
+  ]
+}

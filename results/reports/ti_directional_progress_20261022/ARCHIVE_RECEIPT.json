@@ -1,0 +1,28 @@
+{
+  "kind": "CURATED_PUBLIC_RESEARCH_ARCHIVE",
+  "prepared_utc": "2026-10-22T13:13:32.426982+00:00",
+  "native_snapshot_verified_utc": "2026-10-22T12:23:45.8736487Z",
+  "report": {
+    "pages": 17,
+    "figures": 12,
+    "tables": 14,
+    "docx_sha256": "f0d99fba2de45ce2a6477e4bae7c9754c1859ab156d31cbc54488b1389406d03",
+    "pdf_sha256": "d38116877802c173a00b83812eb0d9385193ed3c3ee5ad7239f917d55c97fde8"
+  },
+  "unique_3d_conditions": 24,
+  "latest_batch_conditions": 8,
+  "exploratory_accepted": 5,
+  "flux_warning": 19,
+  "formal_qualification": false,
+  "new_solver_jobs": 0,
+  "original_results_modified": false,
+  "thresholds_changed": false,
+  "curation": "Allowlisted scientific records; operational fields excluded; numeric values and original scientific flags preserved",
+  "not_included": [
+    "private credentials and connection configuration",
+    "large MPH/field files",
+    "host/account/network telemetry",
+    "private transport scripts",
+    "font binaries"
+  ]
+}

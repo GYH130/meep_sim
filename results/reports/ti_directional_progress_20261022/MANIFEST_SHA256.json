@@ -1,0 +1,186 @@
+{
+  "algorithm": "SHA256",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "ARCHIVE_RECEIPT.json",
+      "bytes": 986,
+      "sha256": "6db9e3ecf19604debe2907a235d0e0a04111f49f89c9fda266a9e0030eb7dc9a"
+    },
+    {
+      "path": "FIGURE_GALLERY.md",
+      "bytes": 1281,
+      "sha256": "f08bf0f97dc92b95316a16a60d43b19efe7b4f7d27e89f9aea3ad34282da3259"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4360,
+      "sha256": "f4ae4c553a683f385922a7c4a37bef2eed1c40a4c3b4937f750f3b20d47939e2"
+    },
+    {
+      "path": "RESULTS_TABLE.md",
+      "bytes": 1793,
+      "sha256": "8edb0fca58a783a8c782e8cca27a2f73feaa3f24a29fcf58e207d6271f7d362b"
+    },
+    {
+      "path": "data/bare_C0_diagnostic.json",
+      "bytes": 1889,
+      "sha256": "1959c946e106cdca5881af2bf0613be02f0b145fe3952c13f900f0469ba4689f"
+    },
+    {
+      "path": "data/exploration_policy.json",
+      "bytes": 755,
+      "sha256": "3392d1ed27331c88858951b1344f77a7674f71dd657fe3fb6bbd5e878cbf50ba"
+    },
+    {
+      "path": "data/floorfill_3d_conditions.json",
+      "bytes": 38446,
+      "sha256": "be0c2c18d600e3139c815caff2c87f4cf989728755463229a9d26d33da99f8f0"
+    },
+    {
+      "path": "data/historical/current_structured_results.json",
+      "bytes": 26861,
+      "sha256": "a1c87d607cfec92cc534d95decadb88b6395155673f05218b71158dc325d1161"
+    },
+    {
+      "path": "data/historical/direction_pairs.json",
+      "bytes": 2850,
+      "sha256": "0e3dff699fb27278edc6a8c4c9ad5498d10da189dc7ae2acb24a958da21e6332"
+    },
+    {
+      "path": "data/historical/flat_validation_results.json",
+      "bytes": 19038,
+      "sha256": "03db7057cf0c8eedd028703a14a43eb40d4341450ad20f28727ce0e25afb3497"
+    },
+    {
+      "path": "data/historical/geometry_and_settings.json",
+      "bytes": 5067,
+      "sha256": "f912ebbc9508762bdaecd2bbfe157a5525ee68c9e29bf2d5c80d39d6fbf039bf"
+    },
+    {
+      "path": "data/historical/historical_scientific_synthesis.json",
+      "bytes": 32783,
+      "sha256": "08678d2cb8deebf7a622343dcaee24b256da27211449436a0d22527004f08ac5"
+    },
+    {
+      "path": "data/historical/legacy_chart_data.json",
+      "bytes": 120394,
+      "sha256": "159c79255a0429d2acb656607801633a061221d470fb897c54f4cfeb54432d51"
+    },
+    {
+      "path": "data/latest_eight_quality.json",
+      "bytes": 50545,
+      "sha256": "8c9a36356612997f74df0eb471dbc16f73a6d5f85263ab8ed72bdb5fe4514efb"
+    },
+    {
+      "path": "data/material_inputs.json",
+      "bytes": 5464,
+      "sha256": "01a049ea83b2faff6241c7ab09b4734f75acb37ece39e1fd289ebdc2a3edd5dc"
+    },
+    {
+      "path": "data/materials/SiO2_Kischkat.yml",
+      "bytes": 47575,
+      "sha256": "5340a3c4b2474ac31432d3841283058f11841c3f9f96fd5a6602ee53d9d33ba7"
+    },
+    {
+      "path": "data/materials/Ti_optical_table.json",
+      "bytes": 6593,
+      "sha256": "7ac6403847111feeea9360198b9d9133aec561c55c8d6c5a98d9e8abab225866"
+    },
+    {
+      "path": "data/ray_dimensions_and_flat_controls.json",
+      "bytes": 414830,
+      "sha256": "9fb5932eee36bd95d5a9d4d9e55d1ba1a18babf7e566e270f7e0200be79e6607"
+    },
+    {
+      "path": "data/ray_six_structure_analysis.json",
+      "bytes": 297663,
+      "sha256": "f6ea50a4a213de7ffdcd7e77c474ea773ab11bcc9ff64b0e73c0ff289303ad02"
+    },
+    {
+      "path": "data/saved_field_diagnostic.json",
+      "bytes": 4301,
+      "sha256": "3f62beaaf6ad155da2c6aa4e97302693a78798d0786ddc8a6d2897ad29a11713"
+    },
+    {
+      "path": "data/source_manifest.json",
+      "bytes": 8007,
+      "sha256": "c026145a5a118ee04df7e40b20784aa351f6c99ed362810e7af996be1989f6e8"
+    },
+    {
+      "path": "figures/01_research_path.png",
+      "bytes": 95485,
+      "sha256": "40f7a5ad39fbb02a25610818d300f2a55e32427d7a4f4125fa7f50704c972f23"
+    },
+    {
+      "path": "figures/02_meep_fill.png",
+      "bytes": 147016,
+      "sha256": "e9a7560cbfe5597526851c4e82488cc48d38d98d2e404bb4ccc71612d8072c2d"
+    },
+    {
+      "path": "figures/03_legacy_film.png",
+      "bytes": 170984,
+      "sha256": "67ba9144a38990f4843093ce96f774c7dd8af07ffcdd948979cc861c19c56d3f"
+    },
+    {
+      "path": "figures/04_six_geometry.png",
+      "bytes": 207002,
+      "sha256": "846314fc7f9a6c76cb495650a3b0c8829e0cab6d12d5a9e263d654594faa7e36"
+    },
+    {
+      "path": "figures/05_ray_tradeoff.png",
+      "bytes": 82254,
+      "sha256": "164e0b6bfa9a428431c02de2943ec6111c72a28c68298bdc03d8ca1878b33f97"
+    },
+    {
+      "path": "figures/06_geometry.png",
+      "bytes": 67038,
+      "sha256": "6687446ea53f3457c25130f39968517e9d2e41644088da53bf3fc15cd8cc25f9"
+    },
+    {
+      "path": "figures/07_film_thickness.png",
+      "bytes": 70577,
+      "sha256": "5e99b750a98526be730bd178053f008d32699889ca4194f67832e72fe7af0bd2"
+    },
+    {
+      "path": "figures/08_angular_cuts.png",
+      "bytes": 78079,
+      "sha256": "9d560f26e63a5589edf69d9e2f3ba06d3086c816d025a2670bd31072e55e68a8"
+    },
+    {
+      "path": "figures/09_contrasts.png",
+      "bytes": 71040,
+      "sha256": "b222886fc280d69cbc4f0f1afa7d0fa1c6c0028904e873f341995866000b4116"
+    },
+    {
+      "path": "figures/10_loss_partition.png",
+      "bytes": 80632,
+      "sha256": "a8587bd70af7cf769dad2cca086f5d6bb073bc9c67ac47b97b411b78051c58f8"
+    },
+    {
+      "path": "figures/11_power_gaps.png",
+      "bytes": 78425,
+      "sha256": "18d4d51db2fe70e75d5ad8dbefa34efcb0dfba6a1e719470d91a983f1fdd358f"
+    },
+    {
+      "path": "figures/12_saved_fields.png",
+      "bytes": 85454,
+      "sha256": "6582550ad94643228a559484ab7bba156e4db74658f666d19da66a6a02315673"
+    },
+    {
+      "path": "report/钛基定向热发射研究阶段进展合并报告_20261022.docx",
+      "bytes": 1174077,
+      "sha256": "f0d99fba2de45ce2a6477e4bae7c9754c1859ab156d31cbc54488b1389406d03"
+    },
+    {
+      "path": "report/钛基定向热发射研究阶段进展合并报告_20261022.pdf",
+      "bytes": 2122796,
+      "sha256": "d38116877802c173a00b83812eb0d9385193ed3c3ee5ad7239f917d55c97fde8"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 2102,
+      "sha256": "cff9d0ea6368cdd19c0ff0cda855c9696c97c89404c8770aad020eb620228036"
+    }
+  ]
+}

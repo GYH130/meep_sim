@@ -64,3 +64,12 @@ meep_sim/
 
 ## 下一步
 见仓库末尾 “下一步建议”，由当前阶段的研究负责人决定优先级。
+
+## 最新阶段数据与报告（2026-10-22）
+
+- [合并报告与公开数据入口](results/reports/ti_directional_progress_20261022/README.md)
+- [24 个三维工况对照表](results/reports/ti_directional_progress_20261022/RESULTS_TABLE.md) · [12 张阶段图表](results/reports/ti_directional_progress_20261022/FIGURE_GALLERY.md)
+- [历史 Meep 阶段归档（2026-10-14）](results/reports/ti_directional_progress_20261014/README.md)
+
+当前三维数据为公开光学钛/SiO₂ 底部填充模型：5 项探索通过、19 项通量警告，均非正式合格。历史二维、射线筛选和三维全波结果按模型分开保存；尚未验证完整 8–13 μm 全波带内方向性或 TA2 实测性能。
+

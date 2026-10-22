@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "scope": "Flat controls; not structured full-width validation.",
+  "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+  "counts": {
+    "passed": 4,
+    "accuracy_failed": 8
+  },
+  "fresnel_R_absolute_tolerance": 0.0025,
+  "records": [
+    {
+      "id": "flat_s10p5_plus30_fw02_tail300",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 10.5,
+      "theta_deg": 30,
+      "polarization": "s",
+      "resolution": 28,
+      "metrics": {
+        "R": 0.9625932711804296,
+        "T": -7.176793181355971e-07,
+        "A_flux": 0.037407446498888546,
+        "A_vol": 0.03128259685321657,
+        "order_R": 0.9625697758178494,
+        "order_T": 2.212829160153064e-05,
+        "reference_pseudo_reflection": 6.253868763703764e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_ACCURACY_FAILED_DIAGNOSTIC_RETAINED",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "256f978ef9ea41737ebe446390236ca625f282657d4acf569bad48abee5c2b4f",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [
+        "fresnel_R"
+      ],
+      "analytic": {
+        "R": 0.9678009747603828,
+        "T": 0,
+        "A": 0.03219902523961715,
+        "r": {
+          "real": -0.9806245610555278,
+          "imag": -0.07859036210017421
+        },
+        "t": {
+          "real": 0,
+          "imag": 0
+        },
+        "pol": "s",
+        "lambda_um": 10.5,
+        "theta_deg": 30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 0.520770357995326
+    },
+    {
+      "id": "flat_s10p5_plus30_fw01_tail300",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 10.5,
+      "theta_deg": 30,
+      "polarization": "s",
+      "resolution": 28,
+      "metrics": {
+        "R": 0.9625939434570937,
+        "T": -7.176783156685252e-07,
+        "A_flux": 0.03740677422122197,
+        "A_vol": 0.031282609702899575,
+        "order_R": 0.962570170530869,
+        "order_T": 2.2128301155469444e-05,
+        "reference_pseudo_reflection": 6.253869006091518e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_ACCURACY_FAILED_DIAGNOSTIC_RETAINED",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "4ab1de81a0e9e3d986d5df904ac029fa60e0a8b3333700dca2f54ab64a1b8c56",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [
+        "fresnel_R"
+      ],
+      "analytic": {
+        "R": 0.9678009747603828,
+        "T": 0,
+        "A": 0.03219902523961715,
+        "r": {
+          "real": -0.9806245610555278,
+          "imag": -0.07859036210017421
+        },
+        "t": {
+          "real": 0,
+          "imag": 0
+        },
+        "pol": "s",
+        "lambda_um": 10.5,
+        "theta_deg": 30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 0.5207031303289145
+    },
+    {
+      "id": "flat_p10p5_plus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 10.5,
+      "theta_deg": 30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9570811433033614,
+        "T": -8.923740500446162e-08,
+        "A_flux": 0.04291894593404365,
+        "A_vol": 0.04057779091060371,
+        "order_R": 0.9569263196235096,
+        "order_T": 2.1005361054882828e-06,
+        "reference_pseudo_reflection": 6.567221002515695e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_CONTROL_PASSED_NOT_FULL_WIDTH_QUALIFICATION",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "94b07b1335593740f242ca3cfcdfbd9c35b8f9e97e6b2db85014b8d27025a019",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [],
+      "analytic": {
+        "R": 0.9572853844819263,
+        "T": 0,
+        "A": 0.04271461551807365,
+        "r": {
+          "real": 0.9728515356887603,
+          "imag": 0.10414064523492825
+        },
+        "t": {
+          "real": 0,
+          "imag": 0
+        },
+        "pol": "p",
+        "lambda_um": 10.5,
+        "theta_deg": 30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 0.020424117856499002
+    },
+    {
+      "id": "flat_p10p5_minus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 10.5,
+      "theta_deg": -30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9570811433033614,
+        "T": -8.923740500446124e-08,
+        "A_flux": 0.04291894593404365,
+        "A_vol": 0.040577790910603255,
+        "order_R": 0.9569263196235096,
+        "order_T": 2.1005361054882777e-06,
+        "reference_pseudo_reflection": 6.56722100251573e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_CONTROL_PASSED_NOT_FULL_WIDTH_QUALIFICATION",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "80bbd8be2c886fc4902f684d44fec084a418123f4567ae5ed29621474c3bcbf4",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [],
+      "analytic": {
+        "R": 0.9572853844819263,
+        "T": 0,
+        "A": 0.04271461551807365,
+        "r": {
+          "real": 0.9728515356887603,
+          "imag": 0.10414064523492825
+        },
+        "t": {
+          "real": 0,
+          "imag": 0
+        },
+        "pol": "p",
+        "lambda_um": 10.5,
+        "theta_deg": -30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 0.020424117856499002
+    },
+    {
+      "id": "flat_p8p0_plus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 8,
+      "theta_deg": 30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9530325479748861,
+        "T": -1.194853153066966e-06,
+        "A_flux": 0.04696864687826694,
+        "A_vol": 0.05279906592022745,
+        "order_R": 0.9527627469027835,
+        "order_T": 2.1469215549424586e-05,
+        "reference_pseudo_reflection": 6.010701450496852e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_ACCURACY_FAILED_DIAGNOSTIC_RETAINED",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "32433d66da49d029f39d1cea4d4b8da9a9269c390e88e2c85495f22ec1640ade",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [
+        "fresnel_R"
+      ],
+      "analytic": {
+        "R": 0.9447477628919857,
+        "T": 0,
+        "A": 0.0552522371080143,
+        "r": {
+          "real": 0.9625698534024747,
+          "imag": 0.1349334658738299
+        },
+        "t": {
+          "real": 0,
+          "imag": 0
+        },
+        "pol": "p",
+        "lambda_um": 8,
+        "theta_deg": 30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 0.8284785082900425
+    },
+    {
+      "id": "flat_p8p0_minus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 8,
+      "theta_deg": -30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9530325479748861,
+        "T": -1.1948531530669717e-06,
+        "A_flux": 0.04696864687826694,
+        "A_vol": 0.052799065920227435,
+        "order_R": 0.9527627469027835,
+        "order_T": 2.1469215549424583e-05,
+        "reference_pseudo_reflection": 6.010701450497027e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_ACCURACY_FAILED_DIAGNOSTIC_RETAINED",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "9b93ae3c6fc0cce4fac32904a1d3adfadd232796cb37c0d0deef34a95f659a76",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [
+        "fresnel_R"
+      ],
+      "analytic": {
+        "R": 0.9447477628919857,
+        "T": 0,
+        "A": 0.0552522371080143,
+        "r": {
+          "real": 0.9625698534024747,
+          "imag": 0.1349334658738299
+        },
+        "t": {
+          "real": 0,
+          "imag": 0
+        },
+        "pol": "p",
+        "lambda_um": 8,
+        "theta_deg": -30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 0.8284785082900425
+    },
+    {
+      "id": "flat_p13p0_plus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 13,
+      "theta_deg": 30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9585090645994511,
+        "T": -3.3752811636193117e-07,
+        "A_flux": 0.04149127292866529,
+        "A_vol": 0.03567318733183522,
+        "order_R": 0.9584111533056525,
+        "order_T": 9.107437380558738e-06,
+        "reference_pseudo_reflection": 6.231479045869486e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_ACCURACY_FAILED_DIAGNOSTIC_RETAINED",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "8dd437024deff540c204cb55f1a0dfc4fe8c93538210d72ec2fa2783635eb207",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [
+        "fresnel_R"
+      ],
+      "analytic": {
+        "R": 0.9625625650812407,
+        "T": 0,
+        "A": 0.03743743491875928,
+        "r": {
+          "real": 0.9774325203541632,
+          "imag": 0.08478344906495056
+        },
+        "t": {
+          "real": 0,
+          "imag": 0
+        },
+        "pol": "p",
+        "lambda_um": 13,
+        "theta_deg": 30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 0.40535004817896514
+    },
+    {
+      "id": "flat_p13p0_minus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 13,
+      "theta_deg": -30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9585090645994507,
+        "T": -3.3752811636193255e-07,
+        "A_flux": 0.041491272928665626,
+        "A_vol": 0.03567318733183556,
+        "order_R": 0.9584111533056525,
+        "order_T": 9.107437380558733e-06,
+        "reference_pseudo_reflection": 6.231479045870134e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_ACCURACY_FAILED_DIAGNOSTIC_RETAINED",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "0514a460570a69479bf380aa5dc3c460dfceefe787dce2e4755b90f9968813dc",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [
+        "fresnel_R"
+      ],
+      "analytic": {
+        "R": 0.9625625650812407,
+        "T": 0,
+        "A": 0.03743743491875928,
+        "r": {
+          "real": 0.9774325203541632,
+          "imag": 0.08478344906495056
+        },
+        "t": {
+          "real": 0,
+          "imag": 0
+        },
+        "pol": "p",
+        "lambda_um": 13,
+        "theta_deg": -30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 0.40535004817899845
+    },
+    {
+      "id": "flat_p3p0_plus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 3,
+      "theta_deg": 30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.6266901565320776,
+        "T": -7.015791655375515e-07,
+        "A_flux": 0.37331054504708794,
+        "A_vol": 0.37467258589316743,
+        "order_R": 0.625408490210013,
+        "order_T": 1.163550383248308e-06,
+        "reference_pseudo_reflection": 8.825145549646663e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_ACCURACY_FAILED_DIAGNOSTIC_RETAINED",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "fe544dc23886a25d6509f2ce78be70d82eabefd52f17b515af19c40230ec38c9",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [
+        "fresnel_R",
+        "fresnel_RTA"
+      ],
+      "analytic": {
+        "R": 0.6150963494004272,
+        "T": 0,
+        "A": 0.38490365059957277,
+        "r": {
+          "real": 0.7215584648776687,
+          "imag": 0.30732674983445435
+        },
+        "t": {
+          "real": 1.73081101335274e-228,
+          "imag": 5.290028575171205e-229
+        },
+        "pol": "p",
+        "lambda_um": 3,
+        "theta_deg": 30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 1.1593807131650369
+    },
+    {
+      "id": "flat_p3p0_minus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 3,
+      "theta_deg": -30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.6266901565320773,
+        "T": -7.015791655375525e-07,
+        "A_flux": 0.37331054504708827,
+        "A_vol": 0.3746725858931689,
+        "order_R": 0.6254084902100133,
+        "order_T": 1.1635503832483088e-06,
+        "reference_pseudo_reflection": 8.825145549647873e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_ACCURACY_FAILED_DIAGNOSTIC_RETAINED",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "ca683ea551ecc0b1b8458435eebcbc4a893f84419607b54115231c2971232960",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [
+        "fresnel_R",
+        "fresnel_RTA"
+      ],
+      "analytic": {
+        "R": 0.6150963494004272,
+        "T": 0,
+        "A": 0.38490365059957277,
+        "r": {
+          "real": 0.7215584648776687,
+          "imag": 0.30732674983445435
+        },
+        "t": {
+          "real": 1.73081101335274e-228,
+          "imag": 5.290028575171205e-229
+        },
+        "pol": "p",
+        "lambda_um": 3,
+        "theta_deg": -30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 1.1593807131650036
+    },
+    {
+      "id": "flat_p20p0_plus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 20,
+      "theta_deg": 30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9723165423781143,
+        "T": -5.233603738446108e-07,
+        "A_flux": 0.027683980982259576,
+        "A_vol": 0.02732368525533966,
+        "order_R": 0.9722788111543363,
+        "order_T": 1.8673588910773363e-05,
+        "reference_pseudo_reflection": 6.379968240838659e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_CONTROL_PASSED_NOT_FULL_WIDTH_QUALIFICATION",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "f89bd007b0874b3480907d1fdf0f7ab7f9df58120fadc431e42ef0f34aceffe7",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [],
+      "analytic": {
+        "R": 0.9714920907796966,
+        "T": 0,
+        "A": 0.02850790922030344,
+        "r": {
+          "real": 0.9840299379612716,
+          "imag": 0.056366408220079094
+        },
+        "t": {
+          "real": 0,
+          "imag": 0
+        },
+        "pol": "p",
+        "lambda_um": 20,
+        "theta_deg": 30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 0.08244515984177081
+    },
+    {
+      "id": "flat_p20p0_minus30_r20",
+      "stage": "lab_validation_night_20261011",
+      "fill": null,
+      "wavelength_um": 20,
+      "theta_deg": -30,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9723165423781142,
+        "T": -5.233603738445814e-07,
+        "A_flux": 0.027683980982259687,
+        "A_vol": 0.027323685255339767,
+        "order_R": 0.9722788111543362,
+        "order_T": 1.867358891077335e-05,
+        "reference_pseudo_reflection": 6.379968240838805e-06
+      },
+      "checks": null,
+      "status": "STRICT_FLAT_CONTROL_PASSED_NOT_FULL_WIDTH_QUALIFICATION",
+      "stop": null,
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "b3e367721eee33613c8304d5866ca7e740b268351cfb1cf8d902af336125e940",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "night"
+      ],
+      "source_sha256": {
+        "night": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2"
+      },
+      "failed_checks": [],
+      "analytic": {
+        "R": 0.9714920907796966,
+        "T": 0,
+        "A": 0.02850790922030344,
+        "r": {
+          "real": 0.9840299379612716,
+          "imag": 0.056366408220079094
+        },
+        "t": {
+          "real": 0,
+          "imag": 0
+        },
+        "pol": "p",
+        "lambda_um": 20,
+        "theta_deg": -30,
+        "thickness_um": 60
+      },
+      "R_error_pp": 0.08244515984175971
+    }
+  ],
+  "source_manifest": [
+    {
+      "id": "night",
+      "relative_path": "meep_screen/lab_validation_night_20261011/PROGRESS_CHECK_20261012_0845.json",
+      "sha256": "395a05ebb8267b159dec5e85b116be9fc8f363b987c58c46751c80aac6b439f2",
+      "distributed": false
+    }
+  ]
+}
