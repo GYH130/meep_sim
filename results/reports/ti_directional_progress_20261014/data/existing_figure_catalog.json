@@ -1,0 +1,197 @@
+{
+  "title_zh": "已有图表历史诊断图集",
+  "as_of": "2026-10-14",
+  "scope_zh": "本图集汇总既有 Ti 模型诊断与几何图，不是最新稳定材料的参数结论。图片逐字节保留原图，旧标题中的合格状态仅限其历史单条件及当时口径。最新结果见报告正文及 current 数据图。",
+  "figure_count": 10,
+  "current_model_figure_count_in_this_catalog": 0,
+  "inventory_summary": {
+    "total_files": 132,
+    "byte_unique_total": 92,
+    "scientific_or_example_candidates_files": 93,
+    "scientific_or_example_candidates_unique": 53,
+    "category_counts": {
+      "historical_tail_diagnostic": 10,
+      "conceptual_target": 2,
+      "historical_material_fit": 16,
+      "historical_archive_chart": 20,
+      "historical_diagnostic_reviewed": 4,
+      "software_example": 12,
+      "example_material_validation": 12,
+      "document_render_qa": 16,
+      "example_geometry_or_fdtd_smoke": 8,
+      "historical_ti_qualification": 6,
+      "historical_geometry_or_resources": 3,
+      "private_cost_accounting": 1,
+      "manufacturing_ui": 22
+    }
+  },
+  "file_path_base": "package root",
+  "source_path_base": "original workspace root; source paths are provenance labels, not package links",
+  "figures": [
+    {
+      "id": "H01",
+      "title_zh": "历史平面空间离散诊断",
+      "source_workspace_path": "meep_screen/server_stage2/delivered/flat_spatial_audit_20260922/flat_discretization.png",
+      "file": "figures/historical/H01_flat_discretization_20260922.png",
+      "caption_zh": "历史空间离散诊断（2026-09-22，旧 Ti 模型，平面 p 偏振 +30°）。左图中 r20/r24/r32 为独立离散方程预测，不是已完成 FDTD；r16 预测与保存 Meep 反射率一致至约 1.45×10⁻⁶。该证据定位旧算例的趋肤区空间离散误差，不能认证当前斜槽网格或作为统一修正量。",
+      "source_docs_workspace_relative": [
+        "meep_screen/server_stage2/delivered/flat_spatial_audit_20260922/REPORT.md",
+        "meep_screen/server_stage2/delivered/flat_spatial_audit_20260922/audit.json"
+      ],
+      "classification": "historical_numerical_diagnostic",
+      "not_current_material_result": true,
+      "sha256": "41881e0ec7794789943fd72e2d057858bc0a94cc4847899467be7ea92a0a6262",
+      "bytes": 112374,
+      "image_inspected": true
+    },
+    {
+      "id": "H02",
+      "title_zh": "历史均匀平面边界筛选",
+      "source_workspace_path": "meep_screen/github_archive_20260922/meep_screen_archive/boundary_screen_L/runs/boundary_20260924_L/reports/boundary_screen.png",
+      "file": "figures/historical/H02_boundary_screen_20260924.png",
+      "caption_zh": "历史均匀平面边界筛选（2026-09-24，数值宽度 2 μm，旧模型）。背景反射/前向功率比从 1.7167×10⁻³ 降至 2.2635×10⁻⁴；该图只反映一项边界指标。三项完整算例仍记录 NUMERICAL_FAILED，不能将低于虚线解释为整体合格，更不代表 50 μm 斜槽发射率。",
+      "source_docs_workspace_relative": [
+        "meep_screen/github_archive_20260922/meep_screen_archive/boundary_screen_L/runs/boundary_20260924_L/reports/L_HANDOFF.md",
+        "meep_screen/github_archive_20260922/meep_screen_archive/boundary_screen_L/runs/boundary_20260924_L/reports/screen_summary.json"
+      ],
+      "classification": "historical_numerical_diagnostic",
+      "not_current_material_result": true,
+      "sha256": "40e51309e0abd8294dca939d69ee15890f21961659d9ffca08ef8851e3c9b283",
+      "bytes": 42958,
+      "image_inspected": true
+    },
+    {
+      "id": "H03",
+      "title_zh": "历史 r24 停止与反射率尾部",
+      "source_workspace_path": "outputs/r24-offline-20260930.c67Sgd/tail_and_reflectance.png",
+      "file": "figures/historical/H03_r24_tail_reflectance_20260930.png",
+      "caption_zh": "历史停止判据离线审计（2026-09-30，旧模型、旧停止分母口径）。r24 尾场最后约 1.942×10⁻⁴，未达到当时 10⁻⁴ 的停止线；R/T 尾部漂移已较小。图示 r16/r20 的 QUALIFIED 是历史单条件状态，不继承为当前模型或整个参数扫描合格；尾场拟合不能替代停止证据或续算状态。",
+      "source_docs_workspace_relative": [
+        "outputs/r24-offline-20260930.c67Sgd/HANDOFF.md",
+        "outputs/r24-offline-20260930.c67Sgd/analysis.json"
+      ],
+      "classification": "historical_numerical_diagnostic",
+      "not_current_material_result": true,
+      "sha256": "4ad9f0fef6f594a73e9703a8364b03039042ae356091c8d36a51627d65a5826f",
+      "bytes": 147678,
+      "image_inspected": true
+    },
+    {
+      "id": "H04",
+      "title_zh": "历史单点及独立吸收诊断",
+      "source_workspace_path": "meep_screen/reports/D15C_single_point_diagnostics.png",
+      "file": "figures/historical/H04_single_point_absorption_20260921.png",
+      "caption_zh": "可选历史附图：早期 10.5 μm、+30°、p 偏振单点及离线吸收积分诊断（2026-09-21）。原结果停止资格未证实，右图绿色值为离线诊断，不是重算后的生产结果。其材料、实现和验收状态不同，不能并入当前占空比或波长曲线。",
+      "source_docs_workspace_relative": [
+        "meep_screen/reports/D15C_COST_AND_NEXT_STEPS_20260921.md"
+      ],
+      "classification": "historical_numerical_diagnostic",
+      "not_current_material_result": true,
+      "sha256": "8bd7446601b038d3f01584f9198e3aeda3b59fc4cc94219a19d6a6935703d546",
+      "bytes": 104765,
+      "image_inspected": true
+    },
+    {
+      "id": "H05",
+      "title_zh": "历史尾场频谱比较",
+      "source_workspace_path": "meep_screen/github_archive_20260922/meep_screen_archive/expiry_campaign/runs/tail_20260923_J/reports_recovered/tail_spectra.png",
+      "file": "figures/historical/H05_tail_spectra_pml_20260923.png",
+      "caption_zh": "历史 PML6 与 PML12 诊断尾场频谱。规则采样数据离线恢复 FFT，无插值或重采样。横轴为带符号频率，纵轴为相对 Ex/Ey 频谱强度；不是热发射率光谱，也不是 8–13 μm 连续光谱。原始 H 条件为 TIME_LIMIT_UNQUALIFIED，诊断完成不等于光学资格通过。",
+      "source_docs_workspace_relative": [
+        "meep_screen/github_archive_20260922/meep_screen_archive/expiry_campaign/runs/tail_20260923_J/reports_recovered/handoff.md",
+        "meep_screen/github_archive_20260922/meep_screen_archive/expiry_campaign/runs/tail_20260923_J/reports_recovered/diagnostic_summary.json"
+      ],
+      "classification": "historical_tail_fft_diagnostic",
+      "not_current_material_result": true,
+      "sha256": "75ccceda51364c7ecaa30c667bc56df53cfdafd612da976e0b5d361bd380a0b8",
+      "bytes": 92201,
+      "image_inspected": true
+    },
+    {
+      "id": "H06",
+      "title_zh": "历史 PML 厚度与背面尾场",
+      "source_workspace_path": "meep_screen/github_archive_20260922/meep_screen_archive/expiry_campaign/runs/tail_20260923_J/reports_recovered/tail_comparison.png",
+      "file": "figures/historical/H06_tail_pml_thickness_20260923.png",
+      "caption_zh": "历史尾场与 PML 厚度灵敏度诊断。匹配区间 t=1000–1200 内，PML12 的背面平均归一化强度为 PML6 的约 0.620；二者仍远高于图示停止线。此对照表明尾场对 PML 厚度敏感，但不能单独证明边界是全部偏差的原因，也不支持当前模型尺寸规律。",
+      "source_docs_workspace_relative": [
+        "meep_screen/github_archive_20260922/meep_screen_archive/expiry_campaign/runs/tail_20260923_J/reports_recovered/handoff.md",
+        "meep_screen/github_archive_20260922/meep_screen_archive/expiry_campaign/runs/tail_20260923_J/reports_recovered/diagnostic_summary.json"
+      ],
+      "classification": "historical_boundary_sensitivity_diagnostic",
+      "not_current_material_result": true,
+      "sha256": "64b1ba10a38449f9583d04cebc6f430db2862e59d5676436de30d58393c85f32",
+      "bytes": 139187,
+      "image_inspected": true
+    },
+    {
+      "id": "H07",
+      "title_zh": "旧 Route A 材料拟合",
+      "source_workspace_path": "meep_screen/lab_boundary_ab_20260929/assets/material/fit_comparison.png",
+      "file": "figures/historical/H07_legacy_material_fit_6_16um.png",
+      "caption_zh": "旧 Route A Ti 模型的 6–16 μm 拟合，不是 2026-10-11 后使用的稳定宽带模型。圆点为 Ordal 表格节点，虚线为插值目标，插值点并非新增测量；拟合误差不能作为真实加工 TA2 样品或高温材料误差。该图在旧阶段重复出现 16 次，仅保留一份。",
+      "source_docs_workspace_relative": [
+        "meep_screen/outputs/ti_qualification/STAGE_REPORT.md",
+        "meep_screen/outputs/ti_qualification/material/fit_report.json"
+      ],
+      "classification": "historical_material_fit",
+      "not_current_material_result": true,
+      "sha256": "47977c78c6eeba4750525e7e85a3fc7cc4a5a1fe5f42021a16e7eb19db61f8bf",
+      "bytes": 126410,
+      "image_inspected": true
+    },
+    {
+      "id": "H08",
+      "title_zh": "历史金属内部场衰减",
+      "source_workspace_path": "meep_screen/outputs/ti_qualification/metal_depth_profile.png",
+      "file": "figures/historical/H08_metal_depth_profile_20260908.png",
+      "caption_zh": "历史平面 Ti 8.5 μm、r32 内部场幅值剖面。近表面衰减与锚定解析曲线相近，但深部场重新增大，原报告保留边界或激励污染待查。不能仅用近表面区间拟合合格推断整个内部场可靠，也不能将曲线当作当前斜槽吸收空间分布。",
+      "source_docs_workspace_relative": [
+        "meep_screen/outputs/ti_qualification/STAGE_REPORT.md"
+      ],
+      "classification": "historical_field_diagnostic",
+      "not_current_material_result": true,
+      "sha256": "6e8a371dd4e05a3f0f9b863b87761ac66d3c5d279a495b035dee9a89e673ec9d",
+      "bytes": 62998,
+      "image_inspected": true
+    },
+    {
+      "id": "H09",
+      "title_zh": "历史平面 Ti 网格诊断",
+      "source_workspace_path": "meep_screen/outputs/ti_qualification/flat_convergence.png",
+      "file": "figures/historical/H09_flat_grid_diagnostic_20260908.png",
+      "caption_zh": "早期平面 Ti 网格诊断：相对 Fresnel 的反射率差及独立体吸收差随分辨率的变化。图中绝对误差按入射功率归一化；这是历史平面控制，不构成当前稳定材料斜槽模型的网格收敛，也不能把最细单点自动推广为生产网格合格。",
+      "source_docs_workspace_relative": [
+        "meep_screen/outputs/ti_qualification/STAGE_REPORT.md"
+      ],
+      "classification": "historical_grid_diagnostic",
+      "not_current_material_result": true,
+      "sha256": "85399ec0980a5fb72d2d85264b401e912bdeae6ece892d7ee47b9ce77760b48d",
+      "bytes": 63011,
+      "image_inspected": true
+    },
+    {
+      "id": "H10",
+      "title_zh": "历史三维盲孔几何截面",
+      "source_workspace_path": "meep_screen/outputs/ti_qualification/blind_hole_report_sections.png",
+      "file": "figures/historical/H10_blind_hole_geometry_only_20260908.png",
+      "caption_zh": "历史假设三维倾斜盲孔的几何截面，仅实体检查，不是三维电磁计算结果。原假设周期 50×50 μm、孔径 30 μm、轴长 40 μm、倾角 30°、Ti 厚度 60 μm。它与当前二维无限延伸斜槽及 F=开口宽度/周期的定义不同，不能把当前二维吸收率归属于该三维圆孔。",
+      "source_docs_workspace_relative": [
+        "meep_screen/outputs/ti_qualification/STAGE_REPORT.md",
+        "meep_screen/outputs/ti_qualification/geometry_validation.json"
+      ],
+      "classification": "historical_geometry_only",
+      "not_current_material_result": true,
+      "sha256": "ef9992c4b5a54a67f48e2d10e7465499a96e09e3be643e5196cdfc6a4e35ab83",
+      "bytes": 104683,
+      "image_inspected": true
+    }
+  ],
+  "excluded_groups_zh": [
+    "制造 UI 截图、费用账单图、历史报告页面预览。",
+    "软件烟雾测试与合成示例的 Pareto、角谱、FWHM 和尺寸曲线，均不得作为 Ti 物理结果。",
+    "baseline_r32_20260922_E 的 geometry、convergence_energy、paired_emissivity 图片实际为空图或资格未通过占位，未选入。",
+    "16 份字节完全相同的旧材料拟合图只收录一份。",
+    "理想 8–13 μm 发射率目标图是概念图，不是计算所得，本历史诊断图集未纳入。"
+  ],
+  "count_caveat": "Unique byte hashes are not unique scientific plots. PNG/SVG of one conceptual figure count twice; distinct historical revisions may represent one underlying plot family. Synthetic/example plots are explicitly classified and excluded from target-result claims."
+}

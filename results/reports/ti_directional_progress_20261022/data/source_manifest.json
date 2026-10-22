@@ -1,0 +1,148 @@
+{
+  "snapshot_verified_utc": "2026-10-22T12:23:45.8736487Z",
+  "consolidation_input_sha256": "79b64c7652f9afbf98f43ac48560bd722da9b847af1cf756afb17a8a20ad61ab",
+  "sources": [
+    {
+      "source_id": "S01",
+      "workspace_relative_reference": "outputs/coated_cavity_floorfilm_20261019/ooc_queue_20261020/status_live.json",
+      "bytes": 332162,
+      "sha256": "e46ab537cb96946913d720a4597530589942309502c196e66d8b6d02e9767281",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S02",
+      "workspace_relative_reference": "outputs/coated_cavity_floorfilm_20261019/warnexplore_20261020/status_live.json",
+      "bytes": 442429,
+      "sha256": "3be679652a89d53200b7b9a6ad37609f5bf4cb491de56d994dac18c2d599de69",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S03",
+      "workspace_relative_reference": "outputs/coated_cavity_floorfilm_20261019/continue_20261020_r1/status_live.json",
+      "bytes": 1408319,
+      "sha256": "16fa7f4d1a15121cd3572c6cdcf63bf697d5adb8218912a874f29609023acae7",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S04",
+      "workspace_relative_reference": "outputs/coated_cavity_floorfilm_20261019/angleband_continue_20261021/physical_status_live.json",
+      "bytes": 721358,
+      "sha256": "4cc1f7c415ab1f9955fb785948abdffabe8dbe54c91c4a1b678b790b3c866499",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S05",
+      "workspace_relative_reference": "outputs/coated_cavity_floorfilm_20261019/modefix_20261021/r2/final_completed_results_verified.json",
+      "bytes": 2041884,
+      "sha256": "2e29edc9f7324c1ebc01187d9cae61a5f1428063e54cc6de77c72c7495125fe8",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S06",
+      "workspace_relative_reference": "outputs/coated_cavity_floorfilm_20261019/direction_height_20261021/completed_results_verified_20261022.json",
+      "bytes": 2110053,
+      "sha256": "ffb3e6c95fceecc380da98cb69171d35dc62548def5ff4dcfcc93a0136e6e700",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S07",
+      "workspace_relative_reference": "outputs/coated_cavity_floorfilm_20261019/nearaxis_height_20261022/completed_results_verified_20261022.json",
+      "bytes": 24884,
+      "sha256": "345589be2ef2a44eeee0420bfd38c89820a5eece88be266c42258811b4a29ed0",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S08",
+      "workspace_relative_reference": "outputs/meep_comprehensive_report_20261014/publish/data/current_structured_results.json",
+      "bytes": 26861,
+      "sha256": "a1c87d607cfec92cc534d95decadb88b6395155673f05218b71158dc325d1161",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S09",
+      "workspace_relative_reference": "outputs/meep_comprehensive_report_20261014/publish/data/direction_pairs.json",
+      "bytes": 2850,
+      "sha256": "0e3dff699fb27278edc6a8c4c9ad5498d10da189dc7ae2acb24a958da21e6332",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S10",
+      "workspace_relative_reference": "outputs/meep_comprehensive_report_20261014/publish/data/legacy_chart_data.json",
+      "bytes": 120393,
+      "sha256": "bff63a869795d79b422494b5f07678743e94ff72648cea550a7273a81202778c",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S11",
+      "workspace_relative_reference": "outputs/meep_comprehensive_report_20261014/publish/data/historical_scientific_synthesis.json",
+      "bytes": 32783,
+      "sha256": "08678d2cb8deebf7a622343dcaee24b256da27211449436a0d22527004f08ac5",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S12",
+      "workspace_relative_reference": "outputs/meep_comprehensive_report_20261014/publish/data/geometry_and_settings.json",
+      "bytes": 5067,
+      "sha256": "f912ebbc9508762bdaecd2bbfe157a5525ee68c9e29bf2d5c80d39d6fbf039bf",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S13",
+      "workspace_relative_reference": "outputs/meep_comprehensive_report_20261014/publish/data/flat_validation_results.json",
+      "bytes": 19038,
+      "sha256": "03db7057cf0c8eedd028703a14a43eb40d4341450ad20f28727ce0e25afb3497",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S14",
+      "workspace_relative_reference": "outputs/cpc_report_20261016/analysis.json",
+      "bytes": 297663,
+      "sha256": "f6ea50a4a213de7ffdcd7e77c474ea773ab11bcc9ff64b0e73c0ff289303ad02",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S15",
+      "workspace_relative_reference": "outputs/candidate_analysis_20261016/analysis.json",
+      "bytes": 415687,
+      "sha256": "4b60c46d867952108c7c6f3bdfd6c3ea449c4251f99f5c3fc181758f2eb4c311",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S16",
+      "workspace_relative_reference": "outputs/cavity_explore_20261018/C0_result_review_20261019.json",
+      "bytes": 2386,
+      "sha256": "ac19b07e5186ccf9ddf2dac193d818f3957c6228a52dec5baebf387e03dba626",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    },
+    {
+      "source_id": "S17",
+      "workspace_relative_reference": "meep_screen/lab_comsol_nearaxis_height_20261022/material.json",
+      "bytes": 5542,
+      "sha256": "b0c66059863413b207a068cc17509b921c66626218fc64c4220bd27a36d0cffd",
+      "availability": "Original audit input retained separately; not included verbatim because it may contain operational fields"
+    }
+  ],
+  "previous_reports": [
+    {
+      "path": "outputs/meep_comprehensive_report_20261014/publish/report/定向热发射项目全阶段计算总结报告_20261014.docx",
+      "bytes": 1946566,
+      "sha256": "d8a167175c750b6999597d3dc9069d305c724174d2609e622a85afb23b01adab"
+    },
+    {
+      "path": "outputs/cpc_report_20261016/六种钛基微结构定向热发射筛选报告_20261016.docx",
+      "bytes": 2587783,
+      "sha256": "0d9567ba8809c800cd2924259b78a4f364a6c3e2e07a61b3494edb81754d91bf"
+    },
+    {
+      "path": "output/docx/钛基候选结构角域精筛与COMSOL验证分析报告_20261016.docx",
+      "bytes": 1888679,
+      "sha256": "e76007bf0fdc7ef8c3a60f46f694709c4adaaac9715907e2ea4e8f8da13bc729"
+    },
+    {
+      "path": "outputs/cavity_explore_20261018/钛腔体夜间计算审查报告_20261019.docx",
+      "bytes": 140964,
+      "sha256": "26e495766037b0e9604dc5f32f247f5422c4256ff026a20c1afe6fc5ae75031b"
+    }
+  ],
+  "policy": "Original-source hashes identify original bytes, not curated JSON. Published files have their own manifest hashes."
+}

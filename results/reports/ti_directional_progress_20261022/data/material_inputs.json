@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "kind": "PUBLIC_OPTICAL_PROXY_CASE_SELECTED_FLOORFILL_SIO2_ON_TI",
+  "film": {
+    "key": "SiO2_Kischkat",
+    "thickness_um": 3,
+    "coverage": "lower0..3um floorfill only; upper walls and land bare; not conformal",
+    "comsol_permittivity": "(nfilm-i*kfilm)^2",
+    "conductivity_S_per_m": 0,
+    "raw_data_sha256": "5340a3c4b2474ac31432d3841283058f11841c3f9f96fd5a6602ee53d9d33ba7",
+    "source_manifest": {
+      "schema": "public-film-source-manifest-v1",
+      "retrieved_utc": "2026-10-19T01:44:29.636998+00:00",
+      "repository": "https://github.com/polyanskiy/refractiveindex.info-database",
+      "repository_commit": "c5c2f188e848453def5970e347399d653df2ffc2",
+      "commit_url": "https://github.com/polyanskiy/refractiveindex.info-database/commit/c5c2f188e848453def5970e347399d653df2ffc2",
+      "commit_api_url": "https://api.github.com/repos/polyanskiy/refractiveindex.info-database/commits?per_page=1",
+      "paper_url": "https://doi.org/10.1364/AO.51.006789",
+      "films": {
+        "SiO2": {
+          "local_path": "data/SiO2_Kischkat.yml",
+          "source_url": "https://raw.githubusercontent.com/polyanskiy/refractiveindex.info-database/c5c2f188e848453def5970e347399d653df2ffc2/database/data/main/SiO2/nk/Kischkat.yml",
+          "moving_source_url": "https://raw.githubusercontent.com/polyanskiy/refractiveindex.info-database/master/database/data/main/SiO2/nk/Kischkat.yml",
+          "sha256": "5340a3c4b2474ac31432d3841283058f11841c3f9f96fd5a6602ee53d9d33ba7",
+          "bytes": 47575,
+          "row_count": 1451,
+          "range_um": [
+            1.53846,
+            14.28571
+          ],
+          "original_sample_thickness_nm": 510,
+          "preparation": "Room-temperature reactive sputter deposition using Si target and 2.0 SCCM O2 flux"
+        },
+        "SiN_Kischkat_nonstoichiometric": {
+          "local_path": "data/SiN_Kischkat_nonstoichiometric_Kischkat.yml",
+          "source_url": "https://raw.githubusercontent.com/polyanskiy/refractiveindex.info-database/c5c2f188e848453def5970e347399d653df2ffc2/database/data/main/Si3N4/nk/Kischkat.yml",
+          "moving_source_url": "https://raw.githubusercontent.com/polyanskiy/refractiveindex.info-database/master/database/data/main/Si3N4/nk/Kischkat.yml",
+          "sha256": "34228be96e766db81bc5448b571e017f33b5d60c4306705d44ade9589ece8649",
+          "bytes": 47597,
+          "row_count": 1451,
+          "range_um": [
+            1.53846,
+            14.28571
+          ],
+          "original_sample_thickness_nm": 437,
+          "preparation": "Room-temperature reactive sputter deposition using Si target, 2.0 SCCM N2 flux, 300 W plasma power"
+        }
+      }
+    }
+  },
+  "titanium": {
+    "provenance_local_path": "meep_screen/lab_comsol_cavity_pilot_20261016/plan.json",
+    "convention_tmm": "exp(-i omega t), passive N=n+i*k",
+    "convention_comsol": "exp(+i omega t), passive N=n-i*k",
+    "do_not_generate_constant_ti_broadband_spectrum": true
+  },
+  "temperature_dependent": false,
+  "measured_TA2": false,
+  "scope": "Public sputtered-film and bulk-optical-Ti proxies; no deposition or laser-oxide equivalence claimed",
+  "case_selected": true,
+  "optical_constants": [
+    {
+      "wavelength_um": 8.0,
+      "n_film": 0.5138616718749999,
+      "k_film": 0.2727297500000005,
+      "n_ti": 3.2048691,
+      "k_ti": 15.799043
+    },
+    {
+      "wavelength_um": 10.5,
+      "n_film": 2.2447212969283283,
+      "k_film": 0.06982232081911283,
+      "n_ti": 4.308219763636363,
+      "k_ti": 20.63042690909091
+    },
+    {
+      "wavelength_um": 13.0,
+      "n_film": 1.796554301808479,
+      "k_film": 0.19895928402016008,
+      "n_ti": 5.556116222222222,
+      "k_ti": 25.280601833333332
+    }
+  ],
+  "optical_input_provenance": {
+    "Ti_material_path": "meep_screen/lab_cpc_dimensions_20261016/material.json",
+    "Ti_material_json_sha256": "7ac6403847111feeea9360198b9d9133aec561c55c8d6c5a98d9e8abab225866",
+    "Ti_source_table_rows": 51,
+    "Ti_source_doi": "https://doi.org/10.1364/AO.27.001203",
+    "Ti_declared_original_source_sha256": "46f75369d4894db8ccc6bb2a73fdc693ae26ee7d62e8b87ac6c7f84cc0a0dda3",
+    "Ti_original_source_csv_verified_sha256": null,
+    "Ti10p5_n": 4.308219763636363,
+    "Ti10p5_k": 20.63042690909091,
+    "SiO2_yaml_path": "outputs/coated_pilot_20261019/data/SiO2_Kischkat.yml",
+    "SiO2_yaml_sha256": "5340a3c4b2474ac31432d3841283058f11841c3f9f96fd5a6602ee53d9d33ba7",
+    "SiO2_manifest_sha256": "a09950ab8164bb9beda47177b06d846d2bfee2ac55b950620a23d2c66baab806",
+    "SiO2_repository_commit": "c5c2f188e848453def5970e347399d653df2ffc2",
+    "SiO2_original_sample_thickness_nm": 510,
+    "SiO2_preparation": "Room-temperature reactive sputter deposition using Si target and 2.0 SCCM O2 flux",
+    "SiO2_source_url": "https://raw.githubusercontent.com/polyanskiy/refractiveindex.info-database/c5c2f188e848453def5970e347399d653df2ffc2/database/data/main/SiO2/nk/Kischkat.yml",
+    "paper_url": "https://doi.org/10.1364/AO.51.006789",
+    "interpolation": "Piecewise linear n and k versus wavelength_um; no extrapolation",
+    "full_reference_implementation_sha256": "50a0232e670a2dc07627b17734d70e1dd4692c7e8dc339328b1bc0e86f78a32b",
+    "band_implementation_sha256": "624916fc19ecd2125bf15c6fe78dc1bd775daeffec424143ccf3e4e5585400ca",
+    "source_temperature_is_not_a_simulation_or_actual_sample_temperature": true
+  },
+  "preparation_state": "PINNED_INPUTS_UNCHANGED_NOT_NATIVE_VALIDATED"
+}

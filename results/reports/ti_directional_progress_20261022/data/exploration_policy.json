@@ -1,0 +1,17 @@
+{
+  "scope": "Research archive, not a new admission or solver policy",
+  "absolute_exploratory_power_tolerance": 0.005,
+  "relative_absorption_tolerance": 0.02,
+  "strict_original_absolute_diagnostic": 0.002,
+  "formal_qualification": false,
+  "warning_continuation": "Only the six enumerated net-flux-related checks are nonblocking for continuation; original accepted flags remain unchanged",
+  "nonblocking_checks": [
+    "native_R_orders_vs_net_flux",
+    "native_flux_vs_total_loss_absolute",
+    "native_flux_vs_total_loss_relative",
+    "mode_vs_net",
+    "net_vs_loss_abs",
+    "net_vs_loss_relative"
+  ],
+  "native_full_checks": "latest_eight_quality.json retains all latest-case check flags; older condition summaries retain failures/warnings"
+}

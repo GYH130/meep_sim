@@ -1,0 +1,668 @@
+{
+  "schema_version": 1,
+  "title_zh": "全阶段核心结论独立科学审校提纲",
+  "review_date": "2026-10-14",
+  "scope": "综合已保存的早期 GitHub 研究表/报告、历史服务器结果审计和当前稳定材料模型结果；只读审校，不启动计算，不修改原结论或原始数据。",
+  "source_policy": "旧阶段从固定版本与历史审计追溯；当前数值从已分发 JSON 重新读取。不同材料、几何、偏振、网格、停止策略不合并成同一趋势或总体误差条。旧 CSV 的新增逐行复核由 github_coverage_audit 提供 chart_data.json。",
+  "goal_restatement_zh": "核心目标是探究可加工特征尺寸对 8–13 μm 热发射光谱及方向性的影响，并辨别偏振依赖；3–20 μm 是后续扩展覆盖，不替代 8–13 μm 的主评价。",
+  "units": "A/R/T 为无量纲比例；percent 为乘以 100 的百分数；pp 为百分点差；尺寸单位 μm。",
+  "core_conclusions": [
+    {
+      "id": "C01",
+      "heading_zh": "工程曾探索两条不同物理路线，不能把全项目缩成最近一批裸 Ti 计算",
+      "conclusion_zh": "裸 Ti 槽的几何调控与有损膜的材料吸收增强是两条并行研究路线。早期小槽、全平面膜、内壁膜、涂层楔形角谱、后来的裸 Ti 倾斜盲槽都应进入阶段总览，但必须分组。当前稳定模型不含氧化层或有损内壁膜，因此当前结果既没有验证，也没有推翻旧涂层候选。",
+      "disposition": "RETAIN_AS_SEPARATE_PHYSICAL_ROUTES",
+      "strongest_evidence": [
+        {
+          "stage": "D10",
+          "film_thickness_um": [
+            0,
+            1,
+            3
+          ],
+          "sample_span_trapezoid_mean_A": [
+            0.07029529621543727,
+            0.5024048426026488,
+            0.8184414404573038
+          ],
+          "actual_wavelength_points_um": [
+            9,
+            10,
+            12
+          ],
+          "actual_sample_span_um": [
+            9,
+            12
+          ],
+          "misleading_original_metric_label_band_um": [
+            8.1014,
+            12.398
+          ],
+          "qualification": "THREE_POINT_SMOKE_CAPABILITY_SCREENING_NOT_FULL_BAND"
+        },
+        {
+          "stage": "current",
+          "oxide_layer_in_model": false,
+          "geometry_scope": "2D periodic finite tilted blind slot",
+          "material_id": "Ti_Ordal_stable_candidate0_20261011",
+          "structured_records": 10,
+          "qualification": "EXPLORATORY_CONVERGED_NOT_QUALIFIED"
+        }
+      ],
+      "retained_claim_zh": "材料损耗与几何耦合都可能改变吸收，应分别检验其增益。",
+      "prohibited_claim_zh": "不能把旧 D10/D12 的高吸收百分数写成当前裸 Ti 样品或 TA2 的已实现发射率。",
+      "sources": [
+        {
+          "repository": "GYH130/meep_sim",
+          "ref": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+          "path": "results/diagnostics_v2/reports/D10_planar_full_surface_film_capability_report.md",
+          "git_blob_sha": "292788c3fcd565530fe21f892e64ef85cdc8ce13"
+        },
+        {
+          "path": "outputs/meep_comprehensive_report_20261014/private/chart_data.json",
+          "pointer": "/spectral_series",
+          "note": "Original CSV row/commit/blob trace is in sources; D10 actual 9–12 μm three-point span supersedes narrative band label."
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/geometry_and_settings.json",
+          "pointer": "/settings/oxide_layer_in_model"
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/current_structured_results.json",
+          "pointer": "/records"
+        }
+      ],
+      "report_figure_idea_zh": "物理路线树：裸 Ti 几何路线与有损膜路线，旁标各自几何、材料及证据等级；不要按每次排错单独铺页。"
+    },
+    {
+      "id": "C02",
+      "heading_zh": "旧涂层数据保留了很强的吸收提升线索，但仍是候选能力，不是正式热发射结论",
+      "conclusion_zh": "D11 内壁膜随厚度增加出现吸收提高及趋缓；D12 宽深直槽的较高吸收值得保留为后续候选。测量膜的化学身份尚未确认，不能改称 TiO2；D07 的 n=2.4 无损占位层也不是同一材料。D11/D12 的裸槽和匹配平面对照缺失、网格质量不足，不能定量分离膜与几何贡献。",
+      "disposition": "RETAIN_TREND_DOWNGRADE_ABSOLUTE_PERFORMANCE",
+      "strongest_evidence": [
+        {
+          "stage": "V02",
+          "film_name": "measured_lossy_wall_film",
+          "measured_nk_points": 217,
+          "measurement_range_um": [
+            8.1014,
+            24.927
+          ],
+          "chemical_identity_verified": false
+        },
+        {
+          "stage": "D11",
+          "film_thickness_um": [
+            0.5,
+            1,
+            2,
+            3
+          ],
+          "reported_2D_proxy_sample_span_mean_A": [
+            0.185238,
+            0.302422,
+            0.416514,
+            0.41897
+          ],
+          "actual_wavelength_points_um": [
+            8.1014,
+            9.0016,
+            10.009,
+            10.985,
+            12.345
+          ],
+          "actual_sample_span_um": [
+            8.1014,
+            12.345
+          ],
+          "misleading_original_metric_label_band_um": [
+            8.1014,
+            12.398
+          ],
+          "excluded_sample_note": "At 0.5 μm, Hz and the unpolarized proxy exclude 10.009 μm because |T|>0.001; their four-point trapezoidal mean bridges that missing sample. Do not average differently sampled Ez/Hz scalar means.",
+          "resolution": 24,
+          "geometry": {
+            "period_um": 50,
+            "width_um": 20,
+            "depth_um": 15,
+            "tilt_deg": 20,
+            "substrate_um": 25
+          }
+        },
+        {
+          "stage": "D12",
+          "film_thickness_um": [
+            0.5,
+            1,
+            2
+          ],
+          "reported_2D_proxy_sample_span_mean_A": [
+            0.256456,
+            0.470384,
+            0.732813
+          ],
+          "actual_wavelength_points_um": [
+            8.1014,
+            9.0016,
+            10.009,
+            10.985,
+            12.345
+          ],
+          "actual_sample_span_um": [
+            8.1014,
+            12.345
+          ],
+          "resolution": 12,
+          "pml_um": 4,
+          "geometry": {
+            "period_um": 50,
+            "width_um": 40,
+            "depth_um": 30,
+            "tilt_deg": 0,
+            "substrate_um": 45
+          },
+          "field_snapshot_warning": "Numerically unstable field snapshot reported; screening only."
+        }
+      ],
+      "retained_claim_zh": "有损膜厚度是值得重新比较的设计自由度，薄膜路线可能比单独裸 Ti 几何更有利于提高绝对吸收。",
+      "prohibited_claim_zh": "不能写‘占空比翻倍使发射率升到 73%’：D11→D12 同时变宽度、深度、倾角、基底和网格。D10 实际仅 9/10/12 μm 三点；D11/D12 仅 8.1014–12.345 μm 五点（部分质量排除后只剩四点），旧指标名称中的 8.1014–12.398 不能代替真实采样跨度，更不能改写为完整 8–13 μm 指标。",
+      "sources": [
+        {
+          "path": "outputs/meep_comprehensive_report_20261014/private/chart_data.json",
+          "pointer": "/spectral_series",
+          "note": "CSV-derived sampling span/strict_include governs, superseding old report labels."
+        },
+        {
+          "path": "outputs/meep_comprehensive_report_20261014/private/historical_audit.json",
+          "stage_ids": [
+            "github_V02_D09_measured_film",
+            "github_D11_film_thickness_series",
+            "github_D12_wide_straight_groove"
+          ],
+          "original_sources": "各 stage.sources 固定 GitHub 路径与 blob SHA"
+        },
+        {
+          "repository": "GYH130/meep_sim",
+          "ref": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+          "path": "results/diagnostics_v2/reports/D12_gap10_wide_deep_groove_inner_wall_film_report.md",
+          "git_blob_sha": "2fe4a482cb3ab53f3b6d50b07d78f27b737aa00d"
+        }
+      ],
+      "report_figure_idea_zh": "分面画旧平膜与内壁膜厚度—吸收曲线；不同几何不连成同一条尺寸趋势，标明旧模型/筛选与材料身份待核。"
+    },
+    {
+      "id": "C03",
+      "heading_zh": "裸 Ti 几何的方向选择性已有可复查信号，但早期‘增强’不等于已达到高发射率目标",
+      "conclusion_zh": "早期 P=10 μm 小槽在单点显示吸收提升但两方向差很弱；后来的 P=50 μm 有限倾斜盲槽显示更明显的正负角不对称。它们是不同模型、几何和材料条件，不能把差值直接归因于周期变大。当前结果支持继续做几何规律，而不是宣称已完成高效率宽带定向热发射设计。",
+      "disposition": "RETAIN_WITH_CROSS_STAGE_COMPARISON_LIMIT",
+      "strongest_evidence": [
+        {
+          "stage": "D05",
+          "wavelength_um": 10,
+          "polarization_code": "Ez",
+          "theta_deg": [
+            -30,
+            0,
+            30
+          ],
+          "slanted_A": [
+            0.0854748,
+            0.111224,
+            0.0878968
+          ],
+          "absolute_plus_minus_difference_pp": 0.242197,
+          "ratio_plus_minus": 1.02834,
+          "note": "Table/report band_average label does not make this single wavelength a band integral."
+        },
+        {
+          "stage": "D15c",
+          "slot_r16_A_flux": 0.2636529051037657,
+          "flat_r16_A_flux": 0.07590981852063945,
+          "difference_pp": 18.774308658312627,
+          "qualification": "DIAGNOSTIC_ONLY_NOT_QUALIFIED: all 3 long physical cases reached max_time"
+        },
+        {
+          "stage": "current_F065_p10p5",
+          "A_plus30": 0.19974049722760187,
+          "A_minus30": 0.08935360520133966,
+          "difference_pp": 11.038689202626221,
+          "ratio": 2.2353938240939293
+        }
+      ],
+      "prohibited_claim_zh": "不能写‘周期从 10 增至 50 μm 必然使方向性提高’或‘早期 26.6% 比当前 20.0% 更优’；材料、槽形、停止标准和光学条件未匹配。",
+      "sources": [
+        {
+          "repository": "GYH130/meep_sim",
+          "ref": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+          "path": "results/diagnostics/reports/D05_angle_resolved_emissivity_report.md",
+          "git_blob_sha": "dd36ec2838e46667b538020ce28131055b873195"
+        },
+        {
+          "path": "meep_screen/reviews/D15c_20260920.1Rqupk/audit_values.json",
+          "sha256": "97e375227adae777e1ed99ad3e128cb17d7fe08f37828a761ff12f0ca0089e90"
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/direction_pairs.json",
+          "pointer": "/records/2"
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "heading_zh": "当前最强尺寸结论：F=0.65 在已测的三个占空比中较优，不是全局最优",
+      "conclusion_zh": "同一稳定 Ti 模型、p 偏振、10.5 μm、r20、±30°下，正向吸收和方向差都在 F=0.65 高于 F=0.50 与 0.80；体吸收与通量吸收给出相同排序。这是可用的局部非单调筛选结论。F 是空气槽表面开口/周期，不是金属填充分数；改变 F 也改变槽最深处、底部残余厚度及壁厚，尚不能把机制锁定为开口耦合或某一共振。",
+      "disposition": "RETAIN_AS_CURRENT_LOCAL_EXPLORATORY_TREND",
+      "strongest_evidence": {
+        "F": [
+          0.5,
+          0.65,
+          0.8
+        ],
+        "A_flux_plus30_percent": [
+          13.328132194342981,
+          19.97404972276019,
+          16.10382310675056
+        ],
+        "A_flux_minus30_percent": [
+          8.51044998087262,
+          8.935360520133965,
+          8.288755913448869
+        ],
+        "direction_difference_flux_pp": [
+          4.817682213470362,
+          11.038689202626221,
+          7.81506719330169
+        ],
+        "direction_difference_volume_pp": [
+          4.813763493610246,
+          11.037714538332898,
+          7.807344983274805
+        ],
+        "surface_opening_um": [
+          25,
+          32.5,
+          40
+        ],
+        "maximum_depth_um": [
+          40.05367492503029,
+          41.677472557126116,
+          43.30127018922194
+        ],
+        "min_wall_um": [
+          21.650635094610966,
+          15.155444566227679,
+          8.660254037844386
+        ],
+        "constant_geometry": {
+          "period_um": 50,
+          "axis_length_um": 40,
+          "tilt_deg": 30,
+          "Ti_thickness_um": 60
+        }
+      },
+      "prohibited_claim_zh": "不写‘最优占空比就是 0.65’、‘越深越好’、‘已解释先增后减物理机制’。三个样本不足以定位最优点与峰宽，且尚无固定深度/壁厚的一因素分解。",
+      "sources": [
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/direction_pairs.json",
+          "record_ids": [
+            "f050_plus30",
+            "structure_p10p5_plus30_r20",
+            "f080_plus30"
+          ]
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/geometry_and_settings.json",
+          "pointer": "/geometry"
+        },
+        {
+          "path": "meep_screen/lab_fill_bridge_20261013/PROGRESS_CHECK_20261014_1345.json",
+          "sha256": "1a9e33d9a42d2e6df0a72cbf3cf4b89c6b7ec3602ff5dd2d9fd8cf7720cab16a"
+        }
+      ],
+      "report_figure_idea_zh": "F—双角吸收曲线与方向差曲线，A_flux/A_vol 两套标记；旁附各 F 的几何截面，明确这是局部探索。"
+    },
+    {
+      "id": "C05",
+      "heading_zh": "当前证实的是三个波长的双角不对称，不是完整带内方向图",
+      "conclusion_zh": "F=0.65 的 p 偏振在 8、10.5、13 μm 都呈现 +30°高于−30°，且差值两种吸收算法一致。这个跨三个采样波长的符号一致性有研究价值，但不能确定两点之间是否存在共振/低谷，也不能由 ±30°求峰角、FWHM、锥内能量或半球方向性因子。旧涂层 D14 虽有更广角采样，也不能补到当前裸 Ti 曲线。",
+      "disposition": "RETAIN_POINTWISE_DIRECTIONAL_SIGNAL_REJECT_BAND_COMPLETENESS",
+      "strongest_evidence": {
+        "wavelength_um": [
+          8,
+          10.5,
+          13
+        ],
+        "A_flux_plus30_percent": [
+          22.52325346309096,
+          19.97404972276019,
+          16.543090308483936
+        ],
+        "A_flux_minus30_percent": [
+          11.106241384757126,
+          8.935360520133965,
+          7.985677092663047
+        ],
+        "delta_pp": [
+          11.417012078333833,
+          11.038689202626221,
+          8.557413215820887
+        ],
+        "ratio": [
+          2.027981626079479,
+          2.2353938240939293,
+          2.0715951968159505
+        ],
+        "legacy_D14": {
+          "completed_angular_rows": 110,
+          "strict_included_rows": 108,
+          "planned_rows": 150,
+          "wavelengths_um": [
+            8.1014,
+            9.0016,
+            10.009,
+            10.985,
+            12.345
+          ],
+          "Ez_angle_counts": [
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "Hz_angle_counts": [
+            15,
+            15,
+            5,
+            0,
+            0
+          ],
+          "Ez_five_sample_trapezoidal_angle_curve": {
+            "sample_span_um": [
+              8.1014,
+              12.345
+            ],
+            "sampled_peak_angle_deg": -50,
+            "sampled_peak_A": 0.808300916164596,
+            "A_plus30": 0.6873464600937054,
+            "A_minus30": 0.7938646813156274,
+            "delta_plus_minus_pp": -10.6518221221922
+          },
+          "scope": "Old coated left-wedge geometry; not current bare tilted slot; Ez is complete at five sparse wavelengths, Hz has no complete band curve; 110 are sample records, not independent launched jobs."
+        }
+      },
+      "prohibited_claim_zh": "不写‘8–13 μm 连续带内方向性已证实’或‘方向峰就是 30°’；避免用平滑曲线或插值热图掩盖未计算位置。旧 D14 的负角偏好与当前正角偏好不能直接称方向反转：先统一几何朝向、坐标和入射/发射角约定。",
+      "sources": [
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/direction_pairs.json",
+          "pointer": "/records"
+        },
+        {
+          "path": "outputs/meep_comprehensive_report_20261014/private/chart_data.json",
+          "pointer": "/D14_angular",
+          "original_table": "results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv",
+          "git_blob_sha": "c2ed5ae547169c08629ec4fa294cdfad33bb5188"
+        },
+        {
+          "repository": "GYH130/meep_sim",
+          "ref": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+          "path": "results/diagnostics_v2/reports/D14_left_wedge_gap10_w40_h30_film2um_partial_upload_status.md",
+          "git_blob_sha": "f68e52fc0878db50118beac316b3849cdc4b99d5"
+        }
+      ],
+      "report_figure_idea_zh": "现有 3 波长×2 角度点阵/哑铃图；旧 D14 单列带缺失遮罩的覆盖图，不能跨版本补齐。"
+    },
+    {
+      "id": "C06",
+      "heading_zh": "偏振既是物理自由度，也是已知数值混淆项；目前不能报告非偏振带内性能",
+      "conclusion_zh": "旧膜厚筛选显示 s/p 差异可能随几何与膜厚改变，不能简单认定偏振始终不重要。当前正规化源诊断则证明，法向各向同性平板原来一部分看似 s/p 的分裂来自电/磁源约定：同种源比较时两偏振一致。这个诊断不等于所有倾斜槽 s/p 差异都是伪影；结构仍需要同约定、同参考、同数值精度的成对计算。",
+      "disposition": "REPLACE_FALSE_FLAT_POLARIZATION_CLAIM_RETAIN_PHYSICAL_POLARIZATION_QUESTION",
+      "strongest_evidence": [
+        {
+          "stage": "D11_1um",
+          "reported_Ez_mean_A": 0.2397011703898654,
+          "reported_Hz_mean_A": 0.36514311304793506,
+          "absolute_difference_pp": 12.544194265806967,
+          "sampling": "Both polarizations at matching 5 wavelengths, 8.1014–12.345 μm; not full band",
+          "qualification": "Historical coarse screening, not current material"
+        },
+        {
+          "stage": "D11_2um",
+          "reported_Ez_mean_A": 0.409933,
+          "reported_Hz_mean_A": 0.423096,
+          "absolute_difference_pp": 1.3163,
+          "qualification": "Historical coarse screening, not current material"
+        },
+        {
+          "stage": "current_normal_flat_10p5um_r20",
+          "same_electric_source_s_p_A_flux_difference": 5.551115123125783e-16,
+          "same_magnetic_source_s_p_A_flux_difference": 3.3306690738754696e-16,
+          "electric_minus_magnetic_A_flux_pp": 0.3708699935020675,
+          "electric_minus_magnetic_A_volume": -2.4927700806309794e-08
+        }
+      ],
+      "prohibited_claim_zh": "不能由目前纯 p 结构结果给出非偏振 ε=(εs+εp)/2，也不能用旧模型的 s 数据补当前 p。平板法向源诊断不能证明倾斜结构在斜入射下无物理偏振效应。",
+      "sources": [
+        {
+          "path": "outputs/meep_comprehensive_report_20261014/private/historical_audit.json",
+          "stage_id": "github_D11_film_thickness_series"
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/source_type_diagnostic.json",
+          "pointer": "/comparison"
+        },
+        {
+          "path": "meep_screen/lab_parallel_exploration_20261012/PROGRESS_CHECK_20261012_1547.json",
+          "sha256": "dd4f7789fcaed1c3bf8322668032209976690e3a19479a470bc4e10e218087bf"
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "heading_zh": "材料模型更换是结果版本边界，不是一次可以忽略的参数更新",
+      "conclusion_zh": "内建 Ti、Ordal 6–16 μm 拟合、失败的宽带拟合及当前稳定宽带拟合必须分组。拓宽到 3–20 μm 有材料覆盖依据，但拟合频谱准确不等于时域稳定，更不等于真实 TA2 光学常数已验证。旧稳定基线可用于历史筛选，当前结论必须以新模型重新闭合。",
+      "disposition": "KEEP_VERSIONED_HISTORY_USE_STABLE_MODEL_FOR_CURRENT_COMPARISONS",
+      "strongest_evidence": [
+        {
+          "material": "old_Ordal_6_16",
+          "sha256": "4791b3868810fb4a3fa93c8469b488650270c0f47a18804c9b26bd7354153b5e"
+        },
+        {
+          "material": "rejected_wideband_fit",
+          "sha256": "a5c59084cc2905e9f6240b14ee8c19bd6738fe168bd1e220fb6f91d917bb8ba7",
+          "epsilon_inf": 4.223557251563898e-05,
+          "courant": 0.25,
+          "finding": "16 isolated tests reproduce early divergence without PML/interfaces and remove it by same-model step reduction or epsilon-only controls; not a stop-threshold issue."
+        },
+        {
+          "material": "Ti_Ordal_stable_candidate0_20261011",
+          "sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+          "epsilon_inf": 23.79429602789568,
+          "model_range_um": [
+            2.5,
+            25
+          ],
+          "target_range_um": [
+            3,
+            20
+          ],
+          "sample_validated": false,
+          "temperature_k": null
+        }
+      ],
+      "prohibited_claim_zh": "不能把跨材料模型数值差作为网格误差；不能把室温文献光学常数直接说成高温 TA2、激光氧化层或真实加工表面的已验证性质。",
+      "sources": [
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/current_model.json"
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/stability_diagnosis_summary.json"
+        },
+        {
+          "path": "meep_screen/stability_diagnostic_20261011/diagnosis.json",
+          "sha256": "e4f2c21cb7f07e01ee4dc98b1078f1df13dd3d0414ebad114a7eed26f1afead2"
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "heading_zh": "现有方向差比绝对吸收值更稳健，但这不是完整不确定度证明",
+      "conclusion_zh": "当前正负角配对中的通量—体吸收偏差具有较强共同部分，因此两个算法的方向差几乎重合；这让已采样方向不对称比绝对百分数更有依据。仍有全体负净透射、0.269–0.380 pp 的吸收账目差，以及若干平面 Fresnel 控制失败。不能把算法差直接当成总误差条，更不能证明小于它的细微排序可靠。",
+      "disposition": "RETAIN_ROBUST_PAIRWISE_SIGNAL_DOWNGRADE_ABSOLUTE_CERTAINTY",
+      "strongest_evidence": {
+        "all_current_structure_records_exploratory": 10,
+        "minimum_abs_A_flux_minus_A_volume_pp": 0.26925044988781455,
+        "maximum_abs_A_flux_minus_A_volume_pp": 0.3803641011376174,
+        "negative_T_records": 10,
+        "largest_abs_negative_T_percent_of_incident": 0.08354125194349535,
+        "max_flux_vs_volume_direction_difference_pp_over_five_pairs": 0.007722210026884557,
+        "flat_controls": {
+          "passed": 4,
+          "failed": 8,
+          "R_absolute_tolerance_pp": 0.25,
+          "p_3um_R_error_pp": 1.1593807131650369,
+          "p_8um_R_error_pp": 0.8284785082900425,
+          "p_10p5um_R_error_pp": 0.020424117856499002,
+          "p_13um_R_error_pp": 0.40535004817896514,
+          "p_20um_R_error_pp": 0.08244515984177081,
+          "s_10p5um_R_error_pp": 0.520770357995326
+        }
+      },
+      "mechanism_status_zh": "保存场控制中入射/散射交叉项可定量重构主要账目差；参考返回波的唯一来源仍未锁定。总场闭合面与体积分更接近也不能消除所有网格/材料误差。禁止对所有结构一律减去某个常数。",
+      "sources": [
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/current_structured_results.json"
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/direction_pairs.json"
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/flat_validation_results.json"
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/source_type_diagnostic.json",
+          "pointer": "/saved_field_audits"
+        }
+      ],
+      "report_figure_idea_zh": "两角配对方向差的双算法一致图；把平面控制误差按波长/偏振另作小面板，勿把不同误差来源相加后伪称置信区间。"
+    },
+    {
+      "id": "C09",
+      "heading_zh": "旧阶段有价值的是逐步排除伪增强；原始 PASS/VALID 标签不能跨版本继承",
+      "conclusion_zh": "历史排错不应成为报告主线，但应浓缩成可信度边界：D15c 的 valid 被日志 max_time 证据降级；旧 r16/r20 的停止分母含参考场下限，不能冒充逐探针自身峰值标准；Absorber 筛选产生的更高 A_flux 未通过独立吸收/解析反射，不能作为优化提升。新模型已在严格参考与探索性结构停止策略下取得有效配对数据，这是进展，但还不是所有条件正式合格。",
+      "disposition": "RECLASSIFY_INVALIDATED_LABELS_PRESERVE_RAW_VALUES",
+      "strongest_evidence": [
+        {
+          "stage": "D15c",
+          "long_physical_cases": 3,
+          "original_label": "valid",
+          "audited_label": "DIAGNOSTIC_ONLY_NOT_QUALIFIED",
+          "why": "All long physics logs end at max_time=1450 rather than satisfying decay stop."
+        },
+        {
+          "stage": "old_L_absorber_1e6",
+          "A_flux": 0.06591368020730742,
+          "A_volume": 0.042561202535658156,
+          "difference_pp": 2.3352477671649265,
+          "result_status": "NUMERICAL_FAILED"
+        },
+        {
+          "stage": "current_structure",
+          "exploratory_intensity_decay": 0.001,
+          "reference_intensity_decay": 0.0001,
+          "all_probes_own_historical_peak": true,
+          "qualification": "EXPLORATORY_CONVERGED_NOT_QUALIFIED"
+        }
+      ],
+      "counting_warning_zh": "41 几何/90 试扫/2214 完整激励属于早期计划，不是完成结果；347 历史 status 文件混有重试/快照/例程，不得作为独立物理样本数。纯几何初始化、单元测试和合成谱也不能算研究结果。",
+      "sources": [
+        {
+          "path": "meep_screen/reviews/D15c_20260920.1Rqupk/AUDIT.md",
+          "sha256": "5a88c0fcdd8ccbb582cc5db82f65530127c5b80491478e5750bb9f0e98da6dec"
+        },
+        {
+          "path": "outputs/r24-offline-20260930.c67Sgd/HANDOFF.md"
+        },
+        {
+          "path": "meep_screen/github_archive_20260922/meep_screen_archive/boundary_screen_L/runs/boundary_20260924_L/tasks/L_narrow_candidate_1e6/attempt_1/result.json",
+          "sha256": "3dde9e71ed8ebe2d073100455b2ac93e540b7a1e79b255a4e2b47c974a666b17"
+        },
+        {
+          "path": "outputs/meep_comprehensive_report_20261014/private/historical_audit.json",
+          "pointer": "/counting_policy"
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "heading_zh": "距离目标的主要缺口是匹配的谱—角—偏振矩阵和可辨识尺寸因子，不是再盲目增大计算总数",
+      "conclusion_zh": "现阶段可形成候选几何与方向性线索总结，但尚不能形成 8–13 μm 非偏振带内方向性随尺寸变化的定量规律。下一阶段应把有限计算集中到可比较矩阵：先统一源/参考约定与选定误差要求，在少量候选几何上补带内光谱与多角 s/p，随后拆分开口、深度、倾角、周期影响；有损膜路线作为独立比较支线，不能混在裸 Ti 参数扫描里。",
+      "disposition": "NEXT_RESEARCH_DESIGN_NOT_EXECUTED",
+      "priority_plan": [
+        {
+          "priority": 1,
+          "action_zh": "以当前稳定材料固定一个可复现基线；在拟用于主结论的波长/偏振上完成匹配平面对照、源约定统一及代表几何的网格/停止敏感性。主张精度应由欲分辨的设计差值决定，继续保留探索与正式结论两层。",
+          "why": "8/13 μm 和 s 通道平面误差仍比既定 0.25 pp 门槛大；只增加结构数目不消除系统偏差。"
+        },
+        {
+          "priority": 2,
+          "action_zh": "优先围绕 F=0.65 及两侧候选补 8–13 μm 光谱，在多角度与 s/p 同时采样；对窄特征自适应加密。报告每个方向的带内指标，并另算带内角谱。",
+          "why": "3 波长×2 角只有方向不对称证据，无峰角/FWHM或带内积分。"
+        },
+        {
+          "priority": 3,
+          "action_zh": "明确波长平均与指定温度 Planck 加权为不同指标；温度未给定时不要暗设。方向性指标从带内角谱提取，并标注二维截面范围，不能冒充三维半球积分。",
+          "why": "目标温度、角域与对‘高发射率+定向’的权衡尚未被完整数据封闭。"
+        },
+        {
+          "priority": 4,
+          "action_zh": "将表面开口/周期 F 与最大深度、最小壁厚和底部厚度都记录，设计固定其余量的一因素或小型联合矩阵；同时对关键尺寸进行加工公差敏感性。",
+          "why": "当前 F 改变同时改变多个几何量，不能直接归因机制。"
+        },
+        {
+          "priority": 5,
+          "action_zh": "若绝对带内发射率是关键瓶颈，以确认化学身份及 n,k 的实测有损膜重复少量匹配的平面、裸槽、内壁膜槽对照。再决定是否值得大规模涂层扫描。",
+          "why": "旧涂层路线具高吸收候选线索，但旧质量边界不支持直接选型。"
+        },
+        {
+          "priority": 6,
+          "action_zh": "机器学习暂作后续选择：先获得同一模型与质量标准的设计矩阵；样本足够且覆盖关键因子后，可用代理模型/主动学习选择下一批，不用跨模型失败样本伪装为统一训练集。",
+          "why": "当前十个结构点仅对应三个 F 和三个波长的稀疏配对；旧路线又改变材料、几何、网格及指标，直接训练难以区分物理和数值因素。"
+        }
+      ],
+      "missing_deliverables": [
+        "统一模型下完整 8–13 μm 的固定角 s/p 光谱",
+        "带内积分发射率的多角方向图及峰角/宽度",
+        "代表条件的数值与制造公差敏感性",
+        "独立尺寸因子的可解释规律",
+        "真实材料/膜身份及温度或样品对照",
+        "若目标是三维方向锥，需三维验证而非仅二维截面"
+      ],
+      "sources": [
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/direction_pairs.json"
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/geometry_and_settings.json"
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/current_model.json"
+        },
+        {
+          "path": "outputs/meep_progress_report_20261014/publish/data/flat_validation_results.json"
+        }
+      ],
+      "report_figure_idea_zh": "研究目标—已有证据—缺口矩阵，突出候选筛选已取得的结果，按‘谱、角、偏振、尺寸、实样’而非排错日期组织下一步。"
+    }
+  ],
+  "editorial_recommendation_zh": "主报告用物理问题组织 6–8 张核心图：研究路线/几何定义、旧膜厚候选、旧角谱覆盖、当前 F 排序、三个波长双角对比、源/数值可信边界、目标缺口。技术诊断时间线与所有失败记录入附录，避免每次诊断一页掩盖物理结论。",
+  "publication_provenance": {
+    "export_kind": "SANITIZED_PRESENTATION_COPY_WITH_ORIGINAL_SCIENTIFIC_EVIDENCE",
+    "source_audit_filename": "synthesis_review.json",
+    "source_audit_sha256": "0b0f2b0ab59486c0b67163378980393662871cbf1176ab60a4fd574f4b2cadce",
+    "path_normalization_counts": {},
+    "path_policy": "Repository paths remain relative; runtime library location is environment-relative. Source SHA256 fields refer to original unmodified artifacts, not normalized JSON text.",
+    "preservation_policy": "Original numbers, model parameters, status, quality flags, error details and source hashes are retained. Later table-based clarifications are explicitly separated from original narrative claims.",
+    "counting_policy": "Attempts, retries, snapshots, sample rows and independent physical conditions are different counting units."
+  }
+}

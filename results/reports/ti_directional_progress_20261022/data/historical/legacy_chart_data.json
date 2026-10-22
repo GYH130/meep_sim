@@ -1,0 +1,3938 @@
+{
+  "title": "Pinned legacy film and angular screening chart data",
+  "source_commit_main": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+  "units": {
+    "length": "um",
+    "angle": "degree",
+    "R_T_A": "dimensionless fraction; multiply by 100 for percent",
+    "resolution": "pixels per um"
+  },
+  "calculation_method": {
+    "mean": "Sum trapezoidal areas / (last valid wavelength - first valid wavelength). Not Planck weighted. Strict flag from original CSV preserved.",
+    "source_file": "src/postprocess.py",
+    "git_blob_sha": "1ba9bfe06cbad2fc572c9b254dc00a6d43353252"
+  },
+  "sources": [
+    {
+      "source_id": "D10_planar_full_surface_film_spectra",
+      "path": "results/diagnostics_v2/tables/D10_planar_full_surface_film_spectra.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "4e29274aeb3d4bbcad739abb6b316ca2c9dec5f7",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D10_planar_full_surface_film_spectra.csv"
+    },
+    {
+      "source_id": "D10_planar_full_surface_film_metrics",
+      "path": "results/diagnostics_v2/tables/D10_planar_full_surface_film_metrics.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "204593002dbf5bc2911376f4311a630c11829924",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D10_planar_full_surface_film_metrics.csv"
+    },
+    {
+      "source_id": "D11_scaled_deep_groove_inner_wall_film_spectra",
+      "path": "results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "62800af354dc77cc20554eab0a07431f8098300b",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_spectra.csv"
+    },
+    {
+      "source_id": "D11_scaled_deep_groove_inner_wall_film_metrics",
+      "path": "results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "f73a225b68ddd53767c6981b5026f83b8fb93b93",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D11_scaled_deep_groove_inner_wall_film_metrics.csv"
+    },
+    {
+      "source_id": "D11_thickness_1um_quick_spectra",
+      "path": "results/diagnostics_v2/tables/D11_thickness_1um_quick_spectra.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "f572226bb22e00049def0d7691f0ebb17179c3b0",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D11_thickness_1um_quick_spectra.csv"
+    },
+    {
+      "source_id": "D11_thickness_1um_quick_metrics",
+      "path": "results/diagnostics_v2/tables/D11_thickness_1um_quick_metrics.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "d92fa9f13f87d31414e19e4ce991c316882e2813",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D11_thickness_1um_quick_metrics.csv"
+    },
+    {
+      "source_id": "D11_thickness_2um_quick_spectra",
+      "path": "results/diagnostics_v2/tables/D11_thickness_2um_quick_spectra.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "abbfe978d0d8ed5a4bdd28e7909f2b60891a005d",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D11_thickness_2um_quick_spectra.csv"
+    },
+    {
+      "source_id": "D11_thickness_2um_quick_metrics",
+      "path": "results/diagnostics_v2/tables/D11_thickness_2um_quick_metrics.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "37ad314b959503a5e7d9ec7b753e28a139f792be",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D11_thickness_2um_quick_metrics.csv"
+    },
+    {
+      "source_id": "D11_thickness_3um_quick_spectra",
+      "path": "results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "6048dcb2b06b369e304e61ae94dfa273d5e33fb0",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D11_thickness_3um_quick_spectra.csv"
+    },
+    {
+      "source_id": "D11_thickness_3um_quick_metrics",
+      "path": "results/diagnostics_v2/tables/D11_thickness_3um_quick_metrics.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "0fe87505112f5abde003a82268d967173834d353",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D11_thickness_3um_quick_metrics.csv"
+    },
+    {
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_spectra",
+      "path": "results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "8f0c4d623710ce83d08dad7f3a0b1be7e3d2d6c7",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_spectra.csv"
+    },
+    {
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_metrics",
+      "path": "results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_metrics.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "945c04882024222562079e5897089de5c34ccd2a",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D12_gap10_wide_deep_groove_inner_wall_film_metrics.csv"
+    },
+    {
+      "source_id": "D14_left_wedge_gap10_w40_h30_film2um_normal_spectra",
+      "path": "results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "f0ebed611502363eef68094d5cb50443585b2b2e",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_spectra.csv"
+    },
+    {
+      "source_id": "D14_left_wedge_gap10_w40_h30_film2um_normal_metrics",
+      "path": "results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_metrics.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "34b76e4f0a5eb5c95d91e31ae8c1c07fcba2b5dd",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_normal_metrics.csv"
+    },
+    {
+      "source_id": "D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint",
+      "path": "results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv",
+      "commit": "8ab791bb0af3ccf499b998cfb10c60a719a82cec",
+      "git_blob_sha": "c2ed5ae547169c08629ec4fa294cdfad33bb5188",
+      "url": "https://github.com/GYH130/meep_sim/blob/8ab791bb0af3ccf499b998cfb10c60a719a82cec/results/diagnostics_v2/tables/D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint.csv"
+    }
+  ],
+  "spectral_series": [
+    {
+      "stage": "D10",
+      "case": "bare_flat_Ti",
+      "film_thickness_um": 0.0,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D10_planar_full_surface_film_spectra",
+      "metrics_source_id": "D10_planar_full_surface_film_metrics",
+      "metrics_source_data_row": 1,
+      "points": [
+        {
+          "wavelength_um": 9.0,
+          "A": 0.07776412005568094,
+          "R": 0.9222358799443193,
+          "T": -2.5883819072933475e-16,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 1
+        },
+        {
+          "wavelength_um": 10.0,
+          "A": 0.0717804529417213,
+          "R": 0.9282195470582788,
+          "T": -1.1670453310526736e-16,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 2
+        },
+        {
+          "wavelength_um": 12.0,
+          "A": 0.0643331492058894,
+          "R": 0.9356668507941106,
+          "T": -3.6140688938594136e-19,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 3
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "10.0"
+        ],
+        "resolution": [
+          "32"
+        ],
+        "pml_thickness_um": [
+          "2.0"
+        ],
+        "substrate_thickness_um": [
+          "4.0"
+        ],
+        "air_buffer_um": [
+          "8.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "planar_full_surface_film_single_wavelength_v1"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "none"
+        ]
+      },
+      "stored_mean_A": 0.07029529621543727,
+      "recomputed_sample_span_trapezoid_mean_A": 0.07029529621543727,
+      "mean_status_as_recorded": "NUMERICAL_PASS",
+      "strict_valid_count": 3,
+      "sample_count": 3,
+      "observed_wavelength_span_um": [
+        9.0,
+        12.0
+      ],
+      "notes": [
+        "Three wavelength smoke points at 9, 10 and 12 um, Ez only. The stored metric name says 8.1014-12.398 but the implementation integrates only the observed 9-12 um span.",
+        "Planar uniform film is a material capability screen, not laser microstructure. Thickness 3 um is not yet fabrication-validated. Resolution test not run."
+      ]
+    },
+    {
+      "stage": "D10",
+      "case": "flat_Ti_with_measured_lossy_wall_film",
+      "film_thickness_um": 1.0,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D10_planar_full_surface_film_spectra",
+      "metrics_source_id": "D10_planar_full_surface_film_metrics",
+      "metrics_source_data_row": 2,
+      "points": [
+        {
+          "wavelength_um": 9.0,
+          "A": 0.6917284237778103,
+          "R": 0.30827157622218987,
+          "T": -1.7207805224037686e-16,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 4
+        },
+        {
+          "wavelength_um": 10.0,
+          "A": 0.572847924344589,
+          "R": 0.42715207565637653,
+          "T": -9.654831125462466e-13,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 5
+        },
+        {
+          "wavelength_um": 12.0,
+          "A": 0.30207842940215784,
+          "R": 0.6979215705978433,
+          "T": -1.1527709073388973e-15,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 6
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "10.0"
+        ],
+        "resolution": [
+          "32"
+        ],
+        "pml_thickness_um": [
+          "2.0"
+        ],
+        "substrate_thickness_um": [
+          "4.0"
+        ],
+        "air_buffer_um": [
+          "8.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "planar_full_surface_film_single_wavelength_v1"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.5024048426026488,
+      "recomputed_sample_span_trapezoid_mean_A": 0.5024048426026488,
+      "mean_status_as_recorded": "NUMERICAL_PASS",
+      "strict_valid_count": 3,
+      "sample_count": 3,
+      "observed_wavelength_span_um": [
+        9.0,
+        12.0
+      ],
+      "notes": [
+        "Three wavelength smoke points at 9, 10 and 12 um, Ez only. The stored metric name says 8.1014-12.398 but the implementation integrates only the observed 9-12 um span.",
+        "Planar uniform film is a material capability screen, not laser microstructure. Thickness 3 um is not yet fabrication-validated. Resolution test not run."
+      ]
+    },
+    {
+      "stage": "D10",
+      "case": "flat_Ti_with_measured_lossy_wall_film",
+      "film_thickness_um": 3.0,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D10_planar_full_surface_film_spectra",
+      "metrics_source_id": "D10_planar_full_surface_film_metrics",
+      "metrics_source_data_row": 3,
+      "points": [
+        {
+          "wavelength_um": 9.0,
+          "A": 0.8808955335506509,
+          "R": 0.1191044664493493,
+          "T": -9.699013405995537e-17,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 7
+        },
+        {
+          "wavelength_um": 10.0,
+          "A": 0.7322569799012356,
+          "R": 0.26774302009886664,
+          "T": -1.0223147216312023e-13,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 8
+        },
+        {
+          "wavelength_um": 12.0,
+          "A": 0.9164910847447323,
+          "R": 0.08350891525527745,
+          "T": -9.82529881275158e-15,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 9
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "10.0"
+        ],
+        "resolution": [
+          "32"
+        ],
+        "pml_thickness_um": [
+          "2.0"
+        ],
+        "substrate_thickness_um": [
+          "4.0"
+        ],
+        "air_buffer_um": [
+          "8.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "planar_full_surface_film_single_wavelength_v1"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.8184414404573038,
+      "recomputed_sample_span_trapezoid_mean_A": 0.8184414404573038,
+      "mean_status_as_recorded": "NUMERICAL_PASS",
+      "strict_valid_count": 3,
+      "sample_count": 3,
+      "observed_wavelength_span_um": [
+        9.0,
+        12.0
+      ],
+      "notes": [
+        "Three wavelength smoke points at 9, 10 and 12 um, Ez only. The stored metric name says 8.1014-12.398 but the implementation integrates only the observed 9-12 um span.",
+        "Planar uniform film is a material capability screen, not laser microstructure. Thickness 3 um is not yet fabrication-validated. Resolution test not run."
+      ]
+    },
+    {
+      "stage": "D11_t0.5",
+      "case": "scaled_inner_wall_film_500nm",
+      "film_thickness_um": 0.5,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D11_scaled_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D11_scaled_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 1,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.11365906333212089,
+          "R": 0.8863410120922802,
+          "T": -7.542440111487408e-08,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 1
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.15133190308997732,
+          "R": 0.8486680974790134,
+          "T": -5.689907108531048e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 2
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.11719583671379204,
+          "R": 0.8828047221543389,
+          "T": -5.588681309572811e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 3
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.09328537372814256,
+          "R": 0.906714630313723,
+          "T": -4.041865573816624e-09,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 4
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.09444117153324176,
+          "R": 0.90555964933701,
+          "T": -8.20870251817879e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 5
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "20.0"
+        ],
+        "bottom_width_um": [
+          "20.0"
+        ],
+        "depth_um": [
+          "15.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "25.0"
+        ],
+        "air_buffer_um": [
+          "12.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "scaled_deep_inner_wall_film_single_wavelength_v2"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.11426589169552985,
+      "recomputed_sample_span_trapezoid_mean_A": 0.11426589169552984,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t0.5",
+      "case": "scaled_inner_wall_film_500nm",
+      "film_thickness_um": 0.5,
+      "polarization_as_recorded": "Hz",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D11_scaled_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D11_scaled_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 2,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.24921211178209712,
+          "R": 0.7507890759581347,
+          "T": -1.1877402318433187e-06,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 6
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.3591126241197379,
+          "R": 0.6408873871048382,
+          "T": -1.1224576066806483e-08,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 7
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.2928432629981597,
+          "R": 0.7117865217930381,
+          "T": -0.004629784791197832,
+          "strict_include": false,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "WARNING_EXCLUDED_FROM_STRICT_METRIC",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 8
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.19188156785840085,
+          "R": 0.8081184380289433,
+          "T": -5.887344182531046e-09,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 9
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.19401027028706733,
+          "R": 0.8060933454718184,
+          "T": -0.00010361575888577137,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 10
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "20.0"
+        ],
+        "bottom_width_um": [
+          "20.0"
+        ],
+        "depth_um": [
+          "15.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "25.0"
+        ],
+        "air_buffer_um": [
+          "12.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "scaled_deep_inner_wall_film_single_wavelength_v2"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.2551216782338237,
+      "recomputed_sample_span_trapezoid_mean_A": 0.2551216782338237,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 4,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t0.5",
+      "case": "scaled_inner_wall_film_500nm",
+      "film_thickness_um": 0.5,
+      "polarization_as_recorded": "unpolarized_2D_proxy",
+      "derived_proxy_not_independent_run": true,
+      "source_id": "D11_scaled_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D11_scaled_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 3,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.181435587557109,
+          "R": 0.8185650440252075,
+          "T": -6.315823164790964e-07,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 11
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.2552222636048576,
+          "R": 0.7447777422919257,
+          "T": -5.896783388829794e-09,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 12
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.20501954985597587,
+          "R": 0.7972956219736885,
+          "T": -0.0023151718296643945,
+          "strict_include": false,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 13
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.14258347079327172,
+          "R": 0.8574165341713331,
+          "T": -4.964604878173835e-09,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 14
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.14422572091015454,
+          "R": 0.8558264974044143,
+          "T": -5.2218314568794624e-05,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 15
+        }
+      ],
+      "geometry_and_settings": {
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "source_mode": [
+          "derived_from_Ez_Hz"
+        ],
+        "mode": [
+          "smoke"
+        ]
+      },
+      "stored_mean_A": 0.18523750965429253,
+      "recomputed_sample_span_trapezoid_mean_A": 0.18523750965429253,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 4,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t1",
+      "case": "scaled_inner_wall_film_1um",
+      "film_thickness_um": 1.0,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D11_thickness_1um_quick_spectra",
+      "metrics_source_id": "D11_thickness_1um_quick_metrics",
+      "metrics_source_data_row": 1,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.18627837069171282,
+          "R": 0.8137216972608201,
+          "T": -6.795253292594334e-08,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 1
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.332506837998033,
+          "R": 0.6674931623850826,
+          "T": -3.8311560054386795e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 2
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.28508052279151674,
+          "R": 0.714920327846706,
+          "T": -8.506382227730531e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 3
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.17546310536003076,
+          "R": 0.8245368974816522,
+          "T": -2.8416829134578648e-09,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 4
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.1890466300333911,
+          "R": 0.8109541476323152,
+          "T": -7.776657062907048e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 5
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "20.0"
+        ],
+        "bottom_width_um": [
+          "20.0"
+        ],
+        "depth_um": [
+          "15.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "25.0"
+        ],
+        "air_buffer_um": [
+          "12.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "scaled_deep_inner_wall_film_single_wavelength_v2"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.2397011703898654,
+      "recomputed_sample_span_trapezoid_mean_A": 0.2397011703898654,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t1",
+      "case": "scaled_inner_wall_film_1um",
+      "film_thickness_um": 1.0,
+      "polarization_as_recorded": "Hz",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D11_thickness_1um_quick_spectra",
+      "metrics_source_id": "D11_thickness_1um_quick_metrics",
+      "metrics_source_data_row": 2,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.31158492933376714,
+          "R": 0.6884156790081752,
+          "T": -6.083419423552065e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 6
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.42678843276469913,
+          "R": 0.5732115729383622,
+          "T": -5.703061350102837e-09,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 7
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.4058525070572096,
+          "R": 0.5947809608486365,
+          "T": -0.0006334679058460959,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 8
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.33122863567646565,
+          "R": 0.668771374436268,
+          "T": -1.0112733650484008e-08,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 9
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.3130105190402534,
+          "R": 0.6871046143758598,
+          "T": -0.00011513341611319271,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 10
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "20.0"
+        ],
+        "bottom_width_um": [
+          "20.0"
+        ],
+        "depth_um": [
+          "15.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "25.0"
+        ],
+        "air_buffer_um": [
+          "12.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "scaled_deep_inner_wall_film_single_wavelength_v2"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.36514311304793506,
+      "recomputed_sample_span_trapezoid_mean_A": 0.3651431130479351,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t1",
+      "case": "scaled_inner_wall_film_1um",
+      "film_thickness_um": 1.0,
+      "polarization_as_recorded": "unpolarized_2D_proxy",
+      "derived_proxy_not_independent_run": true,
+      "source_id": "D11_thickness_1um_quick_spectra",
+      "metrics_source_id": "D11_thickness_1um_quick_metrics",
+      "metrics_source_data_row": 3,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.24893165001273998,
+          "R": 0.7510686881344977,
+          "T": -3.3814723764057494e-07,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 11
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.37964763538136603,
+          "R": 0.6203523676617224,
+          "T": -3.0430884753233524e-09,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 12
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.3454665149243632,
+          "R": 0.6548506443476713,
+          "T": -0.0003171592720344345,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 13
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.2533458705182482,
+          "R": 0.74665413595896,
+          "T": -6.477208281970936e-09,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 14
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.25102857453682226,
+          "R": 0.7490293810040876,
+          "T": -5.795554090974171e-05,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 15
+        }
+      ],
+      "geometry_and_settings": {
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "source_mode": [
+          "derived_from_Ez_Hz"
+        ],
+        "mode": [
+          "smoke"
+        ]
+      },
+      "stored_mean_A": 0.30242214171890025,
+      "recomputed_sample_span_trapezoid_mean_A": 0.30242214171890025,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t2",
+      "case": "scaled_inner_wall_film_2um",
+      "film_thickness_um": 2.0,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D11_thickness_2um_quick_spectra",
+      "metrics_source_id": "D11_thickness_2um_quick_metrics",
+      "metrics_source_data_row": 1,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.3640202745584144,
+          "R": 0.6359797748804277,
+          "T": -4.9438842099025e-08,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 1
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.4225981724177501,
+          "R": 0.5774018278057338,
+          "T": -2.2348392217782805e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 2
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.42796663454030315,
+          "R": 0.57203408965943,
+          "T": -7.241997331758899e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 3
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.3831271640825792,
+          "R": 0.61687283648539,
+          "T": -5.679692209449676e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 4
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.4422997728184512,
+          "R": 0.5577006196856136,
+          "T": -3.9250406476960866e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 5
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "20.0"
+        ],
+        "bottom_width_um": [
+          "20.0"
+        ],
+        "depth_um": [
+          "15.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "25.0"
+        ],
+        "air_buffer_um": [
+          "12.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "scaled_deep_inner_wall_film_single_wavelength_v2"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.40993273330884394,
+      "recomputed_sample_span_trapezoid_mean_A": 0.40993273330884394,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t2",
+      "case": "scaled_inner_wall_film_2um",
+      "film_thickness_um": 2.0,
+      "polarization_as_recorded": "Hz",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D11_thickness_2um_quick_spectra",
+      "metrics_source_id": "D11_thickness_2um_quick_metrics",
+      "metrics_source_data_row": 2,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.4016123885278263,
+          "R": 0.5983882853401313,
+          "T": -6.738679576742689e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 6
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.4465365726041348,
+          "R": 0.5534634292631617,
+          "T": -1.8672965525133607e-09,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 7
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.4335829647493632,
+          "R": 0.5666323977262426,
+          "T": -0.0002153624756058533,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 8
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.41125681237252515,
+          "R": 0.5887431897549322,
+          "T": -2.1274573849743692e-09,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 9
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.4094783136694489,
+          "R": 0.5905476039037051,
+          "T": -2.5917573154019294e-05,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 10
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "20.0"
+        ],
+        "bottom_width_um": [
+          "20.0"
+        ],
+        "depth_um": [
+          "15.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "25.0"
+        ],
+        "air_buffer_um": [
+          "12.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "scaled_deep_inner_wall_film_single_wavelength_v2"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.42309589860365643,
+      "recomputed_sample_span_trapezoid_mean_A": 0.42309589860365643,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t2",
+      "case": "scaled_inner_wall_film_2um",
+      "film_thickness_um": 2.0,
+      "polarization_as_recorded": "unpolarized_2D_proxy",
+      "derived_proxy_not_independent_run": true,
+      "source_id": "D11_thickness_2um_quick_spectra",
+      "metrics_source_id": "D11_thickness_2um_quick_metrics",
+      "metrics_source_data_row": 3,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.38281633154312034,
+          "R": 0.6171840301102796,
+          "T": -3.6165339988664694e-07,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 11
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.43456737251094246,
+          "R": 0.5654326285344478,
+          "T": -1.0453902373455945e-09,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 12
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.4307747996448332,
+          "R": 0.5693332436928363,
+          "T": -0.00010804333766951459,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 13
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.3971919882275522,
+          "R": 0.6028080131201612,
+          "T": -1.3477133029596685e-09,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 14
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.42588904324395005,
+          "R": 0.5741241117946594,
+          "T": -1.3155038609394451e-05,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 15
+        }
+      ],
+      "geometry_and_settings": {
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "source_mode": [
+          "derived_from_Ez_Hz"
+        ],
+        "mode": [
+          "smoke"
+        ]
+      },
+      "stored_mean_A": 0.4165143159562502,
+      "recomputed_sample_span_trapezoid_mean_A": 0.41651431595625027,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t3",
+      "case": "scaled_inner_wall_film_3um",
+      "film_thickness_um": 3.0,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D11_thickness_3um_quick_spectra",
+      "metrics_source_id": "D11_thickness_3um_quick_metrics",
+      "metrics_source_data_row": 1,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.42039244404279374,
+          "R": 0.5796075976142548,
+          "T": -4.165704856083381e-08,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 1
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.40278006755906215,
+          "R": 0.5972199325926372,
+          "T": -1.5169930604170583e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 2
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.41506447102666244,
+          "R": 0.5849360945217845,
+          "T": -5.655484469468787e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 3
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.4001135264968305,
+          "R": 0.5998864740575583,
+          "T": -5.543888870191173e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 4
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.4390572441298607,
+          "R": 0.5609428986789531,
+          "T": -1.4280881375630315e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 5
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "20.0"
+        ],
+        "bottom_width_um": [
+          "20.0"
+        ],
+        "depth_um": [
+          "15.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "25.0"
+        ],
+        "air_buffer_um": [
+          "12.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "scaled_deep_inner_wall_film_single_wavelength_v2"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.41259808379094143,
+      "recomputed_sample_span_trapezoid_mean_A": 0.4125980837909415,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t3",
+      "case": "scaled_inner_wall_film_3um",
+      "film_thickness_um": 3.0,
+      "polarization_as_recorded": "Hz",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D11_thickness_3um_quick_spectra",
+      "metrics_source_id": "D11_thickness_3um_quick_metrics",
+      "metrics_source_data_row": 2,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.4342811207595743,
+          "R": 0.5657197978765496,
+          "T": -9.186361239180384e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 6
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.4388760777753311,
+          "R": 0.5611239241789424,
+          "T": -1.9542735300578463e-09,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 7
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.4243268807141371,
+          "R": 0.5762765485083641,
+          "T": -0.0006034292225011668,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 8
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.4180536573638772,
+          "R": 0.581946343833113,
+          "T": -1.196990141231324e-09,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 9
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.4144354963681878,
+          "R": 0.5855957374174051,
+          "T": -3.123378559288207e-05,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 10
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "20.0"
+        ],
+        "bottom_width_um": [
+          "20.0"
+        ],
+        "depth_um": [
+          "15.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "25.0"
+        ],
+        "air_buffer_um": [
+          "12.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "scaled_deep_inner_wall_film_single_wavelength_v2"
+        ],
+        "mode": [
+          "smoke"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.4253411519397637,
+      "recomputed_sample_span_trapezoid_mean_A": 0.4253411519397637,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D11_t3",
+      "case": "scaled_inner_wall_film_3um",
+      "film_thickness_um": 3.0,
+      "polarization_as_recorded": "unpolarized_2D_proxy",
+      "derived_proxy_not_independent_run": true,
+      "source_id": "D11_thickness_3um_quick_spectra",
+      "metrics_source_id": "D11_thickness_3um_quick_metrics",
+      "metrics_source_data_row": 3,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.427336782401184,
+          "R": 0.5726636977454023,
+          "T": -4.801465862394361e-07,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 11
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.42082807266719663,
+          "R": 0.5791719283857898,
+          "T": -1.052986418049776e-09,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 12
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.4196956758703998,
+          "R": 0.5806063215150743,
+          "T": -0.00030199738547405684,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 13
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.4090835919303538,
+          "R": 0.5909164089453356,
+          "T": -8.756895141252206e-10,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 14
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.42674637024902423,
+          "R": 0.5732693180481792,
+          "T": -1.568829720331919e-05,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 15
+        }
+      ],
+      "geometry_and_settings": {
+        "resolution": [
+          "24"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "source_mode": [
+          "derived_from_Ez_Hz"
+        ],
+        "mode": [
+          "smoke"
+        ]
+      },
+      "stored_mean_A": 0.41896961786535264,
+      "recomputed_sample_span_trapezoid_mean_A": 0.41896961786535264,
+      "mean_status_as_recorded": "CODE_PASS",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, not a continuous spectrum or Planck-weighted 8-13 um metric.",
+        "D11 P=50, width=20, depth=15, tilt=20 deg, r24; resolution/PML checks not run. Smoke CODE_PASS is not physical qualification.",
+        "For t=0.5 um, Hz at 10.009 um is excluded because abs(T)>0.001; the four-point average bridges that missing sample."
+      ]
+    },
+    {
+      "stage": "D12",
+      "case": "gap10_inner_wall_film_500nm",
+      "film_thickness_um": 0.5,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D12_gap10_wide_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 1,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.11710659433853839,
+          "R": 0.8828935440903173,
+          "T": -1.3842885567310562e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 1
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.2028080065602278,
+          "R": 0.7971919938594543,
+          "T": -4.196820715038454e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 2
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.14738540792572152,
+          "R": 0.8526156954646789,
+          "T": -1.1033904003871546e-06,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 3
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.10823907408792685,
+          "R": 0.8917609265529903,
+          "T": -6.409171831745828e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 4
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.09950857223154227,
+          "R": 0.9004912707441546,
+          "T": 1.5702430313907874e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 5
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "40.0"
+        ],
+        "bottom_width_um": [
+          "40.0"
+        ],
+        "depth_um": [
+          "30.0"
+        ],
+        "tilt_angle_deg": [
+          "0.0"
+        ],
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "45.0"
+        ],
+        "air_buffer_um": [
+          "15.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "gap10_wide_deep_inner_wall_film_single_wavelength_v1"
+        ],
+        "mode": [
+          "screen"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.1381843556086829,
+      "recomputed_sample_span_trapezoid_mean_A": 0.1381843556086829,
+      "mean_status_as_recorded": "NUMERICAL_SCREENING",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, normal incidence, numerical screening only.",
+        "P=50, width=40, depth=30, tilt=0 deg, r12. The change from D11 alters width, depth, tilt and resolution together; it is not an isolated single-size causal comparison."
+      ]
+    },
+    {
+      "stage": "D12",
+      "case": "gap10_inner_wall_film_500nm",
+      "film_thickness_um": 0.5,
+      "polarization_as_recorded": "Hz",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D12_gap10_wide_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 2,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.35456778080879525,
+          "R": 0.6454335444962048,
+          "T": -1.3253050000762871e-06,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 6
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.4506007486919166,
+          "R": 0.5493992514108231,
+          "T": -1.0273969296045951e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 7
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.43550294092448505,
+          "R": 0.5645490429673399,
+          "T": -5.1983891824906716e-05,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 8
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.29170549557250863,
+          "R": 0.7082945051071896,
+          "T": -6.796982457739593e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 9
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.3356151092211915,
+          "R": 0.6643931018118452,
+          "T": -8.211033036687928e-06,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 10
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "40.0"
+        ],
+        "bottom_width_um": [
+          "40.0"
+        ],
+        "depth_um": [
+          "30.0"
+        ],
+        "tilt_angle_deg": [
+          "0.0"
+        ],
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "45.0"
+        ],
+        "air_buffer_um": [
+          "15.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "gap10_wide_deep_inner_wall_film_single_wavelength_v1"
+        ],
+        "mode": [
+          "screen"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.3747272391031909,
+      "recomputed_sample_span_trapezoid_mean_A": 0.3747272391031909,
+      "mean_status_as_recorded": "NUMERICAL_SCREENING",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, normal incidence, numerical screening only.",
+        "P=50, width=40, depth=30, tilt=0 deg, r12. The change from D11 alters width, depth, tilt and resolution together; it is not an isolated single-size causal comparison."
+      ]
+    },
+    {
+      "stage": "D12",
+      "case": "gap10_inner_wall_film_1um",
+      "film_thickness_um": 1.0,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D12_gap10_wide_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 3,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.2502472770714614,
+          "R": 0.7497528414600589,
+          "T": -1.1853152034409476e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 11
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.5852757107412409,
+          "R": 0.41472428947594747,
+          "T": -2.1718837857442362e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 12
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.49276115970657464,
+          "R": 0.507238336540595,
+          "T": 5.03752830343116e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 13
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.26892153408688246,
+          "R": 0.7310784664108437,
+          "T": -4.977261887441185e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 14
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.27091603104342027,
+          "R": 0.7290838382817395,
+          "T": 1.3067484020284875e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 15
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "40.0"
+        ],
+        "bottom_width_um": [
+          "40.0"
+        ],
+        "depth_um": [
+          "30.0"
+        ],
+        "tilt_angle_deg": [
+          "0.0"
+        ],
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "45.0"
+        ],
+        "air_buffer_um": [
+          "15.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "gap10_wide_deep_inner_wall_film_single_wavelength_v1"
+        ],
+        "mode": [
+          "screen"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.39067460819089334,
+      "recomputed_sample_span_trapezoid_mean_A": 0.3906746081908933,
+      "mean_status_as_recorded": "NUMERICAL_SCREENING",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, normal incidence, numerical screening only.",
+        "P=50, width=40, depth=30, tilt=0 deg, r12. The change from D11 alters width, depth, tilt and resolution together; it is not an isolated single-size causal comparison."
+      ]
+    },
+    {
+      "stage": "D12",
+      "case": "gap10_inner_wall_film_1um",
+      "film_thickness_um": 1.0,
+      "polarization_as_recorded": "Hz",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D12_gap10_wide_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 4,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.4490924075518687,
+          "R": 0.5509085407911247,
+          "T": -9.483429934075656e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 16
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.6558024760815299,
+          "R": 0.34419752404452664,
+          "T": -1.2605653201606386e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 17
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.5994999062535051,
+          "R": 0.4005159108678005,
+          "T": -1.5817121305619197e-05,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 18
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.4781063307311485,
+          "R": 0.5218936693198482,
+          "T": -5.0996646177470154e-11,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 19
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.5202686503776881,
+          "R": 0.47974649995640406,
+          "T": -1.5150334092182324e-05,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 20
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "40.0"
+        ],
+        "bottom_width_um": [
+          "40.0"
+        ],
+        "depth_um": [
+          "30.0"
+        ],
+        "tilt_angle_deg": [
+          "0.0"
+        ],
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "45.0"
+        ],
+        "air_buffer_um": [
+          "15.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "gap10_wide_deep_inner_wall_film_single_wavelength_v1"
+        ],
+        "mode": [
+          "screen"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.5500932764417168,
+      "recomputed_sample_span_trapezoid_mean_A": 0.5500932764417169,
+      "mean_status_as_recorded": "NUMERICAL_SCREENING",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, normal incidence, numerical screening only.",
+        "P=50, width=40, depth=30, tilt=0 deg, r12. The change from D11 alters width, depth, tilt and resolution together; it is not an isolated single-size causal comparison."
+      ]
+    },
+    {
+      "stage": "D12",
+      "case": "gap10_inner_wall_film_2um",
+      "film_thickness_um": 2.0,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D12_gap10_wide_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 5,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.608373769213495,
+          "R": 0.391626348480404,
+          "T": -1.176938989709899e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 21
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.7940440245811748,
+          "R": 0.2059559755277547,
+          "T": -1.0892951426745294e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 22
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.7526552991412464,
+          "R": 0.247343981969329,
+          "T": 7.188894245382346e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 23
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.6793108362059271,
+          "R": 0.3206891639785578,
+          "T": -1.8448503424610626e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 24
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.752813820607568,
+          "R": 0.24718601900754253,
+          "T": 1.603848894338946e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 25
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "40.0"
+        ],
+        "bottom_width_um": [
+          "40.0"
+        ],
+        "depth_um": [
+          "30.0"
+        ],
+        "tilt_angle_deg": [
+          "0.0"
+        ],
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "45.0"
+        ],
+        "air_buffer_um": [
+          "15.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "gap10_wide_deep_inner_wall_film_single_wavelength_v1"
+        ],
+        "mode": [
+          "screen"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.7264928219032335,
+      "recomputed_sample_span_trapezoid_mean_A": 0.7264928219032335,
+      "mean_status_as_recorded": "NUMERICAL_SCREENING",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, normal incidence, numerical screening only.",
+        "P=50, width=40, depth=30, tilt=0 deg, r12. The change from D11 alters width, depth, tilt and resolution together; it is not an isolated single-size causal comparison."
+      ]
+    },
+    {
+      "stage": "D12",
+      "case": "gap10_inner_wall_film_2um",
+      "film_thickness_um": 2.0,
+      "polarization_as_recorded": "Hz",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D12_gap10_wide_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 6,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.6789997126303259,
+          "R": 0.321000897759763,
+          "T": -6.103900888504272e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 26
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.8082916373001381,
+          "R": 0.19170836280582923,
+          "T": -1.0596735386179887e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 27
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.7524773646905261,
+          "R": 0.24754766488406765,
+          "T": -2.5029574593676377e-05,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 28
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.6815801015639511,
+          "R": 0.318419898472717,
+          "T": -3.6668147671629464e-11,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 29
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.7613200715333679,
+          "R": 0.23868909794294838,
+          "T": -9.169476316227266e-06,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 30
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "40.0"
+        ],
+        "bottom_width_um": [
+          "40.0"
+        ],
+        "depth_um": [
+          "30.0"
+        ],
+        "tilt_angle_deg": [
+          "0.0"
+        ],
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "45.0"
+        ],
+        "air_buffer_um": [
+          "15.0"
+        ],
+        "source_mode": [
+          "single_wavelength_narrowband"
+        ],
+        "solver_version": [
+          "gap10_wide_deep_inner_wall_film_single_wavelength_v1"
+        ],
+        "mode": [
+          "screen"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.7391321859140261,
+      "recomputed_sample_span_trapezoid_mean_A": 0.7391321859140261,
+      "mean_status_as_recorded": "NUMERICAL_SCREENING",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, normal incidence, numerical screening only.",
+        "P=50, width=40, depth=30, tilt=0 deg, r12. The change from D11 alters width, depth, tilt and resolution together; it is not an isolated single-size causal comparison."
+      ]
+    },
+    {
+      "stage": "D12",
+      "case": "gap10_inner_wall_film_500nm",
+      "film_thickness_um": 0.5,
+      "polarization_as_recorded": "unpolarized_2D_proxy",
+      "derived_proxy_not_independent_run": true,
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D12_gap10_wide_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 7,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.2358371875736668,
+          "R": 0.764163544293261,
+          "T": -7.318669278746963e-07,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 31
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.3267043776260722,
+          "R": 0.6732956226351388,
+          "T": -2.6121088223215243e-10,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 32
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.2914441744251033,
+          "R": 0.7085823692160094,
+          "T": -2.6543641112646935e-05,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 33
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.19997228483021773,
+          "R": 0.8000277158300899,
+          "T": -6.60307714474271e-10,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 34
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.21756184072636686,
+          "R": 0.7824421862779999,
+          "T": -4.027004366774424e-06,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 35
+        }
+      ],
+      "geometry_and_settings": {
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "source_mode": [
+          "derived_from_Ez_Hz"
+        ],
+        "mode": [
+          "screen"
+        ]
+      },
+      "stored_mean_A": 0.2564557973559369,
+      "recomputed_sample_span_trapezoid_mean_A": 0.2564557973559369,
+      "mean_status_as_recorded": "NUMERICAL_SCREENING",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, normal incidence, numerical screening only.",
+        "P=50, width=40, depth=30, tilt=0 deg, r12. The change from D11 alters width, depth, tilt and resolution together; it is not an isolated single-size causal comparison."
+      ]
+    },
+    {
+      "stage": "D12",
+      "case": "gap10_inner_wall_film_1um",
+      "film_thickness_um": 1.0,
+      "polarization_as_recorded": "unpolarized_2D_proxy",
+      "derived_proxy_not_independent_run": true,
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D12_gap10_wide_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 8,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.34966984231166504,
+          "R": 0.6503306911255918,
+          "T": -5.334372568758302e-07,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 36
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.6205390934113854,
+          "R": 0.379460906760237,
+          "T": -1.7162245529524374e-10,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 37
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.5461305329800399,
+          "R": 0.45387712370419775,
+          "T": -7.65668423763804e-06,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 38
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.3735139324090155,
+          "R": 0.6264860678653459,
+          "T": -2.7436141746079436e-10,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 39
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.39559234071055416,
+          "R": 0.6044151691190718,
+          "T": -7.5098296259897375e-06,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 40
+        }
+      ],
+      "geometry_and_settings": {
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "source_mode": [
+          "derived_from_Ez_Hz"
+        ],
+        "mode": [
+          "screen"
+        ]
+      },
+      "stored_mean_A": 0.4703839423163051,
+      "recomputed_sample_span_trapezoid_mean_A": 0.4703839423163051,
+      "mean_status_as_recorded": "NUMERICAL_SCREENING",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, normal incidence, numerical screening only.",
+        "P=50, width=40, depth=30, tilt=0 deg, r12. The change from D11 alters width, depth, tilt and resolution together; it is not an isolated single-size causal comparison."
+      ]
+    },
+    {
+      "stage": "D12",
+      "case": "gap10_inner_wall_film_2um",
+      "film_thickness_um": 2.0,
+      "polarization_as_recorded": "unpolarized_2D_proxy",
+      "derived_proxy_not_independent_run": true,
+      "source_id": "D12_gap10_wide_deep_groove_inner_wall_film_spectra",
+      "metrics_source_id": "D12_gap10_wide_deep_groove_inner_wall_film_metrics",
+      "metrics_source_data_row": 9,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.6436867409219105,
+          "R": 0.3563136231200835,
+          "T": -3.6404199391070854e-07,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 41
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.8011678309406565,
+          "R": 0.19883216916679197,
+          "T": -1.074484340646259e-10,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 42
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.7525663319158862,
+          "R": 0.24744582342669832,
+          "T": -1.2155342584569072e-05,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 43
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.6804454688849391,
+          "R": 0.3195545312256374,
+          "T": -1.1057659095886786e-10,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 44
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.757066946070468,
+          "R": 0.24293755847524545,
+          "T": -4.504545713396686e-06,
+          "strict_include": true,
+          "finite_values_flag": "",
+          "transmission_quality_flag": "",
+          "ti_material_validity_flag": "",
+          "source_data_row": 45
+        }
+      ],
+      "geometry_and_settings": {
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "source_mode": [
+          "derived_from_Ez_Hz"
+        ],
+        "mode": [
+          "screen"
+        ]
+      },
+      "stored_mean_A": 0.7328125039086298,
+      "recomputed_sample_span_trapezoid_mean_A": 0.7328125039086298,
+      "mean_status_as_recorded": "NUMERICAL_SCREENING",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Five sparse wavelengths, normal incidence, numerical screening only.",
+        "P=50, width=40, depth=30, tilt=0 deg, r12. The change from D11 alters width, depth, tilt and resolution together; it is not an isolated single-size causal comparison."
+      ]
+    },
+    {
+      "stage": "D14_normal",
+      "case": "tilt20_wrapped_gap10_film2um",
+      "film_thickness_um": 2.0,
+      "polarization_as_recorded": "Ez",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D14_left_wedge_gap10_w40_h30_film2um_normal_spectra",
+      "metrics_source_id": "D14_left_wedge_gap10_w40_h30_film2um_normal_metrics",
+      "metrics_source_data_row": 1,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.6522607396816426,
+          "R": 0.34773928813877364,
+          "T": -2.7820416230128744e-08,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 1
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.7847155717074059,
+          "R": 0.21528442839257067,
+          "T": -9.997655937838718e-11,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 2
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.7738985432009501,
+          "R": 0.2261063082734017,
+          "T": -4.8514743518345425e-06,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 3
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.7389809471734081,
+          "R": 0.26101905380871754,
+          "T": -9.82125689649873e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 4
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.7524700233926781,
+          "R": 0.24753083921941188,
+          "T": -8.626120899293645e-07,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 5
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "40.0"
+        ],
+        "bottom_width_um": [
+          "0.0"
+        ],
+        "depth_um": [
+          "30.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "45.0"
+        ],
+        "air_buffer_um": [
+          "15.0"
+        ],
+        "source_mode": [
+          "single_wavelength_normal_incidence"
+        ],
+        "solver_version": [
+          "D13_wrapped_gap10_normal_v1"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": 0.7503838294662962,
+      "recomputed_sample_span_trapezoid_mean_A": 0.7503838294662963,
+      "mean_status_as_recorded": "NUMERICAL_SCREENING",
+      "strict_valid_count": 5,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Left-apex triangular wrapped wedge, bottom width 0. Historical case_name/solver_version reused D13 names; dimensions and D14 source path identify the geometry.",
+        "Hz 10.009 um is flagged and excluded. Stored Hz and unpolarized means are unavailable; do not replace them with the four-point recomputation."
+      ]
+    },
+    {
+      "stage": "D14_normal",
+      "case": "tilt20_wrapped_gap10_film2um",
+      "film_thickness_um": 2.0,
+      "polarization_as_recorded": "Hz",
+      "derived_proxy_not_independent_run": false,
+      "source_id": "D14_left_wedge_gap10_w40_h30_film2um_normal_spectra",
+      "metrics_source_id": "D14_left_wedge_gap10_w40_h30_film2um_normal_metrics",
+      "metrics_source_data_row": 2,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.7063666475992716,
+          "R": 0.2936400456857759,
+          "T": -6.693285047566098e-06,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 6
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.7986241507702312,
+          "R": 0.20137584952341955,
+          "T": -2.9365078086371917e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 7
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.7932221280393624,
+          "R": 0.2078647529039413,
+          "T": -0.0010868809433036862,
+          "strict_include": false,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "WARNING_EXCLUDED_FROM_STRICT_METRIC",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 8
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.7184174297082918,
+          "R": 0.2815825740430101,
+          "T": -3.751301981159131e-09,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 9
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.742825201163376,
+          "R": 0.2572241109409356,
+          "T": -4.931210431168588e-05,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 10
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "40.0"
+        ],
+        "bottom_width_um": [
+          "0.0"
+        ],
+        "depth_um": [
+          "30.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "45.0"
+        ],
+        "air_buffer_um": [
+          "15.0"
+        ],
+        "source_mode": [
+          "single_wavelength_normal_incidence"
+        ],
+        "solver_version": [
+          "D13_wrapped_gap10_normal_v1"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": null,
+      "recomputed_sample_span_trapezoid_mean_A": 0.7483013202703832,
+      "mean_status_as_recorded": "INCOMPLETE_NUMERICAL_COVERAGE",
+      "strict_valid_count": 4,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Left-apex triangular wrapped wedge, bottom width 0. Historical case_name/solver_version reused D13 names; dimensions and D14 source path identify the geometry.",
+        "Hz 10.009 um is flagged and excluded. Stored Hz and unpolarized means are unavailable; do not replace them with the four-point recomputation."
+      ]
+    },
+    {
+      "stage": "D14_normal",
+      "case": "tilt20_wrapped_gap10_film2um",
+      "film_thickness_um": 2.0,
+      "polarization_as_recorded": "unpolarized_2D_proxy",
+      "derived_proxy_not_independent_run": true,
+      "source_id": "D14_left_wedge_gap10_w40_h30_film2um_normal_spectra",
+      "metrics_source_id": "D14_left_wedge_gap10_w40_h30_film2um_normal_metrics",
+      "metrics_source_data_row": 3,
+      "points": [
+        {
+          "wavelength_um": 8.1014,
+          "A": 0.6793136936404571,
+          "R": 0.32068966691227474,
+          "T": -3.3605527318981135e-06,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 11
+        },
+        {
+          "wavelength_um": 9.0016,
+          "A": 0.7916698612388186,
+          "R": 0.20833013895799513,
+          "T": -1.9681367012105318e-10,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 12
+        },
+        {
+          "wavelength_um": 10.009,
+          "A": 0.7835603356201563,
+          "R": 0.21698553058867148,
+          "T": -0.0005458662088277603,
+          "strict_include": false,
+          "finite_values_flag": "PROXY_FROM_INCOMPLETE_POLARIZATIONS",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 13
+        },
+        {
+          "wavelength_um": 10.985,
+          "A": 0.72869918844085,
+          "R": 0.2713008139258638,
+          "T": -2.3667138354045023e-09,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 14
+        },
+        {
+          "wavelength_um": 12.345,
+          "A": 0.7476476122780271,
+          "R": 0.2523774750801737,
+          "T": -2.5087358200807624e-05,
+          "strict_include": true,
+          "finite_values_flag": "VALID",
+          "transmission_quality_flag": "NUMERICAL_PASS",
+          "ti_material_validity_flag": "VALID",
+          "source_data_row": 15
+        }
+      ],
+      "geometry_and_settings": {
+        "period_um": [
+          "50.0"
+        ],
+        "top_width_um": [
+          "40.0"
+        ],
+        "bottom_width_um": [
+          "0.0"
+        ],
+        "depth_um": [
+          "30.0"
+        ],
+        "tilt_angle_deg": [
+          "20.0"
+        ],
+        "resolution": [
+          "12"
+        ],
+        "pml_thickness_um": [
+          "4.0"
+        ],
+        "substrate_thickness_um": [
+          "45.0"
+        ],
+        "air_buffer_um": [
+          "15.0"
+        ],
+        "source_mode": [
+          "proxy_average"
+        ],
+        "solver_version": [
+          "D13_proxy_average_v1"
+        ],
+        "film_model_mode": [
+          "nk_interpolated_single_wavelength_conductivity"
+        ]
+      },
+      "stored_mean_A": null,
+      "recomputed_sample_span_trapezoid_mean_A": 0.7478922398688203,
+      "mean_status_as_recorded": "INCOMPLETE_NUMERICAL_COVERAGE",
+      "strict_valid_count": 4,
+      "sample_count": 5,
+      "observed_wavelength_span_um": [
+        8.1014,
+        12.345
+      ],
+      "notes": [
+        "Left-apex triangular wrapped wedge, bottom width 0. Historical case_name/solver_version reused D13 names; dimensions and D14 source path identify the geometry.",
+        "Hz 10.009 um is flagged and excluded. Stored Hz and unpolarized means are unavailable; do not replace them with the four-point recomputation."
+      ]
+    }
+  ],
+  "D14_angular": {
+    "source_id": "D14_left_wedge_gap10_w40_h30_film2um_angle_spectra_checkpoint",
+    "expected_sample_count": 150,
+    "recorded_sample_count": 110,
+    "strict_included_sample_count": 108,
+    "angles_deg": [
+      -70,
+      -60,
+      -50,
+      -40,
+      -30,
+      -20,
+      -10,
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70
+    ],
+    "wavelengths_um": [
+      8.1014,
+      9.0016,
+      10.009,
+      10.985,
+      12.345
+    ],
+    "polarizations": {
+      "Ez": {
+        "raw_A_matrix": [
+          [
+            0.58980930625602,
+            0.8180273864680627,
+            0.7338936532426219,
+            0.7743607097583033,
+            0.7404414432853049,
+            0.7086346502436055,
+            0.7074497593995271,
+            0.6522607396816426,
+            0.6304378649755048,
+            0.5879987792316341,
+            0.5673615699007848,
+            0.5631772173449517,
+            0.5322633427228571,
+            0.5410689557064743,
+            0.38606344784345853
+          ],
+          [
+            0.6157386842238914,
+            0.8153036259666379,
+            0.7594319738215796,
+            0.8193339616976647,
+            0.7682165432200722,
+            0.7884996313669188,
+            0.7741126683485297,
+            0.7847155717074059,
+            0.7753279148195809,
+            0.77202096645849,
+            0.7617023397157487,
+            0.7867923559884024,
+            0.7389004158644685,
+            0.7427355978500031,
+            0.5556679803326616
+          ],
+          [
+            0.6258044675759316,
+            0.8058698565532089,
+            0.7989193681390222,
+            0.7981720076480842,
+            0.80577561231411,
+            0.7967202637580405,
+            0.8066917300666752,
+            0.7738985432009501,
+            0.7431195802649746,
+            0.7358339001799126,
+            0.7153592996011247,
+            0.7207304134441201,
+            0.7153135744311203,
+            0.7160223740554155,
+            0.5624709281787348
+          ],
+          [
+            0.6222378917813728,
+            0.7975023980908218,
+            0.8312303788876809,
+            0.8039081351123565,
+            0.801689961800083,
+            0.8234688850007021,
+            0.7654014875968911,
+            0.7389809471734081,
+            0.6922750392140039,
+            0.6565330794913619,
+            0.6158199465486754,
+            0.6011314700326588,
+            0.641984128523385,
+            0.5913063214965495,
+            0.4618557590922573
+          ],
+          [
+            0.5561614917624338,
+            0.7398552130194032,
+            0.9003949969945197,
+            0.7557314628806012,
+            0.8343896749567287,
+            0.7612448396593833,
+            0.7799768391578351,
+            0.7524700233926781,
+            0.733514705280616,
+            0.7176371983929414,
+            0.7444746894663753,
+            0.6940126612446033,
+            0.7805893599323429,
+            0.6235533001754838,
+            0.4649558955214507
+          ]
+        ],
+        "strict_A_matrix": [
+          [
+            0.58980930625602,
+            0.8180273864680627,
+            0.7338936532426219,
+            0.7743607097583033,
+            0.7404414432853049,
+            0.7086346502436055,
+            0.7074497593995271,
+            0.6522607396816426,
+            0.6304378649755048,
+            0.5879987792316341,
+            0.5673615699007848,
+            0.5631772173449517,
+            0.5322633427228571,
+            0.5410689557064743,
+            0.38606344784345853
+          ],
+          [
+            0.6157386842238914,
+            0.8153036259666379,
+            0.7594319738215796,
+            0.8193339616976647,
+            0.7682165432200722,
+            0.7884996313669188,
+            0.7741126683485297,
+            0.7847155717074059,
+            0.7753279148195809,
+            0.77202096645849,
+            0.7617023397157487,
+            0.7867923559884024,
+            0.7389004158644685,
+            0.7427355978500031,
+            0.5556679803326616
+          ],
+          [
+            0.6258044675759316,
+            0.8058698565532089,
+            0.7989193681390222,
+            0.7981720076480842,
+            0.80577561231411,
+            0.7967202637580405,
+            0.8066917300666752,
+            0.7738985432009501,
+            0.7431195802649746,
+            0.7358339001799126,
+            0.7153592996011247,
+            0.7207304134441201,
+            0.7153135744311203,
+            0.7160223740554155,
+            0.5624709281787348
+          ],
+          [
+            0.6222378917813728,
+            0.7975023980908218,
+            0.8312303788876809,
+            0.8039081351123565,
+            0.801689961800083,
+            0.8234688850007021,
+            0.7654014875968911,
+            0.7389809471734081,
+            0.6922750392140039,
+            0.6565330794913619,
+            0.6158199465486754,
+            0.6011314700326588,
+            0.641984128523385,
+            0.5913063214965495,
+            0.4618557590922573
+          ],
+          [
+            0.5561614917624338,
+            0.7398552130194032,
+            0.9003949969945197,
+            0.7557314628806012,
+            0.8343896749567287,
+            0.7612448396593833,
+            0.7799768391578351,
+            0.7524700233926781,
+            0.733514705280616,
+            0.7176371983929414,
+            0.7444746894663753,
+            0.6940126612446033,
+            0.7805893599323429,
+            0.6235533001754838,
+            0.4649558955214507
+          ]
+        ],
+        "coverage_matrix_0_missing_1_flagged_2_included": [
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        ],
+        "source_data_row_matrix": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ]
+        ],
+        "sample_count": 75,
+        "included_sample_count": 75,
+        "sample_span_band_mean_by_angle": [
+          0.607582874977079,
+          0.7963983899668549,
+          0.808300916164596,
+          0.7951809229626005,
+          0.7938646813156274,
+          0.7872073330875821,
+          0.7731975625940648,
+          0.7503838294662963,
+          0.7228736877467107,
+          0.703544692926241,
+          0.6873464600937054,
+          0.6816681902926078,
+          0.691476493035097,
+          0.6543259888233744,
+          0.49891206347554606
+        ],
+        "band_mean_scope_um": [
+          8.1014,
+          12.345
+        ],
+        "sampled_peak_angle_deg": -50,
+        "sampled_peak_band_mean_A": 0.808300916164596,
+        "A_plus30_band_mean": 0.6873464600937054,
+        "A_minus30_band_mean": 0.7938646813156274,
+        "delta_plus_minus30": -0.106518221221922,
+        "ratio_plus_minus30": 0.8658232017005778
+      },
+      "Hz": {
+        "raw_A_matrix": [
+          [
+            0.9173673754275414,
+            0.9131592746308658,
+            0.8863442724785151,
+            0.8204262118242786,
+            0.7668243393093928,
+            0.7722844042525472,
+            0.7269659069813942,
+            0.7063666475992716,
+            0.6388004871233715,
+            0.6061950558844744,
+            0.5899877024110447,
+            0.5935824755380882,
+            0.6191686569034325,
+            0.6467858089090502,
+            0.6717587188930815
+          ],
+          [
+            0.9413735996117365,
+            0.9191316290798952,
+            0.884770381611645,
+            0.8313410620806122,
+            0.8197597752682656,
+            0.7932760356130918,
+            0.7963129086054545,
+            0.7986241507702312,
+            0.7893679696313053,
+            0.7872910006946388,
+            0.7918985445681089,
+            0.7993337079404975,
+            0.8367563387014167,
+            0.8764957329417148,
+            0.8876765515607439
+          ],
+          [
+            0.9341395726218609,
+            0.9134743574001266,
+            0.8831389082844202,
+            0.850179989416863,
+            null,
+            null,
+            null,
+            0.7932221280393624,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ],
+        "strict_A_matrix": [
+          [
+            0.9173673754275414,
+            0.9131592746308658,
+            0.8863442724785151,
+            0.8204262118242786,
+            0.7668243393093928,
+            0.7722844042525472,
+            0.7269659069813942,
+            0.7063666475992716,
+            0.6388004871233715,
+            0.6061950558844744,
+            0.5899877024110447,
+            0.5935824755380882,
+            0.6191686569034325,
+            0.6467858089090502,
+            0.6717587188930815
+          ],
+          [
+            0.9413735996117365,
+            0.9191316290798952,
+            0.884770381611645,
+            null,
+            0.8197597752682656,
+            0.7932760356130918,
+            0.7963129086054545,
+            0.7986241507702312,
+            0.7893679696313053,
+            0.7872910006946388,
+            0.7918985445681089,
+            0.7993337079404975,
+            0.8367563387014167,
+            0.8764957329417148,
+            0.8876765515607439
+          ],
+          [
+            0.9341395726218609,
+            0.9134743574001266,
+            0.8831389082844202,
+            0.850179989416863,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ],
+        "coverage_matrix_0_missing_1_flagged_2_included": [
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "source_data_row_matrix": [
+          [
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ],
+          [
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ],
+          [
+            106,
+            107,
+            108,
+            109,
+            null,
+            null,
+            null,
+            110,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ],
+        "sample_count": 35,
+        "included_sample_count": 33,
+        "sample_span_band_mean_by_angle": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "band_mean_scope_um": [
+          8.1014,
+          12.345
+        ],
+        "sampled_peak_angle_deg": null,
+        "sampled_peak_band_mean_A": null,
+        "A_plus30_band_mean": null,
+        "A_minus30_band_mean": null,
+        "delta_plus_minus30": null,
+        "ratio_plus_minus30": null
+      }
+    },
+    "geometry_and_settings": {
+      "period_um": [
+        "50.0"
+      ],
+      "top_width_um": [
+        "40.0"
+      ],
+      "bottom_width_um": [
+        "0.0"
+      ],
+      "depth_um": [
+        "30.0"
+      ],
+      "tilt_angle_deg": [
+        "20.0"
+      ],
+      "bottom_shift_um": [
+        "10.91910702798607"
+      ],
+      "film_thickness_um": [
+        "2.0"
+      ],
+      "resolution": [
+        "12"
+      ],
+      "pml_thickness_um": [
+        "4.0"
+      ],
+      "courant": [
+        "0.05"
+      ]
+    },
+    "notes": [
+      "Counts are (polarization, wavelength, angle) sample records, not independent launched jobs; theta=0 includes reused normal records.",
+      "Missing samples stay null. Flagged samples remain in raw_A but are null in strict_A. No interpolation is used to fill missing Hz wavelengths or angles.",
+      "Only Ez has all five wavelengths at all 15 angles. Hz and unpolarized band directionality cannot be completed from this checkpoint.",
+      "All results are historical screening of a film-coated triangular wedge, not the current stable-model bare-Ti slanted slot.",
+      "Ez/Hz names retained as source labels; no automatic s/p relabeling in data extraction."
+    ]
+  },
+  "global_limits": [
+    "Historical material: Ti Rakic with quoted upper validity 12.398 um and per-wavelength measured_lossy_wall_film conductivity model; not the current Ordal stable model.",
+    "Do not call a sparse-sample trapezoid estimate a measured or validated continuous 8-13 um emissivity.",
+    "Do not equate derived unpolarized proxy rows with independent simulations.",
+    "Source metrics can say CODE_PASS/NUMERICAL_PASS while separate convergence or energy audit remains incomplete."
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "accepted": true,
+  "canonical_accepted": true,
+  "local_accepted": true,
+  "band_um": [
+    2.5,
+    25.0
+  ],
+  "required_band_um": [
+    3.0,
+    20.0
+  ],
+  "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+  "source_sha256": "46f75369d4894db8ccc6bb2a73fdc693ae26ee7d62e8b87ac6c7f84cc0a0dda3",
+  "local_metrics": [
+    {
+      "accepted": true,
+      "band_um": [
+        3.0,
+        6.0
+      ],
+      "epsilon_relative": {
+        "max": 0.03331893958349363,
+        "rmse": 0.014464688162394707
+      },
+      "evaluation_points": 301,
+      "fresnel_abs_error": {
+        "p_+30": {
+          "max": 0.005615531309467459,
+          "rmse": 0.0019251572233470356
+        },
+        "p_-30": {
+          "max": 0.005615531309467459,
+          "rmse": 0.0019251572233470356
+        },
+        "s_+30": {
+          "max": 0.004715089881111023,
+          "rmse": 0.0015406198090858333
+        },
+        "s_-30": {
+          "max": 0.004715089881111023,
+          "rmse": 0.0015406198090858333
+        }
+      },
+      "k_relative": {
+        "max": 0.008989353677660104,
+        "rmse": 0.005075543284887427
+      },
+      "n_relative": {
+        "max": 0.04306430314079992,
+        "rmse": 0.01586850683820395
+      }
+    },
+    {
+      "accepted": true,
+      "band_um": [
+        6.0,
+        16.0
+      ],
+      "epsilon_relative": {
+        "max": 0.026734844662937175,
+        "rmse": 0.014060052094961787
+      },
+      "evaluation_points": 301,
+      "fresnel_abs_error": {
+        "p_+30": {
+          "max": 0.0026335328454878404,
+          "rmse": 0.0009099458273084581
+        },
+        "p_-30": {
+          "max": 0.0026335328454878404,
+          "rmse": 0.0009099458273084581
+        },
+        "s_+30": {
+          "max": 0.002005859098942353,
+          "rmse": 0.0006921467353863878
+        },
+        "s_-30": {
+          "max": 0.002005859098942353,
+          "rmse": 0.0006921467353863878
+        }
+      },
+      "k_relative": {
+        "max": 0.013509967138015059,
+        "rmse": 0.006844077532640192
+      },
+      "n_relative": {
+        "max": 0.02505622896785371,
+        "rmse": 0.01007867116503208
+      }
+    },
+    {
+      "accepted": true,
+      "band_um": [
+        16.0,
+        20.0
+      ],
+      "epsilon_relative": {
+        "max": 0.01734097828983724,
+        "rmse": 0.01556880864556449
+      },
+      "evaluation_points": 301,
+      "fresnel_abs_error": {
+        "p_+30": {
+          "max": 0.0007342017153805225,
+          "rmse": 0.0006755950017412276
+        },
+        "p_-30": {
+          "max": 0.0007342017153805225,
+          "rmse": 0.0006755950017412276
+        },
+        "s_+30": {
+          "max": 0.0005547616793387666,
+          "rmse": 0.0005105284821967539
+        },
+        "s_-30": {
+          "max": 0.0005547616793387666,
+          "rmse": 0.0005105284821967539
+        }
+      },
+      "k_relative": {
+        "max": 0.008632422958764074,
+        "rmse": 0.007653734901297397
+      },
+      "n_relative": {
+        "max": 0.010838109402792059,
+        "rmse": 0.009292974729075637
+      }
+    }
+  ],
+  "local_thresholds": {
+    "eps_max": 0.15,
+    "eps_rmse": 0.05,
+    "fresnel_max": 0.01,
+    "nk_max": 0.1
+  },
+  "normalized_max_error": 0.03667061654283543,
+  "normalized_rmse": 0.016618990888798497,
+  "original_node_max_error": 0.03667061654283543,
+  "original_node_rmse": 0.012428241352748011,
+  "interpolation": "PCHIP n,k(lambda), no extrapolation",
+  "normalization": "max(RMS(abs(epsilon_data)),1), fixed over band",
+  "normalization_scale": 1107.206243475056,
+  "qualified_fdtd": false,
+  "physical_sample_validated": false,
+  "timestep_audits": [
+    {
+      "checked_wavelength_um": 3.0,
+      "conservative_courant_limit": 0.5656854249492381,
+      "coupled_frequency_proxy": 0.7459428039902728,
+      "coupled_pi_f_dt_proxy": 0.020923646723339392,
+      "coupled_proxy_limit": 0.8,
+      "courant": 0.25,
+      "criteria": [
+        "pi * highest_Lorentz_frequency * dt < 1",
+        "Courant < 0.8 * sqrt(min(epsilon_inf,1) / 2)",
+        "pi * dt * sqrt(highest_Lorentz_frequency^2 + sum(sigma*f0^2)/epsilon_inf) < 0.8"
+      ],
+      "criterion": "all conservative instantaneous-CFL, coupled-proxy and bare-pole screens pass",
+      "dimensions": 2,
+      "dt": 0.008928571428571428,
+      "epsilon_inf": 23.79429602789568,
+      "highest_lorentz_frequency": 0.4582899481093456,
+      "instantaneous_courant_limit": 0.7071067811865476,
+      "meep_length_unit_um": 1.0,
+      "minimum_instantaneous_epsilon_including_air": 1.0,
+      "note": "Conservative preflight only; strict flat/reference/structure validation remains required",
+      "numerically_qualified": false,
+      "oscillator_strength_sum_sigma_f0_squared": 8.242367707240426,
+      "passivity_min_imag_epsilon": 21.332686436803964,
+      "pi_fmax_dt": 0.012855002983878282,
+      "proxy_is_stability_proof": false,
+      "q": 0.012855002983878282,
+      "resolution": 28.0,
+      "rough_stability_passed": true,
+      "safety_margin": 0.8,
+      "status": "PASSED_CONSERVATIVE_PREFLIGHT_REQUIRES_TIME_DOMAIN_VALIDATION",
+      "valid": true,
+      "violations": [],
+      "wavelength_range_um": [
+        2.5,
+        25.0
+      ]
+    },
+    {
+      "checked_wavelength_um": 10.5,
+      "conservative_courant_limit": 0.5656854249492381,
+      "coupled_frequency_proxy": 0.7459428039902728,
+      "coupled_pi_f_dt_proxy": 0.020923646723339392,
+      "coupled_proxy_limit": 0.8,
+      "courant": 0.25,
+      "criteria": [
+        "pi * highest_Lorentz_frequency * dt < 1",
+        "Courant < 0.8 * sqrt(min(epsilon_inf,1) / 2)",
+        "pi * dt * sqrt(highest_Lorentz_frequency^2 + sum(sigma*f0^2)/epsilon_inf) < 0.8"
+      ],
+      "criterion": "all conservative instantaneous-CFL, coupled-proxy and bare-pole screens pass",
+      "dimensions": 2,
+      "dt": 0.008928571428571428,
+      "epsilon_inf": 23.79429602789568,
+      "highest_lorentz_frequency": 0.4582899481093456,
+      "instantaneous_courant_limit": 0.7071067811865476,
+      "meep_length_unit_um": 1.0,
+      "minimum_instantaneous_epsilon_including_air": 1.0,
+      "note": "Conservative preflight only; strict flat/reference/structure validation remains required",
+      "numerically_qualified": false,
+      "oscillator_strength_sum_sigma_f0_squared": 8.242367707240426,
+      "passivity_min_imag_epsilon": 176.84998436916754,
+      "pi_fmax_dt": 0.012855002983878282,
+      "proxy_is_stability_proof": false,
+      "q": 0.012855002983878282,
+      "resolution": 28.0,
+      "rough_stability_passed": true,
+      "safety_margin": 0.8,
+      "status": "PASSED_CONSERVATIVE_PREFLIGHT_REQUIRES_TIME_DOMAIN_VALIDATION",
+      "valid": true,
+      "violations": [],
+      "wavelength_range_um": [
+        2.5,
+        25.0
+      ]
+    },
+    {
+      "checked_wavelength_um": 20.0,
+      "conservative_courant_limit": 0.5656854249492381,
+      "coupled_frequency_proxy": 0.7459428039902728,
+      "coupled_pi_f_dt_proxy": 0.020923646723339392,
+      "coupled_proxy_limit": 0.8,
+      "courant": 0.25,
+      "criteria": [
+        "pi * highest_Lorentz_frequency * dt < 1",
+        "Courant < 0.8 * sqrt(min(epsilon_inf,1) / 2)",
+        "pi * dt * sqrt(highest_Lorentz_frequency^2 + sum(sigma*f0^2)/epsilon_inf) < 0.8"
+      ],
+      "criterion": "all conservative instantaneous-CFL, coupled-proxy and bare-pole screens pass",
+      "dimensions": 2,
+      "dt": 0.008928571428571428,
+      "epsilon_inf": 23.79429602789568,
+      "highest_lorentz_frequency": 0.4582899481093456,
+      "instantaneous_courant_limit": 0.7071067811865476,
+      "meep_length_unit_um": 1.0,
+      "minimum_instantaneous_epsilon_including_air": 1.0,
+      "note": "Conservative preflight only; strict flat/reference/structure validation remains required",
+      "numerically_qualified": false,
+      "oscillator_strength_sum_sigma_f0_squared": 8.242367707240426,
+      "passivity_min_imag_epsilon": 727.5042494396066,
+      "pi_fmax_dt": 0.012855002983878282,
+      "proxy_is_stability_proof": false,
+      "q": 0.012855002983878282,
+      "resolution": 28.0,
+      "rough_stability_passed": true,
+      "safety_margin": 0.8,
+      "status": "PASSED_CONSERVATIVE_PREFLIGHT_REQUIRES_TIME_DOMAIN_VALIDATION",
+      "valid": true,
+      "violations": [],
+      "wavelength_range_um": [
+        2.5,
+        25.0
+      ]
+    }
+  ],
+  "selection_reason": "Passes original fit gates and conservative epsilon/CFL/ADE screening; short time-domain probes finite. Full narrow-source validation still required.",
+  "interpretation": "specified Ti optical model; exploratory screening only",
+  "lorentz_terms": 4,
+  "selected_candidate_index": 0,
+  "passivity_min_imag_epsilon": 20.880453710129775,
+  "schema_version": 1,
+  "source_manifest": [
+    {
+      "id": "material_model",
+      "relative_path": "meep_screen/lab_fill_bridge_20261013/assets/material/route_a_material.json",
+      "sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "distributed": true
+    },
+    {
+      "id": "material_fit",
+      "relative_path": "meep_screen/lab_fill_bridge_20261013/assets/material/fit_report.json",
+      "sha256": "c3a96bcac70cba28f5e812b965a93541ad3d2fd6a6bb1e587ee3a2f4688508bc",
+      "distributed": false
+    }
+  ],
+  "distinction": "Frequency-domain fit error against the transcribed optical table is separate from same-model FDTD-versus-Fresnel error and from fabricated-sample uncertainty."
+}
