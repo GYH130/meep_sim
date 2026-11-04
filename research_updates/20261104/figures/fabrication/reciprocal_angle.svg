@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="639.707157pt" height="395.144344pt" viewBox="0 0 639.707157 395.144344" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-04T18:11:33.645691</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 395.144344 
+L 639.707157 395.144344 
+L 639.707157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 126.630486 294.05023 
+L 234.233514 294.05023 
+L 234.233514 151.476219 
+L 126.630486 151.476219 
+z
+" clip-path="url(#pcfab93e81b)" style="fill: #ccdce5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 133.661279 151.476219 
+L 227.202721 151.476219 
+L 190.519784 285.980003 
+L 170.344216 285.980003 
+z
+" clip-path="url(#pcfab93e81b)" style="fill: #eff7fa; stroke: #244d65; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 170.344216 285.980003 
+L 190.519784 285.980003 
+L 191.253443 283.289928 
+L 169.610557 283.289928 
+z
+" clip-path="url(#pcfab93e81b)" style="fill: #dc9850; stroke: #a87536; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 180.432 121.212868 
+C 177.787259 121.212868 175.153892 121.559557 172.599268 122.244067 
+C 170.044645 122.928576 167.590737 123.945018 165.300324 125.267388 
+" clip-path="url(#pcfab93e81b)" style="fill: none; stroke: #cd6e57; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 113.180108 151.476219 
+L 247.683892 151.476219 
+" clip-path="url(#pcfab93e81b)" style="fill: none; stroke: #244d65; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 180.432 149.478447 
+Q 180.432 109.782198 180.432 71.42759 
+" style="fill: none; stroke: #7b8c96; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 178.032 76.22759 
+L 180.432 71.42759 
+L 182.832 76.22759 
+z
+" style="fill: #7b8c96; stroke: #7b8c96; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #7b8c96" x="184.467114" y="68.083873" transform="rotate(-0 184.467114 68.083873)">外法线 +z</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 179.432806 149.745565 
+Q 158.575447 113.61956 139.506943 80.591941 
+" style="fill: none; stroke: #cd6e57; stroke-width: 3.2; stroke-linecap: round"/>
+    <path d="M 139.962457 88.180914 
+L 139.506943 80.591941 
+L 145.851429 84.780914 
+z
+" style="fill: #cd6e57; stroke: #cd6e57; stroke-width: 3.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #cd6e57" x="141.425903" y="117.850273" transform="rotate(-0 141.425903 117.850273)">30°</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #cd6e57" x="115.870184" y="62.703722" transform="rotate(-0 115.870184 62.703722)">发射光  k_out</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #244d65" x="180.432" y="224.108263" transform="rotate(-0 180.432 224.108263)">相同几何与材料</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 499.878486 294.05023 
+L 607.481514 294.05023 
+L 607.481514 151.476219 
+L 499.878486 151.476219 
+z
+" clip-path="url(#pf780db756e)" style="fill: #ccdce5"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 506.909279 151.476219 
+L 600.450721 151.476219 
+L 563.767784 285.980003 
+L 543.592216 285.980003 
+z
+" clip-path="url(#pf780db756e)" style="fill: #eff7fa; stroke: #244d65; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 543.592216 285.980003 
+L 563.767784 285.980003 
+L 564.501443 283.289928 
+L 542.858557 283.289928 
+z
+" clip-path="url(#pf780db756e)" style="fill: #dc9850; stroke: #a87536; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 553.68 121.212868 
+C 551.035259 121.212868 548.401892 121.559557 545.847268 122.244067 
+C 543.292645 122.928576 540.838737 123.945018 538.548324 125.267388 
+" clip-path="url(#pf780db756e)" style="fill: none; stroke: #cd6e57; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 486.428108 151.476219 
+L 620.931892 151.476219 
+" clip-path="url(#pf780db756e)" style="fill: none; stroke: #244d65; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 553.68 149.478447 
+Q 553.68 109.782198 553.68 71.42759 
+" style="fill: none; stroke: #7b8c96; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 551.28 76.22759 
+L 553.68 71.42759 
+L 556.08 76.22759 
+z
+" style="fill: #7b8c96; stroke: #7b8c96; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #7b8c96" x="557.715114" y="68.083873" transform="rotate(-0 557.715114 68.083873)">外法线 +z</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 510.965464 77.492473 
+Q 531.822823 113.618478 550.891327 146.646096 
+" style="fill: none; stroke: #347eac; stroke-width: 3.2; stroke-linecap: round"/>
+    <path d="M 550.435814 139.057124 
+L 550.891327 146.646096 
+L 544.546841 142.457124 
+z
+" style="fill: #347eac; stroke: #347eac; stroke-width: 3.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #cd6e57" x="514.673903" y="117.850273" transform="rotate(-0 514.673903 117.850273)">30°</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #347eac" x="489.118184" y="62.703722" transform="rotate(-0 489.118184 62.703722)">试探光  k_in</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #244d65" x="553.68" y="224.108263" transform="rotate(-0 553.68 224.108263)">相同几何与材料</text>
+   </g>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #cd6e57" x="9.36" y="22.037344" transform="rotate(-0 9.36 22.037344)">A  要研究的热发射观察方向</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #347eac" x="382.608" y="22.037344" transform="rotate(-0 382.608 22.037344)">B  数值求解对应的反向入射</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 12.7px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #cd6e57" x="17.136" y="313.637344" transform="rotate(-0 17.136 313.637344)">实验目标：观察这个方向的辐射有多强</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 12.7px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #347eac" x="390.384" y="313.637344" transform="rotate(-0 390.384 313.637344)">数值手段：计算沿反方向照入时吸收多少</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 12.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #244d65" x="374.832" y="338.909344" transform="rotate(-0 374.832 338.909344)">互易材料在适用条件下：这对反向光学通道的发射率 = 吸收率</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 11.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #7b8c96" x="374.832" y="362.237344" transform="rotate(-0 374.832 362.237344)">当前θ=0°与30°只是两个取样点；完整角域仍需多个θ、φ方向。</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 10.3px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #7b8c96" x="374.832" y="383.621344" transform="rotate(-0 374.832 383.621344)">代码约定 k_in=(sinθcosφ, sinθsinφ, −cosθ)；本例 φ_in=30° → φ_out=210°，且 k_out=−k_in。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcfab93e81b">
+   <rect x="103.764843" y="49.253344" width="153.334314" height="248.832"/>
+  </clipPath>
+  <clipPath id="pf780db756e">
+   <rect x="477.012843" y="49.253344" width="153.334314" height="248.832"/>
+  </clipPath>
+ </defs>
+</svg>

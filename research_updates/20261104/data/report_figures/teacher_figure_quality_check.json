@@ -1,0 +1,32 @@
+{
+  "checked": "all three PNGs visually inspected; layout corrected; upward normal and original samples retained",
+  "figures": [
+    {
+      "id": "research_route",
+      "size_px": [
+        3624,
+        1824
+      ],
+      "png_sha256": "579eb9cec66ea851cd56f4ecdc06bf297e2853d681fd6bbfef843df2bda2a30a",
+      "svg_exists": true
+    },
+    {
+      "id": "meep_key_relationships",
+      "size_px": [
+        3042,
+        2406
+      ],
+      "png_sha256": "159d5f1c1cbf20d20e9a8fbb4c36d88ac9aea7f4b9c7d16ac5d3ba16047cd997",
+      "svg_exists": true
+    },
+    {
+      "id": "structure_screen",
+      "size_px": [
+        3422,
+        2534
+      ],
+      "png_sha256": "41662ca18fa95412293655abf8f043c25d02101e5265bc6bb02fe20ea5f274d6",
+      "svg_exists": true
+    }
+  ]
+}

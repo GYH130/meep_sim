@@ -1,0 +1,16 @@
+{
+  "report_date_local": "2026-10-14",
+  "scope_statement_zh": "本报告以 GitHub 五个当前分支、实验室服务器结果目录，以及已经持久化的原始结果和完成回执为依据，覆盖项目各主要计算阶段。它是全阶段科学综合，不等于已逐字节重新读取所有历史场文件，也不声称恢复了已删除的结果。",
+  "server_statement_zh": "本次确认 20 个含结果阶段的 76 个 result.json 路径，另列得 133 份 case.json 配置。内容批量刷新超时，不能声称重新核验了 76 份数值。数值来自已持久化原件和完成回执，最新稳定模型快照截止 10 月 14 日 13:45（北京时间）。",
+  "server_refresh_complete": false,
+  "new_solver_runs": 0,
+  "new_github_writes": 0,
+  "counting_rule": "Files, spectral rows, attempts, and independent physical conditions are distinct; no unqualified grand total of completed simulations is asserted.",
+  "limitations": [
+    "All current GitHub branch tips inventoried; not every historical or unreachable commit.",
+    "Large NPZ/H5 field files were not all reread and recomputed.",
+    "Some historic lab result values are only covered by persisted completion receipts; missing values are not interpolated or invented.",
+    "Physical performance results are separated by material, geometry, grid and stopping protocol.",
+    "Historical status labels are retained without upgrading their qualification scope."
+  ]
+}

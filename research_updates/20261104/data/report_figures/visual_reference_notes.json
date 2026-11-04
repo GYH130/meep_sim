@@ -1,0 +1,150 @@
+{
+  "purpose": "Visual design references inspected for report revision; not a literature review and not copied result curves",
+  "checked_utc": "2026-11-04T09:31:27.474025+00:00",
+  "copyright_use": "Downloaded originals retained for private visual inspection only. Recreate layout logic with our own geometry/data; do not paste other papers curves as project results.",
+  "references": [
+    {
+      "id": "VR1",
+      "authors": "Jean-Jacques Greffet, Rémi Carminati, Karl Joulain, Jean-Philippe Mulet, Stéphane Mainguy, Yong Chen",
+      "year": 2002,
+      "title": "Coherent emission of light by thermal sources",
+      "journal": "Nature 416, 61–64",
+      "doi": "10.1038/416061a",
+      "url": "https://www.nature.com/articles/416061a",
+      "figures_actually_inspected": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "image_urls": [
+        "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2F416061a/MediaObjects/41586_2002_Article_BF416061a_Fig1_HTML.jpg",
+        "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2F416061a/MediaObjects/41586_2002_Article_BF416061a_Fig2_HTML.jpg",
+        "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2F416061a/MediaObjects/41586_2002_Article_BF416061a_Fig3_HTML.jpg",
+        "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2F416061a/MediaObjects/41586_2002_Article_BF416061a_Fig4_HTML.jpg"
+      ],
+      "local_evidence": [
+        "reference_inspection/Greffet_fig1.jpg",
+        "reference_inspection/Greffet_fig2.jpg",
+        "reference_inspection/Greffet_fig3.jpg",
+        "reference_inspection/Greffet_fig4.jpg"
+      ],
+      "observations": [
+        "Fig1 is a grayscale 3D AFM morphology with lateral micrometre and depth nanometre scales, so geometry and scale appear before optical performance.",
+        "Fig2 is an upper-half polar angular emission plot: 0 degrees at top normal, plus/minus90 at horizontal endpoints; radial axis is absolute emissivity.",
+        "Fig3 uses hollow markers for measured angular points over thin continuous calculation curves; fixed colors differentiate wavelengths.",
+        "Fig4 uses color to encode incidence angle and solid/dashed line type to distinguish experiment and theory; minimal grid, units on axes."
+      ],
+      "application": [
+        "Place surface normal vertically upward in the angle schematic and in any polar coordinates.",
+        "Keep dimensions and materials visible next to every geometric comparison.",
+        "Use consistent colors for H or direction and marker/line type for s/p or simulation/prediction."
+      ],
+      "do_not_transfer": [
+        "Do not copy SiC grating geometry or spectral curves to optical-Ti cavity results.",
+        "Only two solved directions exist in this batch; do not draw a continuous emission lobe, infer a FWHM, mirror negative angles, or make an angle-wavelength heatmap from them."
+      ]
+    },
+    {
+      "id": "VR2",
+      "authors": "Aaswath P. Raman, Marc Abou Anoma, Linxiao Zhu, Eden Rephaeli, Shanhui Fan",
+      "year": 2014,
+      "title": "Passive radiative cooling below ambient air temperature under direct sunlight",
+      "journal": "Nature 515, 540–544",
+      "doi": "10.1038/nature13883",
+      "url": "https://www.nature.com/articles/nature13883",
+      "author_pdf_url": "https://web.stanford.edu/group/fan/publication/Raman_Nature_515_540_2014.pdf",
+      "figures_actually_inspected": [
+        1,
+        2,
+        3
+      ],
+      "local_evidence": [
+        "reference_inspection/Raman2014_author.pdf",
+        "reference_inspection/Raman2014_page2.png",
+        "reference_inspection/Raman2014_page3.png"
+      ],
+      "observations": [
+        "Fig1 places photograph, 3D operation schematic with arrows, cut-out cross section, and layer-resolved SEM/zoom in one a–d figure. Layer thicknesses are directly labeled.",
+        "Fig2 separates solar and mid-IR response into vertically aligned panels; the measured response is a thin dark blue line while reference spectra are low-contrast filled backgrounds with direct text labels.",
+        "Fig3 uses consistent blue for cooler and black for ambient, with direct curve labels; green irradiation is labeled with its own axis."
+      ],
+      "application": [
+        "For this report assemble plan view, proportionate 3D geometry, and floorfill cross section into a coherent a–c group; show enlarged t inset explicitly if needed.",
+        "Use a consistent thin-line/marker style with labeled axes rather than large bars; use low-contrast backgrounds only for a valid known reference."
+      ],
+      "do_not_transfer": [
+        "Our current result is at10.5um; an illustrative8–13um shaded window must not imply a computed continuous spectrum.",
+        "Do not insert AM1.5 or atmospheric-transmittance curves without source/condition information and a purpose relevant to the calculation."
+      ]
+    },
+    {
+      "id": "VR3",
+      "authors": "John Peurifoy et al.",
+      "year": 2018,
+      "title": "Nanophotonic particle simulation and inverse design using artificial neural networks",
+      "journal": "Science Advances4(6), eaar4206",
+      "doi": "10.1126/sciadv.aar4206",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5983917/",
+      "figures_actually_inspected": [
+        1,
+        2
+      ],
+      "image_urls": [
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1704/5983917/349f81666d08/aar4206-F1.jpg",
+        "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1704/5983917/ba0fbccde787/aar4206-F2.jpg"
+      ],
+      "local_evidence": [
+        "reference_inspection/Peurifoy2018_fig1.jpg",
+        "reference_inspection/Peurifoy2018_fig2.jpg"
+      ],
+      "observations": [
+        "Fig1 reads left-to-right from parameterized particle geometry to model inputs/hidden layers/outputs to optical response. Geometry parameters are attached to the shape, not shown as an abstract parameter list alone.",
+        "Fig2 is a compact two-panel evidence group: validation loss versus epochs and model versus simulation spectra; a local inset shows a small wavelength region, and line type distinguishes predictions and closest training data."
+      ],
+      "application": [
+        "Use geometry H/t -> completed COMSOL labels -> ridge/GP model -> predicted performance -> held-out physical comparison as the workflow.",
+        "Plot prediction versus physical result with a1:1 reference and a separate residual panel; identify held-out structure and condition labels."
+      ],
+      "do_not_transfer": [
+        "Our method is GP/ridge, not a DNN; do not draw neural hidden layers or training-epoch loss as if they had been run.",
+        "Four H100/t2 condition points remain one independent design; do not present the4 conditions as4 independent structural tests."
+      ]
+    }
+  ],
+  "immediate_design_recommendations": [
+    "Use the same upward surface-normal convention in geometry and response panels.",
+    "Prefer point-linked controlled comparisons, sparse-data coverage matrices, material-contribution connected plots and prediction/residual panels; show unsolved grid cells blank.",
+    "Use panel letters and a single consistent color/marker dictionary. Keep geometry dimensions/units near the object.",
+    "Continuous angular lobes and smooth response surfaces require computed density; a visually polished curve cannot supply missing physical evidence."
+  ],
+  "small_formula_support": [
+    {
+      "reference": "Greffet and Nieto-Vesperinas1998, JOSA A15,2735–2744",
+      "doi": "10.1364/JOSAA.15.002735",
+      "url": "https://opg.optica.org/josaa/abstract.cfm?uri=josaa-15-10-2735",
+      "supports": "Directional Kirchhoff reciprocity for corresponding external direction/polarization channels. Use epsilon_lambda(theta,phi,q)=alpha_lambda(theta,phi,q) with the incoming ray time-reversed relative to outgoing ray, under passive linear reciprocal and isothermal assumptions."
+    },
+    {
+      "reference": "Raman et al.2014 Nature515,540–544",
+      "doi": "10.1038/nature13883",
+      "url": "https://web.stanford.edu/group/fan/publication/Raman_Nature_515_540_2014.pdf",
+      "supports": "Radiated power integrates Planck spectral radiance multiplied by spectral directional emissivity and projected area cos(theta), over solid angle dOmega=sin(theta)dtheta dphi. Band-averaged emissivity and cone fraction below are transparent definitions derived from that radiometry, not an asserted verbatim metric from the paper."
+    },
+    {
+      "reference": "Shahriari et al.2016 Proceedings of the IEEE104(1),148–175",
+      "doi": "10.1109/JPROC.2015.2494218",
+      "url": "https://www.cs.ox.ac.uk/people/nando.defreitas/publications/BayesOptLoop.pdf",
+      "supports": "Equations29–30 give GP posterior mean and variance; Bayesian optimization balances information and performance for expensive objective evaluations. Does not prove the present project has completed optimization."
+    }
+  ],
+  "formula_definitions": {
+    "unpolarized": "epsilon_u=(epsilon_s+epsilon_p)/2 for equal-intensity incoherent s/p mixture",
+    "band_directional": "epsilon_bar_8_13(theta,phi,T)=integral_8^13 epsilon_u(lambda,theta,phi)B_lambda(T)dlambda / integral_8^13 B_lambda(T)dlambda",
+    "cone_fraction": "eta_cone=integral_8^13 integral_Omega_cone epsilon_u B_lambda(T) cos(theta) dOmega dlambda / integral_8^13 integral_hemisphere epsilon_u B_lambda(T) cos(theta) dOmega dlambda",
+    "two_direction_ratio": "Q30_0=A_u(10.5um,30deg,30deg)/A_u(10.5um,0deg). This is a project-defined two-direction comparison, not cone fraction, not directivity, and not FWHM.",
+    "GP": "mu(x*)=m(x*)+k_*^T(K+sigma_n^2 I)^(-1)(y-m(X)); var[f(x*)]=k(x*,x*)-k_*^T(K+sigma_n^2 I)^(-1)k_*",
+    "MAE_pp": "100/N sum_i |y_i-yhat_i| when y is a0–1 power fraction; grouping held-out complete H/t designs is our anti-leakage validation protocol, not a conclusion taken from a thermal-emission paper."
+  },
+  "citation_policy": "No citation-count claims are required in the delivered report. Reference original figures as visual precedents; keep a short methods bibliography, not a padded high-citation list."
+}

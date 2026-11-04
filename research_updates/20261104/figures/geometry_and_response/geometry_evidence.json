@@ -1,0 +1,22 @@
+{
+  "source_plan": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/plan.json",
+  "geometry": {
+    "pitch_um": 80.0,
+    "opening_across_flats_um": 69.5455842631299,
+    "bottom_across_flats_um": 15.0,
+    "height_um": 100.0,
+    "floorfill_um": 2.0
+  },
+  "hexagon_vertex_angle_rad": "pi/6+j*pi/3",
+  "wavevector_convention": "kin=(k sin(theta) cos(phi), k sin(theta) sin(phi), -k cos(theta)); theta to inward -z, phi of horizontal kin projection",
+  "reciprocal_outgoing_direction": "kout=-kin; polar theta same, azimuth phi+180deg",
+  "geometric_visualization": "schematic based on frozen source; not COMSOL field rendering; cutaway removes front walls for view only",
+  "film": "bottom floorfill only; not conformal coating",
+  "visual_QA": "All geometry and incidence PNGs visually reviewed; labels and real floorfill location checked; exact source geometry and incidence sign convention retained.",
+  "outputs": {
+    "incidence_angles.svg": "6dfaa769989a4c2c9dc20b70b7a351451aa4efecb78835a4fe940f6e49a79610",
+    "geometry_atlas.svg": "520119178814d21cfabb48e900460ead1b24e9b65e81818c405e664a11cfc3b9",
+    "geometry_atlas.png": "c541fe51fa0aa87d2fcb0b35e95f53bc701840fa47f6ee9a7f4196eeece14234",
+    "incidence_angles.png": "51c9b46b83a249c08fe05237cd2b69c1b68cacdd93745cdfc24b55dde9c5e585"
+  }
+}

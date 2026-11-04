@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="772.992pt" height="431.255449pt" viewBox="0 0 772.992 431.255449" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-04T18:11:33.772181</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 431.255449 
+L 772.992 431.255449 
+L 772.992 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 41.170909 306.428314 
+L 210.829091 306.428314 
+L 210.829091 81.631223 
+L 41.170909 81.631223 
+z
+" clip-path="url(#p6b4085a7e1)" style="fill: #ccdce5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 52.256391 81.631223 
+L 199.743609 81.631223 
+L 141.905455 293.70395 
+L 110.094545 293.70395 
+z
+" clip-path="url(#p6b4085a7e1)" style="fill: #eff7fa; stroke: #244d65; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 110.094545 293.70395 
+L 141.905455 293.70395 
+L 143.062218 289.462496 
+L 108.937782 289.462496 
+z
+" clip-path="url(#p6b4085a7e1)" style="fill: #dc9850; stroke: #a87536; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #7b8c96" x="126" y="66.786132" transform="rotate(-0 126 66.786132)">开口 D=69.55 μm</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 32.688 290.750554 
+Q 32.688 187.664538 32.688 84.578521 
+" style="fill: none; stroke: #7b8c96; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 35.088 285.950554 
+L 32.688 290.750554 
+L 30.288 285.950554 
+" style="fill: none; stroke: #7b8c96; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 30.288 89.378521 
+L 32.688 84.578521 
+L 35.088 89.378521 
+" style="fill: none; stroke: #7b8c96; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; fill: #7b8c96" transform="translate(24.804212 212.020204) rotate(-90)">H=100 μm</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 165.063677 236.746942 
+Q 146.112405 263.350102 127.161133 289.953263 
+" style="fill: none; stroke: #b4803e; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; fill: #a86c26" transform="translate(152.158626 217.116741)">平整 2 μm</text>
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; fill: #a86c26" transform="translate(154.897455 230.082132)">仅在腔底</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 305.554909 306.428314 
+L 475.213091 306.428314 
+L 475.213091 81.631223 
+L 305.554909 81.631223 
+z
+" clip-path="url(#p6928073f70)" style="fill: #ccdce5"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 316.640391 81.631223 
+L 464.127609 81.631223 
+L 406.289455 293.70395 
+L 374.478545 293.70395 
+z
+" clip-path="url(#p6928073f70)" style="fill: #eff7fa; stroke: #244d65; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 374.478545 293.70395 
+L 406.289455 293.70395 
+L 412.651636 270.37595 
+L 405.229091 274.617405 
+L 396.746182 283.100314 
+L 388.263273 285.221041 
+L 377.659636 278.858859 
+L 367.692218 268.255223 
+z
+" clip-path="url(#p6928073f70)" style="fill: #dc9850; stroke: #a87536; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 361.754152 247.04795 
+L 354.235192 219.478496 
+" clip-path="url(#p6928073f70)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.8; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 346.716231 191.909041 
+L 340.354035 168.581041 
+" clip-path="url(#p6928073f70)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.8; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 332.835075 141.011587 
+L 327.629641 121.925041 
+" clip-path="url(#p6928073f70)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.8; stroke-width: 2.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 390.384 210.831452 
+Q 390.384 243.846585 390.384 276.861717 
+" style="fill: none; stroke: #b4803e; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #a86c26" x="390.384" y="204.633405" transform="rotate(-0 390.384 204.633405)">弯月面 / 局部堆积</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 330.563584 106.784927 
+Q 336.967015 142.00159 343.370446 177.218254 
+" style="fill: none; stroke: #b4803e; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #a86c26" x="328.882909" y="100.717768" transform="rotate(-0 328.882909 100.717768)">少量侧壁残留</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_12">
+    <path d="M 540.504 263.501259 
+L 640.728 263.501259 
+L 640.728 130.704459 
+L 540.504 130.704459 
+z
+" clip-path="url(#p102fce1ff0)" style="fill: #ccdce5"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 547.052646 130.704459 
+L 634.179354 130.704459 
+L 600.012 255.984459 
+L 581.22 255.984459 
+z
+" clip-path="url(#p102fce1ff0)" style="fill: #eff7fa; stroke: #244d65; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 540.504 130.704459 
+L 547.052646 130.704459 
+L 581.22 255.984459 
+L 600.012 255.984459 
+L 634.179354 130.704459 
+L 640.728 130.704459 
+" clip-path="url(#p102fce1ff0)" style="fill: none; stroke: #dc9850; stroke-width: 3.3; stroke-linecap: square"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #244d65" x="590.616" y="115.670859" transform="rotate(-0 590.616 115.670859)">ALD</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_14">
+    <path d="M 657.144 263.501259 
+L 757.368 263.501259 
+L 757.368 130.704459 
+L 657.144 130.704459 
+z
+" clip-path="url(#p6df338e225)" style="fill: #ccdce5"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 663.692646 130.704459 
+L 750.819354 130.704459 
+L 716.652 255.984459 
+L 697.86 255.984459 
+z
+" clip-path="url(#p6df338e225)" style="fill: #eff7fa; stroke: #244d65; stroke-width: 1.15; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 657.144 130.704459 
+L 663.692646 130.704459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-width: 4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 750.819354 130.704459 
+L 757.368 130.704459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-width: 4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 663.692646 130.704459 
+L 672.234485 162.024459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.98; stroke-width: 3.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 672.234485 162.024459 
+L 682.484691 199.608459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.8; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 682.484691 199.608459 
+L 691.026529 230.928459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.55; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 691.026529 230.928459 
+L 697.86 255.984459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.35; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 750.819354 130.704459 
+L 742.277515 162.024459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.98; stroke-width: 3.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 742.277515 162.024459 
+L 732.027309 199.608459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.8; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 732.027309 199.608459 
+L 723.485471 230.928459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.55; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 723.485471 230.928459 
+L 716.652 255.984459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.35; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 697.86 255.984459 
+L 716.652 255.984459 
+" clip-path="url(#p6df338e225)" style="fill: none; stroke: #dc9850; stroke-opacity: 0.95; stroke-width: 2.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #244d65" x="707.256" y="115.670859" transform="rotate(-0 707.256 115.670859)">PVD</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 14.1px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #244d65" x="9.36" y="21.386859" transform="rotate(-0 9.36 21.386859)">A  当前计算的理想底填</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 14.1px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #244d65" x="273.744" y="21.386859" transform="rotate(-0 273.744 21.386859)">B  溶液干燥后的可能形貌</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 14.1px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #244d65" x="538.128" y="21.386859" transform="rotate(-0 538.128 21.386859)">C  气相沉积的两类覆膜</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #244d65" x="13.248" y="345.386859" transform="rotate(-0 13.248 345.386859)">不含侧壁膜与顶面膜</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #7b8c96" x="13.248" y="369.146859" transform="rotate(-0 13.248 369.146859)">这是本批模型假设，</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #7b8c96" x="13.248" y="388.586859" transform="rotate(-0 13.248 388.586859)">不是已经制备出的实物截面。</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 11.4px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #244d65" x="277.632" y="345.386859" transform="rotate(-0 277.632 345.386859)">润湿、浓度和干燥过程决定形貌</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #7b8c96" x="277.632" y="369.146859" transform="rotate(-0 277.632 369.146859)">图中仅示一种可能，</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #7b8c96" x="277.632" y="388.586859" transform="rotate(-0 277.632 388.586859)">不代表已预测沉积轮廓。</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 11.4px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #a86c26" x="537.3504" y="312.986859" transform="rotate(-0 537.3504 312.986859)">趋于共形</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 11.4px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #a86c26" x="653.9904" y="312.986859" transform="rotate(-0 653.9904 312.986859)">更具方向性</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 11.4px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #244d65" x="538.128" y="345.386859" transform="rotate(-0 538.128 345.386859)">PVD定向通量也可达腔底</text>
+  </g>
+  <g id="text_20">
+   <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #7b8c96" x="538.128" y="369.146859" transform="rotate(-0 538.128 369.146859)">覆盖随视线与角分布变化；</text>
+  </g>
+  <g id="text_21">
+   <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #7b8c96" x="538.128" y="388.586859" transform="rotate(-0 538.128 388.586859)">均不等于只在腔底填入2 μm。</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #7b8c96" x="378.72" y="419.690859" transform="rotate(-0 378.72 419.690859)">所有轮廓采用同一A3尺寸；B、C的薄层及不均匀度为放大概念示意，不能读作实测膜厚或预测形貌。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6b4085a7e1">
+   <rect x="9.36" y="49.820314" width="233.28" height="271.453091"/>
+  </clipPath>
+  <clipPath id="p6928073f70">
+   <rect x="273.744" y="49.820314" width="233.28" height="271.453091"/>
+  </clipPath>
+  <clipPath id="p102fce1ff0">
+   <rect x="534.24" y="109.406859" width="112.752" height="156.6"/>
+  </clipPath>
+  <clipPath id="p6df338e225">
+   <rect x="650.88" y="109.406859" width="112.752" height="156.6"/>
+  </clipPath>
+ </defs>
+</svg>

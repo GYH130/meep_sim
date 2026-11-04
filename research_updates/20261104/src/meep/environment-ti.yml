@@ -1,0 +1,16 @@
+name: meep-ti-qualification
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pymeep=1.33.0=nompi_*
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - h5py
+  - pyyaml
+  - psutil
+  - pytest
+# Environment recipe only: this task does not install or modify environments.
+# PDF report generation uses the already-bundled Codex Python with reportlab.

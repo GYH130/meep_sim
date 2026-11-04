@@ -1,0 +1,46 @@
+[
+  {
+    "H_um": 80,
+    "t_um": 2,
+    "taper_from_vertical_deg": 18.82475163346875,
+    "depth_to_opening": 1.1503246517753765,
+    "fill_top_across_flats_um": 16.363639606578246,
+    "fill_top_area_um2": 231.89449755502747,
+    "fill_volume_um3": 426.213418247717,
+    "fill_volume_pL": 0.426213418247717,
+    "nearest_opening_gap_um": 10.454415736870104
+  },
+  {
+    "H_um": 80,
+    "t_um": 3,
+    "taper_from_vertical_deg": 18.82475163346875,
+    "depth_to_opening": 1.1503246517753765,
+    "fill_top_across_flats_um": 17.04545940986737,
+    "fill_top_area_um2": 251.62167751411243,
+    "fill_volume_um3": 667.904406387436,
+    "fill_volume_pL": 0.667904406387436,
+    "nearest_opening_gap_um": 10.454415736870104
+  },
+  {
+    "H_um": 100,
+    "t_um": 2,
+    "taper_from_vertical_deg": 15.255153291718022,
+    "depth_to_opening": 1.4379058147192205,
+    "fill_top_across_flats_um": 16.090911685262597,
+    "fill_top_area_um2": 224.22907953809334,
+    "fill_volume_um3": 418.74124648795413,
+    "fill_volume_pL": 0.41874124648795413,
+    "nearest_opening_gap_um": 10.454415736870104
+  },
+  {
+    "H_um": 100,
+    "t_um": 3,
+    "taper_from_vertical_deg": 15.255153291718022,
+    "depth_to_opening": 1.4379058147192205,
+    "fill_top_across_flats_um": 16.636367527893896,
+    "fill_top_area_um2": 239.6887464100758,
+    "fill_volume_um3": 650.6572158493341,
+    "fill_volume_pL": 0.6506572158493341,
+    "nearest_opening_gap_um": 10.454415736870104
+  }
+]

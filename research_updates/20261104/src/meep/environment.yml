@@ -1,0 +1,17 @@
+name: meep_screen
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pymeep=1.33
+  - h5py
+  - matplotlib
+  - numpy
+  - pandas
+  - psutil
+  - pyyaml
+  - scipy
+  - pytest
+  - pip
+  - pip:
+      - -e .

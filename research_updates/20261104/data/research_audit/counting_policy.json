@@ -1,0 +1,114 @@
+{
+  "no_project_grand_total": true,
+  "reasons": [
+    "Ray calls, discrete full-wave conditions, independent H/t designs, retries, controls, mesh repeats and postprocessing sample rows have distinct units.",
+    "Oct14/Oct22/Oct30/Nov4 reports overlap and must not be summed."
+  ],
+  "Meep2d_stable_structure_conditions": 10,
+  "Meep2d_flat_controls": 12,
+  "Meep2d_source_diagnostics": 4,
+  "COMSOL_floorfill_20261030_records": 75,
+  "COMSOL_floorfill_20261030_unique_conditions": 72,
+  "post_Oct30_pre_ML_added_records": 5,
+  "post_Oct30_pre_ML_sources": [
+    "outputs/height_spectrum_20261030/completed_summary_20261031.json",
+    "outputs/short9_height_20261031/live_check_20261031T130542256874Z.json"
+  ],
+  "ML_new_completed_records": 9,
+  "current_floorfill_records_all": 91,
+  "current_floorfill_unique_conditions": 88,
+  "mesh_repeat_records": 3,
+  "independent_H_t_designs": 8,
+  "arithmetic": "75 (Oct30 archive) + 4(H60/H100 normal11.5um s/p) + 1(H60 normal9um p) + 2(H100 normal9um p/s completedNov1 but excluded from old ML audit) + 9(ML batch) =91 archived floorfill solve records; minus3 same-condition mesh repeats=88 independent physical conditions. ML dataset snapshot intentionally remains89/86.",
+  "condition_key": [
+    "height_um",
+    "film_um",
+    "wavelength_um",
+    "theta_deg",
+    "phi_deg",
+    "polarization"
+  ],
+  "dedup_preference": [
+    "method checked > unreviewed > failed > source discrepancy > invalid",
+    "primary mesh over diagnostic mesh repeat when evidence rank tied",
+    "original input row index"
+  ],
+  "dedup_exclusions": [
+    {
+      "excluded_record_id": "floorfill_snapshot_070",
+      "excluded_case_id": "V1_A3H80_t3_l10p5_th0_p_localmesh",
+      "retained_record_id": "floorfill_snapshot_014",
+      "retained_case_id": "H1_A3H80_t3_l10p5_th0_p",
+      "reason": "same physical condition; evidence quality then primary mesh then original input order",
+      "A_loss_total_difference_percentage_points": -0.0013295183267425514,
+      "A_port_difference_percentage_points": -0.0014789609222853883,
+      "excluded_data_retained_in": "records_all"
+    },
+    {
+      "excluded_record_id": "floorfill_snapshot_042",
+      "excluded_case_id": "RM1_A3H80_t3_l10p5_th15_phi30_p_cap22",
+      "retained_record_id": "floorfill_snapshot_031",
+      "retained_case_id": "AP2_A3H80_t3_l10p5_th15_phi30_p",
+      "reason": "same physical condition; evidence quality then primary mesh then original input order",
+      "A_loss_total_difference_percentage_points": 0.0016145061380090642,
+      "A_port_difference_percentage_points": 0.0036242201494673942,
+      "excluded_data_retained_in": "records_all"
+    },
+    {
+      "excluded_record_id": "floorfill_snapshot_043",
+      "excluded_case_id": "RM2_A3H80_t3_l10p5_th60_phi15_p_cap22",
+      "retained_record_id": "floorfill_snapshot_033",
+      "retained_case_id": "AP4_A3H80_t3_l10p5_th60_phi15_p",
+      "reason": "same physical condition; evidence quality then primary mesh then original input order",
+      "A_loss_total_difference_percentage_points": -0.006243160424430905,
+      "A_port_difference_percentage_points": -0.004977881347410784,
+      "excluded_data_retained_in": "records_all"
+    }
+  ],
+  "quality_counts_records_all": {
+    "method_checked_exploratory": 39,
+    "method_review_failed_sensitivity": 14,
+    "method_unreviewed_exploratory": 38
+  },
+  "quality_counts_unique_conditions": {
+    "method_checked_exploratory": 37,
+    "method_review_failed_sensitivity": 14,
+    "method_unreviewed_exploratory": 37
+  },
+  "raw_accepted_records": 7,
+  "formal_qualified_records": 0,
+  "raw_acceptance_not_formal_qualification": true,
+  "unique_condition_counts_by_H_t_design": {
+    "H120_t2": 2,
+    "H120_t1": 5,
+    "H120_t3": 9,
+    "H80_t3": 33,
+    "H60_t3": 15,
+    "H100_t3": 16,
+    "H80_t2": 4,
+    "H100_t2": 4
+  },
+  "ML_dataset_records_all": 89,
+  "ML_dataset_unique_conditions": 86,
+  "additional_completed_warning_records_outside_ML_dataset": 2,
+  "quality_counts_records_all_in_ML_dataset": {
+    "method_unreviewed_exploratory": 38,
+    "method_checked_exploratory": 39,
+    "method_review_failed_sensitivity": 12
+  },
+  "quality_counts_unique_conditions_in_ML_dataset": {
+    "method_unreviewed_exploratory": 37,
+    "method_checked_exploratory": 37,
+    "method_review_failed_sensitivity": 12
+  },
+  "additional_controls_are_not_in_floorfill_total": [
+    "14 early planar Ti IBC physical records (7 mesh pairs)",
+    "F0/F1 large-period flat Ti IBC controls",
+    "P0 PEC cavity",
+    "C0 bare Ti cavity",
+    "planar coated-film controls and selected TMM comparison points",
+    "mesh-only attempts, source-only calibrations, saved-field reprocessing and checkpoints"
+  ],
+  "additional_warning_records_outside_ML_source_verified_utc": "2026-11-02T08:11:06.7662505Z",
+  "current_archive_scope_not_all_attempts_or_controls": true
+}

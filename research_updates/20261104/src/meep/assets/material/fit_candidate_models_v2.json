@@ -1,0 +1,522 @@
+[
+  {
+    "metadata": {
+      "base_builder_sha256": "84ed95c7cb259e9b11ee929d3b00899bf9be69aafa018f981d261a563aa67ee7",
+      "lorentz_terms": 4,
+      "nfev": 104,
+      "objective_rmse": 0.0444712610324422,
+      "objective_weights": {
+        "epsilon_imag": 1.5,
+        "epsilon_real": 0.5,
+        "fresnel_absolute": 20.0,
+        "irls_passes": 1,
+        "k": 1.0,
+        "lambda_le_6um": 2.0,
+        "n": 2.0
+      },
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimizer_script_sha256": "42e2f6b2547de3632f15b478e5aba25b9bdf29399f75423a35d6807a0cc58c92",
+      "optimizer_success": true,
+      "optimizer_version": "20261010-v2-component-nk-weighted",
+      "seed": 20261010,
+      "start": 0
+    },
+    "model": {
+      "epsilon": 23.79429602789568,
+      "model": "susceptibility",
+      "susceptibilities": [
+        {
+          "frequency": 0.12403577368462228,
+          "gamma": 0.054107487550942766,
+          "sigma": 11.686884965737878,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.07908735640931075,
+          "gamma": 0.06407196973549348,
+          "sigma": 53.148216361317104,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.24849508508332688,
+          "gamma": 0.1483872702962942,
+          "sigma": 16.192982758184222,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.4582899481093456,
+          "gamma": 0.10884954808584749,
+          "sigma": 10.885743399499246,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.12649110640673517,
+          "gamma": 0.023196936637464843,
+          "sigma": 277.74323388220733,
+          "type": "Drude"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "base_builder_sha256": "84ed95c7cb259e9b11ee929d3b00899bf9be69aafa018f981d261a563aa67ee7",
+      "lorentz_terms": 4,
+      "nfev": 26,
+      "objective_rmse": 0.047724720274208855,
+      "objective_weights": {
+        "epsilon_imag": 1.5,
+        "epsilon_real": 0.5,
+        "fresnel_absolute": 20.0,
+        "irls_passes": 1,
+        "k": 1.0,
+        "lambda_le_6um": 2.0,
+        "n": 2.0
+      },
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimizer_script_sha256": "42e2f6b2547de3632f15b478e5aba25b9bdf29399f75423a35d6807a0cc58c92",
+      "optimizer_success": true,
+      "optimizer_version": "20261010-v2-component-nk-weighted",
+      "seed": 20261010,
+      "start": 1
+    },
+    "model": {
+      "epsilon": 18.773202581516585,
+      "model": "susceptibility",
+      "susceptibilities": [
+        {
+          "frequency": 0.09964527219380147,
+          "gamma": 0.08258129241564838,
+          "sigma": 48.90681352780485,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.2499915262190319,
+          "gamma": 0.144029459297476,
+          "sigma": 14.748389832901658,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.3940766728077381,
+          "gamma": 0.04802093732399044,
+          "sigma": 0.6117896174713441,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.5009017450817296,
+          "gamma": 0.1286520095229336,
+          "sigma": 13.98157749323702,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.12649110640673517,
+          "gamma": 0.024326661435562266,
+          "sigma": 280.21419863430077,
+          "type": "Drude"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "base_builder_sha256": "84ed95c7cb259e9b11ee929d3b00899bf9be69aafa018f981d261a563aa67ee7",
+      "lorentz_terms": 4,
+      "nfev": 113,
+      "objective_rmse": 0.044471261033425795,
+      "objective_weights": {
+        "epsilon_imag": 1.5,
+        "epsilon_real": 0.5,
+        "fresnel_absolute": 20.0,
+        "irls_passes": 1,
+        "k": 1.0,
+        "lambda_le_6um": 2.0,
+        "n": 2.0
+      },
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimizer_script_sha256": "42e2f6b2547de3632f15b478e5aba25b9bdf29399f75423a35d6807a0cc58c92",
+      "optimizer_success": true,
+      "optimizer_version": "20261010-v2-component-nk-weighted",
+      "seed": 20261010,
+      "start": 2
+    },
+    "model": {
+      "epsilon": 23.794295454738336,
+      "model": "susceptibility",
+      "susceptibilities": [
+        {
+          "frequency": 0.07908721751937783,
+          "gamma": 0.06407123144893341,
+          "sigma": 53.147611592920875,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.124035660228628,
+          "gamma": 0.054107850431507586,
+          "sigma": 11.68711879467184,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.24849507626758316,
+          "gamma": 0.14838731678903516,
+          "sigma": 16.192996895609152,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.45828994624533287,
+          "gamma": 0.10884953619321956,
+          "sigma": 10.885743432774039,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.12649110640673517,
+          "gamma": 0.02319694428041199,
+          "sigma": 277.74328253521844,
+          "type": "Drude"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "base_builder_sha256": "84ed95c7cb259e9b11ee929d3b00899bf9be69aafa018f981d261a563aa67ee7",
+      "lorentz_terms": 4,
+      "nfev": 284,
+      "objective_rmse": 0.06005435019022414,
+      "objective_weights": {
+        "epsilon_imag": 1.5,
+        "epsilon_real": 0.5,
+        "fresnel_absolute": 20.0,
+        "irls_passes": 1,
+        "k": 1.0,
+        "lambda_le_6um": 2.0,
+        "n": 2.0
+      },
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimizer_script_sha256": "42e2f6b2547de3632f15b478e5aba25b9bdf29399f75423a35d6807a0cc58c92",
+      "optimizer_success": true,
+      "optimizer_version": "20261010-v2-component-nk-weighted",
+      "seed": 20261010,
+      "start": 3
+    },
+    "model": {
+      "epsilon": 23.307008783004708,
+      "model": "susceptibility",
+      "susceptibilities": [
+        {
+          "frequency": 0.4623156864761739,
+          "gamma": 0.11645061367912274,
+          "sigma": 11.415958970126843,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.04025850797366016,
+          "gamma": 0.01114706608707075,
+          "sigma": 58.258107942689456,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.25163887138072377,
+          "gamma": 0.13091595261721525,
+          "sigma": 11.982123680972018,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.015256459931066016,
+          "gamma": 1.000404891983509e-05,
+          "sigma": 7302.823229231684,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.12649110640673517,
+          "gamma": 0.061597432320342926,
+          "sigma": 213.80171650496982,
+          "type": "Drude"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "base_builder_sha256": "84ed95c7cb259e9b11ee929d3b00899bf9be69aafa018f981d261a563aa67ee7",
+      "lorentz_terms": 6,
+      "nfev": 2536,
+      "objective_rmse": 0.04447126671597044,
+      "objective_weights": {
+        "epsilon_imag": 1.5,
+        "epsilon_real": 0.5,
+        "fresnel_absolute": 20.0,
+        "irls_passes": 1,
+        "k": 1.0,
+        "lambda_le_6um": 2.0,
+        "n": 2.0
+      },
+      "optimizer_message": "`xtol` termination condition is satisfied.",
+      "optimizer_script_sha256": "42e2f6b2547de3632f15b478e5aba25b9bdf29399f75423a35d6807a0cc58c92",
+      "optimizer_success": true,
+      "optimizer_version": "20261010-v2-component-nk-weighted",
+      "seed": 20261010,
+      "start": 0
+    },
+    "model": {
+      "epsilon": 23.794285882653753,
+      "model": "susceptibility",
+      "susceptibilities": [
+        {
+          "frequency": 0.007471079457998187,
+          "gamma": 0.7855284513930546,
+          "sigma": 0.02375175129578287,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.07908747306649455,
+          "gamma": 0.06407091487999707,
+          "sigma": 53.146807560741316,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.12403581745343428,
+          "gamma": 0.05410775168638681,
+          "sigma": 11.687035992964123,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.026942341376074763,
+          "gamma": 1.0058520261430688,
+          "sigma": 0.0030050746240770656,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.24849506978201769,
+          "gamma": 0.1483873003682814,
+          "sigma": 16.192993341688958,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.45828995269865025,
+          "gamma": 0.1088495011421873,
+          "sigma": 10.885743649371063,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.12649110640673517,
+          "gamma": 0.02319697956336479,
+          "sigma": 277.7434362651322,
+          "type": "Drude"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "base_builder_sha256": "84ed95c7cb259e9b11ee929d3b00899bf9be69aafa018f981d261a563aa67ee7",
+      "lorentz_terms": 6,
+      "nfev": 207,
+      "objective_rmse": 0.02841512474105948,
+      "objective_weights": {
+        "epsilon_imag": 1.5,
+        "epsilon_real": 0.5,
+        "fresnel_absolute": 20.0,
+        "irls_passes": 1,
+        "k": 1.0,
+        "lambda_le_6um": 2.0,
+        "n": 2.0
+      },
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimizer_script_sha256": "42e2f6b2547de3632f15b478e5aba25b9bdf29399f75423a35d6807a0cc58c92",
+      "optimizer_success": true,
+      "optimizer_version": "20261010-v2-component-nk-weighted",
+      "seed": 20261010,
+      "start": 1
+    },
+    "model": {
+      "epsilon": 4.223557251563898e-05,
+      "model": "susceptibility",
+      "susceptibilities": [
+        {
+          "frequency": 0.09692253788684223,
+          "gamma": 0.12200219152567035,
+          "sigma": 83.1838652530616,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.22920688612206006,
+          "gamma": 0.06828138028174702,
+          "sigma": 3.711364574265525,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.2763721654605763,
+          "gamma": 0.13342697480029325,
+          "sigma": 7.739090922633462,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.41364695601820095,
+          "gamma": 0.09909073559746186,
+          "sigma": 5.297882332889871,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.44696355900169177,
+          "gamma": 1.0000129761529773e-05,
+          "sigma": 2.835641379671643,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 1.0742919465188778,
+          "gamma": 1.0016210456250717e-05,
+          "sigma": 24.038222914240553,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.12649110640673517,
+          "gamma": 0.023286702675324567,
+          "sigma": 274.0945822404776,
+          "type": "Drude"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "base_builder_sha256": "84ed95c7cb259e9b11ee929d3b00899bf9be69aafa018f981d261a563aa67ee7",
+      "lorentz_terms": 6,
+      "nfev": 2520,
+      "objective_rmse": 0.04422156116237809,
+      "objective_weights": {
+        "epsilon_imag": 1.5,
+        "epsilon_real": 0.5,
+        "fresnel_absolute": 20.0,
+        "irls_passes": 1,
+        "k": 1.0,
+        "lambda_le_6um": 2.0,
+        "n": 2.0
+      },
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimizer_script_sha256": "42e2f6b2547de3632f15b478e5aba25b9bdf29399f75423a35d6807a0cc58c92",
+      "optimizer_success": true,
+      "optimizer_version": "20261010-v2-component-nk-weighted",
+      "seed": 20261010,
+      "start": 2
+    },
+    "model": {
+      "epsilon": 24.351710264408826,
+      "model": "susceptibility",
+      "susceptibilities": [
+        {
+          "frequency": 0.0010351674843795948,
+          "gamma": 1.0007701675599029e-05,
+          "sigma": 531527.5565739761,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 1.951259732496058,
+          "gamma": 1.1574967608132734e-05,
+          "sigma": 1.5935921844750536e-07,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.08414330010323495,
+          "gamma": 0.05880439318774489,
+          "sigma": 33.483153089322556,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.12550757778157104,
+          "gamma": 0.050481153622788835,
+          "sigma": 9.77259028454831,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.24855328466157478,
+          "gamma": 0.14812464576611006,
+          "sigma": 16.091112406718075,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.45703788850932087,
+          "gamma": 0.10858437759962461,
+          "sigma": 10.636393687151878,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.12649110640673517,
+          "gamma": 0.029117312939559513,
+          "sigma": 251.75837001688313,
+          "type": "Drude"
+        }
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "base_builder_sha256": "84ed95c7cb259e9b11ee929d3b00899bf9be69aafa018f981d261a563aa67ee7",
+      "lorentz_terms": 6,
+      "nfev": 198,
+      "objective_rmse": 0.042859511415020535,
+      "objective_weights": {
+        "epsilon_imag": 1.5,
+        "epsilon_real": 0.5,
+        "fresnel_absolute": 20.0,
+        "irls_passes": 1,
+        "k": 1.0,
+        "lambda_le_6um": 2.0,
+        "n": 2.0
+      },
+      "optimizer_message": "`ftol` termination condition is satisfied.",
+      "optimizer_script_sha256": "42e2f6b2547de3632f15b478e5aba25b9bdf29399f75423a35d6807a0cc58c92",
+      "optimizer_success": true,
+      "optimizer_version": "20261010-v2-component-nk-weighted",
+      "seed": 20261010,
+      "start": 3
+    },
+    "model": {
+      "epsilon": 24.59447854006621,
+      "model": "susceptibility",
+      "susceptibilities": [
+        {
+          "frequency": 0.0793113540955513,
+          "gamma": 0.05764817888448681,
+          "sigma": 54.1454622051218,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.11722105382807875,
+          "gamma": 0.04882220466274482,
+          "sigma": 12.658374099272153,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.14681430764725015,
+          "gamma": 0.03957924767797359,
+          "sigma": 2.2737576585270745,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.040202191301843514,
+          "gamma": 0.0426845669613002,
+          "sigma": 420.2513085371759,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.45577618553489685,
+          "gamma": 0.10665578921060785,
+          "sigma": 10.439063395966782,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.24736133857613954,
+          "gamma": 0.15296156129015395,
+          "sigma": 17.60444088789972,
+          "type": "Lorentz"
+        },
+        {
+          "frequency": 0.12649110640673517,
+          "gamma": 0.015276030097552762,
+          "sigma": 228.9865066413785,
+          "type": "Drude"
+        }
+      ]
+    }
+  }
+]

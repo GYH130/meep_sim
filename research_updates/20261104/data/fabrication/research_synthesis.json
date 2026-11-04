@@ -1,0 +1,15 @@
+{
+  "scope": "Literature grounded process feasibility and explanation; no new electromagnetic runs",
+  "key_findings": [
+    "A3 dimension scale is laser machinable in principle; exact sharp-cornered smooth-wall narrow-bottom dense-array morphology not demonstrated by user equipment",
+    "SiO2 is a traceable MIR dielectric benchmark, not a demonstrated unique optimum or mandatory material",
+    "510nm sputtered SiO2 n,k do not validate porous sol-gel or particle deposit n,k",
+    "2um H100 ideal bottom-fill dry volume 0.418741pL; deposition morphology must be measured",
+    "Oblique absorptance is a reciprocal-channel computational route to directional thermal emissivity; outgoing and incoming k have opposite signs"
+  ],
+  "recommended_next_step": "Calibrate manufacturable bare TA2 cavities; compare realistic sol-gel coating or localized filling morphology with bare control; update geometry and material optical inputs before wider ML/angle optimization",
+  "figures": [
+    "figures/fill_morphologies.png",
+    "figures/reciprocal_angle.png"
+  ]
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meep-screen"
+version = "0.1.0"
+description = "Reproducible, gated Meep structure-screening workflow"
+requires-python = ">=3.10"
+dependencies = [
+  "h5py>=3.10",
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "psutil>=5.9",
+  "pyyaml>=6.0",
+  "scipy>=1.11",
+]
+
+[project.scripts]
+meep-screen = "meep_screen.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=outputs/pytest_temporary"

@@ -1,0 +1,23 @@
+{
+  "state": "LOCAL_VALIDATION_REPRODUCED_NOT_NEW_PHYSICAL_SOLVES",
+  "data_rows": 86,
+  "independent_designs": 8,
+  "formal_qualification": false,
+  "checks": [
+    {
+      "pool": "legacy_exploratory",
+      "models_compared": 24,
+      "heldout_predictions": 156,
+      "max_metric_difference_pp": 0.0,
+      "matches_archive_within_0p01pp": true
+    },
+    {
+      "pool": "method_checked_sensitivity",
+      "models_compared": 18,
+      "heldout_predictions": 66,
+      "max_metric_difference_pp": 0.0,
+      "matches_archive_within_0p01pp": true
+    }
+  ],
+  "note": "GP intervals are conditional and uncalibrated; no material/mesh systematic error bound."
+}

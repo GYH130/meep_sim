@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="715.177694pt" height="435.256953pt" viewBox="0 0 715.177694 435.256953" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-04T16:34:38.962431</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 435.256953 
+L 715.177694 435.256953 
+L 715.177694 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 111.042814 288.363173 
+L 218.717186 288.363173 
+L 218.717186 153.770208 
+L 111.042814 153.770208 
+z
+" clip-path="url(#p9cc5294f6a)" style="fill: #cddce5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 118.078268 153.770208 
+L 211.681732 153.770208 
+L 174.974472 288.363173 
+L 154.785528 288.363173 
+z
+" clip-path="url(#p9cc5294f6a)" style="fill: #eaf5f8; stroke: #244d65; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 154.785528 288.363173 
+L 174.974472 288.363173 
+L 175.708618 285.671314 
+L 154.051382 285.671314 
+z
+" clip-path="url(#p9cc5294f6a)" style="fill: #de9850; stroke: #ad7434; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 94.891658 153.770208 
+L 234.868342 153.770208 
+" clip-path="url(#p9cc5294f6a)" style="fill: none; stroke: #244d65; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 189.106734 151.771112 
+Q 189.106734 112.048542 189.106734 73.667614 
+" style="fill: none; stroke: #71808a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 186.506734 78.867614 
+L 189.106734 73.667614 
+L 191.706734 78.867614 
+z
+" style="fill: #71808a; stroke: #71808a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #71808a" x="193.144523" y="68.97664" transform="rotate(-0 193.144523 68.97664)">外法线 +z</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 164.88 68.284494 
+Q 164.88 110.02687 164.88 148.415143 
+" style="fill: none; stroke: #3573aa; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 168.28 141.615143 
+L 164.88 148.415143 
+L 161.48 141.615143 
+z
+" style="fill: #3573aa; stroke: #3573aa; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #3573aa" x="111.042814" y="99.933022" transform="rotate(-0 111.042814 99.933022)">入射光 k</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #244d65" x="104.313166" y="316.627696" transform="rotate(-0 104.313166 316.627696)">沿着表面法线照入同一腔体</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #244d65" x="164.88" y="230.488198" transform="rotate(-0 164.88 230.488198)">同一 A3 腔体</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 472.626814 288.363173 
+L 580.301186 288.363173 
+L 580.301186 153.770208 
+L 472.626814 153.770208 
+z
+" clip-path="url(#pef430eefb7)" style="fill: #cddce5"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 479.662268 153.770208 
+L 573.265732 153.770208 
+L 536.558472 288.363173 
+L 516.369528 288.363173 
+z
+" clip-path="url(#pef430eefb7)" style="fill: #eaf5f8; stroke: #244d65; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 516.369528 288.363173 
+L 536.558472 288.363173 
+L 537.292618 285.671314 
+L 515.635382 285.671314 
+z
+" clip-path="url(#pef430eefb7)" style="fill: #de9850; stroke: #ad7434; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 526.464 194.148098 
+C 529.992659 194.148098 533.506144 193.685539 536.914567 192.772254 
+C 540.32299 191.85897 543.597036 190.502816 546.652945 188.738486 
+" clip-path="url(#pef430eefb7)" style="fill: none; stroke: #d06851; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 456.475658 153.770208 
+L 596.452342 153.770208 
+" clip-path="url(#pef430eefb7)" style="fill: none; stroke: #244d65; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 526.464 153.770208 
+L 526.464 227.796339 
+" clip-path="url(#pef430eefb7)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #71808a"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 526.464 151.771112 
+Q 526.464 112.048542 526.464 73.667614 
+" style="fill: none; stroke: #71808a; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 523.864 78.867614 
+L 526.464 73.667614 
+L 529.064 78.867614 
+z
+" style="fill: #71808a; stroke: #71808a; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #71808a" x="530.501789" y="68.97664" transform="rotate(-0 530.501789 68.97664)">外法线 +z</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 483.721143 79.737408 
+Q 504.592331 115.887366 523.786468 149.132586 
+" style="fill: none; stroke: #3573aa; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 523.330954 141.543613 
+L 523.786468 149.132586 
+L 517.441981 144.943613 
+z
+" style="fill: #3573aa; stroke: #3573aa; stroke-width: 3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 527.463589 155.501548 
+Q 540.461389 178.014397 552.788369 199.365352 
+" style="fill: none; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #3573aa; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 552.493625 194.45484 
+L 552.788369 199.365352 
+L 548.683113 196.65484 
+z
+" style="fill: #3573aa; stroke-dasharray: 4.44,1.92; stroke-dashoffset: 0; stroke: #3573aa; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #d06851" x="543.961085" y="198.185886" transform="rotate(-0 543.961085 198.185886)">θ=30°</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #3573aa" x="468.589025" y="99.933022" transform="rotate(-0 468.589025 99.933022)">入射光 k</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #244d65" x="460.513447" y="316.627696" transform="rotate(-0 460.513447 316.627696)">θ 是光线相对法线的倾斜角</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #244d65" x="526.464" y="230.488198" transform="rotate(-0 526.464 230.488198)">同一 A3 腔体</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_14">
+    <path d="M 683.392659 364.908458 
+L 653.982776 347.928654 
+L 624.572894 364.908458 
+L 624.572894 398.868065 
+L 653.982776 415.847868 
+L 683.392659 398.868065 
+z
+" clip-path="url(#pf18d1daf54)" style="fill: #edf4f7; stroke: #9eb3c0; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 673.283012 381.888261 
+C 673.283012 380.201597 673.061913 378.522186 672.625372 376.892993 
+C 672.188831 375.2638 671.540603 373.698838 670.697271 372.238144 
+" clip-path="url(#pf18d1daf54)" style="fill: none; stroke: #d06851; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 655.980518 381.888261 
+Q 674.934994 381.888261 692.771437 381.888261 
+" style="fill: none; stroke: #71808a; stroke-linecap: round"/>
+    <path d="M 687.971437 379.488261 
+L 692.771437 381.888261 
+L 687.971437 384.288261 
+" style="fill: none; stroke: #71808a; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 653.982776 379.886616 
+Q 653.982776 362.036759 653.982776 345.304936 
+" style="fill: none; stroke: #71808a; stroke-linecap: round"/>
+    <path d="M 651.582776 350.104936 
+L 653.982776 345.304936 
+L 656.382776 350.104936 
+" style="fill: none; stroke: #71808a; stroke-linecap: round"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #172a3a" x="696.994729" y="384.094003" transform="rotate(-0 696.994729 384.094003)">x</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #172a3a" x="650.674165" y="338.876308" transform="rotate(-0 650.674165 338.876308)">y</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 655.712871 380.889391 
+Q 672.127929 371.412152 686.606496 363.052948 
+" style="fill: none; stroke: #3573aa; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 680.803164 363.401282 
+L 686.606496 363.052948 
+L 683.403164 367.904614 
+z
+" style="fill: #3573aa; stroke: #3573aa; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #d06851" x="672.731576" y="374.168167" transform="rotate(-0 672.731576 374.168167)">φ</text>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #172a3a" x="9.36" y="22.037344" transform="rotate(-0 9.36 22.037344)">A  法向入射  θ = 0°</text>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #172a3a" x="370.944" y="22.037344" transform="rotate(-0 370.944 22.037344)">B  斜向入射  θ = 30°，φ = 30°</text>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 12.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #172a3a" x="17.136" y="379.157344" transform="rotate(-0 17.136 379.157344)">改变的是照射方向，几何形貌保持相同。</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 11.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #71808a" x="17.136" y="403.709344" transform="rotate(-0 17.136 403.709344)">θ=0° 与 θ=30°是两个离散方向，不是一条完整角分布。</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 10px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #71808a" x="17.136" y="423.797344" transform="rotate(-0 17.136 423.797344)">截面为方向示意；虚线仅定义夹角，不表示实际传播或场解。</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 11.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #244d65" x="370.944" y="365.765344" transform="rotate(-0 370.944 365.765344)">方位角 φ：俯视时，入射波矢</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 11.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #244d65" x="370.944" y="385.853344" transform="rotate(-0 370.944 385.853344)">水平投影与 +x 的夹角。</text>
+  </g>
+  <g id="text_20">
+   <text style="font-size: 10px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #71808a" x="370.944" y="412.637344" transform="rotate(-0 370.944 412.637344)">本图按实际求解代码的 k 方向约定绘制。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9cc5294f6a">
+   <rect x="86.81608" y="55.517344" width="156.127839" height="267.84"/>
+  </clipPath>
+  <clipPath id="pef430eefb7">
+   <rect x="448.40008" y="55.517344" width="156.127839" height="267.84"/>
+  </clipPath>
+  <clipPath id="pf18d1daf54">
+   <rect x="615.382306" y="330.053344" width="90.435388" height="93.744"/>
+  </clipPath>
+ </defs>
+</svg>

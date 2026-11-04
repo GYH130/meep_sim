@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "scope": "Normal-incidence 10.5 um r20 flat controls only; not a physical structured s/p contrast.",
+  "records": [
+    {
+      "id": "flat_s10p5_normal_Ez_r20",
+      "stage": "lab_parallel_exploration_20261012",
+      "fill": null,
+      "wavelength_um": 10.5,
+      "theta_deg": 0,
+      "polarization": "s",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9631985971098043,
+        "T": -3.2512282667573894e-08,
+        "A_flux": 0.0368014354024784,
+        "A_vol": 0.0353976198079771,
+        "order_R": 0.9629837962436288,
+        "order_T": 8.862618544487236e-07,
+        "reference_pseudo_reflection": 1.0073719176907752e-06
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true,
+        "fresnel_R": true,
+        "fresnel_RTA": true
+      },
+      "status": "STRICT_FLAT_CONTROL_PASSED_NOT_FULL_WIDTH_QUALIFICATION",
+      "stop": {
+        "reason": "CONVERGED"
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "0e5b524c351b42aa8ecc941d6444d0a6fdc0db8d69284a78f46b39db37803524",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "source_controls"
+      ],
+      "source_sha256": {
+        "source_controls": "dd4f7789fcaed1c3bf8322668032209976690e3a19479a470bc4e10e218087bf"
+      },
+      "source_component": "Ez",
+      "source_type": "electric"
+    },
+    {
+      "id": "flat_s10p5_normal_Hx_r20",
+      "stage": "lab_parallel_exploration_20261012",
+      "fill": null,
+      "wavelength_um": 10.5,
+      "theta_deg": 0,
+      "polarization": "s",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9669073709645756,
+        "T": -1.0643203330039526e-07,
+        "A_flux": 0.03309273546745772,
+        "A_vol": 0.035397644735677906,
+        "order_R": 0.9666919450229028,
+        "order_T": 2.9011943289708302e-06,
+        "reference_pseudo_reflection": 9.96855840978755e-07
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true,
+        "fresnel_R": false,
+        "fresnel_RTA": true
+      },
+      "status": "STRICT_FLAT_ACCURACY_FAILED_DIAGNOSTIC_RETAINED",
+      "stop": {
+        "reason": "CONVERGED"
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "32c30775b8f02b09694284c6236b341d4916a3619b54e42049d1f04cf2f630c4",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "source_controls"
+      ],
+      "source_sha256": {
+        "source_controls": "dd4f7789fcaed1c3bf8322668032209976690e3a19479a470bc4e10e218087bf"
+      },
+      "source_component": "Hx",
+      "source_type": "magnetic"
+    },
+    {
+      "id": "flat_p10p5_normal_Hz_r20",
+      "stage": "lab_parallel_exploration_20261012",
+      "fill": null,
+      "wavelength_um": 10.5,
+      "theta_deg": 0,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9669073709645759,
+        "T": -1.0643203330039446e-07,
+        "A_flux": 0.03309273546745739,
+        "A_vol": 0.03539764473567801,
+        "order_R": 0.9666919450229025,
+        "order_T": 2.9011943289708425e-06,
+        "reference_pseudo_reflection": 9.968558409787547e-07
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true,
+        "fresnel_R": false,
+        "fresnel_RTA": true
+      },
+      "status": "STRICT_FLAT_ACCURACY_FAILED_DIAGNOSTIC_RETAINED",
+      "stop": {
+        "reason": "CONVERGED"
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "591d5e967b52017f2a2b33cd78156cddf16072576346614dafb661b836640252",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "source_controls"
+      ],
+      "source_sha256": {
+        "source_controls": "dd4f7789fcaed1c3bf8322668032209976690e3a19479a470bc4e10e218087bf"
+      },
+      "source_component": "Hz",
+      "source_type": "magnetic"
+    },
+    {
+      "id": "flat_p10p5_normal_Ex_r20",
+      "stage": "lab_parallel_exploration_20261012",
+      "fill": null,
+      "wavelength_um": 10.5,
+      "theta_deg": 0,
+      "polarization": "p",
+      "resolution": 20,
+      "metrics": {
+        "R": 0.9631985971098048,
+        "T": -3.2512282667574576e-08,
+        "A_flux": 0.03680143540247784,
+        "A_vol": 0.03539761980797657,
+        "order_R": 0.9629837962436284,
+        "order_T": 8.862618544487198e-07,
+        "reference_pseudo_reflection": 1.0073719176906882e-06
+      },
+      "checks": {
+        "stopped": true,
+        "case_known": true,
+        "independent_absorption": true,
+        "reflection_orders": true,
+        "transmission_orders": true,
+        "reference_pseudo_reflection": true,
+        "finite": true,
+        "passive_flux_within_tolerance": true,
+        "fresnel_R": true,
+        "fresnel_RTA": true
+      },
+      "status": "STRICT_FLAT_CONTROL_PASSED_NOT_FULL_WIDTH_QUALIFICATION",
+      "stop": {
+        "reason": "CONVERGED"
+      },
+      "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "result_sha256": "930fed18aea04f06822317edcd2fa78c1ed3d022d11bc0441f4ded8df6d59617",
+      "case_sha256": null,
+      "implementation_sha256": null,
+      "source_ids": [
+        "source_controls"
+      ],
+      "source_sha256": {
+        "source_controls": "dd4f7789fcaed1c3bf8322668032209976690e3a19479a470bc4e10e218087bf"
+      },
+      "source_component": "Ex",
+      "source_type": "electric"
+    }
+  ],
+  "comparison": {
+    "electric_s_p_A_flux_difference": 5.551115123125783e-16,
+    "magnetic_s_p_A_flux_difference": 3.3306690738754696e-16,
+    "electric_minus_magnetic_A_flux_pp": 0.3708699935020675,
+    "electric_minus_magnetic_A_vol": -2.4927700806309794e-08,
+    "electric_flux_minus_volume_pp": 0.1403815594501298,
+    "magnetic_flux_minus_volume_pp": -0.2304909268220183,
+    "finding": "normal10.5um r20 source-type dependence reproduces false native p/s split; exact submechanism unresolved",
+    "residual": "same-material normal flat volume absorption remains roughly0.1699pp below analytic, about4.58% relative; no structure-wide constant correction"
+  },
+  "saved_field_audits": [
+    {
+      "id": "flat_s10p5_plus30_offset4p2_r20",
+      "power_balance": {
+        "A_surface_total_field": 0.030573998563672152,
+        "A_volume_original": 0.03058091377044785,
+        "A_flux_original": 0.03673272883424675,
+        "A_surface_minus_A_volume": -6.915206775696958e-06,
+        "A_flux_minus_A_surface": 0.006158730270574595,
+        "A_flux_minus_A_volume": 0.006151815063798898,
+        "T_net_direct": -7.026004345670486e-07,
+        "T_native_original": -7.027205646541197e-07,
+        "T_downward_only": 2.218000460828516e-05,
+        "T_upward_return": 2.2882605042852227e-05,
+        "front_total_minus_incident_minus_scattered_minus_cross": 1.0321604682062002e-16,
+        "A_flux_gap_decomposition": {
+          "reference_direct_flux_normalization": 0.00016824571470142047,
+          "scattered_direct_minus_native_R": -0.00016206080568126335,
+          "incident_scattered_cross": 0.0061525452414242865,
+          "back_direct_minus_native_T": 1.201300870711477e-10
+        },
+        "A_flux_gap_decomposition_residual": 6.418476861114186e-17,
+        "native_A_flux_algebraic_identity_residual": 0,
+        "no_negative_T_clipping": true,
+        "A_surface_formula": "(-F_total_front_net_up + F_total_back_net_up) / Pin",
+        "closed_control_surface_scope": "periodic sides cancel; source and PML must be outside; continuum air-plane impedance diagnostic only"
+      },
+      "front_cross": {
+        "direct_cross_net_up_over_Pin": 0.0061525452414242865,
+        "direction_pairs_cross_net_up_over_Pin": {
+          "up_up": 0.001924357578819214,
+          "up_down": 2.777311002194941e-29,
+          "down_up": -7.113956136360443e-17,
+          "down_down": 0.0042281876626050745
+        },
+        "propagating_cross_net_up_over_Pin": 0.0061525452414242865,
+        "nonpropagating_cross_net_up_over_Pin": 3.146149967983405e-30,
+        "cutoff_direct_cross_net_up_over_Pin": 0,
+        "direction_decomposition_residual_over_Pin": 6.891645007096793e-17,
+        "cutoff_direction_amplitudes_available": false
+      },
+      "result_sha256": "707e564c01a6605ae3b6fdc3f8e069109c044def5775e3be67b38ed0a8a54121",
+      "raw_input_sha256": {
+        "result.json": "707e564c01a6605ae3b6fdc3f8e069109c044def5775e3be67b38ed0a8a54121",
+        "monitor_planes.npz": "81ae29332813e9ded8b89bc22e94a1a6b58cf2757bce29847f2ebb7fe66004ce",
+        "volume_ED.npz": "22fe6ece637df7353b8e6831a9e4a23250285b37002d2bc7501b746bfad9665a",
+        "volume_metadata.json": "4306bdb88afc0a27e2dce72ba91ef97bdb823b28f43204eec753e9066e2f46a3",
+        "orders.json": "d7bf22207e44f69068b9b30e3433d63c795c3f41d2df1e7364c3b75d1825600a",
+        "structure_stop.json": "75f71b304c63139fd6000fa8f03bdebd705d25124436bb8e7ffd9b8f0a08c98a",
+        "reference_stop.json": "eee337f82834974d2521651d5056a48c69bd43566d4a0f13cc7d38a1ead9e531",
+        "reference_preload_audit.json": "ad3c213775bf4e9ec89569e8c401eae174f88f0d5e5d9884fb218b700c0acc41",
+        "structure_chunks.h5": "46b278daafebfce71567f2172fa15ac528ebf5791c9be121a45707e3fc96044c"
+      },
+      "input_unchanged": true
+    },
+    {
+      "id": "flat_s10p5_plus30_offset4p225_r20",
+      "power_balance": {
+        "A_surface_total_field": 0.030579144016984652,
+        "A_volume_original": 0.030580926635327656,
+        "A_flux_original": 0.036731437320175586,
+        "A_surface_minus_A_volume": -1.7826183430040554e-06,
+        "A_flux_minus_A_surface": 0.006152293303190934,
+        "A_flux_minus_A_volume": 0.00615051068484793,
+        "T_net_direct": -7.026007301393199e-07,
+        "T_native_original": -7.027208602769279e-07,
+        "T_downward_only": 2.2180013939042755e-05,
+        "T_upward_return": 2.288261466918209e-05,
+        "front_total_minus_incident_minus_scattered_minus_cross": -1.3097162243624894e-16,
+        "A_flux_gap_decomposition": {
+          "reference_direct_flux_normalization": -2.5273409143267145e-08,
+          "scattered_direct_minus_native_R": -1.262224984865945e-06,
+          "incident_scattered_cross": 0.006153580681454904,
+          "back_direct_minus_native_T": 1.2013013760799207e-10
+        },
+        "A_flux_gap_decomposition_residual": -9.8879238130678e-17,
+        "native_A_flux_algebraic_identity_residual": 0,
+        "no_negative_T_clipping": true,
+        "A_surface_formula": "(-F_total_front_net_up + F_total_back_net_up) / Pin",
+        "closed_control_surface_scope": "periodic sides cancel; source and PML must be outside; continuum air-plane impedance diagnostic only"
+      },
+      "front_cross": {
+        "direct_cross_net_up_over_Pin": 0.006153580681454904,
+        "direction_pairs_cross_net_up_over_Pin": {
+          "up_up": 0.0019267870374374697,
+          "up_down": 3.3950771644207965e-28,
+          "down_up": 3.556979564506608e-17,
+          "down_down": 0.004226793644017466
+        },
+        "propagating_cross_net_up_over_Pin": 0.006153580681454904,
+        "nonpropagating_cross_net_up_over_Pin": 2.8686423352025985e-30,
+        "cutoff_direct_cross_net_up_over_Pin": 0,
+        "direction_decomposition_residual_over_Pin": -6.66933668351301e-17,
+        "cutoff_direction_amplitudes_available": false
+      },
+      "result_sha256": "d25d309b81d45381612150f3daa978275def18cf5e04657831c8c58aecc5e373",
+      "raw_input_sha256": {
+        "result.json": "d25d309b81d45381612150f3daa978275def18cf5e04657831c8c58aecc5e373",
+        "monitor_planes.npz": "e860acdaf7c5cf0a07fa24fad201ae14919572ed027119a7de4c3846e19bfe5c",
+        "volume_ED.npz": "22fe6ece637df7353b8e6831a9e4a23250285b37002d2bc7501b746bfad9665a",
+        "volume_metadata.json": "4306bdb88afc0a27e2dce72ba91ef97bdb823b28f43204eec753e9066e2f46a3",
+        "orders.json": "f2ca123f63fb045b9e661d3fca8adf52d7605a7753c4180aa052ae50b73eb166",
+        "structure_stop.json": "6b0866529eced3e8b3217ca12ec6e8d70365045c53fe4f2b6c15b5cef35d5342",
+        "reference_stop.json": "8937e51ffb80d1810894736d063c5eb85ecd88edac603c3c8dd3f18e058bd4a4",
+        "reference_preload_audit.json": "36ab73717ef5297153b8de0effa150e80e357616760c9747135e4b70dfb1a48a",
+        "structure_chunks.h5": "46b278daafebfce71567f2172fa15ac528ebf5791c9be121a45707e3fc96044c"
+      },
+      "input_unchanged": true
+    },
+    {
+      "id": "flat_p8_plus30_offset2_r20",
+      "power_balance": {
+        "A_surface_total_field": 0.05278358938118765,
+        "A_volume_original": 0.05279906537651038,
+        "A_flux_original": 0.046969438750341985,
+        "A_surface_minus_A_volume": -1.547599532272792e-05,
+        "A_flux_minus_A_surface": -0.0058141506308456645,
+        "A_flux_minus_A_volume": -0.005829626626168392,
+        "T_net_direct": -1.194500403488999e-06,
+        "T_native_original": -1.1948531407625427e-06,
+        "T_downward_only": 2.1469215328337735e-05,
+        "T_upward_return": 2.266371573182674e-05,
+        "front_total_minus_incident_minus_scattered_minus_cross": 2.6020852139652106e-18,
+        "A_flux_gap_decomposition": {
+          "reference_direct_flux_normalization": 0.0002891831374345344,
+          "scattered_direct_minus_native_R": -0.00027536665604266375,
+          "incident_scattered_cross": -0.0058279674649748285,
+          "back_direct_minus_native_T": 3.527372735437867e-10
+        },
+        "A_flux_gap_decomposition_residual": 1.9949319973733282e-17,
+        "native_A_flux_algebraic_identity_residual": 0,
+        "no_negative_T_clipping": true,
+        "A_surface_formula": "(-F_total_front_net_up + F_total_back_net_up) / Pin",
+        "closed_control_surface_scope": "periodic sides cancel; source and PML must be outside; continuum air-plane impedance diagnostic only"
+      },
+      "front_cross": {
+        "direct_cross_net_up_over_Pin": -0.0058279674649748285,
+        "direction_pairs_cross_net_up_over_Pin": {
+          "up_up": -0.004172860697641647,
+          "up_down": 4.703997441295038e-22,
+          "down_up": -4.645832145694605e-30,
+          "down_down": -0.0016551067673331401
+        },
+        "propagating_cross_net_up_over_Pin": -0.0058279674649748285,
+        "nonpropagating_cross_net_up_over_Pin": -6.638863877390838e-30,
+        "cutoff_direct_cross_net_up_over_Pin": 0,
+        "direction_decomposition_residual_over_Pin": -4.046190456247602e-17,
+        "cutoff_direction_amplitudes_available": false
+      },
+      "result_sha256": "f2a2c8da521a18f2a23886f50651789087cd17211b71e1188265c5a1df2c97c8",
+      "raw_input_sha256": {
+        "result.json": "f2a2c8da521a18f2a23886f50651789087cd17211b71e1188265c5a1df2c97c8",
+        "monitor_planes.npz": "a54edc55c867cce4ea688690a5a5f1ee0993911376ad631c2d689b40fe37a760",
+        "volume_ED.npz": "ecc883a2aef9f61dfeb34b4264c2726cce8d952dfba6a598530ee5289dce2f42",
+        "volume_metadata.json": "923df148ddaf92dfd72b5cf3e528078dca8c509a6a717cd57a893a596b50c406",
+        "orders.json": "a4ee6fad1f9e5b27adc62cec36d27e0f9c36130d30eaf8794a781acf3434ff2f",
+        "structure_stop.json": "9b73863fe5bf40f712b00ae222e0a5e904d89a928cb1e2f599f64a85113386eb",
+        "reference_stop.json": "ccbf97443e413035a35b18fc03368f713ada6630b50ce4cd04b38be18b7c2273",
+        "reference_preload_audit.json": "ea6973c724ef021ca0ea21ddaf296f0d4f5ddc1d0b6d7250d9a2269f63f5a12d",
+        "structure_chunks.h5": "e95b6eb49dfeec0968f3a0e6cef12ddc0dedfea19dcbddd458a7260dbe07fcc0"
+      },
+      "input_unchanged": true
+    },
+    {
+      "id": "flat_p8_plus30_offset8_r20",
+      "power_balance": {
+        "A_surface_total_field": 0.05278357935698174,
+        "A_volume_original": 0.052799060203533386,
+        "A_flux_original": 0.04696946838836697,
+        "A_surface_minus_A_volume": -1.54808465516465e-05,
+        "A_flux_minus_A_surface": -0.005814110968614769,
+        "A_flux_minus_A_volume": -0.0058295918151664156,
+        "T_net_direct": -1.1945002864580806e-06,
+        "T_native_original": -1.194853023697065e-06,
+        "T_downward_only": 2.1469213224896013e-05,
+        "T_upward_return": 2.2663713511354102e-05,
+        "front_total_minus_incident_minus_scattered_minus_cross": -2.42861286636753e-16,
+        "A_flux_gap_decomposition": {
+          "reference_direct_flux_normalization": 0.0002892834739768313,
+          "scattered_direct_minus_native_R": -0.00027542975044403395,
+          "incident_scattered_cross": -0.005827965044884566,
+          "back_direct_minus_native_T": 3.5273723898441895e-10
+        },
+        "A_flux_gap_decomposition_residual": -2.393918396847994e-16,
+        "native_A_flux_algebraic_identity_residual": 0,
+        "no_negative_T_clipping": true,
+        "A_surface_formula": "(-F_total_front_net_up + F_total_back_net_up) / Pin",
+        "closed_control_surface_scope": "periodic sides cancel; source and PML must be outside; continuum air-plane impedance diagnostic only"
+      },
+      "front_cross": {
+        "direct_cross_net_up_over_Pin": -0.005827965044884566,
+        "direction_pairs_cross_net_up_over_Pin": {
+          "up_up": -0.00404349099682355,
+          "up_down": -5.493560520661467e-29,
+          "down_up": -1.3005610906567889e-16,
+          "down_down": -0.001784474048060992
+        },
+        "propagating_cross_net_up_over_Pin": -0.005827965044884566,
+        "nonpropagating_cross_net_up_over_Pin": 4.442049268176296e-30,
+        "cutoff_direct_cross_net_up_over_Pin": 0,
+        "direction_decomposition_residual_over_Pin": 1.0597164442393489e-16,
+        "cutoff_direction_amplitudes_available": false
+      },
+      "result_sha256": "80adb62391faff702f4001590f02c6934e871f0c0eb059d9e7d39a2273612728",
+      "raw_input_sha256": {
+        "result.json": "80adb62391faff702f4001590f02c6934e871f0c0eb059d9e7d39a2273612728",
+        "monitor_planes.npz": "c6695bfebaf22930ab340e696500b780eb746ba237182e858f20df9ddf9fcf76",
+        "volume_ED.npz": "ecc883a2aef9f61dfeb34b4264c2726cce8d952dfba6a598530ee5289dce2f42",
+        "volume_metadata.json": "923df148ddaf92dfd72b5cf3e528078dca8c509a6a717cd57a893a596b50c406",
+        "orders.json": "82802b435343c18b2329629a927f9f843c30b3fe5ae1168f65dcb3db9eb20d01",
+        "structure_stop.json": "9eb0219aacb5402a950ac067387972ee0ba52a65db435ca5aface5e354b06861",
+        "reference_stop.json": "9a918835f61460a0e275a39075677b58faae62ca640e1eeb3cde45912becc713",
+        "reference_preload_audit.json": "a8d594b030dd1a7ac36d567f4c4910045e8f6660f003d9a7767a5336bad5b626",
+        "structure_chunks.h5": "e95b6eb49dfeec0968f3a0e6cef12ddc0dedfea19dcbddd458a7260dbe07fcc0"
+      },
+      "input_unchanged": true
+    },
+    {
+      "id": "flat_p13_plus30_offset2_r20",
+      "power_balance": {
+        "A_surface_total_field": 0.035669206340966986,
+        "A_volume_original": 0.035673166076322836,
+        "A_flux_original": 0.04149113415884361,
+        "A_surface_minus_A_volume": -3.9597353558504245e-06,
+        "A_flux_minus_A_surface": 0.005821927817876625,
+        "A_flux_minus_A_volume": 0.005817968082520775,
+        "T_net_direct": -3.3749175907006875e-07,
+        "T_native_original": -3.375279152491741e-07,
+        "T_downward_only": 9.107431953983137e-06,
+        "T_upward_return": 9.444923713053207e-06,
+        "front_total_minus_incident_minus_scattered_minus_cross": -2.42861286636753e-17,
+        "A_flux_gap_decomposition": {
+          "reference_direct_flux_normalization": 0.00010968562306690188,
+          "scattered_direct_minus_native_R": -0.00010504153376078573,
+          "incident_scattered_cross": 0.005817283692414323,
+          "back_direct_minus_native_T": 3.615617910535283e-11
+        },
+        "A_flux_gap_decomposition_residual": 6.938893903907228e-18,
+        "native_A_flux_algebraic_identity_residual": 0,
+        "no_negative_T_clipping": true,
+        "A_surface_formula": "(-F_total_front_net_up + F_total_back_net_up) / Pin",
+        "closed_control_surface_scope": "periodic sides cancel; source and PML must be outside; continuum air-plane impedance diagnostic only"
+      },
+      "front_cross": {
+        "direct_cross_net_up_over_Pin": 0.005817283692414323,
+        "direction_pairs_cross_net_up_over_Pin": {
+          "up_up": 0.004090651414450592,
+          "up_down": 7.099856896439906e-22,
+          "down_up": 1.6348495338581733e-28,
+          "down_down": 0.0017266322779637129
+        },
+        "propagating_cross_net_up_over_Pin": 0.005817283692414323,
+        "nonpropagating_cross_net_up_over_Pin": 6.2245946370505484e-30,
+        "cutoff_direct_cross_net_up_over_Pin": 0,
+        "direction_decomposition_residual_over_Pin": 1.8175637680751345e-17,
+        "cutoff_direction_amplitudes_available": false
+      },
+      "result_sha256": "5174945ad119a011d0d07ce8f669e185b0725e01f06fb6d2345bbfb534329750",
+      "raw_input_sha256": {
+        "result.json": "5174945ad119a011d0d07ce8f669e185b0725e01f06fb6d2345bbfb534329750",
+        "monitor_planes.npz": "589a1467126a0937f875f4ec1cc97ede4c0be54fef8569b014cbb4d4c5ce37cc",
+        "volume_ED.npz": "22a89cec1ae5217839c1b8a9724e0eb625f2f468a9f059d2f6e185e7aafd3ec5",
+        "volume_metadata.json": "79c025ce182f189a0c2288434e4b4a33656766df7703f2046b92facbc8243593",
+        "orders.json": "5d3a5e9f606aa6a8e0db1359b0bfc6f9c9d978f6329d84853b3316bae32fcb5f",
+        "structure_stop.json": "1a1d076633b442823db743e80c3d5df1cf3dc4eeefb47e9e6daf2b3bfa52c97c",
+        "reference_stop.json": "3557a70b1f066635d4dadf38da7baa209b3a23696d8219c532f9d1ba11c741e5",
+        "reference_preload_audit.json": "9516a484724a53145a9c9d8152f912a0fdc03e135332682d889c706aee41a853",
+        "structure_chunks.h5": "063280db3c6ca446456b17e33c28f3ac3f53ecd9a28a77bac05b720397289f09"
+      },
+      "input_unchanged": true
+    },
+    {
+      "id": "flat_p13_plus30_offset8_r20",
+      "power_balance": {
+        "A_surface_total_field": 0.03566921592455734,
+        "A_volume_original": 0.035673176604067096,
+        "A_flux_original": 0.04149160736022904,
+        "A_surface_minus_A_volume": -3.960679509758258e-06,
+        "A_flux_minus_A_surface": 0.005822391435671703,
+        "A_flux_minus_A_volume": 0.005818430756161945,
+        "T_net_direct": -3.374918586694966e-07,
+        "T_native_original": -3.3752801485927223e-07,
+        "T_downward_only": 9.107434641737689e-06,
+        "T_upward_return": 9.444926500407186e-06,
+        "front_total_minus_incident_minus_scattered_minus_cross": -2.42861286636753e-16,
+        "A_flux_gap_decomposition": {
+          "reference_direct_flux_normalization": 0.00010939096370443657,
+          "scattered_direct_minus_native_R": -0.00010428740602019815,
+          "incident_scattered_cross": 0.005817287841831574,
+          "back_direct_minus_native_T": 3.6156189775638625e-11
+        },
+        "A_flux_gap_decomposition_residual": -2.992397996059992e-16,
+        "native_A_flux_algebraic_identity_residual": 0,
+        "no_negative_T_clipping": true,
+        "A_surface_formula": "(-F_total_front_net_up + F_total_back_net_up) / Pin",
+        "closed_control_surface_scope": "periodic sides cancel; source and PML must be outside; continuum air-plane impedance diagnostic only"
+      },
+      "front_cross": {
+        "direct_cross_net_up_over_Pin": 0.005817287841831574,
+        "direction_pairs_cross_net_up_over_Pin": {
+          "up_up": 0.004145553144812467,
+          "up_down": 3.842518544746534e-28,
+          "down_up": -3.7587564444167597e-28,
+          "down_down": 0.0016717346970191458
+        },
+        "propagating_cross_net_up_over_Pin": 0.005817287841831574,
+        "nonpropagating_cross_net_up_over_Pin": 8.376210032977491e-30,
+        "cutoff_direct_cross_net_up_over_Pin": 0,
+        "direction_decomposition_residual_over_Pin": -3.925938897651774e-17,
+        "cutoff_direction_amplitudes_available": false
+      },
+      "result_sha256": "0cb1f895dd1684f444e74c441a80abcd11aab6882ad842884fa3cd28c6cdfad4",
+      "raw_input_sha256": {
+        "result.json": "0cb1f895dd1684f444e74c441a80abcd11aab6882ad842884fa3cd28c6cdfad4",
+        "monitor_planes.npz": "b447bd64c169aa0117638a0c1e3e1e0051a96c3d2225551be7b2e26e85340b92",
+        "volume_ED.npz": "22a89cec1ae5217839c1b8a9724e0eb625f2f468a9f059d2f6e185e7aafd3ec5",
+        "volume_metadata.json": "79c025ce182f189a0c2288434e4b4a33656766df7703f2046b92facbc8243593",
+        "orders.json": "0b55ee1052228ff00410f4e4a4682012c19e238706454ac2a89e5085ba4a3373",
+        "structure_stop.json": "af99f6d2f3f3dd623a6dadc7eb23e96999c350e5bed5dc3ecc9c66d268f5aff5",
+        "reference_stop.json": "19d5cb800b0b25a3f42fbc625f4c7ac65be99a58b058c847a0964e5e40b6a5cd",
+        "reference_preload_audit.json": "7b21407dc1fe38435e941a667aaa1066f6e990d5fb279f854d749de9de831fc4",
+        "structure_chunks.h5": "063280db3c6ca446456b17e33c28f3ac3f53ecd9a28a77bac05b720397289f09"
+      },
+      "input_unchanged": true
+    },
+    {
+      "id": "flat_s10p5_normal_offset4p2_r20",
+      "power_balance": {
+        "A_surface_total_field": 0.03538961532840533,
+        "A_volume_original": 0.0353976198079771,
+        "A_flux_original": 0.0368014354024784,
+        "A_surface_minus_A_volume": -8.00447957177014e-06,
+        "A_flux_minus_A_surface": 0.0014118200740730683,
+        "A_flux_minus_A_volume": 0.0014038155945012981,
+        "T_net_direct": -3.2505371273525674e-08,
+        "T_native_original": -3.2512282667573894e-08,
+        "T_downward_only": 8.862618544487237e-07,
+        "T_upward_return": 9.187672257222494e-07,
+        "front_total_minus_incident_minus_scattered_minus_cross": -6.158268339717665e-17,
+        "A_flux_gap_decomposition": {
+          "reference_direct_flux_normalization": 0.0002245141274999085,
+          "scattered_direct_minus_native_R": -0.0002159116662336924,
+          "incident_scattered_cross": 0.0014032176058955187,
+          "back_direct_minus_native_T": 6.911394048219972e-12
+        },
+        "A_flux_gap_decomposition_residual": -6.049848122469115e-17,
+        "native_A_flux_algebraic_identity_residual": 0,
+        "no_negative_T_clipping": true,
+        "A_surface_formula": "(-F_total_front_net_up + F_total_back_net_up) / Pin",
+        "closed_control_surface_scope": "periodic sides cancel; source and PML must be outside; continuum air-plane impedance diagnostic only"
+      },
+      "front_cross": {
+        "direct_cross_net_up_over_Pin": 0.0014032176058955187,
+        "direction_pairs_cross_net_up_over_Pin": {
+          "up_up": 0.0018936339787391585,
+          "up_down": -1.0024196993281506e-31,
+          "down_up": 5.615940099864028e-32,
+          "down_down": -0.0004904163728436617
+        },
+        "propagating_cross_net_up_over_Pin": 0.0014032176058955187,
+        "nonpropagating_cross_net_up_over_Pin": -4.408256893417472e-32,
+        "cutoff_direct_cross_net_up_over_Pin": 0,
+        "direction_decomposition_residual_over_Pin": 2.1597593928537038e-17,
+        "cutoff_direction_amplitudes_available": false
+      },
+      "result_sha256": "bf1f24daf7c8afa07e22d2934c176d030af8359760905f288c49b2a3ae2dce04",
+      "raw_input_sha256": {
+        "result.json": "bf1f24daf7c8afa07e22d2934c176d030af8359760905f288c49b2a3ae2dce04",
+        "monitor_planes.npz": "77ac192e8c9d20cac4295a30881348bb229f89fa768f42c707f9d40db46f561f",
+        "volume_ED.npz": "eb42f1e10b79aecbcaddac75368e9900e0f6ed6c42a7fbe2f6a68045148a9272",
+        "volume_metadata.json": "4afd084439dc5da03f2e37645bd4ae7b7f53683bc7ae7cded35360577d0502ec",
+        "orders.json": "763e5dbbcee67b5c2002037a0a2d72b1297c4c5cd61e1957088c1ef8646353e8",
+        "structure_stop.json": "2c501b99422332376ea05005f8bf70ebfc266ac7d554daf4551ab5cc71cd0794",
+        "reference_stop.json": "7963b2c621123bf0c6f4fc86505a033b13140ec92a028e3e4d3cf872c8f4bda3",
+        "reference_preload_audit.json": "01bf7898d06691727ca5c0a3d4cafb6adba4c1f4340b932334f1653d81ff093c",
+        "structure_chunks.h5": "3ce89308f982070697691c536faa139cd0145303f775b7cd4d49c8f5ac8b328e"
+      },
+      "input_unchanged": true
+    },
+    {
+      "id": "flat_p10p5_normal_offset4p2_r20",
+      "power_balance": {
+        "A_surface_total_field": 0.035389640258557384,
+        "A_volume_original": 0.03539764473567801,
+        "A_flux_original": 0.03309273546745739,
+        "A_surface_minus_A_volume": -8.004477120626685e-06,
+        "A_flux_minus_A_surface": -0.0022969047910999935,
+        "A_flux_minus_A_volume": -0.00230490926822062,
+        "T_net_direct": -1.0640692513896789e-07,
+        "T_native_original": -1.0643203330039446e-07,
+        "T_downward_only": 2.9011943289708412e-06,
+        "T_upward_return": 3.0076012541098105e-06,
+        "front_total_minus_incident_minus_scattered_minus_cross": -2.0643209364124004e-16,
+        "A_flux_gap_decomposition": {
+          "reference_direct_flux_normalization": 0.00022411637401487106,
+          "scattered_direct_minus_native_R": -0.00021653295432855213,
+          "incident_scattered_cross": -0.0023044882358942576,
+          "back_direct_minus_native_T": 2.5108161426569542e-11
+        },
+        "A_flux_gap_decomposition_residual": -2.1597307275911248e-16,
+        "native_A_flux_algebraic_identity_residual": 0,
+        "no_negative_T_clipping": true,
+        "A_surface_formula": "(-F_total_front_net_up + F_total_back_net_up) / Pin",
+        "closed_control_surface_scope": "periodic sides cancel; source and PML must be outside; continuum air-plane impedance diagnostic only"
+      },
+      "front_cross": {
+        "direct_cross_net_up_over_Pin": -0.0023044882358942576,
+        "direction_pairs_cross_net_up_over_Pin": {
+          "up_up": -0.0018158396928207102,
+          "up_down": 5.148494578459316e-31,
+          "down_up": -5.664734547749402e-31,
+          "down_down": -0.0004886485430735329
+        },
+        "propagating_cross_net_up_over_Pin": -0.0023044882358942576,
+        "nonpropagating_cross_net_up_over_Pin": -5.162399692900867e-32,
+        "cutoff_direct_cross_net_up_over_Pin": 0,
+        "direction_decomposition_residual_over_Pin": -1.4509099683778024e-17,
+        "cutoff_direction_amplitudes_available": false
+      },
+      "result_sha256": "abf0845e50845d47b8f55019a1305293c072905b4f57a6c794ffa56a12c6bb7f",
+      "raw_input_sha256": {
+        "result.json": "abf0845e50845d47b8f55019a1305293c072905b4f57a6c794ffa56a12c6bb7f",
+        "monitor_planes.npz": "a655208507cd0b2ae94af57dced92371286ba5e8b9c8c9c8de3fbc3a285e95af",
+        "volume_ED.npz": "b08f24f5f6d3e42bd02f5f0102ab92c526a1e5cfde781e565af44b869afcb82f",
+        "volume_metadata.json": "0e5364b5e446565c1a64889f974a1e12ed1f05ac4f7a0e2c4fe4fb04da9bfadf",
+        "orders.json": "52135f8f0740a742a8c25f24849755c638b115a2e6d6136386b9e44ce26febe8",
+        "structure_stop.json": "7490b6b6fb32c26fd98db4eb9d339329049b358f46849338ec8b2ea87913a260",
+        "reference_stop.json": "e2ed0e93b51572305454401f4ba0ccc999de0c5d9358fdbb32909e318dfff6c0",
+        "reference_preload_audit.json": "b03037bd5fc729a68040da4555ca67afe19b36db27209b0c2774c52dc491c23c",
+        "structure_chunks.h5": "04dd1f9e623d5e73c0cc970c859dc27b82e2866236567061a22a2b6b7e6a5bd9"
+      },
+      "input_unchanged": true
+    }
+  ],
+  "limitations": {
+    "confirmed": "Incident/scattered coherent cross terms quantitatively account for nearly all flux-minus-volume absorption gaps and 99.9712 percent of the nonphysical normal-incidence native-R polarization split.",
+    "excluded_as_dominant_in_tested_scope": "Monitor displacement and half-grid registration: maximum R change 1.2916e-6.",
+    "not_unique": "The specific physical/numerical origin of the reference return wave remains unresolved. No unique PML attribution or evidence of reference-buffer loading-code error.",
+    "residual": "Common normal-incidence volume absorption remains about 0.1699 percentage points below same-material analytic absorption; not fixed by bookkeeping.",
+    "limitations": "Diagnostic controls only; no production correction, qualification upgrade, criterion relaxation, or new solver launch.",
+    "recommended_next": "Same-polarization equivalent electric/magnetic-source controls with fresh references, followed if needed by isolated one-sided return-path control."
+  },
+  "source_manifest": [
+    {
+      "id": "source_controls",
+      "relative_path": "meep_screen/lab_parallel_exploration_20261012/PROGRESS_CHECK_20261012_1547.json",
+      "sha256": "dd4f7789fcaed1c3bf8322668032209976690e3a19479a470bc4e10e218087bf",
+      "distributed": false
+    },
+    {
+      "id": "field_audit",
+      "relative_path": "meep_screen/lab_monitor_polarization_diagnostic_20261012_v2/FIELD_DIAGNOSIS_20261012.json",
+      "sha256": "0abd37472d195604bbb79dcad35058fb7b3790cf91ba89f63d01772403d64ac8",
+      "distributed": false
+    }
+  ]
+}

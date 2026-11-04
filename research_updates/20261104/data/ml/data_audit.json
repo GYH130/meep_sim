@@ -1,0 +1,27 @@
+{
+  "state": "ALL_NINE_REVIEWED_LOCAL_DATASET_UPDATE",
+  "new_case_ids": [
+    "ML4_A3H80_t2_l10p5_th30_phi30_s",
+    "ML5_A3H80_t2_l10p5_th30_phi30_p",
+    "ML6_A3H100_t2_l10p5_th0_phi0_s",
+    "ML7_A3H100_t2_l10p5_th0_phi0_p",
+    "ML8_A3H100_t2_l10p5_th30_phi30_s",
+    "ML9_A3H100_t2_l10p5_th30_phi30_p"
+  ],
+  "new_conditions": 6,
+  "new_independent_designs": 1,
+  "records_all": 89,
+  "unique_conditions": 86,
+  "independent_designs": 8,
+  "baseline_conditions": 26,
+  "baseline_quality_counts": {
+    "method_unreviewed_exploratory": 9,
+    "method_review_failed_sensitivity": 4,
+    "method_checked_exploratory": 13
+  },
+  "prior_rows_unchanged": true,
+  "raw_net_flux_warnings_preserved": true,
+  "method_failed_prior_rows_not_promoted": true,
+  "formal_qualification": false,
+  "new_physical_solves_started": 0
+}

@@ -1,0 +1,221 @@
+{
+  "scope": "10.5um s-polarization baseline rows only; historic and current mesh/method-quality states retained; no physical law or interpolated surface claimed.",
+  "new_solves_started": 0,
+  "panels": [
+    {
+      "name": "height_theta0_t2",
+      "points": [
+        {
+          "case_id": "ML2_A3H80_t2_l10p5_th0_phi0_s",
+          "design_id": "H80_t2",
+          "H_um": 80.0,
+          "t_um": 2.0,
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "A_loss_percent": 26.865951835750945,
+          "quality_class": "method_checked_exploratory",
+          "method_checked": true,
+          "method_review_failed": false
+        },
+        {
+          "case_id": "ML6_A3H100_t2_l10p5_th0_phi0_s",
+          "design_id": "H100_t2",
+          "H_um": 100.0,
+          "t_um": 2.0,
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "A_loss_percent": 29.521938351098925,
+          "quality_class": "method_checked_exploratory",
+          "method_checked": true,
+          "method_review_failed": false
+        },
+        {
+          "case_id": "Q0_A3_floorSiO2_t2_s_ooc",
+          "design_id": "H120_t2",
+          "H_um": 120.0,
+          "t_um": 2.0,
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "A_loss_percent": 31.37443388842589,
+          "quality_class": "method_unreviewed_exploratory",
+          "method_checked": false,
+          "method_review_failed": false
+        }
+      ]
+    },
+    {
+      "name": "height_theta0_t3",
+      "points": [
+        {
+          "case_id": "HD1_A3H60_t3_l10p5_th0_phi0_s",
+          "design_id": "H60_t3",
+          "H_um": 60.0,
+          "t_um": 3.0,
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "A_loss_percent": 27.2093780686247,
+          "quality_class": "method_review_failed_sensitivity",
+          "method_checked": false,
+          "method_review_failed": true
+        },
+        {
+          "case_id": "ML1_A3H80_t3_l10p5_th0_phi0_s",
+          "design_id": "H80_t3",
+          "H_um": 80.0,
+          "t_um": 3.0,
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "A_loss_percent": 34.130349255655844,
+          "quality_class": "method_checked_exploratory",
+          "method_checked": true,
+          "method_review_failed": false
+        },
+        {
+          "case_id": "HD3_A3H100_t3_l10p5_th0_phi0_s",
+          "design_id": "H100_t3",
+          "H_um": 100.0,
+          "t_um": 3.0,
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "A_loss_percent": 36.085724755477266,
+          "quality_class": "method_review_failed_sensitivity",
+          "method_checked": false,
+          "method_review_failed": true
+        },
+        {
+          "case_id": "W3_A3_t3_s",
+          "design_id": "H120_t3",
+          "H_um": 120.0,
+          "t_um": 3.0,
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "A_loss_percent": 37.05581104272563,
+          "quality_class": "method_unreviewed_exploratory",
+          "method_checked": false,
+          "method_review_failed": false
+        }
+      ]
+    },
+    {
+      "name": "height_theta30_t2",
+      "points": [
+        {
+          "case_id": "ML4_A3H80_t2_l10p5_th30_phi30_s",
+          "design_id": "H80_t2",
+          "H_um": 80.0,
+          "t_um": 2.0,
+          "theta_deg": 30.0,
+          "phi_deg": 30.0,
+          "A_loss_percent": 16.020815661756586,
+          "quality_class": "method_checked_exploratory",
+          "method_checked": true,
+          "method_review_failed": false
+        },
+        {
+          "case_id": "ML8_A3H100_t2_l10p5_th30_phi30_s",
+          "design_id": "H100_t2",
+          "H_um": 100.0,
+          "t_um": 2.0,
+          "theta_deg": 30.0,
+          "phi_deg": 30.0,
+          "A_loss_percent": 19.565811247114013,
+          "quality_class": "method_checked_exploratory",
+          "method_checked": true,
+          "method_review_failed": false
+        }
+      ]
+    },
+    {
+      "name": "height_theta30_t3",
+      "points": [
+        {
+          "case_id": "M1_A3H60_t3_l10p5_th30_phi30_s",
+          "design_id": "H60_t3",
+          "H_um": 60.0,
+          "t_um": 3.0,
+          "theta_deg": 30.0,
+          "phi_deg": 30.0,
+          "A_loss_percent": 13.950660117626928,
+          "quality_class": "method_checked_exploratory",
+          "method_checked": true,
+          "method_review_failed": false
+        },
+        {
+          "case_id": "AS3_A3H80_t3_l10p5_th30_phi30_s",
+          "design_id": "H80_t3",
+          "H_um": 80,
+          "t_um": 3,
+          "theta_deg": 30.0,
+          "phi_deg": 30.0,
+          "A_loss_percent": 16.141495855817407,
+          "quality_class": "method_unreviewed_exploratory",
+          "method_checked": false,
+          "method_review_failed": false
+        },
+        {
+          "case_id": "M3_A3H100_t3_l10p5_th30_phi30_s",
+          "design_id": "H100_t3",
+          "H_um": 100.0,
+          "t_um": 3.0,
+          "theta_deg": 30.0,
+          "phi_deg": 30.0,
+          "A_loss_percent": 19.62388868672617,
+          "quality_class": "method_checked_exploratory",
+          "method_checked": true,
+          "method_review_failed": false
+        }
+      ]
+    },
+    {
+      "name": "thickness_H120_1.0",
+      "points": [
+        {
+          "case_id": "W2_A3_t1_s",
+          "design_id": "H120_t1",
+          "H_um": 120.0,
+          "t_um": 1.0,
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "A_loss_percent": 36.534234593868185,
+          "quality_class": "method_unreviewed_exploratory",
+          "method_checked": false,
+          "method_review_failed": false
+        }
+      ]
+    },
+    {
+      "name": "thickness_H120_2.0",
+      "points": [
+        {
+          "case_id": "Q0_A3_floorSiO2_t2_s_ooc",
+          "design_id": "H120_t2",
+          "H_um": 120.0,
+          "t_um": 2.0,
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "A_loss_percent": 31.37443388842589,
+          "quality_class": "method_unreviewed_exploratory",
+          "method_checked": false,
+          "method_review_failed": false
+        }
+      ]
+    },
+    {
+      "name": "thickness_H120_3.0",
+      "points": [
+        {
+          "case_id": "W3_A3_t3_s",
+          "design_id": "H120_t3",
+          "H_um": 120.0,
+          "t_um": 3.0,
+          "theta_deg": 0.0,
+          "phi_deg": 0.0,
+          "A_loss_percent": 37.05581104272563,
+          "quality_class": "method_unreviewed_exploratory",
+          "method_checked": false,
+          "method_review_failed": false
+        }
+      ]
+    }
+  ]
+}

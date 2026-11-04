@@ -1,0 +1,1120 @@
+{
+  "state": "COMPLETE_THREE_ML_FIRST3_EXPLORATIONS_INDEPENDENT_ARTIFACT_AUDIT",
+  "completed_count": 3,
+  "individual_results": [
+    {
+      "case_id": "ML1_A3H80_t3_l10p5_th0_phi0_s",
+      "film_um": 3,
+      "polarization": "s",
+      "wavelength_um": 10.5,
+      "theta_deg": 0,
+      "phi_global_deg": 0,
+      "state": "COMPLETE_WITH_FLUX_WARNING_NOT_ACCEPTED",
+      "accepted": false,
+      "exploration_continue_allowed": true,
+      "warning_checks": [
+        "native_R_orders_vs_net_flux",
+        "native_flux_vs_total_loss_absolute",
+        "native_flux_vs_total_loss_relative",
+        "mode_vs_net",
+        "net_vs_loss_abs",
+        "net_vs_loss_relative"
+      ],
+      "hard_failed_checks": [],
+      "directory": "server_archive/lab_comsol_ml_first3_20261102\\ML1_A3H80_t3_l10p5_th0_phi0_s\\solve",
+      "finished_utc": "2026-11-02T12:38:03.9462763Z",
+      "case_wall_elapsed_s": 11763.6392408,
+      "solver_elapsed_s": 10448.7144476,
+      "peak_owned_rss_bytes": 51515559936,
+      "mesh_peak_owned_rss_bytes": 3204800512,
+      "solve_peak_owned_rss_bytes": 51515559936,
+      "mesh_fingerprint_sha256": "256b3fdf2845532897b2f3eb9c2fa28d57692e0e235516627740a9d09e192fd0",
+      "admission_sha256": "f6be4888949f6e33ce40eaf6da7fd9f234d2736cd89b758a63f2c224f58f4e75",
+      "mesh_controller_sha256": "f85182637656f7922a77b37fcc25a3b24387bec1723690ca38b93887ebebe1ac",
+      "solve_controller_sha256": "950157b765456065d524a7b8abba05994d6903a5fa88c090744cfeba07a480c9",
+      "queue_window_sha256": "8a856f7cfccd1dd25c386ed8756056137655170370f41a6cdd2fce0a15fa1f36",
+      "manifest_sha256": "f2a65b31a8226ac8c177b0dbda55abf4520fd71687b137693416299984e6e5a1",
+      "artifacts_sha256": {
+        "metrics.json": "7ac06479d4a72007702c4761c529eb6174f52a03471fc15ed5c718308408d83d",
+        "evaluation.json": "338162b7f0781c1018b98619d9b7501f1961f0eae7a05d9d70530e9f09abfa70",
+        "solved_unevaluated.mph": "c05fd242bb17084e26f2111bcfb4ab773b36c7b107a996a2974484a77ccb7784",
+        "model.mph": "53a44bc8ac9feb213e572efc474d8ca0ab2344c9266ce7a001d88ab689fcd1db",
+        "mesh_only.mph": "f0c2169b86c24fdd5899d476c389aaaf3d7405aec99bb690aa36dd0f7e2309a4",
+        "mesh.json": "59ad60779974fbad3b55cd4d21c6f14742e1a86df1aca07466aa0c847aa77a07",
+        "geometry.json": "334159a9e3f9390ef324a797bc200ba945119720cc3ffff2236de9f2b701d0f6",
+        "case_receipt.json": "4624e1eaa5e4345ca9b56f14e04d8baf69f6159677f6514e988e48dbd4125b0f",
+        "linear_solver_override.json": "2baadd5f76827a4ad6f89dc257951ac2cf7530d02f4c02e817b8ff982980c37b",
+        "solved_artifact.json": "e8aaef97062e04bf6e49bc32dbef2acee59b421484a9e346abc0d9eafdc0409e",
+        "done.json": "f9ecd173543d02da53242012b10a3c274774f55fb4dddca5f3acfa9695fe9697",
+        "native_exit_receipt.json": "d1fd2eeed12cb23188ef1e2a057f72bda9cfae7317fc8d4059eb0c07c337e3e5",
+        "presolve_port_wavevectors.json": "4a51e298d3839966005c75b87b714f8fdaad1d79bda245e0d7feba3ee262f032"
+      },
+      "metrics": {
+        "case_id": "ML1_A3H80_t3_l10p5_th0_phi0_s",
+        "height_um": 80.0,
+        "floor_fill_thickness_um": 3,
+        "wavelength_um": 10.5,
+        "theta_deg": 0.0,
+        "phi_global_deg": 0.0,
+        "polarization": "s",
+        "R_total": 0.6595895639554591,
+        "A_port": 0.3404104360445409,
+        "A_loss_total": 0.34130349255655845,
+        "A_film": 0.16693354506845665,
+        "A_Ti_H": 0.1743699474881018,
+        "A_flux": 0.3688584062576644,
+        "flux_total_loss_absolute_mismatch": 0.027554913701105965,
+        "flux_total_loss_relative_mismatch": 0.07470322821342346,
+        "side_pair_power_mismatch_over_Pin": 0.0006817021586235455,
+        "edge_associated_absorption": 0.017284424282964617,
+        "degrees_of_freedom": 4643146,
+        "tetrahedra": 694965,
+        "mesh_fingerprint_sha256": "256b3fdf2845532897b2f3eb9c2fa28d57692e0e235516627740a9d09e192fd0",
+        "started_utc": "2026-11-02T09:28:42.753058900Z",
+        "finished_utc": "2026-11-02T12:37:20.445395700Z"
+      },
+      "evaluation": {
+        "schema": 1,
+        "case_id": "ML1_A3H80_t3_l10p5_th0_phi0_s",
+        "accepted": false,
+        "state": "EXPLORATORY_REJECTED",
+        "checks": {
+          "native_geometry_verified": true,
+          "native_periodic_mesh_verified": true,
+          "native_all_propagating_channels_present": true,
+          "native_actual_wavevectors_match_independent_lattice": true,
+          "native_incident_wavevector_points_down": true,
+          "native_finite": true,
+          "native_incident_power": true,
+          "native_R_orders_vs_net_flux": false,
+          "native_periodic_side_power": true,
+          "native_flux_vs_total_loss_absolute": false,
+          "native_flux_vs_total_loss_relative": false,
+          "native_passive": true,
+          "native_requested_global_incidence": true,
+          "native_side_floquet_source_binding": true,
+          "native_explicit_global_source_binding": true,
+          "native_normalized_source_mode_global_direction": true,
+          "native_internal_E_fit_finite": true,
+          "native_internal_E_fit_condition": true,
+          "native_internal_E_fit_relative_L2_residual": true,
+          "native_internal_E_fit_all_LOO_Pin": true,
+          "native_internal_E_fit_cut_areas": true,
+          "native_film_parameter_binding": true,
+          "native_explicit_film_passive": true,
+          "native_film_manual_vs_builtin_Qh_absolute": true,
+          "native_film_manual_vs_builtin_Qh_relative": true,
+          "native_Ti_H_vs_E_loss_absolute": true,
+          "native_Ti_H_vs_E_loss_relative": true,
+          "native_port_vs_total_loss_absolute": true,
+          "native_port_vs_total_loss_relative": true,
+          "native_loss_partition_complete": true,
+          "native_total_loss_passive": true,
+          "material_permittivity": true,
+          "loss_partition": true,
+          "port_A": true,
+          "top_flux_definition": true,
+          "Ti_surface_partition": true,
+          "mode_vs_net": false,
+          "port_vs_loss_abs": true,
+          "port_vs_loss_relative": true,
+          "net_vs_loss_abs": false,
+          "net_vs_loss_relative": false,
+          "Ti_E_vs_H_abs": true,
+          "Ti_E_vs_H_relative": true,
+          "film_manual_vs_Qh_abs": true,
+          "film_manual_vs_Qh_relative": true,
+          "incident_power": true,
+          "incident_error_record": true,
+          "passivity": true,
+          "source_fit": true,
+          "source_LOO": true,
+          "five_fixed_source_planes": true,
+          "incident_direction": true,
+          "explicit_source_binding": true,
+          "mode_source": true,
+          "channels": true,
+          "channel_sum": true,
+          "native_actual_channel_counts": true,
+          "side_pairs": true,
+          "side_power": true
+        },
+        "failed_checks": [
+          "native_R_orders_vs_net_flux",
+          "native_flux_vs_total_loss_absolute",
+          "native_flux_vs_total_loss_relative",
+          "mode_vs_net",
+          "net_vs_loss_abs",
+          "net_vs_loss_relative"
+        ],
+        "strict_original_0p002_diagnostics": {
+          "mode_vs_net_0p002": false,
+          "port_vs_loss_0p002": true,
+          "net_vs_loss_0p002": false,
+          "Ti_E_vs_H_0p002": true,
+          "film_manual_vs_Qh_0p002": true
+        },
+        "mode_net_abs": 0.028447970213123508,
+        "port_loss_abs": 0.0008930565120175427,
+        "port_loss_relative": 0.0026234698395107103,
+        "net_loss_abs": 0.027554913701105965,
+        "net_loss_relative": 0.07470322821342346,
+        "Ti_E_vs_H_abs": 0.0008930540146837862,
+        "Ti_E_vs_H_relative": 0.005121605113431167,
+        "film_manual_vs_Qh_abs": 2.7755575615628914e-17,
+        "film_manual_vs_Qh_relative": 1.6626721492224237e-16,
+        "raw_metrics_changed": false,
+        "formal_qualification": false,
+        "mesh_convergence_established": false,
+        "bare_C0_is_not_an_accepted_performance_reference": true,
+        "scope": "Only case-bound lower0..1/3um floor fill; no all-wall coating, band or angular claim",
+        "exploration_continue_allowed": true,
+        "disposition": "COMPLETE_WITH_FLUX_WARNING",
+        "warning_checks": [
+          "native_R_orders_vs_net_flux",
+          "native_flux_vs_total_loss_absolute",
+          "native_flux_vs_total_loss_relative",
+          "mode_vs_net",
+          "net_vs_loss_abs",
+          "net_vs_loss_relative"
+        ],
+        "hard_failed_checks": [],
+        "warning_policy": "ONLY_SIX_ENUMERATED_NET_FLUX_CHECKS_ARE_NONBLOCKING_ORIGINAL_FLAGS_AND_THRESHOLDS_UNCHANGED"
+      },
+      "formal_qualification": false,
+      "mesh_convergence_established": false,
+      "angular_directionality_established": false,
+      "height_um": 80,
+      "saved_field_repair": {
+        "state": "REPAIRED_POWER_CHECKS_PASS_EXPLORATORY_ONLY",
+        "case_id": "ML1_A3H80_t3_l10p5_th0_phi0_s",
+        "accepted_by_repaired_power": true,
+        "original_flags_unchanged": true,
+        "original_model_and_metrics_sha_unchanged": true,
+        "zero_new_physical_solves": true,
+        "formal_qualified": false,
+        "assessment_path": "server_archive/lab_comsol_ml_first3_20261102\\ML1_A3H80_t3_l10p5_th0_phi0_s\\solve\\saved_field_repair\\repaired_assessment.json",
+        "assessment_sha256": "c625d33bdb63c6abb22fb864a6198bc355d338c79f085b5689861133dd2bed53",
+        "completed_export_sha256": "7e8562a7fd8b8ae55eb072449554914bad1d830834e8fbcf69123af060b90a3a"
+      },
+      "raw_acceptance_preserved": true,
+      "saved_field_power_method_validated": true,
+      "saved_field_assessment": {
+        "state": "REPAIRED_POWER_CHECKS_PASS_EXPLORATORY_ONLY",
+        "case_id": "ML1_A3H80_t3_l10p5_th0_phi0_s",
+        "accepted_by_repaired_power": true,
+        "original_flags_unchanged": true,
+        "original_model_and_metrics_sha_unchanged": true,
+        "zero_new_physical_solves": true,
+        "formal_qualified": false,
+        "band_directionality_validated": false,
+        "retained_thresholds": {
+          "absolute": 0.005,
+          "relative": 0.02,
+          "source_Pin_absolute": 0.005,
+          "Ti_H_E_relative": 0.02
+        },
+        "manifest_sha256": "f2a65b31a8226ac8c177b0dbda55abf4520fd71687b137693416299984e6e5a1",
+        "native_stdout_sha256": "488036904676614fc2ba3215d4e835150f49c8aa0c2cf163e31fd8663da5069f",
+        "created_utc": "2026-11-02T12:47:22.624904+00:00",
+        "model_sha256": "53a44bc8ac9feb213e572efc474d8ca0ab2344c9266ce7a001d88ab689fcd1db",
+        "comparison_loss_key": "A_loss_total",
+        "comparison_loss": 0.34130349255655845,
+        "saved_point_method_candidate_checks_passed": true,
+        "reconstructed_incident_polarization_leakage_fraction": 1.619668373084303e-10,
+        "reconstructed_incident_polarization_leakage_limit": 1e-06,
+        "truncation_sensitivity": {
+          "new_sensitivity_gate_not_old_closure_gate": 0.0002,
+          "max_all_plane_and_LOO_cutoff12_minus11_A_abs": 1.0518055139074889e-06,
+          "passed": true
+        },
+        "cutoffs": [
+          {
+            "source_Pin_and_LOO_check_passed": true,
+            "measurements": [
+              {
+                "method": "measured_E_fitted_H",
+                "all_five_A": [
+                  0.3400943445945499,
+                  0.3397011054151439,
+                  0.34026385766974016,
+                  0.33957600124542253,
+                  0.34070474896988184
+                ],
+                "A_minmax": [
+                  0.33957600124542253,
+                  0.34070474896988184
+                ],
+                "max_absolute_closure_error": 0.0017274913111359202,
+                "max_relative_closure_error": 0.0050872008174906525,
+                "all_five_preserved_closure_gates_passed": true
+              },
+              {
+                "method": "LOO_measured_E_predicted_H",
+                "all_five_A": [
+                  0.3400535570057648,
+                  0.33976134577682604,
+                  0.34026385766974043,
+                  0.33960127231932724,
+                  0.3406515727076415
+                ],
+                "A_minmax": [
+                  0.33960127231932724,
+                  0.3406515727076415
+                ],
+                "max_absolute_closure_error": 0.0017022202372312112,
+                "max_relative_closure_error": 0.005012408303437134,
+                "all_five_preserved_closure_gates_passed": true
+              }
+            ],
+            "field_prediction_checks_passed": true,
+            "cutoff_k0": 1.1
+          },
+          {
+            "source_Pin_and_LOO_check_passed": true,
+            "measurements": [
+              {
+                "method": "measured_E_fitted_H",
+                "all_five_A": [
+                  0.34009417951652293,
+                  0.3397007446012851,
+                  0.3402632135246362,
+                  0.3395769802757038,
+                  0.34070439289793836
+                ],
+                "A_minmax": [
+                  0.3395769802757038,
+                  0.34070439289793836
+                ],
+                "max_absolute_closure_error": 0.0017265122808546307,
+                "max_relative_closure_error": 0.00508430306274845,
+                "all_five_preserved_closure_gates_passed": true
+              },
+              {
+                "method": "LOO_measured_E_predicted_H",
+                "all_five_A": [
+                  0.34005330328894784,
+                  0.33976088890574535,
+                  0.34026321352463645,
+                  0.33960185503851575,
+                  0.3406526245131554
+                ],
+                "A_minmax": [
+                  0.33960185503851575,
+                  0.3406526245131554
+                ],
+                "max_absolute_closure_error": 0.001701637518042698,
+                "max_relative_closure_error": 0.005010683813401749,
+                "all_five_preserved_closure_gates_passed": true
+              }
+            ],
+            "field_prediction_checks_passed": true,
+            "cutoff_k0": 1.2
+          }
+        ]
+      },
+      "files": [
+        {
+          "modified_utc": "2026-11-02T12:37:22.6659571Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML1_A3H80_t3_l10p5_th0_phi0_s\\solve\\model.mph",
+          "sha256": {},
+          "name": "model.mph",
+          "bytes": 277504869
+        },
+        {
+          "modified_utc": "2026-11-02T12:37:38.5261565Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML1_A3H80_t3_l10p5_th0_phi0_s\\solve\\metrics.json",
+          "sha256": "7ac06479d4a72007702c4761c529eb6174f52a03471fc15ed5c718308408d83d",
+          "name": "metrics.json",
+          "bytes": 1371230
+        },
+        {
+          "modified_utc": "2026-11-02T12:37:40.7885609Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML1_A3H80_t3_l10p5_th0_phi0_s\\solve\\evaluation.json",
+          "sha256": "338162b7f0781c1018b98619d9b7501f1961f0eae7a05d9d70530e9f09abfa70",
+          "name": "evaluation.json",
+          "bytes": 5685
+        },
+        {
+          "modified_utc": "2026-11-02T12:37:30.4250401Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML1_A3H80_t3_l10p5_th0_phi0_s\\solve\\solver.log",
+          "sha256": {},
+          "name": "solver.log",
+          "bytes": 27606
+        },
+        {
+          "modified_utc": "2026-11-02T12:37:37.4877985Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML1_A3H80_t3_l10p5_th0_phi0_s\\solve\\case_receipt.json",
+          "sha256": "4624e1eaa5e4345ca9b56f14e04d8baf69f6159677f6514e988e48dbd4125b0f",
+          "name": "case_receipt.json",
+          "bytes": 240232
+        },
+        {
+          "modified_utc": "2026-11-02T12:47:22.8452359Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML1_A3H80_t3_l10p5_th0_phi0_s\\solve\\saved_field_repair\\repaired_assessment.json",
+          "sha256": "c625d33bdb63c6abb22fb864a6198bc355d338c79f085b5689861133dd2bed53",
+          "name": "saved_field_repair\\repaired_assessment.json",
+          "bytes": 1173540
+        },
+        {
+          "modified_utc": "2026-11-02T12:46:54.9700888Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML1_A3H80_t3_l10p5_th0_phi0_s\\solve\\saved_field_repair\\native_status.json",
+          "sha256": "6de4d322394945ae0666f4610474a717c58d029eddd9c7e79742232338207c2a",
+          "name": "saved_field_repair\\native_status.json",
+          "bytes": 1525
+        }
+      ],
+      "actual_solver_log_completed": true,
+      "model_reopened_this_audit": false,
+      "existing_saved_export_model_hash_verified": true,
+      "source_metrics_sha256_rechecked": "7ac06479d4a72007702c4761c529eb6174f52a03471fc15ed5c718308408d83d",
+      "max_saved_field_absolute_closure_error": 0.0017274913111359202,
+      "max_saved_field_relative_closure_error": 0.0050872008174906525,
+      "saved_field_closure_within_original_0p002": true,
+      "raw_native_flux_warning_retained": true
+    },
+    {
+      "case_id": "ML2_A3H80_t2_l10p5_th0_phi0_s",
+      "film_um": 2,
+      "polarization": "s",
+      "wavelength_um": 10.5,
+      "theta_deg": 0,
+      "phi_global_deg": 0,
+      "state": "COMPLETE_WITH_FLUX_WARNING_NOT_ACCEPTED",
+      "accepted": false,
+      "exploration_continue_allowed": true,
+      "warning_checks": [
+        "native_R_orders_vs_net_flux",
+        "native_flux_vs_total_loss_absolute",
+        "native_flux_vs_total_loss_relative",
+        "mode_vs_net",
+        "net_vs_loss_abs",
+        "net_vs_loss_relative"
+      ],
+      "hard_failed_checks": [],
+      "directory": "server_archive/lab_comsol_ml_first3_20261102\\ML2_A3H80_t2_l10p5_th0_phi0_s\\solve",
+      "finished_utc": "2026-11-02T14:30:00.5721840Z",
+      "case_wall_elapsed_s": 6156.3438362,
+      "solver_elapsed_s": 4720.7458868,
+      "peak_owned_rss_bytes": 45277310976,
+      "mesh_peak_owned_rss_bytes": 2658869248,
+      "solve_peak_owned_rss_bytes": 45277310976,
+      "mesh_fingerprint_sha256": "4160192f45e0d94dde13371b7d14307ffe5708fe25eac0b3d48f6a61ba7cd4df",
+      "admission_sha256": "236a49743270abecdec507e5e6b5b67f52171f7f4d703e686f97235384681c40",
+      "mesh_controller_sha256": "883a6553f39d085552cea4987c29016d2acd8b08c05fcd00ce07434ff2696bc5",
+      "solve_controller_sha256": "087b6f905bd4047cff5b629595d347af02da0c9423ef1423242f305bdefda2e6",
+      "queue_window_sha256": "8a856f7cfccd1dd25c386ed8756056137655170370f41a6cdd2fce0a15fa1f36",
+      "manifest_sha256": "f2a65b31a8226ac8c177b0dbda55abf4520fd71687b137693416299984e6e5a1",
+      "artifacts_sha256": {
+        "metrics.json": "0a6c97c4d57b1e9f7fcfe4a0b56ce496c7be1347e3a015d92bd6bd1fd8dd10c8",
+        "evaluation.json": "ac6405dfd4b2cdd668abf1ac6d1ac39bd3c3fbd235e51e5d5532f74f3b41a1b7",
+        "solved_unevaluated.mph": "eecdaa97f2cc45318e7d369cb6702787e2eb474fec27ce390fe46a26645df91a",
+        "model.mph": "a26563400be902d2710cbc50ee732917e516bbddd74a3d1ac05e580b3f9b4cef",
+        "mesh_only.mph": "6f5f9a3e7c9345e83b6dc22101a4adb3d748532d33ee1e85adc07ec8fec8cebc",
+        "mesh.json": "2ec43fd06203224dddf59640cb6a0599555917774c0413f0bf4cb3839f5ee5b8",
+        "geometry.json": "6ad6cb0d6e6bfd6677195bcdc2754b12f4a1b86a4ca62d833f3cf313dd0b90b1",
+        "case_receipt.json": "b0dafc92cfdd6e154b1f141ddebd9dca484b89c94bbbf99c161d251d36c7229f",
+        "linear_solver_override.json": "70817a1b9554050eb123cd200723f64b29bec9a5c24e02ecc593402d59a1f9d1",
+        "solved_artifact.json": "93d5acb105c933c38972345da3512eaf8c77bd5d9407ac950271eabfbf6c98a2",
+        "done.json": "a8d125b41fdb7f287ba893da06e411f0e377e2242fe99552794faa9174e6bf2b",
+        "native_exit_receipt.json": "7a20a39a396b3cacab73cbc908b13c7b47beb582f6c94d484f2ccdbc09781386",
+        "presolve_port_wavevectors.json": "7ead9a46c2281f41c5572a8d4a213559b8c322ccc5b7b26aab9f9a6c0fc02c65"
+      },
+      "metrics": {
+        "case_id": "ML2_A3H80_t2_l10p5_th0_phi0_s",
+        "height_um": 80.0,
+        "floor_fill_thickness_um": 2,
+        "wavelength_um": 10.5,
+        "theta_deg": 0.0,
+        "phi_global_deg": 0.0,
+        "polarization": "s",
+        "R_total": 0.7321378285586023,
+        "A_port": 0.2678621714413977,
+        "A_loss_total": 0.26865951835750945,
+        "A_film": 0.09867476273392826,
+        "A_Ti_H": 0.16998475562358117,
+        "A_flux": 0.2929660225727444,
+        "flux_total_loss_absolute_mismatch": 0.024306504215234948,
+        "flux_total_loss_relative_mismatch": 0.08296697344552836,
+        "side_pair_power_mismatch_over_Pin": 0.0004421955258409341,
+        "edge_associated_absorption": 0.009513538080830388,
+        "degrees_of_freedom": 4424302,
+        "tetrahedra": 660698,
+        "mesh_fingerprint_sha256": "4160192f45e0d94dde13371b7d14307ffe5708fe25eac0b3d48f6a61ba7cd4df",
+        "started_utc": "2026-11-02T12:55:32.780455500Z",
+        "finished_utc": "2026-11-02T14:29:15.578241800Z"
+      },
+      "evaluation": {
+        "schema": 1,
+        "case_id": "ML2_A3H80_t2_l10p5_th0_phi0_s",
+        "accepted": false,
+        "state": "EXPLORATORY_REJECTED",
+        "checks": {
+          "native_geometry_verified": true,
+          "native_periodic_mesh_verified": true,
+          "native_all_propagating_channels_present": true,
+          "native_actual_wavevectors_match_independent_lattice": true,
+          "native_incident_wavevector_points_down": true,
+          "native_finite": true,
+          "native_incident_power": true,
+          "native_R_orders_vs_net_flux": false,
+          "native_periodic_side_power": true,
+          "native_flux_vs_total_loss_absolute": false,
+          "native_flux_vs_total_loss_relative": false,
+          "native_passive": true,
+          "native_requested_global_incidence": true,
+          "native_side_floquet_source_binding": true,
+          "native_explicit_global_source_binding": true,
+          "native_normalized_source_mode_global_direction": true,
+          "native_internal_E_fit_finite": true,
+          "native_internal_E_fit_condition": true,
+          "native_internal_E_fit_relative_L2_residual": true,
+          "native_internal_E_fit_all_LOO_Pin": true,
+          "native_internal_E_fit_cut_areas": true,
+          "native_film_parameter_binding": true,
+          "native_explicit_film_passive": true,
+          "native_film_manual_vs_builtin_Qh_absolute": true,
+          "native_film_manual_vs_builtin_Qh_relative": true,
+          "native_Ti_H_vs_E_loss_absolute": true,
+          "native_Ti_H_vs_E_loss_relative": true,
+          "native_port_vs_total_loss_absolute": true,
+          "native_port_vs_total_loss_relative": true,
+          "native_loss_partition_complete": true,
+          "native_total_loss_passive": true,
+          "material_permittivity": true,
+          "loss_partition": true,
+          "port_A": true,
+          "top_flux_definition": true,
+          "Ti_surface_partition": true,
+          "mode_vs_net": false,
+          "port_vs_loss_abs": true,
+          "port_vs_loss_relative": true,
+          "net_vs_loss_abs": false,
+          "net_vs_loss_relative": false,
+          "Ti_E_vs_H_abs": true,
+          "Ti_E_vs_H_relative": true,
+          "film_manual_vs_Qh_abs": true,
+          "film_manual_vs_Qh_relative": true,
+          "incident_power": true,
+          "incident_error_record": true,
+          "passivity": true,
+          "source_fit": true,
+          "source_LOO": true,
+          "five_fixed_source_planes": true,
+          "incident_direction": true,
+          "explicit_source_binding": true,
+          "mode_source": true,
+          "channels": true,
+          "channel_sum": true,
+          "native_actual_channel_counts": true,
+          "side_pairs": true,
+          "side_power": true
+        },
+        "failed_checks": [
+          "native_R_orders_vs_net_flux",
+          "native_flux_vs_total_loss_absolute",
+          "native_flux_vs_total_loss_relative",
+          "mode_vs_net",
+          "net_vs_loss_abs",
+          "net_vs_loss_relative"
+        ],
+        "strict_original_0p002_diagnostics": {
+          "mode_vs_net_0p002": false,
+          "port_vs_loss_0p002": true,
+          "net_vs_loss_0p002": false,
+          "Ti_E_vs_H_0p002": true,
+          "film_manual_vs_Qh_0p002": true
+        },
+        "mode_net_abs": 0.02510385113134672,
+        "port_loss_abs": 0.0007973469161117741,
+        "port_loss_relative": 0.0029767059373152884,
+        "net_loss_abs": 0.024306504215234948,
+        "net_loss_relative": 0.08296697344552836,
+        "Ti_E_vs_H_abs": 0.0007973417598749477,
+        "Ti_E_vs_H_relative": 0.004690666271513211,
+        "film_manual_vs_Qh_abs": 0,
+        "film_manual_vs_Qh_relative": 0,
+        "raw_metrics_changed": false,
+        "formal_qualification": false,
+        "mesh_convergence_established": false,
+        "bare_C0_is_not_an_accepted_performance_reference": true,
+        "scope": "Only case-bound lower0..1/3um floor fill; no all-wall coating, band or angular claim",
+        "exploration_continue_allowed": true,
+        "disposition": "COMPLETE_WITH_FLUX_WARNING",
+        "warning_checks": [
+          "native_R_orders_vs_net_flux",
+          "native_flux_vs_total_loss_absolute",
+          "native_flux_vs_total_loss_relative",
+          "mode_vs_net",
+          "net_vs_loss_abs",
+          "net_vs_loss_relative"
+        ],
+        "hard_failed_checks": [],
+        "warning_policy": "ONLY_SIX_ENUMERATED_NET_FLUX_CHECKS_ARE_NONBLOCKING_ORIGINAL_FLAGS_AND_THRESHOLDS_UNCHANGED"
+      },
+      "formal_qualification": false,
+      "mesh_convergence_established": false,
+      "angular_directionality_established": false,
+      "height_um": 80,
+      "saved_field_repair": {
+        "state": "REPAIRED_POWER_CHECKS_PASS_EXPLORATORY_ONLY",
+        "case_id": "ML2_A3H80_t2_l10p5_th0_phi0_s",
+        "accepted_by_repaired_power": true,
+        "original_flags_unchanged": true,
+        "original_model_and_metrics_sha_unchanged": true,
+        "zero_new_physical_solves": true,
+        "formal_qualified": false,
+        "assessment_path": "server_archive/lab_comsol_ml_first3_20261102\\ML2_A3H80_t2_l10p5_th0_phi0_s\\solve\\saved_field_repair\\repaired_assessment.json",
+        "assessment_sha256": "bafb60b75f6e168579588311c9becc7477cba3509d7b9e90d61b8b77466524bd",
+        "completed_export_sha256": "5b4d2ca8fe9f06da287d57f31b71efa46768428d68252e7ed98a22f3dcc8e35a"
+      },
+      "raw_acceptance_preserved": true,
+      "saved_field_power_method_validated": true,
+      "saved_field_assessment": {
+        "state": "REPAIRED_POWER_CHECKS_PASS_EXPLORATORY_ONLY",
+        "case_id": "ML2_A3H80_t2_l10p5_th0_phi0_s",
+        "accepted_by_repaired_power": true,
+        "original_flags_unchanged": true,
+        "original_model_and_metrics_sha_unchanged": true,
+        "zero_new_physical_solves": true,
+        "formal_qualified": false,
+        "band_directionality_validated": false,
+        "retained_thresholds": {
+          "absolute": 0.005,
+          "relative": 0.02,
+          "source_Pin_absolute": 0.005,
+          "Ti_H_E_relative": 0.02
+        },
+        "manifest_sha256": "f2a65b31a8226ac8c177b0dbda55abf4520fd71687b137693416299984e6e5a1",
+        "native_stdout_sha256": "59b9ef50e64b46dcd3a93b7010443f2770abed3af3099a2fee65a0433565e4e6",
+        "created_utc": "2026-11-02T14:39:27.299730+00:00",
+        "model_sha256": "a26563400be902d2710cbc50ee732917e516bbddd74a3d1ac05e580b3f9b4cef",
+        "comparison_loss_key": "A_loss_total",
+        "comparison_loss": 0.26865951835750945,
+        "saved_point_method_candidate_checks_passed": true,
+        "reconstructed_incident_polarization_leakage_fraction": 6.987949651502002e-10,
+        "reconstructed_incident_polarization_leakage_limit": 1e-06,
+        "truncation_sensitivity": {
+          "new_sensitivity_gate_not_old_closure_gate": 0.0002,
+          "max_all_plane_and_LOO_cutoff12_minus11_A_abs": 2.850670497089869e-05,
+          "passed": true
+        },
+        "cutoffs": [
+          {
+            "source_Pin_and_LOO_check_passed": true,
+            "measurements": [
+              {
+                "method": "measured_E_fitted_H",
+                "all_five_A": [
+                  0.26749587996613694,
+                  0.26731576228931614,
+                  0.2675953452927495,
+                  0.26697792394038866,
+                  0.2682396802321175
+                ],
+                "A_minmax": [
+                  0.26697792394038866,
+                  0.2682396802321175
+                ],
+                "max_absolute_closure_error": 0.0016815944171207908,
+                "max_relative_closure_error": 0.006298627213448032,
+                "all_five_preserved_closure_gates_passed": true
+              },
+              {
+                "method": "LOO_measured_E_predicted_H",
+                "all_five_A": [
+                  0.2674574959648967,
+                  0.2673700989183963,
+                  0.26759534529274964,
+                  0.26701770126224283,
+                  0.2682042044082267
+                ],
+                "A_minmax": [
+                  0.26701770126224283,
+                  0.2682042044082267
+                ],
+                "max_absolute_closure_error": 0.0016418170952666178,
+                "max_relative_closure_error": 0.006148720056780656,
+                "all_five_preserved_closure_gates_passed": true
+              }
+            ],
+            "field_prediction_checks_passed": true,
+            "cutoff_k0": 1.1
+          },
+          {
+            "source_Pin_and_LOO_check_passed": true,
+            "measurements": [
+              {
+                "method": "measured_E_fitted_H",
+                "all_five_A": [
+                  0.26748814977933355,
+                  0.26731871629948295,
+                  0.2675969393148229,
+                  0.26697815550604126,
+                  0.26823855330018975
+                ],
+                "A_minmax": [
+                  0.26697815550604126,
+                  0.26823855330018975
+                ],
+                "max_absolute_closure_error": 0.0016813628514681933,
+                "max_relative_closure_error": 0.00629775439223209,
+                "all_five_preserved_closure_gates_passed": true
+              },
+              {
+                "method": "LOO_measured_E_predicted_H",
+                "all_five_A": [
+                  0.2674289892599258,
+                  0.2673741295861045,
+                  0.26759693931482315,
+                  0.2670175769950345,
+                  0.2682049427567919
+                ],
+                "A_minmax": [
+                  0.2670175769950345,
+                  0.2682049427567919
+                ],
+                "max_absolute_closure_error": 0.0016419413624749746,
+                "max_relative_closure_error": 0.006149188307949887,
+                "all_five_preserved_closure_gates_passed": true
+              }
+            ],
+            "field_prediction_checks_passed": true,
+            "cutoff_k0": 1.2
+          }
+        ]
+      },
+      "files": [
+        {
+          "modified_utc": "2026-11-02T14:29:17.7587146Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML2_A3H80_t2_l10p5_th0_phi0_s\\solve\\model.mph",
+          "sha256": {},
+          "name": "model.mph",
+          "bytes": 268117320
+        },
+        {
+          "modified_utc": "2026-11-02T14:29:35.5883371Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML2_A3H80_t2_l10p5_th0_phi0_s\\solve\\metrics.json",
+          "sha256": "0a6c97c4d57b1e9f7fcfe4a0b56ce496c7be1347e3a015d92bd6bd1fd8dd10c8",
+          "name": "metrics.json",
+          "bytes": 1371330
+        },
+        {
+          "modified_utc": "2026-11-02T14:29:38.0844507Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML2_A3H80_t2_l10p5_th0_phi0_s\\solve\\evaluation.json",
+          "sha256": "ac6405dfd4b2cdd668abf1ac6d1ac39bd3c3fbd235e51e5d5532f74f3b41a1b7",
+          "name": "evaluation.json",
+          "bytes": 5644
+        },
+        {
+          "modified_utc": "2026-11-02T14:29:28.8662139Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML2_A3H80_t2_l10p5_th0_phi0_s\\solve\\solver.log",
+          "sha256": {},
+          "name": "solver.log",
+          "bytes": 27636
+        },
+        {
+          "modified_utc": "2026-11-02T14:29:34.3640314Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML2_A3H80_t2_l10p5_th0_phi0_s\\solve\\case_receipt.json",
+          "sha256": "b0dafc92cfdd6e154b1f141ddebd9dca484b89c94bbbf99c161d251d36c7229f",
+          "name": "case_receipt.json",
+          "bytes": 240231
+        },
+        {
+          "modified_utc": "2026-11-02T14:39:27.4996410Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML2_A3H80_t2_l10p5_th0_phi0_s\\solve\\saved_field_repair\\repaired_assessment.json",
+          "sha256": "bafb60b75f6e168579588311c9becc7477cba3509d7b9e90d61b8b77466524bd",
+          "name": "saved_field_repair\\repaired_assessment.json",
+          "bytes": 1173035
+        },
+        {
+          "modified_utc": "2026-11-02T14:39:09.0345615Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML2_A3H80_t2_l10p5_th0_phi0_s\\solve\\saved_field_repair\\native_status.json",
+          "sha256": "3cc07aae9ac3a8845d13f8d7cc09d876ec148c248fd11d9b1d9fd7cb30c5fe3d",
+          "name": "saved_field_repair\\native_status.json",
+          "bytes": 1525
+        }
+      ],
+      "actual_solver_log_completed": true,
+      "model_reopened_this_audit": false,
+      "existing_saved_export_model_hash_verified": true,
+      "source_metrics_sha256_rechecked": "0a6c97c4d57b1e9f7fcfe4a0b56ce496c7be1347e3a015d92bd6bd1fd8dd10c8",
+      "max_saved_field_absolute_closure_error": 0.0016815944171207908,
+      "max_saved_field_relative_closure_error": 0.006298627213448032,
+      "saved_field_closure_within_original_0p002": true,
+      "raw_native_flux_warning_retained": true
+    },
+    {
+      "case_id": "ML3_A3H80_t2_l10p5_th0_phi0_p",
+      "film_um": 2,
+      "polarization": "p",
+      "wavelength_um": 10.5,
+      "theta_deg": 0,
+      "phi_global_deg": 0,
+      "state": "COMPLETE_WITH_FLUX_WARNING_NOT_ACCEPTED",
+      "accepted": false,
+      "exploration_continue_allowed": true,
+      "warning_checks": [
+        "native_R_orders_vs_net_flux",
+        "native_flux_vs_total_loss_absolute",
+        "native_flux_vs_total_loss_relative",
+        "mode_vs_net",
+        "net_vs_loss_abs",
+        "net_vs_loss_relative"
+      ],
+      "hard_failed_checks": [],
+      "directory": "server_archive/lab_comsol_ml_first3_20261102\\ML3_A3H80_t2_l10p5_th0_phi0_p\\solve",
+      "finished_utc": "2026-11-02T16:05:08.7889141Z",
+      "case_wall_elapsed_s": 5139.8767287,
+      "solver_elapsed_s": 3744.065078,
+      "peak_owned_rss_bytes": 40062529536,
+      "mesh_peak_owned_rss_bytes": 2833354752,
+      "solve_peak_owned_rss_bytes": 40062529536,
+      "mesh_fingerprint_sha256": "4160192f45e0d94dde13371b7d14307ffe5708fe25eac0b3d48f6a61ba7cd4df",
+      "admission_sha256": "1516084593810d314793f7a23d70f26e0194bd1a7132a39960c75491306cd285",
+      "mesh_controller_sha256": "3fb8da5d8b1114bcb02761f0302bfb6865301480a894449e09a31a411957ea34",
+      "solve_controller_sha256": "7c04bb65a2385616ea0dcac6a9a3292216b1d80beebeac8b2cba19615482f335",
+      "queue_window_sha256": "8a856f7cfccd1dd25c386ed8756056137655170370f41a6cdd2fce0a15fa1f36",
+      "manifest_sha256": "f2a65b31a8226ac8c177b0dbda55abf4520fd71687b137693416299984e6e5a1",
+      "artifacts_sha256": {
+        "metrics.json": "1cd519dca6eb49fcedcc1a0d4d3fa305acf8879997625208f933b74fa7b94d2b",
+        "evaluation.json": "1817d6f7a14ac1349368c8601b6ccd3ce0b79dc648792a63df0bbb0ba5784d16",
+        "solved_unevaluated.mph": "b1c6fc27c9ddacf2244215696256d7ef9d3739d51c41f82f9c9f3082f370c113",
+        "model.mph": "3c8ebfed067f1d6cd781d3652b5981c5d299b70446cac28837ba5c6ed60fbae3",
+        "mesh_only.mph": "9cbe09178c9a27d687fb4628a4f38e0ba1dc58dbbcab1dc0d314a33de3e53b05",
+        "mesh.json": "51db78d8f9dede7fbaf8bbaed1389fe4fc567c38ffc835e9d714f40458cd560b",
+        "geometry.json": "8df478ce92f224a437b4d25b27d1f735484486bda1492b161a964f60adcf5720",
+        "case_receipt.json": "4b5617be7398d667bb554cf47e10c54895202d88a57fd4304cc262921652d9f9",
+        "linear_solver_override.json": "fa3a5ebca21917fb48b545283d27373d50b859432e30d3c99bc32a3a0591b64e",
+        "solved_artifact.json": "de540fef7d166d2385bd840a6cff0274da1563dc4bf7347ab6a681922fd11bf1",
+        "done.json": "1f185984ec2c0b9a815467d3bc7f0bdf95c443b55ac4cd689c624bd67deb7bcf",
+        "native_exit_receipt.json": "a97f08482d81403fdf1acb51951516b11575341012a8f8beb4b6bc1d413c13e6",
+        "presolve_port_wavevectors.json": "1a5fdceb49ac88d11f1fa03ab192049c1f38fd22d9f576002285b20ded8db19a"
+      },
+      "metrics": {
+        "case_id": "ML3_A3H80_t2_l10p5_th0_phi0_p",
+        "height_um": 80.0,
+        "floor_fill_thickness_um": 2,
+        "wavelength_um": 10.5,
+        "theta_deg": 0.0,
+        "phi_global_deg": 0.0,
+        "polarization": "p",
+        "R_total": 0.7321664093089222,
+        "A_port": 0.2678335906910778,
+        "A_loss_total": 0.2686256680073694,
+        "A_film": 0.09865600113819936,
+        "A_Ti_H": 0.16996966686917003,
+        "A_flux": 0.29255272467092813,
+        "flux_total_loss_absolute_mismatch": 0.02392705666355871,
+        "flux_total_loss_relative_mismatch": 0.08178716055532405,
+        "side_pair_power_mismatch_over_Pin": 0.00037795209596504687,
+        "edge_associated_absorption": 0.009505964196003245,
+        "degrees_of_freedom": 4424302,
+        "tetrahedra": 660698,
+        "mesh_fingerprint_sha256": "4160192f45e0d94dde13371b7d14307ffe5708fe25eac0b3d48f6a61ba7cd4df",
+        "started_utc": "2026-11-02T14:47:29.894228600Z",
+        "finished_utc": "2026-11-02T16:04:30.920008500Z"
+      },
+      "evaluation": {
+        "schema": 1,
+        "case_id": "ML3_A3H80_t2_l10p5_th0_phi0_p",
+        "accepted": false,
+        "state": "EXPLORATORY_REJECTED",
+        "checks": {
+          "native_geometry_verified": true,
+          "native_periodic_mesh_verified": true,
+          "native_all_propagating_channels_present": true,
+          "native_actual_wavevectors_match_independent_lattice": true,
+          "native_incident_wavevector_points_down": true,
+          "native_finite": true,
+          "native_incident_power": true,
+          "native_R_orders_vs_net_flux": false,
+          "native_periodic_side_power": true,
+          "native_flux_vs_total_loss_absolute": false,
+          "native_flux_vs_total_loss_relative": false,
+          "native_passive": true,
+          "native_requested_global_incidence": true,
+          "native_side_floquet_source_binding": true,
+          "native_explicit_global_source_binding": true,
+          "native_normalized_source_mode_global_direction": true,
+          "native_internal_E_fit_finite": true,
+          "native_internal_E_fit_condition": true,
+          "native_internal_E_fit_relative_L2_residual": true,
+          "native_internal_E_fit_all_LOO_Pin": true,
+          "native_internal_E_fit_cut_areas": true,
+          "native_film_parameter_binding": true,
+          "native_explicit_film_passive": true,
+          "native_film_manual_vs_builtin_Qh_absolute": true,
+          "native_film_manual_vs_builtin_Qh_relative": true,
+          "native_Ti_H_vs_E_loss_absolute": true,
+          "native_Ti_H_vs_E_loss_relative": true,
+          "native_port_vs_total_loss_absolute": true,
+          "native_port_vs_total_loss_relative": true,
+          "native_loss_partition_complete": true,
+          "native_total_loss_passive": true,
+          "material_permittivity": true,
+          "loss_partition": true,
+          "port_A": true,
+          "top_flux_definition": true,
+          "Ti_surface_partition": true,
+          "mode_vs_net": false,
+          "port_vs_loss_abs": true,
+          "port_vs_loss_relative": true,
+          "net_vs_loss_abs": false,
+          "net_vs_loss_relative": false,
+          "Ti_E_vs_H_abs": true,
+          "Ti_E_vs_H_relative": true,
+          "film_manual_vs_Qh_abs": true,
+          "film_manual_vs_Qh_relative": true,
+          "incident_power": true,
+          "incident_error_record": true,
+          "passivity": true,
+          "source_fit": true,
+          "source_LOO": true,
+          "five_fixed_source_planes": true,
+          "incident_direction": true,
+          "explicit_source_binding": true,
+          "mode_source": true,
+          "channels": true,
+          "channel_sum": true,
+          "native_actual_channel_counts": true,
+          "side_pairs": true,
+          "side_power": true
+        },
+        "failed_checks": [
+          "native_R_orders_vs_net_flux",
+          "native_flux_vs_total_loss_absolute",
+          "native_flux_vs_total_loss_relative",
+          "mode_vs_net",
+          "net_vs_loss_abs",
+          "net_vs_loss_relative"
+        ],
+        "strict_original_0p002_diagnostics": {
+          "mode_vs_net_0p002": false,
+          "port_vs_loss_0p002": true,
+          "net_vs_loss_0p002": false,
+          "Ti_E_vs_H_0p002": true,
+          "film_manual_vs_Qh_0p002": true
+        },
+        "mode_net_abs": 0.02471913397985026,
+        "port_loss_abs": 0.0007920773162916062,
+        "port_loss_relative": 0.002957348681499763,
+        "net_loss_abs": 0.02392705666355871,
+        "net_loss_relative": 0.08178716055532405,
+        "Ti_E_vs_H_abs": 0.0007920720743961607,
+        "Ti_E_vs_H_relative": 0.004660078995188234,
+        "film_manual_vs_Qh_abs": 4.163336342344337e-17,
+        "film_manual_vs_Qh_relative": 4.2200538176205314e-16,
+        "raw_metrics_changed": false,
+        "formal_qualification": false,
+        "mesh_convergence_established": false,
+        "bare_C0_is_not_an_accepted_performance_reference": true,
+        "scope": "Only case-bound lower0..1/3um floor fill; no all-wall coating, band or angular claim",
+        "exploration_continue_allowed": true,
+        "disposition": "COMPLETE_WITH_FLUX_WARNING",
+        "warning_checks": [
+          "native_R_orders_vs_net_flux",
+          "native_flux_vs_total_loss_absolute",
+          "native_flux_vs_total_loss_relative",
+          "mode_vs_net",
+          "net_vs_loss_abs",
+          "net_vs_loss_relative"
+        ],
+        "hard_failed_checks": [],
+        "warning_policy": "ONLY_SIX_ENUMERATED_NET_FLUX_CHECKS_ARE_NONBLOCKING_ORIGINAL_FLAGS_AND_THRESHOLDS_UNCHANGED"
+      },
+      "formal_qualification": false,
+      "mesh_convergence_established": false,
+      "angular_directionality_established": false,
+      "height_um": 80,
+      "saved_field_repair": {
+        "state": "REPAIRED_POWER_CHECKS_PASS_EXPLORATORY_ONLY",
+        "case_id": "ML3_A3H80_t2_l10p5_th0_phi0_p",
+        "accepted_by_repaired_power": true,
+        "original_flags_unchanged": true,
+        "original_model_and_metrics_sha_unchanged": true,
+        "zero_new_physical_solves": true,
+        "formal_qualified": false,
+        "assessment_path": "server_archive/lab_comsol_ml_first3_20261102\\ML3_A3H80_t2_l10p5_th0_phi0_p\\solve\\saved_field_repair\\repaired_assessment.json",
+        "assessment_sha256": "1c915ddd0a562332c3fe7225a169f7db73a9af280064940ab95b346ef3750a86",
+        "completed_export_sha256": "98dbfdf0a2249e5e7f5acd8ce057b399d81f6a256a69f4afe34ccb2c63a04b93"
+      },
+      "raw_acceptance_preserved": true,
+      "saved_field_power_method_validated": true,
+      "saved_field_assessment": {
+        "state": "REPAIRED_POWER_CHECKS_PASS_EXPLORATORY_ONLY",
+        "case_id": "ML3_A3H80_t2_l10p5_th0_phi0_p",
+        "accepted_by_repaired_power": true,
+        "original_flags_unchanged": true,
+        "original_model_and_metrics_sha_unchanged": true,
+        "zero_new_physical_solves": true,
+        "formal_qualified": false,
+        "band_directionality_validated": false,
+        "retained_thresholds": {
+          "absolute": 0.005,
+          "relative": 0.02,
+          "source_Pin_absolute": 0.005,
+          "Ti_H_E_relative": 0.02
+        },
+        "manifest_sha256": "f2a65b31a8226ac8c177b0dbda55abf4520fd71687b137693416299984e6e5a1",
+        "native_stdout_sha256": "9b43fab5431ed96f638577a348a06fcd1758ca113c3c2b8d1524a62dc9d3c40c",
+        "created_utc": "2026-11-02T16:14:23.094056+00:00",
+        "model_sha256": "3c8ebfed067f1d6cd781d3652b5981c5d299b70446cac28837ba5c6ed60fbae3",
+        "comparison_loss_key": "A_loss_total",
+        "comparison_loss": 0.2686256680073694,
+        "saved_point_method_candidate_checks_passed": true,
+        "reconstructed_incident_polarization_leakage_fraction": 4.3725336344410006e-10,
+        "reconstructed_incident_polarization_leakage_limit": 1e-06,
+        "truncation_sensitivity": {
+          "new_sensitivity_gate_not_old_closure_gate": 0.0002,
+          "max_all_plane_and_LOO_cutoff12_minus11_A_abs": 1.3919401755102534e-05,
+          "passed": true
+        },
+        "cutoffs": [
+          {
+            "source_Pin_and_LOO_check_passed": true,
+            "measurements": [
+              {
+                "method": "measured_E_fitted_H",
+                "all_five_A": [
+                  0.26753124558339275,
+                  0.26731167512753284,
+                  0.2676001268628637,
+                  0.2669887313090024,
+                  0.2682580064321222
+                ],
+                "A_minmax": [
+                  0.2669887313090024,
+                  0.2682580064321222
+                ],
+                "max_absolute_closure_error": 0.0016369366983670086,
+                "max_relative_closure_error": 0.006131107819949455,
+                "all_five_preserved_closure_gates_passed": true
+              },
+              {
+                "method": "LOO_measured_E_predicted_H",
+                "all_five_A": [
+                  0.26748315728156397,
+                  0.26737869792907304,
+                  0.26760012686286333,
+                  0.26700780192456963,
+                  0.26823450163469054
+                ],
+                "A_minmax": [
+                  0.26700780192456963,
+                  0.26823450163469054
+                ],
+                "max_absolute_closure_error": 0.0016178660827997904,
+                "max_relative_closure_error": 0.00605924647571475,
+                "all_five_preserved_closure_gates_passed": true
+              }
+            ],
+            "field_prediction_checks_passed": true,
+            "cutoff_k0": 1.1
+          },
+          {
+            "source_Pin_and_LOO_check_passed": true,
+            "measurements": [
+              {
+                "method": "measured_E_fitted_H",
+                "all_five_A": [
+                  0.26753471716705934,
+                  0.2673108676767276,
+                  0.2675963853331435,
+                  0.2669894800259564,
+                  0.2682578560257024
+                ],
+                "A_minmax": [
+                  0.2669894800259564,
+                  0.2682578560257024
+                ],
+                "max_absolute_closure_error": 0.0016361879814130176,
+                "max_relative_closure_error": 0.006128286332682281,
+                "all_five_preserved_closure_gates_passed": true
+              },
+              {
+                "method": "LOO_measured_E_predicted_H",
+                "all_five_A": [
+                  0.26749707668331907,
+                  0.2673776560302923,
+                  0.2675963853331431,
+                  0.2670082406610312,
+                  0.2682349826389933
+                ],
+                "A_minmax": [
+                  0.2670082406610312,
+                  0.2682349826389933
+                ],
+                "max_absolute_closure_error": 0.0016174273463382405,
+                "max_relative_closure_error": 0.006057593362414517,
+                "all_five_preserved_closure_gates_passed": true
+              }
+            ],
+            "field_prediction_checks_passed": true,
+            "cutoff_k0": 1.2
+          }
+        ]
+      },
+      "files": [
+        {
+          "modified_utc": "2026-11-02T16:04:32.8853031Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML3_A3H80_t2_l10p5_th0_phi0_p\\solve\\model.mph",
+          "sha256": {},
+          "name": "model.mph",
+          "bytes": 268116867
+        },
+        {
+          "modified_utc": "2026-11-02T16:04:43.3947662Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML3_A3H80_t2_l10p5_th0_phi0_p\\solve\\metrics.json",
+          "sha256": "1cd519dca6eb49fcedcc1a0d4d3fa305acf8879997625208f933b74fa7b94d2b",
+          "name": "metrics.json",
+          "bytes": 1371438
+        },
+        {
+          "modified_utc": "2026-11-02T16:04:45.2780558Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML3_A3H80_t2_l10p5_th0_phi0_p\\solve\\evaluation.json",
+          "sha256": "1817d6f7a14ac1349368c8601b6ccd3ce0b79dc648792a63df0bbb0ba5784d16",
+          "name": "evaluation.json",
+          "bytes": 5684
+        },
+        {
+          "modified_utc": "2026-11-02T16:04:38.2829430Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML3_A3H80_t2_l10p5_th0_phi0_p\\solve\\solver.log",
+          "sha256": {},
+          "name": "solver.log",
+          "bytes": 26398
+        },
+        {
+          "modified_utc": "2026-11-02T16:04:42.3322495Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML3_A3H80_t2_l10p5_th0_phi0_p\\solve\\case_receipt.json",
+          "sha256": "4b5617be7398d667bb554cf47e10c54895202d88a57fd4304cc262921652d9f9",
+          "name": "case_receipt.json",
+          "bytes": 240231
+        },
+        {
+          "modified_utc": "2026-11-02T16:14:23.2346118Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML3_A3H80_t2_l10p5_th0_phi0_p\\solve\\saved_field_repair\\repaired_assessment.json",
+          "sha256": "1c915ddd0a562332c3fe7225a169f7db73a9af280064940ab95b346ef3750a86",
+          "name": "saved_field_repair\\repaired_assessment.json",
+          "bytes": 1172602
+        },
+        {
+          "modified_utc": "2026-11-02T16:14:09.1309456Z",
+          "path": "server_archive/lab_comsol_ml_first3_20261102\\ML3_A3H80_t2_l10p5_th0_phi0_p\\solve\\saved_field_repair\\native_status.json",
+          "sha256": "61550806acd0b921cb470a9382378d76bac538d6084bebff8b9defa09b278c4b",
+          "name": "saved_field_repair\\native_status.json",
+          "bytes": 1525
+        }
+      ],
+      "actual_solver_log_completed": true,
+      "model_reopened_this_audit": false,
+      "existing_saved_export_model_hash_verified": true,
+      "source_metrics_sha256_rechecked": "1cd519dca6eb49fcedcc1a0d4d3fa305acf8879997625208f933b74fa7b94d2b",
+      "max_saved_field_absolute_closure_error": 0.0016369366983670086,
+      "max_saved_field_relative_closure_error": 0.006131107819949455,
+      "saved_field_closure_within_original_0p002": true,
+      "raw_native_flux_warning_retained": true
+    }
+  ],
+  "formal_qualification": false
+}

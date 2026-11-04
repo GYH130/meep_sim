@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "material_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+  "geometry": [
+    {
+      "valid": true,
+      "status": "VALID",
+      "errors": [],
+      "vertices_x_depth": [
+        [
+          -12.5,
+          0
+        ],
+        [
+          12.5,
+          0
+        ],
+        [
+          29.375,
+          29.228357377724805
+        ],
+        [
+          10.624999999999998,
+          40.05367492503029
+        ]
+      ],
+      "periodic_shifts": [
+        -1,
+        0
+      ],
+      "width_normal_um": 21.65063509461097,
+      "surface_opening_um": 25,
+      "vertical_center_depth_um": 34.64101615137755,
+      "maximum_depth_um": 40.05367492503029,
+      "min_wall_um": 21.650635094610966,
+      "residual_um": 19.946325074969707,
+      "period_um": 50,
+      "surface_fill": 0.5,
+      "axis_length_um": 40,
+      "tilt_deg": 30,
+      "thickness_um": 60,
+      "bottom_minimum_depth_um": 29.22835737772481,
+      "required_min_wall_um": 1,
+      "required_residual_um": 10,
+      "wall_lower_bound_um": 21.65063509461097,
+      "neighbor_shifts_checked": [
+        -1,
+        1
+      ],
+      "x_span_um": 41.875,
+      "surface_bottom_regime_valid": true
+    },
+    {
+      "period_um": 50,
+      "surface_fill": 0.65,
+      "axis_length_um": 40,
+      "tilt_deg": 30,
+      "thickness_um": 60,
+      "min_wall_um": 15.155444566227679,
+      "residual_um": 18.322527442873884,
+      "surface_opening_um": 32.5,
+      "width_normal_um": 28.14582562299426,
+      "maximum_depth_um": 41.677472557126116,
+      "vertices_x_depth": [
+        [
+          -16.25,
+          0
+        ],
+        [
+          16.25,
+          0
+        ],
+        [
+          32.1875,
+          27.604559745628986
+        ],
+        [
+          7.812499999999995,
+          41.677472557126116
+        ]
+      ],
+      "derivation": "Calculated from preserved geometry parameters using the finite tilted-slot half-plane model; not a new solve."
+    },
+    {
+      "valid": true,
+      "status": "VALID",
+      "errors": [],
+      "vertices_x_depth": [
+        [
+          -20,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          35,
+          25.98076211353316
+        ],
+        [
+          4.999999999999998,
+          43.30127018922194
+        ]
+      ],
+      "periodic_shifts": [
+        -1,
+        0
+      ],
+      "width_normal_um": 34.64101615137755,
+      "surface_opening_um": 40,
+      "vertical_center_depth_um": 34.64101615137755,
+      "maximum_depth_um": 43.30127018922194,
+      "min_wall_um": 8.660254037844386,
+      "residual_um": 16.69872981077806,
+      "period_um": 50,
+      "surface_fill": 0.8,
+      "axis_length_um": 40,
+      "tilt_deg": 30,
+      "thickness_um": 60,
+      "bottom_minimum_depth_um": 25.980762113533164,
+      "required_min_wall_um": 1,
+      "required_residual_um": 10,
+      "wall_lower_bound_um": 8.660254037844389,
+      "neighbor_shifts_checked": [
+        -1,
+        1
+      ],
+      "x_span_um": 55,
+      "surface_bottom_regime_valid": true
+    }
+  ],
+  "settings": {
+    "resolution": 20,
+    "courant": 0.25,
+    "polarization": "p",
+    "mpi_ranks": 16,
+    "source_fwidth_fraction": 0.2,
+    "source_cutoff": 5,
+    "pml_um": 12,
+    "air_above_um": 12,
+    "air_below_um": 12,
+    "sample_interval_um": 2,
+    "stop_window_um": 20,
+    "stop_consecutive_windows": 3,
+    "intensity_decay": 0.0001,
+    "flux_drift_tolerance": 0.001,
+    "strict_stop": false,
+    "stop_normalization_policy": "strict_historical_peak",
+    "eps_averaging": false,
+    "boundary_kind": "pml",
+    "boundary_profile": {
+      "name": "quadratic",
+      "R_asymptotic": 1e-06,
+      "mean_stretch": 1
+    },
+    "exploratory_structure_intensity_decay": 0.001,
+    "minimum_post_source_time_um": 300,
+    "oxide_layer_in_model": false
+  },
+  "fill_definition": "F = air-slot surface opening width / period; not metal volume or surface fraction.",
+  "geometry_scope": "2D periodic finite tilted blind slot; not a 3D drilled hole. Changing F also changes maximum cavity depth and residual thickness.",
+  "scope_note": "Common settings apply to the 10 structured points; flat diagnostic recipes have their recorded wavelengths, polarizations and resolution.",
+  "qualification": "Exploratory only. A_flux versus A_vol discrepancy is a diagnostic, not a complete uncertainty interval.",
+  "settings_origin": "baseline case plus fill bridge preflight; current implementation wrappers differ from the night baseline and are tracked per record.",
+  "source_manifest": [
+    {
+      "id": "fill_preflight",
+      "relative_path": "meep_screen/lab_fill_bridge_20261013/PREFLIGHT_VERIFIED.json",
+      "sha256": "fa80ebbdd6c879072b0575772ea627b070f2c39adb2e6c08b9b57c47a4380fde",
+      "distributed": false
+    },
+    {
+      "id": "baseline",
+      "relative_path": "meep_screen/lab_fill_bridge_20261013/BASELINE_F065_VERIFIED.json",
+      "sha256": "8be6882bf1ffb2ac6322d4752f0d0f1d5a7aa2292cee175a4accf059275cdb70",
+      "distributed": false
+    }
+  ]
+}

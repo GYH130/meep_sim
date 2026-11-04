@@ -1,0 +1,20 @@
+{
+  "geometry_source": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/plan.json",
+  "geometry_um": {
+    "pitch": 80.0,
+    "H": 100.0,
+    "opening": 69.5455842631299,
+    "bottom": 15.0,
+    "ideal_fill": 2.0
+  },
+  "reciprocal_angle": "k_out=-k_in; phi_in30 maps to phi_out210 by actual source-code convention",
+  "morphology_scope": "A is the ideal frozen model. B/C are process-concept illustrations, not simulated, measured or predicted deposition profiles. Thin layers exaggerated in B/C for clarity.",
+  "visually_checked": true,
+  "PVD_clarification": "Directional deposition can reach the visible cavity bottom. Schematic coverage depends on line of sight and angular flux; the bottom is explicitly coated.",
+  "outputs": {
+    "fill_morphologies.png": "afe68f918c702f97d1e63fc51859b158edba0fe55a03168e422629545b165961",
+    "fill_morphologies.svg": "caf49a98608f727168a36bcb7c0e10c1eaf8ed11a9619fc94d7a4ef663493183",
+    "reciprocal_angle.svg": "ad033b380b957bbbaf918b3b333c1086a388d49ebadc467eaad5acfcdc6bf26d",
+    "reciprocal_angle.png": "3e799707233ea508b73b267b79368bbad5f0b0c3411a104273f6bb117221fdaf"
+  }
+}

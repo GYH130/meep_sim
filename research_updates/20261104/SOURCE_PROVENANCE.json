@@ -1,0 +1,805 @@
+{
+  "schema": "curated-public-source-provenance/v1",
+  "source_root_label": "private research workspace; absolute personal paths normalized",
+  "normalization": "Only non-scientific local path / host metadata normalization; numerical labels, errors, failed checks and warning states retained.",
+  "original_files": [
+    {
+      "source_workspace_relative": "outputs/integrated_research_report_20261030/analysis/meep_curated.json",
+      "source_sha256": "7dd67bdecf3e552ca9e76ff1da93d5c2e17c8107d66f808dea870ab5597ca8c2",
+      "public_path": "data/history/meep_curated_20261030.json",
+      "public_sha256": "b612c3ed9901aa5e6e5b9a00e47da81be3ab0e5ec7e7dd4e18b114be72dcc697",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/integrated_research_report_20261030/analysis/comsol_audit.json",
+      "source_sha256": "434f053e3a5802ba700ba1f203acc77cbbc6ee4817fa200669003a8d20415c2e",
+      "public_path": "data/history/comsol_audit_20261030.json",
+      "public_sha256": "2c62b5a613e7c59c8c5fddbe2678afe5133b249f056c61fd1ec5b8a028ea1d1c",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/coverage_summary.json",
+      "source_sha256": "dfe9335f4044d8ee62af25e375ce6d25575e5ec9e9cbc9c9ece14e974da29c14",
+      "public_path": "data/history/meep_20261014/coverage_summary.json",
+      "public_sha256": "dfe9335f4044d8ee62af25e375ce6d25575e5ec9e9cbc9c9ece14e974da29c14",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/current_model.json",
+      "source_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "public_path": "data/history/meep_20261014/current_model.json",
+      "public_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/current_structured_results.json",
+      "source_sha256": "a1c87d607cfec92cc534d95decadb88b6395155673f05218b71158dc325d1161",
+      "public_path": "data/history/meep_20261014/current_structured_results.json",
+      "public_sha256": "a1c87d607cfec92cc534d95decadb88b6395155673f05218b71158dc325d1161",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/direction_pairs.json",
+      "source_sha256": "0e3dff699fb27278edc6a8c4c9ad5498d10da189dc7ae2acb24a958da21e6332",
+      "public_path": "data/history/meep_20261014/direction_pairs.json",
+      "public_sha256": "0e3dff699fb27278edc6a8c4c9ad5498d10da189dc7ae2acb24a958da21e6332",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/flat_validation_results.json",
+      "source_sha256": "03db7057cf0c8eedd028703a14a43eb40d4341450ad20f28727ce0e25afb3497",
+      "public_path": "data/history/meep_20261014/flat_validation_results.json",
+      "public_sha256": "03db7057cf0c8eedd028703a14a43eb40d4341450ad20f28727ce0e25afb3497",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/geometry_and_settings.json",
+      "source_sha256": "f912ebbc9508762bdaecd2bbfe157a5525ee68c9e29bf2d5c80d39d6fbf039bf",
+      "public_path": "data/history/meep_20261014/geometry_and_settings.json",
+      "public_sha256": "f912ebbc9508762bdaecd2bbfe157a5525ee68c9e29bf2d5c80d39d6fbf039bf",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/historical_scientific_synthesis.json",
+      "source_sha256": "08678d2cb8deebf7a622343dcaee24b256da27211449436a0d22527004f08ac5",
+      "public_path": "data/history/meep_20261014/historical_scientific_synthesis.json",
+      "public_sha256": "08678d2cb8deebf7a622343dcaee24b256da27211449436a0d22527004f08ac5",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/lab_history_chart_data.json",
+      "source_sha256": "8b29e7fc850ea0372347bdc2214930727b66ec519c5f9636323e9be74c731124",
+      "public_path": "data/history/meep_20261014/lab_history_chart_data.json",
+      "public_sha256": "1adce9f49ddd40b3589bbe0f58de329a0c71d9ea34f55f829de4da6ac6f4df9c",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/legacy_chart_data.json",
+      "source_sha256": "bff63a869795d79b422494b5f07678743e94ff72648cea550a7273a81202778c",
+      "public_path": "data/history/meep_20261014/legacy_chart_data.json",
+      "public_sha256": "159c79255a0429d2acb656607801633a061221d470fb897c54f4cfeb54432d51",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/material_fit_summary.json",
+      "source_sha256": "7f06da2031a235aea27103830945d1786599f6f997284ce8e78d4a356cfd7c7d",
+      "public_path": "data/history/meep_20261014/material_fit_summary.json",
+      "public_sha256": "7f06da2031a235aea27103830945d1786599f6f997284ce8e78d4a356cfd7c7d",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/source_type_diagnostic.json",
+      "source_sha256": "65835723da72f7da5a01050fa95cdcf99d7b64436d4180d62edc542ac15d60e6",
+      "public_path": "data/history/meep_20261014/source_type_diagnostic.json",
+      "public_sha256": "65835723da72f7da5a01050fa95cdcf99d7b64436d4180d62edc542ac15d60e6",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/meep_comprehensive_report_20261014/publish/data/stability_diagnosis_summary.json",
+      "source_sha256": "325cf24a378829f32553fff3babd381414fb52c3a254ca210e02d3f71c83672c",
+      "public_path": "data/history/meep_20261014/stability_diagnosis_summary.json",
+      "public_sha256": "325cf24a378829f32553fff3babd381414fb52c3a254ca210e02d3f71c83672c",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_remaining4_mem24r2_20261103/all9_completed_summary_20261104.json",
+      "source_sha256": "12443b8920ba32cab5df3510bed53b6c88189f44006ee6822f5aaadcb1197fe4",
+      "public_path": "data/latest_ml/all9_completed_summary.json",
+      "public_sha256": "04166186a0364edac09ae8ee8d93e0f16ab77f22bfbca90a1f413e77d9fdcff2",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_remaining4_mem24r2_20261103/prior_next6_completed_scalar_review_20261103T231049Z.json",
+      "source_sha256": "8b0e52b9dbf3d19333501819f9726d2edd9d37479fd8c15da1f9ec8b3bf6887f",
+      "public_path": "data/latest_ml/ML4_ML5_independent_scalar_review.json",
+      "public_sha256": "62bf32b6fa60f295009882feec11ac24296975b16c2de905e3a082ece846f37b",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_remaining4_mem24r2_20261103/scalar_audit_revision_1/completed_scalar_review_20261104T062059Z.json",
+      "source_sha256": "66953448202d0bdef4bf6382b1f072c0d0b8237471761a005efd0d542913a878",
+      "public_path": "data/latest_ml/ML6_ML9_independent_scalar_review.json",
+      "public_sha256": "1059ab01584d4ad62972ce9eb6b143f4e82359379da1712709f29db01b255ca3",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_first3_20261102/completed_summary_20261103.json",
+      "source_sha256": "8c46cf99a1ba13b0e7a013d44ca0d436b676167824f0df1a08381f6cd8aec9ac",
+      "public_path": "data/latest_ml/ML1_ML3_independent_scalar_review.json",
+      "public_sha256": "39ddd8f108c54e803355ae9bfd0488828cd6f6a81f57c2fc011fc2cbc2c8e078",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/dataset.json",
+      "source_sha256": "760d594ef4e95fed9066d01ad2396b488db1cba164f2fa04c3e1d2c90374f16c",
+      "public_path": "data/ml/dataset.json",
+      "public_sha256": "af72133f8fb216f1bdbee14e7b37d12eb28eaefc15b10e2aab9b8ea05149a789",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/data_audit.json",
+      "source_sha256": "506caeeb112ea0c34de6c27afb2ad79d572e76a72099634b1665e1664cc798f4",
+      "public_path": "data/ml/data_audit.json",
+      "public_sha256": "506caeeb112ea0c34de6c27afb2ad79d572e76a72099634b1665e1664cc798f4",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/legacy_exploratory_metrics.json",
+      "source_sha256": "fba6931e780b45fbea03fc52270b7f715551d0ff270e4acd411f1051ea27a696",
+      "public_path": "data/ml/legacy_exploratory_metrics.json",
+      "public_sha256": "fba6931e780b45fbea03fc52270b7f715551d0ff270e4acd411f1051ea27a696",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/legacy_exploratory_heldout_predictions.json",
+      "source_sha256": "a03f9061dcf10af1f67dbbe022ac8dbc4d367930bc18e6e26c695cc2d6f6498d",
+      "public_path": "data/ml/legacy_exploratory_heldout_predictions.json",
+      "public_sha256": "a03f9061dcf10af1f67dbbe022ac8dbc4d367930bc18e6e26c695cc2d6f6498d",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/legacy_exploratory_model_warnings.json",
+      "source_sha256": "70bc8aef03f8f6ce309caa67159c7576c5d4206a7e8b86154a3b991f1018faab",
+      "public_path": "data/ml/legacy_exploratory_model_warnings.json",
+      "public_sha256": "70bc8aef03f8f6ce309caa67159c7576c5d4206a7e8b86154a3b991f1018faab",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/method_checked_sensitivity_metrics.json",
+      "source_sha256": "09c897727294795c7a9825f84ed6f4accde34ab1d05fc7ba82f79992f22e1faa",
+      "public_path": "data/ml/method_checked_sensitivity_metrics.json",
+      "public_sha256": "09c897727294795c7a9825f84ed6f4accde34ab1d05fc7ba82f79992f22e1faa",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/method_checked_sensitivity_heldout_predictions.json",
+      "source_sha256": "39994e80e961e5bdb3283ee1a4db2046e46a9fd57b547e2ff81f546d06047df0",
+      "public_path": "data/ml/method_checked_sensitivity_heldout_predictions.json",
+      "public_sha256": "39994e80e961e5bdb3283ee1a4db2046e46a9fd57b547e2ff81f546d06047df0",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/method_checked_sensitivity_model_warnings.json",
+      "source_sha256": "879dca85b41dd8b968c23f167c34007d25027e1008c44d0592dedec0ce7acabc",
+      "public_path": "data/ml/method_checked_sensitivity_model_warnings.json",
+      "public_sha256": "879dca85b41dd8b968c23f167c34007d25027e1008c44d0592dedec0ce7acabc",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/prospective_prediction_validation.json",
+      "source_sha256": "9c9173ae7ccaa9b98d7dfaeea32bd38cdd9dea260523d2c77a241ecc9ebaf598",
+      "public_path": "data/ml/prospective_prediction_validation.json",
+      "public_sha256": "9c9173ae7ccaa9b98d7dfaeea32bd38cdd9dea260523d2c77a241ecc9ebaf598",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/update_summary.json",
+      "source_sha256": "f3379d5de407417a297021c6845f0aa583a1ddec01d9991ac7630e3b3b1ad815",
+      "public_path": "data/ml/update_summary.json",
+      "public_sha256": "d64ef6ac4fdc894e1c92862b772cb7f0db927e6061d07d968e8b2947ae2652cd",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102_update_20261104/completion_checks.json",
+      "source_sha256": "e4445074e512b964376098011aaa4930c9b54759846001138a6d22c80779e419",
+      "public_path": "data/ml/completion_checks.json",
+      "public_sha256": "e4445074e512b964376098011aaa4930c9b54759846001138a6d22c80779e419",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_surrogate_pilot_20261102/train_pilot.py",
+      "source_sha256": "397bbcf503dbfdf85c09dcc474b8c22e64fbb4b45fd1f039be9103a88d1a90ed",
+      "public_path": "src/ml/model_helpers.py",
+      "public_sha256": "397bbcf503dbfdf85c09dcc474b8c22e64fbb4b45fd1f039be9103a88d1a90ed",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/CavityFloorFilm.java",
+      "source_sha256": "dd980c73b0f4cb4c6338c9aa0f0472f9585288b17b6480b8aeff738f1d1ebe03",
+      "public_path": "src/comsol/CavityFloorFilm.java",
+      "public_sha256": "dd980c73b0f4cb4c6338c9aa0f0472f9585288b17b6480b8aeff738f1d1ebe03",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/FlatPrecheckEntry.java",
+      "source_sha256": "ebbc82bd256d6ff7b0e2bf95853d79be5a724593b5db794dec667064ef20614f",
+      "public_path": "src/comsol/FlatPrecheckEntry.java",
+      "public_sha256": "ebbc82bd256d6ff7b0e2bf95853d79be5a724593b5db794dec667064ef20614f",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/FlatObliqueAdmission.java",
+      "source_sha256": "43c71bb33ed6e321cfa22af09e2c67f2bf554bd93c847ccc4f11955d1e88ea2f",
+      "public_path": "src/comsol/FlatObliqueAdmission.java",
+      "public_sha256": "43c71bb33ed6e321cfa22af09e2c67f2bf554bd93c847ccc4f11955d1e88ea2f",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/FloquetHookSelfTest.java",
+      "source_sha256": "7814784cf0735547565c66502a2361ecf89f8fd3e30e7a3e1e6b8c02d53de480",
+      "public_path": "src/comsol/FloquetHookSelfTest.java",
+      "public_sha256": "7814784cf0735547565c66502a2361ecf89f8fd3e30e7a3e1e6b8c02d53de480",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/SavedFloquetExport.template.java",
+      "source_sha256": "8b129c9f5e4f1e1aa6f616152db2b0471465a99625ed61d6e0b3b053bb30ebbe",
+      "public_path": "src/comsol/SavedFloquetExport.template.java",
+      "public_sha256": "8b129c9f5e4f1e1aa6f616152db2b0471465a99625ed61d6e0b3b053bb30ebbe",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/floquet_reconstruct.py",
+      "source_sha256": "b53b7e06c4fc11437f501d4aa282b3511ca0d139692c85eccd498c248799bba9",
+      "public_path": "src/comsol/floquet_reconstruct.py",
+      "public_sha256": "b53b7e06c4fc11437f501d4aa282b3511ca0d139692c85eccd498c248799bba9",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/assess_export_base.py",
+      "source_sha256": "f3768352440d906991786d6ed1883b1d17d2b4291a37a1700dfe1a64986e6dff",
+      "public_path": "src/comsol/assess_export_base.py",
+      "public_sha256": "f3768352440d906991786d6ed1883b1d17d2b4291a37a1700dfe1a64986e6dff",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/test_floquet_reconstruct.py",
+      "source_sha256": "cae0367c580fc977917d7d62036ccc87f5e5911a7ec0c225c1ae1e7db9e8a5c3",
+      "public_path": "src/comsol/test_floquet_reconstruct.py",
+      "public_sha256": "cae0367c580fc977917d7d62036ccc87f5e5911a7ec0c225c1ae1e7db9e8a5c3",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/material.json",
+      "source_sha256": "ec49aedbd1cfbc6a08ff775d04fbc25cf87ae902a918f747d057e370b1f2473a",
+      "public_path": "data/materials/comsol_optical_material.json",
+      "public_sha256": "b3162ad974678bf5778051a70619b919f98154d8b98ffc1f0e4c9413c64de0d1",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/plan.json",
+      "source_sha256": "2a3798b51b3bf92d168f1664e1bb7315fce8029f28699863228d07cfe57d04a4",
+      "public_path": "data/latest_ml/frozen_scientific_plan.json",
+      "public_sha256": "b1d32ea6d813dec2fd0f4accebcebac12ce1136ce7473c2735c1e327bc29255a",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/coated_pilot_20261019/data/SiO2_Kischkat.yml",
+      "source_sha256": "5340a3c4b2474ac31432d3841283058f11841c3f9f96fd5a6602ee53d9d33ba7",
+      "public_path": "data/materials/SiO2_Kischkat.yml",
+      "public_sha256": "5340a3c4b2474ac31432d3841283058f11841c3f9f96fd5a6602ee53d9d33ba7",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_cpc_dimensions_20261016/material.json",
+      "source_sha256": "7ac6403847111feeea9360198b9d9133aec561c55c8d6c5a98d9e8abab225866",
+      "public_path": "data/materials/Ti_optical_reference.json",
+      "public_sha256": "7ac6403847111feeea9360198b9d9133aec561c55c8d6c5a98d9e8abab225866",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/__init__.py",
+      "source_sha256": "c8ff235ecd258e705cc55c4f337546e6cc45d4819c216191f195d66643407a87",
+      "public_path": "src/meep/ti2d/__init__.py",
+      "public_sha256": "c8ff235ecd258e705cc55c4f337546e6cc45d4819c216191f195d66643407a87",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/boundary.py",
+      "source_sha256": "87c20c563f3c81cee2297ca55286ff6ce3f5e78b04cfd27c72768c397c0a4970",
+      "public_path": "src/meep/ti2d/boundary.py",
+      "public_sha256": "87c20c563f3c81cee2297ca55286ff6ce3f5e78b04cfd27c72768c397c0a4970",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/cli.py",
+      "source_sha256": "f5bda45de582642dd44acf667fe3f0db40af262d045016f980f7dcda2bea4f74",
+      "public_path": "src/meep/ti2d/cli.py",
+      "public_sha256": "f5bda45de582642dd44acf667fe3f0db40af262d045016f980f7dcda2bea4f74",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/common.py",
+      "source_sha256": "8c5a3545ebd969a042a0eab28edaad4321864c13303d4f86ec4fe9248ac50cf5",
+      "public_path": "src/meep/ti2d/common.py",
+      "public_sha256": "8c5a3545ebd969a042a0eab28edaad4321864c13303d4f86ec4fe9248ac50cf5",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/diagnostics.py",
+      "source_sha256": "b77491ceab1382363a6650d13253dec9146a8ce61b75aa4521dabff09b81f5c5",
+      "public_path": "src/meep/ti2d/diagnostics.py",
+      "public_sha256": "b77491ceab1382363a6650d13253dec9146a8ce61b75aa4521dabff09b81f5c5",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/flux_reference.py",
+      "source_sha256": "7e2dc307c1352db86de7b495e1f4f95482b3f9b12f643b2dc090640ddefbef85",
+      "public_path": "src/meep/ti2d/flux_reference.py",
+      "public_sha256": "7e2dc307c1352db86de7b495e1f4f95482b3f9b12f643b2dc090640ddefbef85",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/geometry.py",
+      "source_sha256": "4ad8af0fa7993577b37d8b2ea9997d18c542a66f45a3d2c5247bdad27b605434",
+      "public_path": "src/meep/ti2d/geometry.py",
+      "public_sha256": "4ad8af0fa7993577b37d8b2ea9997d18c542a66f45a3d2c5247bdad27b605434",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/manifest.py",
+      "source_sha256": "66bddf46f640557cc1b3d0f203e07f3c174863003c913832ffbfeae815d71585",
+      "public_path": "src/meep/ti2d/manifest.py",
+      "public_sha256": "66bddf46f640557cc1b3d0f203e07f3c174863003c913832ffbfeae815d71585",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/materials.py",
+      "source_sha256": "fb7fa6fd1014d450f41ef098cf0755096284c29f2f490d5fbe4f2069faa06190",
+      "public_path": "src/meep/ti2d/materials.py",
+      "public_sha256": "fb7fa6fd1014d450f41ef098cf0755096284c29f2f490d5fbe4f2069faa06190",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/meep_arrays.py",
+      "source_sha256": "bb6fb2efae2e81d480351d58427742fddd7e8eb5359874df92559ce1f8172140",
+      "public_path": "src/meep/ti2d/meep_arrays.py",
+      "public_sha256": "bb6fb2efae2e81d480351d58427742fddd7e8eb5359874df92559ce1f8172140",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/queue.py",
+      "source_sha256": "3059e80885f66aaaeba4dcb325d219b554c7ecc2e21b11b02b5368f308c79bd2",
+      "public_path": "src/meep/ti2d/queue.py",
+      "public_sha256": "3059e80885f66aaaeba4dcb325d219b554c7ecc2e21b11b02b5368f308c79bd2",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/reference_cache.py",
+      "source_sha256": "a3ab99e0c2f2f80f358d3a02d9d8534343c0bafd752178c8272bb89953046f3e",
+      "public_path": "src/meep/ti2d/reference_cache.py",
+      "public_sha256": "a3ab99e0c2f2f80f358d3a02d9d8534343c0bafd752178c8272bb89953046f3e",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/report.py",
+      "source_sha256": "0c8f119e14bc77aa76bffd76fcbdc117a81389fe3c399f2b1f00f33ae75b3429",
+      "public_path": "src/meep/ti2d/report.py",
+      "public_sha256": "0c8f119e14bc77aa76bffd76fcbdc117a81389fe3c399f2b1f00f33ae75b3429",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/session_guard.py",
+      "source_sha256": "bf35a9f3dd9e8015c9ff94fb0b5951ddef4f750cb5dbfe2f5df34663187a574d",
+      "public_path": "src/meep/ti2d/session_guard.py",
+      "public_sha256": "bf35a9f3dd9e8015c9ff94fb0b5951ddef4f750cb5dbfe2f5df34663187a574d",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/solver.py",
+      "source_sha256": "58d081275f6f8ecde2ba571817c162c02caf89f32bf367d1f94f29bf59277089",
+      "public_path": "src/meep/ti2d/solver.py",
+      "public_sha256": "58d081275f6f8ecde2ba571817c162c02caf89f32bf367d1f94f29bf59277089",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/ti2d/uncertainty.py",
+      "source_sha256": "23c72a74cf78a3cfd7bc59f3af4f61f924e9681901a2dbeeb31d9c30bec5adbb",
+      "public_path": "src/meep/ti2d/uncertainty.py",
+      "public_sha256": "23c72a74cf78a3cfd7bc59f3af4f61f924e9681901a2dbeeb31d9c30bec5adbb",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/assets/material/fit_candidate_models_v2.json",
+      "source_sha256": "cbf836ffcf3e1f7e85f929badd5c2a15f60098cee3040ea90011e659f71fd229",
+      "public_path": "src/meep/assets/material/fit_candidate_models_v2.json",
+      "public_sha256": "cbf836ffcf3e1f7e85f929badd5c2a15f60098cee3040ea90011e659f71fd229",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/assets/material/fit_report.json",
+      "source_sha256": "c3a96bcac70cba28f5e812b965a93541ad3d2fd6a6bb1e587ee3a2f4688508bc",
+      "public_path": "src/meep/assets/material/fit_report.json",
+      "public_sha256": "c3a96bcac70cba28f5e812b965a93541ad3d2fd6a6bb1e587ee3a2f4688508bc",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/assets/material/route_a_material.json",
+      "source_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "public_path": "src/meep/assets/material/route_a_material.json",
+      "public_sha256": "283197fec119be9ca9c2827179ade13c566e240df2ef787959522fcf159f7c09",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "meep_screen/lab_fill_bridge_20261013/assets/material/ti_ordal_raw.csv",
+      "source_sha256": "46f75369d4894db8ccc6bb2a73fdc693ae26ee7d62e8b87ac6c7f84cc0a0dda3",
+      "public_path": "src/meep/assets/material/ti_ordal_raw.csv",
+      "public_sha256": "46f75369d4894db8ccc6bb2a73fdc693ae26ee7d62e8b87ac6c7f84cc0a0dda3",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/environment-ti.yml",
+      "source_sha256": "9a94bda203542c68d33aa516471e5da564742f9e9f2bf4a44ffe9b0a83945caf",
+      "public_path": "src/meep/environment-ti.yml",
+      "public_sha256": "9a94bda203542c68d33aa516471e5da564742f9e9f2bf4a44ffe9b0a83945caf",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/environment.yml",
+      "source_sha256": "a4beffe7f5b5cb75b563abd53f7a2c185c9d103752672ba334d44b42d9469d9a",
+      "public_path": "src/meep/environment.yml",
+      "public_sha256": "a4beffe7f5b5cb75b563abd53f7a2c185c9d103752672ba334d44b42d9469d9a",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "meep_screen/pyproject.toml",
+      "source_sha256": "f8678951286305c6448a5568099dd3522adcdc14357e24631e1a8be32786ebbb",
+      "public_path": "src/meep/pyproject.toml",
+      "public_sha256": "f8678951286305c6448a5568099dd3522adcdc14357e24631e1a8be32786ebbb",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/cone_definition.png",
+      "source_sha256": "7df9acf50acd48cb1d1259096fa44911e6bd6250c9f317a526128e94719ed22b",
+      "public_path": "figures/geometry_and_response/cone_definition.png",
+      "public_sha256": "7df9acf50acd48cb1d1259096fa44911e6bd6250c9f317a526128e94719ed22b",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/cone_definition.svg",
+      "source_sha256": "bf62eeaa58cd006f2f887fdea11a680f5e70f334604d540d225766c61a716b5c",
+      "public_path": "figures/geometry_and_response/cone_definition.svg",
+      "public_sha256": "bf62eeaa58cd006f2f887fdea11a680f5e70f334604d540d225766c61a716b5c",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/geometry_atlas.png",
+      "source_sha256": "c541fe51fa0aa87d2fcb0b35e95f53bc701840fa47f6ee9a7f4196eeece14234",
+      "public_path": "figures/geometry_and_response/geometry_atlas.png",
+      "public_sha256": "c541fe51fa0aa87d2fcb0b35e95f53bc701840fa47f6ee9a7f4196eeece14234",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/geometry_atlas.svg",
+      "source_sha256": "520119178814d21cfabb48e900460ead1b24e9b65e81818c405e664a11cfc3b9",
+      "public_path": "figures/geometry_and_response/geometry_atlas.svg",
+      "public_sha256": "520119178814d21cfabb48e900460ead1b24e9b65e81818c405e664a11cfc3b9",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/geometry_evidence.json",
+      "source_sha256": "cb082cc12f1d7a7cac91a1a5ffec358c969ba4b27e3a6da3567a0d0a42d3382a",
+      "public_path": "figures/geometry_and_response/geometry_evidence.json",
+      "public_sha256": "9d6ed355558c0740d72b946649a777b1edf06bb7a49c0756a4abf95a7d75fde4",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/historical_response.png",
+      "source_sha256": "17195fbff0d0630f9015ab460c55da3e299bfabec3d886ae28a58222535e1706",
+      "public_path": "figures/geometry_and_response/historical_response.png",
+      "public_sha256": "17195fbff0d0630f9015ab460c55da3e299bfabec3d886ae28a58222535e1706",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/historical_response.svg",
+      "source_sha256": "a7b581def17d7345cbc2ce93769f8abc4e78db68b71fee8e903705d1a9fb6a49",
+      "public_path": "figures/geometry_and_response/historical_response.svg",
+      "public_sha256": "a7b581def17d7345cbc2ce93769f8abc4e78db68b71fee8e903705d1a9fb6a49",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/incidence_angles.png",
+      "source_sha256": "51c9b46b83a249c08fe05237cd2b69c1b68cacdd93745cdfc24b55dde9c5e585",
+      "public_path": "figures/geometry_and_response/incidence_angles.png",
+      "public_sha256": "51c9b46b83a249c08fe05237cd2b69c1b68cacdd93745cdfc24b55dde9c5e585",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/incidence_angles.svg",
+      "source_sha256": "6dfaa769989a4c2c9dc20b70b7a351451aa4efecb78835a4fe940f6e49a79610",
+      "public_path": "figures/geometry_and_response/incidence_angles.svg",
+      "public_sha256": "6dfaa769989a4c2c9dc20b70b7a351451aa4efecb78835a4fe940f6e49a79610",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/ml_evidence.png",
+      "source_sha256": "1e373a09fe812518671f196e4246d2064f520c054e76e15928f5218eba15a38f",
+      "public_path": "figures/geometry_and_response/ml_evidence.png",
+      "public_sha256": "1e373a09fe812518671f196e4246d2064f520c054e76e15928f5218eba15a38f",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/ml_evidence.svg",
+      "source_sha256": "21bb37aae94552bfe234c71c95f952122d9b3e1398cf085f9cd6ad61f1709f10",
+      "public_path": "figures/geometry_and_response/ml_evidence.svg",
+      "public_sha256": "21bb37aae94552bfe234c71c95f952122d9b3e1398cf085f9cd6ad61f1709f10",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/ml_workflow.png",
+      "source_sha256": "cb91ca2b0bebbfe8faf6ade16c1233880ca04a3c88d1c5aa3f3e3a5cc2735d65",
+      "public_path": "figures/geometry_and_response/ml_workflow.png",
+      "public_sha256": "cb91ca2b0bebbfe8faf6ade16c1233880ca04a3c88d1c5aa3f3e3a5cc2735d65",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/ml_workflow.svg",
+      "source_sha256": "1c13dc8fd1d693f4e4e6b94127768503f44ed00ae18525ed17ab9093b2d3d676",
+      "public_path": "figures/geometry_and_response/ml_workflow.svg",
+      "public_sha256": "1c13dc8fd1d693f4e4e6b94127768503f44ed00ae18525ed17ab9093b2d3d676",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/numerical_agreement.png",
+      "source_sha256": "f2b510350946ed668cf4a1ae2b5840159528bf661cb9c867799290882a3ac149",
+      "public_path": "figures/geometry_and_response/numerical_agreement.png",
+      "public_sha256": "f2b510350946ed668cf4a1ae2b5840159528bf661cb9c867799290882a3ac149",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/numerical_agreement.svg",
+      "source_sha256": "86fe0c83dcfba26eb80c2649ddb06cac2f598374e3232f9e992d2b8417e8c47a",
+      "public_path": "figures/geometry_and_response/numerical_agreement.svg",
+      "public_sha256": "86fe0c83dcfba26eb80c2649ddb06cac2f598374e3232f9e992d2b8417e8c47a",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/response_relationships.png",
+      "source_sha256": "e86fa7dbc1f4188f55789e8ff58a3d1b78adea9c11aee3555f4c50a457c140dd",
+      "public_path": "figures/geometry_and_response/response_relationships.png",
+      "public_sha256": "e86fa7dbc1f4188f55789e8ff58a3d1b78adea9c11aee3555f4c50a457c140dd",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figures/response_relationships.svg",
+      "source_sha256": "17c7f903d9611104019a65baa48d150c16bc1352bf8215ce597c937894fb665d",
+      "public_path": "figures/geometry_and_response/response_relationships.svg",
+      "public_sha256": "17c7f903d9611104019a65baa48d150c16bc1352bf8215ce597c937894fb665d",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/figure_data_checks.json",
+      "source_sha256": "293c06d802009c3daa1aec356da09a21f0c11978b1a1680ddc53c86c8568997c",
+      "public_path": "data/report_figures/figure_data_checks.json",
+      "public_sha256": "293c06d802009c3daa1aec356da09a21f0c11978b1a1680ddc53c86c8568997c",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/historical_response_data.json",
+      "source_sha256": "6db28f794a72353cb427a14a4bb9d8af13e76f29e4a466b730e6773480406dce",
+      "public_path": "data/report_figures/historical_response_data.json",
+      "public_sha256": "6db28f794a72353cb427a14a4bb9d8af13e76f29e4a466b730e6773480406dce",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/visual_reference_notes.json",
+      "source_sha256": "3d6947e140ca6ae40a16256489c5e03d65b40a908d90b567d68f0ec0a5b89023",
+      "public_path": "data/report_figures/visual_reference_notes.json",
+      "public_sha256": "3ef1f1d6dad8d841b9f801bb292e201501691fea5ac485b5dad199debc1e86ab",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/build_geometry.py",
+      "source_sha256": "fa6dd50d2136a0781ea929d47f9d521f47b33cec7f3f5e5fd05f3ffb1c65ab46",
+      "public_path": "src/figures/original_v2_build_geometry.py",
+      "public_sha256": "fa6dd50d2136a0781ea929d47f9d521f47b33cec7f3f5e5fd05f3ffb1c65ab46",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/build_scientific_figures.py",
+      "source_sha256": "7c0c47970190f55b3fd8e883220c4c22636bb1b155707d13710a26d801569d7b",
+      "public_path": "src/figures/original_v2_build_scientific_figures.py",
+      "public_sha256": "7c0c47970190f55b3fd8e883220c4c22636bb1b155707d13710a26d801569d7b",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/build_historical_response.py",
+      "source_sha256": "a49a48579bfdb4ae1b5d5ed3c8ac59cc6a79e4f4d12285d60b3df2bd68c1f6e1",
+      "public_path": "src/figures/original_v2_build_historical_response.py",
+      "public_sha256": "a49a48579bfdb4ae1b5d5ed3c8ac59cc6a79e4f4d12285d60b3df2bd68c1f6e1",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/ml_batch_report_20261104_v2/build_workflow.py",
+      "source_sha256": "7bbad44d9327377aebdd9e78210734cf6603ef2df25e38725943596e74598788",
+      "public_path": "src/figures/original_v2_build_workflow.py",
+      "public_sha256": "7bbad44d9327377aebdd9e78210734cf6603ef2df25e38725943596e74598788",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/fabrication_research_20261104/laser_evidence.json",
+      "source_sha256": "4b9b0ffcf1ca67ab99b8f12d4849a32a6c3366d45ee19f9ece51db9fd48ebb1b",
+      "public_path": "data/fabrication/laser_evidence.json",
+      "public_sha256": "bc8dc59435a1155c0b7f40b08a1eae9951ae6081988b2ea725367827b2f85f69",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/fabrication_research_20261104/silica_evidence.json",
+      "source_sha256": "2d6297993facc9e6412553984224f66e80e87c9014944dd25d899ca27e9b624d",
+      "public_path": "data/fabrication/silica_evidence.json",
+      "public_sha256": "ae7328d9cfd7e728642714675e77cda2671a4572b9edb1624af6962471d7b10b",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/fabrication_research_20261104/geometric_process_constraints.json",
+      "source_sha256": "78ca2e472d432a65de53bfaf3890c11d8b7f6123df2dfce2fda41361aa539c7f",
+      "public_path": "data/fabrication/geometric_process_constraints.json",
+      "public_sha256": "8634426d457dd59ec3c1758e0d273eb7cd9dffd255091e1ca9189e69f10707e4",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/fabrication_research_20261104/research_synthesis.json",
+      "source_sha256": "6be3f2397135834086aed7bd733c0fad905b49965519359d7c8cf8aa0a3792ef",
+      "public_path": "data/fabrication/research_synthesis.json",
+      "public_sha256": "200bd79899f5c555cb8e8d310fc3ced2c0e7027528269520e34515c9a713d78e",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/fabrication_research_20261104/build_explanatory_figures.py",
+      "source_sha256": "88445664355dbfeeac5d35a00d3ad9dcc3941bec54090e276926467dd65ed8d7",
+      "public_path": "src/figures/original_fabrication_build_figures.py",
+      "public_sha256": "88445664355dbfeeac5d35a00d3ad9dcc3941bec54090e276926467dd65ed8d7",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/fabrication_research_20261104/figures/figure_evidence.json",
+      "source_sha256": "f549c8b940679ee98732394f324dedf8534e519963288410dd8f98e859458b9f",
+      "public_path": "figures/fabrication/figure_evidence.json",
+      "public_sha256": "9dca7b88cde69d8b15039ed7c109cdbb617a6d6d607caa6037c1aaec259733b5",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/fabrication_research_20261104/figures/fill_morphologies.png",
+      "source_sha256": "afe68f918c702f97d1e63fc51859b158edba0fe55a03168e422629545b165961",
+      "public_path": "figures/fabrication/fill_morphologies.png",
+      "public_sha256": "afe68f918c702f97d1e63fc51859b158edba0fe55a03168e422629545b165961",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/fabrication_research_20261104/figures/fill_morphologies.svg",
+      "source_sha256": "caf49a98608f727168a36bcb7c0e10c1eaf8ed11a9619fc94d7a4ef663493183",
+      "public_path": "figures/fabrication/fill_morphologies.svg",
+      "public_sha256": "caf49a98608f727168a36bcb7c0e10c1eaf8ed11a9619fc94d7a4ef663493183",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/fabrication_research_20261104/figures/reciprocal_angle.png",
+      "source_sha256": "3e799707233ea508b73b267b79368bbad5f0b0c3411a104273f6bb117221fdaf",
+      "public_path": "figures/fabrication/reciprocal_angle.png",
+      "public_sha256": "3e799707233ea508b73b267b79368bbad5f0b0c3411a104273f6bb117221fdaf",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/fabrication_research_20261104/figures/reciprocal_angle.svg",
+      "source_sha256": "ad033b380b957bbbaf918b3b333c1086a388d49ebadc467eaad5acfcdc6bf26d",
+      "public_path": "figures/fabrication/reciprocal_angle.svg",
+      "public_sha256": "ad033b380b957bbbaf918b3b333c1086a388d49ebadc467eaad5acfcdc6bf26d",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/data/historical_evidence.json",
+      "source_sha256": "ad0ecea8282e44548122d3b77a4c2ecdcab9be6101a7029fdd532bbd3a733ef0",
+      "public_path": "data/research_audit/historical_evidence.json",
+      "public_sha256": "2d5b756945e412cd0951e9ee6cf3adcdca46fe4a79c9582252c1baa9bc43604f",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/data/teacher_narrative_notes.json",
+      "source_sha256": "8d85c4528cf9175e320f261358fad5b92fdee31a138b7be7d188d0b980beaa0a",
+      "public_path": "data/research_audit/teacher_narrative_notes.json",
+      "public_sha256": "8d85c4528cf9175e320f261358fad5b92fdee31a138b7be7d188d0b980beaa0a",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/figures/historical_comsol_scope.png",
+      "source_sha256": "d30667c01e2876204d5f5c4b6ed0e33e30d90f04e14622f55f99b3a341304c4e",
+      "public_path": "figures/teacher_summary/historical_comsol_scope.png",
+      "public_sha256": "d30667c01e2876204d5f5c4b6ed0e33e30d90f04e14622f55f99b3a341304c4e",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/figures/historical_comsol_scope.svg",
+      "source_sha256": "01086814c4b10ff89914627d064a9cd214b8ffd563ca0762630034bbb52c5654",
+      "public_path": "figures/teacher_summary/historical_comsol_scope.svg",
+      "public_sha256": "01086814c4b10ff89914627d064a9cd214b8ffd563ca0762630034bbb52c5654",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/figures/meep_key_relationships.png",
+      "source_sha256": "159d5f1c1cbf20d20e9a8fbb4c36d88ac9aea7f4b9c7d16ac5d3ba16047cd997",
+      "public_path": "figures/teacher_summary/meep_key_relationships.png",
+      "public_sha256": "159d5f1c1cbf20d20e9a8fbb4c36d88ac9aea7f4b9c7d16ac5d3ba16047cd997",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/figures/meep_key_relationships.svg",
+      "source_sha256": "635d3ba194e4881275398763adf641f04a598824e699aa1176c88ab4cc148e8c",
+      "public_path": "figures/teacher_summary/meep_key_relationships.svg",
+      "public_sha256": "635d3ba194e4881275398763adf641f04a598824e699aa1176c88ab4cc148e8c",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/figures/research_route.png",
+      "source_sha256": "579eb9cec66ea851cd56f4ecdc06bf297e2853d681fd6bbfef843df2bda2a30a",
+      "public_path": "figures/teacher_summary/research_route.png",
+      "public_sha256": "579eb9cec66ea851cd56f4ecdc06bf297e2853d681fd6bbfef843df2bda2a30a",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/figures/research_route.svg",
+      "source_sha256": "4233fbc7b35e1d68a2b5a60f7d7586582e9438b74aad7fb2967a733aee008dc5",
+      "public_path": "figures/teacher_summary/research_route.svg",
+      "public_sha256": "4233fbc7b35e1d68a2b5a60f7d7586582e9438b74aad7fb2967a733aee008dc5",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/figures/structure_screen.png",
+      "source_sha256": "41662ca18fa95412293655abf8f043c25d02101e5265bc6bb02fe20ea5f274d6",
+      "public_path": "figures/teacher_summary/structure_screen.png",
+      "public_sha256": "41662ca18fa95412293655abf8f043c25d02101e5265bc6bb02fe20ea5f274d6",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/figures/structure_screen.svg",
+      "source_sha256": "15de365570a097816592fce436ef5259a778ddf215a94654947347bd278335ab",
+      "public_path": "figures/teacher_summary/structure_screen.svg",
+      "public_sha256": "15de365570a097816592fce436ef5259a778ddf215a94654947347bd278335ab",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/figure_catalog.json",
+      "source_sha256": "e92044cf8f367b7cc827952c97cf274ec030829af017c99c08f6d1eb5ee83b9f",
+      "public_path": "data/report_figures/teacher_figure_catalog.json",
+      "public_sha256": "bb3f67a5551253bb04d942616025f28e3b6af61a3841a18f2a4320abffe2ce7e",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/figure_quality_check.json",
+      "source_sha256": "3f0b26078ee23d8eb61d6488f6cb116b09049a83d50d16cfe2ae2effb9349689",
+      "public_path": "data/report_figures/teacher_figure_quality_check.json",
+      "public_sha256": "3f0b26078ee23d8eb61d6488f6cb116b09049a83d50d16cfe2ae2effb9349689",
+      "export_policy": "scientific JSON; private local paths normalized and host snapshots omitted"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/build_figures.py",
+      "source_sha256": "f4f64d18416a5bd8fe3717c48f4f52a8228be1440758c7d44077f77c91f2a3d2",
+      "public_path": "src/figures/original_build_figures.py",
+      "public_sha256": "f4f64d18416a5bd8fe3717c48f4f52a8228be1440758c7d44077f77c91f2a3d2",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/build_history_figure.py",
+      "source_sha256": "8b7a5f0a6ca73876ddd122da25e64be2fc2e2672cff5712d312178abee23752a",
+      "public_path": "src/figures/original_build_history_figure.py",
+      "public_sha256": "8b7a5f0a6ca73876ddd122da25e64be2fc2e2672cff5712d312178abee23752a",
+      "export_policy": "original scientific source or figure; byte-preserved"
+    },
+    {
+      "source_workspace_relative": "outputs/teacher_report_20261104/build_report.py",
+      "source_sha256": "07e189941d4bb3b75679790bc666f24c0164b83b3936652d1a94ca0a4860c149",
+      "public_path": "src/figures/original_build_report.py",
+      "public_sha256": "bd490f777465cc94f309784ed12fdabcfbf5c32b94d3f4e531b455fb8503a1bd",
+      "export_policy": "original source with private absolute workspace root replaced by <WORKSPACE_ROOT>"
+    }
+  ]
+}

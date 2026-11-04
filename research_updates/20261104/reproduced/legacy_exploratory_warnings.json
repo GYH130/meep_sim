@@ -1,0 +1,398 @@
+[
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H100_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H120_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H120_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H60_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H80_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H80_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H100_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H120_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H120_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H60_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H80_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H80_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H100_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H120_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H120_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H60_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H80_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H80_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H100_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H120_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H120_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H60_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H80_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th0_phi0_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H80_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H100_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H100_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H60_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H80_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_p",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H80_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H100_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H100_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H60_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H80_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_p",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H80_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H100_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H100_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H60_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H80_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_s",
+    "label": "A_loss_total",
+    "method": "gp_matern",
+    "heldout": "H80_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H100_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H100_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H60_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H80_t2",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  },
+  {
+    "condition": "l10.5_th30_phi30_s",
+    "label": "A_port",
+    "method": "gp_matern",
+    "heldout": "H80_t3",
+    "warnings": [
+      "The optimal value found for dimension 0 of parameter k1__k2__length_scale is close to the specified lower bound 0.05. Decreasing the bound and calling fit again may find a better value."
+    ]
+  }
+]

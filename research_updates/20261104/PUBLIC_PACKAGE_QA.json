@@ -1,0 +1,35 @@
+{
+  "package_manifest_checked": true,
+  "research_archive": [
+    91,
+    88,
+    8
+  ],
+  "ML_archive": [
+    89,
+    86,
+    8
+  ],
+  "latest_physical_results": 9,
+  "latest_saved_field_method_review_passed": 9,
+  "latest_raw_accepted": 0,
+  "latest_formal_qualified": 0,
+  "portable_ML_metrics_max_difference_pp": 0.0,
+  "portable_figure_builders_executed_successfully": 7,
+  "Floquet_unit_tests_passed": 18,
+  "privacy_pattern_hits": 0,
+  "massive_models_or_fields_included": false,
+  "publication_performed_by_this_agent": false,
+  "teacher_report_visual_review_pages": [
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "teacher_report_docx_xml_sensitive_hits": 0,
+  "teacher_report_pdf_text_sensitive_hits": 0,
+  "portable_report_builder_executed_successfully": true,
+  "portable_report_native_equations": 11,
+  "portable_report_figures": 11
+}

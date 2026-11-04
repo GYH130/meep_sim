@@ -1,0 +1,150 @@
+{
+  "research_scope": "Laser manufacturability of modeled TA2/optical-Ti A3 hexagonal frustum blind cavities; literature review only; no processing or solver launched",
+  "generated_utc": "2026-11-04T10:13:11.001663+00:00",
+  "geometry_source": "workspace/meep_screen/lab_comsol_ml_remaining4_mem24r2_20261103/plan.json",
+  "geometry_source_sha256": "2a3798b51b3bf92d168f1664e1bb7315fce8029f28699863228d07cfe57d04a4",
+  "geometry_um": {
+    "pitch": 80.0,
+    "opening_across_flats": 69.5455842631299,
+    "bottom_across_flats": 15.0,
+    "heights": [
+      80,
+      100
+    ],
+    "minimum_nominal_web_between_nearest_openings": 10.454415736870104,
+    "one_side_land_to_unit_cell_boundary": 5.227207868435052,
+    "opening_hexagon_side_length": 40.15216179526785
+  },
+  "derived_geometry": [
+    {
+      "height_um": 80,
+      "height_to_opening_ratio": 1.1503246517753765,
+      "height_to_bottom_width_ratio": 5.333333333333333,
+      "wall_half_taper_deg_from_vertical": 18.82475163346875,
+      "wall_angle_deg_from_top_plane": 71.17524836653125
+    },
+    {
+      "height_um": 100,
+      "height_to_opening_ratio": 1.4379058147192205,
+      "height_to_bottom_width_ratio": 6.666666666666667,
+      "wall_half_taper_deg_from_vertical": 15.255153291718022,
+      "wall_angle_deg_from_top_plane": 74.74484670828198
+    }
+  ],
+  "overall_judgement": "此尺度的钛上去除加工有实验依据，六边形图案和约100微米深的钛合金微加工也各有依据；尚无证据证明本项目精确六边形、70微米开口、15微米平底、80-100微米深、80微米周期可由用户现有设备直接同时复现。适合先做可制造性样片，再用实测形貌修正仿真。",
+  "sources": [
+    {
+      "id": "L1",
+      "title": "Nanosecond laser texturing with hexagonal honeycomb micro-structure on Titanium for improved wettability and optical properties",
+      "authors": "Yutong Wang et al.",
+      "year": 2019,
+      "journal": "Optik 192, 162953",
+      "doi": "10.1016/j.ijleo.2019.162953",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0030402619308307",
+      "primary_evidence_access": "Publisher indexed full-text sample-preparation and morphology sections",
+      "directly_supported": [
+        "材料明确为TA2，试样20×20×1 mm；采用纳秒激光制作六边形蜂窝纹理。",
+        "文中形貌示例为六边形边长100 μm。"
+      ],
+      "limits": [
+        "该文支持TA2上六边形激光图案的可加工性，不证明本项目尺寸与深盲腔几何已实现。",
+        "光学反射率降低的摘要结论不得转述成8-13 μm方向发射已经验证。",
+        "本项目开口对边69.55 μm对应六边形边长约40.15 μm，小于该文示例100 μm边长，不能把它当相同横向尺度证明。"
+      ]
+    },
+    {
+      "id": "L2",
+      "title": "A highly efficient, stable, durable, and recyclable filter fabricated by femtosecond laser drilling of a titanium foil for oil-water separation",
+      "authors": "Sen Ye et al.",
+      "year": 2016,
+      "journal": "Scientific Reports 6, 37591",
+      "doi": "10.1038/srep37591",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5116619/",
+      "primary_evidence_access": "Full original article PMC, Results lines123-134 and Methods lines189-192",
+      "directly_supported": [
+        "100 μm厚钛箔上形成约55 μm开口的漏斗状通孔；孔壁存在百纳米到数微米重凝固突起。",
+        "激光区域有显著氧化并形成TiO2；近孔间隔可导致连接。"
+      ],
+      "limits": [
+        "通孔不等于平底盲腔；该通孔尺寸不能作为用户设备的现成工艺配方。",
+        "不能将该论文具体孔间距阈值直接外推到当前六边形阵列。"
+      ]
+    },
+    {
+      "id": "L3",
+      "title": "Micro-Milling Process of Metals: A Comparison between Femtosecond Laser and EDM Techniques",
+      "authors": "Luigi Calabrese et al.",
+      "year": 2021,
+      "journal": "Journal of Manufacturing and Materials Processing 5(4), 125",
+      "doi": "10.3390/jmmp5040125",
+      "url": "https://www.mdpi.com/2504-4494/5/4/125",
+      "author_repository": "https://aisberg.unibg.it/handle/10446/200225",
+      "primary_evidence_access": "Publisher indexed full text, Table1/Fig9 and conclusions",
+      "directly_supported": [
+        "研究对象含Ti6Al4V，设计微槽宽100 μm、深100 μm；Fig9展示钛合金50/100 μm深尺度的飞秒微铣形貌。",
+        "激光铣削正锥度影响可实现几何和尺寸精度。"
+      ],
+      "limits": [
+        "Ti6Al4V不是TA2；微槽与柱周去除不等同于本项目封闭六边形盲腔。",
+        "微槽100 μm在Table1为设计值，本记录不将其当作每种材料的实测槽深。"
+      ]
+    },
+    {
+      "id": "L4",
+      "title": "Precise taper angle control by multilevel femtosecond laser processing",
+      "authors": "Sungkwon Shin, Woojin Lee, Jong Kab Park, Doh-Hoon Kim",
+      "year": 2023,
+      "journal": "Optics & Laser Technology 159, 108956",
+      "doi": "10.1016/j.optlastec.2022.108956",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0030399222011021",
+      "primary_evidence_access": "Publisher indexed original abstract and introduction",
+      "directly_supported": [
+        "在64FeNi(Invar)上用分层飞秒加工与分析模型控制孔径和锥度，光路为振镜加聚焦透镜。"
+      ],
+      "limits": [
+        "此文只支持分层轮廓控制的工艺思路，不能作为钛或TA2同样精度的直接证明。"
+      ]
+    }
+  ],
+  "manufacturing_risks_and_model_revisions": [
+    {
+      "feature": "70 μm开口与80-100 μm深度",
+      "assessment": "以开口计算H/D约1.15-1.44，并非文献中极端高深径比；单看深度不能判为不可加工。",
+      "action": "先确认光斑、焦深、Z轴聚焦/下移和排屑能力，不直接照搬他人脉冲能量。"
+    },
+    {
+      "feature": "15 μm平底与六个尖角",
+      "assessment": "激光实际去除足迹及多次扫描使底部轮廓、角半径和残留量难等于理想CAD。",
+      "action": "仿真应允许圆角六边形、底部曲率、侧壁非线性和实测深度分布。"
+    },
+    {
+      "feature": "约10.45 μm相邻开口间web",
+      "assessment": "名义桥宽小，边缘熔融/再沉积/扫描误差可能使开口联通或改变land宽度。",
+      "action": "先做孤立腔或较稀阵列校准，再验证原P80密阵列；不在未测试时声称桥宽可保证。"
+    },
+    {
+      "feature": "光滑裸Ti壁",
+      "assessment": "钛上的实测飞秒孔可能同时有微纳粗糙和氧化层；它们会改变光学响应。",
+      "action": "在清洗后做SEM/3D轮廓及EDS或XPS；以需要的证据区分Ti、TiOx与重凝固层，不沿用理想裸Ti界面宣称实样。"
+    }
+  ],
+  "recommended_pilot_route": [
+    "先选TA2试片，记录实际激光脉宽、波长、样品处光斑与功率/单脉冲能量、重复频率、振镜/物镜、Z轴和气氛。",
+    "采用逐层微铣/嵌套六边形轮廓思路，随深度缩小目标截面；轮廓、填充扫描、Z下移和清屑需要独立标定。该步骤为工程建议，并非已验证用户配方。",
+    "先少量孤立或稀疏腔，区分粗去除与精修；在获得稳定H/开口/底宽后，再验证P80密排阵列的web和热/碎屑相互作用。",
+    "清洗后3D轮廓测H、开口、壁角、角半径和粗糙度；必要时破坏性截面SEM确认深腔底与窄底面，因为光学轮廓仪可能看不到被遮挡底部。",
+    "把实际可制造轮廓带回COMSOL，同时评估后续填充引起的材料分布变化；先有实物形貌再锁定加工容差。"
+  ],
+  "missing_equipment_information": [
+    "pulse duration and wavelength",
+    "sample-plane spot diameter and beam quality/NA or focal lens",
+    "pulse energy/average power and repetition-rate range",
+    "galvo minimum effective contour feature and positioning accuracy",
+    "available Z-axis/focus control and usable working distance",
+    "shielding gas or liquid processing capability",
+    "TA2 thickness and target textured area",
+    "3D profilometry and cross-section SEM availability"
+  ],
+  "no_new_compute_or_machine_actions": true,
+  "citation_policy": "Only primary publications or author institutional records relied upon. No exact laser recipe transferred across machines. Numerical geometry-derived quantities are calculated from local frozen plan, not literature measurements."
+}
