@@ -1,0 +1,2094 @@
+{
+  "schema": 2,
+  "kind": "IDEAL_GEOMETRY_PILOT_NOT_TA2_SPECTRAL_OR_FULL_WAVE_VALIDATION",
+  "scope": "Fixed black active floor and ideal specular mirror walls; dimensionless geometry screening. No coating, wavelength or temperature claim.",
+  "source_geometry_manifest_sha256": "ffac80d39c7d59f3e9b1f9ccd789e237796a8cda13e640b22f36fff9a9cb72d3",
+  "engine_source": "ray_material.cpp",
+  "engine_source_sha256": "7dbdefd7691d10451ee9ff9bfb9cf242943eef97ee5f392e73524f387982d8e3",
+  "max_bounces": 256,
+  "seed_base": 202611111200,
+  "sampling": "Stable seeds derived from dimensions and direction. Matched A0/A3 geometries and overlapping coarse/refine conditions use the same ray stream.",
+  "shape_count": 200,
+  "condition_count": 77940,
+  "shapes": [
+    {
+      "id": "A0_G01",
+      "family": "A0",
+      "height_um": 88.9123222527771,
+      "bottom_width_um": 14.49750936177748,
+      "upper_width_um": 66.22889051464131,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A0_G02",
+      "family": "A0",
+      "height_um": 33.414978566341034,
+      "bottom_width_um": 23.955088805106946,
+      "upper_width_um": 65.83441323443236,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A0_G03",
+      "family": "A0",
+      "height_um": 43.688343654711424,
+      "bottom_width_um": 16.722782414064238,
+      "upper_width_um": 61.69867010731721,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A0_G04",
+      "family": "A0",
+      "height_um": 39.792140048876895,
+      "bottom_width_um": 30.921129764033097,
+      "upper_width_um": 64.1893249135486,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A0_G05",
+      "family": "A0",
+      "height_um": 82.42660441029827,
+      "bottom_width_um": 30.050388774779748,
+      "upper_width_um": 69.64167735401989,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A0_G06",
+      "family": "A0",
+      "height_um": 73.78166484997347,
+      "bottom_width_um": 30.13819929900758,
+      "upper_width_um": 71.52504494430923,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A0_G07",
+      "family": "A0",
+      "height_um": 50.993912566617794,
+      "bottom_width_um": 9.966450460871636,
+      "upper_width_um": 60.20032694190526,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A0_G08",
+      "family": "A0",
+      "height_um": 81.27058385089786,
+      "bottom_width_um": 22.284539111438036,
+      "upper_width_um": 62.62390598480807,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A0_G09",
+      "family": "A0",
+      "height_um": 99.0149375064688,
+      "bottom_width_um": 21.529481237122223,
+      "upper_width_um": 67.69391136172166,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A0_G10",
+      "family": "A0",
+      "height_um": 66.2383551604271,
+      "bottom_width_um": 15.954602839765482,
+      "upper_width_um": 68.7434135004424,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G01",
+      "family": "A3",
+      "height_um": 88.9123222527771,
+      "bottom_width_um": 14.49750936177748,
+      "upper_width_um": 66.22889051464131,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A3_G02",
+      "family": "A3",
+      "height_um": 33.414978566341034,
+      "bottom_width_um": 23.955088805106946,
+      "upper_width_um": 65.83441323443236,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A3_G03",
+      "family": "A3",
+      "height_um": 43.688343654711424,
+      "bottom_width_um": 16.722782414064238,
+      "upper_width_um": 61.69867010731721,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A3_G04",
+      "family": "A3",
+      "height_um": 39.792140048876895,
+      "bottom_width_um": 30.921129764033097,
+      "upper_width_um": 64.1893249135486,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A3_G05",
+      "family": "A3",
+      "height_um": 82.42660441029827,
+      "bottom_width_um": 30.050388774779748,
+      "upper_width_um": 69.64167735401989,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A3_G06",
+      "family": "A3",
+      "height_um": 73.78166484997347,
+      "bottom_width_um": 30.13819929900758,
+      "upper_width_um": 71.52504494430923,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A3_G07",
+      "family": "A3",
+      "height_um": 50.993912566617794,
+      "bottom_width_um": 9.966450460871636,
+      "upper_width_um": 60.20032694190526,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A3_G08",
+      "family": "A3",
+      "height_um": 81.27058385089786,
+      "bottom_width_um": 22.284539111438036,
+      "upper_width_um": 62.62390598480807,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A3_G09",
+      "family": "A3",
+      "height_um": 99.0149375064688,
+      "bottom_width_um": 21.529481237122223,
+      "upper_width_um": 67.69391136172166,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A3_G10",
+      "family": "A3",
+      "height_um": 66.2383551604271,
+      "bottom_width_um": 15.954602839765482,
+      "upper_width_um": 68.7434135004424,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G11",
+      "family": "A0",
+      "height_um": 40.61866395927822,
+      "bottom_width_um": 25.751556062651375,
+      "upper_width_um": 71.37678853050522,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G11",
+      "family": "A3",
+      "height_um": 40.61866395927822,
+      "bottom_width_um": 25.751556062651375,
+      "upper_width_um": 71.37678853050522,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G12",
+      "family": "A0",
+      "height_um": 55.976873433591365,
+      "bottom_width_um": 31.266649840349906,
+      "upper_width_um": 70.72976056211809,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G12",
+      "family": "A3",
+      "height_um": 55.976873433591365,
+      "bottom_width_um": 31.266649840349906,
+      "upper_width_um": 70.72976056211809,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G13",
+      "family": "A0",
+      "height_um": 57.292056360917975,
+      "bottom_width_um": 25.574305621495512,
+      "upper_width_um": 62.50371476110212,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G13",
+      "family": "A3",
+      "height_um": 57.292056360917975,
+      "bottom_width_um": 25.574305621495512,
+      "upper_width_um": 62.50371476110212,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G14",
+      "family": "A0",
+      "height_um": 52.821611775341474,
+      "bottom_width_um": 23.68317698150962,
+      "upper_width_um": 63.41370262191902,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G14",
+      "family": "A3",
+      "height_um": 52.821611775341474,
+      "bottom_width_um": 23.68317698150962,
+      "upper_width_um": 63.41370262191902,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G15",
+      "family": "A0",
+      "height_um": 99.01331701472719,
+      "bottom_width_um": 16.21239727371966,
+      "upper_width_um": 67.04493502597276,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G15",
+      "family": "A3",
+      "height_um": 99.01331701472719,
+      "bottom_width_um": 16.21239727371966,
+      "upper_width_um": 67.04493502597276,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G16",
+      "family": "A0",
+      "height_um": 52.26502727459436,
+      "bottom_width_um": 29.420600310911468,
+      "upper_width_um": 63.296433251281236,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G16",
+      "family": "A3",
+      "height_um": 52.26502727459436,
+      "bottom_width_um": 29.420600310911468,
+      "upper_width_um": 63.296433251281236,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G17",
+      "family": "A0",
+      "height_um": 65.44799348324194,
+      "bottom_width_um": 14.243764872428521,
+      "upper_width_um": 68.21165098920947,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G17",
+      "family": "A3",
+      "height_um": 65.44799348324194,
+      "bottom_width_um": 14.243764872428521,
+      "upper_width_um": 68.21165098920947,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G18",
+      "family": "A0",
+      "height_um": 80.70707575412295,
+      "bottom_width_um": 14.247444522046429,
+      "upper_width_um": 60.41649325204558,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G18",
+      "family": "A3",
+      "height_um": 80.70707575412295,
+      "bottom_width_um": 14.247444522046429,
+      "upper_width_um": 60.41649325204558,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G19",
+      "family": "A0",
+      "height_um": 77.7205284063984,
+      "bottom_width_um": 21.592547393965297,
+      "upper_width_um": 60.545647460952665,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G19",
+      "family": "A3",
+      "height_um": 77.7205284063984,
+      "bottom_width_um": 21.592547393965297,
+      "upper_width_um": 60.545647460952665,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G20",
+      "family": "A0",
+      "height_um": 76.16605983984796,
+      "bottom_width_um": 20.122308876678492,
+      "upper_width_um": 70.48361062022032,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G20",
+      "family": "A3",
+      "height_um": 76.16605983984796,
+      "bottom_width_um": 20.122308876678492,
+      "upper_width_um": 70.48361062022032,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G21",
+      "family": "A0",
+      "height_um": 44.82919957170265,
+      "bottom_width_um": 10.831995253505173,
+      "upper_width_um": 69.07694607332974,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G21",
+      "family": "A3",
+      "height_um": 44.82919957170265,
+      "bottom_width_um": 10.831995253505173,
+      "upper_width_um": 69.07694607332974,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G22",
+      "family": "A0",
+      "height_um": 85.74838287037146,
+      "bottom_width_um": 13.39156771346509,
+      "upper_width_um": 60.61491806516385,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G22",
+      "family": "A3",
+      "height_um": 85.74838287037146,
+      "bottom_width_um": 13.39156771346509,
+      "upper_width_um": 60.61491806516385,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G23",
+      "family": "A0",
+      "height_um": 92.65987274452307,
+      "bottom_width_um": 21.860163363998208,
+      "upper_width_um": 70.99811697418998,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G23",
+      "family": "A3",
+      "height_um": 92.65987274452307,
+      "bottom_width_um": 21.860163363998208,
+      "upper_width_um": 70.99811697418998,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G24",
+      "family": "A0",
+      "height_um": 85.92565635255708,
+      "bottom_width_um": 20.291147098332647,
+      "upper_width_um": 62.20018466511857,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G24",
+      "family": "A3",
+      "height_um": 85.92565635255708,
+      "bottom_width_um": 20.291147098332647,
+      "upper_width_um": 62.20018466511857,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G25",
+      "family": "A0",
+      "height_um": 81.74037150514975,
+      "bottom_width_um": 17.191632070415086,
+      "upper_width_um": 64.24565451227309,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G25",
+      "family": "A3",
+      "height_um": 81.74037150514975,
+      "bottom_width_um": 17.191632070415086,
+      "upper_width_um": 64.24565451227309,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G26",
+      "family": "A0",
+      "height_um": 74.32759833441534,
+      "bottom_width_um": 34.96779509724632,
+      "upper_width_um": 70.36033576548442,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G26",
+      "family": "A3",
+      "height_um": 74.32759833441534,
+      "bottom_width_um": 34.96779509724632,
+      "upper_width_um": 70.36033576548442,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G27",
+      "family": "A0",
+      "height_um": 76.02806994852847,
+      "bottom_width_um": 24.978917698920256,
+      "upper_width_um": 65.7183327894589,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G27",
+      "family": "A3",
+      "height_um": 76.02806994852847,
+      "bottom_width_um": 24.978917698920256,
+      "upper_width_um": 65.7183327894589,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G28",
+      "family": "A0",
+      "height_um": 48.229613755424474,
+      "bottom_width_um": 25.040155680137808,
+      "upper_width_um": 64.92068151158986,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G28",
+      "family": "A3",
+      "height_um": 48.229613755424474,
+      "bottom_width_um": 25.040155680137808,
+      "upper_width_um": 64.92068151158986,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G29",
+      "family": "A0",
+      "height_um": 71.36861399668176,
+      "bottom_width_um": 19.57282124543526,
+      "upper_width_um": 60.85375375478889,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G29",
+      "family": "A3",
+      "height_um": 71.36861399668176,
+      "bottom_width_um": 19.57282124543526,
+      "upper_width_um": 60.85375375478889,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G30",
+      "family": "A0",
+      "height_um": 41.33935576296571,
+      "bottom_width_um": 10.535377822440442,
+      "upper_width_um": 69.81142009487637,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G30",
+      "family": "A3",
+      "height_um": 41.33935576296571,
+      "bottom_width_um": 10.535377822440442,
+      "upper_width_um": 69.81142009487637,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G31",
+      "family": "A0",
+      "height_um": 43.5610736668047,
+      "bottom_width_um": 19.583770350499133,
+      "upper_width_um": 70.17738188173324,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G31",
+      "family": "A3",
+      "height_um": 43.5610736668047,
+      "bottom_width_um": 19.583770350499133,
+      "upper_width_um": 70.17738188173324,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G32",
+      "family": "A0",
+      "height_um": 48.68616455038911,
+      "bottom_width_um": 13.880281108409433,
+      "upper_width_um": 67.89619002570225,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G32",
+      "family": "A3",
+      "height_um": 48.68616455038911,
+      "bottom_width_um": 13.880281108409433,
+      "upper_width_um": 67.89619002570225,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G33",
+      "family": "A0",
+      "height_um": 95.16071721230207,
+      "bottom_width_um": 16.254938831029342,
+      "upper_width_um": 71.93978161442352,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G33",
+      "family": "A3",
+      "height_um": 95.16071721230207,
+      "bottom_width_um": 16.254938831029342,
+      "upper_width_um": 71.93978161442352,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G34",
+      "family": "A0",
+      "height_um": 47.18242254494603,
+      "bottom_width_um": 25.443590177788856,
+      "upper_width_um": 60.74098077421727,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G34",
+      "family": "A3",
+      "height_um": 47.18242254494603,
+      "bottom_width_um": 25.443590177788856,
+      "upper_width_um": 60.74098077421727,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G35",
+      "family": "A0",
+      "height_um": 77.2255513364593,
+      "bottom_width_um": 17.41454096933565,
+      "upper_width_um": 66.27461393590153,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G35",
+      "family": "A3",
+      "height_um": 77.2255513364593,
+      "bottom_width_um": 17.41454096933565,
+      "upper_width_um": 66.27461393590153,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G36",
+      "family": "A0",
+      "height_um": 60.7438685173805,
+      "bottom_width_um": 21.67932102224298,
+      "upper_width_um": 64.84491883448703,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G36",
+      "family": "A3",
+      "height_um": 60.7438685173805,
+      "bottom_width_um": 21.67932102224298,
+      "upper_width_um": 64.84491883448703,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G37",
+      "family": "A0",
+      "height_um": 39.960352503142374,
+      "bottom_width_um": 28.3337682362262,
+      "upper_width_um": 68.3045691524961,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G37",
+      "family": "A3",
+      "height_um": 39.960352503142374,
+      "bottom_width_um": 28.3337682362262,
+      "upper_width_um": 68.3045691524961,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G38",
+      "family": "A0",
+      "height_um": 95.60359666243248,
+      "bottom_width_um": 30.634080968023593,
+      "upper_width_um": 66.74591608157631,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G38",
+      "family": "A3",
+      "height_um": 95.60359666243248,
+      "bottom_width_um": 30.634080968023593,
+      "upper_width_um": 66.74591608157631,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G39",
+      "family": "A0",
+      "height_um": 68.05978132362026,
+      "bottom_width_um": 11.696232964448708,
+      "upper_width_um": 60.06187366797629,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G39",
+      "family": "A3",
+      "height_um": 68.05978132362026,
+      "bottom_width_um": 11.696232964448708,
+      "upper_width_um": 60.06187366797629,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G40",
+      "family": "A0",
+      "height_um": 48.35319491035733,
+      "bottom_width_um": 29.338660323597317,
+      "upper_width_um": 61.31914872020146,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G40",
+      "family": "A3",
+      "height_um": 48.35319491035733,
+      "bottom_width_um": 29.338660323597317,
+      "upper_width_um": 61.31914872020146,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G41",
+      "family": "A0",
+      "height_um": 90.74820746620243,
+      "bottom_width_um": 30.3654576508525,
+      "upper_width_um": 62.350780308772215,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G41",
+      "family": "A3",
+      "height_um": 90.74820746620243,
+      "bottom_width_um": 30.3654576508525,
+      "upper_width_um": 62.350780308772215,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G42",
+      "family": "A0",
+      "height_um": 73.35093176486377,
+      "bottom_width_um": 23.323582255915884,
+      "upper_width_um": 66.44273043705186,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G42",
+      "family": "A3",
+      "height_um": 73.35093176486377,
+      "bottom_width_um": 23.323582255915884,
+      "upper_width_um": 66.44273043705186,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G43",
+      "family": "A0",
+      "height_um": 60.33192569194231,
+      "bottom_width_um": 15.00869117866948,
+      "upper_width_um": 61.05069681275464,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G43",
+      "family": "A3",
+      "height_um": 60.33192569194231,
+      "bottom_width_um": 15.00869117866948,
+      "upper_width_um": 61.05069681275464,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G44",
+      "family": "A0",
+      "height_um": 87.79125820970081,
+      "bottom_width_um": 28.02525825152357,
+      "upper_width_um": 61.654823129818055,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G44",
+      "family": "A3",
+      "height_um": 87.79125820970081,
+      "bottom_width_um": 28.02525825152357,
+      "upper_width_um": 61.654823129818055,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G45",
+      "family": "A0",
+      "height_um": 49.52811306865689,
+      "bottom_width_um": 30.36885046503002,
+      "upper_width_um": 64.58821957003009,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G45",
+      "family": "A3",
+      "height_um": 49.52811306865689,
+      "bottom_width_um": 30.36885046503002,
+      "upper_width_um": 64.58821957003009,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G46",
+      "family": "A0",
+      "height_um": 73.3358317392859,
+      "bottom_width_um": 20.645122493550723,
+      "upper_width_um": 65.256662530622,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G46",
+      "family": "A3",
+      "height_um": 73.3358317392859,
+      "bottom_width_um": 20.645122493550723,
+      "upper_width_um": 65.256662530622,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G47",
+      "family": "A0",
+      "height_um": 47.48522802988193,
+      "bottom_width_um": 15.6419251692134,
+      "upper_width_um": 62.791586770307575,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G47",
+      "family": "A3",
+      "height_um": 47.48522802988193,
+      "bottom_width_um": 15.6419251692134,
+      "upper_width_um": 62.791586770307575,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G48",
+      "family": "A0",
+      "height_um": 56.987183919163655,
+      "bottom_width_um": 22.012498755651123,
+      "upper_width_um": 65.34520733787163,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G48",
+      "family": "A3",
+      "height_um": 56.987183919163655,
+      "bottom_width_um": 22.012498755651123,
+      "upper_width_um": 65.34520733787163,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G49",
+      "family": "A0",
+      "height_um": 62.28931358692528,
+      "bottom_width_um": 15.916050991668822,
+      "upper_width_um": 61.49583270626576,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G49",
+      "family": "A3",
+      "height_um": 62.28931358692528,
+      "bottom_width_um": 15.916050991668822,
+      "upper_width_um": 61.49583270626576,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G50",
+      "family": "A0",
+      "height_um": 45.547334043318614,
+      "bottom_width_um": 27.11171840054405,
+      "upper_width_um": 69.12223867347653,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G50",
+      "family": "A3",
+      "height_um": 45.547334043318614,
+      "bottom_width_um": 27.11171840054405,
+      "upper_width_um": 69.12223867347653,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G51",
+      "family": "A0",
+      "height_um": 57.664874399087665,
+      "bottom_width_um": 30.28966117120812,
+      "upper_width_um": 67.37222219569871,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G51",
+      "family": "A3",
+      "height_um": 57.664874399087665,
+      "bottom_width_um": 30.28966117120812,
+      "upper_width_um": 67.37222219569871,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G52",
+      "family": "A0",
+      "height_um": 89.22010436755508,
+      "bottom_width_um": 14.553037036431142,
+      "upper_width_um": 68.0408368984231,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G52",
+      "family": "A3",
+      "height_um": 89.22010436755508,
+      "bottom_width_um": 14.553037036431142,
+      "upper_width_um": 68.0408368984231,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G53",
+      "family": "A0",
+      "height_um": 63.29577588512567,
+      "bottom_width_um": 25.425022342362634,
+      "upper_width_um": 66.62872818613,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G53",
+      "family": "A3",
+      "height_um": 63.29577588512567,
+      "bottom_width_um": 25.425022342362634,
+      "upper_width_um": 66.62872818613,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G54",
+      "family": "A0",
+      "height_um": 78.6913332117969,
+      "bottom_width_um": 18.62433386575118,
+      "upper_width_um": 63.56798363811571,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G54",
+      "family": "A3",
+      "height_um": 78.6913332117969,
+      "bottom_width_um": 18.62433386575118,
+      "upper_width_um": 63.56798363811571,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G55",
+      "family": "A0",
+      "height_um": 43.189443782528876,
+      "bottom_width_um": 21.346642275794746,
+      "upper_width_um": 70.90618860429304,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G55",
+      "family": "A3",
+      "height_um": 43.189443782528876,
+      "bottom_width_um": 21.346642275794746,
+      "upper_width_um": 70.90618860429304,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G56",
+      "family": "A0",
+      "height_um": 36.59099743559774,
+      "bottom_width_um": 28.273823596838806,
+      "upper_width_um": 69.99438892551328,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G56",
+      "family": "A3",
+      "height_um": 36.59099743559774,
+      "bottom_width_um": 28.273823596838806,
+      "upper_width_um": 69.99438892551328,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G57",
+      "family": "A0",
+      "height_um": 88.36362463276957,
+      "bottom_width_um": 17.577725895212392,
+      "upper_width_um": 62.69251974972835,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G57",
+      "family": "A3",
+      "height_um": 88.36362463276957,
+      "bottom_width_um": 17.577725895212392,
+      "upper_width_um": 62.69251974972835,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G58",
+      "family": "A0",
+      "height_um": 81.34575825188777,
+      "bottom_width_um": 11.512090415876447,
+      "upper_width_um": 64.38503741732657,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G58",
+      "family": "A3",
+      "height_um": 81.34575825188777,
+      "bottom_width_um": 11.512090415876447,
+      "upper_width_um": 64.38503741732657,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G59",
+      "family": "A0",
+      "height_um": 95.77237027052091,
+      "bottom_width_um": 23.621754851407097,
+      "upper_width_um": 69.5683382310155,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G59",
+      "family": "A3",
+      "height_um": 95.77237027052091,
+      "bottom_width_um": 23.621754851407097,
+      "upper_width_um": 69.5683382310155,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G60",
+      "family": "A0",
+      "height_um": 54.532268389243065,
+      "bottom_width_um": 13.19013900797305,
+      "upper_width_um": 66.52392876435184,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G60",
+      "family": "A3",
+      "height_um": 54.532268389243065,
+      "bottom_width_um": 13.19013900797305,
+      "upper_width_um": 66.52392876435184,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G61",
+      "family": "A0",
+      "height_um": 34.12022371674453,
+      "bottom_width_um": 17.865636494479563,
+      "upper_width_um": 62.081503172744505,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G61",
+      "family": "A3",
+      "height_um": 34.12022371674453,
+      "bottom_width_um": 17.865636494479563,
+      "upper_width_um": 62.081503172744505,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G62",
+      "family": "A0",
+      "height_um": 34.32550841787553,
+      "bottom_width_um": 21.999821114553693,
+      "upper_width_um": 63.83039637075601,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G62",
+      "family": "A3",
+      "height_um": 34.32550841787553,
+      "bottom_width_um": 21.999821114553693,
+      "upper_width_um": 63.83039637075601,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G63",
+      "family": "A0",
+      "height_um": 70.73729859310409,
+      "bottom_width_um": 19.489770151845825,
+      "upper_width_um": 65.88160276724652,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G63",
+      "family": "A3",
+      "height_um": 70.73729859310409,
+      "bottom_width_um": 19.489770151845825,
+      "upper_width_um": 65.88160276724652,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G64",
+      "family": "A0",
+      "height_um": 65.83277700308712,
+      "bottom_width_um": 28.41065800483255,
+      "upper_width_um": 63.938587386262824,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G64",
+      "family": "A3",
+      "height_um": 65.83277700308712,
+      "bottom_width_um": 28.41065800483255,
+      "upper_width_um": 63.938587386262824,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G65",
+      "family": "A0",
+      "height_um": 87.08974058208804,
+      "bottom_width_um": 29.36405705890254,
+      "upper_width_um": 69.33355337167112,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G65",
+      "family": "A3",
+      "height_um": 87.08974058208804,
+      "bottom_width_um": 29.36405705890254,
+      "upper_width_um": 69.33355337167112,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G66",
+      "family": "A0",
+      "height_um": 90.58879395939897,
+      "bottom_width_um": 10.531259185524899,
+      "upper_width_um": 65.11777706865136,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G66",
+      "family": "A3",
+      "height_um": 90.58879395939897,
+      "bottom_width_um": 10.531259185524899,
+      "upper_width_um": 65.11777706865136,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G67",
+      "family": "A0",
+      "height_um": 63.27141902595029,
+      "bottom_width_um": 29.243108638420082,
+      "upper_width_um": 64.77369772124695,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G67",
+      "family": "A3",
+      "height_um": 63.27141902595029,
+      "bottom_width_um": 29.243108638420082,
+      "upper_width_um": 64.77369772124695,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G68",
+      "family": "A0",
+      "height_um": 45.40378804494223,
+      "bottom_width_um": 29.256165986046742,
+      "upper_width_um": 62.89252002131321,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G68",
+      "family": "A3",
+      "height_um": 45.40378804494223,
+      "bottom_width_um": 29.256165986046742,
+      "upper_width_um": 62.89252002131321,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G69",
+      "family": "A0",
+      "height_um": 75.86493082613605,
+      "bottom_width_um": 21.234204710694424,
+      "upper_width_um": 69.3824285584502,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G69",
+      "family": "A3",
+      "height_um": 75.86493082613605,
+      "bottom_width_um": 21.234204710694424,
+      "upper_width_um": 69.3824285584502,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G70",
+      "family": "A0",
+      "height_um": 63.468854933504204,
+      "bottom_width_um": 18.145097731847436,
+      "upper_width_um": 70.26233493235522,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G70",
+      "family": "A3",
+      "height_um": 63.468854933504204,
+      "bottom_width_um": 18.145097731847436,
+      "upper_width_um": 70.26233493235522,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G71",
+      "family": "A0",
+      "height_um": 89.7094501338382,
+      "bottom_width_um": 12.364276151646294,
+      "upper_width_um": 62.01351584959496,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G71",
+      "family": "A3",
+      "height_um": 89.7094501338382,
+      "bottom_width_um": 12.364276151646294,
+      "upper_width_um": 62.01351584959496,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G72",
+      "family": "A0",
+      "height_um": 56.900278383164625,
+      "bottom_width_um": 27.975480356570774,
+      "upper_width_um": 70.60335748248028,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G72",
+      "family": "A3",
+      "height_um": 56.900278383164625,
+      "bottom_width_um": 27.975480356570774,
+      "upper_width_um": 70.60335748248028,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G73",
+      "family": "A0",
+      "height_um": 74.00413668588548,
+      "bottom_width_um": 16.921266255502427,
+      "upper_width_um": 61.85631145961564,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G73",
+      "family": "A3",
+      "height_um": 74.00413668588548,
+      "bottom_width_um": 16.921266255502427,
+      "upper_width_um": 61.85631145961564,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G74",
+      "family": "A0",
+      "height_um": 42.461477538175124,
+      "bottom_width_um": 25.02224387955107,
+      "upper_width_um": 64.0497376329394,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G74",
+      "family": "A3",
+      "height_um": 42.461477538175124,
+      "bottom_width_um": 25.02224387955107,
+      "upper_width_um": 64.0497376329394,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G75",
+      "family": "A0",
+      "height_um": 63.10909931684885,
+      "bottom_width_um": 27.421491917639255,
+      "upper_width_um": 68.4758713489183,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G75",
+      "family": "A3",
+      "height_um": 63.10909931684885,
+      "bottom_width_um": 27.421491917639255,
+      "upper_width_um": 68.4758713489183,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G76",
+      "family": "A0",
+      "height_um": 79.49829157400447,
+      "bottom_width_um": 17.988184973637924,
+      "upper_width_um": 71.2528904385904,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G76",
+      "family": "A3",
+      "height_um": 79.49829157400447,
+      "bottom_width_um": 17.988184973637924,
+      "upper_width_um": 71.2528904385904,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G77",
+      "family": "A0",
+      "height_um": 33.80167540928419,
+      "bottom_width_um": 11.109140660068167,
+      "upper_width_um": 66.0946492267237,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G77",
+      "family": "A3",
+      "height_um": 33.80167540928419,
+      "bottom_width_um": 11.109140660068167,
+      "upper_width_um": 66.0946492267237,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G78",
+      "family": "A0",
+      "height_um": 57.82777632120527,
+      "bottom_width_um": 12.1758356525938,
+      "upper_width_um": 66.93663254599552,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G78",
+      "family": "A3",
+      "height_um": 57.82777632120527,
+      "bottom_width_um": 12.1758356525938,
+      "upper_width_um": 66.93663254599552,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G79",
+      "family": "A0",
+      "height_um": 49.43525234051932,
+      "bottom_width_um": 12.35957148656855,
+      "upper_width_um": 71.78142580259978,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G79",
+      "family": "A3",
+      "height_um": 49.43525234051932,
+      "bottom_width_um": 12.35957148656855,
+      "upper_width_um": 71.78142580259978,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G80",
+      "family": "A0",
+      "height_um": 35.45572312433058,
+      "bottom_width_um": 25.00847182682153,
+      "upper_width_um": 61.33008393065987,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G80",
+      "family": "A3",
+      "height_um": 35.45572312433058,
+      "bottom_width_um": 25.00847182682153,
+      "upper_width_um": 61.33008393065987,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G81",
+      "family": "A0",
+      "height_um": 93.46890694704895,
+      "bottom_width_um": 13.191512344086167,
+      "upper_width_um": 68.85062791195766,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G81",
+      "family": "A3",
+      "height_um": 93.46890694704895,
+      "bottom_width_um": 13.191512344086167,
+      "upper_width_um": 68.85062791195766,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G82",
+      "family": "A0",
+      "height_um": 84.92949929650395,
+      "bottom_width_um": 11.939730797215711,
+      "upper_width_um": 68.00558730212764,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G82",
+      "family": "A3",
+      "height_um": 84.92949929650395,
+      "bottom_width_um": 11.939730797215711,
+      "upper_width_um": 68.00558730212764,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G83",
+      "family": "A0",
+      "height_um": 65.37962904020632,
+      "bottom_width_um": 28.46204748150932,
+      "upper_width_um": 65.55155241569759,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G83",
+      "family": "A3",
+      "height_um": 65.37962904020632,
+      "bottom_width_um": 28.46204748150932,
+      "upper_width_um": 65.55155241569759,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G84",
+      "family": "A0",
+      "height_um": 36.11280036706869,
+      "bottom_width_um": 19.45839643628576,
+      "upper_width_um": 65.406278501718,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G84",
+      "family": "A3",
+      "height_um": 36.11280036706869,
+      "bottom_width_um": 19.45839643628576,
+      "upper_width_um": 65.406278501718,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G85",
+      "family": "A0",
+      "height_um": 81.29433909083454,
+      "bottom_width_um": 24.80122991763263,
+      "upper_width_um": 67.31094193917957,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G85",
+      "family": "A3",
+      "height_um": 81.29433909083454,
+      "bottom_width_um": 24.80122991763263,
+      "upper_width_um": 67.31094193917957,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G86",
+      "family": "A0",
+      "height_um": 60.7540509579874,
+      "bottom_width_um": 21.459969652706697,
+      "upper_width_um": 68.61491635194885,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G86",
+      "family": "A3",
+      "height_um": 60.7540509579874,
+      "bottom_width_um": 21.459969652706697,
+      "upper_width_um": 68.61491635194885,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G87",
+      "family": "A0",
+      "height_um": 46.84564980630741,
+      "bottom_width_um": 12.764846384104402,
+      "upper_width_um": 68.94744575261976,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G87",
+      "family": "A3",
+      "height_um": 46.84564980630741,
+      "bottom_width_um": 12.764846384104402,
+      "upper_width_um": 68.94744575261976,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G88",
+      "family": "A0",
+      "height_um": 87.74775445049987,
+      "bottom_width_um": 33.845545750987185,
+      "upper_width_um": 71.46503124847743,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G88",
+      "family": "A3",
+      "height_um": 87.74775445049987,
+      "bottom_width_um": 33.845545750987185,
+      "upper_width_um": 71.46503124847743,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G89",
+      "family": "A0",
+      "height_um": 60.2530862845575,
+      "bottom_width_um": 33.12723675944581,
+      "upper_width_um": 67.62885897313285,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G89",
+      "family": "A3",
+      "height_um": 60.2530862845575,
+      "bottom_width_um": 33.12723675944581,
+      "upper_width_um": 67.62885897313285,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G90",
+      "family": "A0",
+      "height_um": 80.23135629045721,
+      "bottom_width_um": 34.60770229363575,
+      "upper_width_um": 69.85433867211526,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G90",
+      "family": "A3",
+      "height_um": 80.23135629045721,
+      "bottom_width_um": 34.60770229363575,
+      "upper_width_um": 69.85433867211526,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G91",
+      "family": "A0",
+      "height_um": 39.868084084636024,
+      "bottom_width_um": 15.142283973433571,
+      "upper_width_um": 63.19079836268023,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G91",
+      "family": "A3",
+      "height_um": 39.868084084636024,
+      "bottom_width_um": 15.142283973433571,
+      "upper_width_um": 63.19079836268023,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G92",
+      "family": "A0",
+      "height_um": 68.62344056934056,
+      "bottom_width_um": 14.767771776399881,
+      "upper_width_um": 64.48104516419431,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G92",
+      "family": "A3",
+      "height_um": 68.62344056934056,
+      "bottom_width_um": 14.767771776399881,
+      "upper_width_um": 64.48104516419431,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G93",
+      "family": "A0",
+      "height_um": 86.54726224014682,
+      "bottom_width_um": 26.744082211965498,
+      "upper_width_um": 71.11007878113047,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G93",
+      "family": "A3",
+      "height_um": 86.54726224014682,
+      "bottom_width_um": 26.744082211965498,
+      "upper_width_um": 71.11007878113047,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G94",
+      "family": "A0",
+      "height_um": 60.874450202708495,
+      "bottom_width_um": 12.772176065181394,
+      "upper_width_um": 60.287876384670994,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G94",
+      "family": "A3",
+      "height_um": 60.874450202708495,
+      "bottom_width_um": 12.772176065181394,
+      "upper_width_um": 60.287876384670994,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G95",
+      "family": "A0",
+      "height_um": 46.61227024105761,
+      "bottom_width_um": 22.39271470746349,
+      "upper_width_um": 67.51575665508275,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G95",
+      "family": "A3",
+      "height_um": 46.61227024105761,
+      "bottom_width_um": 22.39271470746349,
+      "upper_width_um": 67.51575665508275,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G96",
+      "family": "A0",
+      "height_um": 46.49502783142275,
+      "bottom_width_um": 27.698925567132903,
+      "upper_width_um": 63.00488281471839,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G96",
+      "family": "A3",
+      "height_um": 46.49502783142275,
+      "bottom_width_um": 27.698925567132903,
+      "upper_width_um": 63.00488281471839,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G97",
+      "family": "A0",
+      "height_um": 94.77939630824922,
+      "bottom_width_um": 27.378357608300732,
+      "upper_width_um": 63.694981290778074,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G97",
+      "family": "A3",
+      "height_um": 94.77939630824922,
+      "bottom_width_um": 27.378357608300732,
+      "upper_width_um": 63.694981290778074,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G98",
+      "family": "A0",
+      "height_um": 70.4158666145375,
+      "bottom_width_um": 10.717593858495025,
+      "upper_width_um": 67.10722860929657,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G98",
+      "family": "A3",
+      "height_um": 70.4158666145375,
+      "bottom_width_um": 10.717593858495025,
+      "upper_width_um": 67.10722860929657,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G99",
+      "family": "A0",
+      "height_um": 98.09681325894577,
+      "bottom_width_um": 34.65468216965557,
+      "upper_width_um": 71.74019438588937,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G99",
+      "family": "A3",
+      "height_um": 98.09681325894577,
+      "bottom_width_um": 34.65468216965557,
+      "upper_width_um": 71.74019438588937,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    },
+    {
+      "id": "A0_G100",
+      "family": "A0",
+      "height_um": 91.62436367801634,
+      "bottom_width_um": 21.173933592020834,
+      "upper_width_um": 61.11739492099375,
+      "pitch_um": 80.0,
+      "curve_segments": 128
+    },
+    {
+      "id": "A3_G100",
+      "family": "A3",
+      "height_um": 91.62436367801634,
+      "bottom_width_um": 21.173933592020834,
+      "upper_width_um": 61.11739492099375,
+      "pitch_um": 80.0,
+      "curve_segments": 1
+    }
+  ],
+  "phases": {
+    "coarse": {
+      "shape_ids": [
+        "A0_G11",
+        "A3_G11",
+        "A0_G12",
+        "A3_G12",
+        "A0_G13",
+        "A3_G13",
+        "A0_G14",
+        "A3_G14",
+        "A0_G15",
+        "A3_G15",
+        "A0_G16",
+        "A3_G16",
+        "A0_G17",
+        "A3_G17",
+        "A0_G18",
+        "A3_G18",
+        "A0_G19",
+        "A3_G19",
+        "A0_G20",
+        "A3_G20",
+        "A0_G21",
+        "A3_G21",
+        "A0_G22",
+        "A3_G22",
+        "A0_G23",
+        "A3_G23",
+        "A0_G24",
+        "A3_G24",
+        "A0_G25",
+        "A3_G25",
+        "A0_G26",
+        "A3_G26",
+        "A0_G27",
+        "A3_G27",
+        "A0_G28",
+        "A3_G28",
+        "A0_G29",
+        "A3_G29",
+        "A0_G30",
+        "A3_G30",
+        "A0_G31",
+        "A3_G31",
+        "A0_G32",
+        "A3_G32",
+        "A0_G33",
+        "A3_G33",
+        "A0_G34",
+        "A3_G34",
+        "A0_G35",
+        "A3_G35",
+        "A0_G36",
+        "A3_G36",
+        "A0_G37",
+        "A3_G37",
+        "A0_G38",
+        "A3_G38",
+        "A0_G39",
+        "A3_G39",
+        "A0_G40",
+        "A3_G40",
+        "A0_G41",
+        "A3_G41",
+        "A0_G42",
+        "A3_G42",
+        "A0_G43",
+        "A3_G43",
+        "A0_G44",
+        "A3_G44",
+        "A0_G45",
+        "A3_G45",
+        "A0_G46",
+        "A3_G46",
+        "A0_G47",
+        "A3_G47",
+        "A0_G48",
+        "A3_G48",
+        "A0_G49",
+        "A3_G49",
+        "A0_G50",
+        "A3_G50",
+        "A0_G51",
+        "A3_G51",
+        "A0_G52",
+        "A3_G52",
+        "A0_G53",
+        "A3_G53",
+        "A0_G54",
+        "A3_G54",
+        "A0_G55",
+        "A3_G55",
+        "A0_G56",
+        "A3_G56",
+        "A0_G57",
+        "A3_G57",
+        "A0_G58",
+        "A3_G58",
+        "A0_G59",
+        "A3_G59",
+        "A0_G60",
+        "A3_G60",
+        "A0_G61",
+        "A3_G61",
+        "A0_G62",
+        "A3_G62",
+        "A0_G63",
+        "A3_G63",
+        "A0_G64",
+        "A3_G64",
+        "A0_G65",
+        "A3_G65",
+        "A0_G66",
+        "A3_G66",
+        "A0_G67",
+        "A3_G67",
+        "A0_G68",
+        "A3_G68",
+        "A0_G69",
+        "A3_G69",
+        "A0_G70",
+        "A3_G70",
+        "A0_G71",
+        "A3_G71",
+        "A0_G72",
+        "A3_G72",
+        "A0_G73",
+        "A3_G73",
+        "A0_G74",
+        "A3_G74",
+        "A0_G75",
+        "A3_G75",
+        "A0_G76",
+        "A3_G76",
+        "A0_G77",
+        "A3_G77",
+        "A0_G78",
+        "A3_G78",
+        "A0_G79",
+        "A3_G79",
+        "A0_G80",
+        "A3_G80",
+        "A0_G81",
+        "A3_G81",
+        "A0_G82",
+        "A3_G82",
+        "A0_G83",
+        "A3_G83",
+        "A0_G84",
+        "A3_G84",
+        "A0_G85",
+        "A3_G85",
+        "A0_G86",
+        "A3_G86",
+        "A0_G87",
+        "A3_G87",
+        "A0_G88",
+        "A3_G88",
+        "A0_G89",
+        "A3_G89",
+        "A0_G90",
+        "A3_G90",
+        "A0_G91",
+        "A3_G91",
+        "A0_G92",
+        "A3_G92",
+        "A0_G93",
+        "A3_G93",
+        "A0_G94",
+        "A3_G94",
+        "A0_G95",
+        "A3_G95",
+        "A0_G96",
+        "A3_G96",
+        "A0_G97",
+        "A3_G97",
+        "A0_G98",
+        "A3_G98",
+        "A0_G99",
+        "A3_G99",
+        "A0_G100",
+        "A3_G100"
+      ],
+      "theta_deg": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        89
+      ],
+      "phi_deg": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75,
+        90,
+        105,
+        120,
+        135,
+        150,
+        165,
+        180,
+        195,
+        210,
+        225,
+        240,
+        255,
+        270,
+        285,
+        300,
+        315,
+        330,
+        345
+      ],
+      "rays_per_condition": 4096,
+      "shape_count": 180,
+      "angles_per_shape": 433,
+      "condition_count": 77940
+    }
+  },
+  "geometry_sampling": {
+    "method": "Augmented Latin hypercube with maximum minimum spacing among 32 trials",
+    "seed": 20261111200,
+    "strata_per_ratio": 100,
+    "ratio_bounds": {
+      "bottom_to_opening": [
+        0.15,
+        0.5
+      ],
+      "height_to_opening": [
+        0.5,
+        1.5
+      ],
+      "opening_to_pitch": [
+        0.75,
+        0.9
+      ]
+    },
+    "minimum_new_spacing_in_normalized_ratios": 0.05795940909488953,
+    "reused_shape_ids": [
+      "A0_G01",
+      "A0_G02",
+      "A0_G03",
+      "A0_G04",
+      "A0_G05",
+      "A0_G06",
+      "A0_G07",
+      "A0_G08",
+      "A0_G09",
+      "A0_G10",
+      "A3_G01",
+      "A3_G02",
+      "A3_G03",
+      "A3_G04",
+      "A3_G05",
+      "A3_G06",
+      "A3_G07",
+      "A3_G08",
+      "A3_G09",
+      "A3_G10"
+    ]
+  }
+}

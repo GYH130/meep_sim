@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "purpose": "G99_P80_MATCHED_WALL_FULLWAVE_PILOT",
+  "stage_root": "__STAGE_ROOT__",
+  "stage_windows": "__STAGE_ROOT__",
+  "comsol_bin": "__COMSOL_BIN__",
+  "frozen_utc": "2026-11-12T01:31:32.378601+00:00",
+  "physical_case_ids": [
+    "G99_A3_P80_t3_l10p5_th0_phi0_s",
+    "G99_A0facets_P80_t3_l10p5_th0_phi0_s"
+  ],
+  "main_case_ids": [
+    "G99_A3_P80_t3_l10p5_th0_phi0_s",
+    "G99_A0facets_P80_t3_l10p5_th0_phi0_s"
+  ],
+  "conditional_case_ids": [],
+  "mesh_only_case_ids": [],
+  "physical_cases_max": 2,
+  "time_window_enforced": false,
+  "automatic_retries": 0,
+  "physical_thresholds_unchanged": true,
+  "resource_plan": {
+    "cores_per_case": 32,
+    "concurrency": 1,
+    "owned_RSS_soft_guard_GiB": 112,
+    "owned_RSS_hard_guard_GiB": 128,
+    "Windows_free_before_admission_GiB_min": 100,
+    "host_free_memory_runtime_minimum_GiB": 64,
+    "host_CPU_before_admission_percent_max": 75,
+    "guard_consecutive_samples": 2,
+    "actual_DOF_max": 8000000,
+    "tetrahedra_max": 2500000,
+    "min_tetrahedron_quality": 0.2,
+    "D_free_GiB_min": 100,
+    "solver_timeout_s": null,
+    "cumulative_budget_s": null,
+    "automatic_retries": 0,
+    "out_of_core_cache_MB": 24576
+  },
+  "linear_solver_plan": {
+    "method": "EXACT_DIRECT_OUT_OF_CORE_NO_BLR",
+    "preserve_active_solver": "fc1 -> d1 (pardiso)",
+    "existing_direct_features": {
+      "dDef": "mumps",
+      "d1": "pardiso"
+    },
+    "ooc": "on",
+    "incore": "manual",
+    "oocmemory_MB": 24576,
+    "mumpsblr": "off",
+    "setting_readback_before_mesh_checkpoint_and_again_before_physics": true,
+    "block_memory_is_not_process_RSS_cap": true,
+    "change_nullspace_sorting_error_control_or_physical_tolerances": false,
+    "compatibility_evidence": "outputs/coated_cavity_floorfilm_20261019/memory_eval/evaluation_review.json"
+  },
+  "both_mesh_preflights_before_any_cavity_solve": true,
+  "formal_qualification": false,
+  "preview_scope": "G99 matched straight and 8-facet wall, P80, 3um explicit bottom-fill; 10.5um normal s only.",
+  "source_hashes": {
+    "CavityFloorFilm.java": "71b68c6565110aa63403f1db1302fef8e9db6e4e57efa553883da83542ada1a3",
+    "FlatObliqueAdmission.java": "3a1e9f09b49068899ae72f3696106879c397a6329979034f681327fa77645f59",
+    "material.json": "ec49aedbd1cfbc6a08ff775d04fbc25cf87ae902a918f747d057e370b1f2473a",
+    "plan.json": "220748479dfc995d7efe70543acb3a433695b4ac9c3f6f37b812b4a54c38a14f",
+    "warn_fixture_metrics.json": "bbeeb4f1ce08153920cf5cf43ada9e54919c7da3c8952ee5ce5ddc4065bf855a",
+    "source_lineage_audit.json": "aa19bf0d9874554923bcc8cdb56cfdaeb846d2a39e6383bdf9abf4b1a2d51196",
+    "run_floorfilm_controller.ps1": "57999cd3e486883565059d2badc66c09511f8ef84b6109a3b576eeb7505f9b47",
+    "run_flat_controls.ps1": "741d2cca5c79dc12898148a348c7a2911de28e922af75b91a93ed21b0309cee6",
+    "run_angular_queue.ps1": "f89a46c07343f610614526e4a2a82854d9fdc67df1ee2567b5898ddeedb93b4d",
+    "queue_review_helpers.ps1": "3a6a4c43a66676f1ef5caae49455229a04d970173d64323fae19bcfd430a7706",
+    "build_release.py": "4f0088b2c0c72f16f49b3752887361e2d430e8016017eb724f17d713412c6ce4"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "state": "REPAIRED_POWER_REVIEW_REQUIRED_PRESERVE_ORIGINALS",
+  "accepted_by_repaired_power": false,
+  "created_utc": "2026-11-04T21:51:02.826486+00:00",
+  "model": {
+    "comparison_loss": 0.3567405584106311,
+    "comparison_loss_key": "A_loss_total",
+    "original_A_port_unchanged": 0.35589938154084155,
+    "original_A_flux_unchanged": 0.3799658728642609,
+    "original_gates_separate_and_unchanged": {
+      "original_state": "FAILED_FLOOR_FILL_CAVITY_DIAGNOSTIC",
+      "original_checks_unchanged": {
+        "geometry_verified": true,
+        "periodic_mesh_verified": true,
+        "all_propagating_channels_present": true,
+        "actual_wavevectors_match_independent_lattice": true,
+        "incident_wavevector_points_down": true,
+        "finite": true,
+        "incident_power": true,
+        "R_orders_vs_net_flux": false,
+        "periodic_side_power": true,
+        "flux_vs_total_loss_absolute": false,
+        "flux_vs_total_loss_relative": false,
+        "passive": true,
+        "requested_global_incidence": true,
+        "side_floquet_source_binding": true,
+        "explicit_global_source_binding": true,
+        "normalized_source_mode_global_direction": true,
+        "internal_E_fit_finite": true,
+        "internal_E_fit_condition": true,
+        "internal_E_fit_relative_L2_residual": true,
+        "internal_E_fit_all_LOO_Pin": true,
+        "internal_E_fit_cut_areas": true,
+        "film_parameter_binding": true,
+        "explicit_film_passive": true,
+        "film_manual_vs_builtin_Qh_absolute": true,
+        "film_manual_vs_builtin_Qh_relative": true,
+        "Ti_H_vs_E_loss_absolute": true,
+        "Ti_H_vs_E_loss_relative": true,
+        "port_vs_total_loss_absolute": true,
+        "port_vs_total_loss_relative": true,
+        "loss_partition_complete": true,
+        "total_loss_passive": true
+      },
+      "original_source_checks_separate": {
+        "requested_global_incidence": true,
+        "incident_wavevector_points_down": true,
+        "side_floquet_source_binding": true,
+        "explicit_global_source_binding": true,
+        "normalized_source_mode_global_direction": true,
+        "internal_E_fit_condition": true,
+        "internal_E_fit_relative_L2_residual": true,
+        "internal_E_fit_all_LOO_Pin": true,
+        "internal_E_fit_cut_areas": true
+      },
+      "original_source_checks_passed": true,
+      "original_non_rawflux_hard_checks_passed": true,
+      "original_raw_flux_flags_unchanged": {
+        "R_orders_vs_net_flux": false,
+        "flux_vs_total_loss_absolute": false,
+        "flux_vs_total_loss_relative": false
+      },
+      "original_top_raw_H_power_diagnostic_unchanged": {
+        "Pin_W": 1.101733998609283,
+        "Pref_W": 0.4793582064171316,
+        "R_zeroth_projection": 0.4350943213354809,
+        "Pin_relative_error_vs_specified_1W": 0.1017339986092829,
+        "original_incident_power_threshold": 0.005,
+        "original_incident_power_flag": false,
+        "role": "Retained boundary derivative-field diagnostic; not the primary source-power admission measurement",
+        "saved_field_evidence": "Original top curl-H trace differed from normalized-mode Maxwell H while source modal power and all-five-plane electric fit were consistent with specified 1W"
+      },
+      "historical_accepted_value_unchanged": null,
+      "historical_results_not_reclassified": true
+    },
+    "two_fixed_cutoff_summaries": [
+      {
+        "cutoff_k0": 1.1,
+        "mode_count": 199,
+        "complete_no_mode_silently_removed": true,
+        "field_prediction_checks_passed": false,
+        "global_relative_L2_E_residual": 0.0020083208928890765,
+        "max_LOO_heldout_relative_L2_E_residual": 0.006583902462076963,
+        "max_full_or_LOO_design_condition": 5.747631014713513,
+        "zeroth_Pin_W": 0.9973190005849074,
+        "all_LOO_zeroth_Pin_W": [
+          0.9967182593134409,
+          0.9978280928036494,
+          0.9972184580691469,
+          0.9982035088047976,
+          0.9965291356259949
+        ],
+        "max_zeroth_full_or_LOO_Pin_error_W": 0.0034708643740051226,
+        "source_Pin_and_LOO_check_passed": true,
+        "total_propagating_incoming_W": 0.9973238795020227,
+        "nonzero_order_incoming_W_preserved": 4.878917115344507e-06,
+        "evanescent_up_down_cross_W_preserved": -1.9126455842224663e-06,
+        "closure_absolute_threshold_unchanged": 0.005,
+        "closure_relative_threshold_unchanged": 0.02,
+        "measurements": [
+          {
+            "method": "measured_E_fitted_H",
+            "all_five_A": [
+              0.35537652569035505,
+              0.35508384236149243,
+              0.3553553128000148,
+              0.3549119228295759,
+              0.35566433708901973
+            ],
+            "A_minmax": [
+              0.3549119228295759,
+              0.35566433708901973
+            ],
+            "max_absolute_closure_error": 0.0018286355810552268,
+            "max_relative_closure_error": 0.005152364469686509,
+            "all_five_preserved_closure_gates_passed": true
+          },
+          {
+            "method": "LOO_measured_E_predicted_H",
+            "all_five_A": [
+              0.3553960111973021,
+              0.3550875270928487,
+              0.3553553128000149,
+              0.35492132335268145,
+              0.35566649803409994
+            ],
+            "A_minmax": [
+              0.35492132335268145,
+              0.35566649803409994
+            ],
+            "max_absolute_closure_error": 0.0018192350579496752,
+            "max_relative_closure_error": 0.005125741786277296,
+            "all_five_preserved_closure_gates_passed": true
+          }
+        ],
+        "method_candidate_checks_passed": false
+      },
+      {
+        "cutoff_k0": 1.2,
+        "mode_count": 223,
+        "complete_no_mode_silently_removed": true,
+        "field_prediction_checks_passed": false,
+        "global_relative_L2_E_residual": 0.0020640249410823195,
+        "max_LOO_heldout_relative_L2_E_residual": 0.006807321928209405,
+        "max_full_or_LOO_design_condition": 5.747631014713513,
+        "zeroth_Pin_W": 0.9973190005849074,
+        "all_LOO_zeroth_Pin_W": [
+          0.9967182593134409,
+          0.9978280928036494,
+          0.9972184580691469,
+          0.9982035088047976,
+          0.9965291356259949
+        ],
+        "max_zeroth_full_or_LOO_Pin_error_W": 0.0034708643740051226,
+        "source_Pin_and_LOO_check_passed": true,
+        "total_propagating_incoming_W": 0.9973238795020227,
+        "nonzero_order_incoming_W_preserved": 4.878917115344507e-06,
+        "evanescent_up_down_cross_W_preserved": -1.679245248757558e-06,
+        "closure_absolute_threshold_unchanged": 0.005,
+        "closure_relative_threshold_unchanged": 0.02,
+        "measurements": [
+          {
+            "method": "measured_E_fitted_H",
+            "all_five_A": [
+              0.3553778204731644,
+              0.35508207402213204,
+              0.3553547948939518,
+              0.3549120794381984,
+              0.35566400494133393
+            ],
+            "A_minmax": [
+              0.3549120794381984,
+              0.35566400494133393
+            ],
+            "max_absolute_closure_error": 0.0018284789724327122,
+            "max_relative_closure_error": 0.005151920935819005,
+            "all_five_preserved_closure_gates_passed": true
+          },
+          {
+            "method": "LOO_measured_E_predicted_H",
+            "all_five_A": [
+              0.3554018470637734,
+              0.3550853018458317,
+              0.3553547948939519,
+              0.35492135644737577,
+              0.3556665072938401
+            ],
+            "A_minmax": [
+              0.35492135644737577,
+              0.3556665072938401
+            ],
+            "max_absolute_closure_error": 0.0018192019632553569,
+            "max_relative_closure_error": 0.0051256480631790054,
+            "all_five_preserved_closure_gates_passed": true
+          }
+        ],
+        "method_candidate_checks_passed": false
+      }
+    ],
+    "truncation_sensitivity": {
+      "new_sensitivity_gate_not_old_closure_gate": 0.0002,
+      "max_all_plane_and_LOO_cutoff12_minus11_A_abs": 5.835866471348705e-06,
+      "passed": true
+    },
+    "saved_point_method_candidate_checks_passed": false,
+    "reconstructed_incident_polarization_leakage_fraction": 1.1754693718241106e-10
+  }
+}

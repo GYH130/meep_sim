@@ -1,0 +1,757 @@
+{
+  "scope": "Saved M0 ideal ray data. Post-processing only. 200 coarse cases and 30 previously computed refinements, including 6 earlier refinements. No spectral or temperature data.",
+  "angle_ranking_sensitivity": {
+    "10": {
+      "coarse_top_normalized_power": [
+        "A0_G99",
+        "A3_G99",
+        "A0_G06"
+      ],
+      "coarse_top_concentration_with_power_tiebreak": [
+        "A0_G66",
+        "A0_G71",
+        "A0_G81"
+      ],
+      "coarse_top_old_product_heuristic": [
+        "A0_G33",
+        "A0_G15",
+        "A0_G52"
+      ],
+      "nondominated_among_coarse": [
+        "A0_G06",
+        "A0_G20",
+        "A0_G23",
+        "A0_G33",
+        "A0_G52",
+        "A0_G66",
+        "A0_G71",
+        "A0_G76",
+        "A0_G81",
+        "A0_G93",
+        "A0_G99"
+      ],
+      "nondominated_without_refinement": [
+        "A0_G20",
+        "A0_G33",
+        "A0_G52",
+        "A0_G76",
+        "A0_G81"
+      ]
+    },
+    "15": {
+      "coarse_top_normalized_power": [
+        "A0_G99",
+        "A3_G99",
+        "A0_G88"
+      ],
+      "coarse_top_concentration_with_power_tiebreak": [
+        "A0_G66",
+        "A0_G71",
+        "A0_G81"
+      ],
+      "coarse_top_old_product_heuristic": [
+        "A0_G23",
+        "A0_G09",
+        "A0_G59"
+      ],
+      "nondominated_among_coarse": [
+        "A0_G01",
+        "A0_G06",
+        "A0_G15",
+        "A0_G23",
+        "A0_G54",
+        "A0_G57",
+        "A0_G59",
+        "A0_G66",
+        "A0_G71",
+        "A0_G76",
+        "A0_G81",
+        "A0_G88",
+        "A0_G93",
+        "A0_G99",
+        "A3_G88"
+      ],
+      "nondominated_without_refinement": [
+        "A0_G54",
+        "A0_G57",
+        "A0_G76",
+        "A0_G81"
+      ]
+    },
+    "20": {
+      "coarse_top_normalized_power": [
+        "A0_G99",
+        "A0_G88",
+        "A3_G99"
+      ],
+      "coarse_top_concentration_with_power_tiebreak": [
+        "A0_G71",
+        "A0_G66",
+        "A0_G81"
+      ],
+      "coarse_top_old_product_heuristic": [
+        "A0_G59",
+        "A0_G93",
+        "A0_G23"
+      ],
+      "nondominated_among_coarse": [
+        "A0_G06",
+        "A0_G09",
+        "A0_G15",
+        "A0_G22",
+        "A0_G23",
+        "A0_G57",
+        "A0_G59",
+        "A0_G65",
+        "A0_G71",
+        "A0_G76",
+        "A0_G81",
+        "A0_G88",
+        "A0_G93",
+        "A0_G99"
+      ],
+      "nondominated_without_refinement": [
+        "A0_G22",
+        "A0_G57",
+        "A0_G65",
+        "A0_G76",
+        "A0_G81"
+      ]
+    },
+    "25": {
+      "coarse_top_normalized_power": [
+        "A0_G99",
+        "A0_G88",
+        "A0_G26"
+      ],
+      "coarse_top_concentration_with_power_tiebreak": [
+        "A0_G71",
+        "A0_G15",
+        "A0_G66"
+      ],
+      "coarse_top_old_product_heuristic": [
+        "A0_G99",
+        "A0_G88",
+        "A0_G65"
+      ],
+      "nondominated_among_coarse": [
+        "A0_G05",
+        "A0_G06",
+        "A0_G09",
+        "A0_G15",
+        "A0_G23",
+        "A0_G38",
+        "A0_G57",
+        "A0_G59",
+        "A0_G65",
+        "A0_G71",
+        "A0_G85",
+        "A0_G88",
+        "A0_G93",
+        "A0_G99"
+      ],
+      "nondominated_without_refinement": [
+        "A0_G38",
+        "A0_G57",
+        "A0_G65",
+        "A0_G85"
+      ]
+    },
+    "30": {
+      "coarse_top_normalized_power": [
+        "A0_G99",
+        "A0_G26",
+        "A0_G88"
+      ],
+      "coarse_top_concentration_with_power_tiebreak": [
+        "A0_G59",
+        "A0_G23",
+        "A0_G09"
+      ],
+      "coarse_top_old_product_heuristic": [
+        "A0_G99",
+        "A0_G88",
+        "A0_G90"
+      ],
+      "nondominated_among_coarse": [
+        "A0_G05",
+        "A0_G06",
+        "A0_G38",
+        "A0_G59",
+        "A0_G65",
+        "A0_G85",
+        "A0_G93",
+        "A0_G97",
+        "A0_G99"
+      ],
+      "nondominated_without_refinement": [
+        "A0_G38",
+        "A0_G65",
+        "A0_G85",
+        "A0_G97"
+      ]
+    },
+    "40": {
+      "coarse_top_normalized_power": [
+        "A0_G26",
+        "A3_G26",
+        "A3_G99"
+      ],
+      "coarse_top_concentration_with_power_tiebreak": [
+        "A0_G26",
+        "A0_G99",
+        "A0_G90"
+      ],
+      "coarse_top_old_product_heuristic": [
+        "A0_G26",
+        "A3_G99",
+        "A0_G99"
+      ],
+      "nondominated_among_coarse": [
+        "A0_G26"
+      ],
+      "nondominated_without_refinement": []
+    },
+    "45": {
+      "coarse_top_normalized_power": [
+        "A0_G26",
+        "A3_G26",
+        "A3_G99"
+      ],
+      "coarse_top_concentration_with_power_tiebreak": [
+        "A0_G26",
+        "A3_G26",
+        "A3_G99"
+      ],
+      "coarse_top_old_product_heuristic": [
+        "A0_G26",
+        "A3_G26",
+        "A3_G99"
+      ],
+      "nondominated_among_coarse": [
+        "A0_G26"
+      ],
+      "nondominated_without_refinement": []
+    },
+    "60": {
+      "coarse_top_normalized_power": [
+        "A0_G26",
+        "A3_G26",
+        "A3_G99"
+      ],
+      "coarse_top_concentration_with_power_tiebreak": [
+        "A0_G26",
+        "A3_G26",
+        "A3_G99"
+      ],
+      "coarse_top_old_product_heuristic": [
+        "A0_G26",
+        "A3_G26",
+        "A3_G99"
+      ],
+      "nondominated_among_coarse": [
+        "A0_G26"
+      ],
+      "nondominated_without_refinement": []
+    }
+  },
+  "paired_coarse_fine_sensitivity": {
+    "15": {
+      "max_abs_coarse_fine_shift_percentage_points": {
+        "cone_average_ideal_emissivity": 0.6860948082679896,
+        "cone_fraction_of_emitted_power": 2.237858222421396,
+        "cone_power_over_full_hemisphere_blackbody": 0.045959637451648515
+      },
+      "near_saturated_concentration_count": {
+        "coarse": 0,
+        "refine": 0
+      }
+    },
+    "30": {
+      "max_abs_coarse_fine_shift_percentage_points": {
+        "cone_average_ideal_emissivity": 0.8519295444482433,
+        "cone_fraction_of_emitted_power": 1.1358495577849625,
+        "cone_power_over_full_hemisphere_blackbody": 0.21298238611206083
+      },
+      "near_saturated_concentration_count": {
+        "coarse": 25,
+        "refine": 11
+      }
+    }
+  },
+  "illustrative_fine_cases": {
+    "A0_G23": {
+      "shape": {
+        "id": "A0_G23",
+        "family": "A0",
+        "height_um": 92.65987274452307,
+        "bottom_width_um": 21.860163363998208,
+        "upper_width_um": 70.99811697418998,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.3078977907533105,
+        "H_over_D": 1.3051032434875394,
+        "D_over_P": 0.8874764621773747
+      },
+      "hemisphere_power_over_full_hemisphere_blackbody": 0.07503220592499514,
+      "normal_cones": {
+        "15": {
+          "projected_blackbody_weight": 0.06698729810778066,
+          "cone_power_over_full_hemisphere_blackbody": 0.04793235245303611,
+          "cone_average_ideal_emissivity": 0.715543898724118,
+          "cone_fraction_of_emitted_power": 0.6388237139256041,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.027099853471959028,
+          "cone_outside_fraction_of_emitted_power": 0.3611762860743959,
+          "cone_outside_mean_ideal_emissivity": 0.029045535411252713,
+          "cone_to_outside_mean_ratio": 24.635245609791884,
+          "unresolved_only_power_interval": [
+            0.04793235245303611,
+            0.04793235245303611
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.6388237139256041,
+            0.6388237139256041
+          ]
+        },
+        "30": {
+          "projected_blackbody_weight": 0.24999999999999994,
+          "cone_power_over_full_hemisphere_blackbody": 0.07503219362549889,
+          "cone_average_ideal_emissivity": 0.3001287745019956,
+          "cone_fraction_of_emitted_power": 0.9999998360771071,
+          "cone_outside_power_over_full_hemisphere_blackbody": 1.2299496254808417e-08,
+          "cone_outside_fraction_of_emitted_power": 1.6392289288553545e-07,
+          "cone_outside_mean_ideal_emissivity": 1.6399328339744557e-08,
+          "cone_to_outside_mean_ratio": null,
+          "unresolved_only_power_interval": [
+            0.07503219362549889,
+            0.07503219362549889
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.9999998360771071,
+            0.9999998360771071
+          ]
+        },
+        "40": {
+          "projected_blackbody_weight": 0.41317591116653474,
+          "cone_power_over_full_hemisphere_blackbody": 0.07503220592499499,
+          "cone_average_ideal_emissivity": 0.18159869415705723,
+          "cone_fraction_of_emitted_power": 0.999999999999998,
+          "cone_outside_power_over_full_hemisphere_blackbody": 1.5265566588595902e-16,
+          "cone_outside_fraction_of_emitted_power": 2.034535223961815e-15,
+          "cone_outside_mean_ideal_emissivity": 2.601387175318925e-16,
+          "cone_to_outside_mean_ratio": null,
+          "unresolved_only_power_interval": [
+            0.07503220592499499,
+            0.07503220592499499
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.999999999999998,
+            0.999999999999998
+          ]
+        },
+        "60": {
+          "projected_blackbody_weight": 0.7499999999999999,
+          "cone_power_over_full_hemisphere_blackbody": 0.0750322059249951,
+          "cone_average_ideal_emissivity": 0.10004294123332681,
+          "cone_fraction_of_emitted_power": 0.9999999999999994,
+          "cone_outside_power_over_full_hemisphere_blackbody": 4.163336342344337e-17,
+          "cone_outside_fraction_of_emitted_power": 5.548732428986769e-16,
+          "cone_outside_mean_ideal_emissivity": 1.665334536937734e-16,
+          "cone_to_outside_mean_ratio": null,
+          "unresolved_only_power_interval": [
+            0.0750322059249951,
+            0.0750322059249951
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.9999999999999994,
+            0.9999999999999994
+          ]
+        }
+      },
+      "off_axis_30deg_around_phi0": {
+        "15": {
+          "projected_blackbody_weight": 0.24148145652147487,
+          "cone_power_over_full_hemisphere_blackbody": 0.0675791274192712,
+          "cone_average_ideal_emissivity": 0.2798522436991406,
+          "cone_fraction_of_emitted_power": 0.9006682741918277,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.007453078505723937,
+          "cone_outside_fraction_of_emitted_power": 0.09933172580817227,
+          "cone_outside_mean_ideal_emissivity": 0.009825835597300655,
+          "cone_to_outside_mean_ratio": 28.481266649324088,
+          "unresolved_only_power_interval": [
+            0.0675791274192712,
+            0.0675791274192712
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.9006682741918277,
+            0.9006682741918277
+          ]
+        },
+        "30": {
+          "projected_blackbody_weight": 0.21650635093825285,
+          "cone_power_over_full_hemisphere_blackbody": 0.03271033966043546,
+          "cone_average_ideal_emissivity": 0.1510825872713747,
+          "cone_fraction_of_emitted_power": 0.4359506595492325,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.04232186626455968,
+          "cone_outside_fraction_of_emitted_power": 0.5640493404507675,
+          "cone_outside_mean_ideal_emissivity": 0.0540168593775344,
+          "cone_to_outside_mean_ratio": 2.7969524517415745,
+          "unresolved_only_power_interval": [
+            0.03271033966043546,
+            0.03271033966043546
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.4359506595492325,
+            0.4359506595492325
+          ]
+        },
+        "45": {
+          "projected_blackbody_weight": 0.17677669526514872,
+          "cone_power_over_full_hemisphere_blackbody": 0.003929680963968706,
+          "cone_average_ideal_emissivity": 0.022229632464135316,
+          "cone_fraction_of_emitted_power": 0.05237325646399033,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.07110252496102644,
+          "cone_outside_fraction_of_emitted_power": 0.9476267435360097,
+          "cone_outside_mean_ideal_emissivity": 0.08637088448793073,
+          "cone_to_outside_mean_ratio": 0.2573741440293069,
+          "unresolved_only_power_interval": [
+            0.003929680963968706,
+            0.003929680963968706
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.05237325646399033,
+            0.05237325646399033
+          ]
+        }
+      }
+    },
+    "A0_G99": {
+      "shape": {
+        "id": "A0_G99",
+        "family": "A0",
+        "height_um": 98.09681325894577,
+        "bottom_width_um": 34.65468216965557,
+        "upper_width_um": 71.74019438588937,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.483058102452979,
+        "H_over_D": 1.367389844684342,
+        "D_over_P": 0.8967524298236171
+      },
+      "hemisphere_power_over_full_hemisphere_blackbody": 0.1880514031709759,
+      "normal_cones": {
+        "15": {
+          "projected_blackbody_weight": 0.06698729810778066,
+          "cone_power_over_full_hemisphere_blackbody": 0.05386885313008807,
+          "cone_average_ideal_emissivity": 0.8041651873078178,
+          "cone_fraction_of_emitted_power": 0.2864581291164875,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.13418255004088783,
+          "cone_outside_fraction_of_emitted_power": 0.7135418708835124,
+          "cone_outside_mean_ideal_emissivity": 0.14381642368721842,
+          "cone_to_outside_mean_ratio": 5.591608848908454,
+          "unresolved_only_power_interval": [
+            0.05386885313008807,
+            0.05386885313008807
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.2864581291164875,
+            0.2864581291164875
+          ]
+        },
+        "30": {
+          "projected_blackbody_weight": 0.24999999999999994,
+          "cone_power_over_full_hemisphere_blackbody": 0.17928718270324293,
+          "cone_average_ideal_emissivity": 0.7171487308129718,
+          "cone_fraction_of_emitted_power": 0.9533945489374277,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.00876422046773298,
+          "cone_outside_fraction_of_emitted_power": 0.04660545106257235,
+          "cone_outside_mean_ideal_emissivity": 0.01168562729031064,
+          "cone_to_outside_mean_ratio": 61.370152666738676,
+          "unresolved_only_power_interval": [
+            0.17928718270324293,
+            0.17928718270324293
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.9533945489374277,
+            0.9533945489374277
+          ]
+        },
+        "40": {
+          "projected_blackbody_weight": 0.41317591116653474,
+          "cone_power_over_full_hemisphere_blackbody": 0.1880514031709759,
+          "cone_average_ideal_emissivity": 0.4551364154798944,
+          "cone_fraction_of_emitted_power": 1.0,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.0,
+          "cone_outside_fraction_of_emitted_power": 0.0,
+          "cone_outside_mean_ideal_emissivity": 0.0,
+          "cone_to_outside_mean_ratio": null,
+          "unresolved_only_power_interval": [
+            0.1880514031709759,
+            0.1880514031709759
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            1.0,
+            1.0
+          ]
+        },
+        "60": {
+          "projected_blackbody_weight": 0.7499999999999999,
+          "cone_power_over_full_hemisphere_blackbody": 0.1880514031709759,
+          "cone_average_ideal_emissivity": 0.2507352042279679,
+          "cone_fraction_of_emitted_power": 1.0,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.0,
+          "cone_outside_fraction_of_emitted_power": 0.0,
+          "cone_outside_mean_ideal_emissivity": 0.0,
+          "cone_to_outside_mean_ratio": null,
+          "unresolved_only_power_interval": [
+            0.1880514031709759,
+            0.1880514031709759
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "off_axis_30deg_around_phi0": {
+        "15": {
+          "projected_blackbody_weight": 0.24148145652147487,
+          "cone_power_over_full_hemisphere_blackbody": 0.13401572699872372,
+          "cone_average_ideal_emissivity": 0.5549731599652072,
+          "cone_fraction_of_emitted_power": 0.712654756831976,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.05403567617225219,
+          "cone_outside_fraction_of_emitted_power": 0.287345243168024,
+          "cone_outside_mean_ideal_emissivity": 0.07123843792196233,
+          "cone_to_outside_mean_ratio": 7.7903611611072785,
+          "unresolved_only_power_interval": [
+            0.13401572699872372,
+            0.13401572699872372
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.712654756831976,
+            0.712654756831976
+          ]
+        },
+        "30": {
+          "projected_blackbody_weight": 0.21650635093825285,
+          "cone_power_over_full_hemisphere_blackbody": 0.07602977021530676,
+          "cone_average_ideal_emissivity": 0.35116646641460547,
+          "cone_fraction_of_emitted_power": 0.4043031263434959,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.11202163295566915,
+          "cone_outside_fraction_of_emitted_power": 0.5956968736565041,
+          "cone_outside_mean_ideal_emissivity": 0.14297707848661928,
+          "cone_to_outside_mean_ratio": 2.456103244881101,
+          "unresolved_only_power_interval": [
+            0.07602977021530676,
+            0.07602977021530676
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.4043031263434959,
+            0.4043031263434959
+          ]
+        },
+        "45": {
+          "projected_blackbody_weight": 0.17677669526514872,
+          "cone_power_over_full_hemisphere_blackbody": 0.026674662090125274,
+          "cone_average_ideal_emissivity": 0.15089467562517642,
+          "cone_fraction_of_emitted_power": 0.14184771631761095,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.16137674108085062,
+          "cone_outside_fraction_of_emitted_power": 0.858152283682389,
+          "cone_outside_mean_ideal_emissivity": 0.1960303360615232,
+          "cone_to_outside_mean_ratio": 0.7697516550592396,
+          "unresolved_only_power_interval": [
+            0.026674662090125274,
+            0.026674662090125274
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.14184771631761095,
+            0.14184771631761095
+          ]
+        }
+      }
+    },
+    "A0_G26": {
+      "shape": {
+        "id": "A0_G26",
+        "family": "A0",
+        "height_um": 74.32759833441534,
+        "bottom_width_um": 34.96779509724632,
+        "upper_width_um": 70.36033576548442,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.4969816405338976,
+        "H_over_D": 1.0563849294601728,
+        "D_over_P": 0.8795041970685553
+      },
+      "hemisphere_power_over_full_hemisphere_blackbody": 0.1916118664865309,
+      "normal_cones": {
+        "15": {
+          "projected_blackbody_weight": 0.06698729810778066,
+          "cone_power_over_full_hemisphere_blackbody": 0.05182680357798867,
+          "cone_average_ideal_emissivity": 0.773681056587785,
+          "cone_fraction_of_emitted_power": 0.27047804777598033,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.13978506290854223,
+          "cone_outside_fraction_of_emitted_power": 0.7295219522240197,
+          "cone_outside_mean_ideal_emissivity": 0.1498211788811103,
+          "cone_to_outside_mean_ratio": 5.1640299613563645,
+          "unresolved_only_power_interval": [
+            0.05182680357798867,
+            0.05182680357798867
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.27047804777598033,
+            0.27047804777598033
+          ]
+        },
+        "30": {
+          "projected_blackbody_weight": 0.24999999999999994,
+          "cone_power_over_full_hemisphere_blackbody": 0.1737494815343006,
+          "cone_average_ideal_emissivity": 0.6949979261372025,
+          "cone_fraction_of_emitted_power": 0.9067782946862223,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.017862384952230304,
+          "cone_outside_fraction_of_emitted_power": 0.09322170531377771,
+          "cone_outside_mean_ideal_emissivity": 0.023816513269640405,
+          "cone_to_outside_mean_ratio": 29.181346499747146,
+          "unresolved_only_power_interval": [
+            0.1737494815343006,
+            0.1737494815343006
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.9067782946862223,
+            0.9067782946862223
+          ]
+        },
+        "40": {
+          "projected_blackbody_weight": 0.41317591116653474,
+          "cone_power_over_full_hemisphere_blackbody": 0.1916118664865309,
+          "cone_average_ideal_emissivity": 0.4637537216183443,
+          "cone_fraction_of_emitted_power": 1.0,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.0,
+          "cone_outside_fraction_of_emitted_power": 0.0,
+          "cone_outside_mean_ideal_emissivity": 0.0,
+          "cone_to_outside_mean_ratio": null,
+          "unresolved_only_power_interval": [
+            0.1916118664865309,
+            0.1916118664865309
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            1.0,
+            1.0
+          ]
+        },
+        "60": {
+          "projected_blackbody_weight": 0.7499999999999999,
+          "cone_power_over_full_hemisphere_blackbody": 0.1916118664865309,
+          "cone_average_ideal_emissivity": 0.2554824886487079,
+          "cone_fraction_of_emitted_power": 1.0,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.0,
+          "cone_outside_fraction_of_emitted_power": 0.0,
+          "cone_outside_mean_ideal_emissivity": 0.0,
+          "cone_to_outside_mean_ratio": null,
+          "unresolved_only_power_interval": [
+            0.1916118664865309,
+            0.1916118664865309
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "off_axis_30deg_around_phi0": {
+        "15": {
+          "projected_blackbody_weight": 0.24148145652147487,
+          "cone_power_over_full_hemisphere_blackbody": 0.13257748208256243,
+          "cone_average_ideal_emissivity": 0.5490172371507638,
+          "cone_fraction_of_emitted_power": 0.6919064278927725,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.059034384403968465,
+          "cone_outside_fraction_of_emitted_power": 0.30809357210722754,
+          "cone_outside_mean_ideal_emissivity": 0.07782853156527982,
+          "cone_to_outside_mean_ratio": 7.054189846692245,
+          "unresolved_only_power_interval": [
+            0.13257748208256243,
+            0.13257748208256243
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.6919064278927725,
+            0.6919064278927725
+          ]
+        },
+        "30": {
+          "projected_blackbody_weight": 0.21650635093825285,
+          "cone_power_over_full_hemisphere_blackbody": 0.07668544002512508,
+          "cone_average_ideal_emissivity": 0.3541948755443003,
+          "cone_fraction_of_emitted_power": 0.400212374271275,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.11492642646140581,
+          "cone_outside_fraction_of_emitted_power": 0.599787625728725,
+          "cone_outside_mean_ideal_emissivity": 0.14668456674669034,
+          "cone_to_outside_mean_ratio": 2.414670359670214,
+          "unresolved_only_power_interval": [
+            0.07668544002512508,
+            0.07668544002512508
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.400212374271275,
+            0.400212374271275
+          ]
+        },
+        "45": {
+          "projected_blackbody_weight": 0.17677669526514872,
+          "cone_power_over_full_hemisphere_blackbody": 0.028462642372377056,
+          "cone_average_ideal_emissivity": 0.16100901948464258,
+          "cone_fraction_of_emitted_power": 0.1485432133942383,
+          "cone_outside_power_over_full_hemisphere_blackbody": 0.16314922411415383,
+          "cone_outside_fraction_of_emitted_power": 0.8514567866057617,
+          "cone_outside_mean_ideal_emissivity": 0.19818343719836978,
+          "cone_to_outside_mean_ratio": 0.8124241952847057,
+          "unresolved_only_power_interval": [
+            0.028462642372377056,
+            0.028462642372377056
+          ],
+          "unresolved_only_emitted_fraction_interval": [
+            0.1485432133942383,
+            0.1485432133942383
+          ]
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "path": "outputs/geometry_screen200_resume_20261111/fetched/coarse_summary.json",
+      "sha256": "2292d5fa78f12eb4cfb3b8fbab00962fc667fe3e5e54500728b6281fbe704ce8",
+      "phase": "coarse",
+      "cases": 180,
+      "directions": 77940,
+      "rays_per_direction": 4096,
+      "surface_profile": null
+    },
+    {
+      "path": "outputs/geometry_screen200_resume_20261111/prior/coarse_summary.json",
+      "sha256": "00dcb7d5ea8643c55764bcca048ab516d36109eb42e02b5f6e61494092a68303",
+      "phase": "coarse",
+      "cases": 20,
+      "directions": 8660,
+      "rays_per_direction": 4096,
+      "surface_profile": null
+    },
+    {
+      "path": "outputs/geometry_screen200_resume_20261111/fetched/refine_summary.json",
+      "sha256": "d7d5072925d25d83cd3f9da634250b15c46235466e09324c54bbbe2911c37ce1",
+      "phase": "refine",
+      "cases": 24,
+      "directions": 20760,
+      "rays_per_direction": 65536,
+      "surface_profile": null
+    },
+    {
+      "path": "outputs/geometry_screen200_resume_20261111/prior/refine_summary.json",
+      "sha256": "b89cdd18e4fdef377b5932068e39355430ee0193b53303a81858b828a8b0d2a5",
+      "phase": "refine",
+      "cases": 6,
+      "directions": 5190,
+      "rays_per_direction": 65536,
+      "surface_profile": null
+    }
+  ]
+}

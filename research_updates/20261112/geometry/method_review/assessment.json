@@ -1,0 +1,132 @@
+{
+  "scope": "Read-only scientific-method assessment; no new simulations, thresholds, frozen models or completed labels changed",
+  "evidence_date_local": "2026-11-11",
+  "objective": {
+    "band_um": [
+      3,
+      20
+    ],
+    "maximum_temperature_K": 523,
+    "substrate": "TA2/titanium; not present as a material model in current M0"
+  },
+  "verified_size_selection": {
+    "pairs": 110,
+    "samples": 220,
+    "method": "Augmented Latin hypercube, 32 candidate layouts, maximin normalized distance; matched A0/A3 dimensions",
+    "ratio_bounds": {
+      "b_over_d": [
+        0.15,
+        0.5
+      ],
+      "H_over_d": [
+        0.5,
+        1.5
+      ],
+      "d_over_p": [
+        0.75,
+        0.9
+      ]
+    },
+    "actual_ranges_um": {
+      "height_um": [
+        33.414978566341034,
+        99.0149375064688
+      ],
+      "bottom_width_um": [
+        9.966450460871636,
+        34.96779509724632
+      ],
+      "upper_width_um": [
+        60.06187366797629,
+        71.93978161442352
+      ],
+      "pitch_um": [
+        80.0,
+        80.0
+      ]
+    },
+    "experimental_manufacturing_bounds_verified": false,
+    "conclusion": "A computational exploration window, not established feasible fabrication limits or exhaustive global design bounds"
+  },
+  "family_coverage": {
+    "six_labels": [
+      "A0",
+      "A1",
+      "A2",
+      "A3",
+      "B",
+      "C"
+    ],
+    "current_two_profile_scan": [
+      "A0",
+      "A3"
+    ],
+    "conclusion": "Six fixed representatives include variants of shared topology; insufficient evidence to exclude offset cavities, grooves, round cavities or convex geometries",
+    "recommended_axes": [
+      "cavity/mesa/flat-bottom groove topology",
+      "cross-section and area fractions",
+      "straight/curved/faceted wall profile",
+      "normalized lateral offset and asymmetry",
+      "depth and scale",
+      "process-access/rounding/coverage constraints"
+    ]
+  },
+  "performance_assessment": {
+    "normal_cone_weight": "cos(theta)*sin(theta); implemented as integration in sin(theta)^2",
+    "normal_cone_integral_correct": true,
+    "two_cones_deg": [
+      15,
+      30
+    ],
+    "cone_choices_are_final_requirements": false,
+    "selection_product": "epsilon_inside * cone_power_fraction is a heuristic, not a derived objective",
+    "gaps": [
+      "continuous cone response and receiver-axis-specific metrics",
+      "absolute/footprint-normalized output with source and aperture area controls",
+      "azimuth sensitivity and independent ray/angular/profile discretization uncertainty",
+      "3-20 um spectral-angular material response and Planck-weighted power at specified temperatures",
+      "manufacturing robustness, sidewall loss/scatter/residue and thermal uniformity"
+    ],
+    "offaxis_note": "Integrate full 2D sphere cap using surface-normal projected weight; do not use azimuth averaging before off-axis integration"
+  },
+  "ideal_surface_assessment": {
+    "current_boundary": "Perfect black absorbing/emitting floor; lossless specular wall and land",
+    "valid_use": "Conditional geometry-only angular-transport and matched wall-shape comparison",
+    "invalid_inferences": [
+      "physical separation of geometry and coating",
+      "guaranteed ranking under real Ti",
+      "a universal upper bound for every performance metric",
+      "validated 3-20 um or 523 K physical emissivity"
+    ],
+    "scale_note": "Uniform scale leaves M0 normalized rays invariant; real materials and diffraction require absolute scale and wavelength",
+    "longwave_note": "20 um is comparable to 10-35 um floors; no established all-band ray approximation"
+  },
+  "derived_etendue_check": {
+    "assumptions": "Same medium, ideal geometric optics, Lambertian bottom, lossless optics, wish to pass full bottom hemispherical emission through opening into normal cone without rejecting power",
+    "necessary_condition": "A_open*sin(alpha)^2 >= A_bottom; for similar hexagons sin(alpha)>=b/d",
+    "not_sufficient": true,
+    "G99_b_over_d": 0.483058102452979,
+    "G99_min_full_throughput_half_angle_deg": 28.88532272342744,
+    "meaning": "Narrower collection is possible only with incomplete throughput; this is a derived assessment, not the documented original sizing rationale"
+  },
+  "evidence_files": [
+    "outputs/geometry_screen200_20261111/generate_manifest.py",
+    "outputs/geometry_angular_dense_20261111/analyze_angular.py",
+    "outputs/geometry_screen200_resume_20261111/select_refinement.py",
+    "outputs/geometry_screen200_resume_20261111/ray_material.cpp",
+    "outputs/geometry_screen200_resume_20261111/report/metrics.json",
+    "outputs/research_objectives_20261111/specification.json"
+  ],
+  "primary_references": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11133454/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5410787/",
+    "https://www.comsol.com/blogs/introducing-ray-optics-module/"
+  ],
+  "next_recommendation": [
+    "Re-score saved angular data without new physical solves and expose cone-angle and azimuth dependence",
+    "Parameterize family descriptors, dimensionless bounds, source area and access constraints before further dense expansion",
+    "Run a balanced small family panel with paired ideal and common nonideal surface conditions",
+    "Use limited representative full-wave calculations to calibrate the wavelength/angle regions where ray ranking is uncertain; retain quality labels",
+    "Train a scoped surrogate with whole-geometry and matched-pair holdout and evaluate generalization separately by family"
+  ]
+}

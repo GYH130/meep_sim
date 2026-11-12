@@ -1,0 +1,37 @@
+{
+  "case": {
+    "case_wall_elapsed_s": 17437.708174,
+    "saved_field_power_method_validated": false,
+    "case_id": "WFT3_A3H80_b25_t6_l10p5_th0_phi0_s",
+    "hard_failed_checks": [],
+    "warning_checks": [
+      "native_R_orders_vs_net_flux",
+      "native_flux_vs_total_loss_absolute",
+      "native_flux_vs_total_loss_relative",
+      "mode_vs_net",
+      "net_vs_loss_abs",
+      "net_vs_loss_relative"
+    ],
+    "accepted": false,
+    "metrics": {
+      "case_id": "WFT3_A3H80_b25_t6_l10p5_th0_phi0_s",
+      "height_um": 80.0,
+      "bottom_flat_to_flat_um": 25.0,
+      "floor_fill_thickness_um": 6,
+      "wavelength_um": 10.5,
+      "polarization": "s",
+      "R_total": 0.37353547291400724,
+      "A_port": 0.6264645270859928,
+      "A_loss_total": 0.6272671350950989,
+      "A_film": 0.4895157641153326,
+      "A_Ti_H": 0.13775137097976625,
+      "A_flux": 0.6714954858979383
+    }
+  },
+  "observed_utc": "2026-11-11T03:36:41.4716936Z",
+  "queue_finished_utc": "2026-11-10T08:39:52.1291084Z",
+  "queue_state": "COMPLETE_WFT3_AIR29_EXPLORATION",
+  "formal_qualification": false,
+  "mesh_convergence_established": false,
+  "scope": "A3 H80/b25/t6, 10.5 um normal s, saved exploratory full-wave scalar evidence; raw flux warnings retained"
+}

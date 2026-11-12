@@ -1,0 +1,120 @@
+{
+  "created_utc": "2026-11-10T03:22:38.777497+00:00",
+  "case": "WFT3_H80_b25_t6_l10p5_th0_phi0_s",
+  "purpose": "Freeze predictions before an actual WFT3 FEM result exists. This tests out-of-support predictions, not validated optimization.",
+  "known_fem_result_at_freeze": false,
+  "training_excludes_WFT1_WFT2_WFT3": true,
+  "predictions": [
+    {
+      "state": "EXPLORATORY_EXTRAPOLATION",
+      "query": {
+        "height_um": 80.0,
+        "bottom_width_um": 25.0,
+        "film_um": 6.0,
+        "wavelength_um": 10.5,
+        "theta_deg": 0.0,
+        "phi_deg": 0.0,
+        "polarization": "s"
+      },
+      "support_checks": {
+        "bottom_width_seen": false,
+        "wavelength_seen": true,
+        "theta_seen": true,
+        "phi_seen_or_normal": true,
+        "inside_H_t_training_hull": false
+      },
+      "method": "gp",
+      "pool": "primary_exploratory",
+      "predicted_A_loss": 0.3782673498874198,
+      "GP_std_uncalibrated": 0.4593697731328304,
+      "ray_A_total": 0.7048329144116273,
+      "ray_A_film": 0.5979728832963966,
+      "ray_A_Ti_total": 0.10686003111525404,
+      "ray_sampling_standard_error": 0.00037156577901290407,
+      "physical_range_0_1": true,
+      "elapsed_s": 0.48517654099850915,
+      "meaning": "Single wavelength/direction/polarization absorptivity; directional emissivity under reciprocity and thermal-equilibrium assumptions.",
+      "limitations": [
+        "Not a band-integrated or cone-integrated result.",
+        "Eight training geometries; changed bottom width unsupported.",
+        "No clipping of unphysical predictions. GP uncertainty and ray sampling error do not measure model discrepancy.",
+        "Normal-angle wave effects and unreviewed training labels remain limitations."
+      ]
+    },
+    {
+      "state": "EXPLORATORY_EXTRAPOLATION",
+      "query": {
+        "height_um": 80.0,
+        "bottom_width_um": 25.0,
+        "film_um": 6.0,
+        "wavelength_um": 10.5,
+        "theta_deg": 0.0,
+        "phi_deg": 0.0,
+        "polarization": "s"
+      },
+      "support_checks": {
+        "bottom_width_seen": false,
+        "wavelength_seen": true,
+        "theta_seen": true,
+        "phi_seen_or_normal": true,
+        "inside_H_t_training_hull": false
+      },
+      "method": "ray",
+      "pool": "primary_exploratory",
+      "predicted_A_loss": 0.7048329144116273,
+      "GP_std_uncalibrated": null,
+      "ray_A_total": 0.7048329144116273,
+      "ray_A_film": 0.5979728832963966,
+      "ray_A_Ti_total": 0.10686003111525404,
+      "ray_sampling_standard_error": 0.00037156577901290407,
+      "physical_range_0_1": true,
+      "elapsed_s": 0.4795583329978399,
+      "meaning": "Single wavelength/direction/polarization absorptivity; directional emissivity under reciprocity and thermal-equilibrium assumptions.",
+      "limitations": [
+        "Not a band-integrated or cone-integrated result.",
+        "Eight training geometries; changed bottom width unsupported.",
+        "No clipping of unphysical predictions. GP uncertainty and ray sampling error do not measure model discrepancy.",
+        "Normal-angle wave effects and unreviewed training labels remain limitations."
+      ]
+    },
+    {
+      "state": "EXPLORATORY_EXTRAPOLATION",
+      "query": {
+        "height_um": 80.0,
+        "bottom_width_um": 25.0,
+        "film_um": 6.0,
+        "wavelength_um": 10.5,
+        "theta_deg": 0.0,
+        "phi_deg": 0.0,
+        "polarization": "s"
+      },
+      "support_checks": {
+        "bottom_width_seen": false,
+        "wavelength_seen": true,
+        "theta_seen": true,
+        "phi_seen_or_normal": true,
+        "inside_H_t_training_hull": false
+      },
+      "method": "ray_gp_residual",
+      "pool": "primary_exploratory",
+      "predicted_A_loss": 0.7300583669081618,
+      "GP_std_uncalibrated": 0.049090516692429954,
+      "ray_A_total": 0.7048329144116273,
+      "ray_A_film": 0.5979728832963966,
+      "ray_A_Ti_total": 0.10686003111525404,
+      "ray_sampling_standard_error": 0.00037156577901290407,
+      "physical_range_0_1": true,
+      "elapsed_s": 0.48983895799028687,
+      "meaning": "Single wavelength/direction/polarization absorptivity; directional emissivity under reciprocity and thermal-equilibrium assumptions.",
+      "limitations": [
+        "Not a band-integrated or cone-integrated result.",
+        "Eight training geometries; changed bottom width unsupported.",
+        "No clipping of unphysical predictions. GP uncertainty and ray sampling error do not measure model discrepancy.",
+        "Normal-angle wave effects and unreviewed training labels remain limitations."
+      ]
+    }
+  ],
+  "fixed_comparison": "Report signed/absolute error in percentage points, original FEM quality flags, and model disagreement. Do not tune on WFT3 then call it held out.",
+  "desired_initial_error_pp": 3.0,
+  "criterion_role": "Working usefulness target for ranking, not a new FEM gate or claim of formal accuracy."
+}

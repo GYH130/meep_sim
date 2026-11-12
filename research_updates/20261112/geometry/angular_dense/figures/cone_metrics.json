@@ -1,0 +1,1121 @@
+{
+  "scope": "M0 ideal ray transport with a black floor and mirror walls, normalized by unit-cell area",
+  "quadrature": "Azimuth mean followed by piecewise linear integration in u=sin²(theta); hold final angle value to 90 degrees",
+  "unsampled_horizon_tail_weight": 0.00030458649045206343,
+  "floor_area_ratio_diagnostic": "Reciprocal ideal black floor area is a hemispheric emission upper bound; difference includes numerical quadrature and Monte Carlo effects and is not a pass gate",
+  "comparison_scope": "Differences combine angular densification and changes in rays per direction",
+  "coarse_source": "outputs/geometry_angular_dense_20261111/fetched/coarse_summary.json",
+  "refined_source": "outputs/geometry_angular_dense_20261111/fetched/refine_summary.json",
+  "coarse_conditions": 8660,
+  "refined_conditions": 5190,
+  "coarse": {
+    "A0_G01": {
+      "shape": {
+        "id": "A0_G01",
+        "family": "A0",
+        "height_um": 88.9123222527771,
+        "bottom_width_um": 14.49750936177748,
+        "upper_width_um": 66.22889051464131,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.21890007894020957,
+        "H_over_D": 1.3425005546955544,
+        "D_over_P": 0.8278611314330163
+      },
+      "hemispherical_ideal_emissivity": 0.03410911889229245,
+      "floor_area_fraction_of_cell": 0.03284027776481652,
+      "hemi_minus_floor_area_fraction": 0.0012688411274759323,
+      "opening_area_fraction_of_cell": 0.6853540529375539,
+      "land_width_along_neighbor_centers_um": 13.771109485358693,
+      "height_to_opening_ratio": 1.3425005546955544,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.06787109375,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.4037579804084669,
+          "power_fraction": 0.7929450268833858,
+          "mean_ideal_emissivity_outside": 0.0075695247030954805,
+          "mean_inside_to_outside_ratio": 53.339938271600346,
+          "cell_normalized_power": 0.027046656197017436
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.13643647556916924,
+          "power_fraction": 0.9999999999999958,
+          "mean_ideal_emissivity_outside": 1.942890293094024e-16,
+          "mean_inside_to_outside_ratio": null,
+          "cell_normalized_power": 0.0341091188922923
+        }
+      }
+    },
+    "A0_G02": {
+      "shape": {
+        "id": "A0_G02",
+        "family": "A0",
+        "height_um": 33.414978566341034,
+        "bottom_width_um": 23.955088805106946,
+        "upper_width_um": 65.83441323443236,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.3638687979158305,
+        "H_over_D": 0.507560968871285,
+        "D_over_P": 0.8229301654304045
+      },
+      "hemispherical_ideal_emissivity": 0.09007484955026304,
+      "floor_area_fraction_of_cell": 0.08966348119696252,
+      "hemi_minus_floor_area_fraction": 0.000411368353300523,
+      "opening_area_fraction_of_cell": 0.677214057175313,
+      "land_width_along_neighbor_centers_um": 14.165586765567639,
+      "height_to_opening_ratio": 0.507560968871285,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.03442382812499997,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.3591177180874914,
+          "power_fraction": 0.26707039487075634,
+          "mean_ideal_emissivity_outside": 0.07075844067187921,
+          "mean_inside_to_outside_ratio": 5.075263313853831,
+          "cell_normalized_power": 0.02405632563731272
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.2589514165272035,
+          "power_fraction": 0.7187117653266378,
+          "mean_ideal_emissivity_outside": 0.033782660557949575,
+          "mean_inside_to_outside_ratio": 7.665216778382728,
+          "cell_normalized_power": 0.06473785413180086
+        }
+      }
+    },
+    "A0_G03": {
+      "shape": {
+        "id": "A0_G03",
+        "family": "A0",
+        "height_um": 43.688343654711424,
+        "bottom_width_um": 16.722782414064238,
+        "upper_width_um": 61.69867010731721,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.27103959266831884,
+        "H_over_D": 0.7080921449152947,
+        "D_over_P": 0.7712333763414652
+      },
+      "hemispherical_ideal_emissivity": 0.04423355218831529,
+      "floor_area_fraction_of_cell": 0.043695539323146265,
+      "hemi_minus_floor_area_fraction": 0.0005380128651690241,
+      "opening_area_fraction_of_cell": 0.594800920783056,
+      "land_width_along_neighbor_centers_um": 18.301329892682787,
+      "height_to_opening_ratio": 0.7080921449152947,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.031005859374999944,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.2780492039150758,
+          "power_fraction": 0.42107775636003403,
+          "mean_ideal_emissivity_outside": 0.027446343683307325,
+          "mean_inside_to_outside_ratio": 10.130646439590546,
+          "cell_normalized_power": 0.018625764911290275
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.15824831438180229,
+          "power_fraction": 0.894390720126277,
+          "mean_ideal_emissivity_outside": 0.006228631457152967,
+          "mean_inside_to_outside_ratio": 25.406594605957906,
+          "cell_normalized_power": 0.039562078595450564
+        }
+      }
+    },
+    "A0_G04": {
+      "shape": {
+        "id": "A0_G04",
+        "family": "A0",
+        "height_um": 39.792140048876895,
+        "bottom_width_um": 30.921129764033097,
+        "upper_width_um": 64.1893249135486,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.4817176346016765,
+        "H_over_D": 0.6199183447165039,
+        "D_over_P": 0.8023665614193576
+      },
+      "hemispherical_ideal_emissivity": 0.1503740718992153,
+      "floor_area_fraction_of_cell": 0.1493931665444021,
+      "hemi_minus_floor_area_fraction": 0.0009809053548132107,
+      "opening_area_fraction_of_cell": 0.6437920988839237,
+      "land_width_along_neighbor_centers_um": 15.810675086451397,
+      "height_to_opening_ratio": 0.6199183447165039,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.052001953125,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.5838899377472382,
+          "power_fraction": 0.26010607299523314,
+          "mean_ideal_emissivity_outside": 0.11924903310701157,
+          "mean_inside_to_outside_ratio": 4.896391379737794,
+          "cell_normalized_power": 0.039113209322007736
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.4711904588323466,
+          "power_fraction": 0.783363868653086,
+          "mean_ideal_emissivity_outside": 0.04343527625483825,
+          "mean_inside_to_outside_ratio": 10.848105490749832,
+          "cell_normalized_power": 0.11779761470808663
+        }
+      }
+    },
+    "A0_G05": {
+      "shape": {
+        "id": "A0_G05",
+        "family": "A0",
+        "height_um": 82.42660441029827,
+        "bottom_width_um": 30.050388774779748,
+        "upper_width_um": 69.64167735401989,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.4315000717461204,
+        "H_over_D": 1.1835815497562883,
+        "D_over_P": 0.8705209669252486
+      },
+      "hemispherical_ideal_emissivity": 0.1413651981488287,
+      "floor_area_fraction_of_cell": 0.1410977914867826,
+      "hemi_minus_floor_area_fraction": 0.0002674066620461102,
+      "opening_area_fraction_of_cell": 0.7578067538564698,
+      "land_width_along_neighbor_centers_um": 10.35832264598011,
+      "height_to_opening_ratio": 1.1835815497562883,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.12402343749999989,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.7562249368841885,
+          "power_fraction": 0.35834467002456133,
+          "mean_ideal_emissivity_outside": 0.0972202550739855,
+          "mean_inside_to_outside_ratio": 7.778471022408801,
+          "cell_normalized_power": 0.05065746528359875
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.5510069470658449,
+          "power_fraction": 0.9744388192448662,
+          "mean_ideal_emissivity_outside": 0.004817948509823348,
+          "mean_inside_to_outside_ratio": 114.36547027067496,
+          "cell_normalized_power": 0.13775173676646119
+        }
+      }
+    },
+    "A0_G06": {
+      "shape": {
+        "id": "A0_G06",
+        "family": "A0",
+        "height_um": 73.78166484997347,
+        "bottom_width_um": 30.13819929900758,
+        "upper_width_um": 71.52504494430923,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.42136568138438446,
+        "H_over_D": 1.031550066237935,
+        "D_over_P": 0.8940630618038654
+      },
+      "hemispherical_ideal_emissivity": 0.14286206560163156,
+      "floor_area_fraction_of_cell": 0.14192360265417203,
+      "hemi_minus_floor_area_fraction": 0.0009384629474595285,
+      "opening_area_fraction_of_cell": 0.7993487584821024,
+      "land_width_along_neighbor_centers_um": 8.47495505569077,
+      "height_to_opening_ratio": 1.031550066237935,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.1362304687499999,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.7919465767996526,
+          "power_fraction": 0.3713397339042036,
+          "mean_ideal_emissivity_outside": 0.09625989441941356,
+          "mean_inside_to_outside_ratio": 8.22717063608096,
+          "cell_normalized_power": 0.053050361425514746
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.554816778086381,
+          "power_fraction": 0.9708959053438966,
+          "mean_ideal_emissivity_outside": 0.005543828106715128,
+          "mean_inside_to_outside_ratio": 100.078279377808,
+          "cell_normalized_power": 0.13870419452159521
+        }
+      }
+    },
+    "A0_G07": {
+      "shape": {
+        "id": "A0_G07",
+        "family": "A0",
+        "height_um": 50.993912566617794,
+        "bottom_width_um": 9.966450460871636,
+        "upper_width_um": 60.20032694190526,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.16555475638013556,
+        "H_over_D": 0.8470703591996789,
+        "D_over_P": 0.7525040867738158
+      },
+      "hemispherical_ideal_emissivity": 0.015873276559221553,
+      "floor_area_fraction_of_cell": 0.01552033356078257,
+      "hemi_minus_floor_area_fraction": 0.0003529429984389827,
+      "opening_area_fraction_of_cell": 0.5662624006112944,
+      "land_width_along_neighbor_centers_um": 19.79967305809474,
+      "height_to_opening_ratio": 0.8470703591996789,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.027343749999999972,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.12501913716841842,
+          "power_fraction": 0.5275970704241968,
+          "mean_ideal_emissivity_outside": 0.008036956338681674,
+          "mean_inside_to_outside_ratio": 15.555532704178617,
+          "cell_normalized_power": 0.008374694210678366
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.061224750735634804,
+          "power_fraction": 0.9642739875918431,
+          "mean_ideal_emissivity_outside": 0.0007561185004171406,
+          "mean_inside_to_outside_ratio": 80.97242786925318,
+          "cell_normalized_power": 0.015306187683908698
+        }
+      }
+    },
+    "A0_G08": {
+      "shape": {
+        "id": "A0_G08",
+        "family": "A0",
+        "height_um": 81.27058385089786,
+        "bottom_width_um": 22.284539111438036,
+        "upper_width_um": 62.62390598480807,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.3558471602976033,
+        "H_over_D": 1.2977565447708308,
+        "D_over_P": 0.7827988248101009
+      },
+      "hemispherical_ideal_emissivity": 0.07851327792873929,
+      "floor_area_fraction_of_cell": 0.07759385678268929,
+      "hemi_minus_floor_area_fraction": 0.0009194211460499951,
+      "opening_area_fraction_of_cell": 0.612774000124075,
+      "land_width_along_neighbor_centers_um": 17.37609401519193,
+      "height_to_opening_ratio": 1.2977565447708308,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.11865234374999994,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.5979692640252784,
+          "power_fraction": 0.510185619621024,
+          "mean_ideal_emissivity_outside": 0.04121801611295777,
+          "mean_inside_to_outside_ratio": 14.507473197801334,
+          "cell_normalized_power": 0.04005634534855153
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.3140273988476594,
+          "power_fraction": 0.9999181257362572,
+          "mean_ideal_emissivity_outside": 8.5709557659334e-06,
+          "mean_inside_to_outside_ratio": 36638.550871515436,
+          "cell_normalized_power": 0.07850684971191484
+        }
+      }
+    },
+    "A0_G09": {
+      "shape": {
+        "id": "A0_G09",
+        "family": "A0",
+        "height_um": 99.0149375064688,
+        "bottom_width_um": 21.529481237122223,
+        "upper_width_um": 67.69391136172166,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.31804162005176034,
+        "H_over_D": 1.4626860158424526,
+        "D_over_P": 0.8461738920215207
+      },
+      "hemispherical_ideal_emissivity": 0.07493977854953579,
+      "floor_area_fraction_of_cell": 0.07242477536556215,
+      "hemi_minus_floor_area_fraction": 0.0025150031839736436,
+      "opening_area_fraction_of_cell": 0.7160102555388482,
+      "land_width_along_neighbor_centers_um": 12.30608863827834,
+      "height_to_opening_ratio": 1.4626860158424526,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.08056640624999994,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.6846854042325735,
+          "power_fraction": 0.6120277664425767,
+          "mean_ideal_emissivity_outside": 0.031162012271855163,
+          "mean_inside_to_outside_ratio": 21.971796887165922,
+          "cell_normalized_power": 0.04586522528337371
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.29975911419814255,
+          "power_fraction": 0.9999999999999978,
+          "mean_ideal_emissivity_outside": 2.220446049250313e-16,
+          "mean_inside_to_outside_ratio": null,
+          "cell_normalized_power": 0.07493977854953562
+        }
+      }
+    },
+    "A0_G10": {
+      "shape": {
+        "id": "A0_G10",
+        "family": "A0",
+        "height_um": 66.2383551604271,
+        "bottom_width_um": 15.954602839765482,
+        "upper_width_um": 68.7434135004424,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.2320891853830157,
+        "H_over_D": 0.9635592966299357,
+        "D_over_P": 0.85929266875553
+      },
+      "hemispherical_ideal_emissivity": 0.04095291366606004,
+      "floor_area_fraction_of_cell": 0.0397733362147895,
+      "hemi_minus_floor_area_fraction": 0.0011795774512705429,
+      "opening_area_fraction_of_cell": 0.738383890577001,
+      "land_width_along_neighbor_centers_um": 11.2565864995576,
+      "height_to_opening_ratio": 0.9635592966299357,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.03906249999999993,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.3748045769623865,
+          "power_fraction": 0.6130734954262288,
+          "mean_ideal_emissivity_outside": 0.01698344267423545,
+          "mean_inside_to_outside_ratio": 22.068822214178034,
+          "cell_normalized_power": 0.025107145929140005
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.16165094944349317,
+          "power_fraction": 0.9868098199412261,
+          "mean_ideal_emissivity_outside": 0.000720235073582339,
+          "mean_inside_to_outside_ratio": 224.44192927104496,
+          "cell_normalized_power": 0.04041273736087329
+        }
+      }
+    },
+    "A3_G01": {
+      "shape": {
+        "id": "A3_G01",
+        "family": "A3",
+        "height_um": 88.9123222527771,
+        "bottom_width_um": 14.49750936177748,
+        "upper_width_um": 66.22889051464131,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.21890007894020957,
+        "H_over_D": 1.3425005546955544,
+        "D_over_P": 0.8278611314330163
+      },
+      "hemispherical_ideal_emissivity": 0.03367725697903104,
+      "floor_area_fraction_of_cell": 0.03284027776481652,
+      "hemi_minus_floor_area_fraction": 0.0008369792142145227,
+      "opening_area_fraction_of_cell": 0.6853540529375539,
+      "land_width_along_neighbor_centers_um": 13.771109485358693,
+      "height_to_opening_ratio": 1.3425005546955544,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.036621093749999944,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.28966463791249236,
+          "power_fraction": 0.5761707808687676,
+          "mean_ideal_emissivity_outside": 0.015298189937775809,
+          "mean_inside_to_outside_ratio": 18.934569324258664,
+          "cell_normalized_power": 0.01940385145112647
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.13466242334414752,
+          "power_fraction": 0.9996540352736738,
+          "mean_ideal_emissivity_outside": 1.5534857325555373e-05,
+          "mean_inside_to_outside_ratio": 8668.404255159989,
+          "cell_normalized_power": 0.03366560583603687
+        }
+      }
+    },
+    "A3_G02": {
+      "shape": {
+        "id": "A3_G02",
+        "family": "A3",
+        "height_um": 33.414978566341034,
+        "bottom_width_um": 23.955088805106946,
+        "upper_width_um": 65.83441323443236,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.3638687979158305,
+        "H_over_D": 0.507560968871285,
+        "D_over_P": 0.8229301654304045
+      },
+      "hemispherical_ideal_emissivity": 0.08983142132526255,
+      "floor_area_fraction_of_cell": 0.08966348119696252,
+      "hemi_minus_floor_area_fraction": 0.0001679401283000287,
+      "opening_area_fraction_of_cell": 0.677214057175313,
+      "land_width_along_neighbor_centers_um": 14.165586765567639,
+      "height_to_opening_ratio": 0.507560968871285,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.03735351562499997,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.2879938980401569,
+          "power_fraction": 0.21475707293314827,
+          "mean_ideal_emissivity_outside": 0.07560399561652852,
+          "mean_inside_to_outside_ratio": 3.8092417694547853,
+          "cell_normalized_power": 0.01929193310123778
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.2385733906358888,
+          "power_fraction": 0.6639475005412074,
+          "mean_ideal_emissivity_outside": 0.04025076488838714,
+          "mean_inside_to_outside_ratio": 5.927176571611445,
+          "cell_normalized_power": 0.05964334765897219
+        }
+      }
+    },
+    "A3_G03": {
+      "shape": {
+        "id": "A3_G03",
+        "family": "A3",
+        "height_um": 43.688343654711424,
+        "bottom_width_um": 16.722782414064238,
+        "upper_width_um": 61.69867010731721,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.27103959266831884,
+        "H_over_D": 0.7080921449152947,
+        "D_over_P": 0.7712333763414652
+      },
+      "hemispherical_ideal_emissivity": 0.043949851604626486,
+      "floor_area_fraction_of_cell": 0.043695539323146265,
+      "hemi_minus_floor_area_fraction": 0.00025431228148022067,
+      "opening_area_fraction_of_cell": 0.594800920783056,
+      "land_width_along_neighbor_centers_um": 18.301329892682787,
+      "height_to_opening_ratio": 0.7080921449152947,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.02368164062499986,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.18473518845764814,
+          "power_fraction": 0.28156889473790264,
+          "mean_ideal_emissivity_outside": 0.03384191919400523,
+          "mean_inside_to_outside_ratio": 5.458768085776064,
+          "cell_normalized_power": 0.012374911140209516
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.14523504716386634,
+          "power_fraction": 0.8261407141393954,
+          "mean_ideal_emissivity_outside": 0.010188119751546543,
+          "mean_inside_to_outside_ratio": 14.255333732391579,
+          "cell_normalized_power": 0.03630876179096658
+        }
+      }
+    },
+    "A3_G04": {
+      "shape": {
+        "id": "A3_G04",
+        "family": "A3",
+        "height_um": 39.792140048876895,
+        "bottom_width_um": 30.921129764033097,
+        "upper_width_um": 64.1893249135486,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.4817176346016765,
+        "H_over_D": 0.6199183447165039,
+        "D_over_P": 0.8023665614193576
+      },
+      "hemispherical_ideal_emissivity": 0.150478940927696,
+      "floor_area_fraction_of_cell": 0.1493931665444021,
+      "hemi_minus_floor_area_fraction": 0.0010857743832939082,
+      "opening_area_fraction_of_cell": 0.6437920988839237,
+      "land_width_along_neighbor_centers_um": 15.810675086451397,
+      "height_to_opening_ratio": 0.6199183447165039,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.039550781249999944,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.570093102643793,
+          "power_fraction": 0.2537829970131095,
+          "mean_ideal_emissivity_outside": 0.12035199958583015,
+          "mean_inside_to_outside_ratio": 4.736881020719775,
+          "cell_normalized_power": 0.03818899661598936
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.42947907982924205,
+          "power_fraction": 0.713520239412775,
+          "mean_ideal_emissivity_outside": 0.0574788946271807,
+          "mean_inside_to_outside_ratio": 7.471943965083653,
+          "cell_normalized_power": 0.10736976995731048
+        }
+      }
+    },
+    "A3_G05": {
+      "shape": {
+        "id": "A3_G05",
+        "family": "A3",
+        "height_um": 82.42660441029827,
+        "bottom_width_um": 30.050388774779748,
+        "upper_width_um": 69.64167735401989,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.4315000717461204,
+        "H_over_D": 1.1835815497562883,
+        "D_over_P": 0.8705209669252486
+      },
+      "hemispherical_ideal_emissivity": 0.1420720767787257,
+      "floor_area_fraction_of_cell": 0.1410977914867826,
+      "hemi_minus_floor_area_fraction": 0.0009742852919431,
+      "opening_area_fraction_of_cell": 0.7578067538564698,
+      "land_width_along_neighbor_centers_um": 10.35832264598011,
+      "height_to_opening_ratio": 1.1835815497562883,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.039550781250000056,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.7361762597731516,
+          "power_fraction": 0.34710873305597784,
+          "mean_ideal_emissivity_outside": 0.09941731555991815,
+          "mean_inside_to_outside_ratio": 7.404909855260205,
+          "cell_normalized_power": 0.049314458573295084
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.5100711656019109,
+          "power_fraction": 0.8975570308519105,
+          "mean_ideal_emissivity_outside": 0.019405713837663985,
+          "mean_inside_to_outside_ratio": 26.284586584592866,
+          "cell_normalized_power": 0.1275177914004777
+        }
+      }
+    },
+    "A3_G06": {
+      "shape": {
+        "id": "A3_G06",
+        "family": "A3",
+        "height_um": 73.78166484997347,
+        "bottom_width_um": 30.13819929900758,
+        "upper_width_um": 71.52504494430923,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.42136568138438446,
+        "H_over_D": 1.031550066237935,
+        "D_over_P": 0.8940630618038654
+      },
+      "hemispherical_ideal_emissivity": 0.1429387769666955,
+      "floor_area_fraction_of_cell": 0.14192360265417203,
+      "hemi_minus_floor_area_fraction": 0.0010151743125234591,
+      "opening_area_fraction_of_cell": 0.7993487584821024,
+      "land_width_along_neighbor_centers_um": 8.47495505569077,
+      "height_to_opening_ratio": 1.031550066237935,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.033691406250000056,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.744219552019689,
+          "power_fraction": 0.3487734962248741,
+          "mean_ideal_emissivity_outside": 0.09976875962045235,
+          "mean_inside_to_outside_ratio": 7.459444768591929,
+          "cell_normalized_power": 0.04985325698878189
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.5045502904738992,
+          "power_fraction": 0.8824587371967274,
+          "mean_ideal_emissivity_outside": 0.02240160579762762,
+          "mean_inside_to_outside_ratio": 22.52295192728247,
+          "cell_normalized_power": 0.12613757261847477
+        }
+      }
+    },
+    "A3_G07": {
+      "shape": {
+        "id": "A3_G07",
+        "family": "A3",
+        "height_um": 50.993912566617794,
+        "bottom_width_um": 9.966450460871636,
+        "upper_width_um": 60.20032694190526,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.16555475638013556,
+        "H_over_D": 0.8470703591996789,
+        "D_over_P": 0.7525040867738158
+      },
+      "hemispherical_ideal_emissivity": 0.015611058137529539,
+      "floor_area_fraction_of_cell": 0.01552033356078257,
+      "hemi_minus_floor_area_fraction": 9.072457674696825e-05,
+      "opening_area_fraction_of_cell": 0.5662624006112944,
+      "land_width_along_neighbor_centers_um": 19.79967305809474,
+      "height_to_opening_ratio": 0.8470703591996789,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.024169921874999986,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.07120514130564211,
+          "power_fraction": 0.3055423908761719,
+          "mean_ideal_emissivity_outside": 0.01161958255026437,
+          "mean_inside_to_outside_ratio": 6.128029212548779,
+          "cell_normalized_power": 0.004769840027447694
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.05757065411120367,
+          "power_fraction": 0.9219531053568009,
+          "mean_ideal_emissivity_outside": 0.0016245261463048329,
+          "mean_inside_to_outside_ratio": 35.43842876407658,
+          "cell_normalized_power": 0.014392663527800914
+        }
+      }
+    },
+    "A3_G08": {
+      "shape": {
+        "id": "A3_G08",
+        "family": "A3",
+        "height_um": 81.27058385089786,
+        "bottom_width_um": 22.284539111438036,
+        "upper_width_um": 62.62390598480807,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.3558471602976033,
+        "H_over_D": 1.2977565447708308,
+        "D_over_P": 0.7827988248101009
+      },
+      "hemispherical_ideal_emissivity": 0.07879249960925909,
+      "floor_area_fraction_of_cell": 0.07759385678268929,
+      "hemi_minus_floor_area_fraction": 0.0011986428265697985,
+      "opening_area_fraction_of_cell": 0.612774000124075,
+      "land_width_along_neighbor_centers_um": 17.37609401519193,
+      "height_to_opening_ratio": 1.2977565447708308,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.0400390625,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.5266846397094639,
+          "power_fraction": 0.4477733431985313,
+          "mean_ideal_emissivity_outside": 0.04663529076507531,
+          "mean_inside_to_outside_ratio": 11.293692632101966,
+          "cell_normalized_power": 0.03528118096900691
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.30366810207030576,
+          "power_fraction": 0.9635057384149194,
+          "mean_ideal_emissivity_outside": 0.0038339654555768856,
+          "mean_inside_to_outside_ratio": 79.20470478642163,
+          "cell_normalized_power": 0.07591702551757643
+        }
+      }
+    },
+    "A3_G09": {
+      "shape": {
+        "id": "A3_G09",
+        "family": "A3",
+        "height_um": 99.0149375064688,
+        "bottom_width_um": 21.529481237122223,
+        "upper_width_um": 67.69391136172166,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.31804162005176034,
+        "H_over_D": 1.4626860158424526,
+        "D_over_P": 0.8461738920215207
+      },
+      "hemispherical_ideal_emissivity": 0.07391341133330842,
+      "floor_area_fraction_of_cell": 0.07242477536556215,
+      "hemi_minus_floor_area_fraction": 0.001488635967746274,
+      "opening_area_fraction_of_cell": 0.7160102555388482,
+      "land_width_along_neighbor_centers_um": 12.30608863827834,
+      "height_to_opening_ratio": 1.4626860158424526,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.031982421875,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.5731746077198144,
+          "power_fraction": 0.519464838958595,
+          "mean_ideal_emissivity_outside": 0.03806807018397267,
+          "mean_inside_to_outside_ratio": 15.056571161863914,
+          "cell_normalized_power": 0.038395418315137445
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.29185617624426996,
+          "power_fraction": 0.9871556831823142,
+          "mean_ideal_emissivity_outside": 0.001265823029654593,
+          "mean_inside_to_outside_ratio": 230.56633463518926,
+          "cell_normalized_power": 0.07296404406106748
+        }
+      }
+    },
+    "A3_G10": {
+      "shape": {
+        "id": "A3_G10",
+        "family": "A3",
+        "height_um": 66.2383551604271,
+        "bottom_width_um": 15.954602839765482,
+        "upper_width_um": 68.7434135004424,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.2320891853830157,
+        "H_over_D": 0.9635592966299357,
+        "D_over_P": 0.85929266875553
+      },
+      "hemispherical_ideal_emissivity": 0.040187630659482124,
+      "floor_area_fraction_of_cell": 0.0397733362147895,
+      "hemi_minus_floor_area_fraction": 0.00041429444469262555,
+      "opening_area_fraction_of_cell": 0.738383890577001,
+      "land_width_along_neighbor_centers_um": 11.2565864995576,
+      "height_to_opening_ratio": 0.9635592966299357,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.030761718750000028,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.24426172538667554,
+          "power_fraction": 0.40715097522021826,
+          "mean_ideal_emissivity_outside": 0.025535769873619895,
+          "mean_inside_to_outside_ratio": 9.565473318234032,
+          "cell_normalized_power": 0.01636243301479809
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.1526430662619076,
+          "power_fraction": 0.9495649765675599,
+          "mean_ideal_emissivity_outside": 0.0027024854586736404,
+          "mean_inside_to_outside_ratio": 56.48247459463618,
+          "cell_normalized_power": 0.03816076656547689
+        }
+      }
+    }
+  },
+  "refined": {
+    "A0_G01": {
+      "shape": {
+        "id": "A0_G01",
+        "family": "A0",
+        "height_um": 88.9123222527771,
+        "bottom_width_um": 14.49750936177748,
+        "upper_width_um": 66.22889051464131,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.21890007894020957,
+        "H_over_D": 1.3425005546955544,
+        "D_over_P": 0.8278611314330163
+      },
+      "hemispherical_ideal_emissivity": 0.03316253269748642,
+      "floor_area_fraction_of_cell": 0.03284027776481652,
+      "hemi_minus_floor_area_fraction": 0.00032225493266990063,
+      "opening_area_fraction_of_cell": 0.6853540529375539,
+      "land_width_along_neighbor_centers_um": 13.771109485358693,
+      "height_to_opening_ratio": 1.3425005546955544,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.0589752197265625,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.4000447352281615,
+          "power_fraction": 0.808078085580243,
+          "mean_ideal_emissivity_outside": 0.006821575686377543,
+          "mean_inside_to_outside_ratio": 58.644036747556335,
+          "cell_normalized_power": 0.026797915935177035
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.1326501307899452,
+          "power_fraction": 0.9999999999999962,
+          "mean_ideal_emissivity_outside": 1.6653345369377348e-16,
+          "mean_inside_to_outside_ratio": null,
+          "cell_normalized_power": 0.03316253269748629
+        }
+      }
+    },
+    "A0_G06": {
+      "shape": {
+        "id": "A0_G06",
+        "family": "A0",
+        "height_um": 73.78166484997347,
+        "bottom_width_um": 30.13819929900758,
+        "upper_width_um": 71.52504494430923,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.42136568138438446,
+        "H_over_D": 1.031550066237935,
+        "D_over_P": 0.8940630618038654
+      },
+      "hemispherical_ideal_emissivity": 0.14245091248373357,
+      "floor_area_fraction_of_cell": 0.14192360265417203,
+      "hemi_minus_floor_area_fraction": 0.0005273098295615342,
+      "opening_area_fraction_of_cell": 0.7993487584821024,
+      "land_width_along_neighbor_centers_um": 8.47495505569077,
+      "height_to_opening_ratio": 1.031550066237935,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.1277923583984375,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.7948871971127912,
+          "power_fraction": 0.3737943457619694,
+          "mean_ideal_emissivity_outside": 0.09560809479631878,
+          "mean_inside_to_outside_ratio": 8.31401565742106,
+          "cell_normalized_power": 0.05324734563505275
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.5560832934406952,
+          "power_fraction": 0.975920904515431,
+          "mean_ideal_emissivity_outside": 0.004573452164746398,
+          "mean_inside_to_outside_ratio": 121.58939755118887,
+          "cell_normalized_power": 0.13902082336017377
+        }
+      }
+    },
+    "A0_G09": {
+      "shape": {
+        "id": "A0_G09",
+        "family": "A0",
+        "height_um": 99.0149375064688,
+        "bottom_width_um": 21.529481237122223,
+        "upper_width_um": 67.69391136172166,
+        "pitch_um": 80.0,
+        "curve_segments": 128,
+        "b_over_D": 0.31804162005176034,
+        "H_over_D": 1.4626860158424526,
+        "D_over_P": 0.8461738920215207
+      },
+      "hemispherical_ideal_emissivity": 0.07280995468841522,
+      "floor_area_fraction_of_cell": 0.07242477536556215,
+      "hemi_minus_floor_area_fraction": 0.000385179322853077,
+      "opening_area_fraction_of_cell": 0.7160102555388482,
+      "land_width_along_neighbor_centers_um": 12.30608863827834,
+      "height_to_opening_ratio": 1.4626860158424526,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.09788513183593744,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.6895500909165171,
+          "power_fraction": 0.6344063486667907,
+          "mean_ideal_emissivity_outside": 0.02853000514779511,
+          "mean_inside_to_outside_ratio": 24.169294304169018,
+          "cell_normalized_power": 0.046191097500471984
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.2912398187536601,
+          "power_fraction": 0.9999999999999971,
+          "mean_ideal_emissivity_outside": 2.7755575615628914e-16,
+          "mean_inside_to_outside_ratio": null,
+          "cell_normalized_power": 0.07280995468841502
+        }
+      }
+    },
+    "A3_G01": {
+      "shape": {
+        "id": "A3_G01",
+        "family": "A3",
+        "height_um": 88.9123222527771,
+        "bottom_width_um": 14.49750936177748,
+        "upper_width_um": 66.22889051464131,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.21890007894020957,
+        "H_over_D": 1.3425005546955544,
+        "D_over_P": 0.8278611314330163
+      },
+      "hemispherical_ideal_emissivity": 0.033036680657661494,
+      "floor_area_fraction_of_cell": 0.03284027776481652,
+      "hemi_minus_floor_area_fraction": 0.0001964028928449768,
+      "opening_area_fraction_of_cell": 0.6853540529375539,
+      "land_width_along_neighbor_centers_um": 13.771109485358693,
+      "height_to_opening_ratio": 1.3425005546955544,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.014053344726562389,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.2887193124102786,
+          "power_fraction": 0.5854258437860207,
+          "mean_ideal_emissivity_outside": 0.014679493623167061,
+          "mean_inside_to_outside_ratio": 19.668206535041783,
+          "cell_normalized_power": 0.01934052664990079
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.13212266481635979,
+          "power_fraction": 0.999817946190361,
+          "mean_ideal_emissivity_outside": 8.019271428738595e-06,
+          "mean_inside_to_outside_ratio": 16475.64445104987,
+          "cell_normalized_power": 0.03303066620408994
+        }
+      }
+    },
+    "A3_G06": {
+      "shape": {
+        "id": "A3_G06",
+        "family": "A3",
+        "height_um": 73.78166484997347,
+        "bottom_width_um": 30.13819929900758,
+        "upper_width_um": 71.52504494430923,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.42136568138438446,
+        "H_over_D": 1.031550066237935,
+        "D_over_P": 0.8940630618038654
+      },
+      "hemispherical_ideal_emissivity": 0.14223481045193864,
+      "floor_area_fraction_of_cell": 0.14192360265417203,
+      "hemi_minus_floor_area_fraction": 0.00031120779776661056,
+      "opening_area_fraction_of_cell": 0.7993487584821024,
+      "land_width_along_neighbor_centers_um": 8.47495505569077,
+      "height_to_opening_ratio": 1.031550066237935,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.0178375244140625,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.746559270421055,
+          "power_fraction": 0.35160161035065957,
+          "mean_ideal_emissivity_outside": 0.09884626636065874,
+          "mean_inside_to_outside_ratio": 7.552731103642261,
+          "cell_normalized_power": 0.05000998840282245
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.5043319620765541,
+          "power_fraction": 0.8864425671783218,
+          "mean_ideal_emissivity_outside": 0.021535759910400205,
+          "mean_inside_to_outside_ratio": 23.418349952582748,
+          "cell_normalized_power": 0.1260829905191385
+        }
+      }
+    },
+    "A3_G09": {
+      "shape": {
+        "id": "A3_G09",
+        "family": "A3",
+        "height_um": 99.0149375064688,
+        "bottom_width_um": 21.529481237122223,
+        "upper_width_um": 67.69391136172166,
+        "pitch_um": 80.0,
+        "curve_segments": 1,
+        "b_over_D": 0.31804162005176034,
+        "H_over_D": 1.4626860158424526,
+        "D_over_P": 0.8461738920215207
+      },
+      "hemispherical_ideal_emissivity": 0.07279671741545533,
+      "floor_area_fraction_of_cell": 0.07242477536556215,
+      "hemi_minus_floor_area_fraction": 0.0003719420498931869,
+      "opening_area_fraction_of_cell": 0.7160102555388482,
+      "land_width_along_neighbor_centers_um": 12.30608863827834,
+      "height_to_opening_ratio": 1.4626860158424526,
+      "max_residual": 0.0,
+      "max_absorptance_azimuth_range": 0.0166015625,
+      "cones": {
+        "15": {
+          "mean_ideal_emissivity_inside": 0.5711835385277977,
+          "power_fraction": 0.5256011991757098,
+          "mean_ideal_emissivity_outside": 0.0370141535863315,
+          "mean_inside_to_outside_ratio": 15.431489935210163,
+          "cell_normalized_power": 0.038262041969618604
+        },
+        "30": {
+          "mean_ideal_emissivity_inside": 0.28918383975850026,
+          "power_fraction": 0.9931211530738064,
+          "mean_ideal_emissivity_outside": 0.0006676766344403765,
+          "mean_inside_to_outside_ratio": 433.11960437388103,
+          "cell_normalized_power": 0.07229595993962505
+        }
+      }
+    }
+  },
+  "phase_comparison": {
+    "15": {
+      "mean_ideal_emissivity_inside": {
+        "coarse_rank_among_refined_shapes": [
+          "A0_G06",
+          "A3_G06",
+          "A0_G09",
+          "A3_G09",
+          "A0_G01",
+          "A3_G01"
+        ],
+        "refined_rank": [
+          "A0_G06",
+          "A3_G06",
+          "A0_G09",
+          "A3_G09",
+          "A0_G01",
+          "A3_G01"
+        ],
+        "rank_unchanged": true,
+        "refine_minus_coarse_percentage_points": {
+          "A0_G01": -0.37132451803054134,
+          "A0_G06": 0.29406203131385755,
+          "A0_G09": 0.48646866839435754,
+          "A3_G01": -0.09453255022137674,
+          "A3_G06": 0.2339718401365931,
+          "A3_G09": -0.19910691920167478
+        },
+        "max_abs_shift_pp": 0.48646866839435754
+      },
+      "power_fraction": {
+        "coarse_rank_among_refined_shapes": [
+          "A0_G01",
+          "A0_G09",
+          "A3_G01",
+          "A3_G09",
+          "A0_G06",
+          "A3_G06"
+        ],
+        "refined_rank": [
+          "A0_G01",
+          "A0_G09",
+          "A3_G01",
+          "A3_G09",
+          "A0_G06",
+          "A3_G06"
+        ],
+        "rank_unchanged": true,
+        "refine_minus_coarse_percentage_points": {
+          "A0_G01": 1.5133058696857216,
+          "A0_G06": 0.24546118577657983,
+          "A0_G09": 2.237858222421396,
+          "A3_G01": 0.9255062917253087,
+          "A3_G06": 0.2828114125785486,
+          "A3_G09": 0.6136360217114833
+        },
+        "max_abs_shift_pp": 2.237858222421396
+      }
+    },
+    "30": {
+      "mean_ideal_emissivity_inside": {
+        "coarse_rank_among_refined_shapes": [
+          "A0_G06",
+          "A3_G06",
+          "A0_G09",
+          "A3_G09",
+          "A0_G01",
+          "A3_G01"
+        ],
+        "refined_rank": [
+          "A0_G06",
+          "A3_G06",
+          "A0_G09",
+          "A3_G09",
+          "A0_G01",
+          "A3_G01"
+        ],
+        "rank_unchanged": true,
+        "refine_minus_coarse_percentage_points": {
+          "A0_G01": -0.37863447792240434,
+          "A0_G06": 0.12665153543142127,
+          "A0_G09": -0.8519295444482433,
+          "A3_G01": -0.2539758527787733,
+          "A3_G06": -0.021832839734514664,
+          "A3_G09": -0.26723364857696996
+        },
+        "max_abs_shift_pp": 0.8519295444482433
+      },
+      "power_fraction": {
+        "coarse_rank_among_refined_shapes": [
+          "A0_G09",
+          "A0_G01",
+          "A3_G01",
+          "A3_G09",
+          "A0_G06",
+          "A3_G06"
+        ],
+        "refined_rank": [
+          "A0_G09",
+          "A0_G01",
+          "A3_G01",
+          "A3_G09",
+          "A0_G06",
+          "A3_G06"
+        ],
+        "rank_unchanged": true,
+        "refine_minus_coarse_percentage_points": {
+          "A0_G01": 4.440892098500626e-14,
+          "A0_G06": 0.5024999171534428,
+          "A0_G09": -6.661338147750939e-14,
+          "A3_G01": 0.016391091668721547,
+          "A3_G06": 0.3983829981594411,
+          "A3_G09": 0.596546989149227
+        },
+        "max_abs_shift_pp": 0.596546989149227
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "record_date_local": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "user_confirmed": {
+    "primary_wavelength_band_um": [3, 20],
+    "maximum_operating_temperature_K": 523,
+    "material_scope": "TA2/titanium research; existing optical-Ti models remain approximations",
+    "research_priority": "Study geometry and angular-domain performance jointly; include primary-structure manufacturability and feasibility of subsequent hierarchical structuring and coating control when selecting geometry families and bounds"
+  },
+  "not_yet_fixed": {
+    "nominal_and_minimum_operating_temperature_K": null,
+    "target_cone_half_angle_deg": null,
+    "target_cone_axis": "normal-centered working hypothesis, not a newly confirmed application specification",
+    "minimum_band_cone_average_emissivity": null,
+    "minimum_band_cone_power_fraction": null,
+    "manufacturing_geometry_bounds_um": null
+  },
+  "recommended_design_sequence_not_a_new_solver_batch": [
+    "Define brightness/concentration metrics without prematurely locking a single cone half-angle",
+    "Bound geometry families using primary machining, secondary structuring access, and selective coating or filling feasibility",
+    "Screen geometric angular transport under common idealized emitter/reflector boundary conditions without requiring a real coating; retain throughput, source area, and projected-area normalization",
+    "Compare shortlisted geometries with fixed physical material and reference surface configurations using 3-20 um spectral-angular calculations",
+    "Calibrate representative designs with FEM and retained quality labels",
+    "Optimize constrained geometry parameters with a multi-fidelity surrogate and new-design validation",
+    "Test coating sensitivity on a small set of shortlisted geometries to check rank stability and geometry-coating interactions"
+  ],
+  "coating_geometry_decoupling": {
+    "meaning": "A controlled staged study, not an assumption of physical independence or separable emissivity; a real reference coating is optional for ideal geometric screening, but optical boundary conditions and source distribution must be explicitly fixed",
+    "recommended_model_levels": [
+      {"level": "ideal_geometric_transport", "surface_model": "Fixed Lambertian bottom radiance and ideal specular reflecting walls; not an all-PEC thermal emitter", "scope": "Angular redistribution and throughput under stated boundary conditions, not actual Ti emission or full-band wave validation"},
+      {"level": "physical_bare_Ti_control", "surface_model": "Same Ti optical model and specified surface state across geometries", "scope": "Real-material geometry response without coating; small representative controls rather than mandatory full duplication"},
+      {"level": "physical_composite_candidates", "surface_model": "Fixed chosen coating/fill/secondary-surface treatment on shortlisted geometries", "scope": "Estimate attainable spectral-angular performance and test ranking sensitivity"}
+    ],
+    "hold_fixed_during_physical_coating_controls": ["coating material and optical data", "reference thickness", "coverage rule", "substrate optical model", "temperature treatment"],
+    "reference_coating_choice": "Existing SiO2 floorfill is a possible reference, not a proven optimal 3-20 um absorber; final reference thickness is not selected by this update",
+    "geometry_dependent_quantities_to_record": ["coated area", "film-air interface area", "film volume", "wall slope", "opening and unit-cell areas"],
+    "diagnostic_option_not_a_physical_replacement": "Fast idealized bottom-emitter/reflector comparison may isolate angular transport; clearly label separately from physical Ti/SiO2 predictions"
+  },
+  "manufacturing_feasibility_in_geometry_selection": {
+    "primary_structure": ["laser access and focus range", "opening/depth/wall-slope window", "minimum wall or land width", "corner and bottom radii", "roughness and redeposition", "repeatability and machining time"],
+    "secondary_structuring": ["bottom and wall access for intended secondary feature location", "alignment and focus tolerance", "secondary feature scale relative to wavelength", "preservation of primary reflector surface and substrate thickness"],
+    "coating_control": ["intended bottom versus wall versus conformal coverage", "masking/selective deposition or post-removal access", "sidewall residue", "filling wetting and shrinkage", "thickness uniformity and shape change", "adhesion and stability up to 523 K"],
+    "numeric_bounds_status": "To be grounded in available equipment and small fabrication trials; no unsupported hard dimension cutoffs added",
+    "workflow": "Compare optical merit and manufacturing feasibility together; retain interpretable baselines and realistic rounded geometries"
+  },
+  "recommended_reporting": {
+    "temperature_weighting": "Planck weighting within 3-20 um at specified T; maximum 523 K is not the entire operating range",
+    "polarization": "unpolarized emissivity is the mean of matched s and p channels",
+    "angular_metrics": ["band cone-average emissivity", "band cone-to-hemisphere power fraction as a function of cone half-angle", "band cone-to-outside mean-emissivity contrast", "angular peak and width when well defined", "azimuth dependence"],
+    "provisional_comparison_cones_deg": [15, 30],
+    "cone_choice_status": "comparison only; neither is imposed as a fixed target",
+    "retain_resolved_spectra": true,
+    "suggested_reporting_subbands_um": [[3, 5], [5, 8], [8, 13], [13, 20]]
+  },
+  "limitations": [
+    "A 523 K Planck-weighted result with fixed optical constants does not validate temperature-dependent materials or thermal stability",
+    "Existing 10.5 um normal-incidence WFT cases are calibration anchors, not broadband cone measurements",
+    "Existing v0 FEM training geometries all have bottom flat-to-flat width 15 um; width response is not learned from varying training widths"
+  ],
+  "revision_note": "Main band is 3-20 um. Clarified that ideal geometric screening does not require a physical reference coating, and user requires primary and subsequent composite/coating manufacturability to shape geometry choices from the start",
+  "operational_effect": "No solver launch, termination, frozen manifest change, or resource-guard change in this objective update"
+}

@@ -1,0 +1,37 @@
+{
+  "state": "EXPLORATORY_INTERPOLATION",
+  "query": {
+    "height_um": 90.0,
+    "bottom_width_um": 15.0,
+    "film_um": 2.5,
+    "wavelength_um": 10.5,
+    "theta_deg": 30.0,
+    "phi_deg": 30.0,
+    "polarization": "s"
+  },
+  "support_checks": {
+    "bottom_width_seen": true,
+    "wavelength_seen": true,
+    "theta_seen": true,
+    "phi_seen_or_normal": true,
+    "inside_H_t_training_hull": true,
+    "inside_joint_training_feature_hull": true
+  },
+  "method": "gp",
+  "pool": "primary_exploratory",
+  "predicted_A_loss": 0.16067863002047333,
+  "GP_std_uncalibrated": 0.020453165972071027,
+  "ray_A_total": 0.19185567084453115,
+  "ray_A_film": 0.0010640706159048355,
+  "ray_A_Ti_total": 0.19079160022862496,
+  "ray_sampling_standard_error": 0.00034559416338437906,
+  "physical_range_0_1": true,
+  "elapsed_s": 0.09912945798714645,
+  "meaning": "Single wavelength/direction/polarization absorptivity; directional emissivity under reciprocity and thermal-equilibrium assumptions.",
+  "limitations": [
+    "Not a band-integrated or cone-integrated result.",
+    "Eight training geometries; changed bottom width unsupported.",
+    "No clipping of unphysical predictions. GP uncertainty and ray sampling error do not measure model discrepancy.",
+    "Normal-angle wave effects and unreviewed training labels remain limitations."
+  ]
+}

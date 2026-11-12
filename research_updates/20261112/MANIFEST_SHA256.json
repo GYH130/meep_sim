@@ -1,0 +1,706 @@
+{
+  "scope": "2026-11-12 research and portability supplement",
+  "base_commit": "1e890af1f4ded5e18d046a9dae47cfcc4a76cfb3",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "002dff7fb3f913d71e6a4ac1f4a273519ba00e2c256b4ecfd863283e5251558a",
+      "bytes": 4839
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "9b1903be3183bfb2add86c1d999a18da705ce40790e653aa9b8b76de2b8686d3",
+      "bytes": 868
+    },
+    {
+      "path": "fem/WFT3_scalar_result.json",
+      "sha256": "89b2ad0f0331d34ad3fb954dc32de15df984a2bdfefb753578a14eab126a98a1",
+      "bytes": 1255,
+      "source_project_path": "outputs/wft3_air29_meta1_20261110/tracking_20261111T033744Z.json",
+      "source_sha256": "b0030950e79acd5971fa5e2d0b0fc134d81d8f23e917213cd1bbc789cd81be55",
+      "public_transformation": "scientific and quality fields only"
+    },
+    {
+      "path": "fem/g99/CavityFloorFilm.java",
+      "sha256": "13ebae4e7c49f1c5154861fe71eed0971be7aee4c77037970767bbc9749b4b56",
+      "bytes": 108446,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/CavityFloorFilm.java",
+      "source_sha256": "71b68c6565110aa63403f1db1302fef8e9db6e4e57efa553883da83542ada1a3",
+      "public_transformation": "host path placeholders; original hash retained"
+    },
+    {
+      "path": "fem/g99/FROZEN_SOURCE_NOTE.json",
+      "sha256": "f26ab3147a7e45f77dc7f7ff0e578ed9a9bc16757146d06bc9c19ec265a81b36",
+      "bytes": 1389
+    },
+    {
+      "path": "fem/g99/FlatObliqueAdmission.java",
+      "sha256": "3a1e9f09b49068899ae72f3696106879c397a6329979034f681327fa77645f59",
+      "bytes": 14000,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/FlatObliqueAdmission.java",
+      "source_sha256": "3a1e9f09b49068899ae72f3696106879c397a6329979034f681327fa77645f59",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "fem/g99/README.md",
+      "sha256": "c068897a9a5d7d7ea328ae0c89590b1d4d681999b0c9e1451b914223fe2189f6",
+      "bytes": 1667
+    },
+    {
+      "path": "fem/g99/launch_manifest.json",
+      "sha256": "a3a297b49b3ed164633d21d6eedf77f2e29b665152f0aa72165835bba6051170",
+      "bytes": 3123,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/launch_manifest.json",
+      "source_sha256": "0bad72d82cc9efe574ec61e14b36df952e92c0fdc5a9ad661a113a55249f4422",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "fem/g99/material.json",
+      "sha256": "a6a67b739afa9f7945303728a60a04b5f2ac71e9bc5f8dff33e50e9db687c79a",
+      "bytes": 5319,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/material.json",
+      "source_sha256": "ec49aedbd1cfbc6a08ff775d04fbc25cf87ae902a918f747d057e370b1f2473a",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "fem/g99/plan.json",
+      "sha256": "02583b72fe3bbed144080703fadba9a3536afa32190584b9649a5bc8c096a8f9",
+      "bytes": 120880,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/plan.json",
+      "source_sha256": "220748479dfc995d7efe70543acb3a433695b4ac9c3f6f37b812b4a54c38a14f",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "fem/g99/queue_review_helpers.ps1",
+      "sha256": "3a6a4c43a66676f1ef5caae49455229a04d970173d64323fae19bcfd430a7706",
+      "bytes": 16959,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/queue_review_helpers.ps1",
+      "source_sha256": "3a6a4c43a66676f1ef5caae49455229a04d970173d64323fae19bcfd430a7706",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "fem/g99/run_angular_queue.ps1",
+      "sha256": "05715a5b291f46038c8f6cbb6d719cf2a7ae56318cdd157ef62d739f7790a9db",
+      "bytes": 48473,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/run_angular_queue.ps1",
+      "source_sha256": "f89a46c07343f610614526e4a2a82854d9fdc67df1ee2567b5898ddeedb93b4d",
+      "public_transformation": "host path placeholders; original hash retained"
+    },
+    {
+      "path": "fem/g99/run_flat_controls.ps1",
+      "sha256": "4d9ff5fa00cf70d010893566c093a3d66e1d33c0bf6da3df91daebce985aae78",
+      "bytes": 9806,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/run_flat_controls.ps1",
+      "source_sha256": "741d2cca5c79dc12898148a348c7a2911de28e922af75b91a93ed21b0309cee6",
+      "public_transformation": "host path placeholders; original hash retained"
+    },
+    {
+      "path": "fem/g99/run_floorfilm_controller.ps1",
+      "sha256": "ac4ee73472e9b706ff6515f87eaab624e385fa779422304f761b6d7b978064a1",
+      "bytes": 89240,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/run_floorfilm_controller.ps1",
+      "source_sha256": "57999cd3e486883565059d2badc66c09511f8ef84b6109a3b576eeb7505f9b47",
+      "public_transformation": "host path placeholders; original hash retained"
+    },
+    {
+      "path": "fem/g99/source_lineage_audit.json",
+      "sha256": "aa19bf0d9874554923bcc8cdb56cfdaeb846d2a39e6383bdf9abf4b1a2d51196",
+      "bytes": 925,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/source_lineage_audit.json",
+      "source_sha256": "aa19bf0d9874554923bcc8cdb56cfdaeb846d2a39e6383bdf9abf4b1a2d51196",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "fem/g99/warn_fixture_metrics.json",
+      "sha256": "bbeeb4f1ce08153920cf5cf43ada9e54919c7da3c8952ee5ce5ddc4065bf855a",
+      "bytes": 185099,
+      "source_project_path": "meep_screen/lab_comsol_g99_pair_20261112/warn_fixture_metrics.json",
+      "source_sha256": "bbeeb4f1ce08153920cf5cf43ada9e54919c7da3c8952ee5ce5ddc4065bf855a",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/angular_dense/analyze_angular.py",
+      "sha256": "8d034d5fdc76780970a925aaf22bd973119830549d0211c142e1515394d80e63",
+      "bytes": 26922,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/analyze_angular.py",
+      "source_sha256": "2759178e0393f67cced64ae012b02643a04d60019dc4fbe0b46da958f0288efa",
+      "public_transformation": "portable path/config adaptation"
+    },
+    {
+      "path": "geometry/angular_dense/fetched/coarse_summary.json",
+      "sha256": "00dcb7d5ea8643c55764bcca048ab516d36109eb42e02b5f6e61494092a68303",
+      "bytes": 541371,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/fetched/coarse_summary.json",
+      "source_sha256": "00dcb7d5ea8643c55764bcca048ab516d36109eb42e02b5f6e61494092a68303",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "geometry/angular_dense/fetched/refine_summary.json",
+      "sha256": "b89cdd18e4fdef377b5932068e39355430ee0193b53303a81858b828a8b0d2a5",
+      "bytes": 324392,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/fetched/refine_summary.json",
+      "source_sha256": "b89cdd18e4fdef377b5932068e39355430ee0193b53303a81858b828a8b0d2a5",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "geometry/angular_dense/figures/angular_response_pairs.png",
+      "sha256": "0ef3ea6a47ec7f596d8781f6dc4a88e307f33c43ae9bee61939b31e2fa87e7de",
+      "bytes": 550832,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/figures/angular_response_pairs.png",
+      "source_sha256": "0ef3ea6a47ec7f596d8781f6dc4a88e307f33c43ae9bee61939b31e2fa87e7de",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/angular_dense/figures/cone_metrics.json",
+      "sha256": "5891701e0a0806036c40204f3ee973191fda4bfe1de709bce7209dffac2440c7",
+      "bytes": 43170,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/figures/cone_metrics.json",
+      "source_sha256": "bd06b9dac389d7a90ccb54cb4a5beb9bc3010ea2c470998b7358f4735b68102f",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "geometry/angular_dense/figures/cone_tradeoff.png",
+      "sha256": "8e66e64dd94a4c571d37e2536d2041b419c17bf0602a0711465b87e02bce9bdc",
+      "bytes": 234020,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/figures/cone_tradeoff.png",
+      "source_sha256": "8e66e64dd94a4c571d37e2536d2041b419c17bf0602a0711465b87e02bce9bdc",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/angular_dense/figures/g06_azimuth_maps.png",
+      "sha256": "ad708fb891ba574557db576001490374ab8ed967dda82e279503e4eeed68f665",
+      "bytes": 311363,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/figures/g06_azimuth_maps.png",
+      "source_sha256": "ad708fb891ba574557db576001490374ab8ed967dda82e279503e4eeed68f665",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/angular_dense/manifest.json",
+      "sha256": "ffac80d39c7d59f3e9b1f9ccd789e237796a8cda13e640b22f36fff9a9cb72d3",
+      "bytes": 7720,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/manifest.json",
+      "source_sha256": "ffac80d39c7d59f3e9b1f9ccd789e237796a8cda13e640b22f36fff9a9cb72d3",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/angular_dense/ray_material.cpp",
+      "sha256": "7dbdefd7691d10451ee9ff9bfb9cf242943eef97ee5f392e73524f387982d8e3",
+      "bytes": 34819,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/ray_material.cpp",
+      "source_sha256": "7dbdefd7691d10451ee9ff9bfb9cf242943eef97ee5f392e73524f387982d8e3",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/angular_dense/resource_guard.py",
+      "sha256": "d492e97a1f77440bb222df7de40574165204181e4ff30e8c2c95609c68686467",
+      "bytes": 6792,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/resource_guard.py",
+      "source_sha256": "98cb87410273802f8c64e8317833bfba7b0bb5daf73de75bf0a5d127de2f560c",
+      "public_transformation": "portable path/config adaptation"
+    },
+    {
+      "path": "geometry/angular_dense/run_pilot.py",
+      "sha256": "4cf790079f1ff4959a3c8ff2b5586b0117dba994d4b9eb077e767de68f1fdd37",
+      "bytes": 22832,
+      "source_project_path": "outputs/geometry_angular_dense_20261111/run_pilot.py",
+      "source_sha256": "ba9778ca8855dc2acaadb2de69fd35a54bb1b3b248283fa3de0206b23130af85",
+      "public_transformation": "portable path/config adaptation"
+    },
+    {
+      "path": "geometry/family_pilot/analyze_results.py",
+      "sha256": "318c7fb0644adcfd67ad71fb7557c32a7976dfa54806b52a1f19656e60ad0043",
+      "bytes": 21073,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/analyze_results.py",
+      "source_sha256": "318c7fb0644adcfd67ad71fb7557c32a7976dfa54806b52a1f19656e60ad0043",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/family_pilot/fetched/floor90_summary.json",
+      "sha256": "6ce4ef87b6855886744bcbed415c3df0d2781df88d521c295e30a6f4d942d35f",
+      "bytes": 1089649,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/fetched/floor90_summary.json",
+      "source_sha256": "6ce4ef87b6855886744bcbed415c3df0d2781df88d521c295e30a6f4d942d35f",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "geometry/family_pilot/fetched/ideal_summary.json",
+      "sha256": "d0b22593eb11449b092ec26b0f9bbc1d60375e592bb1de94ab423aa25b9a057e",
+      "bytes": 1084578,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/fetched/ideal_summary.json",
+      "source_sha256": "d0b22593eb11449b092ec26b0f9bbc1d60375e592bb1de94ab423aa25b9a057e",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "geometry/family_pilot/fetched/wall04_summary.json",
+      "sha256": "9f8bfc41de6793de47ef2f4bd4001838f8e0e1c3ea125d5343a1a3bd2c698584",
+      "bytes": 1197639,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/fetched/wall04_summary.json",
+      "source_sha256": "9f8bfc41de6793de47ef2f4bd4001838f8e0e1c3ea125d5343a1a3bd2c698584",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "geometry/family_pilot/manifest.json",
+      "sha256": "04948af8ec5d238879094966128c737a0a8aae2f75f85f5d122f2f1df1757249",
+      "bytes": 28815,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/manifest.json",
+      "source_sha256": "04948af8ec5d238879094966128c737a0a8aae2f75f85f5d122f2f1df1757249",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/family_pilot/ray_material.cpp",
+      "sha256": "07ab5a25c502c6ce40c635aa8e6a0d45822d512887644e3d4278134b3598df9a",
+      "bytes": 46350,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/ray_material.cpp",
+      "source_sha256": "07ab5a25c502c6ce40c635aa8e6a0d45822d512887644e3d4278134b3598df9a",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/family_pilot/report/family_summary.json",
+      "sha256": "27be551ab11462db170ce77214dcdb14023278a956d13a54a0b0d2c93513d5ea",
+      "bytes": 251106,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/report/family_summary.json",
+      "source_sha256": "d98135de24455f06ac37485300991cbbb74d70076b3f7b603cec97b94ce52f5a",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "geometry/family_pilot/report/g23_centered_receiver.json",
+      "sha256": "b4fdd7214f1b1dc59e712158a039249e2a5c9487d59581e0b935c7b1582d1949",
+      "bytes": 1967,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/report/g23_centered_receiver.json",
+      "source_sha256": "b4fdd7214f1b1dc59e712158a039249e2a5c9487d59581e0b935c7b1582d1949",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/family_pilot/resource_guard.py",
+      "sha256": "d998f8e2b890d7fbd5513f3d9f5e5f2f47d96322bd15101add0b2dd91272b43c",
+      "bytes": 7773,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/resource_guard.py",
+      "source_sha256": "36ab3f1eb9d94276e2f8e5f8aa56d2f04f48319d1db496c645181590320169e3",
+      "public_transformation": "portable path/config adaptation"
+    },
+    {
+      "path": "geometry/family_pilot/run_pilot.py",
+      "sha256": "06cbc291f4f909cec7a0d901dab1de2cd9813e99cfd1340480f349df4f433ab8",
+      "bytes": 38775,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/run_pilot.py",
+      "source_sha256": "9df19bfccf61c447fe444887a4d483cb83c26613ee565ca254bba75a732c3900",
+      "public_transformation": "portable path/config adaptation"
+    },
+    {
+      "path": "geometry/family_pilot/summarize_family_pilot.py",
+      "sha256": "82e6c49f3b22406d2a588362f6ada60ebab53eaace6e1e68e93f20d65491ec38",
+      "bytes": 10908,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/summarize_family_pilot.py",
+      "source_sha256": "82e6c49f3b22406d2a588362f6ada60ebab53eaace6e1e68e93f20d65491ec38",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/family_pilot/test_kernel.py",
+      "sha256": "e4829729d649a796d59bd5f2b4f487d5f4913b931f82b47a86996e78b3e0957c",
+      "bytes": 6843,
+      "source_project_path": "outputs/geometry_family_pilot_20261112/test_kernel.py",
+      "source_sha256": "e4829729d649a796d59bd5f2b4f487d5f4913b931f82b47a86996e78b3e0957c",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/method_review/assessment.json",
+      "sha256": "28536f9471fe4d1f5494a2f6133aee563c7cbc430cc52f32cf69228b59a751f5",
+      "bytes": 5550,
+      "source_project_path": "outputs/geometry_method_review_20261111/assessment.json",
+      "source_sha256": "28536f9471fe4d1f5494a2f6133aee563c7cbc430cc52f32cf69228b59a751f5",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/method_review/rescored/angular_map_receiver_axes.png",
+      "sha256": "3aaf7a5d1aecdf8653ce0bd970178167f0101ff0f851262f058dddfe79a2ccd6",
+      "bytes": 236760,
+      "source_project_path": "outputs/geometry_method_review_20261111/rescored/angular_map_receiver_axes.png",
+      "source_sha256": "3aaf7a5d1aecdf8653ce0bd970178167f0101ff0f851262f058dddfe79a2ccd6",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/method_review/rescored/key_sensitivity.json",
+      "sha256": "aa9e7ec2e94f4dd05ce8c7f0ca8b1c8c693000902cbbbb5313fb6a5103f48f91",
+      "bytes": 26120,
+      "source_project_path": "outputs/geometry_method_review_20261111/rescored/key_sensitivity.json",
+      "source_sha256": "74df812886a73eb8428c8ca1049486912e5197befc67b7f98b6776bec324acc5",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "geometry/method_review/rescored/normal_cone_sensitivity.png",
+      "sha256": "e5a152bba9ae6d0ba1a19a94961b4fda8b30f196b96cb00fc2c8d828a5fe5859",
+      "bytes": 212719,
+      "source_project_path": "outputs/geometry_method_review_20261111/rescored/normal_cone_sensitivity.png",
+      "source_sha256": "e5a152bba9ae6d0ba1a19a94961b4fda8b30f196b96cb00fc2c8d828a5fe5859",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/method_review/rescored/summarize_angles.py",
+      "sha256": "9f3a179b7bfd40fbaa55caaeb5e4c189443fd9180ab2334cb674329ed8304641",
+      "bytes": 10064,
+      "source_project_path": "outputs/geometry_method_review_20261111/rescored/summarize_angles.py",
+      "source_sha256": "89f468711a844d9d664d6ae9b6b3886801d7175a5c48f6a0f1a5981126bd5bac",
+      "public_transformation": "portable path/config adaptation"
+    },
+    {
+      "path": "geometry/screen200/fetched/coarse_summary.json",
+      "sha256": "2292d5fa78f12eb4cfb3b8fbab00962fc667fe3e5e54500728b6281fbe704ce8",
+      "bytes": 4866038,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/fetched/coarse_summary.json",
+      "source_sha256": "2292d5fa78f12eb4cfb3b8fbab00962fc667fe3e5e54500728b6281fbe704ce8",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "geometry/screen200/fetched/refine_manifest.json",
+      "sha256": "7eb5a7759e1311cd97c9c02bb2644a6992d693cadf5f1e28aa5419e410b38122",
+      "bytes": 7704,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/fetched/refine_manifest.json",
+      "source_sha256": "7eb5a7759e1311cd97c9c02bb2644a6992d693cadf5f1e28aa5419e410b38122",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/screen200/fetched/refine_summary.json",
+      "sha256": "d7d5072925d25d83cd3f9da634250b15c46235466e09324c54bbbe2911c37ce1",
+      "bytes": 1291387,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/fetched/refine_summary.json",
+      "source_sha256": "d7d5072925d25d83cd3f9da634250b15c46235466e09324c54bbbe2911c37ce1",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "geometry/screen200/fetched/selection.json",
+      "sha256": "b64d1dee4419ce413e38284c469d52247736a6cf67064a0d415cfe4089e24e39",
+      "bytes": 360179,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/fetched/selection.json",
+      "source_sha256": "b64d1dee4419ce413e38284c469d52247736a6cf67064a0d415cfe4089e24e39",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/screen200/manifest.json",
+      "sha256": "c24469cf34afc6182f72abe059d3ffa6eadaf782767ddfa5f4dcbd6c1698f84f",
+      "bytes": 52313,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/manifest.json",
+      "source_sha256": "c24469cf34afc6182f72abe059d3ffa6eadaf782767ddfa5f4dcbd6c1698f84f",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/screen200/prior/coarse_summary.json",
+      "sha256": "00dcb7d5ea8643c55764bcca048ab516d36109eb42e02b5f6e61494092a68303",
+      "bytes": 541371,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/prior/coarse_summary.json",
+      "source_sha256": "00dcb7d5ea8643c55764bcca048ab516d36109eb42e02b5f6e61494092a68303",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/screen200/prior/manifest.json",
+      "sha256": "ffac80d39c7d59f3e9b1f9ccd789e237796a8cda13e640b22f36fff9a9cb72d3",
+      "bytes": 7720,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/prior/manifest.json",
+      "source_sha256": "ffac80d39c7d59f3e9b1f9ccd789e237796a8cda13e640b22f36fff9a9cb72d3",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/screen200/prior/receipt.json",
+      "sha256": "d8baf8c67559dcbbb9b60748f931761104c8e84a37c24175027b87e9996c51f7",
+      "bytes": 299,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/prior/receipt.json",
+      "source_sha256": "4a6fcb08bc416ef9234395909e7d431b81e4a42f1057fc5dd37599b5bca04dd7",
+      "public_transformation": "retain only original input hashes"
+    },
+    {
+      "path": "geometry/screen200/prior/refine_summary.json",
+      "sha256": "b89cdd18e4fdef377b5932068e39355430ee0193b53303a81858b828a8b0d2a5",
+      "bytes": 324392,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/prior/refine_summary.json",
+      "source_sha256": "b89cdd18e4fdef377b5932068e39355430ee0193b53303a81858b828a8b0d2a5",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/screen200/ray_material.cpp",
+      "sha256": "7dbdefd7691d10451ee9ff9bfb9cf242943eef97ee5f392e73524f387982d8e3",
+      "bytes": 34819,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/ray_material.cpp",
+      "source_sha256": "7dbdefd7691d10451ee9ff9bfb9cf242943eef97ee5f392e73524f387982d8e3",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/screen200/report/g99_and_normal_cones.png",
+      "sha256": "df58d5d9c90a3db232d40b4339f990317861dc07edf07bfabe2bd0a4e0d0f697",
+      "bytes": 164674,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/report/g99_and_normal_cones.png",
+      "source_sha256": "df58d5d9c90a3db232d40b4339f990317861dc07edf07bfabe2bd0a4e0d0f697",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/screen200/report/metrics.json",
+      "sha256": "ee9d237eb3851d7b5c748adc6f203fc4f85db58a4d8f9bf9aa272c9dbb7ddb12",
+      "bytes": 675188,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/report/metrics.json",
+      "source_sha256": "ee9d237eb3851d7b5c748adc6f203fc4f85db58a4d8f9bf9aa272c9dbb7ddb12",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "geometry/screen200/resource_guard.py",
+      "sha256": "d998f8e2b890d7fbd5513f3d9f5e5f2f47d96322bd15101add0b2dd91272b43c",
+      "bytes": 7773,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/resource_guard.py",
+      "source_sha256": "36ab3f1eb9d94276e2f8e5f8aa56d2f04f48319d1db496c645181590320169e3",
+      "public_transformation": "portable path/config adaptation"
+    },
+    {
+      "path": "geometry/screen200/run_pilot.py",
+      "sha256": "ac5d5c1a84c641e28dc192714f93afc5527558a40f0618ee3b101e56bdd4ef37",
+      "bytes": 30952,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/run_pilot.py",
+      "source_sha256": "09401fddecd9a797b872f3c087b28c9bdaa6d8d1b6f313f702c33ed773614b43",
+      "public_transformation": "portable path/config adaptation"
+    },
+    {
+      "path": "geometry/screen200/select_refinement.py",
+      "sha256": "d8d29f0fe4bce13ecac2d648d1e62aa03738f941a2b7dabb30fe6cda71ea2501",
+      "bytes": 15794,
+      "source_project_path": "outputs/geometry_screen200_resume_20261111/select_refinement.py",
+      "source_sha256": "d8d29f0fe4bce13ecac2d648d1e62aa03738f941a2b7dabb30fe6cda71ea2501",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "objectives/draw_geometry_angle.py",
+      "sha256": "6c5bafeaea7823867bcffa9d5d26fee2eb1531f94fbe5b66d6e0ff2648463cbd",
+      "bytes": 3808,
+      "source_project_path": "outputs/research_objectives_20261111/draw_geometry_angle.py",
+      "source_sha256": "86d2582a6c29d9cc8c6e96c07f15b781ef1a733b0d5c516ca48da256d6bb8ec6",
+      "public_transformation": "portable path/config adaptation"
+    },
+    {
+      "path": "objectives/geometry_and_cones.pdf",
+      "sha256": "6719e8cde4d5234eef209389e5c343a952a637ad9f05480478d8a8281ae7f317",
+      "bytes": 191062,
+      "source_project_path": "outputs/research_objectives_20261111/geometry_and_cones.pdf",
+      "source_sha256": "6719e8cde4d5234eef209389e5c343a952a637ad9f05480478d8a8281ae7f317",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "objectives/geometry_and_cones.png",
+      "sha256": "40afd02c29e4d3d09ec2c33f27c8566bf8082cf421b95ee40adabd72f84580b7",
+      "bytes": 227287,
+      "source_project_path": "outputs/research_objectives_20261111/geometry_and_cones.png",
+      "source_sha256": "40afd02c29e4d3d09ec2c33f27c8566bf8082cf421b95ee40adabd72f84580b7",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "objectives/specification.json",
+      "sha256": "3ceac9aece2eb8076bfa39241afbc7b9ff7a6c1a3a6b688d5b720d549bd78849",
+      "bytes": 6333,
+      "source_project_path": "outputs/research_objectives_20261111/specification.json",
+      "source_sha256": "3ceac9aece2eb8076bfa39241afbc7b9ff7a6c1a3a6b688d5b720d549bd78849",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/WFT3_preregistered_predictions.json",
+      "sha256": "9af7ffc9530b7b30d000286cc871598ebaedb588e6598eb868f0c125406b0c55",
+      "bytes": 4946,
+      "source_project_path": "outputs/ml_readiness_20261110/WFT3_preregistered_predictions.json",
+      "source_sha256": "9af7ffc9530b7b30d000286cc871598ebaedb588e6598eb868f0c125406b0c55",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/WFT3_preregistered_predictions.sha256",
+      "sha256": "cd1fa3ec9457bee03e926e83b9d5eb2bea6d44ad5d4913fe3172c9ba621ba8df",
+      "bytes": 102,
+      "source_project_path": "outputs/ml_readiness_20261110/WFT3_preregistered_predictions.sha256",
+      "source_sha256": "cd1fa3ec9457bee03e926e83b9d5eb2bea6d44ad5d4913fe3172c9ba621ba8df",
+      "public_transformation": "relative path for portable sha256 verification"
+    },
+    {
+      "path": "surrogate/checks.json",
+      "sha256": "6ffd30f98c1e48e5e0455b2e39d0b703ed2a72120af260c8fc39f26b29a42621",
+      "bytes": 358,
+      "source_project_path": "outputs/ml_readiness_20261110/checks.json",
+      "source_sha256": "6ffd30f98c1e48e5e0455b2e39d0b703ed2a72120af260c8fc39f26b29a42621",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/dataset.json",
+      "sha256": "f41de1470ea3603f6ff1e86f2f9df532e597df7b5b2adadd2c941a25a06280c6",
+      "bytes": 297996,
+      "source_project_path": "outputs/ml_readiness_20261110/dataset.json",
+      "source_sha256": "c260bb3c5eb412f0bfebcdee96d3761b5fd94c4b87f55320db57398cc8a420b5",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "surrogate/evaluate.py",
+      "sha256": "f95e64fce3863b9aba373129bf55c9e55247feb4479ae10b1b35cf63082e826d",
+      "bytes": 7357,
+      "source_project_path": "outputs/ml_readiness_20261110/evaluate.py",
+      "source_sha256": "f95e64fce3863b9aba373129bf55c9e55247feb4479ae10b1b35cf63082e826d",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/example_prediction.json",
+      "sha256": "0fe70c6c9be0c6fd27147fa3ed05fa5319763e590b8d2288334bfe96b85bb0d6",
+      "bytes": 1336,
+      "source_project_path": "outputs/ml_readiness_20261110/example_prediction.json",
+      "source_sha256": "0fe70c6c9be0c6fd27147fa3ed05fa5319763e590b8d2288334bfe96b85bb0d6",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/heldout_predictions.json",
+      "sha256": "839a3495379f617e536230beb7c838713d69a93f20f96cfc6ced2659d14d0a97",
+      "bytes": 587539,
+      "source_project_path": "outputs/ml_readiness_20261110/heldout_predictions.json",
+      "source_sha256": "f511fe440ea23b31008968586189efeb0790010a6e3a41c9af1563d0854158cd",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "surrogate/inputs/dataset.json",
+      "sha256": "6004b446247750c6ec5391d7385b3e36e72f0b34fa17402ad2b41ab2c7c8dcc3",
+      "bytes": 702460,
+      "source_project_path": "outputs/ml_readiness_20261110/inputs/dataset.json",
+      "source_sha256": "760d594ef4e95fed9066d01ad2396b488db1cba164f2fa04c3e1d2c90374f16c",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "surrogate/inputs/first_repaired_scalar_summary.json",
+      "sha256": "70232f9f06a08a68b972202dbb219ee3fdde4d6d08e6d776448cdb429503ee94",
+      "bytes": 8348,
+      "source_project_path": "outputs/ml_readiness_20261110/inputs/first_repaired_scalar_summary.json",
+      "source_sha256": "70232f9f06a08a68b972202dbb219ee3fdde4d6d08e6d776448cdb429503ee94",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/inputs/ray_vs_fem.csv",
+      "sha256": "662974d67ba9e00d3328ed0fb4f58ae8ea3fafe834b4f238fc42014eb7d8809e",
+      "bytes": 49333,
+      "source_project_path": "outputs/ml_readiness_20261110/inputs/ray_vs_fem.csv",
+      "source_sha256": "662974d67ba9e00d3328ed0fb4f58ae8ea3fafe834b4f238fc42014eb7d8809e",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/inputs/second_repaired_scalar_summary.json",
+      "sha256": "2cbce8dbf7116ede55b9158e1a396be3ef40da6f20b4da0f9fa6845c855529c6",
+      "bytes": 3463,
+      "source_project_path": "outputs/ml_readiness_20261110/inputs/second_repaired_scalar_summary.json",
+      "source_sha256": "2cbce8dbf7116ede55b9158e1a396be3ef40da6f20b4da0f9fa6845c855529c6",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/manifest.json",
+      "sha256": "19e3a1f82a4b2fe1d37d01a0c602b3408ca56dc41aa77fdfa5981976f4e28afd",
+      "bytes": 2940,
+      "source_project_path": "outputs/ml_readiness_20261110/manifest.json",
+      "source_sha256": "6c8b70b664882aced45838e1707cc5dcb726f50c991857876eabb4a0b1fba62b",
+      "public_transformation": "portable JSON; machine-local paths excluded; scientific values retained"
+    },
+    {
+      "path": "surrogate/metrics.json",
+      "sha256": "5fbd41617060dd0e230b85b193e7befb43fd39244f76f7f94e6e314b873ed516",
+      "bytes": 11997,
+      "source_project_path": "outputs/ml_readiness_20261110/metrics.json",
+      "source_sha256": "5fbd41617060dd0e230b85b193e7befb43fd39244f76f7f94e6e314b873ed516",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/metrics_by_design.json",
+      "sha256": "d2e1c1fdea92b1fb4491493a0fc8021e9b1c6fae98cd091d912ca45e482db98f",
+      "bytes": 75017,
+      "source_project_path": "outputs/ml_readiness_20261110/metrics_by_design.json",
+      "source_sha256": "d2e1c1fdea92b1fb4491493a0fc8021e9b1c6fae98cd091d912ca45e482db98f",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/new_design_challenge.json",
+      "sha256": "2d1cc65ee43989eb4091ca074c93cb92a95576027bc0f788fedc3304dd314ffd",
+      "bytes": 64274,
+      "source_project_path": "outputs/ml_readiness_20261110/new_design_challenge.json",
+      "source_sha256": "2d1cc65ee43989eb4091ca074c93cb92a95576027bc0f788fedc3304dd314ffd",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/predict.py",
+      "sha256": "43c2f36f56cc0bfb15838bb215c1b5e3d9808eb4b1a2970323f1d8959b56a586",
+      "bytes": 4711,
+      "source_project_path": "outputs/ml_readiness_20261110/predict.py",
+      "source_sha256": "43c2f36f56cc0bfb15838bb215c1b5e3d9808eb4b1a2970323f1d8959b56a586",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/ray_engine/inputs/SiO2_Kischkat.yml",
+      "sha256": "5340a3c4b2474ac31432d3841283058f11841c3f9f96fd5a6602ee53d9d33ba7",
+      "bytes": 47575,
+      "source_project_path": "outputs/ml_readiness_20261110/ray_engine/inputs/SiO2_Kischkat.yml",
+      "source_sha256": "5340a3c4b2474ac31432d3841283058f11841c3f9f96fd5a6602ee53d9d33ba7",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/ray_engine/inputs/Ti_Ordal_material.json",
+      "sha256": "7ac6403847111feeea9360198b9d9133aec561c55c8d6c5a98d9e8abab225866",
+      "bytes": 6593,
+      "source_project_path": "outputs/ml_readiness_20261110/ray_engine/inputs/Ti_Ordal_material.json",
+      "source_sha256": "7ac6403847111feeea9360198b9d9133aec561c55c8d6c5a98d9e8abab225866",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/ray_engine/materials.py",
+      "sha256": "4ec853bc8a9b3ece82859f2d11faf89f336f2ff660ffe2d2c99456cc5428ba36",
+      "bytes": 3242,
+      "source_project_path": "outputs/ml_readiness_20261110/ray_engine/materials.py",
+      "source_sha256": "4ec853bc8a9b3ece82859f2d11faf89f336f2ff660ffe2d2c99456cc5428ba36",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/ray_engine/ray_material.cpp",
+      "sha256": "7dbdefd7691d10451ee9ff9bfb9cf242943eef97ee5f392e73524f387982d8e3",
+      "bytes": 34819,
+      "source_project_path": "outputs/ml_readiness_20261110/ray_engine/ray_material.cpp",
+      "source_sha256": "7dbdefd7691d10451ee9ff9bfb9cf242943eef97ee5f392e73524f387982d8e3",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/ray_engine/raylib.py",
+      "sha256": "c87121dbd906997f5c632c85a9c5597b54c374d98fa3da58e875254698e7de85",
+      "bytes": 3899,
+      "source_project_path": "outputs/ml_readiness_20261110/ray_engine/raylib.py",
+      "source_sha256": "c87121dbd906997f5c632c85a9c5597b54c374d98fa3da58e875254698e7de85",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/requirements.txt",
+      "sha256": "e488a5457e5f218daa851d088873bfa473b6b631a5ccf979d93073335e0232b7",
+      "bytes": 80,
+      "source_project_path": "outputs/ml_readiness_20261110/requirements.lock.txt",
+      "source_sha256": "7b2f7bce7f6d2dcd9a5870f358ed717fbd1e771eb075d361d678008efa71dbff",
+      "public_transformation": "canonical PyPI dependency name"
+    },
+    {
+      "path": "surrogate/support_stratified_metrics.json",
+      "sha256": "1b2e10f9b803510fd8676776c2e77d1bd2596fd298ab8399f72501b1a5ea5b7c",
+      "bytes": 8568,
+      "source_project_path": "outputs/ml_readiness_20261110/support_stratified_metrics.json",
+      "source_sha256": "1b2e10f9b803510fd8676776c2e77d1bd2596fd298ab8399f72501b1a5ea5b7c",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/surrogate.py",
+      "sha256": "ee4c5fc2ea0fddc0d7b1e5d7eb754e0d24018ca248db98db96369beb4b86d007",
+      "bytes": 3651,
+      "source_project_path": "outputs/ml_readiness_20261110/surrogate.py",
+      "source_sha256": "ee4c5fc2ea0fddc0d7b1e5d7eb754e0d24018ca248db98db96369beb4b86d007",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/surrogate_validation.png",
+      "sha256": "f30b60c6e3c6b952dd6a648dbd65ed2ee808dcecfc1ab248ef3588bd206b1eb8",
+      "bytes": 228788,
+      "source_project_path": "outputs/ml_readiness_20261110/surrogate_validation.png",
+      "source_sha256": "f30b60c6e3c6b952dd6a648dbd65ed2ee808dcecfc1ab248ef3588bd206b1eb8",
+      "public_transformation": "exact"
+    },
+    {
+      "path": "surrogate/train.py",
+      "sha256": "07529ded2e40786b91752b74c4d1d547c5dfbf12dd4dac6d3169b934d1a5d7da",
+      "bytes": 7002,
+      "source_project_path": "outputs/ml_readiness_20261110/train.py",
+      "source_sha256": "69f8b07ee5025a12c84fab9c9f7d6244738a40f24a8673018f90f71c6c610bc1",
+      "public_transformation": "portable path/config adaptation"
+    }
+  ]
+}

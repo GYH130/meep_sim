@@ -1,0 +1,14 @@
+{
+  "state": "LOCAL_SOURCE_REVIEW_PENDING_NATIVE_COMPILE_AND_MESH",
+  "parent_core_sha256": "aa4ff614f81f8d59d0f40487d523b8182cb0553925fe3bcd17e34c7d46b33d0f",
+  "new_core_sha256": "71b68c6565110aa63403f1db1302fef8e9db6e4e57efa553883da83542ada1a3",
+  "protected_method_sha256": {
+    "internalElectricPowerFit": "e183dcc54ecadd2577057ebdeae8737492be77a5ba278aab6b196f3cddb573ff",
+    "requestedIncidentK": "8f78f9897793d0e2a80aea5bf7fbc17d1ca0a955bcc0f3dc4ed689387d12b00f",
+    "tangentialPlanePower": "c9258ea0a0f40670d09709bd7e356bb30205d0a2b7342ad690d230f266edd250",
+    "exactOutOfCore": "1679a22e501be26306253cd3704b2d219e50a8a464537b4c682d506bb7f9b4cf"
+  },
+  "unchanged_source_power_helpers": true,
+  "reference_ray_manifest_sha256": "04948af8ec5d238879094966128c737a0a8aae2f75f85f5d122f2f1df1757249",
+  "geometry_scope": "G99 matched straight and 8-facet wall, P80, 3um explicit bottom-fill; 10.5um normal s only."
+}

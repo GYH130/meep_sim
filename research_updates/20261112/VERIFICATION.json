@@ -1,0 +1,26 @@
+{
+  "manifest_sha256_checks": "pass",
+  "python_sources_parse": "pass",
+  "geometry_manifests_validated": 3,
+  "angular_dense_replay": {
+    "coarse_shapes": 20,
+    "refined_shapes": 6,
+    "metrics_identical_excluding_path_metadata": true
+  },
+  "screen200_selection_replay": {
+    "shapes": 24,
+    "conditions": 20760,
+    "refine_manifest_sha256": "7eb5a7759e1311cd97c9c02bb2644a6992d693cadf5f1e28aa5419e410b38122"
+  },
+  "family_pilot_replay": {
+    "cases": 72,
+    "max_numeric_absolute_difference": 1.3322676295501878e-15
+  },
+  "surrogate_retraining": {
+    "metrics_identical": true,
+    "heldout_predictions_identical": true,
+    "support_stratified_metrics_identical": true
+  },
+  "wft3_original_preregistered_predictions_sha256": "pass",
+  "g99_scope": "Original source hashes were checked. Public templates were not compiled or solved on a new host."
+}

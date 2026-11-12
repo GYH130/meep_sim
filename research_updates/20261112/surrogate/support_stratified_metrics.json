@@ -1,0 +1,313 @@
+{
+  "note": "All points retained in global metrics. Range support concerns heldout fold wavelength only; joint spatial/angular coverage remains limited.",
+  "metrics": [
+    {
+      "n": 74,
+      "n_designs": 8,
+      "MAE_pp": 9.43049683716945,
+      "RMSE_pp": 10.774042669960988,
+      "max_abs_error_pp": 20.050000658312587,
+      "bias_pp": 0.6485239215303433,
+      "R2": -0.0665622233147487,
+      "method": "mean",
+      "stratum": "all"
+    },
+    {
+      "n": 52,
+      "n_designs": 8,
+      "MAE_pp": 8.152544195192526,
+      "RMSE_pp": 9.361701748720886,
+      "max_abs_error_pp": 15.579749865070863,
+      "bias_pp": 3.5096538067933363,
+      "R2": -0.2543283544411472,
+      "method": "mean",
+      "stratum": "lambda_10p5"
+    },
+    {
+      "n": 73,
+      "n_designs": 8,
+      "MAE_pp": 9.334657319056646,
+      "RMSE_pp": 10.675846832357326,
+      "max_abs_error_pp": 20.050000658312587,
+      "bias_pp": 0.8824322171595801,
+      "R2": -0.07881533830211263,
+      "method": "mean",
+      "stratum": "wavelength_in_train_range"
+    },
+    {
+      "n": 1,
+      "n_designs": 1,
+      "MAE_pp": 16.42678165940394,
+      "RMSE_pp": 16.42678165940394,
+      "max_abs_error_pp": 16.42678165940394,
+      "bias_pp": -16.42678165940394,
+      "R2": null,
+      "method": "mean",
+      "stratum": "wavelength_outside_train_range"
+    },
+    {
+      "n": 74,
+      "n_designs": 8,
+      "MAE_pp": 5.6460472377105715,
+      "RMSE_pp": 6.847064040124337,
+      "max_abs_error_pp": 19.089638885696907,
+      "bias_pp": -0.2128277080557214,
+      "R2": 0.5692377919024769,
+      "method": "ridge",
+      "stratum": "all"
+    },
+    {
+      "n": 52,
+      "n_designs": 8,
+      "MAE_pp": 4.449064125002588,
+      "RMSE_pp": 5.413217734862127,
+      "max_abs_error_pp": 14.378943515350565,
+      "bias_pp": 0.43959687749240034,
+      "R2": 0.5806152543377798,
+      "method": "ridge",
+      "stratum": "lambda_10p5"
+    },
+    {
+      "n": 73,
+      "n_designs": 8,
+      "MAE_pp": 5.461888448012128,
+      "RMSE_pp": 6.521697032027291,
+      "max_abs_error_pp": 14.54502096384179,
+      "bias_pp": 0.045758746432514055,
+      "R2": 0.5974093511019214,
+      "method": "ridge",
+      "stratum": "wavelength_in_train_range"
+    },
+    {
+      "n": 1,
+      "n_designs": 1,
+      "MAE_pp": 19.089638885696907,
+      "RMSE_pp": 19.089638885696907,
+      "max_abs_error_pp": 19.089638885696907,
+      "bias_pp": -19.089638885696907,
+      "R2": null,
+      "method": "ridge",
+      "stratum": "wavelength_outside_train_range"
+    },
+    {
+      "n": 74,
+      "n_designs": 8,
+      "MAE_pp": 2.42538885457209,
+      "RMSE_pp": 3.7253305249700768,
+      "max_abs_error_pp": 20.262587259143565,
+      "bias_pp": -0.5484264739647833,
+      "R2": 0.872485833385239,
+      "method": "gp",
+      "stratum": "all"
+    },
+    {
+      "n": 52,
+      "n_designs": 8,
+      "MAE_pp": 2.122236906424071,
+      "RMSE_pp": 2.9471265668670776,
+      "max_abs_error_pp": 9.299399559875576,
+      "bias_pp": -0.5397602485405243,
+      "R2": 0.875691961798388,
+      "method": "gp",
+      "stratum": "lambda_10p5"
+    },
+    {
+      "n": 73,
+      "n_designs": 8,
+      "MAE_pp": 2.181043670947823,
+      "RMSE_pp": 2.9058420939333134,
+      "max_abs_error_pp": 9.299399559875576,
+      "bias_pp": -0.2783694769075397,
+      "R2": 0.9200742969326849,
+      "method": "gp",
+      "stratum": "wavelength_in_train_range"
+    },
+    {
+      "n": 1,
+      "n_designs": 1,
+      "MAE_pp": 20.262587259143565,
+      "RMSE_pp": 20.262587259143565,
+      "max_abs_error_pp": 20.262587259143565,
+      "bias_pp": -20.262587259143565,
+      "R2": null,
+      "method": "gp",
+      "stratum": "wavelength_outside_train_range"
+    },
+    {
+      "n": 74,
+      "n_designs": 8,
+      "MAE_pp": 3.364176933208763,
+      "RMSE_pp": 4.82458664672523,
+      "max_abs_error_pp": 14.050549091668174,
+      "bias_pp": -2.5223339831500073,
+      "R2": 0.7861304105084416,
+      "method": "ray",
+      "stratum": "all"
+    },
+    {
+      "n": 52,
+      "n_designs": 8,
+      "MAE_pp": 2.3446122545707913,
+      "RMSE_pp": 2.9919876100514804,
+      "max_abs_error_pp": 7.746827736770562,
+      "bias_pp": -1.9151328426316085,
+      "R2": 0.8718787346127377,
+      "method": "ray",
+      "stratum": "lambda_10p5"
+    },
+    {
+      "n": 73,
+      "n_designs": 8,
+      "MAE_pp": 3.240173891741602,
+      "RMSE_pp": 4.635042409299815,
+      "max_abs_error_pp": 14.050549091668174,
+      "bias_pp": -2.3867988464765624,
+      "R2": 0.796647335034088,
+      "method": "ray",
+      "stratum": "wavelength_in_train_range"
+    },
+    {
+      "n": 1,
+      "n_designs": 1,
+      "MAE_pp": 12.416398960311476,
+      "RMSE_pp": 12.416398960311476,
+      "max_abs_error_pp": 12.416398960311476,
+      "bias_pp": -12.416398960311476,
+      "R2": null,
+      "method": "ray",
+      "stratum": "wavelength_outside_train_range"
+    },
+    {
+      "n": 74,
+      "n_designs": 8,
+      "MAE_pp": 2.845475027860111,
+      "RMSE_pp": 4.223381013646417,
+      "max_abs_error_pp": 13.510924592397123,
+      "bias_pp": -0.09975141771797202,
+      "R2": 0.8361111751092252,
+      "method": "ray_mean_residual",
+      "stratum": "all"
+    },
+    {
+      "n": 52,
+      "n_designs": 8,
+      "MAE_pp": 1.857890632013754,
+      "RMSE_pp": 2.3666048237847006,
+      "max_abs_error_pp": 5.435808140504649,
+      "bias_pp": 0.5153921550215523,
+      "R2": 0.9198408453418,
+      "method": "ray_mean_residual",
+      "stratum": "lambda_10p5"
+    },
+    {
+      "n": 73,
+      "n_designs": 8,
+      "MAE_pp": 2.7460242835288033,
+      "RMSE_pp": 4.084409716920876,
+      "max_abs_error_pp": 13.510924592397123,
+      "bias_pp": 0.037311978807063405,
+      "R2": 0.8420931226361359,
+      "method": "ray_mean_residual",
+      "stratum": "wavelength_in_train_range"
+    },
+    {
+      "n": 1,
+      "n_designs": 1,
+      "MAE_pp": 10.105379364045564,
+      "RMSE_pp": 10.105379364045564,
+      "max_abs_error_pp": 10.105379364045564,
+      "bias_pp": -10.105379364045564,
+      "R2": null,
+      "method": "ray_mean_residual",
+      "stratum": "wavelength_outside_train_range"
+    },
+    {
+      "n": 74,
+      "n_designs": 8,
+      "MAE_pp": 3.6968323372200116,
+      "RMSE_pp": 4.743543236242577,
+      "max_abs_error_pp": 13.99657326056753,
+      "bias_pp": 0.2995940258453767,
+      "R2": 0.7932552254031306,
+      "method": "ray_ridge_residual",
+      "stratum": "all"
+    },
+    {
+      "n": 52,
+      "n_designs": 8,
+      "MAE_pp": 2.7548848414527227,
+      "RMSE_pp": 3.4280227083603023,
+      "max_abs_error_pp": 7.782302164578578,
+      "bias_pp": 0.7608533670456225,
+      "R2": 0.8318143189705358,
+      "method": "ray_ridge_residual",
+      "stratum": "lambda_10p5"
+    },
+    {
+      "n": 73,
+      "n_designs": 8,
+      "MAE_pp": 3.6374229947941012,
+      "RMSE_pp": 4.682448156824194,
+      "max_abs_error_pp": 13.99657326056753,
+      "bias_pp": 0.4137489348886211,
+      "R2": 0.7924664097658524,
+      "method": "ray_ridge_residual",
+      "stratum": "wavelength_in_train_range"
+    },
+    {
+      "n": 1,
+      "n_designs": 1,
+      "MAE_pp": 8.033714334311465,
+      "RMSE_pp": 8.033714334311465,
+      "max_abs_error_pp": 8.033714334311465,
+      "bias_pp": -8.033714334311465,
+      "R2": null,
+      "method": "ray_ridge_residual",
+      "stratum": "wavelength_outside_train_range"
+    },
+    {
+      "n": 74,
+      "n_designs": 8,
+      "MAE_pp": 2.682461474353134,
+      "RMSE_pp": 4.173910333803321,
+      "max_abs_error_pp": 13.510924592397123,
+      "bias_pp": 0.026991595496255204,
+      "R2": 0.8399281202227356,
+      "method": "ray_gp_residual",
+      "stratum": "all"
+    },
+    {
+      "n": 52,
+      "n_designs": 8,
+      "MAE_pp": 1.4647417913160665,
+      "RMSE_pp": 1.9416164417956263,
+      "max_abs_error_pp": 4.614799738725433,
+      "bias_pp": 0.245966986867575,
+      "R2": 0.9460453947104338,
+      "method": "ray_gp_residual",
+      "stratum": "lambda_10p5"
+    },
+    {
+      "n": 73,
+      "n_designs": 8,
+      "MAE_pp": 2.5561334821048374,
+      "RMSE_pp": 3.9647041674737578,
+      "max_abs_error_pp": 13.510924592397123,
+      "bias_pp": 0.1904353832219413,
+      "R2": 0.851213331839084,
+      "method": "ray_gp_residual",
+      "stratum": "wavelength_in_train_range"
+    },
+    {
+      "n": 1,
+      "n_designs": 1,
+      "MAE_pp": 11.904404908478828,
+      "RMSE_pp": 11.904404908478828,
+      "max_abs_error_pp": 11.904404908478828,
+      "bias_pp": -11.904404908478828,
+      "R2": null,
+      "method": "ray_gp_residual",
+      "stratum": "wavelength_outside_train_range"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "original_launch_manifest_sha256": "0bad72d82cc9efe574ec61e14b36df952e92c0fdc5a9ad661a113a55249f4422",
+  "original_frozen_source_hashes": {
+    "CavityFloorFilm.java": "71b68c6565110aa63403f1db1302fef8e9db6e4e57efa553883da83542ada1a3",
+    "FlatObliqueAdmission.java": "3a1e9f09b49068899ae72f3696106879c397a6329979034f681327fa77645f59",
+    "material.json": "ec49aedbd1cfbc6a08ff775d04fbc25cf87ae902a918f747d057e370b1f2473a",
+    "plan.json": "220748479dfc995d7efe70543acb3a433695b4ac9c3f6f37b812b4a54c38a14f",
+    "warn_fixture_metrics.json": "bbeeb4f1ce08153920cf5cf43ada9e54919c7da3c8952ee5ce5ddc4065bf855a",
+    "source_lineage_audit.json": "aa19bf0d9874554923bcc8cdb56cfdaeb846d2a39e6383bdf9abf4b1a2d51196",
+    "run_floorfilm_controller.ps1": "57999cd3e486883565059d2badc66c09511f8ef84b6109a3b576eeb7505f9b47",
+    "run_flat_controls.ps1": "741d2cca5c79dc12898148a348c7a2911de28e922af75b91a93ed21b0309cee6",
+    "run_angular_queue.ps1": "f89a46c07343f610614526e4a2a82854d9fdc67df1ee2567b5898ddeedb93b4d",
+    "queue_review_helpers.ps1": "3a6a4c43a66676f1ef5caae49455229a04d970173d64323fae19bcfd430a7706",
+    "build_release.py": "4f0088b2c0c72f16f49b3752887361e2d430e8016017eb724f17d713412c6ce4"
+  },
+  "template_sha256_scope": "See release manifest. Template bytes differ where host-specific paths were substituted. Rebind all changed input hashes before new-host execution."
+}

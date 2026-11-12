@@ -1,0 +1,74 @@
+{
+  "created_utc": "2026-11-10T03:18:52.486419+00:00",
+  "training_data_as_of": "2026-11-04",
+  "prospective_widthfill_as_of": "2026-11-05",
+  "python": "[local path withheld]",
+  "versions": {
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.0",
+    "joblib": "1.5.3"
+  },
+  "elapsed_s": 0.9791382089897525,
+  "max_rss_bytes": 181895168,
+  "legacy_rows": 88,
+  "independent_training_designs": 8,
+  "new_heldout_designs": 2,
+  "models_saved": 33,
+  "primary_rows": 74,
+  "method_checked_rows": 37,
+  "failure_sensitivity_rows": 14,
+  "source_files": [
+    {
+      "path": "outputs/ml_surrogate_pilot_20261102_update_20261104/dataset.json",
+      "sha256": "760d594ef4e95fed9066d01ad2396b488db1cba164f2fa04c3e1d2c90374f16c"
+    },
+    {
+      "path": "external_source/ray_fem_check/ray_vs_fem.csv",
+      "sha256": "662974d67ba9e00d3328ed0fb4f58ae8ea3fafe834b4f238fc42014eb7d8809e"
+    },
+    {
+      "path": "outputs/widthfill3_r1_20261104/first_repaired_scalar_summary.json",
+      "sha256": "70232f9f06a08a68b972202dbb219ee3fdde4d6d08e6d776448cdb429503ee94"
+    },
+    {
+      "path": "outputs/widthfill3_r1_20261104/second_repaired_scalar_summary.json",
+      "sha256": "2cbce8dbf7116ede55b9158e1a396be3ef40da6f20b4da0f9fa6845c855529c6"
+    },
+    {
+      "path": "external_source/ray_fem_check/ray_material",
+      "sha256": "1fb3dc1f262f1dc3e2d641b4e2a27c505ba12f3fc2022588d357c5b74d3798ba"
+    },
+    {
+      "path": "external_source/ray_fem_check/ray_material.cpp",
+      "sha256": "7dbdefd7691d10451ee9ff9bfb9cf242943eef97ee5f392e73524f387982d8e3"
+    },
+    {
+      "path": "external_source/ray_fem_check/raylib.py",
+      "sha256": "c87121dbd906997f5c632c85a9c5597b54c374d98fa3da58e875254698e7de85"
+    },
+    {
+      "path": "external_source/ray_fem_check/materials.py",
+      "sha256": "4ec853bc8a9b3ece82859f2d11faf89f336f2ff660ffe2d2c99456cc5428ba36"
+    },
+    {
+      "path": "external_source/ray_fem_check/inputs/Ti_Ordal_material.json",
+      "sha256": "7ac6403847111feeea9360198b9d9133aec561c55c8d6c5a98d9e8abab225866"
+    },
+    {
+      "path": "external_source/ray_fem_check/inputs/SiO2_Kischkat.yml",
+      "sha256": "5340a3c4b2474ac31432d3841283058f11841c3f9f96fd5a6602ee53d9d33ba7"
+    }
+  ],
+  "validation": "Leave entire H/b/t design out across all wavelengths/angles/polarizations. All scalers fit within training fold.",
+  "limitations": [
+    "Only eight original designs; b constant at 15um in training.",
+    "Primary includes explicitly unreviewed exploratory labels; sensitivity excludes/reincludes method failures separately.",
+    "No full 8-13um spectrum/cone target; predictions are point directional absorptivity.",
+    "Cross-validation is developmental, not an independent prospective performance guarantee.",
+    "GP uncertainty not calibrated; ray model neglects diffraction and whole-cavity coherence."
+  ],
+  "server_used": false,
+  "new_FEM_solves": 0
+}

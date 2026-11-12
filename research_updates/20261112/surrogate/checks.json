@@ -1,0 +1,10 @@
+{
+  "all_training_groups_disjoint_from_test": true,
+  "novel_bottom_width_rejected_without_override": true,
+  "novel_thickness_rejected_without_override": true,
+  "WFT1_WFT2_never_used_for_training": true,
+  "prediction_command_executed": true,
+  "quality_flags_retained": true,
+  "unchanged_original_thresholds": true,
+  "no_new_FEM_or_server_jobs": true
+}

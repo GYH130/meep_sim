@@ -1,0 +1,115 @@
+{
+  "utc": "2026-11-05T04:37:27.6500732Z",
+  "saved_files": [
+    {
+      "Name": "metrics.json",
+      "Length": 1372180,
+      "LastWriteTimeUtc": "/Date(1793846243701)/"
+    },
+    {
+      "Name": "model.mph",
+      "Length": 313484407,
+      "LastWriteTimeUtc": "/Date(1793846227865)/"
+    },
+    {
+      "Name": "repaired_assessment.json",
+      "Length": 1173372,
+      "LastWriteTimeUtc": "/Date(1793846988642)/"
+    }
+  ],
+  "assessment_state": "REPAIRED_POWER_REVIEW_REQUIRED_PRESERVE_ORIGINALS",
+  "accepted_by_repaired_power": false,
+  "original_source_checks_passed": true,
+  "hard_checks_passed": true,
+  "shells": [
+    {
+      "cutoff_k0": 1.1,
+      "field_prediction_checks_passed": false,
+      "max_LOO_heldout_relative_L2_E_residual": 0.005078099736674558,
+      "source_Pin_and_LOO_check_passed": true,
+      "measurements": [
+        {
+          "method": "measured_E_fitted_H",
+          "all_five_A": [
+            0.5289578188857273,
+            0.5285179185545253,
+            0.5291759004678291,
+            0.5283099312117722,
+            0.5297103617325458
+          ],
+          "A_minmax": [
+            0.5283099312117722,
+            0.5297103617325458
+          ],
+          "max_absolute_closure_error": 0.0022811026584691474,
+          "max_relative_closure_error": 0.004317735714785893,
+          "all_five_preserved_closure_gates_passed": true
+        },
+        {
+          "method": "LOO_measured_E_predicted_H",
+          "all_five_A": [
+            0.5289509847360649,
+            0.5285516445504067,
+            0.5291759004678289,
+            0.5283407829898968,
+            0.5296663129239764
+          ],
+          "A_minmax": [
+            0.5283407829898968,
+            0.5296663129239764
+          ],
+          "max_absolute_closure_error": 0.002250250880344473,
+          "max_relative_closure_error": 0.00425908987682199,
+          "all_five_preserved_closure_gates_passed": true
+        }
+      ]
+    },
+    {
+      "cutoff_k0": 1.2,
+      "field_prediction_checks_passed": false,
+      "max_LOO_heldout_relative_L2_E_residual": 0.005302171427684419,
+      "source_Pin_and_LOO_check_passed": true,
+      "measurements": [
+        {
+          "method": "measured_E_fitted_H",
+          "all_five_A": [
+            0.5289590685708653,
+            0.5285171513008121,
+            0.5291744761482423,
+            0.5283109677054961,
+            0.5297100574714161
+          ],
+          "A_minmax": [
+            0.5283109677054961,
+            0.5297100574714161
+          ],
+          "max_absolute_closure_error": 0.002280066164745187,
+          "max_relative_closure_error": 0.004315765342990563,
+          "all_five_preserved_closure_gates_passed": true
+        },
+        {
+          "method": "LOO_measured_E_predicted_H",
+          "all_five_A": [
+            0.5289559717465006,
+            0.5285506665683667,
+            0.5291744761482421,
+            0.5283414695373488,
+            0.5296669333115256
+          ],
+          "A_minmax": [
+            0.5283414695373488,
+            0.5296669333115256
+          ],
+          "max_absolute_closure_error": 0.002249564332892473,
+          "max_relative_closure_error": 0.004257784903506329,
+          "all_five_preserved_closure_gates_passed": true
+        }
+      ]
+    }
+  ],
+  "truncation": {
+    "new_sensitivity_gate_not_old_closure_gate": 0.0002,
+    "max_all_plane_and_LOO_cutoff12_minus11_A_abs": 4.987010435608674e-06,
+    "passed": true
+  }
+}
