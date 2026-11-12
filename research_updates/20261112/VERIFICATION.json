@@ -22,5 +22,12 @@
     "support_stratified_metrics_identical": true
   },
   "wft3_original_preregistered_predictions_sha256": "pass",
-  "g99_scope": "Original source hashes were checked. Public templates were not compiled or solved on a new host."
+  "g99_scope": "Original source hashes were checked. Public templates were not compiled or solved on a new host.",
+  "portability_documentation_revision": {
+    "date": "2026-11-12",
+    "scope": "README-only lightweight continuation clarification; scientific data and executable source bytes unchanged",
+    "full_server_backup_required": false,
+    "new_host_COMSOL_compilation_and_solve_verified": false,
+    "G99_deployment_manifest_requires_rebinding": true
+  }
 }

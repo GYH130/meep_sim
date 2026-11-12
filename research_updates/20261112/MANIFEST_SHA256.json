@@ -4,13 +4,13 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "002dff7fb3f913d71e6a4ac1f4a273519ba00e2c256b4ecfd863283e5251558a",
-      "bytes": 4839
+      "sha256": "b7136ce3817c656ce3008fc982857b1db5a1fb2b5c8e040c4d1b73a8b7e9f874",
+      "bytes": 6693
     },
     {
       "path": "VERIFICATION.json",
-      "sha256": "9b1903be3183bfb2add86c1d999a18da705ce40790e653aa9b8b76de2b8686d3",
-      "bytes": 868
+      "sha256": "2df8d1e6d9fa9b6b67016c6dd2091ace2f28e5c4599ac1674b2af0d1cb5ffcf0",
+      "bytes": 1221
     },
     {
       "path": "fem/WFT3_scalar_result.json",
@@ -43,8 +43,8 @@
     },
     {
       "path": "fem/g99/README.md",
-      "sha256": "c068897a9a5d7d7ea328ae0c89590b1d4d681999b0c9e1451b914223fe2189f6",
-      "bytes": 1667
+      "sha256": "512a4a90619980e2edbfa41f77e6fb467b23556c533040271b824b1750a7f5ec",
+      "bytes": 2784
     },
     {
       "path": "fem/g99/launch_manifest.json",
